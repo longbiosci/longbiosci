@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NMN/NAD+ - LongBiosci Clinical Trials</title>
+    <link rel="icon" href="/logo.jpg">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.6; color: #e0e0e0; background: #0a0a0a; min-height: 100vh; }
+        a { color: #00A86B; text-decoration: none; }
+        header { background: linear-gradient(135deg, #0a1628, #1a3a2f); color: white; padding: 3rem 2rem; text-align: center; }
+        header h1 { background: linear-gradient(135deg, #fff, #00A86B); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        nav { background: rgba(10,22,40,0.95); padding: 1rem; text-align: center; position: sticky; top: 0; z-index: 100; }
+        nav a { color: #a0dcd0; margin: 0 1rem; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 2rem; }
+        .trials-table { width: 100%; border-collapse: collapse; background: rgba(26,58,47,0.4); border-radius: 12px; overflow: hidden; }
+        .trials-table th, .trials-table td { padding: 1rem; text-align: left; border-bottom: 1px solid rgba(0,168,107,0.2); }
+        .trials-table th { background: rgba(0,168,107,0.2); color: #00A86B; }
+        .trials-table tr:hover { background: rgba(0,168,107,0.1); }
+        .status { padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.8rem; }
+        .status.recruiting { background: rgba(0,168,107,0.3); }
+        .status.completed { background: rgba(100,100,100,0.3); }
+        .status.active { background: rgba(0,100,200,0.3); }
+        .china { color: #c62828; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/logo.jpg" alt="LongBiosci" style="height:50px;margin-bottom:1rem;">
+        <h1>NMN / NAD+ Clinical Trials</h1>
+        <p>β-Nicotinamide mononucleotide, NAD+ precursor supplements</p>
+    </header>
+    <nav>
+        <a href="/">← Back to Home</a>
+    </nav>
+    <div class="container">
+        <a href="/" class="back-link" style="color:#00A86B;display:inline-block;margin-bottom:1rem;">← Back to Home</a>
+        <h2 style="color:#00A86B;margin-bottom:1rem;">Global NMN Clinical Trials</h2>
+        <table class="trials-table">
+            <thead>
+                <tr>
+                    <th>NCT ID</th>
+                    <th>Indication</th>
+                    <th>Status</th>
+                    <th>Location</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="https://clinicaltrials.gov/ct2/show/NCT04571008" target="_blank">NCT04571008</a></td>
+                    <td>Organ System Biology</td>
+                    <td><span class="status completed">Completed</span></td>
+                    <td>Washington University</td>
+                </tr>
+                <tr>
+                    <td><a href="https://clinicaltrials.gov/ct2/show/NCT04685096" target="_blank">NCT04685096</a></td>
+                    <td>Cosmetics Anti-Aging</td>
+                    <td><span class="status completed">Completed</span></td>
+                    <td><span class="china">China 🇨🇳</span></td>
+                </tr>
+                <tr>
+                    <td><a href="https://clinicaltrials.gov/ct2/show/NCT05305677" target="_blank">NCT05305677</a></td>
+                    <td>PCOS (Polycystic Ovary Syndrome)</td>
+                    <td><span class="status completed">Completed</span></td>
+                    <td><span class="china">China 🇨🇳</span></td>
+                </tr>
+                <tr>
+                    <td><a href="https://clinicaltrials.gov/ct2/show/NCT06426355" target="_blank">NCT06426355</a></td>
+                    <td>IVF Assistance</td>
+                    <td><span class="status recruiting">Recruiting</span></td>
+                    <td><span class="china">China 🇨🇳</span></td>
+                </tr>
+                <tr>
+                    <td><a href="https://clinicaltrials.gov/ct2/show/NCT06966583" target="_blank">NCT06966583</a></td>
+                    <td>Radiation Therapy</td>
+                    <td><span class="status active">Not Yet Recruiting</span></td>
+                    <td><span class="china">China 🇨🇳</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
