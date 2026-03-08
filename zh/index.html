@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>朗生生物科技 LongBiosci - 抗衰老研究</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+            line-height: 1.6; 
+            color: #333;
+            background: #fafafa;
+        }
+        header {
+            background: linear-gradient(135deg, #00A86B 0%, #00897B 100%);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+        header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+        header p { font-size: 1.2rem; opacity: 0.9; }
+        .lang-switch {
+            position: absolute;
+            top: 1rem;
+            right: 2rem;
+        }
+        .lang-switch a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border: 1px solid white;
+            border-radius: 4px;
+            margin-left: 0.5rem;
+            font-size: 0.9rem;
+        }
+        .lang-switch a:hover { background: rgba(255,255,255,0.2); }
+        .lang-switch a.active { background: white; color: #00A86B; }
+        nav {
+            background: white;
+            padding: 1rem;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        nav a {
+            color: #00A86B;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: 500;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .hero {
+            background: white;
+            border-radius: 12px;
+            padding: 3rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+        .hero h2 { color: #00A86B; margin-bottom: 1rem; }
+        .posts { display: grid; gap: 1.5rem; }
+        .post-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+        .post-card h3 { color: #333; margin-bottom: 0.5rem; }
+        .post-card .date { color: #888; font-size: 0.9rem; margin-bottom: 1rem; }
+        .post-card .excerpt { color: #555; }
+        .tag {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            margin-right: 0.5rem;
+        }
+        .tag-research { background: #e3f2fd; color: #1976d2; }
+        .tag-news { background: #f3e5f5; color: #7b1fa2; }
+        .tag-science { background: #e8f5e9; color: #388e3c; }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.8rem; }
+            .container { padding: 1rem; }
+            .lang-switch { position: static; margin-top: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="lang-switch">
+            <a href="/en/">English</a>
+            <a href="/zh/" class="active">中文</a>
+        </div>
+        <h1>🧬 朗生生物科技</h1>
+        <p>LongBiosci - 抗衰老科学研究与资讯</p>
+    </header>
+    
+    <nav>
+        <a href="#">首页</a>
+        <a href="#">研究动态</a>
+        <a href="#">文献解读</a>
+        <a href="#">关于我们</a>
+    </nav>
+    
+    <div class="container">
+        <div class="hero">
+            <h2>欢迎来到朗生生物科技</h2>
+            <p>我们致力于抗衰老药物研发，追踪全球最新临床试验进展，为您提供专业的生命科学资讯。</p>
+        </div>
+        
+        <h2 style="margin-bottom: 1rem;">最新文章</h2>
+        <div class="posts">
+            <article class="post-card">
+                <span class="tag tag-research">⭐重磅</span>
+                <h3>Senolytic药物：清除衰老细胞的新策略</h3>
+                <p class="date">2026-03-08</p>
+                <p class="excerpt">衰老细胞积累是衰老的核心机制之一。Senolytic药物能够选择性清除衰老细胞，目前已有16项临床试验正在进行中...</p>
+            </article>
+            
+            <article class="post-card">
+                <span class="tag tag-science">📖重要</span>
+                <h3>NMN中国临床试验汇总</h3>
+                <p class="date">2026-03-07</p>
+                <p class="excerpt">β-烟酰胺单核苷酸(NMN)作为NAD+前体，在全球已有23项临床试验，其中9项在中国开展...</p>
+            </article>
+            
+            <article class="post-card">
+                <span class="tag tag-news">🔬前沿</span>
+                <h3>二甲双胍长寿研究MILES成果发布</h3>
+                <p class="date">2026-03-06</p>
+                <p class="excerpt">作为最常用的2型糖尿病药物，二甲双胍被发现可能具有延长寿命的潜力。MILES研究提供了重要证据...</p>
+            </article>
+        </div>
+    </div>
+    
+    <footer>
+        <p>© 2026 朗生生物科技 LongBiosci</p>
+        <p style="font-size: 0.9rem; opacity: 0.7; margin-top: 0.5rem;">声明：本网站内容仅供科普参考，不构成医疗建议</p>
+    </footer>
+</body>
+</html>
