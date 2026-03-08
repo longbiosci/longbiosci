@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>朗生生物科技 LongBiosci - 抗衰老研究</title>
+    <title>朗生生物科技 LongBiosci - 抗衰老科学研究与资讯</title>
+    <meta name="description" content="抗衰老药物研发最新进展、临床试验数据、学术文献解读 - LongBiosci朗生生物科技">
+    <meta name="keywords" content="抗衰老,长寿,Senolytic,NMN,二甲双胍,临床试验,生物科技">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { 
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
             line-height: 1.6; 
-            color: #333;
+            color: #e0e0e0;
             background: #0a0a0a;
             min-height: 100vh;
         }
+        a { color: #00A86B; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        
         header {
             background: linear-gradient(135deg, #0a1628 0%, #1a3a2f 50%, #0d1f17 100%);
             color: white;
@@ -24,164 +29,112 @@
         header::before {
             content: '';
             position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
+            top: 0; left: 0; right: 0; bottom: 0;
             background: 
                 radial-gradient(circle at 20% 50%, rgba(0,168,107,0.15) 0%, transparent 50%),
-                radial-gradient(circle at 80% 50%, rgba(0,137,123,0.15) 0%, transparent 50%),
-                radial-gradient(circle at 50% 80%, rgba(0,168,107,0.1) 0%, transparent 40%);
+                radial-gradient(circle at 80% 50%, rgba(0,137,123,0.15) 0%, transparent 50%);
             pointer-events: none;
         }
         header::after {
             content: '';
             position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-image: 
-                linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+            top: 0; left: 0; right: 0; bottom: 0;
+            background-image: linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
                 linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
             background-size: 50px 50px;
             pointer-events: none;
         }
         header h1 { 
-            font-size: 3rem; 
-            margin-bottom: 0.5rem;
-            position: relative;
-            z-index: 1;
+            font-size: 3rem; margin-bottom: 0.5rem;
+            position: relative; z-index: 1;
             background: linear-gradient(135deg, #fff 0%, #00A86B 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
-        header p { 
-            font-size: 1.3rem; 
-            opacity: 0.9;
-            position: relative;
-            z-index: 1;
-            color: #a0dcd0;
-        }
+        header p { font-size: 1.3rem; opacity: 0.9; position: relative; z-index: 1; color: #a0dcd0; }
+        
         .lang-switch {
-            position: absolute;
-            top: 1.5rem;
-            right: 2rem;
-            z-index: 10;
+            position: absolute; top: 1.5rem; right: 2rem; z-index: 10;
         }
         .lang-switch a {
-            color: rgba(255,255,255,0.8);
-            text-decoration: none;
-            padding: 0.5rem 1rem;
-            border: 1px solid rgba(255,255,255,0.3);
-            border-radius: 20px;
-            margin-left: 0.5rem;
-            font-size: 0.85rem;
+            color: rgba(255,255,255,0.8); text-decoration: none;
+            padding: 0.5rem 1rem; border: 1px solid rgba(255,255,255,0.3);
+            border-radius: 20px; margin-left: 0.5rem; font-size: 0.85rem;
             transition: all 0.3s;
-            backdrop-filter: blur(10px);
         }
-        .lang-switch a:hover { 
-            background: rgba(255,255,255,0.1);
-            border-color: #00A86B;
-        }
-        .lang-switch a.active { 
-            background: #00A86B; 
-            color: white;
-            border-color: #00A86B;
-        }
+        .lang-switch a:hover { background: rgba(255,255,255,0.1); border-color: #00A86B; }
+        .lang-switch a.active { background: #00A86B; color: white; border-color: #00A86B; }
+        
         nav {
-            background: rgba(10,22,40,0.95);
-            padding: 1.2rem;
-            text-align: center;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
-            position: sticky;
-            top: 0;
-            z-index: 100;
+            background: rgba(10,22,40,0.95); padding: 1.2rem;
+            text-align: center; box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+            position: sticky; top: 0; z-index: 100;
             backdrop-filter: blur(10px);
             border-bottom: 1px solid rgba(0,168,107,0.2);
         }
         nav a {
-            color: #a0dcd0;
-            text-decoration: none;
-            margin: 0 1.5rem;
-            font-weight: 500;
-            font-size: 1rem;
-            transition: color 0.3s;
+            color: #a0dcd0; text-decoration: none;
+            margin: 0 1.5rem; font-weight: 500;
             position: relative;
         }
-        nav a:hover { 
-            color: #00A86B;
-        }
+        nav a:hover { color: #00A86B; }
         nav a::after {
-            content: '';
-            position: absolute;
-            bottom: -5px;
-            left: 0;
-            width: 0;
-            height: 2px;
-            background: #00A86B;
+            content: ''; position: absolute; bottom: -5px; left: 0;
+            width: 0; height: 2px; background: #00A86B;
             transition: width 0.3s;
         }
         nav a:hover::after { width: 100%; }
         
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 3rem 2rem;
-        }
+        .container { max-width: 1100px; margin: 0 auto; padding: 3rem 2rem; }
         
         .hero {
             background: linear-gradient(135deg, rgba(26,58,47,0.6) 0%, rgba(13,31,23,0.8) 100%);
-            border-radius: 20px;
-            padding: 3rem;
-            margin-bottom: 2rem;
+            border-radius: 20px; padding: 3rem; margin-bottom: 2rem;
             box-shadow: 0 8px 32px rgba(0,0,0,0.3);
             border: 1px solid rgba(0,168,107,0.2);
-            position: relative;
-            overflow: hidden;
+            text-align: center;
         }
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            left: -50%;
-            width: 200%;
-            height: 200%;
-            background: radial-gradient(circle, rgba(0,168,107,0.1) 0%, transparent 60%);
-            animation: pulse 8s ease-in-out infinite;
-        }
-        @keyframes pulse {
-            0%, 100% { transform: scale(1); opacity: 0.5; }
-            50% { transform: scale(1.1); opacity: 0.8; }
-        }
-        .hero h2 { 
-            color: #00A86B; 
-            margin-bottom: 1rem;
-            font-size: 1.8rem;
-            position: relative;
-            z-index: 1;
-        }
-        .hero p {
-            color: #c0e0d8;
-            font-size: 1.1rem;
-            position: relative;
-            z-index: 1;
-        }
+        .hero h2 { color: #00A86B; margin-bottom: 1rem; font-size: 1.8rem; }
+        .hero p { color: #c0e0d8; font-size: 1.1rem; max-width: 700px; margin: 0 auto; }
         
-        h2 {
-            color: #00A86B;
-            margin-bottom: 1.5rem;
-            font-size: 1.5rem;
-            padding-bottom: 0.5rem;
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .stat-card {
+            background: linear-gradient(135deg, rgba(26,58,47,0.4) 0%, rgba(13,31,23,0.6) 100%);
+            border-radius: 16px; padding: 1.5rem;
+            border: 1px solid rgba(0,168,107,0.15);
+            text-align: center;
+        }
+        .stat-card .number {
+            font-size: 2.5rem; font-weight: bold; color: #00A86B;
+        }
+        .stat-card .label { color: #7ab8a0; font-size: 0.9rem; margin-top: 0.5rem; }
+        
+        .section-title {
+            color: #00A86B; font-size: 1.5rem;
+            margin-bottom: 1.5rem; padding-bottom: 0.5rem;
             border-bottom: 2px solid rgba(0,168,107,0.3);
         }
+        
+        .region-tabs {
+            display: flex; gap: 1rem; margin-bottom: 1.5rem;
+        }
+        .region-tab {
+            padding: 0.75rem 1.5rem; border: 2px solid #00A86B;
+            border-radius: 10px; cursor: pointer; font-weight: 500;
+            color: #a0dcd0; transition: all 0.3s;
+        }
+        .region-tab.active { background: #00A86B; color: white; }
         
         .posts { display: grid; gap: 1.5rem; }
         .post-card {
             background: linear-gradient(135deg, rgba(26,58,47,0.4) 0%, rgba(13,31,23,0.6) 100%);
-            border-radius: 16px;
-            padding: 1.8rem;
+            border-radius: 16px; padding: 1.8rem;
             box-shadow: 0 4px 16px rgba(0,0,0,0.2);
             border: 1px solid rgba(0,168,107,0.15);
             transition: all 0.3s;
@@ -189,59 +142,69 @@
         .post-card:hover { 
             transform: translateY(-5px);
             border-color: rgba(0,168,107,0.4);
-            box-shadow: 0 8px 32px rgba(0,168,107,0.15);
         }
-        .post-card h3 { 
-            color: #e8f5f0; 
-            margin-bottom: 0.5rem;
-            font-size: 1.2rem;
-        }
-        .post-card .date { 
-            color: #7ab8a0; 
-            font-size: 0.85rem; 
-            margin-bottom: 1rem;
-        }
-        .post-card .excerpt { 
-            color: #b0d8cc; 
-            line-height: 1.7;
-        }
+        .post-card h3 { color: #e8f5f0; margin-bottom: 0.5rem; font-size: 1.2rem; }
+        .post-card .date { color: #7ab8a0; font-size: 0.85rem; margin-bottom: 0.8rem; }
+        .post-card .excerpt { color: #b0d8cc; line-height: 1.7; }
         
         .tag {
-            display: inline-block;
-            padding: 0.3rem 0.8rem;
-            border-radius: 20px;
-            font-size: 0.75rem;
-            margin-right: 0.5rem;
+            display: inline-block; padding: 0.3rem 0.8rem;
+            border-radius: 20px; font-size: 0.75rem; margin-right: 0.5rem;
             font-weight: 500;
         }
-        .tag-research { 
-            background: linear-gradient(135deg, #1565c0 0%, #0d47a1 100%); 
-            color: white;
+        .tag-research { background: linear-gradient(135deg, #1565c0, #0d47a1); color: white; }
+        .tag-news { background: linear-gradient(135deg, #7b1fa2, #4a148c); color: white; }
+        .tag-science { background: linear-gradient(135deg, #2e7d32, #1b5e20); color: white; }
+        .tag-trial { background: linear-gradient(135deg, #00897b, #00695c); color: white; }
+        .tag-china { background: linear-gradient(135deg, #c62828, #b71c1c); color: white; }
+        
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
         }
-        .tag-news { 
-            background: linear-gradient(135deg, #7b1fa2 0%, #4a148c 100%); 
-            color: white;
+        .category-card {
+            background: linear-gradient(135deg, rgba(26,58,47,0.4) 0%, rgba(13,31,23,0.6) 100%);
+            border-radius: 16px; padding: 2rem;
+            border: 1px solid rgba(0,168,107,0.15);
+            transition: all 0.3s;
         }
-        .tag-science { 
-            background: linear-gradient(135deg, #2e7d32 0%, #1b5e20 100%); 
-            color: white;
+        .category-card:hover { border-color: rgba(0,168,107,0.4); transform: translateY(-3px); }
+        .category-card h3 { color: #00A86B; margin-bottom: 0.8rem; }
+        .category-card p { color: #b0d8cc; font-size: 0.95rem; }
+        .category-card .count { color: #7ab8a0; font-size: 0.85rem; margin-top: 1rem; }
+        
+        .newsletter {
+            background: linear-gradient(135deg, rgba(0,168,107,0.2) 0%, rgba(0,137,123,0.2) 100%);
+            border-radius: 16px; padding: 2rem;
+            border: 1px solid rgba(0,168,107,0.3);
+            text-align: center; margin: 2rem 0;
+        }
+        .newsletter h3 { color: #00A86B; margin-bottom: 1rem; }
+        .newsletter p { color: #b0d8cc; margin-bottom: 1rem; }
+        .newsletter input {
+            padding: 0.8rem 1rem; border-radius: 8px; border: 1px solid rgba(0,168,107,0.5);
+            background: rgba(0,0,0,0.3); color: white; width: 250px; margin-right: 0.5rem;
+        }
+        .newsletter button {
+            padding: 0.8rem 1.5rem; border-radius: 8px; border: none;
+            background: #00A86B; color: white; cursor: pointer; font-weight: 500;
         }
         
         footer {
-            background: #0a1628;
-            color: #7ab8a0;
-            text-align: center;
-            padding: 2.5rem;
-            margin-top: 3rem;
+            background: #0a1628; color: #7ab8a0;
+            text-align: center; padding: 2.5rem; margin-top: 3rem;
             border-top: 1px solid rgba(0,168,107,0.2);
         }
         footer p { font-size: 0.9rem; }
+        .footer-links { margin-top: 1rem; }
+        .footer-links a { color: #a0dcd0; margin: 0 1rem; }
         
-        .logo-icon {
-            font-size: 3rem;
-            margin-bottom: 0.5rem;
-            display: block;
-        }
+        .region-content { display: none; }
+        .region-content.active { display: block; }
+        
+        .logo-icon { font-size: 3rem; margin-bottom: 0.5rem; display: block; }
         
         @media (max-width: 600px) {
             header h1 { font-size: 2rem; }
@@ -260,14 +223,15 @@
         </div>
         <span class="logo-icon">🧬</span>
         <h1>朗生生物科技</h1>
-        <p>LongBiosci - 抗衰老科学研究与资讯</p>
+        <p>LongBiosci - 抗衰老科学研究与资讯平台</p>
     </header>
     
     <nav>
         <a href="#">首页</a>
-        <a href="#">研究动态</a>
-        <a href="#">文献解读</a>
-        <a href="#">关于我们</a>
+        <a href="#research">研究动态</a>
+        <a href="#trials">临床试验</a>
+        <a href="#categories">分类</a>
+        <a href="#about">关于我们</a>
     </nav>
     
     <div class="container">
@@ -276,34 +240,163 @@
             <p>我们致力于抗衰老药物研发，追踪全球最新临床试验进展，为您提供专业的生命科学资讯。</p>
         </div>
         
-        <h2>最新文章</h2>
-        <div class="posts">
-            <article class="post-card">
-                <span class="tag tag-research">⭐重磅</span>
-                <h3>Senolytic药物：清除衰老细胞的新策略</h3>
-                <p class="date">2026-03-08</p>
-                <p class="excerpt">衰老细胞积累是衰老的核心机制之一。Senolytic药物能够选择性清除衰老细胞，目前已有16项临床试验正在进行中，包括Fisetin、Dasatinib+Quercetin等...</p>
-            </article>
-            
-            <article class="post-card">
-                <span class="tag tag-science">📖重要</span>
-                <h3>NMN中国临床试验汇总</h3>
-                <p class="date">2026-03-07</p>
-                <p class="excerpt">β-烟酰胺单核苷酸(NMN)作为NAD+前体，在全球已有23项临床试验，其中9项在中国开展，涵盖抗衰老、IVF助孕、代谢调节等领域...</p>
-            </article>
-            
-            <article class="post-card">
-                <span class="tag tag-news">🔬前沿</span>
-                <h3>二甲双胍长寿研究MILES成果发布</h3>
-                <p class="date">2026-03-06</p>
-                <p class="excerpt">作为最常用的2型糖尿病药物，二甲双胍被发现可能具有延长寿命的潜力。MILES研究提供了重要证据，支持其作为长寿药物的潜力...</p>
-            </article>
+        <div class="stats">
+            <div class="stat-card">
+                <div class="number">50+</div>
+                <div class="label">抗衰老临床试验</div>
+            </div>
+            <div class="stat-card">
+                <div class="number">200+</div>
+                <div class="label">前沿研究论文</div>
+            </div>
+            <div class="stat-card">
+                <div class="number">15+</div>
+                <div class="label">合作研究机构</div>
+            </div>
+            <div class="stat-card">
+                <div class="number">9</div>
+                <div class="label">中国临床试验</div>
+            </div>
+        </div>
+        
+        <h2 class="section-title" id="research">🔬 研究动态</h2>
+        
+        <div class="region-tabs">
+            <div class="region-tab active" onclick="showRegion('global')">🌍 全球</div>
+            <div class="region-tab" onclick="showRegion('china')">🇨🇳 中国</div>
+        </div>
+        
+        <div id="global" class="region-content active">
+            <div class="posts">
+                <article class="post-card">
+                    <span class="tag tag-research">⭐重磅</span>
+                    <span class="tag tag-trial">临床试验</span>
+                    <h3>Senolytic药物：清除衰老细胞的新策略</h3>
+                    <p class="date">2026-03-08 | 来源: ClinicalTrials.gov</p>
+                    <p class="excerpt">衰老细胞积累是衰老的核心机制之一。Senolytic药物能够选择性清除衰老细胞，目前全球已有16项临床试验正在进行中，包括Fisetin、Dasatinib+Quercetin等。</p>
+                    <a href="#" style="color:#00A86B;margin-top:1rem;display:inline-block;">查看详情 →</a>
+                </article>
+                
+                <article class="post-card">
+                    <span class="tag tag-science">📖重要</span>
+                    <h3>二甲双胍长寿研究MILES成果发布</h3>
+                    <p class="date">2026-03-06 | 来源: Albert Einstein医学院</p>
+                    <p class="excerpt">作为最常用的2型糖尿病药物，二甲双胍被发现可能具有延长寿命的潜力。MILES研究提供了重要证据，支持其作为长寿药物的潜力。</p>
+                    <a href="#" style="color:#00A86B;margin-top:1rem;display:inline-block;">查看详情 →</a>
+                </article>
+                
+                <article class="post-card">
+                    <span class="tag tag-news">🔬前沿</span>
+                    <h3>端粒酶基因治疗进入临床阶段</h3>
+                    <p class="date">2026-03-05 | 来源: Nature Biotechnology</p>
+                    <p class="excerpt">Libella公司宣布启动端粒酶基因治疗临床试验(NCT04133454)，旨在通过延长端粒来逆转衰老相关生物学标志。</p>
+                    <a href="#" style="color:#00A86B;margin-top:1rem;display:inline-block;">查看详情 →</a>
+                </article>
+            </div>
+        </div>
+        
+        <div id="china" class="region-content">
+            <div class="posts">
+                <article class="post-card">
+                    <span class="tag tag-china">🇨🇳中国</span>
+                    <span class="tag tag-trial">临床试验</span>
+                    <h3>NMN中国临床试验汇总（9项）</h3>
+                    <p class="date">2026-03-07 | 来源: ClinicalTrials.gov</p>
+                    <p class="excerpt">β-烟酰胺单核苷酸(NMN)作为NAD+前体，在全球已有23项临床试验，其中9项在中国开展，涵盖抗衰老、IVF助孕、代谢调节等领域。</p>
+                    <a href="#" style="color:#00A86B;margin-top:1rem;display:inline-block;">查看详情 →</a>
+                </article>
+                
+                <article class="post-card">
+                    <span class="tag tag-china">🇨🇳中国</span>
+                    <h3>中国抗衰老研究机构巡礼</h3>
+                    <p class="date">2026-03-05</p>
+                    <p class="excerpt">中山大学、华中科技大学、浙江大学等顶尖机构在抗衰老领域取得重要进展，涉及NMN、Senolytic、肠道菌群等多个方向。</p>
+                    <a href="#" style="color:#00A86B;margin-top:1rem;display:inline-block;">查看详情 →</a>
+                </article>
+            </div>
+        </div>
+        
+        <h2 class="section-title" id="trials">📊 临床试验数据库</h2>
+        <div class="category-grid">
+            <div class="category-card">
+                <h3>🧪 Senolytic</h3>
+                <p>衰老细胞清除药物，16项临床试验正在进展中</p>
+                <div class="count">16 项临床试验</div>
+            </div>
+            <div class="category-card">
+                <h3>💊 NMN/NAD+</h3>
+                <p>β-烟酰胺单核苷酸，NAD+前体补充剂</p>
+                <div class="count">23 项临床试验</div>
+            </div>
+            <div class="category-card">
+                <h3>💉 二甲双胍</h3>
+                <p>经典长寿药物，MILES研究证实潜力</p>
+                <div class="count">5 项临床试验</div>
+            </div>
+            <div class="category-card">
+                <h3>🧬 干细胞</h3>
+                <p>胚胎干细胞/间充质干细胞抗衰老研究</p>
+                <div class="count">8 项临床试验</div>
+            </div>
+            <div class="category-card">
+                <h3>🌙 褪黑素</h3>
+                <p>调节昼夜节律与衰老进程</p>
+                <div class="count">6 项临床试验</div>
+            </div>
+            <div class="category-card">
+                <h3>🐟 Omega-3</h3>
+                <p>深海鱼油与炎症调节</p>
+                <div class="count">7 项临床试验</div>
+            </div>
+        </div>
+        
+        <div class="newsletter">
+            <h3>📧 订阅最新资讯</h3>
+            <p>每周为您推送抗衰老领域最新研究进展</p>
+            <form>
+                <input type="email" placeholder="输入您的邮箱">
+                <button type="submit">订阅</button>
+            </form>
+        </div>
+        
+        <h2 class="section-title" id="categories">📚 内容分类</h2>
+        <div class="category-grid">
+            <div class="category-card">
+                <h3>📖 文献解读</h3>
+                <p>解读最新发表的抗衰老研究论文</p>
+            </div>
+            <div class="category-card">
+                <h3>🔬 临床进展</h3>
+                <p>跟踪全球抗衰老临床试验进度</p>
+            </div>
+            <div class="category-card">
+                <h3>💡 技术科普</h3>
+                <p>抗衰老技术原理与应用科普</p>
+            </div>
+            <div class="category-card">
+                <h3>📰 行业动态</h3>
+                <p>抗衰老行业最新资讯与趋势</p>
+            </div>
         </div>
     </div>
     
-    <footer>
+    <footer id="about">
         <p>© 2026 朗生生物科技 LongBiosci</p>
         <p style="margin-top: 0.5rem; opacity: 0.7;">声明：本网站内容仅供科普参考，不构成医疗建议</p>
+        <div class="footer-links">
+            <a href="#">隐私政策</a>
+            <a href="#">使用条款</a>
+            <a href="#">联系我们</a>
+        </div>
     </footer>
+    
+    <script>
+        function showRegion(region) {
+            document.querySelectorAll('.region-content').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.region-tab').forEach(el => el.classList.remove('active'));
+            document.getElementById(region).classList.add('active');
+            event.target.classList.add('active');
+        }
+    </script>
 </body>
 </html>
