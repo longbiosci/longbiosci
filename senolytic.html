@@ -3,81 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Senolytic - LongBiosci Clinical Trials</title>
+    <title>Senolytic - LongBiosci</title>
     <link rel="icon" href="/logo.jpg">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.6; color: #e0e0e0; background: #0a0a0a; min-height: 100vh; }
-        a { color: #00A86B; text-decoration: none; }
-        header { background: linear-gradient(135deg, #0a1628, #1a3a2f); color: white; padding: 3rem 2rem; text-align: center; }
-        header h1 { background: linear-gradient(135deg, #fff, #00A86B); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-        nav { background: rgba(10,22,40,0.95); padding: 1rem; text-align: center; position: sticky; top: 0; z-index: 100; }
-        nav a { color: #a0dcd0; margin: 0 1rem; }
-        .container { max-width: 1000px; margin: 0 auto; padding: 2rem; }
-        .back-link { display: inline-block; margin-bottom: 1rem; color: #00A86B; }
-        .trials-table { width: 100%; border-collapse: collapse; background: rgba(26,58,47,0.4); border-radius: 12px; overflow: hidden; }
-        .trials-table th, .trials-table td { padding: 1rem; text-align: left; border-bottom: 1px solid rgba(0,168,107,0.2); }
-        .trials-table th { background: rgba(0,168,107,0.2); color: #00A86B; }
-        .trials-table tr:hover { background: rgba(0,168,107,0.1); }
-        .status { padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.8rem; }
-        .status.recruiting { background: rgba(0,168,107,0.3); }
-        .status.completed { background: rgba(100,100,100,0.3); }
-        .status.active { background: rgba(0,100,200,0.3); }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            color: #333;
+            background: #f8f9fa;
+            line-height: 1.6;
+        }
+        header { 
+            background: white; 
+            padding: 1.5rem 2rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header img { height: 40px; }
+        header a { color: #00A86B; text-decoration: none; font-weight: 500; }
+        
+        .container { max-width: 900px; margin: 2rem auto; padding: 0 1.5rem; }
+        h1 { color: #00A86B; margin-bottom: 0.5rem; font-size: 1.8rem; }
+        .subtitle { color: #666; margin-bottom: 2rem; }
+        
+        .trial-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.2rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .trial-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+        .trial-info h3 { color: #222; font-size: 1rem; margin-bottom: 0.3rem; }
+        .trial-info p { color: #666; font-size: 0.9rem; }
+        .trial-link { color: #00A86B; text-decoration: none; font-weight: 500; }
+        
+        .status { 
+            padding: 0.3rem 0.8rem; 
+            border-radius: 20px; 
+            font-size: 0.75rem;
+            white-space: nowrap;
+        }
+        .recruiting { background: #e8f5e9; color: #2e7d32; }
+        .completed { background: #f5f5f5; color: #666; }
+        .active { background: #e3f2fd; color: #1565c0; }
     </style>
 </head>
 <body>
     <header>
-        <img src="/logo.jpg" alt="LongBiosci" style="height:50px;margin-bottom:1rem;">
-        <h1>Senolytic Clinical Trials</h1>
-        <p>Drugs that selectively clear senescent cells</p>
+        <img src="/logo.jpg" alt="LongBiosci">
+        <a href="/">← Home</a>
     </header>
-    <nav>
-        <a href="/">← Back to Home</a>
-    </nav>
+    
     <div class="container">
-        <a href="/" class="back-link">← Back to Home</a>
-        <h2 style="color:#00A86B;margin-bottom:1rem;">Active Clinical Trials</h2>
-        <table class="trials-table">
-            <thead>
-                <tr>
-                    <th>NCT ID</th>
-                    <th>Drug</th>
-                    <th>Indication</th>
-                    <th>Status</th>
-                    <th>Location</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><a href="https://clinicaltrials.gov/ct2/show/NCT04685590" target="_blank">NCT04685590</a></td>
-                    <td>Senolytic</td>
-                    <td>Alzheimer's Disease</td>
-                    <td><span class="status recruiting">Recruiting</span></td>
-                    <td>Washington University</td>
-                </tr>
-                <tr>
-                    <td><a href="https://clinicaltrials.gov/ct2/show/NCT02848131" target="_blank">NCT02848131</a></td>
-                    <td>Senolytic</td>
-                    <td>Chronic Kidney Disease</td>
-                    <td><span class="status recruiting">Recruiting</span></td>
-                    <td>Mayo Clinic</td>
-                </tr>
-                <tr>
-                    <td><a href="https://clinicaltrials.gov/ct2/show/NCT06133634" target="_blank">NCT06133634</a></td>
-                    <td>Fisetin</td>
-                    <td>Vascular Function</td>
-                    <td><span class="status active">Active</span></td>
-                    <td>University of Colorado</td>
-                </tr>
-                <tr>
-                    <td><a href="https://clinicaltrials.gov/ct2/show/NCT04063124" target="_blank">NCT04063124</a></td>
-                    <td>Senolytic</td>
-                    <td>Alzheimer's Disease</td>
-                    <td><span class="status completed">Completed</span></td>
-                    <td>University of Texas</td>
-                </tr>
-            </tbody>
-        </table>
+        <h1>Senolytic</h1>
+        <p class="subtitle">Drugs that selectively clear senescent cells</p>
+        
+        <div class="trial-card">
+            <div class="trial-info">
+                <h3>NCT04685590 - Senolytic</h3>
+                <p>Alzheimer's Disease • Washington University</p>
+            </div>
+            <span class="status recruiting">Recruiting</span>
+        </div>
+        
+        <div class="trial-card">
+            <div class="trial-info">
+                <h3>NCT02848131 - Senolytic</h3>
+                <p>Chronic Kidney Disease • Mayo Clinic</p>
+            </div>
+            <span class="status recruiting">Recruiting</span>
+        </div>
+        
+        <div class="trial-card">
+            <div class="trial-info">
+                <h3>NCT06133634 - Fisetin</h3>
+                <p>Vascular Function • University of Colorado</p>
+            </div>
+            <span class="status active">Active</span>
+        </div>
+        
+        <div class="trial-card">
+            <div class="trial-info">
+                <h3>NCT04063124 - Senolytic</h3>
+                <p>Alzheimer's Disease • University of Texas</p>
+            </div>
+            <span class="status completed">Completed</span>
+        </div>
     </div>
 </body>
 </html>
