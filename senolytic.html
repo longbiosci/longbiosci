@@ -7,51 +7,34 @@
     <link rel="icon" href="/logo.jpg">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { 
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-            color: #333;
-            background: #f8f9fa;
-            line-height: 1.6;
-        }
-        header { 
-            background: white; 
-            padding: 1.5rem 2rem;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
+        body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; color: #333; background: #f8f9fa; line-height: 1.6; }
+        header { background: white; padding: 1.5rem 2rem; box-shadow: 0 1px 3px rgba(0,0,0,0.08); display: flex; justify-content: space-between; align-items: center; }
         header img { height: 40px; }
         header a { color: #00A86B; text-decoration: none; font-weight: 500; }
-        
         .container { max-width: 900px; margin: 2rem auto; padding: 0 1.5rem; }
         h1 { color: #00A86B; margin-bottom: 0.5rem; font-size: 1.8rem; }
         .subtitle { color: #666; margin-bottom: 2rem; }
-        
-        .trial-card {
-            background: white;
-            border-radius: 12px;
-            padding: 1.2rem;
-            margin-bottom: 1rem;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+        .info-box { background: white; border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+        .info-box h3 { color: #00A86B; margin-bottom: 0.8rem; }
+        .info-box p { color: #555; line-height: 1.7; }
+        .info-box a { color: #00A86B; text-decoration: underline; }
+        .trial-card { background: white; border-radius: 12px; padding: 1.2rem; margin-bottom: 1rem; box-shadow: 0 1px 3px rgba(0,0,0,0.06); display: flex; justify-content: space-between; align-items: center; }
         .trial-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
         .trial-info h3 { color: #222; font-size: 1rem; margin-bottom: 0.3rem; }
+        .trial-info h3 a { color: #222; text-decoration: none; }
+        .trial-info h3 a:hover { color: #00A86B; }
         .trial-info p { color: #666; font-size: 0.9rem; }
-        .trial-link { color: #00A86B; text-decoration: none; font-weight: 500; }
-        
-        .status { 
-            padding: 0.3rem 0.8rem; 
-            border-radius: 20px; 
-            font-size: 0.75rem;
-            white-space: nowrap;
-        }
+        .trial-info p a { color: #666; }
+        .status { padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.75rem; }
         .recruiting { background: #e8f5e9; color: #2e7d32; }
         .completed { background: #f5f5f5; color: #666; }
         .active { background: #e3f2fd; color: #1565c0; }
+        
+        .related { margin-top: 2rem; }
+        .related h3 { color: #00A86B; margin-bottom: 1rem; }
+        .related-links { display: flex; gap: 1rem; flex-wrap: wrap; }
+        .related-links a { padding: 0.5rem 1rem; background: white; border-radius: 20px; color: #555; text-decoration: none; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+        .related-links a:hover { background: #00A86B; color: white; }
     </style>
 </head>
 <body>
@@ -64,25 +47,37 @@
         <h1>Senolytic</h1>
         <p class="subtitle">Drugs that selectively clear senescent cells</p>
         
+        <div class="info-box">
+            <h3>What is Senolytic?</h3>
+            <p>
+                <a href="https://en.wikipedia.org/wiki/Senolytic" target="_blank">Senolytic drugs</a> are a class of drugs that selectively eliminate <a href="https://en.wikipedia.org/wiki/Cellular_senescence" target="_blank">senescent cells</a>. 
+                Senescent cells accumulate with age and secrete harmful <a href="https://en.wikipedia.org/wiki/Senescence-associated_secretory_phenotype" target="_blank">SASP</a> factors, contributing to aging and age-related diseases.
+                <br><br>
+                Key senolytic agents include <a href="/nmn.html">NMN</a>, <a href="/metformin.html">Metformin</a>, and natural flavonoids like <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank">Fisetin</a> and Quercetin.
+            </p>
+        </div>
+        
+        <h3 style="color:#00A86B;margin-bottom:1rem;">Clinical Trials</h3>
+        
         <div class="trial-card">
             <div class="trial-info">
-                <h3>NCT04685590 - Senolytic</h3>
-                <p>Alzheimer's Disease • Washington University</p>
+                <h3><a href="https://clinicaltrials.gov/ct2/show/NCT04685590" target="_blank">NCT04685590</a> - Senolytic</h3>
+                <p><a href="https://en.wikipedia.org/wiki/Alzheimer%27s_disease" target="_blank">Alzheimer's Disease</a> • Washington University</p>
             </div>
             <span class="status recruiting">Recruiting</span>
         </div>
         
         <div class="trial-card">
             <div class="trial-info">
-                <h3>NCT02848131 - Senolytic</h3>
-                <p>Chronic Kidney Disease • Mayo Clinic</p>
+                <h3><a href="https://clinicaltrials.gov/ct2/show/NCT02848131" target="_blank">NCT02848131</a> - Senolytic</h3>
+                <p><a href="https://en.wikipedia.org/wiki/Chronic_kidney_disease" target="_blank">Chronic Kidney Disease</a> • Mayo Clinic</p>
             </div>
             <span class="status recruiting">Recruiting</span>
         </div>
         
         <div class="trial-card">
             <div class="trial-info">
-                <h3>NCT06133634 - Fisetin</h3>
+                <h3><a href="https://clinicaltrials.gov/ct2/show/NCT06133634" target="_blank">NCT06133634</a> - Fisetin</h3>
                 <p>Vascular Function • University of Colorado</p>
             </div>
             <span class="status active">Active</span>
@@ -90,10 +85,19 @@
         
         <div class="trial-card">
             <div class="trial-info">
-                <h3>NCT04063124 - Senolytic</h3>
-                <p>Alzheimer's Disease • University of Texas</p>
+                <h3><a href="https://clinicaltrials.gov/ct2/show/NCT04063124" target="_blank">NCT04063124</a> - Senolytic</h3>
+                <p><a href="https://en.wikipedia.org/wiki/Alzheimer%27s_disease" target="_blank">Alzheimer's Disease</a> • University of Texas</p>
             </div>
             <span class="status completed">Completed</span>
+        </div>
+        
+        <div class="related">
+            <h3>Related Topics</h3>
+            <div class="related-links">
+                <a href="/nmn.html">NMN / NAD+</a>
+                <a href="/metformin.html">Metformin</a>
+                <a href="/stemcell.html">Stem Cells</a>
+            </div>
         </div>
     </div>
 </body>
