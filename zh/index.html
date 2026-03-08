@@ -10,88 +10,245 @@
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
             line-height: 1.6; 
             color: #333;
-            background: #fafafa;
+            background: #0a0a0a;
+            min-height: 100vh;
         }
         header {
-            background: linear-gradient(135deg, #00A86B 0%, #00897B 100%);
+            background: linear-gradient(135deg, #0a1628 0%, #1a3a2f 50%, #0d1f17 100%);
             color: white;
-            padding: 3rem 2rem;
+            padding: 4rem 2rem;
             text-align: center;
+            position: relative;
+            overflow: hidden;
         }
-        header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
-        header p { font-size: 1.2rem; opacity: 0.9; }
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(0,168,107,0.15) 0%, transparent 50%),
+                radial-gradient(circle at 80% 50%, rgba(0,137,123,0.15) 0%, transparent 50%),
+                radial-gradient(circle at 50% 80%, rgba(0,168,107,0.1) 0%, transparent 40%);
+            pointer-events: none;
+        }
+        header::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: 
+                linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+            background-size: 50px 50px;
+            pointer-events: none;
+        }
+        header h1 { 
+            font-size: 3rem; 
+            margin-bottom: 0.5rem;
+            position: relative;
+            z-index: 1;
+            background: linear-gradient(135deg, #fff 0%, #00A86B 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        header p { 
+            font-size: 1.3rem; 
+            opacity: 0.9;
+            position: relative;
+            z-index: 1;
+            color: #a0dcd0;
+        }
         .lang-switch {
             position: absolute;
-            top: 1rem;
+            top: 1.5rem;
             right: 2rem;
+            z-index: 10;
         }
         .lang-switch a {
-            color: white;
+            color: rgba(255,255,255,0.8);
             text-decoration: none;
             padding: 0.5rem 1rem;
-            border: 1px solid white;
-            border-radius: 4px;
+            border: 1px solid rgba(255,255,255,0.3);
+            border-radius: 20px;
             margin-left: 0.5rem;
-            font-size: 0.9rem;
+            font-size: 0.85rem;
+            transition: all 0.3s;
+            backdrop-filter: blur(10px);
         }
-        .lang-switch a:hover { background: rgba(255,255,255,0.2); }
-        .lang-switch a.active { background: white; color: #00A86B; }
+        .lang-switch a:hover { 
+            background: rgba(255,255,255,0.1);
+            border-color: #00A86B;
+        }
+        .lang-switch a.active { 
+            background: #00A86B; 
+            color: white;
+            border-color: #00A86B;
+        }
         nav {
-            background: white;
-            padding: 1rem;
+            background: rgba(10,22,40,0.95);
+            padding: 1.2rem;
             text-align: center;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(0,168,107,0.2);
         }
         nav a {
-            color: #00A86B;
+            color: #a0dcd0;
             text-decoration: none;
-            margin: 0 1rem;
+            margin: 0 1.5rem;
             font-weight: 500;
+            font-size: 1rem;
+            transition: color 0.3s;
+            position: relative;
         }
+        nav a:hover { 
+            color: #00A86B;
+        }
+        nav a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: #00A86B;
+            transition: width 0.3s;
+        }
+        nav a:hover::after { width: 100%; }
+        
         .container {
-            max-width: 900px;
+            max-width: 1000px;
             margin: 0 auto;
-            padding: 2rem;
+            padding: 3rem 2rem;
         }
+        
         .hero {
-            background: white;
-            border-radius: 12px;
+            background: linear-gradient(135deg, rgba(26,58,47,0.6) 0%, rgba(13,31,23,0.8) 100%);
+            border-radius: 20px;
             padding: 3rem;
             margin-bottom: 2rem;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+            border: 1px solid rgba(0,168,107,0.2);
+            position: relative;
+            overflow: hidden;
         }
-        .hero h2 { color: #00A86B; margin-bottom: 1rem; }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(0,168,107,0.1) 0%, transparent 60%);
+            animation: pulse 8s ease-in-out infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 0.5; }
+            50% { transform: scale(1.1); opacity: 0.8; }
+        }
+        .hero h2 { 
+            color: #00A86B; 
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+            position: relative;
+            z-index: 1;
+        }
+        .hero p {
+            color: #c0e0d8;
+            font-size: 1.1rem;
+            position: relative;
+            z-index: 1;
+        }
+        
+        h2 {
+            color: #00A86B;
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid rgba(0,168,107,0.3);
+        }
+        
         .posts { display: grid; gap: 1.5rem; }
         .post-card {
-            background: white;
-            border-radius: 12px;
-            padding: 1.5rem;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            background: linear-gradient(135deg, rgba(26,58,47,0.4) 0%, rgba(13,31,23,0.6) 100%);
+            border-radius: 16px;
+            padding: 1.8rem;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+            border: 1px solid rgba(0,168,107,0.15);
+            transition: all 0.3s;
         }
-        .post-card h3 { color: #333; margin-bottom: 0.5rem; }
-        .post-card .date { color: #888; font-size: 0.9rem; margin-bottom: 1rem; }
-        .post-card .excerpt { color: #555; }
+        .post-card:hover { 
+            transform: translateY(-5px);
+            border-color: rgba(0,168,107,0.4);
+            box-shadow: 0 8px 32px rgba(0,168,107,0.15);
+        }
+        .post-card h3 { 
+            color: #e8f5f0; 
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+        }
+        .post-card .date { 
+            color: #7ab8a0; 
+            font-size: 0.85rem; 
+            margin-bottom: 1rem;
+        }
+        .post-card .excerpt { 
+            color: #b0d8cc; 
+            line-height: 1.7;
+        }
+        
         .tag {
             display: inline-block;
-            padding: 0.25rem 0.75rem;
+            padding: 0.3rem 0.8rem;
             border-radius: 20px;
-            font-size: 0.8rem;
+            font-size: 0.75rem;
             margin-right: 0.5rem;
+            font-weight: 500;
         }
-        .tag-research { background: #e3f2fd; color: #1976d2; }
-        .tag-news { background: #f3e5f5; color: #7b1fa2; }
-        .tag-science { background: #e8f5e9; color: #388e3c; }
-        footer {
-            background: #333;
+        .tag-research { 
+            background: linear-gradient(135deg, #1565c0 0%, #0d47a1 100%); 
             color: white;
-            text-align: center;
-            padding: 2rem;
-            margin-top: 3rem;
         }
+        .tag-news { 
+            background: linear-gradient(135deg, #7b1fa2 0%, #4a148c 100%); 
+            color: white;
+        }
+        .tag-science { 
+            background: linear-gradient(135deg, #2e7d32 0%, #1b5e20 100%); 
+            color: white;
+        }
+        
+        footer {
+            background: #0a1628;
+            color: #7ab8a0;
+            text-align: center;
+            padding: 2.5rem;
+            margin-top: 3rem;
+            border-top: 1px solid rgba(0,168,107,0.2);
+        }
+        footer p { font-size: 0.9rem; }
+        
+        .logo-icon {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+        
         @media (max-width: 600px) {
-            header h1 { font-size: 1.8rem; }
-            .container { padding: 1rem; }
+            header h1 { font-size: 2rem; }
+            .container { padding: 1.5rem; }
+            .hero { padding: 1.5rem; }
             .lang-switch { position: static; margin-top: 1rem; }
+            nav a { margin: 0 0.8rem; font-size: 0.9rem; }
         }
     </style>
 </head>
@@ -101,7 +258,8 @@
             <a href="/en/">English</a>
             <a href="/zh/" class="active">中文</a>
         </div>
-        <h1>🧬 朗生生物科技</h1>
+        <span class="logo-icon">🧬</span>
+        <h1>朗生生物科技</h1>
         <p>LongBiosci - 抗衰老科学研究与资讯</p>
     </header>
     
@@ -118,34 +276,34 @@
             <p>我们致力于抗衰老药物研发，追踪全球最新临床试验进展，为您提供专业的生命科学资讯。</p>
         </div>
         
-        <h2 style="margin-bottom: 1rem;">最新文章</h2>
+        <h2>最新文章</h2>
         <div class="posts">
             <article class="post-card">
                 <span class="tag tag-research">⭐重磅</span>
                 <h3>Senolytic药物：清除衰老细胞的新策略</h3>
                 <p class="date">2026-03-08</p>
-                <p class="excerpt">衰老细胞积累是衰老的核心机制之一。Senolytic药物能够选择性清除衰老细胞，目前已有16项临床试验正在进行中...</p>
+                <p class="excerpt">衰老细胞积累是衰老的核心机制之一。Senolytic药物能够选择性清除衰老细胞，目前已有16项临床试验正在进行中，包括Fisetin、Dasatinib+Quercetin等...</p>
             </article>
             
             <article class="post-card">
                 <span class="tag tag-science">📖重要</span>
                 <h3>NMN中国临床试验汇总</h3>
                 <p class="date">2026-03-07</p>
-                <p class="excerpt">β-烟酰胺单核苷酸(NMN)作为NAD+前体，在全球已有23项临床试验，其中9项在中国开展...</p>
+                <p class="excerpt">β-烟酰胺单核苷酸(NMN)作为NAD+前体，在全球已有23项临床试验，其中9项在中国开展，涵盖抗衰老、IVF助孕、代谢调节等领域...</p>
             </article>
             
             <article class="post-card">
                 <span class="tag tag-news">🔬前沿</span>
                 <h3>二甲双胍长寿研究MILES成果发布</h3>
                 <p class="date">2026-03-06</p>
-                <p class="excerpt">作为最常用的2型糖尿病药物，二甲双胍被发现可能具有延长寿命的潜力。MILES研究提供了重要证据...</p>
+                <p class="excerpt">作为最常用的2型糖尿病药物，二甲双胍被发现可能具有延长寿命的潜力。MILES研究提供了重要证据，支持其作为长寿药物的潜力...</p>
             </article>
         </div>
     </div>
     
     <footer>
         <p>© 2026 朗生生物科技 LongBiosci</p>
-        <p style="font-size: 0.9rem; opacity: 0.7; margin-top: 0.5rem;">声明：本网站内容仅供科普参考，不构成医疗建议</p>
+        <p style="margin-top: 0.5rem; opacity: 0.7;">声明：本网站内容仅供科普参考，不构成医疗建议</p>
     </footer>
 </body>
 </html>
