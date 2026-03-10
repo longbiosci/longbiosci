@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LongBiosci - Anti-Aging Research</title>
+    <link rel="icon" href="/logo.jpg">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; color: #333; background: #f8f9fa; line-height: 1.6; }
+        header { background: white; padding: 2rem; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+        header img { height: 80px; margin-bottom: 1rem; }
+        header h1 { color: #00A86B; font-size: 2.5rem; margin-bottom: 0.5rem; }
+        header p { color: #666; font-size: 1.2rem; }
+        .lang-switch { margin-top: 1rem; }
+        .lang-switch a { color: #00A86B; text-decoration: none; margin: 0 1rem; }
+        
+        .container { max-width: 900px; margin: 2rem auto; padding: 0 1.5rem; }
+        
+        .section { background: white; border-radius: 12px; padding: 2rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+        .section h2 { color: #00A86B; margin-bottom: 1.5rem; font-size: 1.5rem; }
+        
+        .topics-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; }
+        .topic-card { 
+            background: #f8f9fa; border-radius: 12px; padding: 1.5rem; 
+            text-align: center; transition: all 0.3s; border: 2px solid transparent;
+        }
+        .topic-card:hover { border-color: #00A86B; transform: translateY(-3px); }
+        .topic-card h3 { color: #222; font-size: 1.1rem; margin-bottom: 0.5rem; }
+        .topic-card p { color: #666; font-size: 0.9rem; }
+        .topic-card a { display: block; color: #00A86B; text-decoration: none; margin-top: 0.8rem; font-weight: 500; }
+        
+        .stats { display: flex; justify-content: space-around; margin: 2rem 0; }
+        .stat { text-align: center; }
+        .stat-number { font-size: 2rem; font-weight: bold; color: #00A86B; }
+        .stat-label { color: #666; font-size: 0.9rem; }
+        
+        .news-item { padding: 1rem 0; border-bottom: 1px solid #eee; }
+        .news-item:last-child { border-bottom: none; }
+        .news-date { color: #999; font-size: 0.85rem; margin-bottom: 0.3rem; }
+        .news-title { color: #333; font-size: 1rem; font-weight: 600; margin-bottom: 0.5rem; }
+        .news-desc { color: #666; font-size: 0.9rem; }
+        .news-tag { display: inline-block; background: #e94560; color: white; padding: 2px 8px; border-radius: 3px; font-size: 0.75rem; margin-right: 5px; }
+        .news-tag.blue { background: #1976d2; }
+        .news-tag.green { background: #00A86B; }
+        
+        footer { background: #333; color: white; text-align: center; padding: 2rem; margin-top: 3rem; }
+        footer a { color: #aaa; text-decoration: none; margin: 0 1rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/logo.jpg" alt="LongBiosci">
+        <h1>LongBiosci</h1>
+        <p>Life Science for Longer Life</p>
+        <div class="lang-switch">
+            <a href="/zh/">中文</a>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="section">
+            <div class="stats">
+                <div class="stat"><div class="stat-number">50+</div><div class="stat-label">Clinical Trials</div></div>
+                <div class="stat"><div class="stat-number">200+</div><div class="stat-label">Research Papers</div></div>
+                <div class="stat"><div class="stat-number">8</div><div class="stat-label">Drug Categories</div></div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>🧪 Drug Categories</h2>
+            <div class="topics-grid">
+                <div class="topic-card">
+                    <h3>Senolytic</h3>
+                    <p>Clear senescent cells</p>
+                    <a href="/senolytic.html">View →</a>
+                </div>
+                <div class="topic-card">
+                    <h3>NMN / NAD+</h3>
+                    <p>Energy metabolism</p>
+                    <a href="/nmn.html">View →</a>
+                </div>
+                <div class="topic-card">
+                    <h3>Metformin</h3>
+                    <p>Longevity drug</p>
+                    <a href="/metformin.html">View →</a>
+                </div>
+                <div class="topic-card">
+                    <h3>Stem Cells</h3>
+                    <p>Cell therapy</p>
+                    <a href="/stemcell.html">View →</a>
+                </div>
+                <div class="topic-card">
+                    <h3>Telomere</h3>
+                    <p>Gene therapy</p>
+                    <a href="/telomere.html">View →</a>
+                </div>
+                <div class="topic-card">
+                    <h3>Melatonin</h3>
+                    <p>Sleep & aging</p>
+                    <a href="/melatonin.html">View →</a>
+                </div>
+                <div class="topic-card">
+                    <h3>Rapamycin</h3>
+                    <p>mTOR inhibitor</p>
+                    <a href="/rapamycin.html">View →</a>
+                </div>
+                <div class="topic-card">
+                    <h3>Spermidine</h3>
+                    <p>Autophagy</p>
+                    <a href="/spermidine.html">View →</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>📰 Today's Research - March 10, 2026</h2>
+            
+            <div class="news-item">
+                <div class="news-date">Nature Communications • 2026-03-10</div>
+                <div class="news-title">p38 MAPK regulates potassium homeostasis to extend lifespan</div>
+                <div class="news-desc">p38 MAPK-ATF-7 pathway upregulates CATP-3 in response to potassium scarcity, linking potassium regulation to longevity and immunity.</div>
+                <div class="news-tag">New Mechanism</div>
+            </div>
+            
+            <div class="news-item">
+                <div class="news-date">Nature Aging • 2026-03-10</div>
+                <div class="news-title">Dietary restriction as geroprotective intervention</div>
+                <div class="news-desc">Comprehensive review of dietary restriction across species, mechanisms, side effects and pharmacological mimetics.</div>
+                <div class="news-tag">Review</div>
+            </div>
+            
+            <div class="news-item">
+                <div class="news-date">Nature Aging • 2026-03-10</div>
+                <div class="news-title">Multi-tissue transcriptomic aging atlas in killifish</div>
+                <div class="news-desc">RNA sequencing across 13 tissues in African turquoise killifish reveals tissue-specific aging dynamics and predictive biomarkers.</div>
+                <div class="news-tag blue">Aging Atlas</div>
+            </div>
+            
+            <div class="news-item">
+                <div class="news-date">Nature Aging • 2026-03-10</div>
+                <div class="news-title">Gut microbiota transplant improves ovarian function</div>
+                <div class="news-desc">Transplanting gut microbiota from aged mice improves ovarian hormone levels in young mice, revealing causal role of aging gut microbiome.</div>
+                <div class="news-tag green">Gut Microbiome</div>
+            </div>
+            
+            <div class="news-item">
+                <div class="news-date">Endpoints News • 2026-03-10</div>
+                <div class="news-title">NewLimit raises $130M Series B for epigenetic reprogramming</div>
+                <div class="news-desc">Anti-aging biotech backed by Coinbase CEO Brian Armstrong secures $130M to advance epigenetic reprogramming technology.</div>
+                <div class="news-tag">Funding</div>
+            </div>
+            
+            <div class="news-item">
+                <div class="news-date">TechCrunch • 2026-03-10</div>
+                <div class="news-title">Altos Labs raises $1.2B in Series C</div>
+                <div class="news-desc">Jeff Bezos-backed longevity company secures $1.2B to advance "rejuvenation" technology in cardiovascular and neurological diseases.</div>
+                <div class="news-tag">Funding</div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>© 2026 LongBiosci</p>
+        <div style="margin-top:1rem;">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Contact</a>
+        </div>
+    </footer>
+</body>
+</html>

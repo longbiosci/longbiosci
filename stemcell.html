@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stem Cells - LongBiosci Clinical Trials</title>
+    <link rel="icon" href="/logo.jpg">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.6; color: #e0e0e0; background: #0a0a0a; min-height: 100vh; }
+        a { color: #00A86B; text-decoration: none; }
+        header { background: linear-gradient(135deg, #0a1628, #1a3a2f); color: white; padding: 3rem 2rem; text-align: center; }
+        header h1 { background: linear-gradient(135deg, #fff, #00A86B); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        nav { background: rgba(10,22,40,0.95); padding: 1rem; text-align: center; position: sticky; top: 0; z-index: 100; }
+        nav a { color: #a0dcd0; margin: 0 1rem; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 2rem; }
+        .trials-table { width: 100%; border-collapse: collapse; background: rgba(26,58,47,0.4); border-radius: 12px; overflow: hidden; }
+        .trials-table th, .trials-table td { padding: 1rem; text-align: left; border-bottom: 1px solid rgba(0,168,107,0.2); }
+        .trials-table th { background: rgba(0,168,107,0.2); color: #00A86B; }
+        .trials-table tr:hover { background: rgba(0,168,107,0.1); }
+        .status { padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.8rem; }
+        .status.recruiting { background: rgba(0,168,107,0.3); }
+        .status.active { background: rgba(0,100,200,0.3); }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/logo.jpg" alt="LongBiosci" style="height:50px;margin-bottom:1rem;">
+        <h1>Stem Cell Clinical Trials</h1>
+        <p>Stem cell therapy for anti-aging</p>
+    </header>
+    <nav>
+        <a href="/">← Back to Home</a>
+    </nav>
+    <div class="container">
+        <a href="/" style="color:#00A86B;display:inline-block;margin-bottom:1rem;">← Back to Home</a>
+        <h2 style="color:#00A86B;margin-bottom:1rem;">Active Stem Cell Trials</h2>
+        <table class="trials-table">
+            <thead>
+                <tr><th>NCT ID</th><th>Cell Type</th><th>Indication</th><th>Status</th><th>Location</th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="https://clinicaltrials.gov/ct2/show/NCT04174898" target="_blank">NCT04174898</a></td>
+                    <td>MSC</td>
+                    <td>Anti-Aging</td>
+                    <td><span class="status active">Active</span></td>
+                    <td>China</td>
+                </tr>
+                <tr>
+                    <td><a href="https://clinicaltrials.gov/ct2/show/NCT07124208" target="_blank">NCT07124208</a></td>
+                    <td>Stem Cells</td>
+                    <td>Randomized Trial</td>
+                    <td><span class="status recruiting">Recruiting</span></td>
+                    <td>USA</td>
+                </tr>
+                <tr>
+                    <td><a href="https://clinicaltrials.gov/ct2/show/NCT01828723" target="_blank">NCT01828723</a></td>
+                    <td>HSC</td>
+                    <td>Transplantation</td>
+                    <td><span class="status active">Active</span></td>
+                    <td>USA</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

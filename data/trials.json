@@ -1,0 +1,30 @@
+{
+  "senolytic": {
+    "name": "Senolytic",
+    "description": "Drugs that selectively clear senescent cells",
+    "trials": [
+      {"nct": "NCT04685590", "drug": "Senolytic", "indication": "Alzheimer's Disease", "status": "Recruiting", "location": "Washington University"},
+      {"nct": "NCT02848131", "drug": "Senolytic", "indication": "Chronic Kidney Disease", "status": "Recruiting", "location": "Mayo Clinic"},
+      {"nct": "NCT06133634", "drug": "Fisetin", "indication": "Vascular Function", "status": "Active", "location": "University of Colorado"},
+      {"nct": "NCT04063124", "drug": "Senolytic", "indication": "Alzheimer's Disease", "status": "Completed", "location": "University of Texas"}
+    ]
+  },
+  "nmn": {
+    "name": "NMN/NAD+",
+    "description": "β-Nicotinamide mononucleotide, NAD+ precursor",
+    "trials": [
+      {"nct": "NCT04571008", "drug": "NMN", "indication": "Organ System Biology", "status": "Completed", "location": "Washington University"},
+      {"nct": "NCT04685096", "drug": "NMN", "indication": "Cosmetics Anti-Aging", "status": "Completed", "location": "China"},
+      {"nct": "NCT05305677", "drug": "NMN", "indication": "PCOS", "status": "Completed", "location": "China"},
+      {"nct": "NCT06426355", "drug": "NMN", "indication": "IVF Assistance", "status": "Recruiting", "location": "China"}
+    ]
+  },
+  "metformin": {
+    "name": "Metformin",
+    "description": "Classic longevity drug",
+    "trials": [
+      {"nct": "NCT02432287", "drug": "Metformin", "indication": "Longevity (MILES)", "status": "Completed", "location": "Albert Einstein College"},
+      {"nct": "NCT01765946", "drug": "Metformin", "indication": "Longevity Genes", "status": "Completed", "location": "NIA"}
+    ]
+  }
+}
