@@ -1,77 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LongBiosci - 抗衰老、长寿科技最新研究资讯">
+    <meta name="keywords" content="抗衰老,长寿,senolytic,端粒,NAD+,mTOR">
     <title>LongBiosci - 长寿科技资讯</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --primary: #0f3460;
+            --secondary: #16213e;
+            --accent: #e94560;
+            --success: #00A86B;
+            --info: #1976d2;
+            --purple: #533483;
+        }
         body {
             font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
-            background: linear-gradient(135deg, #0f3460 0%, #16213e 100%);
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
             min-height: 100vh;
             padding: 40px 20px;
         }
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-        }
-        .header {
-            text-align: center;
-            margin-bottom: 50px;
-        }
+        .container { max-width: 900px; margin: 0 auto; }
+        
+        .header { text-align: center; margin-bottom: 50px; }
         .header h1 {
-            color: #fff;
-            font-size: 48px;
-            font-weight: 700;
-            margin-bottom: 10px;
+            color: #fff; font-size: clamp(32px, 8vw, 48px);
+            font-weight: 700; margin-bottom: 10px;
         }
-        .header p {
-            color: #aaa;
-            font-size: 18px;
-        }
+        .header p { color: #aaa; font-size: 18px; }
+        
         .nav-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 25px;
             margin-bottom: 40px;
         }
+        
         .nav-card {
-            background: white;
-            border-radius: 16px;
-            padding: 30px;
-            text-decoration: none;
-            color: inherit;
+            background: white; border-radius: 16px; padding: 30px;
+            text-decoration: none; color: inherit;
             transition: transform 0.3s, box-shadow 0.3s;
         }
         .nav-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 15px 40px rgba(0,0,0,0.3);
         }
-        .nav-card h2 {
-            color: #0f3460;
-            font-size: 24px;
-            margin-bottom: 10px;
+        .nav-card h2 { color: var(--primary); font-size: 24px; margin-bottom: 10px; }
+        .nav-card p { color: #666; font-size: 14px; }
+        .nav-card .icon { font-size: 36px; margin-bottom: 15px; }
+        
+        .daily-card { border-left: 5px solid var(--accent); }
+        .news-card { border-left: 5px solid var(--info); }
+        .research-card { border-left: 5px solid var(--success); }
+        .deep-card { border-left: 5px solid var(--purple); }
+        
+        .stats {
+            display: flex; justify-content: center; gap: 40px;
+            flex-wrap: wrap; margin: 30px 0;
         }
-        .nav-card p {
-            color: #666;
-            font-size: 14px;
-        }
-        .nav-card .icon {
-            font-size: 36px;
-            margin-bottom: 15px;
-        }
-        .daily-card { border-left: 5px solid #e94560; }
-        .news-card { border-left: 5px solid #1976d2; }
-        .research-card { border-left: 5px solid #00A86B; }
-        .deep-card { border-left: 5px solid #533483; }
+        .stat { text-align: center; }
+        .stat-num { color: var(--accent); font-size: 32px; font-weight: 700; }
+        .stat-label { color: #888; font-size: 14px; }
         
         .footer {
-            text-align: center;
-            color: #666;
-            padding: 30px;
-            font-size: 14px;
+            text-align: center; color: #666; padding: 30px;
+            font-size: 14px; border-top: 1px solid #333;
+        }
+        
+        @media (max-width: 600px) {
+            body { padding: 20px 15px; }
+            .nav-card { padding: 20px; }
         }
     </style>
 </head>
@@ -82,25 +84,28 @@
             <p>长寿科技资讯 · 抗衰老研究前沿</p>
         </div>
         
+        <div class="stats">
+            <div class="stat"><div class="stat-num">365+</div><div class="stat-label">研究论文</div></div>
+            <div class="stat"><div class="stat-num">50+</div><div class="stat-label">深度解读</div></div>
+            <div class="stat"><div class="stat-num">每日</div><div class="stat-label">更新</div></div>
+        </div>
+        
         <div class="nav-grid">
             <a href="daily/" class="nav-card daily-card">
                 <div class="icon">📰</div>
                 <h2>每日简报</h2>
                 <p>每天更新的抗衰老研究热点综述</p>
             </a>
-            
             <a href="news/" class="nav-card news-card">
                 <div class="icon">🔬</div>
                 <h2>行业资讯</h2>
                 <p>最新科研进展与行业动态</p>
             </a>
-            
             <a href="research/" class="nav-card research-card">
                 <div class="icon">📖</div>
                 <h2>深度研究</h2>
                 <p>重磅论文深度解读</p>
             </a>
-            
             <a href="deep-dive/" class="nav-card deep-card">
                 <div class="icon">🎯</div>
                 <h2>专题策划</h2>
@@ -109,7 +114,7 @@
         </div>
         
         <div class="footer">
-            <p>LongBiosci · 每日更新</p>
+            <p>🧬 LongBiosci · 抗衰老研究资讯</p>
         </div>
     </div>
 </body>
