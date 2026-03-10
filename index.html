@@ -3,26 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="LongBiosci - 抗衰老、长寿科技最新研究资讯">
-    <meta name="keywords" content="抗衰老,长寿,senolytic,端粒,NAD+,mTOR">
-    <title>LongBiosci - 长寿科技资讯</title>
+    
+    <!-- SEO -->
+    <meta name="description" content="LongBiosci - 抗衰老、长寿科技最新研究资讯。每日更新 senolytic、NAD+、端粒等热点研究。">
+    <meta name="keywords" content="抗衰老,长寿,senolytic,端粒,NAD+,mTOR,抗衰老药物,NMN">
+    <meta name="author" content="LongBiosci">
+    <link rel="canonical" href="https://longbiosci.github.io/longbiosci/">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="LongBiosci - 长寿科技资讯">
+    <meta property="og:description" content="抗衰老研究前沿，每日更新">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://longbiosci.github.io/longbiosci/">
+    <meta property="og:site_name" content="LongBiosci">
+    
+    <!-- Favicon -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
+    
+    <title>LongBiosci - 长寿科技资讯</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
         :root {
-            --primary: #0f3460;
-            --secondary: #16213e;
-            --accent: #e94560;
-            --success: #00A86B;
-            --info: #1976d2;
-            --purple: #533483;
+            --primary: #0f3460; --secondary: #16213e;
+            --accent: #e94560; --success: #00A86B;
+            --info: #1976d2; --purple: #533483;
         }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
             background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
-            min-height: 100vh;
-            padding: 40px 20px;
+            min-height: 100vh; padding: 40px 20px;
         }
         .container { max-width: 900px; margin: 0 auto; }
         
@@ -32,6 +42,14 @@
             font-weight: 700; margin-bottom: 10px;
         }
         .header p { color: #aaa; font-size: 18px; }
+        
+        .stats {
+            display: flex; justify-content: center; gap: 40px;
+            flex-wrap: wrap; margin: 30px 0;
+        }
+        .stat { text-align: center; }
+        .stat-num { color: var(--accent); font-size: 32px; font-weight: 700; }
+        .stat-label { color: #888; font-size: 14px; }
         
         .nav-grid {
             display: grid;
@@ -58,18 +76,12 @@
         .research-card { border-left: 5px solid var(--success); }
         .deep-card { border-left: 5px solid var(--purple); }
         
-        .stats {
-            display: flex; justify-content: center; gap: 40px;
-            flex-wrap: wrap; margin: 30px 0;
-        }
-        .stat { text-align: center; }
-        .stat-num { color: var(--accent); font-size: 32px; font-weight: 700; }
-        .stat-label { color: #888; font-size: 14px; }
-        
         .footer {
-            text-align: center; color: #666; padding: 30px;
-            font-size: 14px; border-top: 1px solid #333;
+            text-align: center; color: #aaa; padding: 30px;
+            font-size: 14px;
         }
+        .footer a { color: var(--accent); text-decoration: none; }
+        .footer a:hover { text-decoration: underline; }
         
         @media (max-width: 600px) {
             body { padding: 20px 15px; }
@@ -114,7 +126,8 @@
         </div>
         
         <div class="footer">
-            <p>🧬 LongBiosci · 抗衰老研究资讯</p>
+            <p><a href="about.html">关于我们</a> · <a href="sitemap.xml">网站地图</a></p>
+            <p style="margin-top: 10px;">🧬 LongBiosci · 抗衰老研究资讯</p>
         </div>
     </div>
 </body>
