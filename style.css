@@ -1,0 +1,108 @@
+/* LongBiosci 公共样式 */
+:root {
+    --primary: #0f3460;
+    --secondary: #16213e;
+    --accent: #e94560;
+    --success: #00A86B;
+    --info: #1976d2;
+    --purple: #533483;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    min-height: 100vh;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.header-main {
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    padding: 50px 40px;
+    text-align: center;
+    color: white;
+}
+
+.header-main h1 { font-size: 36px; margin-bottom: 10px; }
+.header-main p { color: #aaa; }
+
+.nav-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 30px;
+}
+
+.nav-card {
+    background: #f9f9f9;
+    border-radius: 12px;
+    padding: 25px;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.nav-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.nav-card h3 { color: var(--primary); font-size: 18px; margin-bottom: 8px; }
+.nav-card p { color: #666; font-size: 13px; }
+
+.back-link {
+    display: inline-block;
+    padding: 20px 30px;
+    color: var(--info);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.back-link:hover { text-decoration: underline; }
+
+.item {
+    background: #fafafa;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-left: 4px solid var(--info);
+}
+
+.item h3 { color: var(--primary); margin-bottom: 10px; }
+.item p { color: #555; line-height: 1.7; }
+
+.tag {
+    display: inline-block;
+    background: var(--success);
+    color: white;
+    padding: 3px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.tag.blue { background: var(--info); }
+.tag.purple { background: var(--purple); }
+
+.footer {
+    background: #f5f5f5;
+    padding: 25px;
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+}
+
+/* 响应式 */
+@media (max-width: 600px) {
+    .nav-grid { grid-template-columns: 1fr; }
+    .container { border-radius: 0; }
+}
