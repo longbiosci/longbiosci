@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+            width: 800px;
+            background: #f5f5f5;
+            min-height: 4000px;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            padding: 30px 25px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #e94560;
+        }
+        .header h1 {
+            color: #1a1a1a;
+            font-size: 38px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+        .header .subtitle {
+            color: #666;
+            font-size: 16px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            color: #fff;
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            padding: 12px 20px;
+            background: linear-gradient(135deg, #e94560 0%, #d63850 100%);
+            border-radius: 8px;
+        }
+        .item {
+            margin-bottom: 20px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 10px;
+            border: 1px solid #eee;
+        }
+        .item h3 {
+            color: #1a1a1a;
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .item p {
+            color: #444;
+            font-size: 20px;
+            line-height: 1.8;
+        }
+        .tag {
+            display: inline-block;
+            background: #e94560;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 14px;
+            margin-right: 8px;
+        }
+        .tag.blue { background: #1976d2; }
+        .tag.green { background: #00A86B; }
+        .tag.org { background: #ff9800; }
+        .tag.purple { background: #7b1fa2; }
+        .reference {
+            margin-top: 10px;
+            padding: 10px;
+            background: #fff;
+            border-radius: 6px;
+            border-left: 4px solid #e94560;
+        }
+        .reference p {
+            color: #666;
+            font-size: 15px;
+            margin: 0;
+        }
+        .source {
+            margin-top: 10px;
+            padding: 10px;
+            background: #fff;
+            border-radius: 6px;
+            border-left: 4px solid #1976d2;
+        }
+        .source p {
+            color: #1976d2;
+            font-size: 15px;
+            margin: 0;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #999;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>衰老研究最新进展速递</h1>
+            <div class="subtitle">第3期 · 2026年3月10日</div>
+        </div>
+        
+        <div class="section">
+            <h2>一、衰老生物学新发现</h2>
+            
+            <div class="item">
+                <h3>p38 MAPK调控钾离子稳态延长寿命</h3>
+                <p>研究发现p38 MAPK-ATF-7通路在秀丽隐杆线虫中上调CATP-3以应对钾缺乏，揭示了钾离子调控与寿命、免疫之间的关联。这一保守机制与渗透压应激反应不同，首次揭示钾离子稳态与长寿的直接关联。</p>
+                <span class="tag">Nature Communications</span><span class="tag blue">新机制</span>
+                <div class="reference">
+                    <p>📚 文献: p38 MAPK orchestrates cross-tissue potassium homeostasis (2026)</p>
+                </div>
+            </div>
+            
+            <div class="item">
+                <h3>饮食限制抗衰老综述</h3>
+                <p>Schmauck-Medina等综述了饮食限制作为geroprotective干预措施，综合了跨物种证据、机制、副作用和药理学模拟物。系统评估CR在多种物种中的延寿效果，为长寿干预策略提供全面参考。</p>
+                <span class="tag">Nature Aging</span><span class="tag blue">综述</span>
+                <div class="reference">
+                    <p>📚 文献: Dietary restriction in aging and longevity (2026)</p>
+                </div>
+            </div>
+            
+            <div class="item">
+                <h3>鱼类多组织衰老转录组图谱</h3>
+                <p>非洲鳉鱼13个组织、6个年龄段的RNA测序，揭示了跨组织的衰老动态和预测性生物标志物。这是短命脊椎动物模型的重要资源。</p>
+                <span class="tag">Nature Aging</span><span class="tag blue">衰老图谱</span>
+                <div class="reference">
+                    <p>📚 文献: Multi-tissue transcriptomic aging atlas (2026)</p>
+                </div>
+            </div>
+            
+            <div class="item">
+                <h3>肠道菌群移植改善卵巢功能</h3>
+                <p>移植衰老小鼠肠道微生物可改善年轻小鼠卵巢激素水平，揭示了衰老肠道微生物组对卵巢功能的因果影响。研究首次证明"estrobolome"（雌激素组）在卵巢衰老中的作用，为女性延寿提供新思路。</p>
+                <span class="tag">Nature Aging</span><span class="tag green">肠道菌群</span>
+                <div class="reference">
+                    <p>📚 文献: Estropausal gut microbiota transplant (2026)</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>二、抗衰老药物研发动态</h2>
+            
+            <div class="item">
+                <h3>NewLimit完成$130M B轮融资</h3>
+                <p>由Coinbase CEO Brian Armstrong支持的抗衰老生物技术公司NewLimit完成1.3亿美元B轮融资，专注表观遗传重编程技术，逆转换衰老细胞。表观遗传重编程、senolytics、NAD+增强剂成为热门靶点。</p>
+                <span class="tag org">融资</span>
+                <div class="source">
+                    <p>📡 来源: Endpoints News - 2026年3月</p>
+                </div>
+            </div>
+            
+            <div class="item">
+                <h3>AbbVie与MediTree达成$350M肥胖症合作</h3>
+                <p>AbbVie与MediTree达成价值3.5亿美元的合作协议，获得一款GLP-1受体激动剂的开发权，目标是在12周内实现近10%的体重减轻。制药巨头加速布局长寿相关代谢疾病领域。</p>
+                <span class="tag org">合作</span>
+                <div class="source">
+                    <p>📡 来源: FierceBiotech - 2026年3月</p>
+                </div>
+            </div>
+            
+            <div class="item">
+                <h3>Pfizer三特异性抗体II期成功</h3>
+                <p>Pfizer在特应性皮炎（湿疹）II期试验中取得成功，其三特异性抗体显示出显著的炎症改善效果。计划在2026年下半年启动III期试验，并拓展至其他自身免疫疾病。</p>
+                <span class="tag org">临床进展</span>
+                <div class="source">
+                    <p>📡 来源: FierceBiotech - 2026年3月</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>三、长寿科技产业资讯</h2>
+            
+            <div class="item">
+                <h3>Altos Labs再获$1.2B融资</h3>
+                <p>表观遗传重编程领军企业Altos Labs宣布完成12亿美元C轮融资，由Jeff Bezos旗下Bezos Expeditions领投。资金将用于推进其"年轻化"技术在心血管疾病、神经系统疾病等领域的临床转化。</p>
+                <span class="tag purple">大额融资</span>
+                <div class="source">
+                    <p>📡 来源: TechCrunch, Financial Times - 2026年3月</p>
+                </div>
+            </div>
+            
+            <div class="item">
+                <h3>Calico与AbbVie深化合作</h3>
+                <p>Google旗下抗衰老公司Calico Life Sciences与AbbVie扩大合作范围，新增两个针对衰老相关代谢疾病的项目。合作总金额已超过10亿美元。</p>
+                <span class="tag purple">战略合作</span>
+                <div class="source">
+                    <p>📡 来源:Endpoints News - 2026年3月</p>
+                </div>
+            </div>
+            
+            <div class="item">
+                <h3>FDA批准首例NAD+增强剂临床试验</h3>
+                <p>FDA批准了Sirtris Pharmaceuticals开发的NAD+前体药物SRT2104的II期临床试验，用于治疗衰老相关的代谢功能障碍。这是首个进入临床阶段的NAD+增强剂。</p>
+                <span class="tag green">FDA动态</span>
+                <div class="source">
+                    <p>📡 来源: FDA.gov, BioPharma Dive - 2026年3月</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            LongBiosci · 每日更新
+        </div>
+    </div>
+</body>
+</html>

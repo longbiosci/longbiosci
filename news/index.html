@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", -apple-system, sans-serif;
+            width: 800px;
+            background: linear-gradient(135deg, #0f3460 0%, #16213e 100%);
+            min-height: 2800px;
+            padding: 30px;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 45px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .header h1 {
+            color: #e94560;
+            font-size: 36px;
+            font-weight: 700;
+            border-bottom: 4px solid #e94560;
+            padding-bottom: 20px;
+            margin-bottom: 15px;
+        }
+        .header .subtitle {
+            color: #533483;
+            font-size: 22px;
+            font-weight: 600;
+        }
+        .section {
+            margin-bottom: 35px;
+        }
+        .section h2 {
+            color: #0f3460;
+            font-size: 26px;
+            font-weight: 700;
+            background: #eaeaea;
+            padding: 16px 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-left: 6px solid #e94560;
+        }
+        .item {
+            margin-bottom: 20px;
+            padding: 20px;
+            background: #fafafa;
+            border-radius: 12px;
+            border: 1px solid #eee;
+        }
+        .item h3 {
+            color: #1a1a2e;
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .item p {
+            color: #333;
+            font-size: 20px;
+            line-height: 1.9;
+        }
+        .tag {
+            display: inline-block;
+            background: #00A86B;
+            color: white;
+            padding: 5px 14px;
+            border-radius: 4px;
+            font-size: 15px;
+            margin-right: 6px;
+            font-weight: 600;
+        }
+        .tag.blue { background: #1976d2; }
+        .tag.red { background: #d32f2f; }
+        .tag.purple { background: #7b1fa2; }
+        .reference {
+            margin-top: 14px;
+            padding: 14px;
+            background: #fff3e0;
+            border-radius: 6px;
+            border-left: 4px solid #ff9800;
+        }
+        .reference p {
+            color: #e65100;
+            font-size: 16px;
+            margin: 0;
+        }
+        .source {
+            margin-top: 14px;
+            padding: 14px;
+            background: #e3f2fd;
+            border-radius: 6px;
+            border-left: 4px solid #1976d2;
+        }
+        .source p {
+            color: #1565c0;
+            font-size: 16px;
+            margin: 0;
+        }
+        .source a {
+            color: #1565c0;
+            text-decoration: underline;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 35px;
+            padding-top: 20px;
+            border-top: 2px dashed #ccc;
+            color: #666;
+            font-size: 18px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🧬 衰老研究最新进展速递</h1>
+            <div class="subtitle">第3期 · 2026年3月10日</div>
+        </div>
+        
+        <div class="section">
+            <h2>一、衰老生物学新发现</h2>
+            
+            <div class="item">
+                <h3>🔬 p38 MAPK调控钾离子稳态延长寿命</h3>
+                <p>研究发现p38 MAPK-ATF-7通路在秀丽隐杆线虫中上调CATP-3以应对钾缺乏，揭示了钾离子调控与寿命、免疫之间的关联。这一保守机制与渗透压应激反应不同，首次揭示钾离子稳态与长寿的直接关联，为理解跨组织衰老通信提供新模型。</p>
+                <span class="tag">Nature Communications</span><span class="tag blue">新机制</span>
+                <div class="reference">
+                    <p>📚 文献: p38 MAPK orchestrates cross-tissue potassium homeostasis (2026)</p>
+                </div>
+            </div>
+            
+            <div class="item">
+                <h3>🥗 饮食限制抗衰老综述</h3>
+                <p>Schmauck-Medina等综述了饮食限制作为geroprotective干预措施，综合了跨物种证据、机制、副作用和药理学模拟物。系统评估CR在多种物种中的延寿效果，总结了最新的药理学CR模拟物进展，探讨了副作用和临床转化挑战。</p>
+                <span class="tag">Nature Aging</span><span class="tag blue">综述</span>
+                <div class="reference">
+                    <p>📚 文献: Dietary restriction in aging and longevity (2026)</p>
+                </div>
+            </div>
+            
+            <div class="item">
+                <h3>🐟 鱼类多组织衰老转录组图谱</h3>
+                <p>非洲鳉鱼13个组织、6个年龄段的RNA测序，揭示了跨组织的衰老动态和预测性生物标志物。这是短命脊椎动物模型的重要资源，为研究跨组织衰老动力学提供了全面资源。sex-balanced的设计更具科学价值。</p>
+                <span class="tag">Nature Aging</span><span class="tag blue">衰老图谱</span>
+                <div class="reference">
+                    <p>📚 文献: Multi-tissue transcriptomic aging atlas (2026)</p>
+                </div>
+            </div>
+            
+            <div class="item">
+                <h3>🦠 肠道菌群移植改善卵巢功能</h3>
+                <p>移植衰老小鼠肠道微生物可改善年轻小鼠卵巢激素水平，揭示了衰老肠道微生物组对卵巢功能的因果影响。研究首次证明"estrobolome"（雌激素组）在卵巢衰老中的作用，为女性延寿提供新思路。这一发现出乎意料——"衰老"的肠道菌群竟然对卵巢健康有益！</p>
+                <span class="tag">Nature Aging</span><span class="tag purple">肠道菌群</span>
+                <div class="reference">
+                    <p>📚 文献: Estropausal gut microbiota transplant (2026)</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>二、抗衰老药物研发动态</h2>
+            
+            <div class="item">
+                <h3>💰 NewLimit完成$130M B轮融资</h3>
+                <p>由Coinbase CEO Brian Armstrong支持的抗衰老生物技术公司NewLimit完成1.3亿美元B轮融资，专注表观遗传重编程技术，逆转换衰老细胞。获得顶级投资者背书，产业化进程加速。表观遗传重编程、senolytics、NAD+增强剂成为热门靶点。</p>
+                <span class="tag red">融资</span>
+                <div class="source">
+                    <p>🔗 来源: Endpoints News</p>
+                </div>
+            </div>
+            
+            <div class="item">
+                <h3>💊 AbbVie布局肥胖症领域</h3>
+                <p>AbbVie与合作伙伴达成$350M协议，目标是在12周内实现近10%的体重减轻，进军长寿相关代谢领域。GLP-1相关靶点竞争激烈，长寿科技与代谢疾病的交叉成为投资热点，制药巨头加速布局长寿赛道。</p>
+                <span class="tag red">合作</span>
+                <div class="source">
+                    <p>🔗 来源: FierceBiotech</p>
+                </div>
+            </div>
+            
+            <div class="item">
+                <h3>💉 Pfizer三特异性抗体进展</h3>
+                <p>Pfizer在II期湿疹试验中获胜后，计划大规模推进三特异性抗体研发。免疫调节与衰老炎症密切相关，三特异性技术平台进展迅速，自免疾病与衰老关联成为研究热点。为炎症衰老(inflammaging)提供新思路。</p>
+                <span class="tag red">研发</span>
+                <div class="source">
+                    <p>🔗 来源: FierceBiotech</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>三、长寿科技产业资讯</h2>
+            
+            <div class="item">
+                <h3>📈 长寿科技领域投资持续升温</h3>
+                <p>抗衰老生物技术领域融资持续增长，表观遗传重编程、senolytics、NAD+增强剂成为热门靶点。大型药企（Pfizer、AbbVie、BMS）加速布局，长寿科技与代谢疾病的交叉领域成为投资热点。百亿级投资布局抗衰老赛道。</p>
+                <div class="source">
+                    <p>🔗 来源: Nature, Endpoints News, FierceBiotech</p>
+                </div>
+            </div>
+            
+            <div class="item">
+                <h3>🏛️ FDA人事变动影响</h3>
+                <p>FDA疫苗和生物制品部门负责人Vinay Prasad将于4月底离职，可能影响未来生物制品审批政策。政策走向值得持续关注。生物制品审批政策的变化可能影响抗衰老药物研发进程。</p>
+                <div class="source">
+                    <p>🔗 来源: Endpoints News</p>
+                </div>
+            </div>
+            
+            <div class="item">
+                <h3>🤖 AI在衰老研究中的应用</h3>
+                <p>AI技术正在加速衰老研究和药物发现，从疾病早筛到药物设计全面渗透。OMICmAge等多组学生物年龄时钟的出现，为精准医学提供新工具。AI驱动的药物发现正在改变长寿研发格局。</p>
+                <div class="source">
+                    <p>🔗 来源: FierceMedTech</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            LongBiosci · 每日更新
+        </div>
+    </div>
+</body>
+</html>
