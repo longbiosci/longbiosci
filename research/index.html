@@ -7,18 +7,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        :root { --primary: #0f3460; --secondary: #16213e; --accent: #e94560; --success: #00A86B; }
+        :root { --primary: #0f3460; --secondary: #16213e; --accent: #e94560; --success: #00A86B; --info: #1976d2; --purple: #533483; }
         body { font-family: "Noto Sans SC", sans-serif; background: linear-gradient(135deg, var(--primary), var(--secondary)); min-height: 100vh; padding: 40px 20px; }
         .container { max-width: 800px; margin: 0 auto; background: white; border-radius: 20px; overflow: hidden; }
         .header { background: linear-gradient(135deg, var(--success), #00c78b); padding: 40px; text-align: center; color: white; }
         .header h1 { font-size: 32px; margin-bottom: 10px; }
+        .header p { opacity: 0.9; }
         .content { padding: 30px; }
         .back-link { display: inline-block; margin-bottom: 20px; color: var(--success); text-decoration: none; }
+        
         .paper { background: #f9f9f9; border-radius: 12px; padding: 25px; margin-bottom: 20px; }
-        .paper h3 { color: var(--primary); font-size: 18px; margin-bottom: 10px; }
-        .paper .abstract { color: #666; line-height: 1.8; margin-bottom: 15px; }
-        .paper .meta { color: #999; font-size: 13px; }
+        .paper h3 { color: var(--primary); font-size: 18px; margin-bottom: 12px; }
+        .paper .abstract { color: #555; line-height: 1.8; margin-bottom: 15px; }
+        .paper .meta { color: #888; font-size: 13px; }
+        .paper .key-points { margin-top: 15px; padding-top: 15px; border-top: 1px dashed #ddd; }
+        .paper .key-points li { color: #666; margin-bottom: 8px; margin-left: 20px; }
+        
         .tag { display: inline-block; background: var(--success); color: white; padding: 3px 8px; border-radius: 4px; font-size: 12px; margin-right: 5px; }
+        .tag.info { background: var(--info); }
+        .tag.purple { background: var(--purple); }
+        
         .footer { background: #f5f5f5; padding: 20px; text-align: center; color: #888; }
     </style>
 </head>
@@ -33,32 +41,57 @@
             
             <div class="paper">
                 <h3>Senolytic 药物：清除衰老细胞的新策略</h3>
-                <p class="abstract">衰老细胞分泌的 SASP 是衰老相关炎症的重要原因。Senolytic 药物通过选择性清除衰老细胞，在多种动物模型中展现延长健康寿命的潜力。本文解读了达沙替尼+槲皮素联用的最新临床进展。</p>
-                <div class="meta">
-                    <span class="tag">Senolytic</span>
-                    <span class="tag" style="background:#1976d2">临床</span>
-                    关键词：衰老细胞、SASP、达沙替尼、槲皮素
-                </div>
+                <p class="abstract">衰老细胞分泌的 SASP（衰老相关分泌表型）是衰老相关炎症的重要原因。Senolytic 药物通过选择性清除衰老细胞，在多种动物模型中展现延长健康寿命的潜力。</p>
+                <div class="meta"><span class="tag">Senolytic</span><span class="tag info">临床</span> 关键词：衰老细胞、SASP、达沙替尼、槲皮素</div>
+                <ul class="key-points">
+                    <li><strong>核心机制：</strong>衰老细胞抵抗凋亡，Senolytic 破坏其存活通路</li>
+                    <li><strong>代表药物：</strong>D+Q（达沙替尼+槲皮素）、ABT-263、fisetin</li>
+                    <li><strong>临床进展：</strong>多项 II 期试验进行中，初步数据显示安全性良好</li>
+                </ul>
             </div>
             
             <div class="paper">
                 <h3>NAD+ 代谢与衰老：从机制到干预</h3>
-                <p class="abstract">NAD+ 水平随年龄下降与多种衰老表型相关。补充 NAD+ 前体（NMN、NR、NRPT）可提升 NAD+ 水平，改善代谢功能。本文综述了近年来的临床证据和机制研究。</p>
-                <div class="meta">
-                    <span class="tag">NAD+</span>
-                    <span class="tag" style="background:#1976d2">代谢</span>
-                    关键词：NMN、NR、NAD+、Sirtuins
-                </div>
+                <p class="abstract">NAD+ 水平随年龄下降与多种衰老表型相关。补充 NAD+ 前体（NMN、NR、NRPT）可提升 NAD+ 水平，改善代谢功能。</p>
+                <div class="meta"><span class="tag">NAD+</span><span class="tag info">代谢</span> 关键词：NMN、NR、NAD+、Sirtuins</div>
+                <ul class="key-points">
+                    <li><strong>NAD+ 作用：</strong>作为 Sirtuins、PARP、CD38 等酶的辅酶</li>
+                    <li><strong>前体选择：</strong>NMN（烟酰胺单核苷酸）、NR（烟酰胺核糖）、NRPT</li>
+                    <li><strong>临床证据：</strong>多项试验显示可提升 NAD+ 水平，改善代谢指标</li>
+                </ul>
             </div>
             
             <div class="paper">
                 <h3>端粒与衰老：生物学年龄的分子时钟</h3>
-                <p class="abstract">端粒长度被认为是生物学年龄的重要标志。白藜芦醇、TA-65 等天然化合物在激活端粒酶、延缓端粒磨损方面的研究取得新进展。</p>
-                <div class="meta">
-                    <span class="tag">端粒</span>
-                    <span class="tag" style="background:#533483">新靶点</span>
-                    关键词：端粒酶、白藜芦醇、生物学年龄
-                </div>
+                <p class="abstract">端粒长度随细胞分裂逐渐缩短，被视为生物学年龄的重要标志。白藜芦醇、TA-65 等在激活端粒酶、延缓端粒磨损方面有研究。</p>
+                <div class="meta"><span class="tag">端粒</span><span class="tag purple">新靶点</span> 关键词：端粒酶、生物学年龄、白藜芦醇</div>
+                <ul class="key-points">
+                    <li><strong>端粒作用：</strong>保护染色体末端，每次细胞分裂缩短 50-200 bp</li>
+                    <li><strong>干预策略：</strong>端粒酶激活、端粒延长因子、端粒保护剂</li>
+                    <li><strong>检测方法：</strong>qPCR、流式细胞术、第三方检测服务</li>
+                </ul>
+            </div>
+            
+            <div class="paper">
+                <h3>mTOR 抑制剂：雷帕霉素的抗衰老潜力</h3>
+                <p class="abstract">mTOR（哺乳动物雷帕霉素靶蛋白）是细胞生长的核心调控因子。抑制 mTOR 可激活自噬，延缓衰老。</p>
+                <div class="meta"><span class="tag">mTOR</span><span class="tag info">药物</span> 关键词：雷帕霉素、rapamycin、自噬</div>
+                <ul class="key-points">
+                    <li><strong>机制：</strong>抑制 mTORC1/2，激活自噬，抑制蛋白合成</li>
+                    <li><strong>临床应用：</strong>器官移植免疫抑制，近年拓展到抗衰老</li>
+                    <li><strong>风险：</strong>代谢副作用、免疫抑制，需医生指导下使用</li>
+                </ul>
+            </div>
+            
+            <div class="paper">
+                <h3>热量限制：最有力的抗衰老干预</h3>
+                <p class="abstract">热量限制（Calorie Restriction）是最早被发现、最有力的延寿干预。间歇性禁食、轻断食等衍生方式也在研究中。</p>
+                <div class="meta"><span class="tag">热量限制</span><span class="tag">生活方式</span> 关键词：CR、间歇性禁食、轻断食</div>
+                <ul class="key-points">
+                    <li><strong>延寿效果：</strong>动物实验显示可延长 30-50% 寿命</li>
+                    <li><strong>衍生方式：</strong>5:2 轻断食、16:8 间歇性禁食</li>
+                    <li><strong>注意事项：</strong>需保证营养，长期坚持有难度</li>
+                </ul>
             </div>
         </div>
         <div class="footer">
