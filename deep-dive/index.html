@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        :root { --primary: #0f3460; --secondary: #16213e; --accent: #e94560; --purple: #533483; }
+        :root { --primary: #0f3460; --secondary: #16213e; --accent: #e94560; --purple: #533483; --success: #00A86B; }
         body { font-family: "Noto Sans SC", sans-serif; background: linear-gradient(135deg, var(--primary), var(--secondary)); min-height: 100vh; padding: 40px 20px; }
         .container { max-width: 900px; margin: 0 auto; }
         .header { text-align: center; color: white; margin-bottom: 40px; }
@@ -16,11 +16,16 @@
         .topic-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; }
         .topic-card { background: white; border-radius: 16px; overflow: hidden; transition: transform 0.3s; }
         .topic-card:hover { transform: translateY(-5px); }
-        .topic-card .cover { height: 160px; background: linear-gradient(135deg, var(--primary), var(--purple)); display: flex; align-items: center; justify-content: center; color: white; font-size: 48px; }
+        .topic-card .cover { height: 140px; background: linear-gradient(135deg, var(--primary), var(--purple)); display: flex; align-items: center; justify-content: center; color: white; font-size: 48px; }
         .topic-card .content { padding: 20px; }
-        .topic-card h3 { color: var(--primary); margin-bottom: 10px; }
-        .topic-card p { color: #666; font-size: 14px; line-height: 1.6; }
-        .topic-card .meta { margin-top: 15px; padding-top: 15px; border-top: 1px solid #eee; color: #999; font-size: 13px; }
+        .topic-card h3 { color: var(--primary); margin-bottom: 10px; font-size: 18px; }
+        .topic-card p { color: #666; font-size: 14px; line-height: 1.7; margin-bottom: 15px; }
+        .topic-card .meta { padding-top: 15px; border-top: 1px solid #eee; color: #999; font-size: 13px; }
+        
+        .topic-card.nad .cover { background: linear-gradient(135deg, #e94560, #533483); }
+        .topic-card.seno .cover { background: linear-gradient(135deg, #00A86B, #00c78b); }
+        .topic-card.mtor .cover { background: linear-gradient(135deg, #1976d2, #0d47a1); }
+        .topic-card.telomere .cover { background: linear-gradient(135deg, #533483, #7b1fa2); }
         
         .back-link { display: inline-block; margin-bottom: 20px; color: white; text-decoration: none; opacity: 0.8; }
         .back-link:hover { opacity: 1; }
@@ -37,39 +42,63 @@
         </div>
         
         <div class="topic-grid">
-            <div class="topic-card">
+            <div class="topic-card nad">
                 <div class="cover">💊</div>
                 <div class="content">
                     <h3>NAD+ 前体哪家强？</h3>
                     <p>NMN、NR、NRPT、NMN+... 全面对比主流 NAD+ 前体的功效、剂量、安全性，帮你做出明智选择。</p>
-                    <div class="meta">更新于 2026-03-10</div>
+                    <p><strong>核心结论：</strong>各有优势，NMN 转化直接，NR 吸收好，组合使用可能更佳。</p>
+                    <div class="meta">🕐 阅读 5 分钟 · 更新于 2026-03-10</div>
                 </div>
             </div>
             
-            <div class="topic-card">
+            <div class="topic-card seno">
                 <div class="cover">🧫</div>
                 <div class="content">
                     <h3>Senolytic 药物实操指南</h3>
                     <p>达沙替尼+槲皮素怎么吃？剂量、周期、注意事项全面解读，附临床数据。</p>
-                    <div class="meta">更新于 2026-03-08</div>
+                    <p><strong>推荐方案：</strong>D+Q 组合，每周一到两次，需持续监测。</p>
+                    <div class="meta">🕐 阅读 8 分钟 · 更新于 2026-03-08</div>
                 </div>
             </div>
             
-            <div class="topic-card">
+            <div class="topic-card mtor">
                 <div class="cover">⏱️</div>
                 <div class="content">
                     <h3>mTOR 抑制剂：雷帕霉素</h3>
                     <p>延年益寿的热门候选？深度解析雷帕霉素的抗衰老机制、临床进展与使用风险。</p>
-                    <div class="meta">更新于 2026-03-05</div>
+                    <p><strong>注意事项：</strong>需医生指导，不可自行使用。</p>
+                    <div class="meta">🕐 阅读 6 分钟 · 更新于 2026-03-05</div>
+                </div>
+            </div>
+            
+            <div class="topic-card telomere">
+                <div class="cover">⏳</div>
+                <div class="content">
+                    <h3>端粒：生物学年龄的时钟</h3>
+                    <p>端粒长度与衰老的关系，延长端粒的可能策略，以及相关检测方法。</p>
+                    <p><strong>检测建议：</strong>可通过专业机构检测，但解读需谨慎。</p>
+                    <div class="meta">🕐 阅读 5 分钟 · 更新于 2026-03-01</div>
                 </div>
             </div>
             
             <div class="topic-card">
-                <div class="cover">🔬</div>
+                <div class="cover">🍽️</div>
                 <div class="content">
-                    <h3>端粒：生物学年龄的时钟</h3>
-                    <p>端粒长度与衰老的关系，延长端粒的可能策略，以及相关检测方法。</p>
-                    <div class="meta">更新于 2026-03-01</div>
+                    <h3>轻断食完全指南</h3>
+                    <p>16:8、5:2、隔日禁食... 哪种方式适合你？科学解读轻断食的原理与实操。</p>
+                    <p><strong>建议：</strong>循序渐进，身体不适时停止。</p>
+                    <div class="meta">🕐 阅读 7 分钟 · 更新于 2026-02-25</div>
+                </div>
+            </div>
+            
+            <div class="topic-card">
+                <div class="cover">🧬</div>
+                <div class="content">
+                    <h3>抗衰老补充剂红黑榜</h3>
+                    <p>白藜芦醇、PQQ、辅酶 Q10... 盘点热门补充剂的证据等级与智商税。</p>
+                    <p><strong>原则：</strong>优先选择证据充分的，警惕过度营销。</p>
+                    <div class="meta">🕐 阅读 10 分钟 · 更新于 2026-02-20</div>
                 </div>
             </div>
         </div>
