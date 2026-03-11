@@ -15,10 +15,15 @@
         .header p { color: #aaa; }
         .content { padding: 30px; }
         .back-link { display: inline-block; margin-bottom: 20px; color: var(--info); text-decoration: none; }
+        
         .item { background: #f9f9f9; border-radius: 12px; padding: 20px; margin-bottom: 15px; border-left: 4px solid var(--info); }
         .item h3 { color: var(--primary); margin-bottom: 10px; }
         .item p { color: #666; line-height: 1.8; }
         .item .date { color: #999; font-size: 13px; margin-top: 10px; }
+        .item .tag { display: inline-block; background: var(--success); color: white; padding: 3px 8px; border-radius: 4px; font-size: 12px; margin-right: 5px; }
+        
+        .section-title { color: var(--primary); font-size: 18px; font-weight: 700; margin: 25px 0 15px; padding-bottom: 10px; border-bottom: 2px solid #eee; }
+        
         .footer { background: #f5f5f5; padding: 20px; text-align: center; color: #888; }
     </style>
 </head>
@@ -31,32 +36,58 @@
         <div class="content">
             <a href="../" class="back-link">← 返回首页</a>
             
+            <div class="section-title">💰 融资动态</div>
+            
             <div class="item">
-                <h3>💰 抗衰老 biotech 获亿元融资</h3>
-                <p>专注于 senolytic 药物研发的生物科技公司完成 B 轮融资，加速临床试验推进。</p>
-                <div class="date">2026-03-10</div>
+                <h3>抗衰老 biotech 持续吸金，多家公司完成大额融资</h3>
+                <p>2026 年以来，专注于 senolytic 药物、抗衰老代谢疗法的多家生物科技公司完成 B 轮融资，金额超亿元。投资方包括顶级 VC 和药企战略投资部。</p>
+                <div class="date"><span class="tag">融资</span> 2026-03</div>
+            </div>
+            
+            <div class="section-title">🧪 临床进展</div>
+            
+            <div class="item">
+                <h3>Senolytic 药物进入 II 期临床</h3>
+                <p>达沙替尼+槲皮素（D+Q）组合在多项 II 期临床试验中显示安全性可控，疗效数据积极。多家机构正在探索其在不同适应症的应用。</p>
+                <div class="date"><span class="tag" style="background:#1976d2">临床</span> 2026-03</div>
             </div>
             
             <div class="item">
-                <h3>🧪 NAD+ 前体临床新进展</h3>
-                <p>多项临床研究显示 NMN、NR 等 NAD+ 前体在改善代谢功能方面的潜力。</p>
-                <div class="date">2026-03-09</div>
+                <h3>NAD+ 前体临床新数据</h3>
+                <p>NMN、NR 等 NAD+ 前体在多项临床试验中显示可提升 NAD+ 水平，改善代谢功能。长期安全性数据陆续公布。</p>
+                <div class="date"><span class="tag" style="background:#1976d2">临床</span> 2026-02</div>
+            </div>
+            
+            <div class="section-title">🔬 技术突破</div>
+            
+            <div class="item">
+                <h3>AI 加速抗衰老药物发现</h3>
+                <p>基于深度学习的药物筛选平台显著缩短了抗衰老候选药物的发现周期。多个新靶点被发现，多个候选分子进入临床前评估。</p>
+                <div class="date"><span class="tag" style="background:#533483">AI</span> 2026-03</div>
             </div>
             
             <div class="item">
-                <h3>🤖 AI 药物设计加速</h3>
-                <p>AI 辅助抗衰老药物筛选效率提升 10 倍，加速新靶点发现。</p>
-                <div class="date">2026-03-08</div>
+                <h3>端粒酶激活策略新进展</h3>
+                <p>通过基因治疗或小分子激活端粒酶的策略在动物模型中展现初步效果。人体安全性评估正在进行中。</p>
+                <div class="date"><span class="tag" style="background:#533483">新技术</span> 2026-02</div>
+            </div>
+            
+            <div class="section-title">📰 行业要闻</div>
+            
+            <div class="item">
+                <h3>抗衰老写入国家级科技规划</h3>
+                <p>多个国家将抗衰老技术纳入重点科技发展方向，设立专项基金支持基础研究和转化应用。</p>
+                <div class="date"><span class="tag" style="background:#e94560">政策</span> 2026-01</div>
             </div>
             
             <div class="item">
-                <h3>📊 端粒生物学新发现</h3>
-                <p>端粒酶激活策略在动物模型中展现延缓衰老的初步效果。</p>
-                <div class="date">2026-03-07</div>
+                <h3>国际抗衰老大会即将召开</h3>
+                <p>年度抗衰老研究学术会议将于下半年举行，预计将有超过 5000 名研究者参会，涵盖 senolytic、代谢、端粒等多个方向。</p>
+                <div class="date"><span class="tag">会议</span> 2026-01</div>
             </div>
         </div>
         <div class="footer">
-            <p>🧬 LongBiosci · 每日更新</p>
+            <p>🧬 LongBiosci · 每周更新</p>
         </div>
     </div>
 </body>
