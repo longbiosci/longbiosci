@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LongBiosci - Anti-Aging Research & Biotechnology</title>
+    <meta name="description" content="Latest anti-aging drug development, clinical trial data, and academic literature analysis">
+    <meta name="keywords" content="anti-aging, longevity, Senolytic, NMN, metformin, clinical trial, biotechnology">
+    <link rel="icon" href="/logo.jpg">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.6; 
+            color: #e0e0e0;
+            background: #0a0a0a;
+            min-height: 100vh;
+        }
+        a { color: #00A86B; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        
+        header {
+            background: linear-gradient(135deg, #0a1628 0%, #1a3a2f 50%, #0d1f17 100%);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: radial-gradient(circle at 20% 50%, rgba(0,168,107,0.15) 0%, transparent 50%),
+                        radial-gradient(circle at 80% 50%, rgba(0,137,123,0.15) 0%, transparent 50%);
+            pointer-events: none;
+        }
+        header h1 { 
+            font-size: 3rem; margin-bottom: 0.5rem;
+            position: relative; z-index: 1;
+            background: linear-gradient(135deg, #fff 0%, #00A86B 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        header p { font-size: 1.3rem; opacity: 0.9; position: relative; z-index: 1; color: #a0dcd0; }
+        
+        .lang-switch {
+            position: absolute; top: 1.5rem; right: 2rem; z-index: 10;
+        }
+        .lang-switch a {
+            color: rgba(255,255,255,0.8); text-decoration: none;
+            padding: 0.5rem 1rem; border: 1px solid rgba(255,255,255,0.3);
+            border-radius: 20px; margin-left: 0.5rem; font-size: 0.85rem;
+            transition: all 0.3s;
+        }
+        .lang-switch a:hover { background: rgba(255,255,255,0.1); border-color: #00A86B; }
+        .lang-switch a.active { background: #00A86B; color: white; border-color: #00A86B; }
+        
+        nav {
+            background: rgba(10,22,40,0.95); padding: 1.2rem;
+            text-align: center; box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+            position: sticky; top: 0; z-index: 100;
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(0,168,107,0.2);
+        }
+        nav a {
+            color: #a0dcd0; text-decoration: none;
+            margin: 0 1.5rem; font-weight: 500;
+            position: relative;
+        }
+        nav a:hover { color: #00A86B; }
+        
+        .container { max-width: 1100px; margin: 0 auto; padding: 2rem 1.5rem; }
+        
+        .hero {
+            background: linear-gradient(135deg, rgba(26,58,47,0.6) 0%, rgba(13,31,23,0.8) 100%);
+            border-radius: 20px; padding: 3rem; margin-bottom: 2rem;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+            border: 1px solid rgba(0,168,107,0.2);
+            text-align: center;
+        }
+        .hero h2 { color: #00A86B; margin-bottom: 1rem; font-size: 1.8rem; }
+        .hero p { color: #c0e0d8; font-size: 1.1rem; max-width: 700px; margin: 0 auto; }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .stat-card {
+            background: linear-gradient(135deg, rgba(26,58,47,0.4) 0%, rgba(13,31,23,0.6) 100%);
+            border-radius: 16px; padding: 1.5rem;
+            border: 1px solid rgba(0,168,107,0.15);
+            text-align: center;
+        }
+        .stat-card .number { font-size: 2.5rem; font-weight: bold; color: #00A86B; }
+        .stat-card .label { color: #7ab8a0; font-size: 0.9rem; margin-top: 0.5rem; }
+        
+        .section-title {
+            color: #00A86B; font-size: 1.5rem;
+            margin-bottom: 1.5rem; padding-bottom: 0.5rem;
+            border-bottom: 2px solid rgba(0,168,107,0.3);
+        }
+        
+        .region-tabs { display: flex; gap: 1rem; margin-bottom: 1.5rem; }
+        .region-tab {
+            padding: 0.75rem 1.5rem; border: 2px solid #00A86B;
+            border-radius: 10px; cursor: pointer; font-weight: 500;
+            color: #a0dcd0; transition: all 0.3s;
+        }
+        .region-tab.active { background: #00A86B; color: white; }
+        
+        .posts { display: grid; gap: 1.5rem; }
+        .post-card {
+            background: linear-gradient(135deg, rgba(26,58,47,0.4) 0%, rgba(13,31,23,0.6) 100%);
+            border-radius: 16px; padding: 1.8rem;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+            border: 1px solid rgba(0,168,107,0.15);
+            transition: all 0.3s;
+        }
+        .post-card:hover { transform: translateY(-5px); border-color: rgba(0,168,107,0.4); }
+        .post-card h3 { color: #e8f5f0; margin-bottom: 0.5rem; font-size: 1.2rem; }
+        .post-card .meta { color: #7ab8a0; font-size: 0.8rem; margin-bottom: 0.8rem; }
+        .post-card .excerpt { color: #b0d8cc; line-height: 1.7; }
+        
+        .source-link {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.4rem 0.8rem;
+            background: rgba(0,168,107,0.2);
+            border-radius: 6px;
+            font-size: 0.85rem;
+            color: #00A86B;
+        }
+        .source-link:hover { background: rgba(0,168,107,0.3); }
+        
+        .citation {
+            margin-top: 1rem;
+            padding: 1rem;
+            background: rgba(0,0,0,0.2);
+            border-radius: 8px;
+            font-size: 0.85rem;
+            color: #888;
+            border-left: 3px solid #00A86B;
+        }
+        
+        .tag {
+            display: inline-block; padding: 0.3rem 0.8rem;
+            border-radius: 20px; font-size: 0.75rem; margin-right: 0.5rem;
+            font-weight: 500;
+        }
+        .tag-research { background: linear-gradient(135deg, #1565c0, #0d47a1); color: white; }
+        .tag-news { background: linear-gradient(135deg, #7b1fa2, #4a148c); color: white; }
+        .tag-science { background: linear-gradient(135deg, #2e7d32, #1b5e20); color: white; }
+        .tag-trial { background: linear-gradient(135deg, #00897b, #00695c); color: white; }
+        
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .category-card {
+            background: linear-gradient(135deg, rgba(26,58,47,0.4) 0%, rgba(13,31,23,0.6) 100%);
+            border-radius: 16px; padding: 2rem;
+            border: 1px solid rgba(0,168,107,0.15);
+            transition: all 0.3s;
+        }
+        .category-card:hover { border-color: rgba(0,168,107,0.4); transform: translateY(-3px); }
+        .category-card h3 { color: #00A86B; margin-bottom: 0.8rem; }
+        .category-card p { color: #b0d8cc; font-size: 0.95rem; }
+        .category-card .count { color: #7ab8a0; font-size: 0.85rem; margin-top: 1rem; }
+        
+        .today-news { margin: 2rem 0; }
+        .today-news .news-item { 
+            background: rgba(0,168,107,0.1); border-radius: 12px; 
+            padding: 1.2rem; margin-bottom: 1rem; border-left: 3px solid #00A86B; 
+        }
+        .today-news h3 { color: #e8f5f0; font-size: 1rem; margin: 0.5rem 0; }
+        .today-news .meta { color: #7ab8a0; font-size: 0.85rem; }
+        
+        .toc {
+            background: rgba(0,168,107,0.1);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .toc h3 { color: #00A86B; margin-bottom: 1rem; }
+        .toc ul { list-style: none; }
+        .toc li { margin: 0.5rem 0; }
+        .toc a { color: #a0dcd0; }
+        
+        footer {
+            background: #0a1628; color: #7ab8a0;
+            text-align: center; padding: 2.5rem; margin-top: 3rem;
+            border-top: 1px solid rgba(0,168,107,0.2);
+        }
+        
+        .region-content { display: none; }
+        .region-content.active { display: block; }
+        
+        @media (max-width: 768px) {
+            header { padding: 2rem 1rem; }
+            header h1 { font-size: 1.8rem; }
+            .container { padding: 1rem; }
+            .stats { grid-template-columns: repeat(2, 1fr); }
+            nav { overflow-x: auto; }
+            nav a { margin: 0 0.6rem; font-size: 0.9rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="lang-switch">
+            <a href="/" class="active">English</a>
+            <a href="/zh/">中文</a>
+        </div>
+        <img src="/logo.jpg" alt="LongBiosci" style="height:60px;margin-bottom:0.5rem;">
+        <h1>LongBiosci</h1>
+        <p>Life Science for Longer Life</p>
+    </header>
+    
+    <nav>
+        <a href="#">Home</a>
+        <a href="#research">Research</a>
+        <a href="#trials">Clinical Trials</a>
+        <a href="#literature">Literature</a>
+        <a href="#about">About</a>
+    </nav>
+    
+    <div class="container">
+        <div class="hero">
+            <h2>Welcome to LongBiosci</h2>
+            <p>We are dedicated to anti-aging drug research, tracking global clinical trial progress, and providing professional life science information.</p>
+        </div>
+        
+        <div class="stats">
+            <div class="stat-card">
+                <div class="number">50+</div>
+                <div class="label">Anti-Aging Clinical Trials</div>
+            </div>
+            <div class="stat-card">
+                <div class="number">200+</div>
+                <div class="label">Research Papers</div>
+            </div>
+            <div class="stat-card">
+                <div class="number">15+</div>
+                <div class="label">Partner Institutions</div>
+            </div>
+            <div class="stat-card">
+                <div class="number">9</div>
+                <div class="label">China Clinical Trials</div>
+            </div>
+        </div>
+        
+        <div class="toc">
+            <h3>📑 Quick Navigation</h3>
+            <ul>
+                <li><a href="#senolytic">🧪 Senolytic</a></li>
+                <li><a href="#nmn">💊 NMN/NAD+</a></li>
+                <li><a href="#metformin">💉 Metformin</a></li>
+                <li><a href="#stemcell">🧬 Stem Cells</a></li>
+                <li><a href="#telomere">🔬 Telomere</a></li>
+            </ul>
+        </div>
+        
+        <h2 class="section-title" id="today">📰 Today's Research</h2>
+        
+        <div class="today-news">
+            <div class="news-item">
+                <span class="tag tag-news">🆕 New Paper</span>
+                <h3>β-Nicotinamide mononucleotide preserves muscle strength in septic patients</h3>
+                <p class="meta">Source: Scientific Reports | March 17, 2026</p>
+                <a href="https://pubmed.ncbi.nlm.nih.gov/41792260/" target="_blank" class="source-link">📖 Read Original →</a>
+            </div>
+            
+            <div class="news-item">
+                <span class="tag tag-research">⭐ Major</span>
+                <h3>Natural flavonoid dihydromyricetin targets senescent cells via p53 pathway</h3>
+                <p class="meta">Source: Nature Communications | March 6, 2026</p>
+                <a href="https://pubmed.ncbi.nlm.nih.gov/41792133/" target="_blank" class="source-link">📖 Read Original →</a>
+            </div>
+            
+            <div class="news-item">
+                <span class="tag tag-science">📖 Important</span>
+                <h3>Decreased Glucose Metabolism and Declined Chaperones Are Unique Features of Aging Eye</h3>
+                <p class="meta">Source: Aging Cell | March 2026</p>
+                <a href="https://pubmed.ncbi.nlm.nih.gov/41786630/" target="_blank" class="source-link">📖 Read Original →</a>
+            </div>
+        </div>
+        
+        <h2 class="section-title" id="research">📖 Featured Literature</h2>
+        
+        <article class="post-card" id="senolytic">
+            <span class="tag tag-research">⭐ Major</span>
+            <span class="tag tag-trial">Clinical Trial</span>
+            <h3>Senolytic Drugs: New Strategy to Clear Senescent Cells</h3>
+            <p class="meta">March 8, 2026 | Source: Nature Reviews Drug Discovery</p>
+            <p class="excerpt">Senescent cell accumulation is a core mechanism of aging. Senolytic drugs can selectively clear senescent cells. Currently, 16 clinical trials are underway globally.</p>
+            <div class="source-link">
+                📎 Links: <a href="https://clinicaltrials.gov/search?cond=senolytic" target="_blank">ClinicalTrials.gov</a> | 
+                <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank">PubMed</a>
+            </div>
+        </article>
+        
+        <article class="post-card" id="nmn">
+            <span class="tag tag-science">📖 Important</span>
+            <span class="tag tag-trial">Clinical Trial</span>
+            <h3>NMN Clinical Trials in China (9 Studies)</h3>
+            <p class="meta">March 7, 2026 | Source: ClinicalTrials.gov</p>
+            <p class="excerpt">β-Nicotinamide mononucleotide (NMN), as a NAD+ precursor, has 23 clinical trials globally, with 9 conducted in China.</p>
+            <div class="source-link">
+                📎 Links: <a href="https://clinicaltrials.gov/search?cond=NMN" target="_blank">ClinicalTrials.gov</a>
+            </div>
+        </article>
+        
+        <article class="post-card" id="metformin">
+            <span class="tag tag-science">📖 Important</span>
+            <h3>Metformin Longevity Study (MILES) Results</h3>
+            <p class="meta">March 6, 2026 | Source: Albert Einstein College of Medicine</p>
+            <p class="excerpt">As the most commonly used type 2 diabetes drug, metformin has been found to potentially have life-extending effects.</p>
+            <div class="source-link">
+                📎 Links: <a href="https://clinicaltrials.gov/ct2/show/NCT02432287" target="_blank">NCT02432287 (MILES)</a> | 
+                <a href="https://pubmed.ncbi.nlm.nih.gov/30663776/" target="_blank">PubMed</a>
+            </div>
+        </article>
+        
+        <h2 class="section-title" id="trials">📊 Clinical Trial Database</h2>
+        <div class="category-grid">
+            <div class="category-card">
+                <h3>🧪 Senolytic</h3>
+                <p>Drugs that clear senescent cells</p>
+                <div class="count"><a href="https://clinicaltrials.gov/search?cond=senolytic" target="_blank" style="color:#00A86B;">→ <a href="/senolytic.html" style="color:#00A86B;">View All Trials</a></a></div>
+            </div>
+            <div class="category-card">
+                <h3>💊 NMN/NAD+</h3>
+                <p>NAD+ precursor supplements</p>
+                <div class="count"><a href="https://clinicaltrials.gov/search?cond=NMN" target="_blank" style="color:#00A86B;">→ <a href="/nmn.html" style="color:#00A86B;">View All Trials</a></a></div>
+            </div>
+            <div class="category-card">
+                <h3>💉 Metformin</h3>
+                <p>Classic longevity drug</p>
+                <div class="count"><a href="https://clinicaltrials.gov/search?cond=metformin+longevity" target="_blank" style="color:#00A86B;">→ View All 5 Trials</a></div>
+            </div>
+            <div class="category-card">
+                <h3>🧬 Stem Cells</h3>
+                <p>Stem cell anti-aging research</p>
+                <div class="count"><a href="https://clinicaltrials.gov/search?cond=stem+cell+aging" target="_blank" style="color:#00A86B;">→ View All 8 Trials</a></div>
+            </div>
+            <div class="category-card">
+                <h3>🌙 Melatonin</h3>
+                <p>Circadian rhythm and aging</p>
+                <div class="count"><a href="https://clinicaltrials.gov/search?cond=melatonin+aging" target="_blank" style="color:#00A86B;">→ View All 6 Trials</a></div>
+            </div>
+            <div class="category-card">
+                <h3>🐟 Omega-3</h3>
+                <p>Fish oil and inflammation</p>
+                <div class="count"><a href="https://clinicaltrials.gov/search?cond=omega-3+aging" target="_blank" style="color:#00A86B;">→ View All 7 Trials</a></div>
+            </div>
+        </div>
+    </div>
+    
+    <footer id="about">
+        <p>© 2026 LongBiosci</p>
+        <p style="margin-top: 0.5rem; opacity: 0.7;">Disclaimer: This website is for educational purposes only</p>
+        <div style="margin-top: 1rem;">
+            <a href="#" style="color:#a0dcd0;margin:0 1rem;">Privacy Policy</a>
+            <a href="#" style="color:#a0dcd0;margin:0 1rem;">Terms of Use</a>
+            <a href="#" style="color:#a0dcd0;margin:0 1rem;">Contact Us</a>
+        </div>
+    </footer>
+</body>
+</html>
