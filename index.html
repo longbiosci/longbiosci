@@ -112,6 +112,13 @@
             padding: 16px;
             margin-bottom: 12px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            display: block;
+            text-decoration: none;
+            color: inherit;
+        }
+        
+        .feed-item:hover {
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
         
         .feed-header {
@@ -237,7 +244,7 @@
     <!-- 信息流 -->
     <div class="feed" id="feed">
         <!-- 科研 -->
-        <div class="feed-item" data-type="tech">
+        <a href="https://www.nature.com/articles/s41598-025-28494-5" target="_blank" class="feed-item" data-type="tech">
             <div class="feed-header">
                 <span class="tag tag-tech">科研</span>
                 <span class="time">今天</span>
@@ -247,11 +254,12 @@
             <div class="feed-meta">
                 <span>🔬 Nature Scientific Reports</span>
                 <span>❤️ 128</span>
+                <span>🔗 阅读原文</span>
             </div>
-        </div>
+        </a>
         
         <!-- 融资 -->
-        <div class="feed-item" data-type="money">
+        <a href="https://example.com/youthbio-funding" target="_blank" class="feed-item" data-type="money">
             <div class="feed-header">
                 <span class="tag tag-money">融资</span>
                 <span class="time">今天</span>
@@ -261,11 +269,12 @@
             <div class="feed-meta">
                 <span>💰 B轮 1.2亿美元</span>
                 <span>❤️ 256</span>
+                <span>🔗 阅读原文</span>
             </div>
-        </div>
+        </a>
         
         <!-- 产业 -->
-        <div class="feed-item" data-type="industry">
+        <a href="https://example.com/novartis-amino" target="_blank" class="feed-item" data-type="industry">
             <div class="feed-header">
                 <span class="tag tag-industry">产业</span>
                 <span class="time">昨天</span>
@@ -275,11 +284,12 @@
             <div class="feed-meta">
                 <span>🏢 诺华</span>
                 <span>❤️ 189</span>
+                <span>🔗 阅读原文</span>
             </div>
-        </div>
+        </a>
         
         <!-- 科研 -->
-        <div class="feed-item" data-type="tech">
+        <a href="https://www.fightaging.org/" target="_blank" class="feed-item" data-type="tech">
             <div class="feed-header">
                 <span class="tag tag-tech">科研</span>
                 <span class="time">昨天</span>
@@ -289,11 +299,12 @@
             <div class="feed-meta">
                 <span>💊 老药新用</span>
                 <span>❤️ 98</span>
+                <span>🔗 阅读原文</span>
             </div>
-        </div>
+        </a>
         
         <!-- 产业 -->
-        <div class="feed-item" data-type="industry">
+        <a href="https://example.com/altos-japan" target="_blank" class="feed-item" data-type="industry">
             <div class="feed-header">
                 <span class="tag tag-industry">产业</span>
                 <span class="time">3天前</span>
@@ -303,11 +314,12 @@
             <div class="feed-meta">
                 <span>🏢 Altos Labs</span>
                 <span>❤️ 167</span>
+                <span>🔗 阅读原文</span>
             </div>
-        </div>
+        </a>
         
         <!-- 融资 -->
-        <div class="feed-item" data-type="money">
+        <a href="https://example.com/mitrix-funding" target="_blank" class="feed-item" data-type="money">
             <div class="feed-header">
                 <span class="tag tag-money">融资</span>
                 <span class="time">5天前</span>
@@ -317,11 +329,22 @@
             <div class="feed-meta">
                 <span>💰 A轮 5000万美元</span>
                 <span>❤️ 134</span>
+                <span>🔗 阅读原文</span>
             </div>
-        </div>
+        </a>
     </div>
     
     <div class="load-more">点击加载更多 ↓</div>
+    
+    <!-- 订阅 -->
+    <div style="padding: 20px; margin: 20px 15px; background: linear-gradient(135deg, var(--primary), var(--secondary)); border-radius: 12px; color: #fff;">
+        <h3 style="margin-bottom: 10px;">📧 订阅更新</h3>
+        <p style="font-size: 13px; opacity: 0.8; margin-bottom: 15px;">每天早上推送抗衰老最新资讯</p>
+        <form onsubmit="alert('订阅功能开发中，感谢关注！'); return false;" style="display: flex; gap: 10px;">
+            <input type="email" placeholder="输入邮箱" style="flex: 1; padding: 12px; border: none; border-radius: 8px; font-size: 14px;">
+            <button type="submit" style="padding: 12px 20px; background: var(--accent); color: #fff; border: none; border-radius: 8px; font-size: 14px; cursor: pointer;">订阅</button>
+        </form>
+    </div>
     
     <!-- 底部导航 -->
     <nav class="bottom-nav">
