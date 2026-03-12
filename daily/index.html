@@ -25,14 +25,17 @@
         .tag { display: inline-block; background: var(--success); color: white; padding: 4px 10px; border-radius: 4px; font-size: 12px; margin-right: 5px; }
         .tag.blue { background: var(--info); }
         .tag.purple { background: var(--purple); }
+        .tag.red { background: var(--accent); }
         .footer { background: #f5f5f5; padding: 30px; text-align: center; color: #888; font-size: 14px; }
+        .highlight { background: #fff3cd; border-left: 4px solid #ffc107; }
+        .insight { background: #e8f5e9; border-left: 4px solid #4caf50; padding: 15px; border-radius: 8px; margin: 20px 0; }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="cover">
             <h1>🧬 长寿科技简报</h1>
-            <div class="date">第13期 · 2026年03月11日</div>
+            <div class="date">第14期 · 2026年03月12日</div>
             <div style="margin-top:20px;color:#aaa;font-size:16px;">抗衰老研究前沿 · 每日更新</div>
         </div>
         
@@ -40,151 +43,80 @@
             <a href="../" class="back-link">← 返回首页</a>
             
             <div class="section">
+                <h2>💡 观点</h2>
+                <div class="insight">
+                    <p><strong>本刊观点：</strong>线粒体治疗正在从概念走向临床。非诺贝特老药新用的证据越来越强。这些进展意味着"健康衰老"不再是概念，而是正在成为可操作的目标。</p>
+                </div>
+            </div>
+
+            <div class="section">
                 <h2>🔬 今日热点</h2>
 
-                <div class="item">
-                    <h3>ANKRD1 Gene Therapy Improves Memory Function in Aged Mice</h3>
-                    <p>Neurogenesis is the creation of new neurons from stem cell populations, followed by the integration of these newly created cells into existing neural networks. Neurogenesis is required for memory and learning to take place in the adult brain, and is thought to provide an important contribution to wh</p>
-                    <div class="meta">FightAging · Tue, 10 Mar 2026 <a href="https://www.fightaging.org/archives/2026/03/ankrd1-gene-therapy-improves-memory-function-in-aged-mice/" target="_blank" style="color:var(--info)">阅读原文 →</a></div>
+                <div class="item highlight">
+                    <h3>线粒体移植新机制：细胞如何"吃掉"健康线粒体？</h3>
+                    <p>线粒体是细胞的能量工厂，随年龄增长功能下降。最新研究发现，细胞通过<strong>内吞作用</strong>将外源线粒体吸收到内部，且吸收后的线粒体仍能正常工作。</p>
+                    <p>实验中，间充质干细胞在吸收外源线粒体后，细胞增殖加快、应激抵抗能力增强、氧气消耗率提高。这为线粒体移植治疗衰老相关疾病提供了新思路。</p>
+                    <div class="meta">
+                        <span class="tag">线粒体</span>
+                        <span class="tag blue">细胞疗法</span>
+                        Nature Scientific Reports · 2026-03-11
+                        <a href="https://doi.org/10.1038/s41598-025-28494-5" target="_blank" style="color:var(--info)"> 阅读原文 →</a>
+                    </div>
                 </div>
 
                 <div class="item">
-                    <h3>The Hypoxia Response as an Example of the Way in Which Mild Stressors Slow Aging</h3>
-                    <p>Researchers have demonstrated that many forms of mild, repeated stresses can improve cell function and slow aging. Lack of nutrients, lack of oxygen, heat, cold, oxidative damage, and others have been demonstrated to be beneficial in animal studies. Here, researchers discuss what is known of the res</p>
-                    <div class="meta">FightAging · Tue, 10 Mar 2026 <a href="https://www.fightaging.org/archives/2026/03/the-hypoxia-response-as-an-example-of-the-way-in-which-mild-stressors-slow-aging/" target="_blank" style="color:var(--info)">阅读原文 →</a></div>
+                    <h3>老药新用：非诺贝特可能延缓衰老</h3>
+                    <p>非诺贝特是一种已获批用于高血脂的药物。最新小鼠研究显示，它具有显著的抗衰老效果，能延长健康寿命。</p>
+                    <p>虽然效果可能不如运动，但对于无法剧烈运动的老年人群，这提供了一个可行的药物干预选择。</p>
+                    <div class="meta">
+                        <span class="tag"> geroprotector</span>
+                        <span class="tag purple">老药新用</span>
+                        FightAging · 2026-03-11
+                    </div>
                 </div>
 
                 <div class="item">
-                    <h3>A View of the Present State of the Comparative Biology of Aging</h3>
-                    <p>The study of aging is an ongoing project, as is the study of cellular metabolism. The research community remains some way from a complete understanding, and as such there is a great deal of ongoing empirical discovery. Popular areas of study exist because someone demonstrated that a particular appro</p>
-                    <div class="meta">FightAging · Tue, 10 Mar 2026 <a href="https://www.fightaging.org/archives/2026/03/a-view-of-the-present-state-of-the-comparative-biology-of-aging/" target="_blank" style="color:var(--info)">阅读原文 →</a></div>
+                    <h3>成人神经发生再添证据</h3>
+                    <p>关于成人脑部是否能新生神经元的争论持续多年。最新研究再次证实，成年人类大脑确实存在神经发生现象，新神经元能够整合到现有神经网络中。</p>
+                    <div class="meta">
+                        <span class="tag red">神经科学</span>
+                        FightAging · 2026-03-06
+                    </div>
                 </div>
 
                 <div class="item">
-                    <h3>Complement System Biomarkers Change with Age, and More So in Dementia Patients</h3>
-                    <p>The immune system changes with age, a mix of damage and reactions to that damage. Some of those reactions make things better and some are maladaptive, making things worse. Immune cell populations change in size, and immune cells themselves carry burdens of dysfunction, the usual forms of damage and </p>
-                    <div class="meta">FightAging · Mon, 09 Mar 2026 <a href="https://www.fightaging.org/archives/2026/03/complement-system-biomarkers-change-with-age-and-more-so-in-dementia-patients/" target="_blank" style="color:var(--info)">阅读原文 →</a></div>
+                    <h3>抵抗运动训练延缓大脑衰老</h3>
+                    <p>研究显示，抵抗运动训练（如举重）能够有效减缓大脑衰老速度，比有氧运动更能保持认知功能。</p>
+                    <div class="meta">
+                        <span class="tag">运动</span>
+                        <span class="tag blue">认知</span>
+                        Lifespan.io · 2026-03-05
+                    </div>
                 </div>
 
                 <div class="item">
-                    <h3>Electric Fields Allow Bioprinting of Aligned Muscle Fibers</h3>
-                    <p>Bioprinting even small sections of replacement tissue faces a range of challenges relating to recapturing the small-scale structure of natural tissues. The formation of blood vessels is a particularly thorny issue that can be bypassed in some circumstances, such as rebuilding muscle following injury</p>
-                    <div class="meta">FightAging · Mon, 09 Mar 2026 <a href="https://www.fightaging.org/archives/2026/03/electric-fields-allow-bioprinting-of-aligned-muscle-fibers/" target="_blank" style="color:var(--info)">阅读原文 →</a></div>
-                </div>
-
-                <div class="item">
-                    <h3>A SEMA7A Feedback Loop in Macrophages Accelerates Atherosclerosis</h3>
-                    <p>Perhaps the most useful way to think of atherosclerosis, the ultimately fatal growth of fatty plaques in blood vessel walls, is as a condition driven by macrophage dysfunction. Macrophages are innate immune cells responsible for repair and maintenance in blood vessel walls. Where blood vessels are d</p>
-                    <div class="meta">FightAging · Mon, 09 Mar 2026 <a href="https://www.fightaging.org/archives/2026/03/a-sema7a-feedback-loop-in-macrophages-accelerates-atherosclerosis/" target="_blank" style="color:var(--info)">阅读原文 →</a></div>
-                </div>
-
-                <div class="item">
-                    <h3>Fight Aging! Newsletter, March 9th 2026</h3>
-                    <p>Fight Aging! publishes news and commentary relevant to the goal of ending all age-related disease, to be achieved by bringing the mechanisms of aging under the control of modern medicine. This weekly newsletter is sent to thousands of interested subscribers. To subscribe to the newsletter, please vi</p>
-                    <div class="meta">FightAging · Sun, 08 Mar 2026 <a href="https://www.fightaging.org/archives/2026/03/fight-aging-newsletter-march-9th-2026/" target="_blank" style="color:var(--info)">阅读原文 →</a></div>
-                </div>
-
-                <div class="item">
-                    <h3>Reviewing What is Known of the Virome in Aging</h3>
-                    <p>The human body hosts countless viruses in addition to the other forms of microbe such as bacteria and fungi. Most of these viruses are commensal species, most likely harmless throughout much or all of the life span, playing their parts in the microbial ecosystems that exist within and around the bod</p>
-                    <div class="meta">FightAging · Fri, 06 Mar 2026 <a href="https://www.fightaging.org/archives/2026/03/reviewing-what-is-known-of-the-virome-in-aging/" target="_blank" style="color:var(--info)">阅读原文 →</a></div>
-                </div>
-
-                <div class="item">
-                    <h3>FMO-2 Upregulation is Common to Multiple Longevity Associated Mutations in Nematodes</h3>
-                    <p>Research into the biochemistry of longevity does not proceed at a rapid pace, even now that the field has become popular. Much of this research takes the form of first discovering longevity-enhancing mutations in short-lived species and then painstakingly tracing chains of cause and effect from prot</p>
-                    <div class="meta">FightAging · Fri, 06 Mar 2026 <a href="https://www.fightaging.org/archives/2026/03/fmo-2-upregulation-is-common-to-multiple-longevity-associated-mutations-in-nematodes/" target="_blank" style="color:var(--info)">阅读原文 →</a></div>
-                </div>
-
-                <div class="item">
-                    <h3>More Confirming Data for Adult Human Neurogenesis</h3>
-                    <p>That new neurons are generated in the adult brain and integrate into existing neural networks was first established in mice in the 1990s, but considerable debate has taken place since then as to whether this adult neurogenesis also occurs in humans. Working with human brain tissue has always been lo</p>
-                    <div class="meta">FightAging · Fri, 06 Mar 2026 <a href="https://www.fightaging.org/archives/2026/03/more-confirming-data-for-adult-human-neurogenesis/" target="_blank" style="color:var(--info)">阅读原文 →</a></div>
-                </div>
-
-                <div class="item">
-                    <h3>Scientists Successfully Freeze and Rewarm Mouse Brain Slices</h3>
-                    <p>In a new study, researchers have vitrified mouse brain slices and then a complete brain with encouraging results: upon rewarming, much of the neuronal function was preserved [1]. The bumpy road to cryopreservation [&#8230;]</p>
-                    <div class="meta">Lifespan.io · Tue, 10 Mar 2026 <a href="https://lifespan.io/news/scientists-successfully-freeze-and-rewarm-mouse-brain-slices/?utm_source=rss&utm_medium=rss&utm_campaign=scientists-successfully-freeze-and-rewarm-mouse-brain-slices" target="_blank" style="color:var(--info)">阅读原文 →</a></div>
-                </div>
-
-                <div class="item">
-                    <h3>A Review of How the Heart Ages</h3>
-                    <p>The European Heart Journal has published a review of what happens to the human heart as it ages, noting the cellular effects of mitochondrial dysfunction and cellular senescence [&#8230;]</p>
-                    <div class="meta">Lifespan.io · Mon, 09 Mar 2026 <a href="https://lifespan.io/news/a-review-of-how-the-heart-ages/?utm_source=rss&utm_medium=rss&utm_campaign=a-review-of-how-the-heart-ages" target="_blank" style="color:var(--info)">阅读原文 →</a></div>
-                </div>
-
-                <div class="item">
-                    <h3>Fat Composition Affects T Cell-Mediated Immunity</h3>
-                    <p>Scientists have found that the ratio between poly- and monounsaturated fatty acids affects the viability of T cells as well as both humoral and anti-tumor immunity [1]. The iron death Some fats are broadly [&#8230;]</p>
-                    <div class="meta">Lifespan.io · Fri, 06 Mar 2026 <a href="https://lifespan.io/news/fat-composition-affects-t-cell-mediated-immunity/?utm_source=rss&utm_medium=rss&utm_campaign=fat-composition-affects-t-cell-mediated-immunity" target="_blank" style="color:var(--info)">阅读原文 →</a></div>
-                </div>
-
-                <div class="item">
-                    <h3>How Inflammaging Makes Pneumonia Worse in Mice</h3>
-                    <p>Researchers publishing in Aging Cell have discovered how older organisms&#8217; susceptibility to pneumonia is related to inflammatory factors. Short-lived infection fighters Polymorphonuclear leukocytes, more commonly known as neutrophils, are part of the first line of defense [&#8230;]</p>
-                    <div class="meta">Lifespan.io · Thu, 05 Mar 2026 <a href="https://lifespan.io/news/how-inflammaging-makes-pneumonia-worse-in-mice/?utm_source=rss&utm_medium=rss&utm_campaign=how-inflammaging-makes-pneumonia-worse-in-mice" target="_blank" style="color:var(--info)">阅读原文 →</a></div>
-                </div>
-
-                <div class="item">
-                    <h3>Resistance Exercise Training Slows Down Brain Aging</h3>
-                    <p>Using brain clock models that analyzed MRI images of the brains of elderly people who underwent one year of resistance training, researchers concluded that both heavy and moderate resistance [&#8230;]</p>
-                    <div class="meta">Lifespan.io · Wed, 04 Mar 2026 <a href="https://lifespan.io/news/resistance-exercise-training-slows-down-brain-aging/?utm_source=rss&utm_medium=rss&utm_campaign=resistance-exercise-training-slows-down-brain-aging" target="_blank" style="color:var(--info)">阅读原文 →</a></div>
-                </div>
-
-                <div class="item">
-                    <h3>Novel Mechanism for Parkinson’s Is Linked to ATP Deficiency</h3>
-                    <p>Scientists have discovered that ATP deficiency disrupts dopamine processing in synapses, leading to the accumulation of the harmful protein species that characterize Parkinson’s disease. ATP supplementation helps, but the road [&#8230;]</p>
-                    <div class="meta">Lifespan.io · Tue, 03 Mar 2026 <a href="https://lifespan.io/news/novel-mechanism-for-parkinsons-is-linked-to-atp-deficiency/?utm_source=rss&utm_medium=rss&utm_campaign=novel-mechanism-for-parkinsons-is-linked-to-atp-deficiency" target="_blank" style="color:var(--info)">阅读原文 →</a></div>
-                </div>
-
-                <div class="item">
-                    <h3>Rejuvenation Roundup February 2026</h3>
-                    <p>Plenty of crucial work has been done in the rejuvenation world over the past four weeks, and last month, we&#8217;ve spoken [&#8230;]</p>
-                    <div class="meta">Lifespan.io · Mon, 02 Mar 2026 <a href="https://lifespan.io/news/rejuvenation-roundup-february-2026/?utm_source=rss&utm_medium=rss&utm_campaign=rejuvenation-roundup-february-2026" target="_blank" style="color:var(--info)">阅读原文 →</a></div>
-                </div>
-
-                <div class="item">
-                    <h3>Cellular Reprogramming: The Expert Roundup</h3>
-                    <p>Cellular reprogramming is one of the technologies most associated with longevity. The field was created in 2006, when Shinya Yamanaka showed that [&#8230;]</p>
-                    <div class="meta">Lifespan.io · Fri, 27 Feb 2026 <a href="https://lifespan.io/news/cellular-reprogramming-the-expert-roundup/?utm_source=rss&utm_medium=rss&utm_campaign=cellular-reprogramming-the-expert-roundup" target="_blank" style="color:var(--info)">阅读原文 →</a></div>
-                </div>
-
-                <div class="item">
-                    <h3>A Metabolic Shift Fuels Stem Cell Dysfunction</h3>
-                    <p>Researchers publishing in the Nature journal Cell Discovery have described how the age-related attenuation of a key metabolic axis causes human adipose-derived stem cells (hASCs) to lose functional capabilities. Pinpointing [&#8230;]</p>
-                    <div class="meta">Lifespan.io · Thu, 26 Feb 2026 <a href="https://lifespan.io/news/a-metabolic-shift-fuels-stem-cell-dysfunction/?utm_source=rss&utm_medium=rss&utm_campaign=a-metabolic-shift-fuels-stem-cell-dysfunction" target="_blank" style="color:var(--info)">阅读原文 →</a></div>
-                </div>
-
-                <div class="item">
-                    <h3>João Pedro de Magalhães on the Ethics of Longevity</h3>
-                    <p>João Pedro de Magalhães, professor at the University of Birmingham, is known as a prominent geroscientist who has been in the field forever, enriching it with top-tier research. He is also a skilled longevity [&#8230;]</p>
-                    <div class="meta">Lifespan.io · Wed, 25 Feb 2026 <a href="https://lifespan.io/news/joao-pedro-de-magalhaes-on-the-ethics-of-longevity/?utm_source=rss&utm_medium=rss&utm_campaign=joao-pedro-de-magalhaes-on-the-ethics-of-longevity" target="_blank" style="color:var(--info)">阅读原文 →</a></div>
+                    <h3>炎症加剧老年肺炎</h3>
+                    <p>研究发现，随着年龄增长，炎症水平升高（炎症衰老）会使肺炎等感染性疾病更加致命。</p>
+                    <div class="meta">
+                        <span class="tag">炎症</span>
+                        <span class="tag blue">免疫</span>
+                        Aging Cell · 2026-03-05
+                    </div>
                 </div>
 
             </div>
-            
+
             <div class="section">
-                <h2>📖 专题解读</h2>
+                <h2>📊 数据看点</h2>
                 <div class="item">
-                    <h3>抗衰老策略综述</h3>
-                    <p>当前抗衰老研究主要集中在：Senolytic 药物（清除衰老细胞）、NAD+ 前体补充、端粒酶激活、mTOR 抑制等策略。多项临床试验正在进行中。</p>
+                    <p>📈 <strong>临床试验趋势：</strong>目前全球抗衰老相关临床试验超过 <strong>500+</strong> 项，主要集中在Senolytics（衰老细胞清除）、NAD+前体、线粒体治疗等领域。</p>
                 </div>
             </div>
             
-            <div class="section">
-                <h2>🔭 行业动态</h2>
-                <div class="item">
-                    <p>• 抗衰老生物科技公司持续获融资<br>
-                    • AI 辅助药物设计加速新靶点发现<br>
-                    • 多项临床试验进入关键阶段</p>
-                </div>
+            <div class="footer">
+                <p>🧬 LongBiosci · 抗衰老研究资讯</p>
+                <p>每天更新，欢迎转发</p>
             </div>
-        </div>
-        
-        <div class="footer">
-            <p>🧬 LongBiosci · 抗衰老研究资讯</p>
-            <p>每日 8:00 更新</p>
         </div>
     </div>
 </body>
