@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LongBiosci 抗衰老词汇表">
+    <title>术语表 - LongBiosci</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #0f3460; --secondary: #16213e;
+            --accent: #e94560; --success: #00A86B;
+            --info: #1976d2;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: "Noto Sans SC", sans-serif;
+            background: #f5f6fa;
+            min-height: 100vh;
+            padding-bottom: 70px;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            padding: 20px;
+            color: #fff;
+            text-align: center;
+        }
+        
+        .header h1 { font-size: 22px; }
+        
+        .back-link {
+            display: inline-block;
+            padding: 10px 20px;
+            color: var(--info);
+            text-decoration: none;
+        }
+        
+        .search-box { padding: 15px; background: #fff; }
+        .search-input {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 15px;
+        }
+        
+        .terms { padding: 15px; }
+        
+        .term-card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        
+        .term-title {
+            font-size: 17px;
+            font-weight: 600;
+            color: var(--primary);
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .term-en {
+            font-size: 12px;
+            color: var(--info);
+            font-weight: normal;
+        }
+        
+        .term-def {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        
+        .term-tags { display: flex; gap: 6px; flex-wrap: wrap; }
+        
+        .tag {
+            padding: 2px 8px;
+            background: #f5f5f5;
+            border-radius: 4px;
+            font-size: 11px;
+            color: #666;
+        }
+        
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #fff;
+            display: flex;
+            justify-content: space-around;
+            padding: 8px 0;
+            box-shadow: 0 -2px 10px rgba(0,0,0,0.08);
+            z-index: 100;
+        }
+        
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2px;
+            color: #999;
+            text-decoration: none;
+            font-size: 10px;
+            padding: 5px 12px;
+        }
+        
+        .nav-item.active { color: var(--accent); }
+        .nav-item .icon { font-size: 20px; }
+        
+        @media (min-width: 768px) {
+            .container { max-width: 600px; margin: 0 auto; }
+            .terms { max-width: 600px; margin: 0 auto; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📖 术语表</h1>
+        <p>抗衰老常用术语</p>
+    </div>
+    
+    <a href="./" class="back-link">← 返回首页</a>
+    
+    <div class="search-box">
+        <input type="text" class="search-input" placeholder="搜索术语...">
+    </div>
+    
+    <div class="terms">
+        <div class="term-card">
+            <div class="term-title">
+                衰老细胞清除
+                <span class="term-en">Senolytics</span>
+            </div>
+            <div class="term-def">选择性清除衰老细胞的药物。衰老细胞会分泌有害因子（SASP），导致周围组织炎症和功能下降。清除这些细胞可以改善组织功能、延长健康寿命。</div>
+            <div class="term-tags">
+                <span class="tag">药物</span>
+                <span class="tag">临床</span>
+            </div>
+        </div>
+        
+        <div class="term-card">
+            <div class="term-title">
+                衰老细胞
+                <span class="term-en">Senescent Cells</span>
+            </div>
+            <div class="term-def">停止分裂但未死亡的细胞。这些细胞会分泌炎症因子，导致组织老化。与年龄相关的疾病如关节炎、动脉粥样硬化等密切相关。</div>
+            <div class="term-tags">
+                <span class="tag">基础概念</span>
+            </div>
+        </div>
+        
+        <div class="term-card">
+            <div class="term-title">
+                NAD+
+                <span class="term-en">Nicotinamide Adenine Dinucleotide</span>
+            </div>
+            <div class="term-def">辅酶 I，参与细胞能量代谢和 DNA 修复。随年龄增长 NAD+ 水平下降，与衰老过程密切相关。NMN、NR 是常见的 NAD+ 前体。</div>
+            <div class="term-tags">
+                <span class="tag">代谢</span>
+                <span class="tag">补充剂</span>
+            </div>
+        </div>
+        
+        <div class="term-card">
+            <div class="term-title">
+                端粒
+                <span class="term-en">Telomere</span>
+            </div>
+            <div class="term-def">染色体末端的保护结构，类似鞋带末端的塑料头。每次细胞分裂端粒会缩短，当缩短到临界长度时细胞进入衰老状态。端粒酶可以延长端粒。</div>
+            <div class="term-tags">
+                <span class="tag">DNA</span>
+                <span class="tag">细胞衰老</span>
+            </div>
+        </div>
+        
+        <div class="term-card">
+            <div class="term-title">
+                炎症衰老
+                <span class="term-en">Inflammaging</span>
+            </div>
+            <div class="term-def">由衰老引起的慢性低度炎症状态。表现为体内炎症因子水平升高，与多种 age-related diseases 相关。是衰老的核心特征之一。</div>
+            <div class="term-tags">
+                <span class="tag">炎症</span>
+                <span class="tag">免疫</span>
+            </div>
+        </div>
+        
+        <div class="term-card">
+            <div class="term-title">
+                线粒体
+                <span class="term-en">Mitochondria</span>
+            </div>
+            <div class="term-def">细胞的"能量工厂"，负责产生 ATP。线粒体功能随年龄下降，是衰老的核心机制之一。线粒体 DNA 损伤会导致多种衰老相关疾病。</div>
+            <div class="term-tags">
+                <span class="tag">能量</span>
+                <span class="tag">细胞器</span>
+            </div>
+        </div>
+        
+        <div class="term-card">
+            <div class="term-title">
+                雷帕霉素靶点
+                <span class="term-en">mTOR</span>
+            </div>
+            <div class="term-def">调节细胞生长和代谢的关键蛋白。抑制 mTOR 可以延长多种生物的寿命。雷帕霉素是经典的 mTOR 抑制剂，已被用于抗衰老研究。</div>
+            <div class="term-tags">
+                <span class="tag">药物</span>
+                <span class="tag">代谢</span>
+            </div>
+        </div>
+        
+        <div class="term-card">
+            <div class="term-title">
+                诱导多能干细胞
+                <span class="term-en">iPSC</span>
+            </div>
+            <div class="term-def">通过重编程因子将成体细胞转化为具有胚胎干细胞特性的细胞。可以分化为各种细胞类型，用于组织修复和再生医学。</div>
+            <div class="term-tags">
+                <span class="tag">细胞疗法</span>
+                <span class="tag">重编程</span>
+            </div>
+        </div>
+        
+        <div class="term-card">
+            <div class="term-title">
+                二甲双胍
+                <span class="term-en">Metformin</span>
+            </div>
+            <div class="term-def">最常用的2型糖尿病药物，可能具有抗衰老效果。通过激活 AMPK 等通路改善代谢。TAME 试验正在验证其延长健康寿命的作用。</div>
+            <div class="term-tags">
+                <span class="tag">老药新用</span>
+                <span class="tag">临床</span>
+            </div>
+        </div>
+        
+        <div class="term-card">
+            <div class="term-title">
+                热量限制
+                <span class="term-en">Calorie Restriction</span>
+            </div>
+            <div class="term-def">减少热量摄入但保持营养充足。可以延长多种生物的寿命，是研究最多的抗衰老干预之一。但人类长期热量限制难以坚持。</div>
+            <div class="term-tags">
+                <span class="tag">生活方式</span>
+                <span class="tag">基础概念</span>
+            </div>
+        </div>
+    </div>
+    
+    <nav class="bottom-nav">
+        <a href="./" class="nav-item active">
+            <span class="icon">🏠</span>
+            <span>首页</span>
+        </a>
+        <a href="papers/" class="nav-item">
+            <span class="icon">📚</span>
+            <span>论文</span>
+        </a>
+        <a href="about.html" class="nav-item">
+            <span class="icon">📖</span>
+            <span>术语</span>
+        </a>
+        <a href="about.html" class="nav-item">
+            <span class="icon">👤</span>
+            <span>关于</span>
+        </a>
+    </nav>
+</body>
+</html>
