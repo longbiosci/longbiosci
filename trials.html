@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LongBiosci 抗衰老临床试验数据库">
+    <title>临床试验 - LongBiosci</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root { --primary: #0f3460; --secondary: #16213e; --accent: #e94560; --success: #00A86B; --info: #1976d2; }
+        body { font-family: "Noto Sans SC", sans-serif; background: linear-gradient(135deg, var(--primary), var(--secondary)); min-height: 100vh; padding: 40px 20px; }
+        .container { max-width: 1000px; margin: 0 auto; background: white; border-radius: 20px; overflow: hidden; }
+        .cover { background: linear-gradient(135deg, var(--primary), var(--secondary)); padding: 50px 40px; text-align: center; color: white; }
+        .cover h1 { font-size: 38px; margin-bottom: 10px; }
+        .content { padding: 40px; }
+        .back-link { display: inline-block; margin-bottom: 20px; color: var(--info); text-decoration: none; }
+        .tabs { display: flex; gap: 10px; margin-bottom: 30px; flex-wrap: wrap; }
+        .tab { padding: 12px 24px; background: #f5f5f5; border: none; border-radius: 8px; cursor: pointer; font-size: 15px; transition: all 0.3s; }
+        .tab.active { background: var(--primary); color: white; }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+        .section-title { color: var(--primary); font-size: 20px; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 2px solid var(--accent); }
+        .trial-item { background: #fafafa; border-radius: 12px; padding: 20px; margin-bottom: 15px; border-left: 4px solid var(--info); }
+        .trial-item h3 { color: #1a1a2e; font-size: 17px; margin-bottom: 8px; }
+        .trial-item .meta { color: #666; font-size: 14px; margin-bottom: 8px; }
+        .trial-item .tags { display: flex; gap: 8px; flex-wrap: wrap; }
+        .tag { padding: 4px 10px; border-radius: 4px; font-size: 12px; }
+        .tag.recruiting { background: #4caf50; color: white; }
+        .tag.active { background: #2196f3; color: white; }
+        .tag.completed { background: #9e9e9e; color: white; }
+        .nct { font-family: monospace; color: var(--info); }
+        .footer { background: #f5f5f5; padding: 30px; text-align: center; color: #888; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cover">
+            <h1>🧪 临床试验数据库</h1>
+            <p>全球抗衰老临床试验动态</p>
+        </div>
+        <div class="content">
+            <a href="../" class="back-link">← 返回首页</a>
+            
+            <div class="tabs">
+                <button class="tab active" onclick="showTab('senolytic')">Senolytics (衰老细胞清除)</button>
+                <button class="tab" onclick="showTab('nmn')">NMN/NAD+</button>
+                <button class="tab" onclick="showTab('metformin')">二甲双胍</button>
+            </div>
+            
+            <div id="senolytic" class="tab-content active">
+                <h2 class="section-title">Senolytic 药物</h2>
+                <p style="margin-bottom:20px;color:#666;">清除衰老细胞的药物，是抗衰老领域最热门的方向之一。</p>
+                
+                <div class="trial-item">
+                    <h3>Senolytic 治疗阿尔茨海默病</h3>
+                    <div class="meta"><span class="nct">NCT04685590</span> · 华盛顿大学</div>
+                    <div class="tags">
+                        <span class="tag recruiting">Recruiting</span>
+                        <span class="tag">阿尔茨海默病</span>
+                    </div>
+                </div>
+                
+                <div class="trial-item">
+                    <h3>Senolytic 治疗慢性肾病</h3>
+                    <div class="meta"><span class="nct">NCT02848131</span> · 梅奥诊所</div>
+                    <div class="tags">
+                        <span class="tag recruiting">Recruiting</span>
+                        <span class="tag">慢性肾病</span>
+                    </div>
+                </div>
+                
+                <div class="trial-item">
+                    <h3>Fisetin 对血管功能的影响</h3>
+                    <div class="meta"><span class="nct">NCT06133634</span> · 科罗拉多大学</div>
+                    <div class="tags">
+                        <span class="tag active">Active</span>
+                        <span class="tag">Fisetin</span>
+                        <span class="tag">血管功能</span>
+                    </div>
+                </div>
+                
+                <div class="trial-item">
+                    <h3>Senolytic 治疗阿尔茨海默病</h3>
+                    <div class="meta"><span class="nct">NCT04063124</span> · 德克萨斯大学</div>
+                    <div class="tags">
+                        <span class="tag completed">Completed</span>
+                        <span class="tag">阿尔茨海默病</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="nmn" class="tab-content">
+                <h2 class="section-title">NMN / NAD+</h2>
+                <p style="margin-bottom:20px;color:#666;">NAD+ 前体补充剂，提升细胞能量代谢。</p>
+                
+                <div class="trial-item">
+                    <h3>NMN 对器官系统的生物学影响</h3>
+                    <div class="meta"><span class="nct">NCT04571008</span> · 华盛顿大学</div>
+                    <div class="tags">
+                        <span class="tag completed">Completed</span>
+                        <span class="tag">NMN</span>
+                    </div>
+                </div>
+                
+                <div class="trial-item">
+                    <h3>NMN 化妆品抗衰老</h3>
+                    <div class="meta"><span class="nct">NCT04685096</span> · 中国</div>
+                    <div class="tags">
+                        <span class="tag completed">Completed</span>
+                        <span class="tag">化妆品</span>
+                    </div>
+                </div>
+                
+                <div class="trial-item">
+                    <h3>NMN 辅助 IVF</h3>
+                    <div class="meta"><span class="nct">NCT06426355</span> · 中国</div>
+                    <div class="tags">
+                        <span class="tag recruiting">Recruiting</span>
+                        <span class="tag">NMN</span>
+                        <span class="tag">生育</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="metformin" class="tab-content">
+                <h2 class="section-title">二甲双胍 (Metformin)</h2>
+                <p style="margin-bottom:20px;color:#666;">最经典的"长寿药"，已有60多年临床使用历史。</p>
+                
+                <div class="trial-item">
+                    <h3>MILES - 二甲双胍 longevity 研究</h3>
+                    <div class="meta"><span class="nct">NCT02432287</span> · Albert Einstein College</div>
+                    <div class="tags">
+                        <span class="tag completed">Completed</span>
+                        <span class="tag">长寿</span>
+                    </div>
+                </div>
+                
+                <div class="trial-item">
+                    <h3>二甲双胍与长寿基因</h3>
+                    <div class="meta"><span class="nct">NCT01765946</span> · NIA (美国国立老龄研究所)</div>
+                    <div class="tags">
+                        <span class="tag completed">Completed</span>
+                        <span class="tag">基因</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="margin-top:40px;padding:20px;background:#f0f7ff;border-radius:12px;">
+                <h3 style="color:var(--primary);margin-bottom:10px;">📊 数据说明</h3>
+                <p style="color:#666;font-size:14px;">数据来源：ClinicalTrials.gov<br>更新时间：2026-03-12</p>
+            </div>
+            
+        </div>
+        <div class="footer">
+            <p>🧬 LongBiosci · 抗衰老研究资讯</p>
+        </div>
+    </div>
+    <script>
+        function showTab(id) {
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+            event.target.classList.add('active');
+            document.getElementById(id).classList.add('active');
+        }
+    </script>
+</body>
+</html>
