@@ -4,32 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     
-    <meta name="description" content="LongBiosci - 抗衰老、长寿科技产业与投融资资讯">
-    <meta name="keywords" content="抗衰老,长寿,抗衰老投资,senolytic,端粒,NAD+,产业,融资">
+    <meta name="description" content="LongBiosci - 衰老生物学与抗衰老科技综合平台">
+    <meta name="keywords" content="抗衰老,长寿,衰老生物学,senolytic,NAD+,端粒,线粒体">
     <meta name="theme-color" content="#0f3460">
-    <meta name="apple-mobile-web-app-capable" content="yes">
     
-    <title>LongBiosci - 抗衰老科技产业与投融资</title>
+    <title>LongBiosci - 衰老生物学与抗衰老科技</title>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
         :root {
             --primary: #0f3460; --secondary: #16213e;
             --accent: #e94560; --success: #00A86B;
             --info: #1976d2; --purple: #533483;
-            --money: #2ecc71;
-            --industry: #f39c12;
         }
-        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         html { scroll-behavior: smooth; }
         
         body {
-            font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
-            background: #f5f6fa;
+            font-family: "Noto Sans SC", "PingFang SC", sans-serif;
+            background: #f8f9fa;
             min-height: 100vh;
             padding-bottom: 70px;
         }
         
-        /* 顶部 */
         .header {
             position: sticky;
             top: 0;
@@ -42,69 +38,46 @@
         }
         
         .header h1 { color: #fff; font-size: 18px; font-weight: 700; }
-        .menu-btn { background: none; border: none; color: #fff; font-size: 22px; cursor: pointer; }
         
-        /* 横幅 */
         .banner {
             background: linear-gradient(135deg, var(--primary), var(--secondary));
-            padding: 30px 20px;
+            padding: 40px 20px;
             color: #fff;
             text-align: center;
         }
         
         .banner h2 { font-size: 24px; margin-bottom: 8px; }
-        .banner p { font-size: 14px; opacity: 0.8; }
+        .banner p { font-size: 14px; opacity: 0.85; }
         
-        /* 板块导航 */
         .channels {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             gap: 1px;
             background: #ddd;
-            margin-bottom: 15px;
         }
         
         .channel {
             background: #fff;
-            padding: 15px 5px;
+            padding: 12px 5px;
             text-align: center;
             cursor: pointer;
-            transition: all 0.2s;
+            font-size: 11px;
         }
         
-        .channel:active { background: #f0f0f0; }
-        .channel .icon { font-size: 24px; margin-bottom: 5px; }
-        .channel .label { font-size: 11px; color: #666; }
-        .channel.active { background: var(--primary); }
+        .channel .icon { font-size: 22px; display: block; margin-bottom: 4px; }
+        .channel .label { color: #666; }
+        .channel.active { background: var(--primary); color: #fff; }
         .channel.active .label { color: #fff; }
         
-        /* 标签筛选 */
-        .filter-bar {
-            display: flex;
-            gap: 10px;
-            padding: 0 15px 15px;
-            overflow-x: auto;
-            -webkit-overflow-scrolling: touch;
+        .section { padding: 15px; }
+        .section-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--primary);
+            margin-bottom: 12px;
+            padding-left: 10px;
+            border-left: 3px solid var(--accent);
         }
-        
-        .filter {
-            padding: 6px 14px;
-            background: #fff;
-            border-radius: 20px;
-            font-size: 13px;
-            white-space: nowrap;
-            border: 1px solid #ddd;
-            cursor: pointer;
-        }
-        
-        .filter.active {
-            background: var(--primary);
-            color: #fff;
-            border-color: var(--primary);
-        }
-        
-        /* 信息流 */
-        .feed { padding: 0 15px; }
         
         .feed-item {
             background: #fff;
@@ -117,16 +90,9 @@
             color: inherit;
         }
         
-        .feed-item:hover {
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-        }
+        .feed-item:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
         
-        .feed-header {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            margin-bottom: 10px;
-        }
+        .feed-header { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
         
         .tag {
             padding: 3px 8px;
@@ -136,14 +102,12 @@
         }
         
         .tag-tech { background: #e3f2fd; color: var(--info); }
-        .tag-money { background: #e8f5e9; color: var(--money); }
-        .tag-industry { background: #fff3e0; color: var(--industry); }
         .tag-paper { background: #f3e5f5; color: var(--purple); }
         
         .time { color: #999; font-size: 12px; margin-left: auto; }
         
         .feed-title {
-            font-size: 16px;
+            font-size: 15px;
             font-weight: 600;
             color: #1a1a2e;
             margin-bottom: 8px;
@@ -151,22 +115,22 @@
         }
         
         .feed-desc {
-            font-size: 14px;
+            font-size: 13px;
             color: #666;
             line-height: 1.5;
         }
         
-        .feed-meta {
+        .feed-source {
             display: flex;
-            gap: 15px;
+            align-items: center;
+            gap: 8px;
             margin-top: 12px;
-            padding-top: 12px;
+            padding-top: 10px;
             border-top: 1px solid #f0f0f0;
             font-size: 12px;
-            color: #999;
+            color: var(--info);
         }
         
-        /* 底部导航 */
         .bottom-nav {
             position: fixed;
             bottom: 0;
@@ -188,24 +152,13 @@
             color: #999;
             text-decoration: none;
             font-size: 10px;
-            padding: 5px 12px;
         }
         
         .nav-item.active { color: var(--accent); }
         .nav-item .icon { font-size: 20px; }
         
-        /* 加载 */
-        .load-more {
-            text-align: center;
-            padding: 20px;
-            color: #999;
-            font-size: 13px;
-        }
-        
         @media (min-width: 768px) {
             .container { max-width: 600px; margin: 0 auto; }
-            .channels { max-width: 600px; margin: 0 auto 15px; }
-            .feed { max-width: 600px; margin: 0 auto; }
             .bottom-nav { max-width: 600px; left: 50%; transform: translateX(-50%); }
         }
     </style>
@@ -213,201 +166,107 @@
 <body>
     <header class="header">
         <h1>🧬 LongBiosci</h1>
-        <button class="menu-btn">☰</button>
     </header>
     
     <div class="banner">
-        <h2>抗衰老科技产业与投融资</h2>
-        <p>科研 · 产业 · 融资 · 趋势</p>
+        <h2>衰老生物学与抗衰老科技</h2>
+        <p>科研 · 技术 · 产业 · 人物</p>
     </div>
     
-    <!-- 板块导航 -->
     <div class="channels">
-        <div class="channel active" onclick="filterBy('all')">
-            <div class="icon">📋</div>
-            <div class="label">全部</div>
-        </div>
-        <div class="channel" onclick="filterBy('tech')">
-            <div class="icon">🔬</div>
-            <div class="label">科研</div>
-        </div>
-        <div class="channel" onclick="filterBy('money')">
-            <div class="icon">💰</div>
-            <div class="label">融资</div>
-        </div>
-        <div class="channel" onclick="filterBy('industry')">
-            <div class="icon">🏢</div>
-            <div class="label">产业</div>
-        </div>
+        <div class="channel active"><span class="icon">📖</span><span class="label">首页</span></div>
+        <div class="channel"><span class="icon">📚</span><span class="label">论文</span></div>
+        <div class="channel"><span class="icon">🏢</span><span class="label">公司</span></div>
+        <div class="channel"><span class="icon">📅</span><span class="label">活动</span></div>
     </div>
     
-    <!-- 信息流 -->
-    <div class="feed" id="feed">
-        <!-- 科研 -->
-        <a href="article.html" class="feed-item" data-type="tech">
+    <div class="section">
+        <div class="section-title">🔬 科研进展</div>
+        
+        <a href="https://doi.org/10.1038/s41598-025-28494-5" target="_blank" class="feed-item">
             <div class="feed-header">
-                <span class="tag tag-tech">科研</span>
-                <span class="time">今天</span>
+                <span class="tag tag-paper">论文</span>
+                <span class="time">2026-03-11</span>
             </div>
-            <div class="feed-title">线粒体移植新机制：细胞通过内吞作用吸收外源线粒体</div>
-            <div class="feed-desc">Nature Scientific Reports 发表最新研究，间充质干细胞能有效吸收外源线粒体并保持功能，为线粒体治疗提供新思路。</div>
-            <div class="feed-meta">
-                <span>🔬 Nature Scientific Reports</span>
-                <span>❤️ 128</span>
-                <span>🔗 阅读原文</span>
-            </div>
+            <div class="feed-title">细胞通过内吞作用吸收外源线粒体并保持功能</div>
+            <div class="feed-desc">Nature Scientific Reports 发表。研究揭示了间充质干细胞通过内吞途径吸收外源线粒体的机制，为线粒体移植治疗提供新思路。</div>
+            <div class="feed-source">📄 Nature Scientific Reports · DOI: 10.1038/s41598-025-28494-5</div>
         </a>
         
-        <!-- 融资 -->
-        <a href="https://example.com/youthbio-funding" target="_blank" class="feed-item" data-type="money">
+        <a href="https://www.fightaging.org/archives/2026/03/" target="_blank" class="feed-item">
             <div class="feed-header">
-                <span class="tag tag-money">融资</span>
-                <span class="time">今天</span>
+                <span class="tag tag-tech">研究</span>
+                <span class="time">2026-03-11</span>
             </div>
-            <div class="feed-title">抗衰老公司 YouthBio 获 1.2 亿美元 B 轮融资</div>
-            <div class="feed-desc">专注于 Senolytic 药物研发的 YouthBio 宣布完成 B 轮融资，将推进其主要候选药物的临床试验。</div>
-            <div class="feed-meta">
-                <span>💰 B轮 1.2亿美元</span>
-                <span>❤️ 256</span>
-                <span>🔗 阅读原文</span>
-            </div>
+            <div class="feed-title">非诺贝特 (Fenofibrate) 延长健康寿命</div>
+            <div class="feed-desc">研究证实常用降脂药非诺贝特通过激活 PPARα 显著延长小鼠健康寿命，为老药新用提供证据。</div>
+            <div class="feed-source">📄 FightAging · Nature Aging</div>
         </a>
         
-        <!-- 产业 -->
-        <a href="https://example.com/novartis-amino" target="_blank" class="feed-item" data-type="industry">
+        <a href="https://www.fightaging.org/archives/2026/03/" target="_blank" class="feed-item">
             <div class="feed-header">
-                <span class="tag tag-industry">产业</span>
-                <span class="time">昨天</span>
+                <span class="tag tag-paper">论文</span>
+                <span class="time">2026-03-06</span>
             </div>
-            <div class="feed-title">诺华宣布收购长寿科技公司 Amino</div>
-            <div class="feed-desc">制药巨头诺华宣布以 25 亿美元收购专注于蛋白质稳态的 Amino 公司，进军抗衰老领域。</div>
-            <div class="feed-meta">
-                <span>🏢 诺华</span>
-                <span>❤️ 189</span>
-                <span>🔗 阅读原文</span>
-            </div>
-        </a>
-        
-        <!-- 科研 -->
-        <a href="https://www.fightaging.org/" target="_blank" class="feed-item" data-type="tech">
-            <div class="feed-header">
-                <span class="tag tag-tech">科研</span>
-                <span class="time">昨天</span>
-            </div>
-            <div class="feed-title">非诺贝特显示抗衰老潜力</div>
-            <div class="feed-desc">研究证实非诺贝特这种常用降脂药具有显著延长健康寿命的效果。</div>
-            <div class="feed-meta">
-                <span>💊 老药新用</span>
-                <span>❤️ 98</span>
-                <span>🔗 阅读原文</span>
-            </div>
-        </a>
-        
-        <!-- 产业 -->
-        <a href="https://example.com/altos-japan" target="_blank" class="feed-item" data-type="industry">
-            <div class="feed-header">
-                <span class="tag tag-industry">产业</span>
-                <span class="time">3天前</span>
-            </div>
-            <div class="feed-title">Altos Labs 计划在日本启动 iPSC 抗衰老临床</div>
-            <div class="feed-desc">日本批准 Altos Labs 使用诱导多能干细胞技术进行抗衰老治疗的临床试验。</div>
-            <div class="feed-meta">
-                <span>🏢 Altos Labs</span>
-                <span>❤️ 167</span>
-                <span>🔗 阅读原文</span>
-            </div>
-        </a>
-        
-        <!-- 融资 -->
-        <a href="https://example.com/mitrix-funding" target="_blank" class="feed-item" data-type="money">
-            <div class="feed-header">
-                <span class="tag tag-money">融资</span>
-                <span class="time">5天前</span>
-            </div>
-            <div class="feed-title">线粒体靶向公司 Mitrix 获 5000 万美元 A 轮</div>
-            <div class="feed-desc">Mitrix 开发线粒体补充疗法，获得新老投资者支持。</div>
-            <div class="feed-meta">
-                <span>💰 A轮 5000万美元</span>
-                <span>❤️ 134</span>
-                <span>🔗 阅读原文</span>
-            </div>
+            <div class="feed-title">成人神经发生再添证据</div>
+            <div class="feed-desc">单核 RNA 测序证实成年人类大脑中存在神经发生，新神经元可整合到现有神经网络。</div>
+            <div class="feed-source">📄 Nature Neuroscience</div>
         </a>
     </div>
     
-    <div class="load-more">点击加载更多 ↓</div>
-    
-    <!-- 订阅 -->
-    <div style="padding: 20px; margin: 20px 15px; background: linear-gradient(135deg, var(--primary), var(--secondary)); border-radius: 12px; color: #fff;">
-        <h3 style="margin-bottom: 10px;">📧 订阅更新</h3>
-        <p style="font-size: 13px; opacity: 0.8; margin-bottom: 15px;">每天早上推送抗衰老最新资讯</p>
-        <form onsubmit="alert('订阅功能开发中，感谢关注！'); return false;" style="display: flex; gap: 10px;">
-            <input type="email" placeholder="输入邮箱" style="flex: 1; padding: 12px; border: none; border-radius: 8px; font-size: 14px;">
-            <button type="submit" style="padding: 12px 20px; background: var(--accent); color: #fff; border: none; border-radius: 8px; font-size: 14px; cursor: pointer;">订阅</button>
-        </form>
+    <div class="section">
+        <div class="section-title">💡 技术前沿</div>
+        
+        <a href="https://www.fightaging.org/archives/2026/03/" target="_blank" class="feed-item">
+            <div class="feed-header">
+                <span class="tag tag-tech">技术</span>
+                <span class="time">2026-03</span>
+            </div>
+            <div class="feed-title">iPSC 重编程逆转衰老</div>
+            <div class="feed-desc">诱导多能干细胞 (iPSC) 重编程技术可逆转细胞衰老，已进入临床前研究阶段。Altos Labs 等公司正在推进应用。</div>
+            <div class="feed-source">📄 领域综述</div>
+        </a>
+        
+        <a href="https://www.fightaging.org/archives/2026/03/" target="_blank" class="feed-item">
+            <div class="feed-header">
+                <span class="tag tag-tech">技术</span>
+                <span class="time">2026-03</span>
+            </div>
+            <div class="feed-title">Senolytic 药物临床进展</div>
+            <div class="feed-desc">Dasatinib + Quercetin (D+Q) 组合改善老年人身体功能，临床试验显示积极结果。</div>
+            <div class="feed-source">📄 Nature Medicine</div>
+        </a>
     </div>
     
-    <!-- 评论 (Giscus) -->
-    <div style="padding: 20px; margin: 0 15px 20px; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-        <h3 style="margin-bottom: 15px; color: var(--primary);">💬 评论</h3>
-        <div id="giscus-thread"></div>
-        <script src="https://giscus.app/client.js"
-            data-repo="longbiosci/longbiosci"
-            data-repo-id="R_kgDOxxx"
-            data-category="General"
-            data-category-id="DIC_kwDOxxx"
-            data-mapping="pathname"
-            data-strict="0"
-            data-reactions-enabled="1"
-            data-emit-metadata="0"
-            data-input-position="top"
-            data-theme="light"
-            data-lang="zh-CN"
-            crossorigin="anonymous"
-            async>
-        </script>
-        <p style="font-size: 12px; color: #999; margin-top: 10px;">
-            💡 评论需要 GitHub 账号。配置说明：<a href="https://giscus.app" target="_blank" style="color: var(--info);">giscus.app</a>
-        </p>
+    <div class="section">
+        <div class="section-title">🏢 产业动态</div>
+        
+        <a href="https://ir.unitybiotechnology.com/" target="_blank" class="feed-item">
+            <div class="feed-header">
+                <span class="tag tag-tech">公司</span>
+                <span class="time">2026</span>
+            </div>
+            <div class="feed-title">Unity Biotechnology (UBX)</div>
+            <div class="feed-desc">Senolytic 药物先驱，UBX0101 进入骨关节炎 Phase 2。纳斯达克上市。</div>
+            <div class="feed-source">📄 UBX · NASDAQ: UBX</div>
+        </a>
+        
+        <a href="https://www.calicolabs.com/" target="_blank" class="feed-item">
+            <div class="feed-header">
+                <span class="tag tag-tech">公司</span>
+                <span class="time">2026</span>
+            </div>
+            <div class="feed-title">Calico Labs</div>
+            <div class="feed-desc">Google/Alphabet 旗下抗衰老公司，与 AbbVie 合作开发抗衰老药物。</div>
+            <div class="feed-source">📄 Calico · AbbVie</div>
+        </a>
     </div>
     
-    <!-- 底部导航 -->
     <nav class="bottom-nav">
-        <a href="#" class="nav-item active">
-            <span class="icon">🏠</span>
-            <span>首页</span>
-        </a>
-        <a href="papers/" class="nav-item">
-            <span class="icon">📚</span>
-            <span>论文</span>
-        </a>
-        <a href="companies/" class="nav-item">
-            <span class="icon">🏢</span>
-            <span>公司</span>
-        </a>
-        <a href="investors/" class="nav-item">
-            <span class="icon">👤</span>
-            <span>投资人</span>
-        </a>
+        <a href="#" class="nav-item active"><span class="icon">🏠</span><span>首页</span></a>
+        <a href="papers/" class="nav-item"><span class="icon">📚</span><span>论文</span></a>
+        <a href="companies/" class="nav-item"><span class="icon">🏢</span><span>公司</span></a>
+        <a href="events/" class="nav-item"><span class="icon">📅</span><span>活动</span></a>
     </nav>
-    
-    <script>
-        function filterBy(type) {
-            document.querySelectorAll('.channel').forEach(c => c.classList.remove('active'));
-            event.target.closest('.channel').classList.add('active');
-            
-            const items = document.querySelectorAll('.feed-item');
-            items.forEach(item => {
-                if (type === 'all' || item.dataset.type === type) {
-                    item.style.display = 'block';
-                } else {
-                    item.style.display = 'none';
-                }
-            });
-        }
-        
-        document.querySelector('.load-more').addEventListener('click', function() {
-            this.innerHTML = '已加载全部内容';
-        });
-    </script>
 </body>
 </html>
