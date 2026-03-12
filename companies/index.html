@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LongBiosci 抗衰老公司库">
+    <title>公司库 - LongBiosci</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #0f3460; --secondary: #16213e;
+            --accent: #e94560; --success: #00A86B;
+            --info: #1976d2;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: "Noto Sans SC", sans-serif;
+            background: #f5f6fa;
+            min-height: 100vh;
+            padding-bottom: 70px;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            padding: 20px;
+            color: #fff;
+            text-align: center;
+        }
+        
+        .header h1 { font-size: 22px; margin-bottom: 5px; }
+        .header p { font-size: 14px; opacity: 0.8; }
+        
+        .back-link {
+            display: inline-block;
+            padding: 10px 20px;
+            color: var(--info);
+            text-decoration: none;
+            font-size: 14px;
+        }
+        
+        .search-box {
+            padding: 15px;
+            background: #fff;
+        }
+        
+        .search-input {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 15px;
+        }
+        
+        .filter-bar {
+            display: flex;
+            gap: 8px;
+            padding: 10px 15px;
+            overflow-x: auto;
+            background: #fff;
+        }
+        
+        .filter {
+            padding: 6px 12px;
+            background: #f5f5f5;
+            border-radius: 20px;
+            font-size: 12px;
+            white-space: nowrap;
+            cursor: pointer;
+        }
+        
+        .filter.active {
+            background: var(--primary);
+            color: #fff;
+        }
+        
+        .companies { padding: 15px; }
+        
+        .company-card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            display: flex;
+            gap: 15px;
+        }
+        
+        .company-logo {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: #fff;
+            flex-shrink: 0;
+        }
+        
+        .company-info { flex: 1; }
+        
+        .company-name {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1a1a2e;
+            margin-bottom: 5px;
+        }
+        
+        .company-desc {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.4;
+            margin-bottom: 8px;
+        }
+        
+        .company-tags {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+        
+        .tag {
+            padding: 2px 8px;
+            background: #e3f2fd;
+            color: var(--info);
+            border-radius: 4px;
+            font-size: 11px;
+        }
+        
+        .tag.funding {
+            background: #e8f5e9;
+            color: var(--success);
+        }
+        
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #fff;
+            display: flex;
+            justify-content: space-around;
+            padding: 8px 0;
+            box-shadow: 0 -2px 10px rgba(0,0,0,0.08);
+            z-index: 100;
+        }
+        
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2px;
+            color: #999;
+            text-decoration: none;
+            font-size: 10px;
+            padding: 5px 12px;
+        }
+        
+        .nav-item.active { color: var(--accent); }
+        .nav-item .icon { font-size: 20px; }
+        
+        @media (min-width: 768px) {
+            .container { max-width: 600px; margin: 0 auto; }
+            .companies { max-width: 600px; margin: 0 auto; }
+            .bottom-nav { max-width: 600px; left: 50%; transform: translateX(-50%); }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🏢 公司库</h1>
+        <p>抗衰老领域公司一览</p>
+    </div>
+    
+    <a href="./" class="back-link">← 返回首页</a>
+    
+    <div class="search-box">
+        <input type="text" class="search-input" placeholder="搜索公司...">
+    </div>
+    
+    <div class="filter-bar">
+        <span class="filter active">全部</span>
+        <span class="filter">Senolytics</span>
+        <span class="filter">NAD+</span>
+        <span class="filter">线粒体</span>
+        <span class="filter">iPSC</span>
+        <span class="filter">制药</span>
+    </div>
+    
+    <div class="companies">
+        <!-- 公司1 -->
+        <div class="company-card">
+            <div class="company-logo">YL</div>
+            <div class="company-info">
+                <div class="company-name">YouthBio</div>
+                <div class="company-desc">专注于 Senolytic 药物研发，已进入临床阶段</div>
+                <div class="company-tags">
+                    <span class="tag">Senolytics</span>
+                    <span class="tag funding">B轮 1.2亿美元</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 公司2 -->
+        <div class="company-card">
+            <div class="company-logo">AL</div>
+            <div class="company-info">
+                <div class="company-name">Altos Labs</div>
+                <div class="company-desc">iPSC 重编程技术抗衰老，日本/美国同步开展临床</div>
+                <div class="company-tags">
+                    <span class="tag">iPSC</span>
+                    <span class="tag">细胞疗法</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 公司3 -->
+        <div class="company-card">
+            <div class="company-logo">AM</div>
+            <div class="company-info">
+                <div class="company-name">Amino</div>
+                <div class="company-desc">蛋白质稳态公司，已被诺华 25亿美元收购</div>
+                <div class="company-tags">
+                    <span class="tag">蛋白质</span>
+                    <span class="tag funding">并购 25亿美元</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 公司4 -->
+        <div class="company-card">
+            <div class="company-logo">MX</div>
+            <div class="company-info">
+                <div class="company-name">Mitrix</div>
+                <div class="company-desc">线粒体补充疗法，A轮 5000万美元</div>
+                <div class="company-tags">
+                    <span class="tag">线粒体</span>
+                    <span class="tag funding">A轮 5000万美元</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 公司5 -->
+        <div class="company-card">
+            <div class="company-logo">SI</div>
+            <div class="company-info">
+                <div class="company-name">Sirtris (GSK)</div>
+                <div class="company-desc">SIRT1 激动剂，NAD+ 代谢先驱，已被 GSK 收购</div>
+                <div class="company-tags">
+                    <span class="tag">NAD+</span>
+                    <span class="tag funding">收购 7.2亿美元</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 公司6 -->
+        <div class="company-card">
+            <div class="company-logo">CA</div>
+            <div class="company-info">
+                <div class="company-name">Calico</div>
+                <div class="company-desc">Google/Alphabet 旗下抗衰老公司，与 AbbVie 合作</div>
+                <div class="company-tags">
+                    <span class="tag">制药</span>
+                    <span class="tag">Google</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 公司7 -->
+        <div class="company-card">
+            <div class="company-logo">RE</div>
+            <div class="company-info">
+                <div class="company-name">Retro Biosciences</div>
+                <div class="company-desc">专注细胞重编程，已获 1.8 亿美元融资</div>
+                <div class="company-tags">
+                    <span class="tag">iPSC</span>
+                    <span class="tag funding">1.8亿美元</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 公司8 -->
+        <div class="company-card">
+            <div class="company-logo">HE</div>
+            <div class="company-info">
+                <div class="company-name">Helicase</div>
+                <div class="company-desc">DNA 损伤修复，延长端粒技术</div>
+                <div class="company-tags">
+                    <span class="tag">端粒</span>
+                    <span class="tag">DNA</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <nav class="bottom-nav">
+        <a href="./" class="nav-item">
+            <span class="icon">🏠</span>
+            <span>首页</span>
+        </a>
+        <a href="trials.html" class="nav-item">
+            <span class="icon">🧪</span>
+            <span>临床</span>
+        </a>
+        <a href="companies/" class="nav-item active">
+            <span class="icon">🏢</span>
+            <span>公司</span>
+        </a>
+        <a href="about.html" class="nav-item">
+            <span class="icon">👤</span>
+            <span>关于</span>
+        </a>
+    </nav>
+</body>
+</html>
