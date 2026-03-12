@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LongBiosci 抗衰老科技资讯">
+    <title>文章详情 - LongBiosci</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #0f3460; --secondary: #16213e;
+            --accent: #e94560; --success: #00A86B;
+            --info: #1976d2; --purple: #533483;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: "Noto Sans SC", sans-serif;
+            background: #f5f6fa;
+            line-height: 1.7;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .back-btn {
+            background: none;
+            border: none;
+            color: #fff;
+            font-size: 24px;
+            cursor: pointer;
+            padding: 5px;
+        }
+        
+        .header h1 {
+            color: #fff;
+            font-size: 18px;
+        }
+        
+        .article {
+            background: #fff;
+            padding: 25px 20px;
+            margin: 15px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .article-header {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .article-tags {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+        
+        .tag {
+            padding: 3px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+        
+        .tag-tech { background: #e3f2fd; color: var(--info); }
+        .tag-money { background: #e8f5e9; color: var(--success); }
+        .tag-industry { background: #fff3e0; color: #f39c12; }
+        
+        .article-title {
+            font-size: 22px;
+            font-weight: 700;
+            color: #1a1a2e;
+            line-height: 1.4;
+            margin-bottom: 12px;
+        }
+        
+        .article-meta {
+            font-size: 13px;
+            color: #999;
+        }
+        
+        .article-content {
+            font-size: 16px;
+            color: #333;
+        }
+        
+        .article-content p {
+            margin-bottom: 16px;
+        }
+        
+        .source-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 20px;
+            background: var(--primary);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        
+        .source-link:hover {
+            background: var(--secondary);
+        }
+        
+        /* 评论 */
+        .comments {
+            background: #fff;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .comments h3 {
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+        
+        .share {
+            background: #fff;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+        }
+        
+        .share h4 {
+            color: #666;
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+        
+        .share-btns {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        
+        .share-btn {
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        
+        .share-wechat { background: #07c160; color: #fff; }
+        .share-weibo { background: #e6162d; color: #fff; }
+        .share-copy { background: #666; color: #fff; }
+        
+        @media (min-width: 768px) {
+            .container { max-width: 700px; margin: 0 auto; }
+            .article, .comments, .share { max-width: 700px; margin: 20px auto; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <button class="back-btn" onclick="history.back()">←</button>
+        <h1>LongBiosci</h1>
+    </header>
+    
+    <article class="article">
+        <div class="article-header">
+            <div class="article-tags">
+                <span class="tag tag-tech">科研</span>
+            </div>
+            <h1 class="article-title">线粒体移植新机制：细胞通过内吞作用吸收外源线粒体</h1>
+            <div class="article-meta">
+                LongBiosci · 2026年3月12日 · 128 阅读
+            </div>
+        </div>
+        
+        <div class="article-content">
+            <p>线粒体是细胞的能量工厂，随年龄增长功能下降。最新研究发现，细胞通过<strong>内吞作用</strong>将外源线粒体吸收到内部，且吸收后的线粒体仍能正常工作。</p>
+            
+            <p>实验中，间充质干细胞在吸收外源线粒体后，细胞增殖加快、应激抵抗能力增强、氧气消耗率提高。这为线粒体移植治疗衰老相关疾病提供了新思路。</p>
+            
+            <p>研究团队来自 Nature Scientific Reports，他们表示下一步将探索这种机制在体内的应用可能性。</p>
+            
+            <h3>研究意义</h3>
+            <p>线粒体功能障碍是衰老的核心特征之一。如果能够通过移植年轻线粒体来改善细胞功能，将为抗衰老治疗开辟新途径。</p>
+            
+            <a href="https://www.nature.com/articles/s41598-025-28494-5" target="_blank" class="source-link">
+                🔗 阅读原文
+            </a>
+        </div>
+    </article>
+    
+    <div class="share">
+        <h4>分享这篇文章</h4>
+        <div class="share-btns">
+            <a href="#" class="share-btn share-wechat">微信</a>
+            <a href="#" class="share-btn share-weibo">微博</a>
+            <a href="#" class="share-btn share-copy" onclick="navigator.clipboard.writeText(window.location.href); alert('链接已复制'); return false;">复制链接</a>
+        </div>
+    </div>
+    
+    <div class="comments">
+        <h3>💬 评论</h3>
+        <div id="giscus-thread"></div>
+        <script src="https://giscus.app/client.js"
+            data-repo="longbiosci/longbiosci"
+            data-repo-id="R_kgDOxxx"
+            data-category="General"
+            data-category-id="DIC_kwDOxxx"
+            data-mapping="pathname"
+            data-strict="0"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="top"
+            data-theme="light"
+            data-lang="zh-CN"
+            crossorigin="anonymous"
+            async>
+        </script>
+    </div>
+</body>
+</html>
