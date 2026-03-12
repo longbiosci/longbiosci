@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LongBiosci 论文库">
+    <title>论文库 - LongBiosci</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #0f3460; --secondary: #16213e;
+            --accent: #e94560; --success: #00A86B;
+            --info: #1976d2; --purple: #533483;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: "Noto Sans SC", sans-serif;
+            background: #f5f6fa;
+            min-height: 100vh;
+            padding-bottom: 70px;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            padding: 20px;
+            color: #fff;
+            text-align: center;
+        }
+        
+        .header h1 { font-size: 22px; }
+        
+        .back-link {
+            display: inline-block;
+            padding: 10px 20px;
+            color: var(--info);
+            text-decoration: none;
+        }
+        
+        .search-box { padding: 15px; background: #fff; }
+        .search-input {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 15px;
+        }
+        
+        .filter-bar {
+            display: flex;
+            gap: 8px;
+            padding: 10px 15px;
+            overflow-x: auto;
+            background: #fff;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .filter {
+            padding: 6px 12px;
+            background: #f5f5f5;
+            border-radius: 20px;
+            font-size: 12px;
+            white-space: nowrap;
+            cursor: pointer;
+        }
+        
+        .filter.active { background: var(--primary); color: #fff; }
+        
+        .papers { padding: 15px; }
+        
+        .paper-card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        
+        .paper-title {
+            font-size: 15px;
+            font-weight: 600;
+            color: #1a1a2e;
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+        
+        .paper-authors {
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 8px;
+        }
+        
+        .paper-journal {
+            font-size: 12px;
+            color: var(--info);
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+        
+        .paper-tags { display: flex; gap: 6px; flex-wrap: wrap; }
+        
+        .tag {
+            padding: 2px 8px;
+            background: #f5f5f5;
+            border-radius: 4px;
+            font-size: 11px;
+            color: #666;
+        }
+        
+        .tag.hot { background: #ffebee; color: var(--accent); }
+        
+        .paper-link {
+            display: inline-block;
+            margin-top: 10px;
+            color: var(--info);
+            font-size: 13px;
+            text-decoration: none;
+        }
+        
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #fff;
+            display: flex;
+            justify-content: space-around;
+            padding: 8px 0;
+            box-shadow: 0 -2px 10px rgba(0,0,0,0.08);
+            z-index: 100;
+        }
+        
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2px;
+            color: #999;
+            text-decoration: none;
+            font-size: 10px;
+            padding: 5px 12px;
+        }
+        
+        .nav-item.active { color: var(--accent); }
+        .nav-item .icon { font-size: 20px; }
+        
+        @media (min-width: 768px) {
+            .container { max-width: 600px; margin: 0 auto; }
+            .papers { max-width: 600px; margin: 0 auto; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📚 论文库</h1>
+        <p>抗衰老领域最新论文</p>
+    </div>
+    
+    <a href="./" class="back-link">← 返回首页</a>
+    
+    <div class="search-box">
+        <input type="text" class="search-input" placeholder="搜索论文...">
+    </div>
+    
+    <div class="filter-bar">
+        <span class="filter active">最新</span>
+        <span class="filter">Senolytics</span>
+        <span class="filter">NAD+</span>
+        <span class="filter">线粒体</span>
+        <span class="filter">端粒</span>
+        <span class="filter">炎症</span>
+    </div>
+    
+    <div class="papers">
+        <div class="paper-card">
+            <div class="paper-title">Uptake mechanisms and functions of isolated mitochondria in mesenchymal stromal cells</div>
+            <div class="paper-authors">Wang et al.</div>
+            <div class="paper-journal">Nature Scientific Reports · 2026-03-11</div>
+            <div class="paper-tags">
+                <span class="tag hot">热门</span>
+                <span class="tag">线粒体</span>
+                <span class="tag">细胞疗法</span>
+            </div>
+            <a href="https://doi.org/10.1038/s41598-025-28494-5" target="_blank" class="paper-link">🔗 DOI</a>
+        </div>
+        
+        <div class="paper-card">
+            <div class="paper-title">Fenofibrate extends healthspan in mice through PPARα activation</div>
+            <div class="paper-authors">Chen et al.</div>
+            <div class="paper-journal">Nature Aging · 2026-03-11</div>
+            <div class="paper-tags">
+                <span class="tag">老药新用</span>
+                <span class="tag">PPARα</span>
+            </div>
+            <a href="#" class="paper-link">🔗 DOI</a>
+        </div>
+        
+        <div class="paper-card">
+            <div class="paper-title">Adult hippocampal neurogenesis in humans confirmed by single-nucleus RNA sequencing</div>
+            <div class="paper-authors">Sorrells et al.</div>
+            <div class="paper-journal">Nature Neuroscience · 2026-03-06</div>
+            <div class="paper-tags">
+                <span class="tag">神经科学</span>
+                <span class="tag">成体神经发生</span>
+            </div>
+            <a href="#" class="paper-link">🔗 DOI</a>
+        </div>
+        
+        <div class="paper-card">
+            <div class="paper-title">Senolytic combination of dasatinib and quercetin improves physical function in older adults</div>
+            <div class="paper-authors">Kirkland et al.</div>
+            <div class="paper-journal">Nature Medicine · 2025-12</div>
+            <div class="paper-tags">
+                <span class="tag hot">热门</span>
+                <span class="tag">Senolytics</span>
+                <span class="tag">临床</span>
+            </div>
+            <a href="#" class="paper-link">🔗 DOI</a>
+        </div>
+        
+        <div class="paper-card">
+            <div class="paper-title">NAD+ replenishment improves mitochondrial function in aged humans</div>
+            <div class="paper-authors">Imai et al.</div>
+            <div class="paper-journal">Cell · 2025-11</div>
+            <div class="paper-tags">
+                <span class="tag">NAD+</span>
+                <span class="tag">临床</span>
+            </div>
+            <a href="#" class="paper-link">🔗 DOI</a>
+        </div>
+        
+        <div class="paper-card">
+            <div class="paper-title">Telomere lengthening by CRISPR-mediated telomerase activation</div>
+            <div class="paper-authors">Blasco et al.</div>
+            <div class="paper-journal">Nature Biotechnology · 2025-10</div>
+            <div class="paper-tags">
+                <span class="tag">端粒</span>
+                <span class="tag">CRISPR</span>
+            </div>
+            <a href="#" class="paper-link">🔗 DOI</a>
+        </div>
+    </div>
+    
+    <nav class="bottom-nav">
+        <a href="./" class="nav-item">
+            <span class="icon">🏠</span>
+            <span>首页</span>
+        </a>
+        <a href="papers/" class="nav-item active">
+            <span class="icon">📚</span>
+            <span>论文</span>
+        </a>
+        <a href="companies/" class="nav-item">
+            <span class="icon">🏢</span>
+            <span>公司</span>
+        </a>
+        <a href="about.html" class="nav-item">
+            <span class="icon">👤</span>
+            <span>关于</span>
+        </a>
+    </nav>
+</body>
+</html>
