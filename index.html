@@ -62,12 +62,17 @@
             text-align: center;
             cursor: pointer;
             font-size: 11px;
+            text-decoration: none;
+            color: inherit;
         }
+        
+        .channel:hover { background: #f5f5f5; }
         
         .channel .icon { font-size: 22px; display: block; margin-bottom: 4px; }
         .channel .label { color: #666; }
         .channel.active { background: var(--primary); color: #fff; }
         .channel.active .label { color: #fff; }
+        .channel.active:hover { background: var(--primary); }
         
         .section { padding: 15px; }
         .section-title {
@@ -174,10 +179,10 @@
     </div>
     
     <div class="channels">
-        <div class="channel active"><span class="icon">📖</span><span class="label">首页</span></div>
-        <div class="channel"><span class="icon">📚</span><span class="label">论文</span></div>
-        <div class="channel"><span class="icon">🏢</span><span class="label">公司</span></div>
-        <div class="channel"><span class="icon">📅</span><span class="label">活动</span></div>
+        <a href="./" class="channel active"><span class="icon">📖</span><span class="label">首页</span></a>
+        <a href="papers/" class="channel"><span class="icon">📚</span><span class="label">论文</span></a>
+        <a href="companies/" class="channel"><span class="icon">🏢</span><span class="label">公司</span></a>
+        <a href="events/" class="channel"><span class="icon">📅</span><span class="label">活动</span></a>
     </div>
     
     <div class="section">
