@@ -105,4 +105,20 @@ body {
 @media (max-width: 600px) {
     .nav-grid { grid-template-columns: 1fr; }
     .container { border-radius: 0; }
+    
+    /* 移动端字体和间距优化 */
+    body { font-size: 16px; line-height: 1.8; }
+    .header-main { padding: 30px 20px; }
+    .header-main h1 { font-size: 24px; }
+    .header-main p { font-size: 14px; }
+    .nav-grid { padding: 15px; gap: 12px; }
+    .nav-card { padding: 18px; }
+    .nav-card h3 { font-size: 16px; }
+    .nav-card p { font-size: 13px; }
+    .item { padding: 15px; }
+    .item h3 { font-size: 16px; }
+    .item p { font-size: 15px; }
+    .back-link { padding: 15px 20px; font-size: 15px; }
+    .footer { padding: 20px; font-size: 13px; }
+    h1, h2, h3, h4 { line-height: 1.4; }
 }
