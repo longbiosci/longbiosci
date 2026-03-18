@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LongBiosci 手机访问 - 扫码阅读</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+            background: linear-gradient(135deg, #0f3460, #16213e);
+            min-height: 100vh;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 30px 20px;
+        }
+        h1 { color: #0f3460; font-size: 22px; margin-bottom: 10px; }
+        .subtitle { color: #666; margin-bottom: 25px; font-size: 14px; }
+        
+        .qr-main {
+            background: #f9f9f9;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 25px;
+        }
+        .qr-main img { width: 200px; height: 200px; }
+        .qr-main p { margin-top: 10px; color: #333; font-size: 14px; }
+        
+        .qr-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+        .qr-item {
+            background: #f9f9f9;
+            border-radius: 12px;
+            padding: 15px;
+        }
+        .qr-item img { width: 120px; height: 120px; }
+        .qr-item p { margin-top: 8px; font-size: 12px; color: #555; }
+        
+        .footer {
+            margin-top: 25px;
+            color: #888;
+            font-size: 12px;
+        }
+        .footer a { color: #1976d2; text-decoration: none; }
+        
+        @media (max-width: 400px) {
+            .qr-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧬 LongBiosci</h1>
+        <p class="subtitle">衰老生物学与抗衰老科技 · 手机扫码阅读</p>
+        
+        <div class="qr-main">
+            <img src="qr/website.png" alt="网站首页">
+            <p>📱 扫码访问网站首页</p>
+        </div>
+        
+        <h3 style="color:#0f3460;margin-bottom:15px;">📰 最新文章</h3>
+        <div class="qr-grid">
+            <div class="qr-item">
+                <img src="news/microglia-amyloid-qr.png" alt="小胶质细胞">
+                <p>小胶质细胞研究</p>
+            </div>
+            <div class="qr-item">
+                <img src="news/roseburia-muscle-qr.png" alt="肠道细菌">
+                <p>肠道细菌研究</p>
+            </div>
+            <div class="qr-item">
+                <img src="news/epigenetic-clock-survival-qr.png" alt="表观遗传">
+                <p>表观遗传时钟</p>
+            </div>
+            <div class="qr-item">
+                <img src="news/exercise-gut-memory-qr.png" alt="运动">
+                <p>运动与肠道</p>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>🌐 <a href="https://longbiosci.com">longbiosci.com</a></p>
+            <p style="margin-top:5px;">© 2026 LongBiosci</p>
+        </div>
+    </div>
+</body>
+</html>
