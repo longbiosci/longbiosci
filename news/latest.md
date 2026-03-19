@@ -1,6 +1,11 @@
-# 长寿科技最新资讯 · 2026-03-18
+# 长寿科技最新资讯 · 2026-03-19
 
-1. **Prevalence of Roseburia Inulinivorans in the Gut Microbiome Affects Muscle Strength**
+1. **LEV Foundation RMR1 结果：联合干预突破小鼠寿命上限**
+   - 来源: LEV Foundation | 日期: Thu, 19 Ma
+   - 链接: /news/LEV-Foundation-RMR1-Results.html
+   - 摘要: 1000只小鼠四联干预研究（雷帕霉素+衰老药物+端粒酶基因疗法+干细胞移植）公布结果，首次证明多种损伤修复干预具有协同效应，平均寿命显著提升，为人类逆龄疗法提供关键概念验证。
+
+2. **Prevalence of Roseburia Inulinivorans in the Gut Microbiome Affects Muscle Strength**
    - 来源: Fight Aging! | 日期: Tue, 17 Ma
    - 链接: https://www.fightaging.org/archives/2026/03/prevalence-of-roseburia-inulinivorans-in-the-gut-microbiome-affects-muscle-strength/
 
