@@ -161,9 +161,27 @@
             .container { max-width: 700px; margin: 0 auto; }
             .article, .comments, .share { max-width: 700px; margin: 20px auto; }
         }
-    </style>
+    
+    .skip-link {
+        position: absolute;
+        top: -40px;
+        left: 0;
+        background: #0f3460;
+        color: #fff;
+        padding: 8px 16px;
+        z-index: 1000;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .skip-link:focus {
+        top: 0;
+    }
+
+</style>
 </head>
 <body>
+<a href="#main-content" class="skip-link">跳转到主要内容</a>
+
     <header class="header">
         <button class="back-btn" onclick="history.back()">←</button>
         <h1>LongBiosci</h1>
@@ -190,7 +208,7 @@
             <h3>研究意义</h3>
             <p>线粒体功能障碍是衰老的核心特征之一。如果能够通过移植年轻线粒体来改善细胞功能，将为抗衰老治疗开辟新途径。</p>
             
-            <a href="https://www.nature.com/articles/s41598-025-28494-5" target="_blank" class="source-link">
+            <a href="https://www.nature.com/articles/s41598-025-28494-5" rel="noopener noreferrer" target="_blank" class="source-link">
                 🔗 阅读原文
             </a>
         </div>

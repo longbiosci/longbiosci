@@ -189,9 +189,27 @@
             .container { max-width: 600px; margin: 0 auto; }
             .bottom-nav { max-width: 600px; left: 50%; transform: translateX(-50%); }
         }
-    </style>
+    
+    .skip-link {
+        position: absolute;
+        top: -40px;
+        left: 0;
+        background: #0f3460;
+        color: #fff;
+        padding: 8px 16px;
+        z-index: 1000;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .skip-link:focus {
+        top: 0;
+    }
+
+</style>
 </head>
 <body>
+<a href="#main-content" class="skip-link">跳转到主要内容</a>
+
     <header class="header">
         <h1>🧬 LongBiosci</h1>
     </header>
@@ -201,11 +219,11 @@
         <p>科研 · 技术 · 产业 · 人物</p>
     </div>
     
-    <div class="channels">
-        <a href="./" class="channel active"><span class="icon">📖</span><span class="label">首页</span></a>
-        <a href="papers/" class="channel"><span class="icon">📚</span><span class="label">论文</span></a>
-        <a href="companies/" class="channel"><span class="icon">🏢</span><span class="label">公司</span></a>
-        <a href="events/" class="channel"><span class="icon">📅</span><span class="label">活动</span></a>
+    <div id="main-content" class="channels">
+        <a href="./" class="channel active" aria-label="首页"><span class="icon">📖</span><span class="label">首页</span></a>
+        <a href="papers/" class="channel" aria-label="论文"><span class="icon">📚</span><span class="label">论文</span></a>
+        <a href="companies/" class="channel" aria-label="公司"><span class="icon">🏢</span><span class="label">公司</span></a>
+        <a href="events/" class="channel" aria-label="活动"><span class="icon">📅</span><span class="label">活动</span></a>
     </div>
     
     <div class="section">
@@ -231,7 +249,7 @@
         
         <div class="section-title">🔬 科研进展</div>
         
-        <a href="https://doi.org/10.1038/s41598-025-28494-5" target="_blank" class="feed-item">
+        <a href="https://doi.org/10.1038/s41598-025-28494-5" rel="noopener noreferrer" target="_blank" class="feed-item">
             <div class="feed-header">
                 <span class="tag tag-paper">论文</span>
                 <span class="time">2026-03-11</span>
@@ -241,7 +259,7 @@
             <div class="feed-source">📄 Nature Scientific Reports · DOI: 10.1038/s41598-025-28494-5</div>
         </a>
         
-        <a href="https://www.fightaging.org/archives/2026/03/" target="_blank" class="feed-item">
+        <a href="https://www.fightaging.org/archives/2026/03/" rel="noopener noreferrer" target="_blank" class="feed-item">
             <div class="feed-header">
                 <span class="tag tag-tech">研究</span>
                 <span class="time">2026-03-11</span>
@@ -251,7 +269,7 @@
             <div class="feed-source">📄 FightAging · Nature Aging</div>
         </a>
         
-        <a href="https://www.fightaging.org/archives/2026/03/" target="_blank" class="feed-item">
+        <a href="https://www.fightaging.org/archives/2026/03/" rel="noopener noreferrer" target="_blank" class="feed-item">
             <div class="feed-header">
                 <span class="tag tag-paper">论文</span>
                 <span class="time">2026-03-06</span>
@@ -265,7 +283,7 @@
     <div class="section">
         <div class="section-title">💡 技术前沿</div>
         
-        <a href="https://www.fightaging.org/archives/2026/03/" target="_blank" class="feed-item">
+        <a href="https://www.fightaging.org/archives/2026/03/" rel="noopener noreferrer" target="_blank" class="feed-item">
             <div class="feed-header">
                 <span class="tag tag-tech">技术</span>
                 <span class="time">2026-03</span>
@@ -275,7 +293,7 @@
             <div class="feed-source">📄 领域综述</div>
         </a>
         
-        <a href="https://www.fightaging.org/archives/2026/03/" target="_blank" class="feed-item">
+        <a href="https://www.fightaging.org/archives/2026/03/" rel="noopener noreferrer" target="_blank" class="feed-item">
             <div class="feed-header">
                 <span class="tag tag-tech">技术</span>
                 <span class="time">2026-03</span>
@@ -289,7 +307,7 @@
     <div class="section">
         <div class="section-title">🏢 产业动态</div>
         
-        <a href="https://ir.unitybiotechnology.com/" target="_blank" class="feed-item">
+        <a href="https://ir.unitybiotechnology.com/" rel="noopener noreferrer" target="_blank" class="feed-item">
             <div class="feed-header">
                 <span class="tag tag-tech">公司</span>
                 <span class="time">2026</span>
@@ -299,7 +317,7 @@
             <div class="feed-source">📄 UBX · NASDAQ: UBX</div>
         </a>
         
-        <a href="https://www.calicolabs.com/" target="_blank" class="feed-item">
+        <a href="https://www.calicolabs.com/" rel="noopener noreferrer" target="_blank" class="feed-item">
             <div class="feed-header">
                 <span class="tag tag-tech">公司</span>
                 <span class="time">2026</span>
@@ -311,10 +329,10 @@
     </div>
     
     <nav class="bottom-nav">
-        <a href="#" class="nav-item active"><span class="icon">🏠</span><span>首页</span></a>
-        <a href="papers/" class="nav-item"><span class="icon">📚</span><span>论文</span></a>
-        <a href="companies/" class="nav-item"><span class="icon">🏢</span><span>公司</span></a>
-        <a href="events/" class="nav-item"><span class="icon">📅</span><span>活动</span></a>
+        <a href="#" class="nav-item active" aria-label="当前页：首页"><span class="icon">🏠</span><span>首页</span></a>
+        <a href="papers/" class="nav-item" aria-label="论文"><span class="icon">📚</span><span>论文</span></a>
+        <a href="companies/" class="nav-item" aria-label="公司"><span class="icon">🏢</span><span>公司</span></a>
+        <a href="events/" class="nav-item" aria-label="活动"><span class="icon">📅</span><span>活动</span></a>
     </nav>
 </body>
 </html>

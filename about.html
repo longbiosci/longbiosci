@@ -16,11 +16,29 @@
         p { color: #555; line-height: 1.8; margin-bottom: 15px; }
         a { color: #1976d2; }
         .back { display: inline-block; margin-bottom: 20px; color: #1976d2; text-decoration: none; }
-    </style>
+    
+    .skip-link {
+        position: absolute;
+        top: -40px;
+        left: 0;
+        background: #0f3460;
+        color: #fff;
+        padding: 8px 16px;
+        z-index: 1000;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .skip-link:focus {
+        top: 0;
+    }
+
+</style>
 </head>
 <body>
+<a href="#main-content" class="skip-link">跳转到主要内容</a>
+
     <div class="container">
-        <a href="./" class="back">← 返回首页</a>
+        <a href="./" class="back" aria-label="首页">← 返回首页</a>
         <h1>🧬 关于 LongBiosci</h1>
         
         <h2>我们的使命</h2>
