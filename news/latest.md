@@ -1,5 +1,17 @@
 # 长寿科技最新资讯 · 2026-03-21
 
+## 🔬 晚间更新（3月21日新发现）
+
+1. **IVNS1ABP基因突变驱动新型早衰性神经病变**
+   - 来源: Nature Communications | 日期: Sat, 21 Mar 2026
+   - 链接: /news/IVNS1ABP-Progeroid-Neuropathy.html
+   - 摘要: 首次发现IVNS1ABP基因突变导致早衰性神经病变，患者细胞呈现衰老样表型（分裂缺陷、DNA损伤、p53激活），为理解衰老机制和靶向干预提供新模型。
+
+2. **染色质重塑驱动Btaf1短亚型过表达——揭秘造血干细胞衰老机制**
+   - 来源: Nature Communications | 日期: Sat, 21 Mar 2026
+   - 链接: /news/Btaf1-Hematopoietic-Stem-Cell-Aging.html
+   - 摘要: 老化造血干细胞中染色质环路改变驱动Btaf1短亚型过表达，激活衰老相关基因网络，促进巨核细胞偏斜分化；首次将染色质三维结构变化与干细胞衰老直接关联。
+
 ## 🔬 午间更新（3月20日新发现）
 
 1. **mRNA质量控制机制与衰老综述：靶向NMD/NSD/NGD或可延缓衰老**
