@@ -1,3 +1,12 @@
+# 长寿科技最新资讯 · 2026-03-21
+
+## 🔬 午间更新（3月20日新发现）
+
+1. **mRNA质量控制机制与衰老综述：靶向NMD/NSD/NGD或可延缓衰老**
+   - 来源: Journal of Biological Chemistry | 日期: Fri, 20 Mar 2026
+   - 链接: /news/mRNA-Quality-Control-Aging-Review.html
+   - 摘要: 系统综述mRNA质量控制三大机制（NMD、NSD、NGD）在衰老及神经退行、癌症中的作用；通路损伤与早衰密切相关，增强质控功能是抗衰老新策略。
+
 # 长寿科技最新资讯 · 2026-03-20
 
 ## 🌙 晚间补充（3月19日新发现）
