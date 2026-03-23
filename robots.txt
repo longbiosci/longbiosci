@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://longbiosci.github.io/longbiosci/sitemap.xml
+Sitemap: https://longbiosci.com/sitemap.xml
