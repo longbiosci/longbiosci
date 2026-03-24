@@ -108,6 +108,19 @@ body {
     padding: 20px;
 }
 
+.breadcrumb {
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 16px;
+    padding: 8px 0;
+}
+.breadcrumb a {
+    color: #4fc3f7;
+    text-decoration: none;
+}
+.breadcrumb a:hover { text-decoration: underline; }
+.breadcrumb span[aria-current] { color: #555; }
+
 .article-header {
     padding-bottom: 20px;
     margin-bottom: 25px;
@@ -199,4 +212,5 @@ body {
     .article-header h1 { font-size: 20px; }
     .article-content { font-size: 15px; line-height: 1.8; }
     .article-content h2 { font-size: 16px; }
+    .breadcrumb { font-size: 12px; }
 }
