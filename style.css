@@ -186,6 +186,65 @@ body {
     border-top: 1px solid #eee;
 }
 
+/* 移动端页面标题 */
+.mobile-section-title {
+    color: #0f3460;
+    margin-bottom: 15px;
+}
+
+/* 页面版权文本 */
+.footer-copy,
+.about-copy {
+    margin-top: 40px;
+    color: #999;
+    font-size: 14px;
+}
+
+.footer-copy { margin-top: 5px; }
+
+/* 内页 logo（控制高度） */
+.logo-inline {
+    height: 50px;
+    margin-bottom: 1rem;
+}
+
+/* 内页返回链接 */
+.back-home {
+    color: #00A86B;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+/* 通用 section 标题（绿色 #00A86B） */
+.section-title {
+    color: #00A86B;
+    margin-bottom: 1rem;
+}
+
+/* 子标题文本 */
+.sub-text {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* 数据说明框 */
+.data-box {
+    margin-top: 40px;
+    padding: 20px;
+    background: #f0f7ff;
+    border-radius: 12px;
+}
+
+.data-box h3 {
+    color: var(--primary);
+    margin-bottom: 10px;
+}
+
+.data-box p {
+    color: #666;
+    font-size: 14px;
+}
+
 /* 响应式 */
 @media (max-width: 600px) {
     .nav-grid { grid-template-columns: 1fr; }
