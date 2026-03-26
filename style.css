@@ -92,6 +92,7 @@ body {
 
 .tag.blue { background: var(--info); }
 .tag.purple { background: var(--purple); }
+.tag.accent { background: var(--accent); }
 
 .footer {
     background: #f5f5f5;
