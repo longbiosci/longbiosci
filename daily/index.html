@@ -6,23 +6,10 @@
     <meta name="description" content="LongBiosci 每日抗衰老研究简报">
     <title>每日简报 - LongBiosci</title>
     <link rel="canonical" href="https://longbiosci.com/daily/">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://longbiosci.com/daily/">
-    <meta property="og:title" content="每日简报 - LongBiosci">
-    <meta property="og:description" content="每日抗衰老研究简报，追踪最新科研进展与行业动态">
-    <meta property="og:image" content="https://longbiosci.com/logo.jpg">
-    <meta property="og:site_name" content="LongBiosci">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="每日简报 - LongBiosci">
-    <meta name="twitter:description" content="每日抗衰老研究简报，追踪最新科研进展与行业动态">
-    <meta name="twitter:image" content="https://longbiosci.com/logo.jpg">    <!-- Google Fonts Performance -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        :root { --primary: #0f3460; --secondary: #16213e; --accent: #e94560; --success: #00A86B; --info: #1976d2; --purple: #533483; }
+        :root { --primary: #0f3460; --secondary: #16213e; --accent: #e94560; --success: #00A86B; --info: #1976d2; }
         body { font-family: "Noto Sans SC", sans-serif; background: linear-gradient(135deg, var(--primary), var(--secondary)); min-height: 100vh; padding: 40px 20px; }
         .container { max-width: 800px; margin: 0 auto; background: white; border-radius: 20px; overflow: hidden; }
         .cover { background: linear-gradient(135deg, var(--primary), var(--secondary)); padding: 60px 40px; text-align: center; color: white; }
@@ -30,19 +17,17 @@
         .cover .date { color: var(--accent); font-size: 22px; font-weight: 600; }
         .content { padding: 40px; }
         .back-link { display: inline-block; margin-bottom: 20px; color: var(--info); text-decoration: none; font-size: 14px; }
-        .section { margin-bottom: 35px; }
         .section h2 { color: var(--primary); font-size: 22px; font-weight: 700; background: #f5f5f5; padding: 15px 20px; border-radius: 8px; border-left: 4px solid var(--accent); margin-bottom: 20px; }
         .item { background: #fafafa; border-radius: 12px; padding: 20px; margin-bottom: 15px; border: 1px solid #eee; }
-        .item h3 { color: #1a1a2e; font-size: 18px; margin-bottom: 10px; }
-        .item p { color: #555; font-size: 15px; line-height: 1.8; }
-        .item .meta { color: #999; font-size: 13px; margin-top: 10px; }
+        .item a { text-decoration: none; color: #1a1a2e; }
+        .item a:hover h3 { color: var(--accent); }
+        .item h3 { font-size: 18px; margin-bottom: 8px; transition: color 0.2s; }
+        .item p { color: #555; font-size: 15px; line-height: 1.7; }
+        .item .meta { color: #999; font-size: 13px; margin-top: 8px; }
         .tag { display: inline-block; background: var(--success); color: white; padding: 4px 10px; border-radius: 4px; font-size: 12px; margin-right: 5px; }
-        .tag.blue { background: var(--info); }
-        .tag.purple { background: var(--purple); }
-        .tag.red { background: var(--accent); }
+        .tag.today { background: var(--accent); }
+        .item.today-item { border: 2px solid var(--accent); background: #fff8f8; }
         .footer { background: #f5f5f5; padding: 30px; text-align: center; color: #888; font-size: 14px; }
-        .highlight { background: #fff3cd; border-left: 4px solid #ffc107; }
-        .insight { background: #e8f5e9; border-left: 4px solid #4caf50; padding: 15px; border-radius: 8px; margin: 20px 0; }
     </style>
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 </head>
@@ -50,73 +35,30 @@
     <div class="container">
         <div class="cover">
             <h1>🧬 长寿科技简报</h1>
-            <div class="date">第14期 · 2026年03月12日</div>
-            <div style="margin-top:20px;color:#aaa;font-size:16px;">抗衰老研究前沿 · 每日更新</div>
+            <div class="date">每日更新 · 2026年</div>
+            <div style="margin-top:20px;color:#aaa;font-size:16px;">抗衰老研究前沿 · 精选资讯</div>
         </div>
         
         <div class="content">
             <a href="../" class="back-link">← 返回首页</a>
             
             <div class="section">
-                <h2>💡 观点</h2>
-                <div class="insight">
-                    <p><strong>本刊观点：</strong>线粒体治疗正在从概念走向临床。非诺贝特老药新用的证据越来越强。这些进展意味着"健康衰老"不再是概念，而是正在成为可操作的目标。</p>
-                </div>
-            </div>
+                <h2>📅 每日简报</h2>
 
-            <div class="section">
-                <h2>🔬 今日热点</h2>
-
-                <div class="item highlight">
-                    <h3>线粒体移植新机制：细胞如何"吃掉"健康线粒体？</h3>
-                    <p>线粒体是细胞的能量工厂，随年龄增长功能下降。最新研究发现，细胞通过<strong>内吞作用</strong>将外源线粒体吸收到内部，且吸收后的线粒体仍能正常工作。</p>
-                    <p>实验中，间充质干细胞在吸收外源线粒体后，细胞增殖加快、应激抵抗能力增强、氧气消耗率提高。这为线粒体移植治疗衰老相关疾病提供了新思路。</p>
-                    <div class="meta">
-                        <span class="tag">线粒体</span>
-                        <span class="tag blue">细胞疗法</span>
-                        Nature Scientific Reports · 2026-03-11
-                        <a href="https://doi.org/10.1038/s41598-025-28494-5" target="_blank" style="color:var(--info)"> 阅读原文 →</a>
-                    </div>
+                <div class="item today-item">
+                    <a href="2026-03-28.html">
+                        <h3>🆕 2026年3月28日 · 本期</h3>
+                        <p>RNASEK/环状RNA研究 · 胸腺健康与寿命关联 · 共2篇</p>
+                        <div class="meta"><span class="tag today">最新</span> Fight Aging! · Nature · KAIST</div>
+                    </a>
                 </div>
 
                 <div class="item">
-                    <h3>老药新用：非诺贝特可能延缓衰老</h3>
-                    <p>非诺贝特是一种已获批用于高血脂的药物。最新小鼠研究显示，它具有显著的抗衰老效果，能延长健康寿命。</p>
-                    <p>虽然效果可能不如运动，但对于无法剧烈运动的老年人群，这提供了一个可行的药物干预选择。</p>
-                    <div class="meta">
-                        <span class="tag"> geroprotector</span>
-                        <span class="tag purple">老药新用</span>
-                        FightAging · 2026-03-11
-                    </div>
-                </div>
-
-                <div class="item">
-                    <h3>成人神经发生再添证据</h3>
-                    <p>关于成人脑部是否能新生神经元的争论持续多年。最新研究再次证实，成年人类大脑确实存在神经发生现象，新神经元能够整合到现有神经网络中。</p>
-                    <div class="meta">
-                        <span class="tag red">神经科学</span>
-                        FightAging · 2026-03-06
-                    </div>
-                </div>
-
-                <div class="item">
-                    <h3>抵抗运动训练延缓大脑衰老</h3>
-                    <p>研究显示，抵抗运动训练（如举重）能够有效减缓大脑衰老速度，比有氧运动更能保持认知功能。</p>
-                    <div class="meta">
-                        <span class="tag">运动</span>
-                        <span class="tag blue">认知</span>
-                        Lifespan.io · 2026-03-05
-                    </div>
-                </div>
-
-                <div class="item">
-                    <h3>炎症加剧老年肺炎</h3>
-                    <p>研究发现，随着年龄增长，炎症水平升高（炎症衰老）会使肺炎等感染性疾病更加致命。</p>
-                    <div class="meta">
-                        <span class="tag">炎症</span>
-                        <span class="tag blue">免疫</span>
-                        Aging Cell · 2026-03-05
-                    </div>
+                    <a href="index-2026-03-11.html">
+                        <h3>2026年3月11日 · 第14期</h3>
+                        <p>线粒体移植新机制 · 非诺贝特抗衰老 · 成人神经发生 · 抵抗运动训练</p>
+                        <div class="meta">Fight Aging! · Lifespan.io · Nature Scientific Reports</div>
+                    </a>
                 </div>
 
             </div>
