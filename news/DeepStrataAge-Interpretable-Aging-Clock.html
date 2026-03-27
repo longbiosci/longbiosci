@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepStrataAge：可解释深度学习揭示男女衰老「波浪式」动态差异 - LongBiosci</title>
+    <meta name="description" content="最新研究 DeepStrataAge 开发了基于深度神经网络的 DNAm 衰老时钟，在 29167 个样本上达到 1.89 年精度，并首次揭示男女衰老在生命不同阶段呈现波浪式、非线性动态差异。">
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "url": "https://longbiosci.com/news/DeepStrataAge-Interpretable-Aging-Clock.html",
+      "publisher": {
+        "@type": "Organization",
+        "name": "LongBiosci",
+        "url": "https://longbiosci.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://longbiosci.com/logo.jpg",
+          "width": 836,
+          "height": 257
+        }
+      },
+      "datePublished": "2026-03-27",
+      "inLanguage": "zh-CN"
+    }
+    </script>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/" class="logo">🧬 LongBiosci</a>
+            <div class="nav-links">
+                <a href="/">首页</a>
+                <a href="/news/">新闻</a>
+                <a href="/papers/">论文</a>
+                <a href="/companies/">公司</a>
+                <a href="/about.html">关于</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="article-container">
+            <nav class="breadcrumb" aria-label="面包屑导航">
+                <a href="/">首页</a> &gt; <a href="/news/">新闻</a> &gt; <span aria-current="page">DeepStrataAge：可解释深度学习揭示男女衰老「波浪式」动态差异</span>
+            </nav>
+
+        <article>
+            <header class="article-header">
+                <span class="tag">研究进展</span>
+                <span class="date">Fri, 27 Mar</span>
+                <h1>DeepStrataAge：可解释深度学习揭示男女衰老「波浪式」动态差异</h1>
+                <p class="source">来源: <a href="https://www.fightaging.org/">Fight Aging!</a></p>
+            </header>
+
+            <div class="article-content">
+                <p>衰老是慢性疾病——包括心血管疾病、阿尔茨海默病和癌症——最强的风险因子。DNA 甲基化（DNAm）时钟是目前最受关注的生物学年龄测量工具之一，但大多数时钟依赖<span style="color:#e74c3c">线性模型</span>，无法捕捉 CpG 位点之间的非线性互作，也难以揭示衰老背后的生物学机制。</p>
+
+                <p>最新发表于 <em>npj Aging</em> 的研究（DOI: <a href="https://doi.org/10.1038/s41514-026-00358-w" target="_blank">10.1038/s41514-026-00358-w</a>）提出了 <strong>DeepStrataAge</strong>——一种基于深度神经网络（DNN）的可解释 DNAm 衰老时钟，在精度和机制洞察上均取得突破性进展。</p>
+
+                <h2>模型架构与数据</h2>
+
+                <p>DeepStrataAge 在以下数据集上训练：</p>
+                <ul>
+                    <li><strong>训练集</strong>：29,167 个样本，来自 Illumina EPIC v1.0 和 v2.0 芯片</li>
+                    <li><strong>CpG 特征</strong>：通过性别和年龄分层相关性分析，筛选出 12,234 个 CpG 位点</li>
+                    <li><strong>独立验证集</strong>：用于外部验证</li>
+                </ul>
+
+                <h2>精度表现</h2>
+
+                <p>DeepStrataAge 在验证集上达到了 <strong>1.89 年</strong>的平均绝对误差（MAE），优于已有的深度学习方法和 Elastic Net 回归类表观遗传时钟。</p>
+
+                <h2>核心发现：波浪式衰老动态</h2>
+
+                <p>该研究的最大贡献在于引入了 <strong>Shapley Additive Explanations（SHAP）</strong>可解释性框架，首次揭示：</p>
+
+                <ul>
+                    <li><strong>早期生命模块</strong>：生命早期阶段的 CpG 位点变化最为剧烈</li>
+                    <li><strong>中年转换期</strong>：存在显著的衰老速率切换点</li>
+                    <li><strong>晚年重塑期</strong>：晚年阶段呈现全新的甲基化变化模式</li>
+                </ul>
+
+                <p>更重要的是，这些<span style="color:#e74c3c">波浪式的表观遗传变化与蛋白质组学和纵向组学研究中发现的非线性「衰老波浪」高度吻合</span>，表明衰老并非匀速线性推进，而是存在多个关键的阶段性转折。</p>
+
+                <h2>性别差异：男女衰老节奏不同</h2>
+
+                <p>SHAP 分析还揭示了<span style="color:#e74c3c">显著的性别差异</span>：男性和女性的 CpG 时钟在生命各阶段的 SHAP 值分布不同，表明两性衰老的表观遗传轨迹存在本质差异——这也为未来个性化抗衰老干预提供了生物学依据。</p>
+
+                <h2>为什么这很重要</h2>
+
+                <p>目前大多数表观遗传时钟是「黑箱」——你输入数据，得到一个数字，但不知道背后的原因。DeepStrataAge 通过 SHAP 框架让每个 CpG 的贡献变得可解释，这意味着：</p>
+
+                <ul>
+                    <li>科研人员可以定位哪些生物学通路与衰老最相关</li>
+                    <li>干预措施的效果可以更精确地被追踪</li>
+                    <li>为下一代精准抗衰老药物研发提供了可解释的生物标志物</li>
+                </ul>
+
+                <p>这一研究代表了表观遗传时钟从「描述性工具」向「机制解释工具」转变的重要一步。</p>
+
+                <h2>原文链接</h2>
+                <p><a href="https://doi.org/10.1038/s41514-026-00358-w" target="_blank">阅读原文 →</a></p>
+            </div>
+
+            <footer class="article-footer">
+                <a href="/news/" class="back-link">← 返回新闻列表</a>
+            </footer>
+        </article>
+    </main>
+
+    <footer>
+        <p>© 2026 LongBiosci · 抗衰老科学研究</p>
+    </footer>
+</body>
+</html>
