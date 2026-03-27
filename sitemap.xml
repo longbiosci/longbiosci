@@ -147,6 +147,26 @@
 
   <!-- 新闻文章（按时间倒序排列） -->
   <url>
+    <loc>https://longbiosci.com/news/Fifteen-Years-Senescent-Cell-Clearance.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Immune-Aging-Interventions-Framework.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/MG53-Muscle-Stem-Cell-Activation.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Senescent-Cells-Sarcopenia-Therapy.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://longbiosci.com/news/Myostatin-MSTN-Genetic-Muscle-Mass.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
