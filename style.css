@@ -187,6 +187,23 @@ body {
     border-top: 1px solid #eee;
 }
 
+/* 内文重点强调（红色） */
+.highlight-red { color: #e74c3c; font-weight: 500; }
+
+/* 新闻文章主图样式 */
+.featured-img {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* 外部来源图样式（带圆角） */
+.external-img {
+    display: block;
+    margin-bottom: 5px;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
 /* 移动端页面标题 */
 .mobile-section-title {
     color: #0f3460;
