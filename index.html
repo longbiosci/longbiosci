@@ -227,6 +227,13 @@
         .nav-item.active { color: var(--accent); }
         .nav-item .icon { font-size: 20px; }
         
+        @media (max-width: 480px) {
+            .channels { grid-template-columns: repeat(2, 1fr); }
+            .channel { padding: 12px 5px; font-size: 12px; }
+            .channel .icon { font-size: 20px; }
+            .channel .label { font-size: 12px; }
+        }
+
         @media (min-width: 768px) {
             .container { max-width: 600px; margin: 0 auto; }
             .bottom-nav { max-width: 600px; left: 50%; transform: translateX(-50%); }
@@ -262,7 +269,7 @@
         <p>科研 · 技术 · 产业 · 人物</p>
     </div>
     
-    <div id="main-content" class="channels">
+    <div id="main-content" class="channels" role="navigation" aria-label="主导航">
         <a href="./" class="channel active" aria-label="首页"><span class="icon">📖</span><span class="label">首页</span></a>
         <a href="papers/" class="channel" aria-label="论文"><span class="icon">📚</span><span class="label">论文</span></a>
         <a href="companies/" class="channel" aria-label="公司"><span class="icon">🏢</span><span class="label">公司</span></a>
