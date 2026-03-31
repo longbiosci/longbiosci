@@ -218,6 +218,48 @@ body {
     font-size: 14px;
 }
 
+/* 外部链接样式（替代 inline style="color:var(--info)"） */
+.external-link {
+    color: var(--info);
+}
+
+/* 页面副标题（封面副标题等） */
+.page-subtitle {
+    margin-top: 20px;
+    color: #aaa;
+    font-size: 16px;
+}
+
+/* 研究结果数据表样式 */
+.result-box {
+    background: #f8f9fa;
+    padding: 16px 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    font-size: 1.05em;
+}
+
+.result-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.result-table td {
+    padding: 8px;
+    border: 1px solid #dee2e6;
+}
+
+.result-table-header td {
+    background: #e9ecef;
+    font-weight: bold;
+}
+
+.result-table-highlight {
+    text-align: center;
+    color: #c0392b;
+    font-weight: bold;
+}
+
 .footer-copy { margin-top: 5px; }
 
 /* 内页 logo（控制高度） */
