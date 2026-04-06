@@ -164,7 +164,49 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://longbiosci.com/news/Cellino-appoints-Ed-Tekeian-as.html</loc>
+      <url>
+    <loc>https://longbiosci.com/news/cGAS-STING-Ovarian-Aging-Inflammatory-Clock.html</loc>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/lncRNA-HOTAIRM1-Senescence-Screen.html</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Microplastics-Nanoplastics-Aging-Longevity.html</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Oral-Microbiome-Cognitive-Decline.html</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Oxidized-LDL-Cerebrovascular-Aging.html</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Partial-Reprogramming-Clinical-Challenges.html</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/TBX5-Heart-Failure-Atrial-Fibrillation.html</loc>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+<loc>https://longbiosci.com/news/Cellino-appoints-Ed-Tekeian-as.html</loc>
     <lastmod>2026-03-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
