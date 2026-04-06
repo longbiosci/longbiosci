@@ -43,21 +43,23 @@ body {
 }
 
 .nav-card {
-    background: #f9f9f9;
+    background: #ffffff;
     border-radius: 12px;
     padding: 25px;
     text-decoration: none;
     color: inherit;
     transition: transform 0.2s, box-shadow 0.2s;
+    border: 1px solid #e8e8e8;
 }
 
 .nav-card:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    border-color: var(--info);
 }
 
-.nav-card h3 { color: var(--primary); font-size: 18px; margin-bottom: 8px; }
-.nav-card p { color: #666; font-size: 13px; }
+.nav-card h3 { color: var(--primary); font-size: 18px; margin-bottom: 8px; font-weight: 600; }
+.nav-card p { color: #444; font-size: 13px; line-height: 1.5; }
 
 .back-link {
     display: inline-block;
@@ -70,15 +72,18 @@ body {
 .back-link:hover { text-decoration: underline; }
 
 .item {
-    background: #fafafa;
+    background: #ffffff;
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 15px;
     border-left: 4px solid var(--info);
+    border-top: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
 }
 
-.item h3 { color: var(--primary); margin-bottom: 10px; }
-.item p { color: #555; line-height: 1.7; }
+.item h3 { color: #1a1a2e; margin-bottom: 10px; font-weight: 600; font-size: 17px; }
+.item p { color: #333; line-height: 1.7; font-size: 15px; }
 
 .tag {
     display: inline-block;
@@ -307,31 +312,44 @@ body {
 
 /* 响应式 */
 @media (max-width: 600px) {
-    .nav-grid { grid-template-columns: 1fr; }
-    .container { border-radius: 0; }
+    /* 全站移动端优化 */
+    html { font-size: 16px; }
+    
+    .nav-grid { grid-template-columns: 1fr !important; padding: 12px !important; gap: 10px !important; }
+    .container { border-radius: 0 !important; margin: 0; box-shadow: none; }
     
     /* 移动端字体和间距优化 */
-    body { font-size: 16px; line-height: 1.8; }
-    .header-main { padding: 30px 20px; }
-    .header-main h1 { font-size: 24px; }
-    .header-main p { font-size: 14px; }
-    .nav-grid { padding: 15px; gap: 12px; }
-    .nav-card { padding: 18px; }
-    .nav-card h3 { font-size: 16px; }
-    .nav-card p { font-size: 13px; }
-    .item { padding: 15px; }
-    .item h3 { font-size: 16px; }
-    .item p { font-size: 15px; }
-    .back-link { padding: 15px 20px; font-size: 15px; }
-    .footer { padding: 20px; font-size: 13px; }
+    body { font-size: 15px; line-height: 1.8; -webkit-text-size-adjust: 100%; }
+    .header-main { padding: 25px 15px !important; }
+    .header-main h1 { font-size: 22px !important; }
+    .header-main p { font-size: 13px !important; }
+    .nav-card { padding: 16px !important; min-height: 70px; }
+    .nav-card h3 { font-size: 15px !important; margin-bottom: 6px !important; }
+    .nav-card p { font-size: 13px !important; }
+    
+    .item { padding: 14px !important; margin-bottom: 12px !important; }
+    .item h3 { font-size: 15px !important; margin-bottom: 8px !important; }
+    .item p { font-size: 14px !important; line-height: 1.6 !important; }
+    
+    .back-link { padding: 12px 15px !important; font-size: 14px !important; display: block; }
+    .footer { padding: 15px !important; font-size: 12px !important; }
     h1, h2, h3, h4 { line-height: 1.4; }
     
     /* 手机文章阅读优化 */
-    .article-container { padding: 15px; }
-    .article-header h1 { font-size: 20px; }
-    .article-content { font-size: 15px; line-height: 1.8; }
-    .article-content h2 { font-size: 16px; }
-    .breadcrumb { font-size: 12px; }
+    .article-container { padding: 12px !important; }
+    .article-header h1 { font-size: 18px !important; }
+    .article-content { font-size: 14px !important; line-height: 1.8 !important; }
+    .article-content h2 { font-size: 15px !important; }
+    .breadcrumb { font-size: 12px !important; }
+    
+    /* 触摸友好 - 增大点击区域 */
+    a, button { min-height: 44px; display: inline-flex; align-items: center; }
+    
+    /* 图片自适应 */
+    img { max-width: 100%; height: auto; }
+    
+    /* 表格横向滚动 */
+    table { display: block; overflow-x: auto; white-space: nowrap; }
 }
 
 /* 免责声明文本样式 */

@@ -233,9 +233,15 @@
         
         @media (max-width: 480px) {
             .channels { grid-template-columns: repeat(2, 1fr); }
-            .channel { padding: 12px 5px; font-size: 12px; }
-            .channel .icon { font-size: 20px; }
+            .channel { padding: 12px 5px; font-size: 12px; min-height: 60px; }
+            .channel .icon { font-size: 22px; }
             .channel .label { font-size: 12px; }
+            .banner { padding: 25px 15px; }
+            .banner h2 { font-size: 18px; }
+            .feed-item { padding: 14px 12px; }
+            .feed-title { font-size: 14px; }
+            .feed-desc { font-size: 13px; }
+            body { -webkit-text-size-adjust: 100%; }
         }
 
         @media (min-width: 768px) {
