@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>LongBiosci 抗衰老资讯</title>
+    <link>https://longbiosci.com/news/</link>
+    <description>全球抗衰老、长寿科技、生物医药领域最新资讯——Senolytic药物、NMN、临床试验、融资动态、技术突破</description>
+    <language>zh-CN</language>
+    <copyright>Copyright 2026 LongBiosci</copyright>
+    <atom:link href="https://longbiosci.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://longbiosci.com/logo.jpg</url>
+      <title>LongBiosci 抗衰老资讯</title>
+      <link>https://longbiosci.com/news/</link>
+    </image>
+    <item>
+      <title>Catalyst Precision Health推出居家男性长寿护理服务</title>
+      <link>https://longbiosci.com/news/Catalyst-Precision-Health-Mens-Longevity.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Catalyst-Precision-Health-Mens-Longevity.html</guid>
+      <description>纽约初创公司Catalyst Precision Health推出整合居家检测、医生上门与持续个性化护理的男性长寿服务平台，开创长寿护理连续性新模式。</description>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Noom收购连锁药房大举进军健康老龄化市场</title>
+      <link>https://longbiosci.com/news/Noom-Buys-Pharmacy-Healthy-Aging.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Noom-Buys-Pharmacy-Healthy-Aging.html</guid>
+      <description>行为改变巨头Noom收购持牌复合药房Tailor Made Compounding，进军多肽疗法与NAD+等健康老龄化干预领域，整合教练指导与处方级疗法。</description>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>口腔-脑轴：牙周健康、口腔微生物组与认知衰退的关联研究</title>
+      <link>https://longbiosci.com/news/Oral-Microbiome-Cognitive-Decline.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Oral-Microbiome-Cognitive-Decline.html</guid>
+      <description>基于泰州影像研究1157名参与者的大规模社区研究，首次系统性揭示牙周健康与口腔微生物组通过多重机制介导认知衰退，为预防老年痴呆提供可干预靶点。</description>
+      <pubDate>Sun, 05 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ARDD 2026 to relocate to Boston</title>
+      <link>https://longbiosci.com/news/ARDD-2026-to-relocate-to-Bosto.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/ARDD-2026-to-relocate-to-Bosto.html</guid>
+      <description>ARDD 2026将移师波士顿，延续抗衰老研究领域最具影响力的年度盛会传统。了解会议迁移详情及波士顿作为长寿研究重镇的战略意义。</description>
+      <pubDate>Sun, 05 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>心衰与房颤或是同一疾病：TBX5转录因子揭示心血管衰老新机制</title>
+      <link>https://longbiosci.com/news/TBX5-Heart-Failure-Atrial-Fibrillation.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/TBX5-Heart-Failure-Atrial-Fibrillation.html</guid>
+      <description>芝加哥大学研究揭示转录因子TBX5表达下调同时驱动心衰与房颤，提出两种疾病或为同一病理过程的两面，改写心血管疾病分类框架。</description>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CRISPRi单核多组学筛选鉴定HOTAIRM1：长链非编码RNA调控衰老新机制</title>
+      <link>https://longbiosci.com/news/lncRNA-HOTAIRM1-Senescence-Screen.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/lncRNA-HOTAIRM1-Senescence-Screen.html</guid>
+      <description>Nature Aging发表重磅研究：利用CRISPRi单核多组学筛选系统扰动32种衰老相关lncRNA，发现HOTAIRM1通过调控DNA修复相关基因控制衰老进程；小鼠肺部补充HOTAIRM1可显著减少纤维化，开辟衰老干预新方向。</description>
+      <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>氧化低密度脂蛋白驱动脑血管衰老研究进展</title>
+      <link>https://longbiosci.com/news/Oxidized-LDL-Cerebrovascular-Aging.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Oxidized-LDL-Cerebrovascular-Aging.html</guid>
+      <description>最新研究系统性揭示氧化低密度脂蛋白（oxLDL）通过血管内皮损伤、神经炎症和血脑屏障破坏等多重机制驱动脑血管衰老，为心血管-大脑联合干预提供新靶点。</description>
+      <pubDate>Thu, 03 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rubedo RLS-1496 I期临床结果：GPX4调节剂首个人体数据</title>
+      <link>https://longbiosci.com/news/Rubedo-RLS-1496-GPX4-Phase1.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Rubedo-RLS-1496-GPX4-Phase1.html</guid>
+      <description>Rubedo Life Sciences宣布RLS-1496（首个GPX4调节剂）I期临床在银屑病、特应性皮炎和皮肤光老化中取得阳性结果，展现衰老细胞清除与组织再生潜力，长寿科技领域里程碑进展。</description>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>睡眠脑电图衰老大时钟：预测痴呆风险的新工具</title>
+      <link>https://longbiosci.com/news/Sleep-EEG-Brain-Age-Dementia-Risk.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Sleep-EEG-Brain-Age-Dementia-Risk.html</guid>
+      <description>基于睡眠脑电图（EEG）微结构数据，研究团队构建了新型衰老大时钟，可高精度预测认知衰退和痴呆风险，为早期干预提供无创监测工具。</description>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>肠道菌群干预神经退行性疾病：新一代靶向策略浮出水面</title>
+      <link>https://longbiosci.com/news/Gut-Microbiome-Neurodegenerative-Treatment.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Gut-Microbiome-Neurodegenerative-Treatment.html</guid>
+      <description>Fight Aging! 系统综述肠道菌群与大脑轴在神经退行性疾病中的作用机制，梳理益生菌、粪菌移植等干预策略的最新研究进展。</description>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>肠道菌群与神经退行性疾病：靶向菌群的治疗新范式</title>
+      <link>https://longbiosci.com/news/Gut-Brain-Axis-Neurodegenerative-Diseases.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Gut-Brain-Axis-Neurodegenerative-Diseases.html</guid>
+      <description>系统综述肠道菌群与大脑轴在阿尔茨海默病、帕金森病等神经退行性疾病中的作用机制及靶向干预策略的最新进展。</description>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>衰老细胞如何驱动肌少症：Senolytics与Senomorphics双路径干预新进展</title>
+      <link>https://longbiosci.com/news/Senescent-Cells-Sarcopenia-Therapy.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Senescent-Cells-Sarcopenia-Therapy.html</guid>
+      <description>最新综述揭示衰老细胞在骨骼肌衰老中的积累机制及其对肌少症的驱动作用，系统梳理Senolytics清除衰老细胞与Senomorphics调节SASP两大干预策略的最新进展。</description>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>免疫衰老干预新框架：不再是孤立缺陷，而是网络级问题</title>
+      <link>https://longbiosci.com/news/Immune-Aging-Interventions-Framework.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Immune-Aging-Interventions-Framework.html</guid>
+      <description>最新综述将免疫衰老重新定义为免疫、组织代谢和器官间通讯的复杂网络重构，而非孤立的细胞缺陷；并据此系统分类干预策略，从年轻血液因子到代谢调控，覆盖衰老免疫重塑的全景图。</description>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DunedinPACE：14种衰老生物标志物中预测死亡最强</title>
+      <link>https://longbiosci.com/news/DunedinPACE-Mortality-Biomarker.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/DunedinPACE-Mortality-Biomarker.html</guid>
+      <description>柏林老龄化研究II（BASE-II）对比14种衰老生物标志物，发现表观遗传时钟DunedinPACE是预测全因死亡率最强的单项指标，优于握力、IL-6、平衡能力和认知健康等临床指标。</description>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>青鳉鱼免疫衰老图谱：绘制首个非哺乳动物免疫系统衰老单细胞地图</title>
+      <link>https://longbiosci.com/news/Killifish-Immune-Aging-Model.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Killifish-Immune-Aging-Model.html</guid>
+      <description>Nature Aging发表研究：利用青鳉鱼（寿命仅4个月）构建免疫衰老模型，通过单细胞RNA测序、蛋白质组学和流式细胞术，首次系统绘制非哺乳动物免疫系统衰老图谱，揭示免疫细胞组成变化、基因组不稳定性和炎症衰老机制。</description>
+      <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>mRNA质量控制机制与衰老及年龄相关疾病——Nature系列综述</title>
+      <link>https://longbiosci.com/news/mRNA-Quality-Control-Aging-Review.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/mRNA-Quality-Control-Aging-Review.html</guid>
+      <description>mRNA质量控制（NMD/NSD/NGD）是细胞蛋白质稳态的核心防线。最新综述系统梳理了这些监控通路在衰老及癌症、神经退行性疾病中的作用，为开发促进mRNA质控的抗衰老疗法提供路线图。</description>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>中性粒细胞衰老损害老年宿主抗菌防御——或可逆靶向TNFα改善</title>
+      <link>https://longbiosci.com/news/Neutrophil-Senescence-Host-Defense.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Neutrophil-Senescence-Host-Defense.html</guid>
+      <description>Aging Cell发表研究：老年宿主肺部中性粒细胞（PMN）呈现衰老样特征，抗菌能力下降；阻断TNFα可逆转这一过程，为改善老年人感染抵抗力提供新思路。</description>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LEV Foundation RMR1 结果：联合干预突破小鼠寿命上限</title>
+      <link>https://longbiosci.com/news/LEV-Foundation-RMR1-Results.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/LEV-Foundation-RMR1-Results.html</guid>
+      <description>LEV Foundation 发布 RMR1 研究结果：1000只小鼠联合使用雷帕霉素、衰老药物、端粒酶基因疗法和干细胞移植，首次证明多种损伤修复干预具有协同效应，为人类逆龄疗法提供关键概念验证。</description>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Longevity public stocks are investable: here's a DLT Chatbot guide</title>
+      <link>https://longbiosci.com/news/Longevity-public-stocks-are-in.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Longevity-public-stocks-are-in.html</guid>
+      <description>长寿领域上市公司投资指南：DLT Chatbot 详解可投资的长寿科技股票，分析行业投资机会与风险，助您把握抗衰老赛道投资机遇。</description>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cellino appoints Ed Tekeian as chief operating officer</title>
+      <link>https://longbiosci.com/news/Cellino-appoints-Ed-Tekeian-as.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Cellino-appoints-Ed-Tekeian-as.html</guid>
+      <description>Cellino has appointed Ed Tekeian as Chief Operating Officer, adding seasoned operational leadership as the company builds out its infrastructure for personalized cell-based therapies.</description>
+      <pubDate>Tue, 18 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
