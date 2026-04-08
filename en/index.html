@@ -11,11 +11,14 @@
     <link rel="alternate" hreflang="en-US" href="https://longbiosci.com/en/">
     <link rel="alternate" hreflang="x-default" href="https://longbiosci.com/">
     <meta property="og:type" content="website">
+    <meta property="og:site_name" content="LongBiosci">
+    <meta property="og:locale" content="en_US">
     <meta property="og:url" content="https://longbiosci.com/en/">
     <meta property="og:title" content="LongBiosci - Anti-Aging Research & Biotechnology">
     <meta property="og:description" content="Latest anti-aging drug development, clinical trial data, and academic literature analysis">
     <meta property="og:image" content="https://longbiosci.com/logo.jpg">
     <meta name="twitter:card" content="summary_large_image">
+    <link rel="alternate" type="application/rss+xml" title="LongBiosci RSS Feed" href="https://longbiosci.com/rss.xml">
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
     {
@@ -219,7 +222,11 @@
         .toc ul { list-style: none; }
         .toc li { margin: 0.5rem 0; }
         .toc a { color: #a0dcd0; }
-        
+
+        .footer-links { margin-top: 1rem; display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap; }
+        .footer-link { color: #7ab8a0; font-size: 0.85rem; transition: color 0.3s; }
+        .footer-link:hover { color: #00A86B; text-decoration: underline; }
+
         footer {
             background: #0a1628; color: #7ab8a0;
             text-align: center; padding: 2.5rem; margin-top: 3rem;
@@ -252,7 +259,7 @@
     </header>
     
     <nav>
-        <a href="#">Home</a>
+        <a href="/en/">Home</a>
         <a href="#research">Research</a>
         <a href="#trials">Clinical Trials</a>
         <a href="#literature">Literature</a>
@@ -394,10 +401,10 @@
     <footer id="about">
         <p>© 2026 LongBiosci</p>
         <p class="disclaimer">Disclaimer: This website is for educational purposes only</p>
-        <div style="margin-top: 1rem;" class="footer-links">
-            <a href="#" class="footer-link">Privacy Policy</a>
-            <a href="#" class="footer-link">Terms of Use</a>
-            <a href="#" class="footer-link">Contact Us</a>
+        <div class="footer-links">
+            <a href="/article.html" class="footer-link">Privacy Policy</a>
+            <a href="/article.html" class="footer-link">Terms of Use</a>
+            <a href="/contact/" class="footer-link">Contact Us</a>
         </div>
     </footer>
 </body>
