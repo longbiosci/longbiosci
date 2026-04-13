@@ -30,12 +30,13 @@
         "url": "https://longbiosci.com"
       },
       "datePublished": "2025-01-01",
-      "dateModified": "2026-04-07",
+      "dateModified": "2026-04-13",
       "variableMeasured": [
         { "@type": "PropertyValue", "name": "Senolytic临床试验", "description": "衰老细胞清除药物临床试验数量" },
         { "@type": "PropertyValue", "name": "NMN/NAD+临床试验", "description": "NAD+前体补充剂临床试验" },
         { "@type": "PropertyValue", "name": "二甲双胍临床试验", "description": "二甲双胍抗衰老临床试验（TAME等）" },
-        { "@type": "PropertyValue", "name": "雷帕霉素临床试验", "description": "mTOR抑制剂抗衰老临床试验" }
+        { "@type": "PropertyValue", "name": "雷帕霉素临床试验", "description": "mTOR抑制剂抗衰老临床试验（PEARL等）" },
+        { "@type": "PropertyValue", "name": "亚精胺临床试验", "description": "自噬诱导剂亚精胺临床试验（认知、心血管等）" }
       ]
     }
     </script>
@@ -53,7 +54,7 @@
         .cover h1 { font-size: 38px; margin-bottom: 10px; }
         .content { padding: 40px; }
         .back-link { display: inline-block; margin-bottom: 20px; color: var(--info); text-decoration: none; }
-        .tabs { display: flex; gap: 10px; margin-bottom: 30px; flex-wrap: wrap; }
+        .tabs { display: flex; gap: 10px; margin-bottom: 30px; flex-wrap: wrap; overflow-x: auto; padding-bottom: 4px; }
         .tab { padding: 12px 24px; background: #f5f5f5; border: none; border-radius: 8px; cursor: pointer; font-size: 15px; transition: all 0.3s; }
         .tab.active { background: var(--primary); color: white; }
         .tab-content { display: none; }
@@ -68,7 +69,13 @@
         .tag.active { background: #2196f3; color: white; }
         .tag.completed { background: #9e9e9e; color: white; }
         .nct { font-family: monospace; color: var(--info); }
+        .nct-link { font-family: monospace; color: var(--info); text-decoration: none; border-bottom: 1px dashed var(--info); }
+        .nct-link:hover { color: var(--accent); border-bottom-color: var(--accent); }
         .footer { background: #f5f5f5; padding: 30px; text-align: center; color: #888; }
+        .sub-text { color: #666; margin-bottom: 20px; font-size: 15px; }
+        .data-box { background: #f0f4ff; border-radius: 12px; padding: 20px; margin-top: 30px; border-left: 4px solid var(--info); }
+        .data-box h3 { margin-bottom: 8px; color: var(--primary); }
+        .data-box p { color: #666; font-size: 14px; }
     </style>
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 </head>
@@ -85,6 +92,8 @@
                 <button class="tab active" onclick="showTab('senolytic')">Senolytics (衰老细胞清除)</button>
                 <button class="tab" onclick="showTab('nmn')">NMN/NAD+</button>
                 <button class="tab" onclick="showTab('metformin')">二甲双胍</button>
+                <button class="tab" onclick="showTab('rapamycin')">雷帕霉素</button>
+                <button class="tab" onclick="showTab('spermidine')">亚精胺</button>
             </div>
             
             <div id="senolytic" class="tab-content active">
@@ -93,7 +102,7 @@
                 
                 <div class="trial-item">
                     <h3>Senolytic 治疗阿尔茨海默病</h3>
-                    <div class="meta"><span class="nct">NCT04685590</span> · 华盛顿大学</div>
+                    <div class="meta"><a href="https://clinicaltrials.gov/study/NCT04685590" target="_blank" rel="noopener noreferrer" class="nct-link">NCT04685590</a> · 华盛顿大学</div>
                     <div class="tags">
                         <span class="tag recruiting">Recruiting</span>
                         <span class="tag">阿尔茨海默病</span>
@@ -102,7 +111,7 @@
                 
                 <div class="trial-item">
                     <h3>Senolytic 治疗慢性肾病</h3>
-                    <div class="meta"><span class="nct">NCT02848131</span> · 梅奥诊所</div>
+                    <div class="meta"><a href="https://clinicaltrials.gov/study/NCT02848131" target="_blank" rel="noopener noreferrer" class="nct-link">NCT02848131</a> · 梅奥诊所</div>
                     <div class="tags">
                         <span class="tag recruiting">Recruiting</span>
                         <span class="tag">慢性肾病</span>
@@ -111,7 +120,7 @@
                 
                 <div class="trial-item">
                     <h3>Fisetin 对血管功能的影响</h3>
-                    <div class="meta"><span class="nct">NCT06133634</span> · 科罗拉多大学</div>
+                    <div class="meta"><a href="https://clinicaltrials.gov/study/NCT06133634" target="_blank" rel="noopener noreferrer" class="nct-link">NCT06133634</a> · 科罗拉多大学</div>
                     <div class="tags">
                         <span class="tag active">Active</span>
                         <span class="tag">Fisetin</span>
@@ -121,7 +130,7 @@
                 
                 <div class="trial-item">
                     <h3>Senolytic 治疗阿尔茨海默病</h3>
-                    <div class="meta"><span class="nct">NCT04063124</span> · 德克萨斯大学</div>
+                    <div class="meta"><a href="https://clinicaltrials.gov/study/NCT04063124" target="_blank" rel="noopener noreferrer" class="nct-link">NCT04063124</a> · 德克萨斯大学</div>
                     <div class="tags">
                         <span class="tag completed">Completed</span>
                         <span class="tag">阿尔茨海默病</span>
@@ -135,7 +144,7 @@
                 
                 <div class="trial-item">
                     <h3>NMN 对器官系统的生物学影响</h3>
-                    <div class="meta"><span class="nct">NCT04571008</span> · 华盛顿大学</div>
+                    <div class="meta"><a href="https://clinicaltrials.gov/study/NCT04571008" target="_blank" rel="noopener noreferrer" class="nct-link">NCT04571008</a> · 华盛顿大学</div>
                     <div class="tags">
                         <span class="tag completed">Completed</span>
                         <span class="tag">NMN</span>
@@ -144,7 +153,7 @@
                 
                 <div class="trial-item">
                     <h3>NMN 化妆品抗衰老</h3>
-                    <div class="meta"><span class="nct">NCT04685096</span> · 中国</div>
+                    <div class="meta"><a href="https://clinicaltrials.gov/study/NCT04685096" target="_blank" rel="noopener noreferrer" class="nct-link">NCT04685096</a> · 中国</div>
                     <div class="tags">
                         <span class="tag completed">Completed</span>
                         <span class="tag">化妆品</span>
@@ -153,7 +162,7 @@
                 
                 <div class="trial-item">
                     <h3>NMN 辅助 IVF</h3>
-                    <div class="meta"><span class="nct">NCT06426355</span> · 中国</div>
+                    <div class="meta"><a href="https://clinicaltrials.gov/study/NCT06426355" target="_blank" rel="noopener noreferrer" class="nct-link">NCT06426355</a> · 中国</div>
                     <div class="tags">
                         <span class="tag recruiting">Recruiting</span>
                         <span class="tag">NMN</span>
@@ -168,7 +177,7 @@
                 
                 <div class="trial-item">
                     <h3>MILES - 二甲双胍 longevity 研究</h3>
-                    <div class="meta"><span class="nct">NCT02432287</span> · Albert Einstein College</div>
+                    <div class="meta"><a href="https://clinicaltrials.gov/study/NCT02432287" target="_blank" rel="noopener noreferrer" class="nct-link">NCT02432287</a> · Albert Einstein College</div>
                     <div class="tags">
                         <span class="tag completed">Completed</span>
                         <span class="tag">长寿</span>
@@ -177,7 +186,7 @@
                 
                 <div class="trial-item">
                     <h3>二甲双胍与长寿基因</h3>
-                    <div class="meta"><span class="nct">NCT01765946</span> · NIA (美国国立老龄研究所)</div>
+                    <div class="meta"><a href="https://clinicaltrials.gov/study/NCT01765946" target="_blank" rel="noopener noreferrer" class="nct-link">NCT01765946</a> · NIA (美国国立老龄研究所)</div>
                     <div class="tags">
                         <span class="tag completed">Completed</span>
                         <span class="tag">基因</span>
@@ -185,9 +194,85 @@
                 </div>
             </div>
             
+            <div id="rapamycin" class="tab-content">
+                <h2 class="section-title">雷帕霉素 (Rapamycin)</h2>
+                <p class="sub-text">mTOR 抑制剂，明星抗衰老候选药物，已在多种动物模型中显著延长寿命。</p>
+                
+                <div class="trial-item">
+                    <h3>PEARL - 雷帕霉素延缓人类衰老</h3>
+                    <div class="meta"><a href="https://clinicaltrials.gov/study/NCT06362663" target="_blank" rel="noopener noreferrer" class="nct-link">NCT06362663</a> · 德克萨斯大学健康科学中心</div>
+                    <div class="tags">
+                        <span class="tag recruiting">Recruiting</span>
+                        <span class="tag">PEARL</span>
+                        <span class="tag">mTOR</span>
+                    </div>
+                </div>
+                
+                <div class="trial-item">
+                    <h3>雷帕霉素治疗皮肤老化</h3>
+                    <div class="meta"><a href="https://clinicaltrials.gov/study/NCT04488695" target="_blank" rel="noopener noreferrer" class="nct-link">NCT04488695</a> · 格罗斯罗斯医疗中心</div>
+                    <div class="tags">
+                        <span class="tag completed">Completed</span>
+                        <span class="tag">皮肤</span>
+                    </div>
+                </div>
+                
+                <div class="trial-item">
+                    <h3>雷帕霉素免疫恢复研究（COVID-19）</h3>
+                    <div class="meta"><a href="https://clinicaltrials.gov/study/NCT05245097" target="_blank" rel="noopener noreferrer" class="nct-link">NCT05245097</a> · 迈阿密大学医院</div>
+                    <div class="tags">
+                        <span class="tag completed">Completed</span>
+                        <span class="tag">免疫</span>
+                    </div>
+                </div>
+                
+                <div class="trial-item">
+                    <h3>TAME - 二甲双胍靶向衰老研究</h3>
+                    <div class="meta"><a href="https://clinicaltrials.gov/study/NCT05133409" target="_blank" rel="noopener noreferrer" class="nct-link">NCT05133409</a> · 美国衰老研究联合会</div>
+                    <div class="tags">
+                        <span class="tag recruiting">Recruiting</span>
+                        <span class="tag">TAME</span>
+                        <span class="tag">靶向衰老</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="spermidine" class="tab-content">
+                <h2 class="section-title">亚精胺 (Spermidine)</h2>
+                <p class="sub-text">天然多胺，自噬诱导剂，已被证明可延长小鼠寿命并改善心血管健康。</p>
+                
+                <div class="trial-item">
+                    <h3>亚精胺补充剂老年人研究</h3>
+                    <div class="meta"><a href="https://clinicaltrials.gov/study/NCT04547608" target="_blank" rel="noopener noreferrer" class="nct-link">NCT04547608</a> · 维也纳大学</div>
+                    <div class="tags">
+                        <span class="tag completed">Completed</span>
+                        <span class="tag">自噬</span>
+                        <span class="tag">心血管</span>
+                    </div>
+                </div>
+                
+                <div class="trial-item">
+                    <h3>Spermidine 认知功能改善</h3>
+                    <div class="meta"><a href="https://clinicaltrials.gov/study/NCT04038187" target="_blank" rel="noopener noreferrer" class="nct-link">NCT04038187</a> · 维也纳大学</div>
+                    <div class="tags">
+                        <span class="tag completed">Completed</span>
+                        <span class="tag">认知</span>
+                    </div>
+                </div>
+                
+                <div class="trial-item">
+                    <h3>Spermidine 前列腺健康研究</h3>
+                    <div class="meta"><a href="https://clinicaltrials.gov/study/NCT05049707" target="_blank" rel="noopener noreferrer" class="nct-link">NCT05049707</a> · Charité 柏林医学院</div>
+                    <div class="tags">
+                        <span class="tag active">Active</span>
+                        <span class="tag">前列腺</span>
+                    </div>
+                </div>
+            </div>
+            
             <div class="data-box">
                 <h3>📊 数据说明</h3>
-                <p>数据来源：ClinicalTrials.gov<br>更新时间：2026-03-12</p>
+                <p>数据来源：<a href="https://clinicaltrials.gov" target="_blank" rel="noopener noreferrer">ClinicalTrials.gov</a><br>更新时间：2026-04-13 · 共收录 16 项临床试验</p>
             </div>
             
         </div>
