@@ -164,7 +164,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-      <url>
     <loc>https://longbiosci.com/news/cGAS-STING-Ovarian-Aging-Inflammatory-Clock.html</loc>
     <lastmod>2026-04-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -206,7 +205,8 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
-<loc>https://longbiosci.com/news/Cellino-appoints-Ed-Tekeian-as.html</loc>
+  <url>
+    <loc>https://longbiosci.com/news/Cellino-appoints-Ed-Tekeian-as.html</loc>
     <lastmod>2026-03-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -467,36 +467,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://longbiosci.com/news/DunedinPACE-Mortality-Biomarker.html</loc>
-    <lastmod>2026-03-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/news/Sleep-EEG-Brain-Age-Dementia-Risk.html</loc>
-    <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/news/Gut-Microbiome-Neurodegenerative-Treatment.html</loc>
-    <lastmod>2026-03-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/news/Gut-Brain-Axis-Neurodegenerative-Diseases.html</loc>
-    <lastmod>2026-03-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/news/Rubedo-RLS-1496-GPX4-Phase1.html</loc>
-    <lastmod>2026-04-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://longbiosci.com/news/Catalyst-Precision-Health-Mens-Longevity.html</loc>
     <lastmod>2026-04-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -577,6 +547,30 @@
   <url>
     <loc>https://longbiosci.com/news/FTL1-Brain-Aging-Reversal-UCSF-Nature-Aging.html</loc>
     <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/ANP-Gene-Therapy-Heart-Regeneration.html</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Macrophage-Gene-Cartilage-Regeneration-Aging.html</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/FTL1-Protein-Brain-Aging-UCSF-Nature-Aging.html</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/AHR-Inhibition-Axon-Regeneration-Nature-2026.html</loc>
+    <lastmod>2026-04-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
