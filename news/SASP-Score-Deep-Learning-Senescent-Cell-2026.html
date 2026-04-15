@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SASP评分：深度学习 + 蛋白质组学量化衰老细胞负担，预测死亡风险 — LongBiosci</title>
+    <meta name="description" content="研究团队利用UK Biobank大规模蛋白质组数据，结合Transformer架构深度学习模型（GAET），构建复合SASP评分，成功预测全因死亡率及痴呆、COPD、心肌梗死、脑卒中等慢性病风险，并验证运动干预可显著改变SASP评分轨迹。">
+<link rel="canonical" href="https://longbiosci.com/news/SASP-Score-Deep-Learning-Senescent-Cell-2026.html">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://longbiosci.com/news/SASP-Score-Deep-Learning-Senescent-Cell-2026.html">
+    <meta property="og:title" content="SASP评分：深度学习量化衰老细胞负担，预测死亡风险 — LongBiosci">
+    <meta property="og:description" content="深度学习SASP评分在UK Biobank中验证，可预测死亡率及多种慢性病，运动干预18个月显著改变评分轨迹。">
+    <meta property="og:image" content="https://longbiosci.com/logo.jpg">
+    <meta property="og:site_name" content="LongBiosci">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SASP评分：深度学习量化衰老细胞负担，预测死亡风险">
+    <meta name="twitter:description" content="深度学习SASP评分可预测死亡率及多种慢性病，运动干预显著改变评分轨迹。">
+    <meta name="twitter:image" content="https://longbiosci.com/logo.jpg">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "url": "https://longbiosci.com/news/SASP-Score-Deep-Learning-Senescent-Cell-2026.html",
+      "headline": "SASP评分：深度学习+蛋白质组学量化衰老细胞负担，预测死亡风险",
+      "description": "深度学习SASP评分在UK Biobank中验证，可预测死亡率及多种慢性病，运动干预18个月显著改变评分轨迹。",
+      "image": "https://longbiosci.com/logo.jpg",
+      "author": {
+        "@type": "Organization",
+        "name": "LongBiosci"
+      },
+      "datePublished": "2026-04-15",
+      "publisher": {
+        "@type": "Organization",
+        "name": "LongBiosci",
+        "url": "https://longbiosci.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://longbiosci.com/logo.jpg",
+          "width": 836,
+          "height": 257
+        }
+      },
+      "inLanguage": "zh-CN"
+    }
+    </script>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/" class="logo">🧬 LongBiosci</a>
+            <div class="nav-links">
+                <a href="/">首页</a>
+                <a href="/news/">新闻</a>
+                <a href="/papers/">论文</a>
+                <a href="/companies/">公司</a>
+                <a href="/about.html">关于</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="article-container">
+        <nav class="breadcrumb" aria-label="面包屑导航">
+            <a href="/">首页</a> &gt; <a href="/news/">新闻</a> &gt; <span aria-current="page">SASP评分深度学习量化衰老细胞负担</span>
+        </nav>
+
+        <article>
+            <header class="article-header">
+                <span class="tag">生物标志物</span>
+                <span class="date">Wed, 15 Apr 2026</span>
+                <h1>SASP评分：深度学习 + 蛋白质组学量化衰老细胞负担，预测死亡风险</h1>
+                <p class="source">来源: <a href="https://doi.org/10.64898/2026.03.20.26348913" target="_blank" rel="noopener noreferrer">medRxiv preprint</a> / <a href="https://www.fightaging.org/archives/2026/04/14/" target="_blank" rel="noopener noreferrer">Fight Aging!</a></p>
+            </header>
+
+            <div class="article-content">
+                <h2>核心发现：SASP评分——衰老细胞负担的血液标志物</h2>
+                <p>衰老细胞随年龄在体内各组织积累，其分泌的<strong>衰老相关分泌表型（SASP）</strong>——包括促炎因子、促生长信号——长期持续会对组织结构和功能造成破坏性影响。通过血液样本分析循环分子，理论上可以反映全身衰老细胞负担，但目前尚未形成统一共识方法。</p>
+                <p>最新发表在medRxiv预印本的研究，提出了一个新的竞争者：利用<strong>蛋白质组学评估</strong>结合<strong>深度学习框架</strong>，构建基于衰老细胞分泌信号的复合评分（SASP Score），并发现该评分与<strong>全因死亡率</strong>强相关。</p>
+
+                <h2>技术路线：引导自编码器 + Transformer（GAET）</h2>
+                <p>研究团队整合大规模人群蛋白质组数据与半监督深度学习框架，开发流程包括：</p>
+                <ol>
+                    <li><strong>候选SASP蛋白筛选</strong>：基于生物学证据精选衰老细胞分泌相关蛋白</li>
+                    <li><strong>GAET模型构建</strong>：开发<em>Guided Autoencoder with Transformer（GAET）</em>模型，使用UK Biobank Pharma Proteomics Project（UKB-PPP）数据进行训练</li>
+                    <li><strong>内部评估</strong>：在UK Biobank内部进行关联分析</li>
+                    <li><strong>外部验证</strong>：在独立随机临床试验队列中进行验证和纵向评估</li>
+                </ol>
+
+                <h2>关键结果：死亡风险与多种慢性病强预测</h2>
+                <p>基于深度学习的SASP评分是一个强独立预测因子，能够预测：</p>
+                <ul>
+                    <li><strong>全因死亡率</strong></li>
+                    <li>痴呆症（dementia）发病风险</li>
+                    <li>慢阻肺（COPD）发病风险</li>
+                    <li>心肌梗死（myocardial infarction）发病风险</li>
+                    <li>脑卒中（stroke）发病风险</li>
+                </ul>
+
+                <h2>运动干预验证：SASP评分可被改变</h2>
+                <p>研究的另一重要发现是，在一个独立队列中，<strong>多模式运动干预18个月</strong>显著改变了SASP评分的轨迹——这意味着衰老细胞负担并非固定不变，而是可以通过生活方式干预来改善。</p>
+                <p>这一发现对衰老细胞清除疗法（senolytics）具有重要参考价值：SASP评分可作为跟踪干预效果的生物标志物，帮助评估抗衰老疗法的有效性。</p>
+
+                <h2>为什么这很重要：填补标准化测量空白</h2>
+                <p>衰老细胞积累是公认的衰老特征之一（Hallmarks of Aging），但目前尚无公认的血液标志物可标准化测量体内衰老细胞负担。SASP评分利用大规模蛋白质组数据，结合深度学习的非线性建模能力，为这一问题提供了一个有潜力的解决方案。</p>
+                <p>随着senolytic药物研发的推进，一个可靠、可追踪的衰老细胞负担测量工具对于临床试验设计和疗效评估至关重要。</p>
+
+                <h2>研究信息</h2>
+                <ul>
+                    <li><strong>论文</strong>：<a href="https://doi.org/10.64898/2026.03.20.26348913" target="_blank" rel="noopener noreferrer">Deep learning-derived composite SASP Score for quantifying senescent cell burden</a></li>
+                    <li><strong>预印本平台</strong>：medRxiv</li>
+                    <li><strong>DOI</strong>：10.64898/2026.03.20.26348913</li>
+                    <li><strong>核心数据来源</strong>：UK Biobank Pharma Proteomics Project（UKB-PPP）</li>
+                </ul>
+            </div>
+
+            <footer class="article-footer">
+                <a href="/news/" class="back-link">← 返回新闻列表</a>
+            </footer>
+        </article>
+    </main>
+
+    <footer>
+        <p>© 2026 LongBiosci · 抗衰老科学研究</p>
+    </footer>
+</body>
+</html>
