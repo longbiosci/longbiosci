@@ -1,3 +1,12 @@
+# 长寿科技最新资讯 · 2026-04-17
+
+## 🌙 晚间更新（4月17日新发现）
+
+1. **GLP-1减肥药会加速肌少症吗？Nature Reviews Endocrinology系统分析来了**
+   - 来源: Nature Reviews Endocrinology | 日期: Fri, 17 Apr 2026
+   - 链接: /news/GLP1-Obesity-Sarcopenia-Nature-Review-2026.html
+   - 摘要: 系统综述GLP-1受体激动剂与肌少症风险，结论：减重主要丢脂肪而非肌肉，但老年人、肌肉储备不足者仍需警惕；提出蛋白质补充+阻抗运动+Myostatin抑制联用策略；指出GLP-1热潮的下一代优化方向应是"减脂保肌"，是长寿医学与代谢医学的交汇点。
+
 # 长寿科技最新资讯 · 2026-04-01
 
 ## 🔬 午间更新（4月1日新发现）
