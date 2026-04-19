@@ -8,6 +8,22 @@
     --purple: #533483;
 }
 
+/* 全站平滑滚动 + 无障碍焦点样式 */
+html { scroll-behavior: smooth; }
+
+*:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* 打印样式 */
+@media print {
+  .header-main, .bottom-nav, .giscus { display: none; }
+  body { background: white; }
+  .container { box-shadow: none; border-radius: 0; }
+}
+
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
