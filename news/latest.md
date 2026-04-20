@@ -1,175 +1,41 @@
-# 长寿科技最新资讯 · 2026-04-17
+# 长寿科技最新资讯 · 2026-04-19
 
-## 🌙 晚间更新（4月17日新发现）
+1. **The Interventions Testing Program Shows that Another Eleven Compounds Do Not Slow Aging in Mice**
+   - 来源: Fight Aging! | 日期: Fri, 17 Ap
+   - 链接: https://www.fightaging.org/archives/2026/04/the-interventions-testing-program-shows-that-another-eleven-compounds-do-not-slow-aging-in-mice/
 
-1. **GLP-1减肥药会加速肌少症吗？Nature Reviews Endocrinology系统分析来了**
-   - 来源: Nature Reviews Endocrinology | 日期: Fri, 17 Apr 2026
-   - 链接: /news/GLP1-Obesity-Sarcopenia-Nature-Review-2026.html
-   - 摘要: 系统综述GLP-1受体激动剂与肌少症风险，结论：减重主要丢脂肪而非肌肉，但老年人、肌肉储备不足者仍需警惕；提出蛋白质补充+阻抗运动+Myostatin抑制联用策略；指出GLP-1热潮的下一代优化方向应是"减脂保肌"，是长寿医学与代谢医学的交汇点。
+2. **Oxygen Sensing as a Component of Differences in Regenerative Capacity Between Species**
+   - 来源: Fight Aging! | 日期: Fri, 17 Ap
+   - 链接: https://www.fightaging.org/archives/2026/04/oxygen-sensing-as-a-component-of-differences-in-regenerative-capacity-between-species/
 
-# 长寿科技最新资讯 · 2026-04-01
+3. **Cataloging Sex Differences in the Aging of the Human Immune System**
+   - 来源: Fight Aging! | 日期: Fri, 17 Ap
+   - 链接: https://www.fightaging.org/archives/2026/04/cataloging-sex-differences-in-the-aging-of-the-human-immune-system/
 
-## 🔬 午间更新（4月1日新发现）
+4. **In Search of Novel Means to Provoke Mild Mitochondrial Stress to Slow Aging**
+   - 来源: Fight Aging! | 日期: Thu, 16 Ap
+   - 链接: https://www.fightaging.org/archives/2026/04/in-search-of-novel-means-to-provoke-mild-mitochondrial-stress-to-slow-aging/
 
-1. **星形胶质细胞衰老与神经退行：炎症与衰老的交汇点**
-   - 来源: Fight Aging! | 日期: Tue, 31 Ma 2026
-   - 链接: /news/Astrocyte-Senescence-Neurodegeneration-Review.html
-   - 摘要: 开放获取综述系统梳理星形胶质细胞在衰老中的两种有害状态——反应性炎症与细胞衰老，揭示两者共同驱动神经退行性病变的机制，为下一代神经保护疗法提供靶点地图。
+5. **IGF-1 Signaling Suppression Fails to Slow Aging in Mitochondrial Mutator Mice**
+   - 来源: Fight Aging! | 日期: Thu, 16 Ap
+   - 链接: https://www.fightaging.org/archives/2026/04/igf-1-signaling-suppression-fails-to-slow-aging-in-mitochondrial-mutator-mice/
 
-# 长寿科技最新资讯 · 2026-03-31
+6. **Rubedo: the senolytic alchemist of aging biology**
+   - 来源: Longevity Technology | 日期: Fri, 17 Ap
+   - 链接: https://longevity.technology/news/rubedo-the-senolytic-alchemist-of-aging-biology/
 
-## 🌙 晚间更新（3月30日新发现）
+7. **New longevity drug SRN-901 shows 33% lifespan boost**
+   - 来源: Longevity Technology | 日期: Fri, 17 Ap
+   - 链接: https://longevity.technology/news/new-longevity-drug-srn-901-shows-33-lifespan-boost/
 
-1. **礼来27.5亿美元押注Insilico：首款"长寿"大药厂竞赛开启**
-   - 来源: Longevity Technology | 日期: Mon, 30 Ma 2026
-   - 链接: /news/Lilly-2.75B-Insilico-Deal.html
-   - 摘要: Eli Lilly与Insilico Medicine扩大合作，总金额高达27.5亿美元（首付1.15亿美元），获得AI发现平台驱动的临床前候选药物全球独家许可。Lilly同时布局Insilico、信达生物、Fauna Bio多条管线，从GLP-1肥胖药物向"老龄化系统干预"全面升级；首款"长寿"大药厂可能不以长寿之名到来，而通过多病种靶向悄悄成型。
+8. **Biotechs race to turn aging science into cell-based therapies**
+   - 来源: Longevity Technology | 日期: Fri, 17 Ap
+   - 链接: https://longevity.technology/news/biotechs-race-to-turn-aging-science-into-cell-based-therapies/
 
-2. **肠道菌群干预神经退行性疾病：益生菌、FMT与合成微生物组三条路径**
-   - 来源: Fight Aging! | 日期: Mon, 30 Ma 2026
-   - 链接: /news/Gut-Microbiome-Neurodegenerative-Treatment.html
-   - 摘要: 系统综述肠脑轴在AD和PD中的作用——短链脂肪酸、色氨酸代谢物、胆汁酸是关键介质；梳理近期进展：特定益生菌（乳杆菌/双歧杆菌）可改善焦虑抑郁及认知；FMT在PD和AD动物模型中展现改善运动功能、减少淀粉样斑块的潜力；合成微生物组是超越FMT的下一代方向。
+9. **This AI ‘virtual lab’ wants to cut drug discovery to weeks**
+   - 来源: Longevity Technology | 日期: Fri, 17 Ap
+   - 链接: https://longevity.technology/news/this-ai-virtual-lab-wants-to-cut-drug-discovery-to-weeks/
 
-# 长寿科技最新资讯 · 2026-03-26
-
-## 🌙 晚间更新（3月26日补充发现）
-
-1. **衰老细胞清除15年：里程碑实验如何重塑衰老研究界**
-   - 来源: Fight Aging! | 日期: Thu, 26 Mar 2026
-   - 链接: /news/Fifteen-Years-Senescent-Cell-Clearance.html
-   - 摘要: 2026年是首个体内衰老细胞清除实验（Baker et al., 2011）发表15周年。Fight Aging!系统回顾这一里程碑如何将细胞衰老从"生物学好奇"提升为"可干预的医学目标"，并梳理Senolytics（清除）与Senomorphics（抑制SASP）双路径在肌肉衰老中的最新进展。
-
-2. **免疫衰老干预新框架：不再是孤立缺陷，而是网络级问题**
-   - 来源: Fight Aging! | 日期: Thu, 26 Mar 2026
-   - 链接: /news/Immune-Aging-Interventions-Framework.html
-   - 摘要: 最新综述将免疫衰老重新定义为免疫系统、代谢通路和器官间通讯的复杂网络重构，并据此提出三维干预框架（免疫重建、炎症抑制、功能增强），标志着"治疗衰老"从学术讨论进入系统性实践阶段。
-
-## 🔬 午间更新（3月26日新发现）
-
-1. **MG53：肌肉干细胞早期激活的应激缓冲器，或可逆转老年肌肉再生衰退**
-   - 来源: Fight Aging! · 论文: DOI:10.3390/cells15050463 | 日期: Thu, 26 Mar 2026
-   - 链接: /news/MG53-Muscle-Stem-Cell-Activation.html
-   - 摘要: 综述性研究提出MG53（肌肉富集E3泛素连接酶）或可通过缓冲应激相关膜损伤、维持程序化基因表达协调来促进老年肌肉干细胞早期激活；一旦成功激活，增殖分化程序本身在老年细胞中完整，提示激活"起步"是关键干预瓶颈。
-
-2. **衰老细胞驱动肌少症：Senolytics与Senomorphics双路径干预最新进展**
-   - 来源: Fight Aging! | 日期: Thu, 26 Mar 2026
-   - 链接: /news/Senescent-Cells-Sarcopenia-Therapy.html
-   - 摘要: 系统综述衰老细胞在骨骼肌中的积累机制——涉及肌肉干细胞、FAPs、免疫细胞、内皮细胞等多种类型；详细梳理Senolytics（清除衰老细胞）与Senomorphics（抑制SASP）两大策略的最新进展，并关联本周MSTN和MG53发现，共同构成肌少症三大干预支柱。
-
-# 长寿科技最新资讯 · 2026-03-25
-
-## 🔬 午间更新（3月25日新发现）
-
-1. **110万人研究证实：MSTN基因突变携带者肌肉量提升超10%，体脂更低**
-   - 来源: Fight Aging! / Nature Communications · DOI:10.1038/s41467-026-70422-2 | 日期: Wed, 25 Mar 2026
-   - 链接: /news/Myostatin-MSTN-Genetic-Muscle-Mass.html
-   - 摘要: 整合UK Biobank等队列110万人数据，系统分析MSTN基因功能缺失突变携带者表型；发现杂合携带者肌肉量增幅超10%，体脂更低，握力更强，为myostatin抑制疗法长期安全性提供大规模人群证据，对GLP-1药物肌肉流失干预具有直接指导意义。
-
-2. **阿尔茨海默病新机制：β-淀粉样蛋白与Tau蛋白通过微管蛋白"搭桥"相连**
-   - 来源: Fight Aging! | 日期: Wed, 25 Mar 2026
-   - 摘要: 提出淀粉样蛋白与Tau蛋白之间的新连接机制——两者均可与微管蛋白高亲和力结合，β-淀粉样蛋白通过竞争性置换Tau导致微管功能障碍，进而引发Tau磷酸化与缠结；为理解AD病理和开发新干预策略提供全新视角。
-
-# 长寿科技最新资讯 · 2026-03-23
-
-## 🔬 晚间更新（3月23日新发现）
-
-1. **DunedinPACE：14种衰老生物标志物中预测死亡最强**
-   - 来源: Biosystems / DOI:10.1186/s40364-026-00909-z | 日期: Mon, 23 Ma 2026
-   - 链接: /news/DunedinPACE-Mortality-Biomarker.html
-   - 摘要: BASE-II（n=1,083，60-80岁，随访7.4年）对比14种衰老生物标志物，发现表观遗传时钟DunedinPACE是预测全因死亡率最强的单项指标，优于握力、IL-6、站立平衡和认知健康；最优三标志物组合（C-index=0.63）与全模型几乎等效，为临床试验替代终点提供依据。
-
-2. **靶向旁观者衰老：大脑衰老干预新思路**
-   - 来源: Fight Aging! / DOI:10.64898/2026.02.10.705129 | 日期: Mon, 23 Ma 2026
-   - 链接: /news/Bystander-Senescence-Brain-Therapy.html
-   - 摘要: 首次系统绘制人类脑细胞类型之间SASP依赖性衰老传播图谱；鉴定出星形胶质细胞、内皮细胞等多种脑细胞的特定SASP配体与受体，成功用抑制剂阻止旁观者衰老扩散；代表从"清除衰老细胞"到"阻止衰老扩散"的策略升级。
-
-2. **Roseburia inulinivorans：肠道菌群调控肌肉力量的关键菌种**
-   - 来源: Gut Journal / DOI:10.1136/gutjnl-2025-336980 | 日期: Mon, 23 Ma 2026
-   - 链接: /news/Roseburia-Muscle-Strength-Probiotic.html
-   - 摘要: 宏基因组学研究首次确定R. inulinivorans与人类肌肉力量显著相关，小鼠口服补充后握力提升约30%；通过激活肌肉嘌呤和磷酸戊糖途径发挥作用；老年人群中该菌丰度显著下降，具有重要抗衰老益生菌开发价值。
-
-# 长寿科技最新资讯 · 2026-03-22
-
-## 🔬 晚间更新（3月22日新发现）
-
-1. **青鳉鱼免疫衰老图谱：绘制首个非哺乳动物免疫系统单细胞地图**
-   - 来源: Nature Aging | 日期: Sun, 22 Ma 2026
-   - 链接: /news/Killifish-Immune-Aging-Model.html
-   - 摘要: 利用寿命仅4个月的非洲青鳉鱼构建免疫衰老模型，通过scRNA-seq、蛋白质组学和流式细胞术，首次系统绘制非哺乳动物免疫系统衰老图谱；揭示老年鱼骨髓偏移、基因组不稳定性和炎症衰老三大核心特征，并开发开源多组学分析平台KIAMO。
-
-# 长寿科技最新资讯 · 2026-03-21
-
-## 🔬 晚间更新（3月21日新发现）
-
-1. **IVNS1ABP基因突变驱动新型早衰性神经病变**
-   - 来源: Nature Communications | 日期: Sat, 21 Mar 2026
-   - 链接: /news/IVNS1ABP-Progeroid-Neuropathy.html
-   - 摘要: 首次发现IVNS1ABP基因突变导致早衰性神经病变，患者细胞呈现衰老样表型（分裂缺陷、DNA损伤、p53激活），为理解衰老机制和靶向干预提供新模型。
-
-2. **染色质重塑驱动Btaf1短亚型过表达——揭秘造血干细胞衰老机制**
-   - 来源: Nature Communications | 日期: Sat, 21 Mar 2026
-   - 链接: /news/Btaf1-Hematopoietic-Stem-Cell-Aging.html
-   - 摘要: 老化造血干细胞中染色质环路改变驱动Btaf1短亚型过表达，激活衰老相关基因网络，促进巨核细胞偏斜分化；首次将染色质三维结构变化与干细胞衰老直接关联。
-
-## 🔬 午间更新（3月20日新发现）
-
-1. **mRNA质量控制机制与衰老综述：靶向NMD/NSD/NGD或可延缓衰老**
-   - 来源: Journal of Biological Chemistry | 日期: Fri, 20 Mar 2026
-   - 链接: /news/mRNA-Quality-Control-Aging-Review.html
-   - 摘要: 系统综述mRNA质量控制三大机制（NMD、NSD、NGD）在衰老及神经退行、癌症中的作用；通路损伤与早衰密切相关，增强质控功能是抗衰老新策略。
-
-# 长寿科技最新资讯 · 2026-03-20
-
-## 🌙 晚间补充（3月19日新发现）
-
-1. **中性粒细胞衰老损害老年宿主抗菌防御——阻断TNFα可逆转**
-   - 来源: Aging Cell | 日期: Thu, 19 Mar 2026
-   - 链接: /news/Neutrophil-Senescence-Host-Defense.html
-   - 摘要: 老年小鼠肺部中性粒细胞呈现衰老样表型（SASP），能量代谢缺陷导致抗菌能力下降；阻断TNFα可逆转这一过程，为改善老年人感染抵抗力提供新靶点。
-
-# 长寿科技最新资讯 · 2026-03-19
-
-1. **LEV Foundation RMR1 结果：联合干预突破小鼠寿命上限**
-   - 来源: LEV Foundation | 日期: Thu, 19 Ma
-   - 链接: /news/LEV-Foundation-RMR1-Results.html
-   - 摘要: 1000只小鼠四联干预研究（雷帕霉素+衰老药物+端粒酶基因疗法+干细胞移植）公布结果，首次证明多种损伤修复干预具有协同效应，平均寿命显著提升，为人类逆龄疗法提供关键概念验证。
-
-2. **Prevalence of Roseburia Inulinivorans in the Gut Microbiome Affects Muscle Strength**
-   - 来源: Fight Aging! | 日期: Tue, 17 Ma
-   - 链接: https://www.fightaging.org/archives/2026/03/prevalence-of-roseburia-inulinivorans-in-the-gut-microbiome-affects-muscle-strength/
-
-2. **Evidence for Microglia to Actively Promote Amyloid Aggregation in the Aging Brain**
-   - 来源: Fight Aging! | 日期: Tue, 17 Ma
-   - 链接: https://www.fightaging.org/archives/2026/03/evidence-for-microglia-to-actively-promote-amyloid-aggregation-in-the-aging-brain/
-
-3. **Exercise Modifies the Gut Microbiome and Tryptophan Metabolism to Improve Mood and Memory**
-   - 来源: Fight Aging! | 日期: Tue, 17 Ma
-   - 链接: https://www.fightaging.org/archives/2026/03/exercise-modifies-the-gut-microbiome-and-tryptophan-metabolism-to-improve-mood-and-memory/
-
-4. **Interfering in Induction of Bystander Senescence as an Approach to Senotherapy**
-   - 来源: Fight Aging! | 日期: Mon, 16 Ma
-   - 链接: https://www.fightaging.org/archives/2026/03/interfering-in-induction-of-bystander-senescence-as-an-approach-to-senotherapy/
-
-5. **The Signatures of Different Senescent Cell Types Exhibit Different Strengths of Correlation with Age-Related Conditions**
-   - 来源: Fight Aging! | 日期: Mon, 16 Ma
-   - 链接: https://www.fightaging.org/archives/2026/03/the-signatures-of-different-senescent-cell-types-exhibit-different-strengths-of-correlation-with-age-related-conditions/
-
-6. **Ternary raises $4.4m to fight inflammaging with AI drugs**
-   - 来源: Longevity Technology | 日期: Tue, 17 Ma
-   - 链接: https://longevity.technology/news/ternary-raises-4-4m-to-fight-inflammaging-with-ai-drugs/
-
-7. **Roche gets CE mark for Alzheimer’s risk blood test**
-   - 来源: Longevity Technology | 日期: Tue, 17 Ma
-   - 链接: https://longevity.technology/news/roche-gets-ce-mark-for-alzheimers-risk-blood-test/
-
-8. **Evolve Science launches longevity peptide platform**
-   - 来源: Longevity Technology | 日期: Tue, 17 Ma
-   - 链接: https://longevity.technology/news/evolve-science-launches-longevity-peptide-platform/
-
-9. **Gyms tap medical longevity with Serotonin Centers’ model**
-   - 来源: Longevity Technology | 日期: Tue, 17 Ma
-   - 链接: https://longevity.technology/news/gyms-tap-medical-longevity-with-serotonin-centers-model/
-
-10. **Vail Health makes case for prevention-led longevity**
-   - 来源: Longevity Technology | 日期: Tue, 17 Ma
-   - 链接: https://longevity.technology/news/vail-health-makes-case-for-prevention-led-longevity/
+10. **Epicutis clinical study shows 77% improvement in skin appearance**
+   - 来源: Longevity Technology | 日期: Fri, 17 Ap
+   - 链接: https://longevity.technology/news/epicutis-clinical-study-shows-77-improvement-in-skin-appearance/
