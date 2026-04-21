@@ -664,4 +664,34 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
-<url><loc>https://longbiosci.com/news/IGF1-Suppression-Mitochondrial-Mutator-Mice-2026.html</loc><lastmod>2026-04-19</lastmod><priority>0.8</priority><changefreq>weekly</changefreq></url><url><loc>https://longbiosci.com/news/White-Adipose-Atrophy-Accelerates-Aging-Male-2026.html</loc><lastmod>2026-04-19</lastmod><priority>0.8</priority><changefreq>weekly</changefreq></url><url><loc>https://longbiosci.com/news/Sex-Differences-Immune-Aging-Single-Cell-2026.html</loc><lastmod>2026-04-19</lastmod><priority>0.8</priority><changefreq>weekly</changefreq></url></urlset>
+  <url>
+    <loc>https://longbiosci.com/news/IGF1-Suppression-Mitochondrial-Mutator-Mice-2026.html</loc>
+    <lastmod>2026-04-19</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/White-Adipose-Atrophy-Accelerates-Aging-Male-2026.html</loc>
+    <lastmod>2026-04-19</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Sex-Differences-Immune-Aging-Single-Cell-2026.html</loc>
+    <lastmod>2026-04-19</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Multimorbidity-Glycaemic-Patterns-Nature-Metabolism-2026.html</loc>
+    <lastmod>2026-04-20</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Oxygen-Sensing-Limb-Regeneration-HIF1A-2026.html</loc>
+    <lastmod>2026-04-20</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+</urlset>
