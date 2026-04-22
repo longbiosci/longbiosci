@@ -694,4 +694,22 @@
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
+  <url>
+    <loc>https://longbiosci.com/news/ATF5-Muscle-Mass-Quality-Aging-2026.html</loc>
+    <lastmod>2026-04-21</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/HMGB1-BoxA-DNA-Gaps-NHP-Aging-2026.html</loc>
+    <lastmod>2026-04-21</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Homoharringtonine-Senotherapeutic-WAT-2026.html</loc>
+    <lastmod>2026-04-21</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
 </urlset>
