@@ -712,4 +712,16 @@
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
+  <url>
+    <loc>https://longbiosci.com/news/Circadian-3dA-PVN-Extends-Lifespan-Cell-2026.html</loc>
+    <lastmod>2026-04-22</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Microglia-Cancer-Mutations-Drive-Alzheimer-Cell-2026.html</loc>
+    <lastmod>2026-04-22</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
 </urlset>
