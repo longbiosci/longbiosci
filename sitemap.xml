@@ -724,4 +724,23 @@
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
+
+  <url>
+    <loc>https://longbiosci.com/news/Acid-Base-Dysregulation-Aging-Metabolism-Frailty-2026.html</loc>
+    <lastmod>2026-04-23</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Cell-Senescence-Biological-Complexity-Nature-Reviews-2026.html</loc>
+    <lastmod>2026-04-23</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Phosphatidylcholine-Mitochondrial-Aging-Nature-2026.html</loc>
+    <lastmod>2026-04-23</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
 </urlset>
