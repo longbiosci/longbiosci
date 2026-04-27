@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://longbiosci.com/index.html</loc>
@@ -760,4 +760,4 @@
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
-</urlset>
+<url><loc>https://longbiosci.com/news/SP-Gene-Regeneration-Limb-PNAS-2026.html</loc><lastmod>2026-04-25</lastmod><priority>0.6</priority><changefreq>weekly</changefreq></url><url><loc>https://longbiosci.com/news/SP-Gene-Limb-Regeneration-Salamander-2026.html</loc><lastmod>2026-04-26</lastmod><priority>0.6</priority><changefreq>weekly</changefreq></url><url><loc>https://longbiosci.com/news/SP-Gene-Regeneration-Salamander-Mouse-Limb-PNAS-2026.html</loc><lastmod>2026-04-26</lastmod><priority>0.6</priority><changefreq>weekly</changefreq></url></urlset>
