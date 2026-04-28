@@ -760,4 +760,34 @@
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
-<url><loc>https://longbiosci.com/news/SP-Gene-Regeneration-Limb-PNAS-2026.html</loc><lastmod>2026-04-25</lastmod><priority>0.6</priority><changefreq>weekly</changefreq></url><url><loc>https://longbiosci.com/news/SP-Gene-Limb-Regeneration-Salamander-2026.html</loc><lastmod>2026-04-26</lastmod><priority>0.6</priority><changefreq>weekly</changefreq></url><url><loc>https://longbiosci.com/news/SP-Gene-Regeneration-Salamander-Mouse-Limb-PNAS-2026.html</loc><lastmod>2026-04-26</lastmod><priority>0.6</priority><changefreq>weekly</changefreq></url></urlset>
+  <url>
+    <loc>https://longbiosci.com/news/SP-Gene-Regeneration-Limb-PNAS-2026.html</loc>
+    <lastmod>2026-04-25</lastmod>
+    <priority>0.6</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/SP-Gene-Limb-Regeneration-Salamander-2026.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.6</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/SP-Gene-Regeneration-Salamander-Mouse-Limb-PNAS-2026.html</loc>
+    <lastmod>2026-04-26</lastmod>
+    <priority>0.6</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/SP8-FGF8-Digit-Regeneration-2026.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Chromatin-Closure-Stem-Cell-Exhaustion-RIKEN-2026.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+</urlset>
