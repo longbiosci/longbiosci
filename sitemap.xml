@@ -1,668 +1,688 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://longbiosci.com/index.html</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-04-17</lastmod>
     <priority>1.0</priority>
-  <lastmod>2026-04-17</lastmod></url>
+    <changefreq>daily</changefreq>
+  </url>
   <url>
     <loc>https://longbiosci.com/404.html</loc>
-    <changefreq>never</changefreq>
+    <lastmod>2026-03-24</lastmod>
     <priority>0.1</priority>
-  <lastmod>2026-03-24</lastmod></url>
+    <changefreq>never</changefreq>
+  </url>
   <url>
     <loc>https://longbiosci.com/about.html</loc>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-03-29</lastmod>
     <priority>0.7</priority>
-  <lastmod>2026-03-29</lastmod></url>
+    <changefreq>monthly</changefreq>
+  </url>
   <url>
     <loc>https://longbiosci.com/article.html</loc>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-17</lastmod>
     <priority>0.8</priority>
-  <lastmod>2026-04-17</lastmod></url>
+    <changefreq>weekly</changefreq>
+  </url>
   <url>
     <loc>https://longbiosci.com/cover-generator.html</loc>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-04-07</lastmod>
     <priority>0.7</priority>
-  <lastmod>2026-04-07</lastmod></url>
+    <changefreq>monthly</changefreq>
+  </url>
   <url>
     <loc>https://longbiosci.com/glossary.html</loc>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-05</lastmod>
     <priority>0.8</priority>
-  <lastmod>2026-04-05</lastmod></url>
+    <changefreq>weekly</changefreq>
+  </url>
   <url>
     <loc>https://longbiosci.com/melatonin.html</loc>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-04-05</lastmod>
     <priority>0.7</priority>
-  <lastmod>2026-04-05</lastmod></url>
+    <changefreq>monthly</changefreq>
+  </url>
   <url>
     <loc>https://longbiosci.com/metformin.html</loc>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-04-05</lastmod>
     <priority>0.7</priority>
-  <lastmod>2026-04-05</lastmod></url>
+    <changefreq>monthly</changefreq>
+  </url>
   <url>
     <loc>https://longbiosci.com/mobile.html</loc>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-06</lastmod>
     <priority>0.8</priority>
-  <lastmod>2026-04-06</lastmod></url>
+    <changefreq>weekly</changefreq>
+  </url>
   <url>
     <loc>https://longbiosci.com/nmn.html</loc>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-04-05</lastmod>
     <priority>0.7</priority>
-  <lastmod>2026-04-05</lastmod></url>
+    <changefreq>monthly</changefreq>
+  </url>
   <url>
     <loc>https://longbiosci.com/rapamycin.html</loc>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-04-05</lastmod>
     <priority>0.7</priority>
-  <lastmod>2026-04-05</lastmod></url>
+    <changefreq>monthly</changefreq>
+  </url>
   <url>
     <loc>https://longbiosci.com/senolytic.html</loc>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-04-05</lastmod>
     <priority>0.7</priority>
-  <lastmod>2026-04-05</lastmod></url>
+    <changefreq>monthly</changefreq>
+  </url>
   <url>
     <loc>https://longbiosci.com/spermidine.html</loc>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-04-05</lastmod>
     <priority>0.7</priority>
-  <lastmod>2026-04-05</lastmod></url>
+    <changefreq>monthly</changefreq>
+  </url>
   <url>
     <loc>https://longbiosci.com/stemcell.html</loc>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-04-05</lastmod>
     <priority>0.7</priority>
-  <lastmod>2026-04-05</lastmod></url>
+    <changefreq>monthly</changefreq>
+  </url>
   <url>
     <loc>https://longbiosci.com/telomere.html</loc>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-04-05</lastmod>
     <priority>0.7</priority>
-  <lastmod>2026-04-05</lastmod></url>
+    <changefreq>monthly</changefreq>
+  </url>
   <url>
     <loc>https://longbiosci.com/trials.html</loc>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-17</lastmod>
     <priority>0.8</priority>
-  <lastmod>2026-04-17</lastmod></url>
+    <changefreq>weekly</changefreq>
+  </url>
   <url>
     <loc>https://longbiosci.com/daily/2026-03-28.html</loc>
     <lastmod>2026-03-28</lastmod>
-    <changefreq>never</changefreq>
     <priority>0.5</priority>
+    <changefreq>never</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/daily/index-2026-03-11.html</loc>
     <lastmod>2026-03-11</lastmod>
-    <changefreq>never</changefreq>
     <priority>0.5</priority>
+    <changefreq>never</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/daily/index.html</loc>
     <lastmod>2026-03-28</lastmod>
-    <changefreq>daily</changefreq>
     <priority>0.9</priority>
+    <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/papers/index.html</loc>
     <lastmod>2026-03-11</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/companies/index.html</loc>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-07</lastmod>
     <priority>0.7</priority>
-  <lastmod>2026-04-07</lastmod></url>
+    <changefreq>weekly</changefreq>
+  </url>
   <url>
     <loc>https://longbiosci.com/investors/index.html</loc>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-06</lastmod>
     <priority>0.7</priority>
-  <lastmod>2026-04-06</lastmod></url>
+    <changefreq>weekly</changefreq>
+  </url>
   <url>
     <loc>https://longbiosci.com/events/index.html</loc>
     <lastmod>2026-04-15</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/7-Ketocholesterol-Derivatives-Pathophysiology.html</loc>
     <lastmod>2026-03-28</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/ARDD-2026-to-relocate-to-Bosto.html</loc>
     <lastmod>2026-03-18</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Alchemab-Therapeutics-names-Ul.html</loc>
     <lastmod>2026-03-18</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Astrocyte-Senescence-Neurodegeneration-Review.html</loc>
     <lastmod>2026-03-31</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Autophagy-as-a-Double-Edged-Sw.html</loc>
     <lastmod>2026-03-18</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Btaf1-Hematopoietic-Stem-Cell-Aging.html</loc>
     <lastmod>2026-03-21</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Bystander-Senescence-Brain-Therapy.html</loc>
     <lastmod>2026-03-23</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/cGAS-STING-Ovarian-Aging-Inflammatory-Clock.html</loc>
     <lastmod>2026-04-04</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/lncRNA-HOTAIRM1-Senescence-Screen.html</loc>
     <lastmod>2026-04-03</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Microplastics-Nanoplastics-Aging-Longevity.html</loc>
     <lastmod>2026-04-02</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Oral-Microbiome-Cognitive-Decline.html</loc>
     <lastmod>2026-04-05</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Oxidized-LDL-Cerebrovascular-Aging.html</loc>
     <lastmod>2026-04-03</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Partial-Reprogramming-Clinical-Challenges.html</loc>
     <lastmod>2026-04-02</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/TBX5-Heart-Failure-Atrial-Fibrillation.html</loc>
     <lastmod>2026-04-04</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Cellino-appoints-Ed-Tekeian-as.html</loc>
     <lastmod>2026-03-18</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Circular-RNA-RNASEK-Longevity.html</loc>
     <lastmod>2026-03-28</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Cognition-Therapeutics-reports.html</loc>
     <lastmod>2026-03-18</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/DeepStrataAge-Interpretable-Aging-Clock.html</loc>
     <lastmod>2026-03-27</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/DunedinPACE-Mortality-Biomarker.html</loc>
     <lastmod>2026-03-23</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/DunedinPACE-Strongest-Mortality-Predictor.html</loc>
     <lastmod>2026-03-23</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Epigenetic-Dysregulation-Aging-Therapeutic-Target.html</loc>
     <lastmod>2026-03-29</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Evidence-for-Microglia-to-Acti.html</loc>
     <lastmod>2026-03-18</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Exercise-Modifies-the-Gut-Micr.html</loc>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-01</lastmod>
     <priority>0.7</priority>
-  <lastmod>2026-04-01</lastmod></url>
+    <changefreq>weekly</changefreq>
+  </url>
   <url>
     <loc>https://longbiosci.com/news/FGF21-SIRT1-Disc-Degeneration.html</loc>
     <lastmod>2026-04-01</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Fifteen-Years-Senescent-Cell-Clearance.html</loc>
     <lastmod>2026-03-26</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Gut-Brain-Axis-Neurodegenerative-Diseases.html</loc>
     <lastmod>2026-03-31</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Gut-Microbiome-Neurodegenerative-Treatment.html</loc>
     <lastmod>2026-03-31</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/How-One-Class-of-Inflammatory-.html</loc>
     <lastmod>2026-03-18</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/IVNS1ABP-Mutation-Progeroid-Neuropathy.html</loc>
     <lastmod>2026-03-29</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/IVNS1ABP-Progeroid-Neuropathy.html</loc>
     <lastmod>2026-03-20</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Immune-Aging-Interventions-Framework.html</loc>
     <lastmod>2026-03-26</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Killifish-Immune-Aging-Model.html</loc>
     <lastmod>2026-03-22</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/LEV-Foundation-RMR1-Results.html</loc>
     <lastmod>2026-03-20</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Lilly-2.75B-Insilico-Deal.html</loc>
     <lastmod>2026-03-31</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Longevity-public-stocks-are-in.html</loc>
     <lastmod>2026-03-19</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Longevity.Technology-has-quiet.html</loc>
     <lastmod>2026-03-19</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/MG53-Muscle-Stem-Cell-Activation.html</loc>
     <lastmod>2026-03-26</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Mission-Healthy-Life-Extension.html</loc>
     <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Myostatin-MSTN-Genetic-Muscle-Mass.html</loc>
     <lastmod>2026-03-25</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Neutrophil-Senescence-Host-Defense.html</loc>
     <lastmod>2026-03-20</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Prevalence-of-Roseburia-Inulin.html</loc>
     <lastmod>2026-03-18</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Roseburia-Muscle-Strength-Probiotic.html</loc>
     <lastmod>2026-03-23</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Rubedo-RLS-1496-GPX4-Phase1.html</loc>
     <lastmod>2026-04-01</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Senescent-Cells-Sarcopenia-Therapy.html</loc>
     <lastmod>2026-03-26</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Senotherapeutics-Strategies-2026.html</loc>
     <lastmod>2026-03-20</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Shingles-Vaccine-Cardiovascular-Risk-Reduction.html</loc>
     <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Sleep-EEG-Brain-Age-Dementia-Risk.html</loc>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-01</lastmod>
     <priority>0.7</priority>
-  <lastmod>2026-04-01</lastmod></url>
+    <changefreq>weekly</changefreq>
+  </url>
   <url>
     <loc>https://longbiosci.com/news/Systemic-Epigenetic-Dysregulation-Aging-Therapeutic-Target.html</loc>
     <lastmod>2026-03-28</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Thymus-Health-Longevity-Mortality.html</loc>
     <lastmod>2026-03-30</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Treatment-of-Aging-Will-Requir.html</loc>
     <lastmod>2026-03-18</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/epigenetic-clock-survival.html</loc>
     <lastmod>2026-03-10</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/exercise-gut-memory.html</loc>
     <lastmod>2026-03-17</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/index.html</loc>
     <lastmod>2026-03-31</lastmod>
-    <changefreq>daily</changefreq>
     <priority>0.9</priority>
+    <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/mRNA-Quality-Control-Aging-Review.html</loc>
     <lastmod>2026-03-20</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/microglia-amyloid.html</loc>
     <lastmod>2026-03-17</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/p38-MAPK-Potassium-Homeostasis-Lifespan.html</loc>
     <lastmod>2026-03-29</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/roseburia-muscle.html</loc>
     <lastmod>2026-03-17</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/research/index.html</loc>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-17</lastmod>
     <priority>0.7</priority>
-  <lastmod>2026-04-17</lastmod></url>
+    <changefreq>weekly</changefreq>
+  </url>
   <url>
     <loc>https://longbiosci.com/news/Catalyst-Precision-Health-Mens-Longevity.html</loc>
     <lastmod>2026-04-06</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Noom-Buys-Pharmacy-Healthy-Aging.html</loc>
     <lastmod>2026-04-06</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/BCL-2-Inhibition-Pulmonary-Fibrosis.html</loc>
     <lastmod>2026-04-07</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/BCL-2-Venetoclax-Reverse-Pulmonary-Fibrosis.html</loc>
     <lastmod>2026-04-09</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Lung-Fibroblasts-Drive-Inflammaging.html</loc>
     <lastmod>2026-04-08</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Muscle-Extracellular-Vesicles-Exerkines-2026.html</loc>
     <lastmod>2026-04-07</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Rapamycin-Large-Clinical-Trial-UTHealth-2026.html</loc>
     <lastmod>2026-04-07</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Spaceflight-Accelerated-Aging-Model.html</loc>
     <lastmod>2026-04-07</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Spatial-Atlas-Aging-Human-Breast.html</loc>
     <lastmod>2026-04-07</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/High-Dose-Flu-Vaccine-Reduce-Alzheimer-Risk-2026.html</loc>
     <lastmod>2026-04-10</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/PANoptosis-Cardiac-Aging-Review-2026.html</loc>
     <lastmod>2026-04-10</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Transthyretin-Amyloidosis-Long-Term-Data.html</loc>
     <lastmod>2026-04-09</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Glymphatic-Brain-Drain-MUSC-iScience.html</loc>
     <lastmod>2026-04-11</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/FTL1-Brain-Aging-Reversal-UCSF-Nature-Aging.html</loc>
     <lastmod>2026-04-11</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/ANP-Gene-Therapy-Heart-Regeneration.html</loc>
     <lastmod>2026-04-10</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Macrophage-Gene-Cartilage-Regeneration-Aging.html</loc>
     <lastmod>2026-04-09</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/FTL1-Protein-Brain-Aging-UCSF-Nature-Aging.html</loc>
     <lastmod>2026-04-12</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/AHR-Inhibition-Axon-Regeneration-Nature-2026.html</loc>
     <lastmod>2026-04-13</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/deep-dive/index.html</loc>
     <lastmod>2026-03-10</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/zh/index.html</loc>
     <lastmod>2026-04-08</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/en/index.html</loc>
     <lastmod>2026-04-08</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
-
   <url>
     <loc>https://longbiosci.com/news/Antiretroviral-Reduce-Biological-Age-Preprint-2026.html</loc>
     <lastmod>2026-04-14</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/ENDO12-Targeted-Autoimmune-Munc13-4-2026.html</loc>
     <lastmod>2026-04-15</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/HMGB1-Box-A-DNA-Gap-Gene-Therapy-Monkey-2026.html</loc>
     <lastmod>2026-04-15</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/SASP-Score-Deep-Learning-Senescent-Cell-2026.html</loc>
     <lastmod>2026-04-15</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/about/index.html</loc>
     <lastmod>2026-03-19</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/contact/index.html</loc>
     <lastmod>2026-03-19</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Tau-Seed-Neurofibrillary-Tangle-Spread-Neuron-2026.html</loc>
     <lastmod>2026-04-15</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Terbinafine-Miglustat-Mitochondrial-Stress-Longevity-2026.html</loc>
     <lastmod>2026-04-17</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/GLP1-Obesity-Sarcopenia-Nature-Review-2026.html</loc>
     <lastmod>2026-04-17</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/NIA-ITP-Compounds-No-Lifespan-Extension-2026.html</loc>
     <lastmod>2026-04-17</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/NIA-ITP-11-Compounds-No-Lifespan-Extension-2026.html</loc>
     <lastmod>2026-04-17</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Oxygen-Sensing-Limb-Regeneration-2026.html</loc>
     <lastmod>2026-04-17</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/IGF1-Suppression-Mitochondrial-Mutator-Mice-2026.html</loc>
@@ -724,7 +744,6 @@
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
-
   <url>
     <loc>https://longbiosci.com/news/Acid-Base-Dysregulation-Aging-Metabolism-Frailty-2026.html</loc>
     <lastmod>2026-04-23</lastmod>
@@ -742,7 +761,8 @@
     <lastmod>2026-04-23</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
-  </url>  <url>
+  </url>
+  <url>
     <loc>https://longbiosci.com/news/Chronic-Kidney-Disease-Cellular-Senescence-2026.html</loc>
     <lastmod>2026-04-24</lastmod>
     <priority>0.8</priority>
@@ -787,6 +807,24 @@
   <url>
     <loc>https://longbiosci.com/news/Chromatin-Closure-Stem-Cell-Exhaustion-RIKEN-2026.html</loc>
     <lastmod>2026-04-27</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Air-Pollution-Accelerated-Biological-Aging-Dementia-2026.html</loc>
+    <lastmod>2026-04-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/RIPK3-MLKL-HSC-Aging-Mitochondria-2026.html</loc>
+    <lastmod>2026-04-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Bimagrumab-Semaglutide-Obesity-Phase2-NatMed-2026.html</loc>
+    <lastmod>2026-04-28</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
