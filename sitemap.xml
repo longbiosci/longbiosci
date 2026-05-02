@@ -828,4 +828,17 @@
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
-<url><loc>https://longbiosci.com/news/Naked-Mole-Rat-Microbiome-Healthy-Aging-2026.html</loc><lastmod>2026-04-29</lastmod><priority>0.8</priority><changefreq>weekly</changefreq></url></urlset>
+<url><loc>https://longbiosci.com/news/Naked-Mole-Rat-Microbiome-Healthy-Aging-2026.html</loc><lastmod>2026-04-29</lastmod><priority>0.8</priority><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://longbiosci.com/news/FMT-MDM2-Liver-Cancer-Aging-2026.html</loc>
+    <lastmod>2026-05-02</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Oxidative-Stress-Impairs-Deubiquitylase-Aging-Brain-2026.html</loc>
+    <lastmod>2026-05-02</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+</urlset>
