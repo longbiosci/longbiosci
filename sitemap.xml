@@ -872,4 +872,17 @@
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
+  <url>
+    <loc>https://longbiosci.com/news/NYT-Altos-Labs-Cell-Rejuvenation-Longevity-2026.html</loc>
+    <lastmod>2026-05-06</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Partial-Reprogramming-Altos-Labs-Life-Biosciences-Human-Trial-2026.html</loc>
+    <lastmod>2026-05-05</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
 </urlset>
