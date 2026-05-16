@@ -1,157 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>LongBiosci 抗衰老资讯</title>
     <link>https://longbiosci.com/news/</link>
     <description>全球抗衰老、长寿科技、生物医药领域最新资讯——Senolytic药物、NMN、临床试验、融资动态、技术突破</description>
     <language>zh-CN</language>
     <copyright>Copyright 2026 LongBiosci</copyright>
-    <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
-    <atom:link href="https://longbiosci.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate>
+    <ns0:link href="https://longbiosci.com/rss.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://longbiosci.com/logo.jpg</url>
       <title>LongBiosci 抗衰老资讯</title>
       <link>https://longbiosci.com/news/</link>
     </image>
-    <item>
-      <title>《纽约时报》深度长文：长寿科技被过度炒作？但这项研究真能改变人类 — LongBiosci</title>
-      <link>https://longbiosci.com/news/NYT-Altos-Labs-Cell-Rejuvenation-Longevity-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/NYT-Altos-Labs-Cell-Rejuvenation-Longevity-2026.html</guid>
-      <description>《纽约时报》2026年4月27日发表重磅长文，系统介绍细胞回春与部分重编程领域：从受精卵的</description>
-      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>部分重编程：从胚胎重生机制到首个人体临床试验 — LongBiosci</title>
-      <link>https://longbiosci.com/news/Partial-Reprogramming-Altos-Labs-Life-Biosciences-Human-Trial-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/Partial-Reprogramming-Altos-Labs-Life-Biosciences-Human-Trial-2026.html</guid>
-      <description>Fight Aging! 深度解析部分细胞重编程的历史与现状：Altos Labs 发布科普文章推动公众认知，Life Biosciences 正式启动首个人体临床试验，探索治疗视神经损伤的潜力。</description>
-      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>血液：衰老的一面镜子与调节器——多组学视角下的最新研究综述 - LongBiosci</title>
-      <link>https://longbiosci.com/news/Blood-Mirror-Modulator-Aging-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/Blood-Mirror-Modulator-Aging-2026.html</guid>
-      <description>2026年综述文章指出，血液不仅是衰老的生物标志物，更是积极驱动衰老进程的系统性调节器。循环蛋白、代谢物及细胞外囊泡共同塑造免疫重塑、代谢稳态与器官间通讯，直接决定衰老速度。</description>
-      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>年轻供体血浆置换：认知障碍患者的间质液回春 pilot 研究 - LongBiosci</title>
-      <link>https://longbiosci.com/news/Young-Plasma-Exchange-Cognitive-Impairment-Pilot-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/Young-Plasma-Exchange-Cognitive-Impairment-Pilot-2026.html</guid>
-      <description>挪威奥斯陆大学医院等机构发表 medRxiv preprint，在12名轻度认知障碍（MCI）患者中开展年轻供体（18-24岁）大规模血浆置换 pilot 研究，探索异时性 parabiosis 原理向人体转化的安全性与可行性，开创性提出</description>
-      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>为何部分阿尔茨海默患者不出现痴呆？——&quot;认知弹性&quot;与神经发生的启示 - LongBiosci</title>
-      <link>https://longbiosci.com/news/Cognitive-Resilience-Adult-Neurogenesis-Alzheimer-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/Cognitive-Resilience-Adult-Neurogenesis-Alzheimer-2026.html</guid>
-      <description>荷兰神经科学研究所新研究揭示：约30%的阿尔茨海默患者从不出现症状，关键不在于未成熟神经元的数量，而在于这些细胞在抵御损伤时的行为模式，为理解大脑认知弹性提供了全新视角。</description>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Nature Aging：细胞外基质老化——衰老细胞积累的&quot;自强化回路&quot; - LongBiosci</title>
-      <link>https://longbiosci.com/news/ECM-Aging-Senescence-Circuit-Nature-Aging-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/ECM-Aging-Senescence-Circuit-Nature-Aging-2026.html</guid>
-      <description>Nature Aging 2026年5月4日发表的最新评述指出：细胞外基质（ECM）老化是衰老细胞积累与持续存在的关键驱动因素。研究提出\</description>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>去泛素化酶活性丧失：脑衰老中&quot;可逆&quot;的早期驱动因素 - LongBiosci</title>
-      <link>https://longbiosci.com/news/DUB-Oxidative-Stress-Brain-Aging-NACET-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/DUB-Oxidative-Stress-Brain-Aging-NACET-2026.html</guid>
-      <description>最新Nature Communications研究揭示：衰老大脑中氧化应激使去泛素化酶（DUB）活性下降，且发生在蛋白酶体衰退之前。N-乙酰半胱氨酸乙酯（NACET）可逆转这一过程，为脑衰老干预提供新靶点。</description>
-      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>粪菌移植重塑肠道菌群：恢复年轻微生物组可抑制肝癌发生 - LongBiosci</title>
-      <link>https://longbiosci.com/news/FMT-MDM2-Liver-Cancer-Aging-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/FMT-MDM2-Liver-Cancer-Aging-2026.html</guid>
-      <description>最新研究揭示：老年小鼠接受年轻小鼠粪菌移植（FMT）后，MDM2表达被显著抑制，8只老年对照小鼠中2只发生肝癌，而FMT组肝癌发生率为零——肠道-肝脏轴的抗衰老潜力再添新证据。</description>
-      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>氧化应激损害去泛素化酶活性：衰老大脑蛋白质稳态崩溃的新机制 - LongBiosci</title>
-      <link>https://longbiosci.com/news/Oxidative-Stress-Impairs-Deubiquitylase-Aging-Brain-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/Oxidative-Stress-Impairs-Deubiquitylase-Aging-Brain-2026.html</guid>
-      <description>Activity-based proteomics研究首次系统性揭示：衰老大脑中一类去泛素化酶（DUB）催化活性显著下降，而非蛋白水平本身——原因是氧化应激导致巯基氧化；NACET抗氧化剂可部分恢复DUB活性。</description>
-      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>认知弹性之谜：未成熟神经元如何抵御阿尔茨海默病理 - LongBiosci</title>
-      <link>https://longbiosci.com/news/Immature-Neurons-Cognitive-Resilience-Alzheimer-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/Immature-Neurons-Cognitive-Resilience-Alzheimer-2026.html</guid>
-      <description>荷兰神经科学研究所揭示：约30%阿尔茨海默患者从不出现症状，秘密在于未成熟神经元的自我保护程序——Cell Stem Cell重磅研究为认知弹性机制提供分子层面解释。</description>
-      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>裸鼢鼠肠道微生物组终身稳定：健康长寿的新证据 - LongBiosci</title>
-      <link>https://longbiosci.com/news/Naked-Mole-Rat-Microbiome-Healthy-Aging-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/Naked-Mole-Rat-Microbiome-Healthy-Aging-2026.html</guid>
-      <description>发表在Cell Reports的研究发现，裸鼢鼠肠道微生物组组成在整个生命周期中几乎不发生变化，这与其超长的寿命和极低的癌症发生率密切相关，提示肠道菌群稳定可能是健康衰老的关键因素之一。</description>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Seragon SRN-901：复方延寿疗法使老年小鼠剩余中位寿命延长33% — Drug Design, Development and Therapy 发表 - LongBiosci</title>
-      <link>https://longbiosci.com/news/Seragon-SRN-901-Combination-Longevity-Mice-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/Seragon-SRN-901-Combination-Longevity-Mice-2026.html</guid>
-      <description>Seragon Pharmaceuticals旗下SRN-901复方（小肠菌素A+槲皮素+烟酰胺核苷+α-硫辛酸+SRN-820）在老年小鼠中展示显著延寿效果，中位剩余寿命延长33%，超雷帕霉素单药表现，且显著衰减衰弱进程，相关成果发表Drug Design, Development and Therapy。</description>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>磷脂酰胆碱合成下降：驱动天然线粒体衰老的关键机制 - LongBiosci</title>
-      <link>https://longbiosci.com/news/Phosphatidylcholine-Synthesis-Mitochondrial-Aging-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/Phosphatidylcholine-Synthesis-Mitochondrial-Aging-2026.html</guid>
-      <description>Nature Communications 新研究揭示：磷脂酰胆碱（PC）合成随年龄下降是线粒体衰老的保守驱动因素。补充胆碱可部分逆转这一过程，为抗衰老干预提供了新的靶点。</description>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>空气污染加速生物衰老：UK Biobank研究揭示通往痴呆症的新通路 - LongBiosci</title>
-      <link>https://longbiosci.com/news/Air-Pollution-Accelerated-Biological-Aging-Dementia-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/Air-Pollution-Accelerated-Biological-Aging-Dementia-2026.html</guid>
-      <description>基于UK Biobank数据的大规模前瞻性队列研究表明，长期暴露于PM2.5、PM10、NO2等空气污染物会加速生物衰老，进而通过脑结构改变增加痴呆症风险。生物衰老加速是该通路的关键中介因素。</description>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>RIPK3-MLKL轴驱动造血干细胞衰老：线粒体损伤新机制 - LongBiosci</title>
-      <link>https://longbiosci.com/news/RIPK3-MLKL-HSC-Aging-Mitochondria-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/RIPK3-MLKL-HSC-Aging-Mitochondria-2026.html</guid>
-      <description>Nature Communications发表研究表明，RIPK3-MLKL信号轴介导了多种细胞应激源对造血干细胞功能的损伤作用，揭示了MLKL在线粒体层面的非坏死性新功能，为干预干细胞衰老提供新靶点。</description>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bimagrumab + Semaglutide 联合疗法：破解GLP-1减肥肌肉流失难题 — II期临床实证 - LongBiosci</title>
-      <link>https://longbiosci.com/news/Bimagrumab-Semaglutide-Obesity-Phase2-NatMed-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/Bimagrumab-Semaglutide-Obesity-Phase2-NatMed-2026.html</guid>
-      <description>Nature Medicine发表II期临床试验(BELIEVE)：Bimagrumab（肌肉合成抗体）与Semaglutide联用，在减脂同时有效保留甚至增加肌肉量，为GLP-1类减肥药的肌肉流失困境提供突破性解决方案，对老年及长寿医学具有重要意义。</description>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>蝾螈基因疗法突破：小鼠断指再生研究登PNAS - LongBiosci</title>
-      <link>https://longbiosci.com/news/SP8-FGF8-Digit-Regeneration-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/SP8-FGF8-Digit-Regeneration-2026.html</guid>
-      <description>Wake Forest大学研究团队通过跨物种基因研究，揭示蝾螈SP8转录因子在肢体再生中的核心作用，并利用FGF8基因疗法成功促进小鼠断指骨骼再生。这一突破为未来人类肢体再生疗法奠定了基础。</description>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>RIKEN揭示：衰老过程中染色质闭合驱动干细胞耗竭新机制 - LongBiosci</title>
-      <link>https://longbiosci.com/news/Chromatin-Closure-Stem-Cell-Exhaustion-RIKEN-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/Chromatin-Closure-Stem-Cell-Exhaustion-RIKEN-2026.html</guid>
-      <description>RIKEN研究团队利用果蝇模型发现，衰老过程中特定染色质区域的闭合（chromatin closure）通过下调ced-6基因表达，独立于细胞过度增殖之外驱动肠道干细胞耗竭，为理解人类干细胞衰老提供了新方向。</description>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>蝾螈SP基因打开哺乳动物肢体再生之门 - LongBiosci</title>
-      <link>https://longbiosci.com/news/SP-Gene-Limb-Regeneration-Salamander-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/SP-Gene-Limb-Regeneration-Salamander-2026.html</guid>
-      <description>Wake Forest大学等机构研究发现，蝾螈体内的SP8基因是肢体再生的关键驱动因子，通过斑马鱼增强子递送FGF8基因疗法，可部分恢复小鼠断指再生的能力，为人类肢体再生疗法奠定基础。</description>
-      <pubDate>Sun, 26 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>蝾螈 SP 基因打开哺乳动物再生之门：三大物种研究通向人类肢体再生 - LongBiosci</title>
-      <link>https://longbiosci.com/news/SP-Gene-Regeneration-Salamander-Mouse-Limb-PNAS-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/SP-Gene-Regeneration-Salamander-Mouse-Limb-PNAS-2026.html</guid>
-      <description>Wake Forest、杜克、威斯康星大学跨物种合作研究，揭示 SP 转录因子（SP6/SP8）是两栖动物、鱼类和哺乳动物共享的再生核心基因，通过病毒基因疗法递送 FGF8 成功促进小鼠指尖骨再生，为人类肢体再生奠定基础。</description>
-      <pubDate>Sun, 26 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-  </channel>
+    <item><title>SIRT6过表达逆转肝脏染色质衰老</title><link>https://longbiosci.com/news/SIRT6-Chromatin-Aging-Reversal-2026.html</link><description>Nature Communications新研究（2026.05.14）揭示：SIRT6过表达可通过调控H3K9ac水平，逆转老年小鼠肝脏染色质可及性的衰老相关变化，恢复炎症抑制和代谢基因调控的年轻状态，为延缓肝脏衰老提供全新靶点。</description><guid>https://longbiosci.com/news/SIRT6-Chromatin-Aging-Reversal-2026.html</guid><pubDate>Fri, 15 May 2026 16:00:00 GMT</pubDate></item><item><title>血液中CD8+ T细胞驱动认知衰老——阻断即可改善记忆</title><link>https://longbiosci.com/news/CD8-T-cells-Cognitive-Aging-Immunity-2026.html</link><description>Nature新闻：UCSF研究团队发现，血液中CD8+ T细胞是驱动认知衰老的关键因素，无需进入大脑，仅阻断血液中的这些细胞即可逆转记忆衰退，为认知退化治疗开辟全新路径。</description><guid>https://longbiosci.com/news/CD8-T-cells-Cognitive-Aging-Immunity-2026.html</guid><pubDate>Thu, 14 May 2026 16:00:00 GMT</pubDate></item><item><title>细菌外膜囊泡与阿尔茨海默病：积累性囊泡负荷假说</title><link>https://longbiosci.com/news/Bacterial-Vesicles-Alzheimer-Accumulative-Load-2026.html</link><description>发表于Cells期刊的综述提出</description><guid>https://longbiosci.com/news/Bacterial-Vesicles-Alzheimer-Accumulative-Load-2026.html</guid><pubDate>Thu, 14 May 2026 16:00:00 GMT</pubDate></item><item><title>中国海南百岁老人研究：生活方式比基因更重要</title><link>https://longbiosci.com/news/Lifestyle-Genetics-Longevity-Hainan-Cohort-2026.html</link><description>基于中国海南1545名80岁以上老人前瞻性队列研究：有利的生活方式因素使死亡风险降低40.7%，远超基因风险评分13%的保护效应；不健康生活方式甚至可完全抵消基因带来的长寿优势。</description><guid>https://longbiosci.com/news/Lifestyle-Genetics-Longevity-Hainan-Cohort-2026.html</guid><pubDate>Wed, 13 May 2026 16:00:00 GMT</pubDate></item><item><title>Integrator复合体降解延长线虫寿命：RNA加工缺陷诱导轻度线粒体应激</title><link>https://longbiosci.com/news/Integrator-Depletion-Extends-Lifespan-C-elegans-2026.html</link><description>最新研究显示，在秀丽隐杆线虫成年期特异性降解Integrator复合体，可显著延长寿命并改善健康跨度。这一效应通过RNA 3'端加工缺陷→内源性siRNA变化→轻度线粒体功能障碍→细胞维护增强的级联通路实现，为理解转录调控与衰老之间的联系提供了新框架。</description><guid>https://longbiosci.com/news/Integrator-Depletion-Extends-Lifespan-C-elegans-2026.html</guid><pubDate>Wed, 13 May 2026 16:00:00 GMT</pubDate></item><item><title>肥胖与阿尔茨海默病：为何生化机制与流行病学数据</title><link>https://longbiosci.com/news/Obesity-Alzheimer-Epidemiology-Paradox-2026.html</link><description>2026年综述指出，肥胖与阿尔茨海默病在细胞生化层面存在大量重叠机制（线粒体功能障碍、氧化应激、神经炎症等），但大规模流行病学数据却未能证实肥胖对AD风险的直接作用，GLP-1药物也未能延缓AD进展——这一悖论值得深思。</description><guid>https://longbiosci.com/news/Obesity-Alzheimer-Epidemiology-Paradox-2026.html</guid><pubDate>Wed, 13 May 2026 16:00:00 GMT</pubDate></item><item><title>呼吸系统：衰老如何为疾病搭建舞台——衰老的生物学机制与治疗前景</title><link>https://longbiosci.com/news/Respiratory-System-Aging-Senotherapy-Lung-Disease-2026.html</link><description>2026年综述指出，呼吸系统衰老与COPD、肺纤维化等年龄相关疾病密切相关。Senotherapy（衰老定向药物）正在成为呼吸系统疾病新的治疗策略，包括senomorphics（抑制衰老细胞）和senolytics（清除衰老细胞）两大方向。</description><guid>https://longbiosci.com/news/Respiratory-System-Aging-Senotherapy-Lung-Disease-2026.html</guid><pubDate>Tue, 12 May 2026 16:00:00 GMT</pubDate></item><item><title>细胞外基质：衰老细胞积累中被忽视的关键环节</title><link>https://longbiosci.com/news/ECM-Senescence-Self-Reinforcing-2026.html</link><description>Nature Aging 2026年5月发表新 Comment，提出细胞外基质（ECM）通过整合素信号和机械感知调控衰老细胞的进入与存续，构成衰老相关衰老细胞积累的自我强化回路。</description><guid>https://longbiosci.com/news/ECM-Senescence-Self-Reinforcing-2026.html</guid><pubDate>Tue, 12 May 2026 16:00:00 GMT</pubDate></item><item><title>光生物调节：逆转老年肌肉神经肌肉接头退化的新证据</title><link>https://longbiosci.com/news/Photobiomodulation-Neuromuscular-Junction-Sarcopenia-2026.html</link><description>发表于 Cells 期刊的开放获取论文揭示：650nm 近红外光照射可改善老年大鼠股外侧肌神经肌肉接头的超微结构，增加突触前膜活性区、伸长突触后膜、缩小突触间隙，为非侵入性延缓肌肉衰老提供新证据。</description><guid>https://longbiosci.com/news/Photobiomodulation-Neuromuscular-Junction-Sarcopenia-2026.html</guid><pubDate>Mon, 11 May 2026 16:00:00 GMT</pubDate></item><item><title>Nature Aging：如何识别衰老化研究中的\</title><link>https://longbiosci.com/news/Hawthorne-Effect-Aging-Research-Nature-Aging-2026.html</link><description>Nature Aging 2026年5月4日发表评论指出：受试者在研究中改变行为（霍桑效应）可产生与真实抗衰老干预相当甚至更强的生物标志物变化，严重干扰衰老化研究结果。该文提出系统性方法学框架，以区分真实生物学衰老调控与研究参与本身带来的偏倚。</description><guid>https://longbiosci.com/news/Hawthorne-Effect-Aging-Research-Nature-Aging-2026.html</guid><pubDate>Mon, 11 May 2026 16:00:00 GMT</pubDate></item><item><title>电磁场诱导细胞重编程：韩国团队让老年小鼠寿命延长，研究登 Cell</title><link>https://longbiosci.com/news/EMF-Cyclic-Cellular-Reprogramming-Mice-Longevity-2026.html</link><description>韩国东国大学科学家利用电磁场（EMF）诱导周期性细胞重编程，显著延长老年小鼠寿命。75%治疗组小鼠存活至108周（相当于人类70岁），远超对照组50%。主动脉、皮肤、肝脏、肾脏等多个器官出现年轻化逆转，发表于Cell期刊。</description><guid>https://longbiosci.com/news/EMF-Cyclic-Cellular-Reprogramming-Mice-Longevity-2026.html</guid><pubDate>Sun, 10 May 2026 16:00:00 GMT</pubDate></item><item><title>Nature Communications：长寿家族四代追踪——非凡健康的早期生命起源</title><link>https://longbiosci.com/news/Developmental-Origins-Exceptional-Longevity-Denmark-2026.html</link><description>Nature Communications发表丹麦四代家族队列研究（2026年5月9日）：长寿家族后代在生命早期即表现出健康与生存优势，婴儿死亡率降低47%，且独立于社会经济因素。这一发现为理解健康长寿的发育起源提供了强有力的流行病学证据。</description><guid>https://longbiosci.com/news/Developmental-Origins-Exceptional-Longevity-Denmark-2026.html</guid><pubDate>Sun, 10 May 2026 16:00:00 GMT</pubDate></item><item><title>AHR抑制解锁神经再生：Nature发表揭示</title><link>https://longbiosci.com/news/AHR-Inhibition-Axon-Regeneration-Nature-2026.html</link><description>Nature发表重磅研究：芳香烃受体（AHR）充当神经再生的\</description><guid>https://longbiosci.com/news/AHR-Inhibition-Axon-Regeneration-Nature-2026.html</guid><pubDate>Sun, 10 May 2026 16:00:00 GMT</pubDate></item><item><title>电磁场远程激活基因重编程延寿——Cell发表韩国团队研究</title><link>https://longbiosci.com/news/EMF-Partial-Reprogramming-Longevity-Cell-2026.html</link><description>韩国 Dongguk University 团队在 Cell 发表研究：通过电磁场（EMF）远程激活山中因子（OSK）基因，实现小鼠体内部分细胞重编程，显著延长寿命并逆转多器官衰老，首次提出 Cyb5b 为潜在细胞EMF感受器。</description><guid>https://longbiosci.com/news/EMF-Partial-Reprogramming-Longevity-Cell-2026.html</guid><pubDate>Sat, 09 May 2026 16:00:00 GMT</pubDate></item><item><title>韩国研究：电磁场诱导细胞重编程延长小鼠寿命</title><link>https://longbiosci.com/news/EMF-Cellular-Reprogramming-Mouse-Longevity-Cell-2026.html</link><description>韩国东国大学团队在 Cell 发表研究，利用电磁场（EMF）触发</description><guid>https://longbiosci.com/news/EMF-Cellular-Reprogramming-Mouse-Longevity-Cell-2026.html</guid><pubDate>Sat, 09 May 2026 16:00:00 GMT</pubDate></item><item><title>电磁场诱导环式细胞重编程：小鼠寿命显著延长</title><link>https://longbiosci.com/news/EMF-Induced-Cyclic-Reprogramming-Mouse-Longevity-2026.html</link><description>科学家利用电磁场（EMF）替代小分子化合物，诱导老年小鼠环式细胞重编程，实现寿命延长（75% vs 50-60%存活至108周）并逆转多种器官衰老指标，相关论文发表于 Ageing Research Reviews（DOI: 10.1016/j.arr.2026.103009）。</description><guid>https://longbiosci.com/news/EMF-Induced-Cyclic-Reprogramming-Mouse-Longevity-2026.html</guid><pubDate>Sat, 09 May 2026 16:00:00 GMT</pubDate></item><item><title>免疫衰老与炎性衰老：神经退行性疾病的双重驱动机制</title><link>https://longbiosci.com/news/Immunosenescence-Inflammaging-Neurodegeneration-2026.html</link><description>免疫衰老与慢性低度炎症（炎性衰老）是衰老过程中相互交织的两大核心特征。最新综述指出，二者不仅是神经退行性病变的伴随现象，更是推动其发生发展的主动力量，为治疗干预提供新靶点。</description><guid>https://longbiosci.com/news/Immunosenescence-Inflammaging-Neurodegeneration-2026.html</guid><pubDate>Fri, 08 May 2026 16:00:00 GMT</pubDate></item><item><title>AGEs 糖化终产物：组织僵硬与衰老的分子驱动因素</title><link>https://longbiosci.com/news/AGEs-Glycation-Tissue-Stiffness-2026.html</link><description>高级糖化终产物（AGEs）通过蛋白质糖化和细胞外基质交联驱动组织僵硬与衰老。最新综述全面梳理AGEs的形成路径、检测方法及治疗策略。</description><guid>https://longbiosci.com/news/AGEs-Glycation-Tissue-Stiffness-2026.html</guid><pubDate>Thu, 07 May 2026 16:00:00 GMT</pubDate></item><item><title>免疫衰老驱动神经退行性疾病：炎症与免疫-脑轴新机制</title><link>https://longbiosci.com/news/Immune-System-Aging-Neurodegeneration-2026.html</link><description>最新综述指出，免疫衰老（immunosenescence）和炎性衰老（inflammaging）不仅是神经退行性病变的伴随现象，更是驱动其发生发展的核心机制，为早期干预提供新靶点。</description><guid>https://longbiosci.com/news/Immune-System-Aging-Neurodegeneration-2026.html</guid><pubDate>Thu, 07 May 2026 16:00:00 GMT</pubDate></item><item><title>裸鼢鼠皮肤细胞外基质的抗衰老秘密 - LongBiosci</title><link>https://longbiosci.com/news/Naked-Mole-Rat-Skin-ECM-Anti-Aging-2026.html</link><description>裸鼢鼠寿命长达40年，几乎不出现与年龄相关的组织衰退。最新研究利用拉曼光谱和傅里叶变换红外光谱分析其皮肤细胞外基质分子结构，为抗衰老机制研究提供新线索。</description><guid>https://longbiosci.com/news/Naked-Mole-Rat-Skin-ECM-Anti-Aging-2026.html</guid><pubDate>Wed, 06 May 2026 16:00:00 GMT</pubDate></item></channel>
 </rss>
