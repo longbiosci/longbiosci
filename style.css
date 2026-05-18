@@ -384,3 +384,13 @@ body {
 .table-center {
     text-align: center;
 }
+
+/* 时间戳/日期文本颜色（替代 inline style="color:#888;"） */
+.time-text {
+    color: #888;
+}
+
+/* 小间距上方（替代 inline style="margin-top:12px;"） */
+.gap-top {
+    margin-top: 12px;
+}
