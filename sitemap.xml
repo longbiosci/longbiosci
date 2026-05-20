@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://longbiosci.com/</loc>
@@ -70,7 +70,7 @@
   </url>
   <url>
     <loc>https://longbiosci.com/news/</loc>
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-05-19</lastmod>
   </url>
   <url>
     <loc>https://longbiosci.com/news/7-Ketocholesterol-Derivatives-Pathophysiology.html</loc>
@@ -688,4 +688,22 @@
     <loc>https://longbiosci.com/news/Senolytic-Cost-Benefit-Precision-Intervention-2026.html</loc>
     <lastmod>2026-05-16</lastmod>
   </url>
-<url><loc>https://longbiosci.com/news/Cellular-Senescence-Heterogeneity-Precision-Intervention-2026.html</loc><lastmod>2026-05-17</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url></urlset>
+  <url>
+    <loc>https://longbiosci.com/news/Cellular-Senescence-Heterogeneity-Precision-Intervention-2026.html</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Multimodal-Aging-Longevity-Intervention-2026.html</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Neuroectodermal-Aging-Primate-Longevity-2026.html</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
