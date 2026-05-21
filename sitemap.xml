@@ -70,7 +70,7 @@
   </url>
   <url>
     <loc>https://longbiosci.com/news/</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-05-21</lastmod>
   </url>
   <url>
     <loc>https://longbiosci.com/news/7-Ketocholesterol-Derivatives-Pathophysiology.html</loc>
@@ -703,6 +703,18 @@
   <url>
     <loc>https://longbiosci.com/news/Neuroectodermal-Aging-Primate-Longevity-2026.html</loc>
     <lastmod>2026-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/ISR-ATF4-Longevity-Fly-PNAS-2026.html</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Sleep-Duration-Biological-Aging-Nature-2026.html</loc>
+    <lastmod>2026-05-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
