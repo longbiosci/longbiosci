@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://longbiosci.com/</loc>
@@ -742,4 +742,4 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-</urlset>
+<url><loc>https://longbiosci.com/news/Cyclarity-UDP003-7KC-Phase1-2026.html</loc><lastmod>2026-05-22</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url><url><loc>https://longbiosci.com/news/Gut-Exosome-Aging-Microbiome-2026.html</loc><lastmod>2026-05-22</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url><url><loc>https://longbiosci.com/news/Serial-Cloning-58-Generations-Lifespan-Nature-2026.html</loc><lastmod>2026-05-23</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url></urlset>
