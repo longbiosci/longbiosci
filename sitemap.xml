@@ -70,7 +70,7 @@
   </url>
   <url>
     <loc>https://longbiosci.com/news/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-05-25</lastmod>
   </url>
   <url>
     <loc>https://longbiosci.com/news/7-Ketocholesterol-Derivatives-Pathophysiology.html</loc>
@@ -742,4 +742,16 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-<url><loc>https://longbiosci.com/news/Cyclarity-UDP003-7KC-Phase1-2026.html</loc><lastmod>2026-05-22</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url><url><loc>https://longbiosci.com/news/Gut-Exosome-Aging-Microbiome-2026.html</loc><lastmod>2026-05-22</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url><url><loc>https://longbiosci.com/news/Serial-Cloning-58-Generations-Lifespan-Nature-2026.html</loc><lastmod>2026-05-23</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url></urlset>
+<url><loc>https://longbiosci.com/news/Cyclarity-UDP003-7KC-Phase1-2026.html</loc><lastmod>2026-05-22</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url><url><loc>https://longbiosci.com/news/Gut-Exosome-Aging-Microbiome-2026.html</loc><lastmod>2026-05-22</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url><url><loc>https://longbiosci.com/news/Serial-Cloning-58-Generations-Lifespan-Nature-2026.html</loc><lastmod>2026-05-23</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>  <url>
+    <loc>https://longbiosci.com/news/DIS3-tRNA-Halves-Aging-NatCommun-2026.html</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Peroxisome-Dysfunction-Metabolic-Inflexibility-Longevity-2026.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
