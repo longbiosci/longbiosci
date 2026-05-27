@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://longbiosci.com/</loc>
@@ -70,7 +70,7 @@
   </url>
   <url>
     <loc>https://longbiosci.com/news/</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-05-26</lastmod>
   </url>
   <url>
     <loc>https://longbiosci.com/news/7-Ketocholesterol-Derivatives-Pathophysiology.html</loc>
@@ -157,12 +157,24 @@
     <lastmod>2026-04-06</lastmod>
   </url>
   <url>
+    <loc>https://longbiosci.com/news/Celastrol-Exercise-Mimetic-Longevity-2026.html</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://longbiosci.com/news/Cell-Senescence-Biological-Complexity-Nature-Reviews-2026.html</loc>
     <lastmod>2026-04-23</lastmod>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Cellino-appoints-Ed-Tekeian-as.html</loc>
     <lastmod>2026-03-18</lastmod>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Cellular-Senescence-Heterogeneity-Precision-Intervention-2026.html</loc>
+    <lastmod>2026-05-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Chromatin-Closure-Stem-Cell-Exhaustion-RIKEN-2026.html</loc>
@@ -187,6 +199,18 @@
   <url>
     <loc>https://longbiosci.com/news/Cognitive-Resilience-Adult-Neurogenesis-Alzheimer-2026.html</loc>
     <lastmod>2026-05-04</lastmod>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Cyclarity-UDP003-7KC-Phase1-2026.html</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/DIS3-tRNA-Halves-Aging-NatCommun-2026.html</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://longbiosci.com/news/DUB-Oxidative-Stress-Brain-Aging-NACET-2026.html</loc>
@@ -281,6 +305,12 @@
     <lastmod>2026-03-31</lastmod>
   </url>
   <url>
+    <loc>https://longbiosci.com/news/Gut-Exosome-Aging-Microbiome-2026.html</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://longbiosci.com/news/Gut-Microbiome-Neurodegenerative-Treatment.html</loc>
     <lastmod>2026-03-31</lastmod>
   </url>
@@ -291,6 +321,12 @@
   <url>
     <loc>https://longbiosci.com/news/HMGB1-BoxA-DNA-Gaps-NHP-Aging-2026.html</loc>
     <lastmod>2026-04-21</lastmod>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Hallmarks-Aging-Paradigms-Scientific-Progress-ARR-2026.html</loc>
+    <lastmod>2026-05-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Hawthorne-Effect-Aging-Research-Nature-Aging-2026.html</loc>
@@ -309,6 +345,12 @@
     <lastmod>2026-03-18</lastmod>
   </url>
   <url>
+    <loc>https://longbiosci.com/news/IDOL-Enzyme-Alzheimers-Target-2026.html</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://longbiosci.com/news/IGF1-Suppression-Mitochondrial-Mutator-Mice-2026.html</loc>
     <lastmod>2026-04-16</lastmod>
   </url>
@@ -319,6 +361,12 @@
   <url>
     <loc>https://longbiosci.com/news/IGF1R-Inhibitors-Healthspan-Mouse-2026.html</loc>
     <lastmod>2026-05-07</lastmod>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/ISR-ATF4-Longevity-Fly-PNAS-2026.html</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://longbiosci.com/news/IVNS1ABP-Mutation-Progeroid-Neuropathy.html</loc>
@@ -349,12 +397,24 @@
     <lastmod>2026-05-13</lastmod>
   </url>
   <url>
+    <loc>https://longbiosci.com/news/KHL-Foundation-Rejuvenation-Cocktail-2026.html</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://longbiosci.com/news/Killifish-Immune-Aging-Model.html</loc>
     <lastmod>2026-03-22</lastmod>
   </url>
   <url>
     <loc>https://longbiosci.com/news/LEV-Foundation-RMR1-Results.html</loc>
     <lastmod>2026-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/LIPUS-Gut-Microbiota-Sarcopenia-Aging-2026.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Lifestyle-Genetics-Longevity-Hainan-Cohort-2026.html</loc>
@@ -385,6 +445,12 @@
     <lastmod>2026-04-09</lastmod>
   </url>
   <url>
+    <loc>https://longbiosci.com/news/Metabolomic-Aging-Clock-Dementia-Risk-UK-Biobank-2026.html</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://longbiosci.com/news/Microglia-Cancer-Mutations-Drive-Alzheimer-Cell-2026.html</loc>
     <lastmod>2026-04-22</lastmod>
   </url>
@@ -395,6 +461,12 @@
   <url>
     <loc>https://longbiosci.com/news/Mission-Healthy-Life-Extension.html</loc>
     <lastmod>2026-03-30</lastmod>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Multimodal-Aging-Longevity-Intervention-2026.html</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Multimorbidity-Glycaemic-Patterns-Nature-Metabolism-2026.html</loc>
@@ -427,6 +499,12 @@
   <url>
     <loc>https://longbiosci.com/news/Naked-Mole-Rat-Skin-ECM-Anti-Aging-2026.html</loc>
     <lastmod>2026-05-07</lastmod>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Neuroectodermal-Aging-Primate-Longevity-2026.html</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Neutrophil-Senescence-Host-Defense.html</loc>
@@ -477,6 +555,16 @@
     <lastmod>2026-04-02</lastmod>
   </url>
   <url>
+    <loc>https://longbiosci.com/news/Partial-Reprogramming-Human-Trial-Glaucoma-Nature-2026.html</loc>
+    <lastmod>2026-05-16</lastmod>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Peroxisome-Dysfunction-Metabolic-Inflexibility-Longevity-2026.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://longbiosci.com/news/Phosphatidylcholine-Mitochondrial-Aging-Nature-2026.html</loc>
     <lastmod>2026-04-23</lastmod>
   </url>
@@ -505,6 +593,12 @@
     <lastmod>2026-05-13</lastmod>
   </url>
   <url>
+    <loc>https://longbiosci.com/news/RetiAGE-Retinal-Biological-Age-Predicts-Osteoporosis-2026.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://longbiosci.com/news/Roseburia-Muscle-Strength-Probiotic.html</loc>
     <lastmod>2026-03-23</lastmod>
   </url>
@@ -519,6 +613,12 @@
   <url>
     <loc>https://longbiosci.com/news/SIRT6-Chromatin-Aging-Reversal-2026.html</loc>
     <lastmod>2026-05-15</lastmod>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/SIRT6-Overexpression-Chromatin-Reversal-Liver-2026.html</loc>
+    <lastmod>2026-05-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://longbiosci.com/news/SP-Gene-Limb-Regeneration-Salamander-2026.html</loc>
@@ -541,6 +641,10 @@
     <lastmod>2026-03-26</lastmod>
   </url>
   <url>
+    <loc>https://longbiosci.com/news/Senolytic-Cost-Benefit-Precision-Intervention-2026.html</loc>
+    <lastmod>2026-05-16</lastmod>
+  </url>
+  <url>
     <loc>https://longbiosci.com/news/Senotherapeutics-Strategies-2026.html</loc>
     <lastmod>2026-03-20</lastmod>
   </url>
@@ -549,12 +653,24 @@
     <lastmod>2026-04-30</lastmod>
   </url>
   <url>
+    <loc>https://longbiosci.com/news/Serial-Cloning-58-Generations-Lifespan-Nature-2026.html</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://longbiosci.com/news/Sex-Differences-Immune-Aging-Single-Cell-2026.html</loc>
     <lastmod>2026-04-17</lastmod>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Shingles-Vaccine-Cardiovascular-Risk-Reduction.html</loc>
     <lastmod>2026-03-30</lastmod>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Sleep-Duration-Biological-Aging-Nature-2026.html</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://longbiosci.com/news/Sleep-EEG-Brain-Age-Dementia-Risk.html</loc>
@@ -679,91 +795,5 @@
   <url>
     <loc>https://longbiosci.com/zh/</loc>
     <lastmod>2026-04-07</lastmod>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/news/Partial-Reprogramming-Human-Trial-Glaucoma-Nature-2026.html</loc>
-    <lastmod>2026-05-16</lastmod>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/news/Senolytic-Cost-Benefit-Precision-Intervention-2026.html</loc>
-    <lastmod>2026-05-16</lastmod>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/news/Cellular-Senescence-Heterogeneity-Precision-Intervention-2026.html</loc>
-    <lastmod>2026-05-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/news/Multimodal-Aging-Longevity-Intervention-2026.html</loc>
-    <lastmod>2026-05-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/news/Neuroectodermal-Aging-Primate-Longevity-2026.html</loc>
-    <lastmod>2026-05-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/news/ISR-ATF4-Longevity-Fly-PNAS-2026.html</loc>
-    <lastmod>2026-05-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/news/Sleep-Duration-Biological-Aging-Nature-2026.html</loc>
-    <lastmod>2026-05-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/news/Celastrol-Exercise-Mimetic-Longevity-2026.html</loc>
-    <lastmod>2026-05-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/news/Metabolomic-Aging-Clock-Dementia-Risk-UK-Biobank-2026.html</loc>
-    <lastmod>2026-05-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/news/IDOL-Enzyme-Alzheimers-Target-2026.html</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/news/KHL-Foundation-Rejuvenation-Cocktail-2026.html</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-<url><loc>https://longbiosci.com/news/Cyclarity-UDP003-7KC-Phase1-2026.html</loc><lastmod>2026-05-22</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url><url><loc>https://longbiosci.com/news/Gut-Exosome-Aging-Microbiome-2026.html</loc><lastmod>2026-05-22</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url><url><loc>https://longbiosci.com/news/Serial-Cloning-58-Generations-Lifespan-Nature-2026.html</loc><lastmod>2026-05-23</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>  <url>
-    <loc>https://longbiosci.com/news/DIS3-tRNA-Halves-Aging-NatCommun-2026.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/news/Peroxisome-Dysfunction-Metabolic-Inflexibility-Longevity-2026.html</loc>
-    <lastmod>2026-05-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/news/RetiAGE-Retinal-Biological-Age-Predicts-Osteoporosis-2026.html</loc>
-    <lastmod>2026-05-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/news/LIPUS-Gut-Microbiota-Sarcopenia-Aging-2026.html</loc>
-    <lastmod>2026-05-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
 </urlset>
