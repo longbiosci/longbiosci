@@ -3,46 +3,154 @@
   <channel>
     <title>LongBiosci - 长寿科技与抗衰老研究新闻</title>
     <link>https://longbiosci.com</link>
-    <description>每日更新生物医药、长寿科技与抗衰老领域最新研究进展</description>
-    <language>zh-CN</language>
-    <lastBuildDate>Tue, 26 May 2026 00:00:00 GMT</lastBuildDate>
+    <description>最新抗衰老、长寿科技、生物学年龄逆转研究新闻与论文解读</description>
+    <language>zh-cn</language>
+    <lastBuildDate>2026-05-29 12:00:00 +0800</lastBuildDate>
     <atom:link href="https://longbiosci.com/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://longbiosci.com/logo.jpg</url>
       <title>LongBiosci</title>
       <link>https://longbiosci.com</link>
     </image>
-  <item>
-    <title>SIRT6过表达逆转肝脏细胞染色质年龄相关变化 — LongBiosci</title>
-    <link>https://longbiosci.com/news/SIRT6-Overexpression-Chromatin-Reversal-Liver-2026.html</link>
-    <guid>https://longbiosci.com/news/SIRT6-Overexpression-Chromatin-Reversal-Liver-2026.html</guid>
-    <description>SIRT6过表达可逆转老年小鼠肝脏染色质结构变化，首次证明 AAV 介导的 SIRT6 可让染色质可及性恢复年轻状态。Nature Communications 2026.</description>
-    <pubDate>Tue, 26 May 2026 00:00:00 GMT</pubDate>
-  </item>
-  <item>
-    <title>衰老标志物研究范式演变与科学进步 — LongBiosci</title>
-    <link>https://longbiosci.com/news/Hallmarks-Aging-Paradigms-Scientific-Progress-ARR-2026.html</link>
-    <guid>https://longbiosci.com/news/Hallmarks-Aging-Paradigms-Scientific-Progress-ARR-2026.html</guid>
-    <description>从哲学和社会学角度分析Hallmarks of Aging框架如何成为当代衰老研究的主导范式。Ageing Research Reviews 2026.</description>
-    <pubDate>Tue, 26 May 2026 00:00:00 GMT</pubDate>
-  </item>
-<title>代谢年龄差值：识别痴呆高风险人群的新型工具</title><link>https://longbiosci.com/news/Metabolomic-Aging-Clock-Dementia-Risk-UK-Biobank-2026.html</link><description>UK Biobank 22万人研究：代谢年龄超前与APOE ε4叠加，风险激增10.3倍，提示代谢衰老与基因风险独立驱动痴呆。</description><guid>https://longbiosci.com/news/Metabolomic-Aging-Clock-Dementia-Risk-UK-Biobank-2026.html</guid><pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
-<title>每天睡多少小时最佳？Nature大型研究：6-8小时与更慢生物衰老相关</title><link>https://longbiosci.com/news/Sleep-Duration-Biological-Aging-Nature-2026.html</link><description>50万人研究揭示：每天6-8小时睡眠与最慢生物衰老速度相关，睡太多或太少均加速衰老，为睡眠干预抗衰老提供强有力证据。</description><guid>https://longbiosci.com/news/Sleep-Duration-Biological-Aging-Nature-2026.html</guid><pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
-<title>Integrator复合体降解延长线虫寿命：RNA加工缺陷诱导轻度线粒体应激</title><link>https://longbiosci.com/news/Integrator-Depletion-Extends-Lifespan-C-elegans-2026.html</link><description>最新研究显示，在秀丽隐杆线虫成年期特异性降解Integrator复合体，可显著延长寿命并改善健康跨度。</description><guid>https://longbiosci.com/news/Integrator-Depletion-Extends-Lifespan-C-elegans-2026.html</guid><pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
-<title>整合应激反应与衰老：果蝇研究揭示 ATF4 抑制延长寿命</title><link>https://longbiosci.com/news/ISR-ATF4-Longevity-Fly-PNAS-2026.html</link><description>PNAS 2026年新研究首次在果蝇中验证整合应激反应通路与寿命的关系，发现抑制 ATF4 延长寿命，与线虫结果相反。</description><guid>https://longbiosci.com/news/ISR-ATF4-Longevity-Fly-PNAS-2026.html</guid><pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
-<title>神经外胚层衰老编码灵长类健康与长寿——中山大学/约翰霍普金斯大学新发现</title><link>https://longbiosci.com/news/Neuroectodermal-Aging-Primate-Longevity-2026.html</link><description>中山大学与约翰霍普金斯大学合作：神经外胚层来源组织的衰老特征可编码灵长类健康与寿命，为非侵入性长寿评估开辟新路径。</description><guid>https://longbiosci.com/news/Neuroectodermal-Aging-Primate-Longevity-2026.html</guid><pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
-<title>MIT/哈佛/Buck研究所联合发布多模态器官衰老与长寿干预发现框架</title><link>https://longbiosci.com/news/Multimodal-Aging-Longevity-Intervention-2026.html</link><description>MIT、哈佛医学院、Buck衰老研究所、斯坦福大学顶级研究团队联合发布重磅预印本：开发多模态器官与单细胞分辨率生物衰老框架，用于系统发现长寿干预手段。</description><guid>https://longbiosci.com/news/Multimodal-Aging-Longevity-Intervention-2026.html</guid><pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
-<title>雷公藤红素：天然化合物作为运动模拟物，在线虫中延长寿命27.6%</title><link>https://longbiosci.com/news/Celastrol-Exercise-Mimetic-Longevity-2026.html</link><description>雷公藤红素（Celastrol）可模拟运动和PGC-1α过表达对肌肉和线粒体的有益效应，在线虫中延长寿命27.6%。</description><guid>https://longbiosci.com/news/Celastrol-Exercise-Mimetic-Longevity-2026.html</guid><pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
-<title>裸鼢鼠皮肤细胞外基质的抗衰老秘密</title><link>https://longbiosci.com/news/Naked-Mole-Rat-Skin-ECM-Anti-Aging-2026.html</link><description>裸鼢鼠寿命长达40年，几乎不出现与年龄相关的组织衰退。最新研究利用拉曼光谱和傅里叶变换红外光谱分析其皮肤细胞外基质分子结构，为抗衰老机制研究提供新线索。</description><guid>https://longbiosci.com/news/Naked-Mole-Rat-Skin-ECM-Anti-Aging-2026.html</guid><pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
-<title>小分子IGF1R抑制剂延长小鼠健康寿命</title><link>https://longbiosci.com/news/IGF1R-Inhibitors-Healthspan-Mouse-2026.html</link><description>两项小分子IGF1R抑制剂（PPP和NVP-ADW742）在C57BL/6小鼠中显示出改善健康寿命的潜力，可减少记忆衰退、降低血压、改善糖耐量，但均存在安全性问题。</description><guid>https://longbiosci.com/news/IGF1R-Inhibitors-Healthspan-Mouse-2026.html</guid><pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
-<title>tRNA片段：延寿密码被破解 — DIS3延缓衰老新机制</title><link>https://longbiosci.com/news/DIS3-tRNA-Halves-Aging-NatCommun-2026.html</link><description>KAIST团队发现核糖核酸酶DIS3通过生成tRNA halves延缓衰老，揭示tRNA碎片是进化保守的长寿机制。</description><guid>https://longbiosci.com/news/DIS3-tRNA-Halves-Aging-NatCommun-2026.html</guid><pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
-<title>过氧化物酶体功能障碍：代谢灵活性丧失与寿命缩短的始动因子</title><link>https://longbiosci.com/news/Peroxisome-Dysfunction-Metabolic-Inflexibility-Longevity-2026.html</link><description>Nature Aging 重磅研究揭示过氧化物酶体蛋白转运功能随衰老选择性衰退，是代谢僵硬与寿命缩短的始动级联事件。</description><guid>https://longbiosci.com/news/Peroxisome-Dysfunction-Metabolic-Inflexibility-Longevity-2026.html</guid><pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
-<title>小鼠连续克隆58代：克隆不缩短寿命，性繁殖天然纠错</title><link>https://longbiosci.com/news/Serial-Cloning-58-Generations-Lifespan-Nature-2026.html</link><description>20年、58代、1200只克隆小鼠——日本团队证实：克隆动物寿命正常，性繁殖可纠错表观遗传异常。</description><guid>https://longbiosci.com/news/Serial-Cloning-58-Generations-Lifespan-Nature-2026.html</guid><pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
-<title>低强度脉冲超声：腹部超声或可逆转肌肉衰减 — LongBiosci</title><link>https://longbiosci.com/news/LIPUS-Gut-Microbiota-Sarcopenia-Aging-2026.html</link><description>低强度脉冲超声（LIPUS）作用于腹部8周，可改善老年小鼠肌肉力量和肌肉质量，其机制与肠道菌群调节相关。</description><guid>https://longbiosci.com/news/LIPUS-Gut-Microbiota-Sarcopenia-Aging-2026.html</guid><pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
-<title>视网膜生物学年龄可预测骨质疏松风险 — LongBiosci</title><link>https://longbiosci.com/news/RetiAGE-Retinal-Biological-Age-Predicts-Osteoporosis-2026.html</link><description>新加坡1,965名老年人和UK Biobank 43,938名参与者的研究证实：AI衍生的视网膜年龄（RetiAGE）与骨密度降低和骨折风险增加显著相关。视网膜成像或可成为骨质疏松筛查的简便工具。</description><guid>https://longbiosci.com/news/RetiAGE-Retinal-Biological-Age-Predicts-Osteoporosis-2026.html</guid><pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
-<title>SIRT6过表达逆转肝脏染色质衰老——Nature Communications 2026研究</title><link>https://longbiosci.com/news/SIRT6-Chromatin-Aging-Reversal-2026.html</link><description>SIRT6过表达可逆转小鼠肝脏染色质衰老，抑制炎症并恢复代谢基因调控至年轻状态。</description><guid>https://longbiosci.com/news/SIRT6-Chromatin-Aging-Reversal-2026.html</guid><pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
-<title>Nature Aging：细胞外基质老化——衰老细胞积累的</title><link>https://longbiosci.com/news/ECM-Aging-Senescence-Circuit-Nature-Aging-2026.html</link><description>ECM老化驱动衰老细胞积累，衰老细胞反过来加剧ECM紊乱。Nature Aging新评述提出自强化回路概念，为抗衰老干预提供新靶点。</description><guid>https://longbiosci.com/news/ECM-Aging-Senescence-Circuit-Nature-Aging-2026.html</guid><pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
-<title>肠道泌腺体：驱动肠道屏障老化的重要媒介——多组学研究揭示新机制</title><link>https://longbiosci.com/news/Gut-Exosome-Aging-Microbiome-2026.html</link><description>老年小鼠粪便泌腺体携带促衰老分子，可损害肠道屏障完整性并加速代谢衰退。</description><guid>https://longbiosci.com/news/Gut-Exosome-Aging-Microbiome-2026.html</guid><pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
-<title>Cyclarity UDP-003：7-酮胆固醇靶向清除的首个人体临床数据</title><link>https://longbiosci.com/news/Cyclarity-UDP003-7KC-Phase1-2026.html</link><description>Phase 1数据证明7KC可安全靶向清除，心血管疾病治疗从管理损伤迈向逆转斑块。</description><guid>https://longbiosci.com/news/Cyclarity-UDP003-7KC-Phase1-2026.html</guid><pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+    <item>
+      <title><![CDATA[Blm10/PA200蛋白酶体激活剂：绕过蛋白酶体抑制的新策略——Aging Cell研究]]></title>
+      <link>https://longbiosci.com/news/Blm10-PA200-20S-Proteasome-Alpha-Synuclein-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Blm10-PA200-20S-Proteasome-Alpha-Synuclein-2026.html</guid>
+      <description><![CDATA[2026年6月发表于Aging Cell的研究发现，Blm10/PA200激活的20S蛋白酶体可有效降解α-突触核蛋白单体和寡聚体，并绕过传统蛋白酶体的抑制，为帕金森病及衰老相关蛋白病开辟新治疗方向。]]></description>
+      <pubDate>Fri, 29 May 2026 12:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[APOE2基因变体通过DNA修复抵抗神经元衰老——Aging Cell研究]]></title>
+      <link>https://longbiosci.com/news/APOE2-DNA-Repair-Neuronal-Aging-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/APOE2-DNA-Repair-Neuronal-Aging-2026.html</guid>
+      <description><![CDATA[2026年5月发表在Aging Cell的研究发现，APOE2基因变体通过激活DNA修复信号通路，显著减少神经元衰老。这为理解APOE2的长寿机制提供了直接神经生物学证据。]]></description>
+      <pubDate>Fri, 29 May 2026 12:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[跨物种转录组衰老标志：Gladyshev团队 Nature 封面级研究]]></title>
+      <link>https://longbiosci.com/news/Universal-Transcriptomic-Hallmarks-Mammalian-Aging-Mortality-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Universal-Transcriptomic-Hallmarks-Mammalian-Aging-Mortality-2026.html</guid>
+      <description><![CDATA[哈佛团队整合四大哺乳动物（鼠、猴、人）11000+份转录组，构建跨物种衰老与死亡时钟，揭示CDKN1A、LGALS3等通用衰老标志物，可预测寿命干预效果、死亡时间和慢性病风险。]]></description>
+      <pubDate>Thu, 28 May 2026 12:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[衰老CD8+ T细胞驱动认知衰退：Immunity揭示免疫衰老与脑健康新机制]]></title>
+      <link>https://longbiosci.com/news/CD8-T-cells-GZMK-Cognitive-Decline-Immunity-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/CD8-T-cells-GZMK-Cognitive-Decline-Immunity-2026.html</guid>
+      <description><![CDATA[Immunity 2026发表重磅研究：衰老循环CD8+ T细胞通过分泌颗粒酶K（GZMK）驱动海马依赖性认知衰退；抑制GZMK可恢复老年小鼠认知功能，为治疗年龄相关认知障碍提供全新靶点。]]></description>
+      <pubDate>Thu, 28 May 2026 12:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[逆转心血管疾病：Repair Biotechnologies 公布 REP-0004 mRNA 药物最新进展]]></title>
+      <link>https://longbiosci.com/news/Repair-Biotechnologies-REP0004-Atherosclerosis-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Repair-Biotechnologies-REP0004-Atherosclerosis-2026.html</guid>
+      <description><![CDATA[2026年5月，Repair Biotechnologies 公布其领先候选药 REP-0004 的最新进展。这是一种基于mRNA脂质纳米颗粒的药物，可直接逆转动脉粥样硬化斑块，有望解决人类最大死因——心血管疾病。]]></description>
+      <pubDate>Wed, 27 May 2026 12:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[SIRT6过表达逆转肝脏细胞核DNA年龄相关结构变化 — LongBiosci]]></title>
+      <link>https://longbiosci.com/news/SIRT6-Overexpression-Chromatin-Reversal-Liver-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/SIRT6-Overexpression-Chromatin-Reversal-Liver-2026.html</guid>
+      <description><![CDATA[SIRT6（长寿蛋白6）过表达可逆转老年小鼠肝脏细胞中染色质结构的年龄相关变化，恢复炎症下调和代谢功能改善，首次证明 AAV 介导的 SIRT6 可让染色质可及性]]></description>
+      <pubDate>Tue, 26 May 2026 12:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[衰老的Hallmarks框架：一场科学范式的考古学分析]]></title>
+      <link>https://longbiosci.com/news/Hallmarks-Aging-Paradigms-Scientific-Progress-ARR-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Hallmarks-Aging-Paradigms-Scientific-Progress-ARR-2026.html</guid>
+      <description><![CDATA[Ageing Research Reviews发表重磅论文，从哲学和社会学角度系统分析]]></description>
+      <pubDate>Tue, 26 May 2026 12:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[低强度脉冲超声：腹部超声或可逆转肌肉衰减 — LongBiosci]]></title>
+      <link>https://longbiosci.com/news/LIPUS-Gut-Microbiota-Sarcopenia-Aging-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/LIPUS-Gut-Microbiota-Sarcopenia-Aging-2026.html</guid>
+      <description><![CDATA[低强度脉冲超声（LIPUS）作用于腹部8周，可改善老年小鼠肌肉力量和肌肉质量，其机制与肠道菌群调节相关。该研究发表于Journal of Cachexia, Sarcopenia and Muscle。]]></description>
+      <pubDate>Mon, 25 May 2026 12:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[视网膜生物学年龄可预测骨质疏松风险 — LongBiosci]]></title>
+      <link>https://longbiosci.com/news/RetiAGE-Retinal-Biological-Age-Predicts-Osteoporosis-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/RetiAGE-Retinal-Biological-Age-Predicts-Osteoporosis-2026.html</guid>
+      <description><![CDATA[新加坡1,965名老年人和UK Biobank 43,938名参与者的研究证实：AI衍生的视网膜年龄（RetiAGE）与骨密度降低和骨折风险增加显著相关。视网膜成像或可成为骨质疏松筛查的简便工具。]]></description>
+      <pubDate>Mon, 25 May 2026 12:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[裸鼢鼠皮肤细胞外基质的抗衰老秘密]]></title>
+      <link>https://longbiosci.com/news/Naked-Mole-Rat-Skin-ECM-Anti-Aging-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Naked-Mole-Rat-Skin-ECM-Anti-Aging-2026.html</guid>
+      <description><![CDATA[裸鼢鼠寿命长达40年，几乎不出现与年龄相关的组织衰退。最新研究利用拉曼光谱和傅里叶变换红外光谱分析其皮肤细胞外基质分子结构，为抗衰老机制研究提供新线索。]]></description>
+      <pubDate>Thu, 07 May 2026 12:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[代谢年龄差值：识别痴呆高风险人群的新型工具]]></title>
+      <link>https://longbiosci.com/news/Metabolomic-Aging-Clock-Dementia-Risk-UK-Biobank-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Metabolomic-Aging-Clock-Dementia-Risk-UK-Biobank-2026.html</guid>
+      <description><![CDATA[UK Biobank 22万人研究：代谢年龄每比实际年龄大，痴呆风险显著上升；携带APOE ε4且代谢年龄超前10年者，痴呆风险激增10.3倍，提示代谢衰老与基因风险独立叠加。]]></description>
+      <pubDate>Wed, 20 May 2026 12:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[小分子IGF1R抑制剂延长小鼠健康寿命]]></title>
+      <link>https://longbiosci.com/news/IGF1R-Inhibitors-Healthspan-Mouse-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/IGF1R-Inhibitors-Healthspan-Mouse-2026.html</guid>
+      <description><![CDATA[两项小分子IGF1R抑制剂（PPP和NVP-ADW742）在C57BL/6小鼠中显示出改善健康寿命的潜力，可减少记忆衰退、降低血压、改善糖耐量，但均存在安全性问题。]]></description>
+      <pubDate>Thu, 07 May 2026 12:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[tRNA片段：延寿密码被破解 — DIS3延缓衰老新机制]]></title>
+      <link>https://longbiosci.com/news/DIS3-tRNA-Halves-Aging-NatCommun-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/DIS3-tRNA-Halves-Aging-NatCommun-2026.html</guid>
+      <description><![CDATA[韩国KAIST团队在Nature Communications发表研究：发现核糖核酸酶DIS3通过生成tRNA片段（tRH）延缓线虫和人类细胞衰老，揭示了tRNA碎片在长寿干预中的古老而保守的分子机制。]]></description>
+      <pubDate>Sun, 24 May 2026 12:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[行业资讯]]></title>
+      <link>https://longbiosci.com/news/index.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/index.html</guid>
+      <description><![CDATA[LongBiosci 抗衰老行业资讯中心：汇总Senolytic药物、临床试验、融资动态、技术突破等最新长寿科技资讯。]]></description>
+      <pubDate>Sun, 24 May 2026 12:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[过氧化物酶体功能障碍：代谢灵活性丧失与寿命缩短的始动因子]]></title>
+      <link>https://longbiosci.com/news/Peroxisome-Dysfunction-Metabolic-Inflexibility-Longevity-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Peroxisome-Dysfunction-Metabolic-Inflexibility-Longevity-2026.html</guid>
+      <description><![CDATA[Nature Aging 发表重磅研究：Sharma 等人揭示过氧化物酶体蛋白转运功能随衰老选择性衰退，通过启动脂滴堆积→线粒体功能障碍级联反应，最终导致代谢僵硬与寿命缩短；恢复过氧化物酶体活性可重建代谢韧性、延长寿命。]]></description>
+      <pubDate>Sun, 24 May 2026 12:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[肠道泌腺体：驱动肠道屏障老化的重要媒介——多组学研究揭示新机制]]></title>
+      <link>https://longbiosci.com/news/Gut-Exosome-Aging-Microbiome-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Gut-Exosome-Aging-Microbiome-2026.html</guid>
+      <description><![CDATA[2026年5月发表在Aging Cell的研究发现，老年小鼠粪便泌腺体（LFEs）携带促衰老的蛋白质和microRNA，可损害肠道屏障完整性并加速代谢功能衰退，为肠道菌群-宿主通讯机制提供新证据。]]></description>
+      <pubDate>Fri, 22 May 2026 12:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Cyclarity UDP-003：7-酮胆固醇靶向清除的首个人体临床数据]]></title>
+      <link>https://longbiosci.com/news/Cyclarity-UDP003-7KC-Phase1-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Cyclarity-UDP003-7KC-Phase1-2026.html</guid>
+      <description><![CDATA[Cyclarity Therapeutics公布UDP-003 Phase 1安全性数据，证明7-酮胆固醇（7KC）可被安全地从人体内清除并排出，标志着心血管治疗从]]></description>
+      <pubDate>Fri, 22 May 2026 12:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[小鼠连续克隆58代：克隆不缩短寿命，性繁殖天然纠错]]></title>
+      <link>https://longbiosci.com/news/Serial-Cloning-58-Generations-Lifespan-Nature-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Serial-Cloning-58-Generations-Lifespan-Nature-2026.html</guid>
+      <description><![CDATA[日本研究团队发表 Nature Communications，报告长达20年、跨越58代的连续克隆实验。研究发现：即便克隆超过25代以上存活率逐渐下降，存活克隆小鼠的寿命与正常小鼠无异；且经性繁殖后，积累的表观遗传异常可被自然纠正。这项研究为理解衰老机制与遗传稳定性提供了全新视角。]]></description>
+      <pubDate>Sat, 23 May 2026 12:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[印第安纳大学发现IDOL酶：阿尔茨海默病全新治疗靶点]]></title>
+      <link>https://longbiosci.com/news/IDOL-Enzyme-Alzheimers-Target-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/IDOL-Enzyme-Alzheimers-Target-2026.html</guid>
+      <description><![CDATA[印第安纳大学医学院研究团队在《Alzheimer's & Dementia》发表研究：大脑中名为IDOL的酶是阿尔茨海默病的新型治疗靶点，敲降神经元IDOL可显著减少淀粉样斑块，同时增强神经保护效应，为疾病修饰疗法开辟第三条道路。]]></description>
+      <pubDate>Fri, 22 May 2026 12:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[KHL Foundation：84岁创始人Launch基因疗法]]></title>
+      <link>https://longbiosci.com/news/KHL-Foundation-Rejuvenation-Cocktail-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/KHL-Foundation-Rejuvenation-Cocktail-2026.html</guid>
+      <description><![CDATA[抗衰老运动元老 Kenneth Scott（84岁）与 Helga Sands（88岁）联合创立 KHL Foundation，推出 klotho + follistatin + sirtuin 1 基因疗法]]></description>
+      <pubDate>Fri, 22 May 2026 12:00:00 +0800</pubDate>
+    </item>
   </channel>
 </rss>

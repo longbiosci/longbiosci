@@ -1,6 +1,91 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://longbiosci.com/404.html</loc>
+    <lastmod>2026-03-24</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/about.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/about/index.html</loc>
+    <lastmod>2026-05-19</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/article.html</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/companies/index.html</loc>
+    <lastmod>2026-05-19</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/contact/index.html</loc>
+    <lastmod>2026-05-19</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/cover-generator.html</loc>
+    <lastmod>2026-04-07</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/daily/index.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/deep-dive/index.html</loc>
+    <lastmod>2026-03-10</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/en/index.html</loc>
+    <lastmod>2026-05-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/events/index.html</loc>
+    <lastmod>2026-04-15</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/glossary.html</loc>
+    <lastmod>2026-04-05</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/index.html</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/investors/index.html</loc>
+    <lastmod>2026-05-19</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/melatonin.html</loc>
+    <lastmod>2026-04-05</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/metformin.html</loc>
+    <lastmod>2026-04-05</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/mobile.html</loc>
+    <lastmod>2026-04-06</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://longbiosci.com/news/7-Ketocholesterol-Derivatives-Pathophysiology.html</loc>
     <lastmod>2026-03-28</lastmod>
     <priority>0.8</priority>
@@ -20,7 +105,7 @@
     <lastmod>2026-04-10</lastmod>
     <priority>0.8</priority>
   </url>
-  <url>
+  <url><loc>https://longbiosci.com/news/APOE2-DNA-Repair-Neuronal-Aging-2026.html</loc><lastmod>2026-05-29</lastmod><priority>0.8</priority></url><url>
     <loc>https://longbiosci.com/news/ARDD-2026-to-relocate-to-Bosto.html</loc>
     <lastmod>2026-04-05</lastmod>
     <priority>0.8</priority>
@@ -80,7 +165,7 @@
     <lastmod>2026-04-28</lastmod>
     <priority>0.8</priority>
   </url>
-  <url>
+  <url><loc>https://longbiosci.com/news/Blm10-PA200-20S-Proteasome-Alpha-Synuclein-2026.html</loc><lastmod>2026-05-29</lastmod><priority>0.8</priority></url><url>
     <loc>https://longbiosci.com/news/Blood-Mirror-Modulator-Aging-2026.html</loc>
     <lastmod>2026-05-05</lastmod>
     <priority>0.8</priority>
@@ -801,6 +886,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://longbiosci.com/news/index.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://longbiosci.com/news/lncRNA-HOTAIRM1-Senescence-Screen.html</loc>
     <lastmod>2026-04-03</lastmod>
     <priority>0.8</priority>
@@ -826,34 +916,9 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://longbiosci.com/index.html</loc>
-    <lastmod>2026-04-17</lastmod>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/about/index.html</loc>
-    <lastmod>2026-05-19</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/research/index.html</loc>
-    <lastmod>2026-05-19</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/contact/index.html</loc>
-    <lastmod>2026-05-19</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/news/index.html</loc>
-    <lastmod>2026-05-28</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/daily/index.html</loc>
-    <lastmod>2026-03-28</lastmod>
-    <priority>0.6</priority>
+    <loc>https://longbiosci.com/nmn.html</loc>
+    <lastmod>2026-04-05</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://longbiosci.com/papers/index.html</loc>
@@ -861,84 +926,14 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://longbiosci.com/companies/index.html</loc>
-    <lastmod>2026-05-19</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/investors/index.html</loc>
-    <lastmod>2026-05-19</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/events/index.html</loc>
-    <lastmod>2026-04-15</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/deep-dive/index.html</loc>
-    <lastmod>2026-03-10</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/en/index.html</loc>
-    <lastmod>2026-05-19</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/zh/index.html</loc>
-    <lastmod>2026-05-19</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/404.html</loc>
-    <lastmod>2026-03-24</lastmod>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/about.html</loc>
-    <lastmod>2026-03-29</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/article.html</loc>
-    <lastmod>2026-04-17</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/cover-generator.html</loc>
-    <lastmod>2026-04-07</lastmod>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/glossary.html</loc>
-    <lastmod>2026-04-05</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/melatonin.html</loc>
-    <lastmod>2026-04-05</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/metformin.html</loc>
-    <lastmod>2026-04-05</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/mobile.html</loc>
-    <lastmod>2026-04-06</lastmod>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/nmn.html</loc>
-    <lastmod>2026-04-05</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://longbiosci.com/rapamycin.html</loc>
     <lastmod>2026-04-05</lastmod>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/research/index.html</loc>
+    <lastmod>2026-05-19</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://longbiosci.com/senolytic.html</loc>
@@ -965,4 +960,9 @@
     <lastmod>2026-04-13</lastmod>
     <priority>0.7</priority>
   </url>
-</urlset>
+<url>
+    <loc>https://longbiosci.com/zh/index.html</loc>
+    <lastmod>2026-05-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+  </urlset>
