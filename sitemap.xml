@@ -887,7 +887,7 @@
   </url>
   <url><loc>https://longbiosci.com/news/Astrocyte-Two-Pronged-Brain-Aging-Intervention-2026.html</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url><url><loc>https://longbiosci.com/news/Senolytic-Tooth-Aging-NFATC1-Dental-Pulp-2026.html</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url><url>
     <loc>https://longbiosci.com/news/index.html</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -965,4 +965,14 @@
     <lastmod>2026-05-19</lastmod>
     <priority>0.8</priority>
   </url>
-  </urlset>
+  <url>
+    <loc>https://longbiosci.com/news/Peripheral-Epigenetic-Aging-Centenarians-2026.html</loc>
+    <lastmod>2026-05-31</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Psilocybin-Anti-Aging-Longevity-2026.html</loc>
+    <lastmod>2026-05-31</lastmod>
+    <priority>0.8</priority>
+  </url>
+</urlset>
