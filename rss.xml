@@ -6,7 +6,7 @@
     <atom:link href="https://longbiosci.com/rss.xml" rel="self" type="application/rss+xml"/>
     <description>LongBiosci 每日更新生物医药、长寿科技、抗衰老领域最新研究进展</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 04 Jun 2026 00:00:00 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 00:00:00 -0000</lastBuildDate>
     <image>
       <url>https://longbiosci.com/logo.jpg</url>
       <title>LongBiosci</title>
@@ -19,6 +19,13 @@
       <description>FAM162A是定位于线粒体内膜的一种蛋白，新研究揭示它通过与OPA1互作调节线粒体融合与生物能量代谢，过表达FAM162A可延长果蝇寿命、提升抗热应激能力。</description>
       <pubDate>Thu, 04 Jun 2026 00:00:00 -0000</pubDate>
     </item>
+<item>
+    <title>肠道菌群调控谷氨酸恢复老龄卵母细胞质量：Nature Aging 新研究</title>
+    <link>https://longbiosci.com/news/Gut-Microbiota-Glutamic-Acid-Oocyte-Rejuvenation-2026.html</link>
+    <guid isPermaLink="true">https://longbiosci.com/news/Gut-Microbiota-Glutamic-Acid-Oocyte-Rejuvenation-2026.html</guid>
+    <description>年轻FMT恢复老龄小鼠卵母细胞质量，Bacteroides caecimuris调控的谷氨酸是关键介导因子。</description>
+    <pubDate>Fri, 05 Jun 2026 00:00:00 -0000</pubDate>
+</item>
     <item>
       <title>鼻喷剂逆转大脑衰老：德州农工大学细胞外囊泡研究</title>
       <link>https://longbiosci.com/news/Nasal-EV-Brain-Aging-Reversal-TAMU-2026.html</link>
@@ -145,12 +152,6 @@
       <description>SIRT6过表达可逆转老年小鼠肝脏染色质结构变化，首次证明 AAV 介导的 SIRT6 可让染色质可及性\</description>
       <pubDate>Tue, 26 May 2026 00:00:00 -0000</pubDate>
     </item>
-    <item>
-      <title>衰老的Hallmarks框架：一场科学范式的考古学分析</title>
-      <link>https://longbiosci.com/news/Hallmarks-Aging-Paradigms-Scientific-Progress-ARR-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/Hallmarks-Aging-Paradigms-Scientific-Progress-ARR-2026.html</guid>
-      <description>从哲学和社会学角度分析Hallmarks of Aging框架如何成为当代衰老研究的主导范式。</description>
-      <pubDate>Tue, 26 May 2026 00:00:00 -0000</pubDate>
-    </item>
+    
   </channel>
 </rss>
