@@ -3,154 +3,154 @@
     <channel>
         <title>LongBiosci - 长寿科技新闻</title>
         <link>https://longbiosci.com</link>
-        <description>LongBiosci 每日推送生物医药、长寿科技、衰老研究领域最新进展</description>
+        <description>LongBiosci 每日更新生物医药、长寿科技、抗衰老技术领域最新研究进展</description>
         <language>zh-CN</language>
-        <lastBuildDate>Fri, 05 Jun 2026 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://longbiosci.com/rss.xml" rel="self" type="application/rss+xml"/>
         <image>
             <url>https://longbiosci.com/logo.jpg</url>
-            <title>LongBiosci</title>
+            <title>LongBiosci - 长寿科技新闻</title>
             <link>https://longbiosci.com</link>
         </image>
-    <item>
-        <title>肠道菌群调控谷氨酸恢复老龄卵母细胞质量：Nature Aging 新研究</title>
-        <link>https://longbiosci.com/news/Gut-Microbiota-Glutamic-Acid-Oocyte-Rejuvenation-2026.html</link>
-        <guid isPermaLink="true">https://longbiosci.com/news/Gut-Microbiota-Glutamic-Acid-Oocyte-Rejuvenation-2026.html</guid>
-        <description>年轻FMT恢复老龄小鼠卵母细胞质量，Bacteroides caecimuris调控的谷氨酸是关键介导因子。</description>
-        <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-        <title>FAM162A：调控线粒体结构与功能的新钥匙，或可延长寿命</title>
-        <link>https://longbiosci.com/news/FAM162A-Mitochondrial-Longevity-2026.html</link>
-        <guid isPermaLink="true">https://longbiosci.com/news/FAM162A-Mitochondrial-Longevity-2026.html</guid>
-        <description>FAM162A是定位于线粒体内膜的一种蛋白，新研究揭示它通过与OPA1互作调节线粒体融合与生物能量代谢，过表达FAM162A可延长果蝇寿命、提升抗热应激能力。</description>
-        <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-        <title>鼻喷剂逆转大脑衰老：德州农工大学细胞外囊泡研究</title>
-        <link>https://longbiosci.com/news/Nasal-EV-Brain-Aging-Reversal-TAMU-2026.html</link>
-        <guid isPermaLink="true">https://longbiosci.com/news/Nasal-EV-Brain-Aging-Reversal-TAMU-2026.html</guid>
-        <description>仅两剂鼻喷型细胞外囊泡，即实现大脑神经炎症消退、线粒体功能恢复、记忆显著改善——效应持续数月。</description>
-        <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-        <title>衰老T细胞分泌Granzyme K驱动认知衰退——可被逆转</title>
-        <link>https://longbiosci.com/news/Granzyme-K-Aged-CD8-T-cells-Cognitive-Decline-2026.html</link>
-        <guid isPermaLink="true">https://longbiosci.com/news/Granzyme-K-Aged-CD8-T-cells-Cognitive-Decline-2026.html</guid>
-        <description>老年CD8+ T细胞分泌Granzyme K损害海马体功能，抑制GZMK可逆转认知损伤。</description>
-        <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-        <title>SynCav1基因疗法：静脉注射即可穿越血脑屏障，靶向TDP-43蛋白病</title>
-        <link>https://longbiosci.com/news/SynCav1-Gene-Therapy-TDP-43-2026.html</link>
-        <guid isPermaLink="true">https://longbiosci.com/news/SynCav1-Gene-Therapy-TDP-43-2026.html</guid>
-        <description>AAV-PHP.eB载体递送SynCav1，系统性注射穿越血脑屏障，在TDP-43蛋白病小鼠模型中逆转神经退行性改变。</description>
-        <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-        <title>运动调控HMGB1：心血管衰老的双刃剑</title>
-        <link>https://longbiosci.com/news/HMGB1-Exercise-Cardiovascular-Aging-Current-Research-2026.html</link>
-        <guid isPermaLink="true">https://longbiosci.com/news/HMGB1-Exercise-Cardiovascular-Aging-Current-Research-2026.html</guid>
-        <description>运动调控HMGB1水平，在减少慢性炎症性HMGB1升高与保留组织修复功能之间找到平衡点。</description>
-        <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-        <title>老年物理学：用物理学定律描述衰老——Aging Cell研究</title>
-        <link>https://longbiosci.com/news/Gerophysics-Physics-Based-Aging-Models-2026.html</link>
-        <guid isPermaLink="true">https://longbiosci.com/news/Gerophysics-Physics-Based-Aging-Models-2026.html</guid>
-        <description>物理学框架揭示衰老规律：损伤饱和清除模型可统一解释三种经典衰老模式，并区分预防性与清除性干预的不同效果。</description>
-        <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-        <title>Sirtuin 6过表达逆转肝脏细胞染色质衰老——Nature Communications研究</title>
-        <link>https://longbiosci.com/news/SIRT6-AAV-Chromatin-Rejuvenation-Liver-2026.html</link>
-        <guid isPermaLink="true">https://longbiosci.com/news/SIRT6-AAV-Chromatin-Rejuvenation-Liver-2026.html</guid>
-        <description>SIRT6过表达可逆转小鼠肝脏年龄相关的染色质结构变化，恢复年轻态基因表达模式，为表观遗传重编程抗衰老提供新证据。</description>
-        <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-        <title>裸盖菇素延长寿命50%：临床前研究揭示迷幻蘑菇成分的抗衰老潜力</title>
-        <link>https://longbiosci.com/news/Psilocybin-Anti-Aging-Longevity-2026.html</link>
-        <guid isPermaLink="true">https://longbiosci.com/news/Psilocybin-Anti-Aging-Longevity-2026.html</guid>
-        <description>迷幻蘑菇成分裸盖菇素可将人类细胞寿命延长超过50%，老年小鼠生存期延长30%。</description>
-        <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-        <title>外周表观遗传衰老预测认知健康百岁老人生存期</title>
-        <link>https://longbiosci.com/news/Peripheral-Epigenetic-Aging-Centenarians-2026.html</link>
-        <guid isPermaLink="true">https://longbiosci.com/news/Peripheral-Epigenetic-Aging-Centenarians-2026.html</guid>
-        <description>外周血液表观遗传衰老速度可独立预测认知健康百岁老人生存期，与大脑衰老标志物无关。</description>
-        <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-        <title>Blm10/PA200蛋白酶体激活剂：绕过蛋白酶体抑制的新策略——Aging Cell研究</title>
-        <link>https://longbiosci.com/news/Blm10-PA200-20S-Proteasome-Alpha-Synuclein-2026.html</link>
-        <guid isPermaLink="true">https://longbiosci.com/news/Blm10-PA200-20S-Proteasome-Alpha-Synuclein-2026.html</guid>
-        <description>Blm10/PA200激活的20S蛋白酶体可降解α-突触核蛋白，并绕过传统蛋白酶体抑制，为帕金森病及蛋白稳态干预开辟新方向。</description>
-        <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-        <title>PM20D1分泌产物：全新小胶质细胞策略对抗阿尔茨海默病</title>
-        <link>https://longbiosci.com/news/PM20D1-N-oleoyl-Leucine-Microglia-Alzheimer-2026.html</link>
-        <guid isPermaLink="true">https://longbiosci.com/news/PM20D1-N-oleoyl-Leucine-Microglia-Alzheimer-2026.html</guid>
-        <description>PM20D1代谢产物N-油酰基亮氨酸（OLE）诱导小胶质细胞清除β-淀粉样蛋白斑块，减少毒性，改善神经保护与认知功能。</description>
-        <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-        <title>APOE2基因变体通过DNA修复抵抗神经元衰老——Aging Cell研究</title>
-        <link>https://longbiosci.com/news/APOE2-DNA-Repair-Neuronal-Aging-2026.html</link>
-        <guid isPermaLink="true">https://longbiosci.com/news/APOE2-DNA-Repair-Neuronal-Aging-2026.html</guid>
-        <description>2026年5月发表在Aging Cell的研究发现，APOE2通过激活DNA修复通路减少神经元衰老，为长寿机制提供神经生物学证据。</description>
-        <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-        <title>衰老细胞清除新靶点：牙髓老化与Senolytic疗法修复</title>
-        <link>https://longbiosci.com/news/Senolytic-Tooth-Aging-NFATC1-Dental-Pulp-2026.html</link>
-        <guid isPermaLink="true">https://longbiosci.com/news/Senolytic-Tooth-Aging-NFATC1-Dental-Pulp-2026.html</guid>
-        <description>牙髓间充质干细胞中NFATC1丢失驱动牙齿衰老，senolytic药物可清除衰老牙髓细胞并恢复牙齿自我修复能力。</description>
-        <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-        <title>衰老CD8+ T细胞驱动认知衰退：Immunity揭示免疫衰老与脑健康新机制</title>
-        <link>https://longbiosci.com/news/CD8-T-cells-GZMK-Cognitive-Decline-Immunity-2026.html</link>
-        <guid isPermaLink="true">https://longbiosci.com/news/CD8-T-cells-GZMK-Cognitive-Decline-Immunity-2026.html</guid>
-        <description>衰老循环CD8+ T细胞通过分泌GZMK驱动认知衰退，抑制GZMK可恢复老年小鼠认知功能。</description>
-        <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-        <title>心肌细胞再生突破：SAV1基因疗法开启首个人体临床试验</title>
-        <link>https://longbiosci.com/news/SAV1-Gene-Therapy-Heart-Regeneration-Clinical-Trial-Nature-2026.html</link>
-        <guid isPermaLink="true">https://longbiosci.com/news/SAV1-Gene-Therapy-Heart-Regeneration-Clinical-Trial-Nature-2026.html</guid>
-        <description>SAV1基因疗法通过解除心肌细胞分裂刹车，使衰竭心脏重新长出健康心肌，猪模型射血分数提升14%，已进入人体临床试验。</description>
-        <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-        <title>跨物种转录组衰老标志：Gladyshev团队 Nature 封面级研究</title>
-        <link>https://longbiosci.com/news/Universal-Transcriptomic-Hallmarks-Mammalian-Aging-Mortality-2026.html</link>
-        <guid isPermaLink="true">https://longbiosci.com/news/Universal-Transcriptomic-Hallmarks-Mammalian-Aging-Mortality-2026.html</guid>
-        <description>哈佛团队整合四大哺乳动物11000+份转录组，构建跨物种衰老与死亡时钟，揭示CDKN1A、LGALS3等通用衰老标志物。</description>
-        <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-        <title>逆转心血管疾病：Repair Biotechnologies 公布 REP-0004 mRNA 药物最新进展</title>
-        <link>https://longbiosci.com/news/Repair-Biotechnologies-REP0004-Atherosclerosis-2026.html</link>
-        <guid isPermaLink="true">https://longbiosci.com/news/Repair-Biotechnologies-REP0004-Atherosclerosis-2026.html</guid>
-        <description>基于mRNA脂质纳米颗粒的药物可直接逆转动脉粥样硬化斑块，有望解决人类最大死因。</description>
-        <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-        <title>衰老的Hallmarks框架：一场科学范式的考古学分析</title>
-        <link>https://longbiosci.com/news/Hallmarks-Aging-Paradigms-Scientific-Progress-ARR-2026.html</link>
-        <guid isPermaLink="true">https://longbiosci.com/news/Hallmarks-Aging-Paradigms-Scientific-Progress-ARR-2026.html</guid>
-        <description>从哲学和社会学角度分析Hallmarks of Aging框架如何成为当代衰老研究的主导范式。</description>
-        <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-        <title>SIRT6过表达逆转肝脏细胞核DNA年龄相关结构变化 — LongBiosci</title>
-        <link>https://longbiosci.com/news/SIRT6-Overexpression-Chromatin-Reversal-Liver-2026.html</link>
-        <guid isPermaLink="true">https://longbiosci.com/news/SIRT6-Overexpression-Chromatin-Reversal-Liver-2026.html</guid>
-        <description>SIRT6过表达可逆转老年小鼠肝脏染色质结构变化，首次证明 AAV 介导的 SIRT6 可让染色质可及性\</description>
-        <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
-    </item>
+        <item>
+            <title>衰老基因网络揭秘：UK Biobank 57种疾病揭示双重架构</title>
+            <link>https://longbiosci.com/news/Aging-Gene-Network-Multimorbidity-UK-Biobank-2026.html</link>
+            <guid isPermaLink="true">https://longbiosci.com/news/Aging-Gene-Network-Multimorbidity-UK-Biobank-2026.html</guid>
+            <description>UK Biobank 57种衰老相关疾病（ARD）网络分析揭示：衰老基因作为跨系统整合者维持调控平衡，而疾病簇特异性基因则作为局部驱动因素共同塑造人类多病共存图谱。</description>
+            <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+            <title>蝙蝠长寿启示录：CLSV-6免疫型框架或可重塑人类健康衰老策略</title>
+            <link>https://longbiosci.com/news/Bat-Longevity-CLSV6-Immunotype-Healthy-Aging-2026.html</link>
+            <guid isPermaLink="true">https://longbiosci.com/news/Bat-Longevity-CLSV6-Immunotype-Healthy-Aging-2026.html</guid>
+            <description>国际分子科学杂志发表综述：蝙蝠超长寿命启发CLSV-6免疫型框架，整合损伤耐受、自噬-线粒体自噬、蛋白稳态等六大保守机制，为人类健康衰老提供营养干预路线图。</description>
+            <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+            <title>DREAM复合体：连接体细胞突变与寿命的</title>
+            <link>https://longbiosci.com/news/DREAM-Complex-Somatic-Mutation-Lifespan-NatureAging-2026.html</link>
+            <guid isPermaLink="true">https://longbiosci.com/news/DREAM-Complex-Somatic-Mutation-Lifespan-NatureAging-2026.html</guid>
+            <description>Nature Aging发表重磅研究：DREAM复合体作为DNA修复的转录抑制因子，通过调控体细胞突变负担影响寿命和年龄相关疾病。敲除DREAM的小鼠表现出更低的突变负荷和延长的寿命，为理解衰老机制提供了全新视角。</description>
+            <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+            <title>肠道菌群调控谷氨酸恢复老龄卵母细胞质量：Nature Aging 新研究</title>
+            <link>https://longbiosci.com/news/Gut-Microbiota-Glutamic-Acid-Oocyte-Rejuvenation-2026.html</link>
+            <guid isPermaLink="true">https://longbiosci.com/news/Gut-Microbiota-Glutamic-Acid-Oocyte-Rejuvenation-2026.html</guid>
+            <description>Nature Aging 发表最新研究，发现年轻供体粪便菌群移植（FMT）可有效恢复老龄小鼠卵母细胞质量，关键介导因子为 Bacteroides caecimuris 调控的谷氨酸，补充谷氨酸本身亦可重现此效果，且跨物种保守。</description>
+            <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+            <title>FAM162A：调控线粒体结构与功能的新钥匙，或可延长寿命</title>
+            <link>https://longbiosci.com/news/FAM162A-Mitochondrial-Longevity-2026.html</link>
+            <guid isPermaLink="true">https://longbiosci.com/news/FAM162A-Mitochondrial-Longevity-2026.html</guid>
+            <description>FAM162A是定位于线粒体内膜的一种蛋白，新研究揭示它通过与OPA1互作调节线粒体融合与生物能量代谢，过表达FAM162A可延长果蝇寿命、提升抗热应激能力，为靶向线粒体的抗衰老干预提供新靶点。</description>
+            <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+            <title>鼻喷剂逆转大脑衰老：德州农工大学细胞外囊泡研究</title>
+            <link>https://longbiosci.com/news/Nasal-EV-Brain-Aging-Reversal-TAMU-2026.html</link>
+            <guid isPermaLink="true">https://longbiosci.com/news/Nasal-EV-Brain-Aging-Reversal-TAMU-2026.html</guid>
+            <description>德州农工大学 Ashok Shetty 团队开发鼻喷型细胞外囊泡（EV）疗法，仅两剂即实现大脑神经炎症消退、线粒体功能恢复、记忆与认知功能显著改善，效应持续数月。研究发表在 Journal of Extracellular Vesicles，NIA 资助，已申请美国专利。</description>
+            <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+            <title>衰老T细胞分泌Granzyme K驱动认知衰退——可被逆转</title>
+            <link>https://longbiosci.com/news/Granzyme-K-Aged-CD8-T-cells-Cognitive-Decline-2026.html</link>
+            <guid isPermaLink="true">https://longbiosci.com/news/Granzyme-K-Aged-CD8-T-cells-Cognitive-Decline-2026.html</guid>
+            <description>Immunity 2026发表重要研究：老年个体CD8+ T细胞分泌的Granzyme K（GZMK）通过血液循环损害海马体功能，导致认知能力下降；而抑制GZMK可逆转老年小鼠的认知损伤，为阿尔茨海默及年龄相关认知衰退提供全新干预靶点。</description>
+            <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+            <title>SynCav1基因疗法：静脉注射即可穿越血脑屏障，靶向TDP-43蛋白病</title>
+            <link>https://longbiosci.com/news/SynCav1-Gene-Therapy-TDP-43-2026.html</link>
+            <guid isPermaLink="true">https://longbiosci.com/news/SynCav1-Gene-Therapy-TDP-43-2026.html</guid>
+            <description>加州大学团队发表Alzheimer's &amp; Dementia期刊研究，通过AAV-PHP.eB载体系统性递送SynCav1基因疗法，成功穿越血脑屏障，在TDP-43蛋白病小鼠模型中改善认知衰退、保护突触超微结构，并逆转线粒体过度分裂。</description>
+            <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+            <title>运动调控HMGB1：心血管衰老的双刃剑</title>
+            <link>https://longbiosci.com/news/HMGB1-Exercise-Cardiovascular-Aging-Current-Research-2026.html</link>
+            <guid isPermaLink="true">https://longbiosci.com/news/HMGB1-Exercise-Cardiovascular-Aging-Current-Research-2026.html</guid>
+            <description>Current Research in Physiology 2026发表综述，系统梳理HMGB1（高迁移率族蛋白B1）在心血管疾病中的作用机制，以及运动如何通过调控HMGB1实现心血管保护效应——既减少慢性炎症性HMGB1升高，又保留其组织修复功能。</description>
+            <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+            <title>老年物理学：用物理学定律描述衰老——Aging Cell研究</title>
+            <link>https://longbiosci.com/news/Gerophysics-Physics-Based-Aging-Models-2026.html</link>
+            <guid isPermaLink="true">https://longbiosci.com/news/Gerophysics-Physics-Based-Aging-Models-2026.html</guid>
+            <description>物理学研究视角正在进入衰老领域。2026年5月会议综述揭示，损伤饱和清除模型等物理框架可统一解释死亡率指数上升、生理功能线性下降等多种衰老模式，为抗衰老干预效果预测提供数学工具。</description>
+            <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+            <title>Sirtuin 6过表达逆转肝脏细胞染色质衰老——Nature Communications研究</title>
+            <link>https://longbiosci.com/news/SIRT6-AAV-Chromatin-Rejuvenation-Liver-2026.html</link>
+            <guid isPermaLink="true">https://longbiosci.com/news/SIRT6-AAV-Chromatin-Rejuvenation-Liver-2026.html</guid>
+            <description>2026年5月Nature Communications发表研究，SIRT6过表达可在小鼠肝脏中逆转年龄相关的染色质结构变化，将炎症升高、代谢下降的衰老状态恢复至年轻水平，为表观遗传重编程抗衰老提供了新证据。</description>
+            <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+            <title>裸盖菇素延长寿命50%：临床前研究揭示迷幻蘑菇成分的抗衰老潜力</title>
+            <link>https://longbiosci.com/news/Psilocybin-Anti-Aging-Longevity-2026.html</link>
+            <guid isPermaLink="true">https://longbiosci.com/news/Psilocybin-Anti-Aging-Longevity-2026.html</guid>
+            <description>埃默里大学研究团队在npj Aging发表重磅临床前研究：迷幻蘑菇活性成分裸盖菇素（psilocin）可将人类皮肤和肺细胞寿命延长超过50%，老年小鼠生存期延长30%，并改善毛色、体能等衰老外观指标。机制研究揭示其通过减少氧化应激、保护端粒和增强DNA修复发挥抗衰老作用。</description>
+            <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+            <title>外周表观遗传衰老预测认知健康百岁老人生存期</title>
+            <link>https://longbiosci.com/news/Peripheral-Epigenetic-Aging-Centenarians-2026.html</link>
+            <guid isPermaLink="true">https://longbiosci.com/news/Peripheral-Epigenetic-Aging-Centenarians-2026.html</guid>
+            <description>阿姆斯特丹自由大学医学中心团队发表最新预印本：外周血液表观遗传衰老速度可独立预测认知健康百岁老人的生存期，且这一预测能力与大脑衰老生物标志物（神经退行性蛋白、Aβ沉积）完全独立，提示外周衰老是决定极端长寿的独立因素。</description>
+            <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+            <title>Blm10/PA200蛋白酶体激活剂：绕过蛋白酶体抑制的新策略——Aging Cell研究</title>
+            <link>https://longbiosci.com/news/Blm10-PA200-20S-Proteasome-Alpha-Synuclein-2026.html</link>
+            <guid isPermaLink="true">https://longbiosci.com/news/Blm10-PA200-20S-Proteasome-Alpha-Synuclein-2026.html</guid>
+            <description>2026年6月发表于Aging Cell的研究发现，Blm10/PA200激活的20S蛋白酶体可有效降解α-突触核蛋白单体和寡聚体，并绕过传统蛋白酶体的抑制，为帕金森病及衰老相关蛋白病开辟新治疗方向。</description>
+            <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+            <title>PM20D1分泌产物：全新小胶质细胞策略对抗阿尔茨海默病 - LongBiosci</title>
+            <link>https://longbiosci.com/news/PM20D1-N-oleoyl-Leucine-Microglia-Alzheimer-2026.html</link>
+            <guid isPermaLink="true">https://longbiosci.com/news/PM20D1-N-oleoyl-Leucine-Microglia-Alzheimer-2026.html</guid>
+            <description>Cell Death and Differentiation发表研究：PM20D1酶的代谢产物N-油酰基亮氨酸（OLE）可诱导小胶质细胞更高效清除β-淀粉样蛋白，减少斑块毒性，改善认知，为阿尔茨海默病提供全新小胶质细胞靶向治疗策略。</description>
+            <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+            <title>APOE2基因变体通过DNA修复抵抗神经元衰老——Aging Cell研究 - LongBiosci</title>
+            <link>https://longbiosci.com/news/APOE2-DNA-Repair-Neuronal-Aging-2026.html</link>
+            <guid isPermaLink="true">https://longbiosci.com/news/APOE2-DNA-Repair-Neuronal-Aging-2026.html</guid>
+            <description>2026年5月发表在Aging Cell的研究发现，APOE2基因变体通过激活DNA修复信号通路，显著减少神经元衰老。这为理解APOE2的长寿机制提供了直接神经生物学证据。</description>
+            <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+            <title>衰老细胞清除新靶点：牙髓老化与Senolytic疗法修复 - LongBiosci</title>
+            <link>https://longbiosci.com/news/Senolytic-Tooth-Aging-NFATC1-Dental-Pulp-2026.html</link>
+            <guid isPermaLink="true">https://longbiosci.com/news/Senolytic-Tooth-Aging-NFATC1-Dental-Pulp-2026.html</guid>
+            <description>最新研究（Stem Cell Reports, 2026）揭示牙齿老化的分子机制：牙髓间充质干细胞中NFATC1丢失驱动牙齿衰老，而senolytic药物可通过清除衰老牙髓细胞恢复牙齿的自我修复能力，为保存天然牙提供新策略。</description>
+            <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+            <title>衰老CD8+ T细胞驱动认知衰退：Immunity揭示免疫衰老与脑健康新机制</title>
+            <link>https://longbiosci.com/news/CD8-T-cells-GZMK-Cognitive-Decline-Immunity-2026.html</link>
+            <guid isPermaLink="true">https://longbiosci.com/news/CD8-T-cells-GZMK-Cognitive-Decline-Immunity-2026.html</guid>
+            <description>Immunity 2026发表重磅研究：衰老循环CD8+ T细胞通过分泌颗粒酶K（GZMK）驱动海马依赖性认知衰退；抑制GZMK可恢复老年小鼠认知功能，为治疗年龄相关认知障碍提供全新靶点。</description>
+            <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+            <title>心肌细胞再生突破：SAV1基因疗法开启首个人体临床试验 - LongBiosci</title>
+            <link>https://longbiosci.com/news/SAV1-Gene-Therapy-Heart-Regeneration-Clinical-Trial-Nature-2026.html</link>
+            <guid isPermaLink="true">https://longbiosci.com/news/SAV1-Gene-Therapy-Heart-Regeneration-Clinical-Trial-Nature-2026.html</guid>
+            <description>Nature News报道：德克萨斯心脏研究所James Martin团队开发的SAV1基因疗法，通过抑制细胞分裂</description>
+            <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+            <title>跨物种转录组衰老标志：Gladyshev团队 Nature 封面级研究</title>
+            <link>https://longbiosci.com/news/Universal-Transcriptomic-Hallmarks-Mammalian-Aging-Mortality-2026.html</link>
+            <guid isPermaLink="true">https://longbiosci.com/news/Universal-Transcriptomic-Hallmarks-Mammalian-Aging-Mortality-2026.html</guid>
+            <description>哈佛团队整合四大哺乳动物（鼠、猴、人）11000+份转录组，构建跨物种衰老与死亡时钟，揭示CDKN1A、LGALS3等通用衰老标志物，可预测寿命干预效果、死亡时间和慢性病风险。</description>
+            <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+        </item>
     </channel>
 </rss>
