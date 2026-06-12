@@ -1,151 +1,181 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>LongBiosci - 长寿科技新闻</title>
+    <title>LongBiosci - 长寿科技与抗衰老研究</title>
     <link>https://longbiosci.com</link>
-    <description>最新抗衰老、生物医药、长寿科技研究新闻</description>
+    <description>LongBiosci 追踪全球最新抗衰老研究、基因疗法、细胞重编程、Senolytics、NMN等前沿科学进展。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 09 Jun 2026 16:00:00 GMT</lastBuildDate>
+    <managingEditor>contact@longbiosci.com (LongBiosci)</managingEditor>
+    <webMaster>contact@longbiosci.com (LongBiosci)</webMaster>
+    <lastBuildDate>2026-06-11 16:00:00 GMT</lastBuildDate>
     <atom:link href="https://longbiosci.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://longbiosci.com/logo.jpg</url>
+      <title>LongBiosci</title>
+      <link>https://longbiosci.com</link>
+    </image>
+    <item>
+      <title>磷脂酰胆碱流失：细胞衰老的</title>
+      <link>https://longbiosci.com/news/Phosphatidylcholine-Mitochondrial-Aging-Nature-Communications-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Phosphatidylcholine-Mitochondrial-Aging-Nature-Communications-2026.html</guid>
+      <description><![CDATA[德国FLI研究团队在Nature Communications发表研究，揭示磷脂酰胆碱流失是线粒体衰老的关键驱动因素，补充该物质可在两天内恢复线粒体年轻态。]]></description>
+      <dc:creator>LongBiosci</dc:creator>
+      <pubDate>Thu, 11 Jun 2026 16:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>cGAS-STING通路与神经炎症：从感知机制到治疗靶点 - LongBiosci</title>
+      <link>https://longbiosci.com/news/cGAS-STING-Neuroinflammation-Therapeutic-Target-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/cGAS-STING-Neuroinflammation-Therapeutic-Target-2026.html</guid>
+      <description><![CDATA[2026年6月开放获取综述深入解析cGAS-STING信号通路在衰老大脑中的过度激活如何驱动神经炎症与神经退行，并探讨选择性抑制该通路作为神经退行性疾病治疗策略的可行性。]]></description>
+      <dc:creator>LongBiosci</dc:creator>
+      <pubDate>Wed, 10 Jun 2026 16:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>线粒体：衰老的主调控器，连接能量代谢与慢性炎症 - LongBiosci</title>
+      <link>https://longbiosci.com/news/Mitochondria-Master-Regulator-Aging-Inflammaging-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Mitochondria-Master-Regulator-Aging-Inflammaging-2026.html</guid>
+      <description><![CDATA[2026年6月开放获取综述提出线粒体功能障碍不仅是衰老的标志之一，更是干细胞耗竭与炎症衰老的 upstream 上游驱动因素，整合生物能量学、氧化还原调控与固有免疫信号，为抗衰老干预提供系统性框架。]]></description>
+      <dc:creator>LongBiosci</dc:creator>
+      <pubDate>Wed, 10 Jun 2026 16:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>工程菌群替代粪菌移植：15菌株LBP临床试验证明等效性</title>
       <link>https://longbiosci.com/news/Engineered-Gut-Bacteria-LBP-FMT-Clinical-Trial-2026.html</link>
       <guid isPermaLink="true">https://longbiosci.com/news/Engineered-Gut-Bacteria-LBP-FMT-Clinical-Trial-2026.html</guid>
-      <description>标准化工程菌群在复发性艰难梭菌感染试验中与FMT等效，为规模化肠道疗法奠定基础。</description>
+      <description><![CDATA[标准化工程菌群在复发性艰难梭菌感染试验中与FMT等效，为规模化肠道疗法奠定基础。]]></description>
+      <dc:creator>LongBiosci</dc:creator>
+      <pubDate>Wed, 10 Jun 2026 16:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>错位核酸触发凝血衰老：Ageing Research Reviews 2026 综述解读</title>
+      <link>https://longbiosci.com/news/Misplaced-Nucleic-Acids-Coagul-Aging-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Misplaced-Nucleic-Acids-Coagul-Aging-2026.html</guid>
+      <description><![CDATA[细胞内错位DNA/RNA片段通过cGAS-STING等受体同时触发炎症和凝血，提出]]></description>
+      <dc:creator>LongBiosci</dc:creator>
       <pubDate>Tue, 09 Jun 2026 16:00:00 GMT</pubDate>
     </item>
     <item>
       <title>限时进食延长健康寿命：终生实验揭示性别差异</title>
       <link>https://longbiosci.com/news/Time-Restricted-Feeding-Healthspan-Lifespan-NatureAging-2026.html</link>
       <guid isPermaLink="true">https://longbiosci.com/news/Time-Restricted-Feeding-Healthspan-Lifespan-NatureAging-2026.html</guid>
-      <description>终生小鼠实验证明TRF在不改变热量的情况下延长健康寿命，雄性延寿、雌性改善健康指标，性别差异显著。</description>
+      <description><![CDATA[终生小鼠实验证明TRF在不改变热量的情况下延长健康寿命，雄性延寿、雌性改善健康指标，性别差异显著。]]></description>
+      <dc:creator>LongBiosci</dc:creator>
+      <pubDate>Tue, 09 Jun 2026 16:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>GLP-1减肥肌肉流失怎么办？斯坦福团队找到对策</title>
+      <link>https://longbiosci.com/news/GLP1-Muscle-Preservation-Stanford-PGDHi-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/GLP1-Muscle-Preservation-Stanford-PGDHi-2026.html</guid>
+      <description><![CDATA[斯坦福大学团队发现，PGDHi抑制剂可恢复GLP-1用药期间的肌肉干细胞再生能力，防止肌力下降。该药已进入临床试验阶段，有望成为GLP-1减肥的标准伴侣用药。]]></description>
+      <dc:creator>LongBiosci</dc:creator>
       <pubDate>Mon, 08 Jun 2026 16:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>错位核酸触发凝血衰老：Ageing Research Reviews 2026 综述解读</title>
-      <link>https://longbiosci.com/news/Misplaced-Nucleic-Acids-Coagul-Aging-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/Misplaced-Nucleic-Acids-Coagul-Aging-2026.html</guid>
-      <description>细胞内错位DNA/RNA片段通过cGAS-STING等受体同时触发炎症和凝血，提出</description>
+      <title>电刺激逆转海鞘衰老：斯坦福团队发现延寿新思路</title>
+      <link>https://longbiosci.com/news/Electrical-Pulses-Reverse-Aging-Sea-Squirts-Stanford-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Electrical-Pulses-Reverse-Aging-Sea-Squirts-Stanford-2026.html</guid>
+      <description><![CDATA[斯坦福大学研究团队发现，短暂电脉冲可大幅延长海鞘寿命，通过\]]></description>
+      <dc:creator>LongBiosci</dc:creator>
       <pubDate>Mon, 08 Jun 2026 16:00:00 GMT</pubDate>
     </item>
     <item>
       <title>ProAL50：基于50种循环蛋白的压力负荷评估新方法，优于传统指标</title>
       <link>https://longbiosci.com/news/ProAL50-Allostatic-Load-Proteomics-2026.html</link>
       <guid isPermaLink="true">https://longbiosci.com/news/ProAL50-Allostatic-Load-Proteomics-2026.html</guid>
-      <description>ProAL50利用50种循环蛋白构建压力负荷评估工具，在UK Biobank和CARDIA研究中均优于传统指标，预测慢性疾病和死亡风险更精准。</description>
-      <pubDate>Sun, 07 Jun 2026 16:00:00 GMT</pubDate>
+      <description><![CDATA[ProAL50利用50种循环蛋白构建压力负荷评估工具，在UK Biobank和CARDIA研究中均优于传统指标，预测慢性疾病和死亡风险更精准。]]></description>
+      <dc:creator>LongBiosci</dc:creator>
+      <pubDate>Mon, 08 Jun 2026 16:00:00 GMT</pubDate>
     </item>
     <item>
       <title>运动为何有益？HMGB1：兼具体坏与修复双重角色的\</title>
       <link>https://longbiosci.com/news/HMGB1-Exercise-Hormesis-Longevity-2026.html</link>
       <guid isPermaLink="true">https://longbiosci.com/news/HMGB1-Exercise-Hormesis-Longevity-2026.html</guid>
-      <description>HMGB1作为运动应激hormesis关键介质：急性运动升HMGB1，长期训练降HMGB1，为精准运动处方提供新思路。</description>
+      <description><![CDATA[HMGB1作为运动应激hormesis关键介质：急性运动升HMGB1，长期训练降HMGB1，为精准运动处方提供新思路。]]></description>
+      <dc:creator>LongBiosci</dc:creator>
+      <pubDate>Mon, 08 Jun 2026 16:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>衰老基因网络揭秘：UK Biobank 57种疾病揭示双重架构</title>
+      <link>https://longbiosci.com/news/Aging-Gene-Network-Multimorbidity-UK-Biobank-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Aging-Gene-Network-Multimorbidity-UK-Biobank-2026.html</guid>
+      <description><![CDATA[UK Biobank 57种ARD网络分析揭示衰老基因双重架构：跨系统整合者 vs 疾病簇局部驱动者。]]></description>
+      <dc:creator>LongBiosci</dc:creator>
       <pubDate>Sun, 07 Jun 2026 16:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>GLP-1减肥肌肉流失怎么办？斯坦福团队找到对策</title>
-      <link>https://longbiosci.com/news/GLP1-Muscle-Preservation-Stanford-PGDHi-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/GLP1-Muscle-Preservation-Stanford-PGDHi-2026.html</guid>
-      <description>斯坦福大学团队发现，PGDHi抑制剂可恢复GLP-1用药期间的肌肉干细胞再生能力，防止肌力下降。该药已进入临床试验阶段，有望成为GLP-1减肥的标准伴侣用药。</description>
-      <pubDate>Sun, 07 Jun 2026 16:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>电刺激逆转海鞘衰老：斯坦福团队发现延寿新思路</title>
-      <link>https://longbiosci.com/news/Electrical-Pulses-Reverse-Aging-Sea-Squirts-Stanford-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/Electrical-Pulses-Reverse-Aging-Sea-Squirts-Stanford-2026.html</guid>
-      <description>斯坦福大学研究团队发现，短暂电脉冲可大幅延长海鞘寿命，通过\</description>
+      <title>蝙蝠长寿启示录：CLSV-6免疫型框架或可重塑人类健康衰老策略</title>
+      <link>https://longbiosci.com/news/Bat-Longevity-CLSV6-Immunotype-Healthy-Aging-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Bat-Longevity-CLSV6-Immunotype-Healthy-Aging-2026.html</guid>
+      <description><![CDATA[蝙蝠超长寿命启发CLSV-6免疫型框架，整合六大保守机制，为人类健康衰老提供营养干预路线图。]]></description>
+      <dc:creator>LongBiosci</dc:creator>
       <pubDate>Sun, 07 Jun 2026 16:00:00 GMT</pubDate>
     </item>
     <item>
       <title>DREAM复合体：连接体细胞突变与寿命的</title>
       <link>https://longbiosci.com/news/DREAM-Complex-Somatic-Mutation-Lifespan-NatureAging-2026.html</link>
       <guid isPermaLink="true">https://longbiosci.com/news/DREAM-Complex-Somatic-Mutation-Lifespan-NatureAging-2026.html</guid>
-      <description>Nature Aging发表重磅研究：DREAM复合体通过调控体细胞突变负担影响寿命和年龄相关疾病。敲除DREAM的小鼠表现出更低的突变负荷和延长的寿命。</description>
-      <pubDate>Sat, 06 Jun 2026 16:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>蝙蝠长寿启示录：CLSV-6免疫型框架或可重塑人类健康衰老策略</title>
-      <link>https://longbiosci.com/news/Bat-Longevity-CLSV6-Immunotype-Healthy-Aging-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/Bat-Longevity-CLSV6-Immunotype-Healthy-Aging-2026.html</guid>
-      <description>蝙蝠超长寿命启发CLSV-6免疫型框架，整合六大保守机制，为人类健康衰老提供营养干预路线图。</description>
-      <pubDate>Sat, 06 Jun 2026 16:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>衰老基因网络揭秘：UK Biobank 57种疾病揭示双重架构</title>
-      <link>https://longbiosci.com/news/Aging-Gene-Network-Multimorbidity-UK-Biobank-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/Aging-Gene-Network-Multimorbidity-UK-Biobank-2026.html</guid>
-      <description>UK Biobank 57种ARD网络分析揭示衰老基因双重架构：跨系统整合者 vs 疾病簇局部驱动者。</description>
-      <pubDate>Sat, 06 Jun 2026 16:00:00 GMT</pubDate>
+      <description><![CDATA[Nature Aging发表重磅研究：DREAM复合体通过调控体细胞突变负担影响寿命和年龄相关疾病。敲除DREAM的小鼠表现出更低的突变负荷和延长的寿命。]]></description>
+      <dc:creator>LongBiosci</dc:creator>
+      <pubDate>Sun, 07 Jun 2026 16:00:00 GMT</pubDate>
     </item>
     <item>
       <title>肠道菌群调控谷氨酸恢复老龄卵母细胞质量：Nature Aging 新研究</title>
       <link>https://longbiosci.com/news/Gut-Microbiota-Glutamic-Acid-Oocyte-Rejuvenation-2026.html</link>
       <guid isPermaLink="true">https://longbiosci.com/news/Gut-Microbiota-Glutamic-Acid-Oocyte-Rejuvenation-2026.html</guid>
-      <description>年轻FMT恢复老龄小鼠卵母细胞质量，Bacteroides caecimuris调控的谷氨酸是关键介导因子。</description>
-      <pubDate>Thu, 04 Jun 2026 16:00:00 GMT</pubDate>
+      <description><![CDATA[年轻FMT恢复老龄小鼠卵母细胞质量，Bacteroides caecimuris调控的谷氨酸是关键介导因子。]]></description>
+      <dc:creator>LongBiosci</dc:creator>
+      <pubDate>Fri, 05 Jun 2026 16:00:00 GMT</pubDate>
     </item>
     <item>
       <title>FAM162A：调控线粒体结构与功能的新钥匙，或可延长寿命</title>
       <link>https://longbiosci.com/news/FAM162A-Mitochondrial-Longevity-2026.html</link>
       <guid isPermaLink="true">https://longbiosci.com/news/FAM162A-Mitochondrial-Longevity-2026.html</guid>
-      <description>FAM162A是定位于线粒体内膜的一种蛋白，新研究揭示它通过与OPA1互作调节线粒体融合与生物能量代谢，过表达FAM162A可延长果蝇寿命、提升抗热应激能力。</description>
-      <pubDate>Wed, 03 Jun 2026 16:00:00 GMT</pubDate>
+      <description><![CDATA[FAM162A是定位于线粒体内膜的一种蛋白，新研究揭示它通过与OPA1互作调节线粒体融合与生物能量代谢，过表达FAM162A可延长果蝇寿命、提升抗热应激能力。]]></description>
+      <dc:creator>LongBiosci</dc:creator>
+      <pubDate>Thu, 04 Jun 2026 16:00:00 GMT</pubDate>
     </item>
     <item>
       <title>鼻喷剂逆转大脑衰老：德州农工大学细胞外囊泡研究</title>
       <link>https://longbiosci.com/news/Nasal-EV-Brain-Aging-Reversal-TAMU-2026.html</link>
       <guid isPermaLink="true">https://longbiosci.com/news/Nasal-EV-Brain-Aging-Reversal-TAMU-2026.html</guid>
-      <description>仅两剂鼻喷型细胞外囊泡，即实现大脑神经炎症消退、线粒体功能恢复、记忆显著改善——效应持续数月。</description>
+      <description><![CDATA[仅两剂鼻喷型细胞外囊泡，即实现大脑神经炎症消退、线粒体功能恢复、记忆显著改善——效应持续数月。]]></description>
+      <dc:creator>LongBiosci</dc:creator>
+      <pubDate>Wed, 03 Jun 2026 16:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>衰老T细胞分泌Granzyme K驱动认知衰退——可被逆转</title>
+      <link>https://longbiosci.com/news/Granzyme-K-Aged-CD8-T-cells-Cognitive-Decline-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Granzyme-K-Aged-CD8-T-cells-Cognitive-Decline-2026.html</guid>
+      <description><![CDATA[老年CD8+ T细胞分泌Granzyme K损害海马体功能，抑制GZMK可逆转认知损伤。]]></description>
+      <dc:creator>LongBiosci</dc:creator>
       <pubDate>Tue, 02 Jun 2026 16:00:00 GMT</pubDate>
     </item>
     <item>
       <title>SynCav1基因疗法：静脉注射即可穿越血脑屏障，靶向TDP-43蛋白病</title>
       <link>https://longbiosci.com/news/SynCav1-Gene-Therapy-TDP-43-2026.html</link>
       <guid isPermaLink="true">https://longbiosci.com/news/SynCav1-Gene-Therapy-TDP-43-2026.html</guid>
-      <description>AAV-PHP.eB载体递送SynCav1，系统性注射穿越血脑屏障，在TDP-43蛋白病小鼠模型中逆转神经退行性改变。</description>
-      <pubDate>Mon, 01 Jun 2026 16:00:00 GMT</pubDate>
+      <description><![CDATA[AAV-PHP.eB载体递送SynCav1，系统性注射穿越血脑屏障，在TDP-43蛋白病小鼠模型中逆转神经退行性改变。]]></description>
+      <dc:creator>LongBiosci</dc:creator>
+      <pubDate>Tue, 02 Jun 2026 16:00:00 GMT</pubDate>
     </item>
     <item>
       <title>运动调控HMGB1：心血管衰老的双刃剑</title>
       <link>https://longbiosci.com/news/HMGB1-Exercise-Cardiovascular-Aging-Current-Research-2026.html</link>
       <guid isPermaLink="true">https://longbiosci.com/news/HMGB1-Exercise-Cardiovascular-Aging-Current-Research-2026.html</guid>
-      <description>运动调控HMGB1水平，在减少慢性炎症性HMGB1升高与保留组织修复功能之间找到平衡点。</description>
-      <pubDate>Mon, 01 Jun 2026 16:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>衰老T细胞分泌Granzyme K驱动认知衰退——可被逆转</title>
-      <link>https://longbiosci.com/news/Granzyme-K-Aged-CD8-T-cells-Cognitive-Decline-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/Granzyme-K-Aged-CD8-T-cells-Cognitive-Decline-2026.html</guid>
-      <description>老年CD8+ T细胞分泌Granzyme K损害海马体功能，抑制GZMK可逆转认知损伤。</description>
-      <pubDate>Mon, 01 Jun 2026 16:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Sirtuin 6过表达逆转肝脏细胞染色质衰老——Nature Communications研究</title>
-      <link>https://longbiosci.com/news/SIRT6-AAV-Chromatin-Rejuvenation-Liver-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/SIRT6-AAV-Chromatin-Rejuvenation-Liver-2026.html</guid>
-      <description>SIRT6过表达可逆转小鼠肝脏年龄相关的染色质结构变化，恢复年轻态基因表达模式，为表观遗传重编程抗衰老提供新证据。</description>
-      <pubDate>Sun, 31 May 2026 16:00:00 GMT</pubDate>
+      <description><![CDATA[运动调控HMGB1水平，在减少慢性炎症性HMGB1升高与保留组织修复功能之间找到平衡点。]]></description>
+      <dc:creator>LongBiosci</dc:creator>
+      <pubDate>Tue, 02 Jun 2026 16:00:00 GMT</pubDate>
     </item>
     <item>
       <title>老年物理学：用物理学定律描述衰老——Aging Cell研究</title>
       <link>https://longbiosci.com/news/Gerophysics-Physics-Based-Aging-Models-2026.html</link>
       <guid isPermaLink="true">https://longbiosci.com/news/Gerophysics-Physics-Based-Aging-Models-2026.html</guid>
-      <description>物理学框架揭示衰老规律：损伤饱和清除模型可统一解释三种经典衰老模式，并区分预防性与清除性干预的不同效果。</description>
-      <pubDate>Sun, 31 May 2026 16:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>裸盖菇素延长寿命50%：临床前研究揭示迷幻蘑菇成分的抗衰老潜力</title>
-      <link>https://longbiosci.com/news/Psilocybin-Anti-Aging-Longevity-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/Psilocybin-Anti-Aging-Longevity-2026.html</guid>
-      <description>迷幻蘑菇成分裸盖菇素可将人类细胞寿命延长超过50%，老年小鼠生存期延长30%。</description>
-      <pubDate>Sat, 30 May 2026 16:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>外周表观遗传衰老预测认知健康百岁老人生存期</title>
-      <link>https://longbiosci.com/news/Peripheral-Epigenetic-Aging-Centenarians-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/Peripheral-Epigenetic-Aging-Centenarians-2026.html</guid>
-      <description>外周血液表观遗传衰老速度可独立预测认知健康百岁老人生存期，与大脑衰老标志物无关。</description>
-      <pubDate>Sat, 30 May 2026 16:00:00 GMT</pubDate>
+      <description><![CDATA[物理学框架揭示衰老规律：损伤饱和清除模型可统一解释三种经典衰老模式，并区分预防性与清除性干预的不同效果。]]></description>
+      <dc:creator>LongBiosci</dc:creator>
+      <pubDate>Mon, 01 Jun 2026 16:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
