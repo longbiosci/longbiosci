@@ -3,155 +3,150 @@
   <channel>
     <title>LongBiosci - 长寿科技新闻</title>
     <link>https://longbiosci.com</link>
-    <atom:link href="https://longbiosci.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <description>长寿科技、生物医药、再生医学最新研究进展</description>
+    <description>LongBiosci 每日更新生物医药、长寿科技、衰老研究领域最新进展。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 13 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://longbiosci.com/logo.jpg</url>
-      <title>LongBiosci</title>
-      <link>https://longbiosci.com</link>
-    </image>
-                                                                                  
-                                          <item>
-    <title><![CDATA[人类能活多久？数据质量困局让答案成谜]]></title>
-    <link>https://longbiosci.com/news/Human-Lifespan-Data-Quality-Challenge-2026.html</link>
-    <guid isPermaLink="true">https://longbiosci.com/news/Human-Lifespan-Data-Quality-Challenge-2026.html</guid>
-    <description><![CDATA[Fight Aging! 深度分析人类寿命数据的选择性偏差问题：百岁老人数据质量堪忧，蓝区传说和珍妮·卡尔芒记录可能均非真实，揭示了长寿研究领域长期被忽视的方法论危机。]]></description>
-    <pubDate>Fri, 12 Jun 2026 12:00:00 GMT</pubDate>
-  </item>
-  <item>
-    <title><![CDATA[IFNAR1 缺失驱动帕金森病痴呆]]></title>
-    <link>https://longbiosci.com/news/IFNAR1-Mitochondria-Parkinson-Dementia-2026.html</link>
-    <guid isPermaLink="true">https://longbiosci.com/news/IFNAR1-Mitochondria-Parkinson-Dementia-2026.html</guid>
-    <description><![CDATA[丹麦研究团队首次在体证明，I型干扰素受体1（IFNAR1）在神经元与星形胶质细胞中的缺失通过损害线粒体自噬与能量代谢，逐步驱动帕金森病痴呆（PDD）的发生，揭示了神经退行性病变中细胞特异性病理机制的关键差异。]]></description>
-    <pubDate>Fri, 12 Jun 2026 12:00:00 GMT</pubDate>
-  </item>
-  <item>
-    <title><![CDATA[长寿公司 NewLimit 融资 4.35 亿美元：表观遗传重编程迈入临床时代]]></title>
-    <link>https://longbiosci.com/news/NewLimit-435M-Epigenetic-Reprogramming-2026.html</link>
-    <guid isPermaLink="true">https://longbiosci.com/news/NewLimit-435M-Epigenetic-Reprogramming-2026.html</guid>
-    <description><![CDATA[长寿科技公司 NewLimit 宣布完成 4.35 亿美元 C 轮融资，由 Founders Fund 领投，计划于 2027 年启动表观遗传重编程疗法首次人体临床试验，肝脏衰老干预率先推进。]]></description>
-    <pubDate>Fri, 12 Jun 2026 12:00:00 GMT</pubDate>
-  </item>
-  <item>
-    <title><![CDATA[Retro Biosciences 估值达18亿美元：3年从实验室到临床候选药物]]></title>
-    <link>https://longbiosci.com/news/Retro-Biosciences-1.8B-Valuation-2026.html</link>
-    <guid isPermaLink="true">https://longbiosci.com/news/Retro-Biosciences-1.8B-Valuation-2026.html</guid>
-    <description><![CDATA[长寿科技公司 Retro Biosciences 宣布新一轮融资初始关闭，估值达18亿美元。公司在短短3年内将 RTR242 从适应症筛选推进至首次人体给药，展现了超常规的研发速度。]]></description>
-    <pubDate>Fri, 12 Jun 2026 12:00:00 GMT</pubDate>
-  </item>
-  <item>
-    <title><![CDATA[终身限时进食延长健康寿命：小鼠研究揭示性别特异性效应]]></title>
-    <link>https://longbiosci.com/news/Time-Restricted-Feeding-Healthspan-NatureAging-2026.html</link>
-    <guid isPermaLink="true">https://longbiosci.com/news/Time-Restricted-Feeding-Healthspan-NatureAging-2026.html</guid>
-    <description><![CDATA[Nature Aging最新研究显示，终身限时进食（无热量限制）可延长非肥胖小鼠的健康寿命，且对衰老相关病理和寿命的影响存在显著的性别差异，为时间营养学提供了重要临床前证据。]]></description>
-    <pubDate>Fri, 12 Jun 2026 12:00:00 GMT</pubDate>
-  </item>
-  <item>
-    <title><![CDATA[长寿公司 NewLimit 融资 4.35 亿美元：表观遗传重编程迈入临床时代]]></title>
-    <link>https://longbiosci.com/news/NewLimit-435M-Epigenetic-Reprogramming-2026.html</link>
-    <guid isPermaLink="true">https://longbiosci.com/news/NewLimit-435M-Epigenetic-Reprogramming-2026.html</guid>
-    <description><![CDATA[]]></description>
-    <pubDate>Fri, 12 Jun 2026 12:00:00 GMT</pubDate>
-  </item>
-  <item>
-    <title><![CDATA[Retro Biosciences 估值达18亿美元：3年从实验室到临床候选药物]]></title>
-    <link>https://longbiosci.com/news/Retro-Biosciences-1.8B-Valuation-2026.html</link>
-    <guid isPermaLink="true">https://longbiosci.com/news/Retro-Biosciences-1.8B-Valuation-2026.html</guid>
-    <description><![CDATA[]]></description>
-    <pubDate>Fri, 12 Jun 2026 12:00:00 GMT</pubDate>
-  </item>
-  <item>
-    <title><![CDATA[终身限时进食延长健康寿命：小鼠研究揭示性别特异性效应]]></title>
-    <link>https://longbiosci.com/news/Time-Restricted-Feeding-Healthspan-NatureAging-2026.html</link>
-    <guid isPermaLink="true">https://longbiosci.com/news/Time-Restricted-Feeding-Healthspan-NatureAging-2026.html</guid>
-    <description><![CDATA[终身限时进食可延长非肥胖小鼠健康寿命，影响存在显著性别差异。Nature Aging 2026年6月发表。]]></description>
-    <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title><![CDATA[IFNAR1 缺失驱动帕金森病痴呆：线粒体与神经能量代谢的细胞特异性病理]]></title>
-    <link>https://longbiosci.com/news/IFNAR1-Mitochondria-Parkinson-Dementia-2026.html</link>
-    <guid isPermaLink="true">https://longbiosci.com/news/IFNAR1-Mitochondria-Parkinson-Dementia-2026.html</guid>
-    <description><![CDATA[丹麦团队首次在体阐明IFNAR1在神经元与星形胶质细胞中的缺失如何通过损害线粒体自噬驱动PDD发生。]]></description>
-    <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title><![CDATA[人类能活多久？数据质量困局让答案成谜]]></title>
-    <link>https://longbiosci.com/news/Human-Lifespan-Data-Quality-Challenge-2026.html</link>
-    <guid isPermaLink="true">https://longbiosci.com/news/Human-Lifespan-Data-Quality-Challenge-2026.html</guid>
-    <description><![CDATA[百岁老人数据质量堪忧，蓝区传说和珍妮·卡尔芒记录可能均非真实，长寿研究领域面临方法论危机。Fight Aging! 2026年6月分析。]]></description>
-    <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title><![CDATA[磷脂酰胆碱流失：细胞衰老的]]></title>
-    <link>https://longbiosci.com/news/Phosphatidylcholine-Mitochondrial-Aging-Nature-Communications-2026.html</link>
-    <guid isPermaLink="true">https://longbiosci.com/news/Phosphatidylcholine-Mitochondrial-Aging-Nature-Communications-2026.html</guid>
-    <description><![CDATA[德国莱布尼茨衰老研究所（FLI）团队在Nature Communications发表研究：随年龄增长的磷脂酰胆碱水平下降是线粒体功能障碍的重要驱动因素。补充磷脂酰胆碱或胆碱，可在仅两天内恢复线粒体年轻态，提示生物衰老具有可逆性。]]></description>
-    <pubDate>Thu, 11 Jun 2026 12:00:00 GMT</pubDate>
-  </item>
-  <item>
-    <title><![CDATA[磷脂酰胆碱流失：细胞衰老的]]></title>
-    <link>https://longbiosci.com/news/Phosphatidylcholine-Mitochondrial-Aging-Nature-Communications-2026.html</link>
-    <guid isPermaLink="true">https://longbiosci.com/news/Phosphatidylcholine-Mitochondrial-Aging-Nature-Communications-2026.html</guid>
-    <description><![CDATA[德国FLI研究团队在Nature Communications发表研究，揭示磷脂酰胆碱流失是线粒体衰老的关键驱动因素，补充该物质可在两天内恢复线粒体年轻态。]]></description>
-    <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title><![CDATA[工程菌群替代粪菌移植：15菌株LBP临床试验证明等效性]]></title>
-    <link>https://longbiosci.com/news/Engineered-Gut-Bacteria-LBP-FMT-Clinical-Trial-2026.html</link>
-    <guid isPermaLink="true">https://longbiosci.com/news/Engineered-Gut-Bacteria-LBP-FMT-Clinical-Trial-2026.html</guid>
-    <description><![CDATA[加州大学圣地亚哥分校团队开发出标准化工程菌群（LBP），在复发性艰难梭菌感染临床试验中与粪菌移植（FMT）达到等效，为规模化肠道菌群疗法奠定基础，也为抗衰老肠道干预带来新希望。]]></description>
-    <pubDate>Wed, 10 Jun 2026 12:00:00 GMT</pubDate>
-  </item>
-  <item>
-    <title><![CDATA[线粒体：衰老的主调控器，连接能量代谢与慢性炎症]]></title>
-    <link>https://longbiosci.com/news/Mitochondria-Master-Regulator-Aging-Inflammaging-2026.html</link>
-    <guid isPermaLink="true">https://longbiosci.com/news/Mitochondria-Master-Regulator-Aging-Inflammaging-2026.html</guid>
-    <description><![CDATA[2026年6月开放获取综述提出线粒体功能障碍不仅是衰老的标志之一，更是干细胞耗竭与炎症衰老的 upstream 上游驱动因素，整合生物能量学、氧化还原调控与固有免疫信号，为抗衰老干预提供系统性框架。]]></description>
-    <pubDate>Wed, 10 Jun 2026 12:00:00 GMT</pubDate>
-  </item>
-  <item>
-    <title><![CDATA[cGAS-STING通路与神经炎症：从感知机制到治疗靶点]]></title>
-    <link>https://longbiosci.com/news/cGAS-STING-Neuroinflammation-Therapeutic-Target-2026.html</link>
-    <guid isPermaLink="true">https://longbiosci.com/news/cGAS-STING-Neuroinflammation-Therapeutic-Target-2026.html</guid>
-    <description><![CDATA[2026年6月开放获取综述深入解析cGAS-STING信号通路在衰老大脑中的过度激活如何驱动神经炎症与神经退行，并探讨选择性抑制该通路作为神经退行性疾病治疗策略的可行性。]]></description>
-    <pubDate>Wed, 10 Jun 2026 12:00:00 GMT</pubDate>
-  </item>
-  <item>
-    <title><![CDATA[cGAS-STING通路与神经炎症：从感知机制到治疗靶点 - LongBiosci]]></title>
-    <link>https://longbiosci.com/news/cGAS-STING-Neuroinflammation-Therapeutic-Target-2026.html</link>
-    <guid isPermaLink="true">https://longbiosci.com/news/cGAS-STING-Neuroinflammation-Therapeutic-Target-2026.html</guid>
-    <description><![CDATA[2026年6月开放获取综述深入解析cGAS-STING信号通路在衰老大脑中的过度激活如何驱动神经炎症与神经退行，并探讨选择性抑制该通路作为神经退行性疾病治疗策略的可行性。]]></description>
-    <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title><![CDATA[线粒体：衰老的主调控器，连接能量代谢与慢性炎症 - LongBiosci]]></title>
-    <link>https://longbiosci.com/news/Mitochondria-Master-Regulator-Aging-Inflammaging-2026.html</link>
-    <guid isPermaLink="true">https://longbiosci.com/news/Mitochondria-Master-Regulator-Aging-Inflammaging-2026.html</guid>
-    <description><![CDATA[2026年6月开放获取综述提出线粒体功能障碍不仅是衰老的标志之一，更是干细胞耗竭与炎症衰老的 upstream 上游驱动因素，整合生物能量学、氧化还原调控与固有免疫信号，为抗衰老干预提供系统性框架。]]></description>
-    <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title><![CDATA[工程菌群替代粪菌移植：15菌株LBP临床试验证明等效性]]></title>
-    <link>https://longbiosci.com/news/Engineered-Gut-Bacteria-LBP-FMT-Clinical-Trial-2026.html</link>
-    <guid isPermaLink="true">https://longbiosci.com/news/Engineered-Gut-Bacteria-LBP-FMT-Clinical-Trial-2026.html</guid>
-    <description><![CDATA[标准化工程菌群在复发性艰难梭菌感染试验中与FMT等效，为规模化肠道疗法奠定基础。]]></description>
-    <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title><![CDATA[错位核酸触发凝血衰老：Ageing Research Reviews 2026 综述解读]]></title>
-    <link>https://longbiosci.com/news/Misplaced-Nucleic-Acids-Coagul-Aging-2026.html</link>
-    <guid isPermaLink="true">https://longbiosci.com/news/Misplaced-Nucleic-Acids-Coagul-Aging-2026.html</guid>
-    <description><![CDATA[Ageing Research Reviews 2026发表重磅综述：细胞内错位DNA/RNA片段通过cGAS-STING等模式识别受体，同时触发慢性炎症和凝血级联反应，提出\]]></description>
-    <pubDate>Tue, 09 Jun 2026 12:00:00 GMT</pubDate>
-  </item>
-  <item>
-    <title><![CDATA[限时进食延长健康寿命：终生实验揭示性别差异]]></title>
-    <link>https://longbiosci.com/news/Time-Restricted-Feeding-Healthspan-Lifespan-NatureAging-2026.html</link>
-    <guid isPermaLink="true">https://longbiosci.com/news/Time-Restricted-Feeding-Healthspan-Lifespan-NatureAging-2026.html</guid>
-    <description><![CDATA[Iiams等人终生小鼠实验证明，限时进食（TRF）在不改变饮食热量的情况下显著延长健康寿命，且存在显著性别差异：雄性小鼠寿命延长，雌性小鼠虽寿命未显著增加但健康寿命指标全面改善。这一发现将]]></description>
-    <pubDate>Tue, 09 Jun 2026 12:00:00 GMT</pubDate>
-  </item>
+    <lastBuildDate>Sun, 14 Jun 2026 12:00:00 GMT</lastBuildDate>
+    <atom:link href="https://longbiosci.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title><![CDATA[LATS1/2 蛋白缺失驱动内皮细胞衰老：揭秘心梗与中风的新型分子机制]]></title>
+      <link>https://longbiosci.com/news/LATS1-2-CD38-Endothelial-Senescence-Atherothrombosis-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/LATS1-2-CD38-Endothelial-Senescence-Atherothrombosis-2026.html</guid>
+      <description><![CDATA[MD Anderson 揭示内皮细胞 LATS1/2 缺失激活 CD38 驱动血栓形成，为心梗与中风提供新靶点。]]></description>
+      <pubDate>Sun, 14 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Retro Biosciences 估值达18亿美元：3年从实验室到临床候选药物]]></title>
+      <link>https://longbiosci.com/news/Retro-Biosciences-1.8B-Valuation-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Retro-Biosciences-1.8B-Valuation-2026.html</guid>
+      <description><![CDATA[Retro Biosciences 宣布新一轮融资初始关闭，估值达18亿美元。RTR242 在15个月内完成从适应症筛选到首次人体给药的跨越。]]></description>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[长寿公司 NewLimit 融资 4.35 亿美元：表观遗传重编程迈入临床时代]]></title>
+      <link>https://longbiosci.com/news/NewLimit-435M-Epigenetic-Reprogramming-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/NewLimit-435M-Epigenetic-Reprogramming-2026.html</guid>
+      <description><![CDATA[NewLimit 完成 4.35 亿美元 C 轮融资，计划 2027 年启动表观遗传重编程疗法首次人体临床试验。]]></description>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[人类能活多久？数据质量困局让答案成谜]]></title>
+      <link>https://longbiosci.com/news/Human-Lifespan-Data-Quality-Challenge-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Human-Lifespan-Data-Quality-Challenge-2026.html</guid>
+      <description><![CDATA[百岁老人数据质量堪忧，蓝区传说和珍妮·卡尔芒记录可能均非真实，长寿研究领域面临方法论危机。Fight Aging! 2026年6月分析。]]></description>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[终身限时进食延长健康寿命：小鼠研究揭示性别特异性效应]]></title>
+      <link>https://longbiosci.com/news/Time-Restricted-Feeding-Healthspan-NatureAging-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Time-Restricted-Feeding-Healthspan-NatureAging-2026.html</guid>
+      <description><![CDATA[终身限时进食可延长非肥胖小鼠健康寿命，影响存在显著性别差异。Nature Aging 2026年6月发表。]]></description>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[IFNAR1 缺失驱动帕金森病痴呆：线粒体与神经能量代谢的细胞特异性病理]]></title>
+      <link>https://longbiosci.com/news/IFNAR1-Mitochondria-Parkinson-Dementia-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/IFNAR1-Mitochondria-Parkinson-Dementia-2026.html</guid>
+      <description><![CDATA[丹麦团队首次在体阐明IFNAR1在神经元与星形胶质细胞中的缺失如何通过损害线粒体自噬驱动PDD发生。]]></description>
+      <pubDate>Fri, 12 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[磷脂酰胆碱流失：细胞衰老的]]></title>
+      <link>https://longbiosci.com/news/Phosphatidylcholine-Mitochondrial-Aging-Nature-Communications-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Phosphatidylcholine-Mitochondrial-Aging-Nature-Communications-2026.html</guid>
+      <description><![CDATA[德国FLI研究团队在Nature Communications发表研究，揭示磷脂酰胆碱流失是线粒体衰老的关键驱动因素，补充该物质可在两天内恢复线粒体年轻态。]]></description>
+      <pubDate>Thu, 11 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[线粒体：衰老的主调控器，连接能量代谢与慢性炎症]]></title>
+      <link>https://longbiosci.com/news/Mitochondria-Master-Regulator-Aging-Inflammaging-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Mitochondria-Master-Regulator-Aging-Inflammaging-2026.html</guid>
+      <description><![CDATA[2026年6月开放获取综述提出线粒体功能障碍不仅是衰老的标志之一，更是干细胞耗竭与炎症衰老的 upstream 上游驱动因素，整合生物能量学、氧化还原调控与固有免疫信号，为抗衰老干预提供系统性框架。]]></description>
+      <pubDate>Wed, 10 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[cGAS-STING通路与神经炎症：从感知机制到治疗靶点]]></title>
+      <link>https://longbiosci.com/news/cGAS-STING-Neuroinflammation-Therapeutic-Target-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/cGAS-STING-Neuroinflammation-Therapeutic-Target-2026.html</guid>
+      <description><![CDATA[2026年6月开放获取综述深入解析cGAS-STING信号通路在衰老大脑中的过度激活如何驱动神经炎症与神经退行，并探讨选择性抑制该通路作为神经退行性疾病治疗策略的可行性。]]></description>
+      <pubDate>Wed, 10 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[工程菌群替代粪菌移植：15菌株LBP临床试验证明等效性]]></title>
+      <link>https://longbiosci.com/news/Engineered-Gut-Bacteria-LBP-FMT-Clinical-Trial-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Engineered-Gut-Bacteria-LBP-FMT-Clinical-Trial-2026.html</guid>
+      <description><![CDATA[标准化工程菌群在复发性艰难梭菌感染试验中与FMT等效，为规模化肠道疗法奠定基础。]]></description>
+      <pubDate>Wed, 10 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[错位核酸触发凝血衰老：Ageing Research Reviews 2026 综述解读]]></title>
+      <link>https://longbiosci.com/news/Misplaced-Nucleic-Acids-Coagul-Aging-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Misplaced-Nucleic-Acids-Coagul-Aging-2026.html</guid>
+      <description><![CDATA[细胞内错位DNA/RNA片段通过cGAS-STING等受体同时触发炎症和凝血，提出]]></description>
+      <pubDate>Tue, 09 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[限时进食延长健康寿命：终生实验揭示性别差异]]></title>
+      <link>https://longbiosci.com/news/Time-Restricted-Feeding-Healthspan-Lifespan-NatureAging-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Time-Restricted-Feeding-Healthspan-Lifespan-NatureAging-2026.html</guid>
+      <description><![CDATA[终生小鼠实验证明TRF在不改变热量的情况下延长健康寿命，雄性延寿、雌性改善健康指标，性别差异显著。]]></description>
+      <pubDate>Tue, 09 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[运动为何有益？HMGB1：兼具体坏与修复双重角色的\]]></title>
+      <link>https://longbiosci.com/news/HMGB1-Exercise-Hormesis-Longevity-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/HMGB1-Exercise-Hormesis-Longevity-2026.html</guid>
+      <description><![CDATA[HMGB1作为运动应激hormesis关键介质：急性运动升HMGB1，长期训练降HMGB1，为精准运动处方提供新思路。]]></description>
+      <pubDate>Mon, 08 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[电刺激逆转海鞘衰老：斯坦福团队发现延寿新思路]]></title>
+      <link>https://longbiosci.com/news/Electrical-Pulses-Reverse-Aging-Sea-Squirts-Stanford-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Electrical-Pulses-Reverse-Aging-Sea-Squirts-Stanford-2026.html</guid>
+      <description><![CDATA[斯坦福大学研究团队发现，短暂电脉冲可大幅延长海鞘寿命，通过\]]></description>
+      <pubDate>Mon, 08 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[ProAL50：基于50种循环蛋白的压力负荷评估新方法，优于传统指标]]></title>
+      <link>https://longbiosci.com/news/ProAL50-Allostatic-Load-Proteomics-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/ProAL50-Allostatic-Load-Proteomics-2026.html</guid>
+      <description><![CDATA[ProAL50利用50种循环蛋白构建压力负荷评估工具，在UK Biobank和CARDIA研究中均优于传统指标，预测慢性疾病和死亡风险更精准。]]></description>
+      <pubDate>Mon, 08 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[GLP-1减肥肌肉流失怎么办？斯坦福团队找到对策]]></title>
+      <link>https://longbiosci.com/news/GLP1-Muscle-Preservation-Stanford-PGDHi-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/GLP1-Muscle-Preservation-Stanford-PGDHi-2026.html</guid>
+      <description><![CDATA[斯坦福大学团队发现，PGDHi抑制剂可恢复GLP-1用药期间的肌肉干细胞再生能力，防止肌力下降。该药已进入临床试验阶段，有望成为GLP-1减肥的标准伴侣用药。]]></description>
+      <pubDate>Mon, 08 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[DREAM复合体：连接体细胞突变与寿命的]]></title>
+      <link>https://longbiosci.com/news/DREAM-Complex-Somatic-Mutation-Lifespan-NatureAging-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/DREAM-Complex-Somatic-Mutation-Lifespan-NatureAging-2026.html</guid>
+      <description><![CDATA[Nature Aging发表重磅研究：DREAM复合体通过调控体细胞突变负担影响寿命和年龄相关疾病。敲除DREAM的小鼠表现出更低的突变负荷和延长的寿命。]]></description>
+      <pubDate>Sun, 07 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[衰老基因网络揭秘：UK Biobank 57种疾病揭示双重架构]]></title>
+      <link>https://longbiosci.com/news/Aging-Gene-Network-Multimorbidity-UK-Biobank-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Aging-Gene-Network-Multimorbidity-UK-Biobank-2026.html</guid>
+      <description><![CDATA[UK Biobank 57种ARD网络分析揭示衰老基因双重架构：跨系统整合者 vs 疾病簇局部驱动者。]]></description>
+      <pubDate>Sun, 07 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[蝙蝠长寿启示录：CLSV-6免疫型框架或可重塑人类健康衰老策略]]></title>
+      <link>https://longbiosci.com/news/Bat-Longevity-CLSV6-Immunotype-Healthy-Aging-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/Bat-Longevity-CLSV6-Immunotype-Healthy-Aging-2026.html</guid>
+      <description><![CDATA[蝙蝠超长寿命启发CLSV-6免疫型框架，整合六大保守机制，为人类健康衰老提供营养干预路线图。]]></description>
+      <pubDate>Sun, 07 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[AHR抑制解锁神经再生：Nature发表揭示]]></title>
+      <link>https://longbiosci.com/news/AHR-Inhibition-Axon-Regeneration-Nature-2026.html</link>
+      <guid isPermaLink="true">https://longbiosci.com/news/AHR-Inhibition-Axon-Regeneration-Nature-2026.html</guid>
+      <description><![CDATA[Nature发表重磅研究：芳香烃受体（AHR）充当神经再生的\]]></description>
+      <pubDate>Mon, 13 Apr 2026 12:00:00 GMT</pubDate>
+    </item>
+
   </channel>
 </rss>
