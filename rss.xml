@@ -7,6 +7,15 @@
     <language>zh-CN</language>
     <lastBuildDate>Sun, 14 Jun 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://longbiosci.com/rss.xml" rel="self" type="application/rss+xml"/>
+    
+    <lastBuildDate>Mon, 15 Jun 2026 12:00:00 GMT</lastBuildDate>
+    <item>
+      <title><![CDATA[小分子PAI-1抑制剂延缓衰老：临床进展与未来展望]]></title>
+      <link>https://longbiosci.com/news/PAI-1-Inhibitors-Longevity-2026.html</link>
+      <description><![CDATA[PAI-1（纤溶酶原激活物抑制剂-1）是衰老机制研究中的关键分子，与细胞衰老、纤维化和心血管疾病密切相关。]]></description>
+      <pubDate>Mon, 15 Jun 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://longbiosci.com/news/PAI-1-Inhibitors-Longevity-2026.html</guid>
+    </item>
     <item>
       <title><![CDATA[LATS1/2 蛋白缺失驱动内皮细胞衰老：揭秘心梗与中风的新型分子机制]]></title>
       <link>https://longbiosci.com/news/LATS1-2-CD38-Endothelial-Senescence-Atherothrombosis-2026.html</link>
@@ -140,13 +149,5 @@
       <description><![CDATA[蝙蝠超长寿命启发CLSV-6免疫型框架，整合六大保守机制，为人类健康衰老提供营养干预路线图。]]></description>
       <pubDate>Sun, 07 Jun 2026 12:00:00 GMT</pubDate>
     </item>
-    <item>
-      <title><![CDATA[AHR抑制解锁神经再生：Nature发表揭示]]></title>
-      <link>https://longbiosci.com/news/AHR-Inhibition-Axon-Regeneration-Nature-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/AHR-Inhibition-Axon-Regeneration-Nature-2026.html</guid>
-      <description><![CDATA[Nature发表重磅研究：芳香烃受体（AHR）充当神经再生的\]]></description>
-      <pubDate>Mon, 13 Apr 2026 12:00:00 GMT</pubDate>
-    </item>
-
   </channel>
 </rss>
