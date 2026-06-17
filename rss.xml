@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
+  <item>
+    <title><![CDATA[体内 circRNA 工程化巨噬细胞：靶向 MMP9 中和以逆转骨骼衰老 - LongBiosci]]></title>
+    <link>https://longbiosci.com/news/In-Vivo-circRNA-Macrophage-MMP9-Bone-Aging-2026.html</link>
+    <guid isPermaLink="true">https://longbiosci.com/news/In-Vivo-circRNA-Macrophage-MMP9-Bone-Aging-2026.html</guid>
+    <pubDate>Tue, 16 Jun 2026 12:00:00 GMT</pubDate>
+    <description><![CDATA[Bioactive Materials 2026年6月发表研究，中国团队开发体内 circRNA 工程化巨噬细胞策略，利用凋亡模拟脂质纳米颗粒（aMMP9-LNP）将巨噬细胞转化为抗 MMP9 抗体生物工厂，在老年小鼠中实现骨骼与软骨回春，打通 mRNA 疗法在骨科退行性疾病中的临床转化路径。]]></description>
+    <source url="https://longbiosci.com/rss.xml">LongBiosci</source>
+  </item>
+
     <title>LongBiosci - 长寿科技新闻</title>
     <link>https://longbiosci.com</link>
     <description>LongBiosci 每日更新生物医药、长寿科技、衰老研究领域最新进展。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 14 Jun 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://longbiosci.com/rss.xml" rel="self" type="application/rss+xml"/>
     
-    <lastBuildDate>Mon, 15 Jun 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 12:00:00 GMT</lastBuildDate>
     <item>
       <title><![CDATA[小分子PAI-1抑制剂延缓衰老：临床进展与未来展望]]></title>
       <link>https://longbiosci.com/news/PAI-1-Inhibitors-Longevity-2026.html</link>
@@ -140,13 +149,6 @@
       <link>https://longbiosci.com/news/Aging-Gene-Network-Multimorbidity-UK-Biobank-2026.html</link>
       <guid isPermaLink="true">https://longbiosci.com/news/Aging-Gene-Network-Multimorbidity-UK-Biobank-2026.html</guid>
       <description><![CDATA[UK Biobank 57种ARD网络分析揭示衰老基因双重架构：跨系统整合者 vs 疾病簇局部驱动者。]]></description>
-      <pubDate>Sun, 07 Jun 2026 12:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[蝙蝠长寿启示录：CLSV-6免疫型框架或可重塑人类健康衰老策略]]></title>
-      <link>https://longbiosci.com/news/Bat-Longevity-CLSV6-Immunotype-Healthy-Aging-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/Bat-Longevity-CLSV6-Immunotype-Healthy-Aging-2026.html</guid>
-      <description><![CDATA[蝙蝠超长寿命启发CLSV-6免疫型框架，整合六大保守机制，为人类健康衰老提供营养干预路线图。]]></description>
       <pubDate>Sun, 07 Jun 2026 12:00:00 GMT</pubDate>
     </item>
   </channel>
