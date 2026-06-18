@@ -1163,4 +1163,22 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://longbiosci.com/news/Nucleic-Acid-Mislocalization-Coagul-Aging-Review-2026.html</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Partial-Reprogramming-Funding-NewLimit-435M-RetroBio-2026.html</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Pragmatism-Preclinical-Aging-Research-NatureAging-2026.html</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
