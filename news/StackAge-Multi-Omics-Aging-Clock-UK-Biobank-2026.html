@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StackAge：整合30K样本的多组学生物年龄时钟——精准预测12种慢性病风险 - LongBiosci</title>
+    <meta name="description" content="StackAge是基于UK Biobank 30,376名参与者血浆蛋白组和代谢组数据构建的集成生物年龄时钟，与实际年龄相关性达r≈0.93，对2型糖尿病、阿尔茨海默病、慢性肾病的预测AUC超过0.90，为衰老量化工具提供新基准。">
+<link rel="canonical" href="https://longbiosci.com/news/StackAge-Multi-Omics-Aging-Clock-UK-Biobank-2026.html">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://longbiosci.com/news/StackAge-Multi-Omics-Aging-Clock-UK-Biobank-2026.html">
+    <meta property="og:title" content="StackAge：多组学生物年龄时钟精准预测12种慢性病">
+    <meta property="og:description" content="基于UK Biobank 30K样本的多组学生物年龄时钟，精准预测慢病风险。">
+    <meta property="og:image" content="https://longbiosci.com/logo.jpg">
+    <meta property="og:site_name" content="LongBiosci">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="StackAge：多组学生物年龄时钟精准预测12种慢性病">
+    <meta name="twitter:description" content="基于UK Biobank 30K样本的多组学生物年龄时钟，精准预测慢病风险。">
+    <meta name="twitter:image" content="https://longbiosci.com/logo.jpg">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="stylesheet" href="/style.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "url": "https://longbiosci.com/news/StackAge-Multi-Omics-Aging-Clock-UK-Biobank-2026.html",
+      "headline": "StackAge：整合30K样本的多组学生物年龄时钟",
+      "description": "StackAge是基于UK Biobank 30,376名参与者血浆蛋白组和代谢组数据构建的集成生物年龄时钟，与实际年龄相关性达r≈0.93。",
+      "image": "https://longbiosci.com/logo.jpg",
+      "author": { "@type": "Organization", "name": "LongBiosci" },
+      "datePublished": "2026-06-19",
+      "publisher": {
+        "@type": "Organization",
+        "name": "LongBiosci",
+        "url": "https://longbiosci.com",
+        "logo": { "@type": "ImageObject", "url": "https://longbiosci.com/logo.jpg", "width": 836, "height": 257 }
+      },
+      "inLanguage": "zh-CN"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "首页", "item": "https://longbiosci.com/" },
+        { "@type": "ListItem", "position": 2, "name": "新闻", "item": "https://longbiosci.com/news/" },
+        { "@type": "ListItem", "position": 3, "name": "StackAge多组学年龄时钟", "item": "https://longbiosci.com/news/StackAge-Multi-Omics-Aging-Clock-UK-Biobank-2026.html" }
+      ]
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/" class="logo">🧬 LongBiosci</a>
+            <div class="nav-links">
+                <a href="/">首页</a>
+                <a href="/news/">新闻</a>
+                <a href="/papers/">论文</a>
+                <a href="/companies/">公司</a>
+                <a href="/about.html">关于</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="article-container">
+        <nav class="breadcrumb" aria-label="面包屑导航">
+            <a href="/">首页</a> &gt; <a href="/news/">新闻</a> &gt; <span aria-current="page">StackAge多组学生物年龄时钟</span>
+        </nav>
+
+        <article>
+            <header class="article-header">
+                <span class="tag">工具方法</span>
+                <time datetime="2026-06-19">Fri, 19 Jun 2026</time>
+                <h1>StackAge：整合30K样本的多组学生物年龄时钟——精准预测12种慢性病风险</h1>
+                <p class="source">来源: <a href="https://doi.org/10.1093/bib/bbag271" target="_blank" rel="noopener noreferrer">Briefings in Bioinformatics</a> · <a href="https://www.fightaging.org/archives/2026/06/stackage-is-a-multi-omics-aging-clock/" target="_blank" rel="noopener noreferrer">Fight Aging!</a></p>
+            </header>
+
+            <div class="article-content">
+                <h2>为什么需要新的生物年龄时钟？</h2>
+                <p>生物年龄时钟（biological age clock）是衰老的量化工具，通过测量生理指标来推断个体的"内在衰老速度"。近年来新时钟层出不穷，但核心问题始终未解：<strong>这些时钟能否准确反映实际干预（如修复衰老损伤）的效果？</strong></p>
+                <p>当前多数时钟从流行病学数据中逆向推导，用机器学习拟合年龄与各项组学特征的关系，但缺乏与具体干预效果的直接验证。此外，大多数时钟仅使用单一组学数据，限制了它们对多种年龄相关疾病的预测能力。</p>
+                <p>StackAge的出现在于此：它整合了大规模、多维度的组学数据，构建了一个更robust的生物年龄量化框架。</p>
+
+                <h2>StackAge方法：基于UK Biobank的大规模集成模型</h2>
+                <p>研究团队整合了UK Biobank中30,376名参与者的血浆<strong>蛋白组</strong>和<strong>代谢组</strong>数据，构建了StackAge——一种集成式生物年龄时钟。关键特征：</p>
+                <ul>
+                    <li>基于<strong>30,376人</strong>的大规模队列，数据规模属同类研究中领先水平</li>
+                    <li>同时纳入<strong>蛋白组 + 代谢组</strong>双组学数据，信息维度更丰富</li>
+                    <li>采用<strong>集成学习</strong>（ensemble）方法，提升预测稳健性</li>
+                    <li>可输出个体化<strong>衰老速率估计值</strong>（estimated aging rate）</li>
+                </ul>
+
+                <h2>核心结果</h2>
+                <h3>年龄预测精度极高</h3>
+                <p>StackAge与实际年龄的Pearson相关系数达到 <strong>r ≈ 0.93</strong>，说明其对个体生物年龄的量化能力非常强。</p>
+
+                <h3>12种慢性病风险精准预测</h3>
+                <p>将衰老速率估计值纳入风险预测模型后，StackAge对12种慢性病的预测能力大幅提升：</p>
+                <ul>
+                    <li><strong>AUC > 0.90</strong>（超强预测力）：2型糖尿病、阿尔茨海默病、慢性肾病</li>
+                    <li>其余疾病风险预测也均有显著改善</li>
+                    <li>这一表现<strong>优于传统组学或人口统计学特征</strong>单独使用时的预测能力</li>
+                </ul>
+
+                <h3>关键机制通路：炎症、代谢应激与细胞外基质重塑</h3>
+                <p>特征重要性分析（Feature interpretation）和通路富集分析揭示，StackAge捕捉到的生物衰老标志集中在三大通路：</p>
+                <ul>
+                    <li><strong>炎症</strong>：慢性低度炎症是衰老的核心驱动因素，StackAge的蛋白/代谢特征大量富集于此</li>
+                    <li><strong>代谢应激</strong>：代谢通路紊乱与衰老加速密切相关</li>
+                    <li><strong>细胞外基质（ECM）重塑</strong>：ECM完整性下降是组织衰老的重要标志</li>
+                </ul>
+
+                <h3>生活方式加速生物衰老</h3>
+                <p>中介分析（mediation analysis）进一步表明，可改变的生活方式因素（如饮食、运动等）会通过加速生物衰老，间接增加心血管、神经、免疫及肌肉骨骼系统疾病的发病风险——这为<strong>生活方式干预延缓衰老</strong>提供了组学层面的量化证据。</p>
+
+                <h2>研究意义</h2>
+                <ul>
+                    <li>确立了<strong>多组学集成策略</strong>在生物年龄量化中的优势地位</li>
+                    <li>生物年龄（而非单纯时序年龄）可作为<strong>临床可操作的健康指标</strong>，指导个性化疾病预防</li>
+                    <li>衰老速率估计值作为协变量纳入疾病风险模型，显著提升预测能力——为精准预防医学提供了新工具</li>
+                    <li>揭示了生活方式→加速生物衰老→增加多系统疾病风险的因果链条</li>
+                </ul>
+
+                <h2>局限与挑战</h2>
+                <p>与所有基于UK Biobank的数据集一样，研究结论需要在更年轻、更多样化的人群中进行验证。此外，StackAge尚未与具体抗衰老干预（如Senolytics、二甲双胍等）直接挂钩——这是所有生物年龄时钟面临的共同难题：<strong>量化衰老容易，证明干预有效难</strong>。</p>
+
+                <h2>原文链接</h2>
+                <p><a href="https://doi.org/10.1093/bib/bbag271" target="_blank" rel="noopener noreferrer">阅读原文（Briefings in Bioinformatics）→</a></p>
+                <p><a href="https://www.fightaging.org/archives/2026/06/stackage-is-a-multi-omics-aging-clock/" target="_blank" rel="noopener noreferrer">阅读Fight Aging!评论→</a></p>
+            </div>
+
+            <footer class="article-footer">
+                <a href="/news/" class="back-link">← 返回新闻列表</a>
+            </footer>
+        </article>
+    </main>
+
+    <footer>
+        <p>© 2026 LongBiosci · 抗衰老科学研究</p>
+    </footer>
+</body>
+</html>
