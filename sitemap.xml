@@ -1189,19 +1189,19 @@
   </url>
   <url>
     <loc>https://longbiosci.com/news/DNA-Methylation-Clock-Socioeconomic-Mortality-2026.html</loc>
-    <lastmod>2026-06-18</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://longbiosci.com/news/DNA-Methylation-Clock-Epigenetic-Progeria-2026.html</loc>
-    <lastmod>2026-06-18</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://longbiosci.com/news/BMAL1-Macrophage-Inflammation-Carcinogenesis-2026.html</loc>
-    <lastmod>2026-06-18</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1211,6 +1211,19 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://longbiosci.com/news/sc-ChromAging-Single-Cell-Chromatin-Aging-Clock-2026.html</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Exercise-Immune-Aging-Immunosenescence-2026.html</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 
   <url>
     <loc>https://longbiosci.com/news/StackAge-Multi-Omics-Aging-Clock-UK-Biobank-2026.html</loc>
