@@ -1078,7 +1078,7 @@
   </url>
   <url>
     <loc>https://longbiosci.com/news/index.html</loc>
-    <lastmod>2026-05-24</lastmod>
+    <lastmod>2026-06-27</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -1246,6 +1246,12 @@
   <url>
     <loc>https://longbiosci.com/news/Biological-Clocks-Life-Insurance-Underwriting-2026.html</loc>
     <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Blood-Metabolome-Brain-Health-Midlife-Nature-Aging-2026.html</loc>
+    <lastmod>2026-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
