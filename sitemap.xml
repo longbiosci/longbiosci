@@ -1078,7 +1078,7 @@
   </url>
   <url>
     <loc>https://longbiosci.com/news/index.html</loc>
-    <lastmod>2026-06-27</lastmod>
+    <lastmod>2026-06-28</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -1250,8 +1250,26 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://longbiosci.com/news/Epigenetic-Aging-Clock-Interventions-Systematic-Review-2026.html</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Partial-Reprogramming-Funding-Boom-2026.html</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Geromedicine-Trial-Hierarchical-Endpoints-Win-Statistics-2026.html</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://longbiosci.com/news/Blood-Metabolome-Brain-Health-Midlife-Nature-Aging-2026.html</loc>
-    <lastmod>2026-06-27</lastmod>
+    <lastmod>2026-06-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
