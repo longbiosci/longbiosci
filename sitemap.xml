@@ -1078,7 +1078,7 @@
   </url>
   <url>
     <loc>https://longbiosci.com/news/index.html</loc>
-    <lastmod>2026-06-28</lastmod>
+    <lastmod>2026-06-29</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -1264,6 +1264,12 @@
   <url>
     <loc>https://longbiosci.com/news/Geromedicine-Trial-Hierarchical-Endpoints-Win-Statistics-2026.html</loc>
     <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/DNA-R-Loop-Senescence-SASP-Nature-Aging-2026.html</loc>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
