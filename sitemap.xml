@@ -531,7 +531,12 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://longbiosci.com/news/IDOL-Enzyme-Alzheimers-Target-2026.html</loc>
+      <url>
+    <loc>https://longbiosci.com/news/IDOL-Enzyme-Alzheimer-IU-2026.html</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+  </url>
+<loc>https://longbiosci.com/news/IDOL-Enzyme-Alzheimers-Target-2026.html</loc>
     <lastmod>2026-05-22</lastmod>
     <priority>0.8</priority>
   </url>
@@ -706,7 +711,12 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://longbiosci.com/news/NYT-Altos-Labs-Cell-Rejuvenation-Longevity-2026.html</loc>
+      <url>
+    <loc>https://longbiosci.com/news/NOX4-Skeletal-Muscle-Exercise-Aging-2026.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <priority>0.8</priority>
+  </url>
+<loc>https://longbiosci.com/news/NYT-Altos-Labs-Cell-Rejuvenation-Longevity-2026.html</loc>
     <lastmod>2026-05-06</lastmod>
     <priority>0.8</priority>
   </url>
@@ -726,7 +736,12 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://longbiosci.com/news/Neuroectodermal-Aging-Primate-Longevity-2026.html</loc>
+      <url>
+    <loc>https://longbiosci.com/news/Nasal-Spray-Reversed-Brain-Aging-TAMU-2026.html</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.8</priority>
+  </url>
+<loc>https://longbiosci.com/news/Neuroectodermal-Aging-Primate-Longevity-2026.html</loc>
     <lastmod>2026-05-19</lastmod>
     <priority>0.8</priority>
   </url>
@@ -992,7 +1007,12 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://longbiosci.com/news/SynCav1-Gene-Therapy-TDP-43-2026.html</loc>
+      <url>
+    <loc>https://longbiosci.com/news/Stem-Cell-Rejuvenation-Age-Related-Degeneration-2026.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <priority>0.8</priority>
+  </url>
+<loc>https://longbiosci.com/news/SynCav1-Gene-Therapy-TDP-43-2026.html</loc>
     <lastmod>2026-06-02</lastmod>
     <priority>0.8</priority>
   </url>
@@ -1078,7 +1098,7 @@
   </url>
   <url>
     <loc>https://longbiosci.com/news/index.html</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
