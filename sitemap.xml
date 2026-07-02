@@ -497,6 +497,11 @@
   </url>
   <url>
     <loc>https://longbiosci.com/news/HMGB1-Exercise-Cardiovascular-Aging-Current-Research-2026.html</loc>
+  <url>
+    <loc>https://longbiosci.com/news/Global-Survey-Longevity-Attitudes-Nira-2026.html</loc>
+    <lastmod>2026-07-01</lastmod>
+    <priority>0.8</priority>
+  </url>
     <lastmod>2026-06-02</lastmod>
     <priority>0.8</priority>
   </url>
@@ -1098,7 +1103,7 @@
   </url>
   <url>
     <loc>https://longbiosci.com/news/index.html</loc>
-    <lastmod>2026-06-30</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -1300,6 +1305,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+  <url>
+    <loc>https://longbiosci.com/news/Cell-Type-Senescence-Signatures-Blood-Biomarker-2026.html</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
     <loc>https://longbiosci.com/news/Calico-Fosigotifator-FDA-BTD-VWM-2026.html</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>monthly</changefreq>
