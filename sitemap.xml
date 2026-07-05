@@ -1118,7 +1118,7 @@
   </url>
   <url>
     <loc>https://longbiosci.com/news/index.html</loc>
-    <lastmod>2026-07-02</lastmod>
+    <lastmod>2026-07-04</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -1194,6 +1194,13 @@
   <url>
     <loc>https://longbiosci.com/news/Intermittent-Hypoxia-Epigenetic-Age-Acceleration-2026.html</loc>
     <lastmod>2026-07-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Intermittent-Hypoxia-Epigenetic-Aging-Nature-Aging-2026.html</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
@@ -1325,12 +1332,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://longbiosci.com/news/Cell-Type-Senescence-Signatures-Blood-Aging-Clocks-2026.html</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://longbiosci.com/news/Cell-Type-Senescence-Signatures-Blood-Biomarker-2026.html</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
     <loc>https://longbiosci.com/news/Calico-Fosigotifator-FDA-BTD-VWM-2026.html</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>monthly</changefreq>
