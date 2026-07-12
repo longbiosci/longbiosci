@@ -288,6 +288,12 @@
   </ns0:url>
   <ns0:url>
     <ns0:loc>https://longbiosci.com/news/Blood-Mirror-Modulator-Aging-2026.html</ns0:loc>
+  <ns0:url>
+    <ns0:loc>https://longbiosci.com/news/BCG-Immunotherapy-CNS-Immunity-Alzheimer-Biomarkers-2026.html</ns0:loc>
+    <ns0:lastmod>2026-07-11</ns0:lastmod>
+    <ns0:changefreq>monthly</ns0:changefreq>
+    <ns0:priority>0.8</ns0:priority>
+  </ns0:url>
     <ns0:lastmod>2026-06-26</ns0:lastmod>
     <ns0:changefreq>monthly</ns0:changefreq>
     <ns0:priority>0.8</ns0:priority>
@@ -360,6 +366,12 @@
   </ns0:url>
   <ns0:url>
     <ns0:loc>https://longbiosci.com/news/Cellular-Senescence-Heterogeneity-Precision-Intervention-2026.html</ns0:loc>
+  <ns0:url>
+    <ns0:loc>https://longbiosci.com/news/Chronoferroptosis-Neuronal-Resilience-Iron-Aging-2026.html</ns0:loc>
+    <ns0:lastmod>2026-07-11</ns0:lastmod>
+    <ns0:changefreq>monthly</ns0:changefreq>
+    <ns0:priority>0.8</ns0:priority>
+  </ns0:url>
     <ns0:lastmod>2026-07-04</ns0:lastmod>
     <ns0:changefreq>monthly</ns0:changefreq>
     <ns0:priority>0.8</ns0:priority>
@@ -1501,7 +1513,7 @@
   </ns0:url>
   <ns0:url>
     <ns0:loc>https://longbiosci.com/news/index.html</ns0:loc>
-    <ns0:lastmod>2026-07-10</ns0:lastmod>
+    <ns0:lastmod>2026-07-11</ns0:lastmod>
     <ns0:priority>0.8</ns0:priority>
   </ns0:url>
   <ns0:url>
