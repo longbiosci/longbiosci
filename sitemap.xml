@@ -323,7 +323,13 @@
     <ns0:priority>0.8</ns0:priority>
   </ns0:url>
   <ns0:url>
-    <ns0:loc>https://longbiosci.com/news/Calico-Fosigotifator-FDA-BTD-VWM-2026.html</ns0:loc>
+      <ns0:url>
+    <ns0:loc>https://longbiosci.com/news/CSF-Turnover-Dysfunction-iRBD-Biomarker-2026.html</ns0:loc>
+    <ns0:lastmod>2026-07-12</ns0:lastmod>
+    <ns0:changefreq>monthly</ns0:changefreq>
+    <ns0:priority>0.8</ns0:priority>
+  </ns0:url>
+<ns0:loc>https://longbiosci.com/news/Calico-Fosigotifator-FDA-BTD-VWM-2026.html</ns0:loc>
     <ns0:lastmod>2026-03-23</ns0:lastmod>
     <ns0:changefreq>monthly</ns0:changefreq>
     <ns0:priority>0.8</ns0:priority>
@@ -1454,7 +1460,13 @@
     <ns0:priority>0.8</ns0:priority>
   </ns0:url>
   <ns0:url>
-    <ns0:loc>https://longbiosci.com/news/Transthyretin-Amyloidosis-Long-Term-Data.html</ns0:loc>
+      <ns0:url>
+    <ns0:loc>https://longbiosci.com/news/Trained-Immunity-Vaccines-Inflammaging-2026.html</ns0:loc>
+    <ns0:lastmod>2026-07-12</ns0:lastmod>
+    <ns0:changefreq>monthly</ns0:changefreq>
+    <ns0:priority>0.8</ns0:priority>
+  </ns0:url>
+<ns0:loc>https://longbiosci.com/news/Transthyretin-Amyloidosis-Long-Term-Data.html</ns0:loc>
     <ns0:lastmod>2026-03-30</ns0:lastmod>
     <ns0:changefreq>monthly</ns0:changefreq>
     <ns0:priority>0.8</ns0:priority>
@@ -1513,7 +1525,7 @@
   </ns0:url>
   <ns0:url>
     <ns0:loc>https://longbiosci.com/news/index.html</ns0:loc>
-    <ns0:lastmod>2026-07-11</ns0:lastmod>
+    <ns0:lastmod>2026-07-12</ns0:lastmod>
     <ns0:priority>0.8</ns0:priority>
   </ns0:url>
   <ns0:url>
