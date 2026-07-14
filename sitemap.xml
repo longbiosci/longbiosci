@@ -485,6 +485,12 @@
     <ns0:priority>0.8</ns0:priority>
   </ns0:url>
   <ns0:url>
+    <ns0:loc>https://longbiosci.com/news/DunedinPACE-Lifestyle-Intervention-RCT-2026.html</ns0:loc>
+    <ns0:lastmod>2026-07-13</ns0:lastmod>
+    <ns0:changefreq>monthly</ns0:changefreq>
+    <ns0:priority>0.8</ns0:priority>
+  </ns0:url>
+  <ns0:url>
     <ns0:loc>https://longbiosci.com/news/ECM-Aging-Senescence-Circuit-Nature-Aging-2026.html</ns0:loc>
     <ns0:lastmod>2026-05-11</ns0:lastmod>
     <ns0:changefreq>monthly</ns0:changefreq>
@@ -865,6 +871,12 @@
   <ns0:url>
     <ns0:loc>https://longbiosci.com/news/LATS1-2-CD38-Endothelial-Senescence-Atherothrombosis-2026.html</ns0:loc>
     <ns0:lastmod>2026-07-04</ns0:lastmod>
+    <ns0:changefreq>monthly</ns0:changefreq>
+    <ns0:priority>0.8</ns0:priority>
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://longbiosci.com/news/LAV-BPIFB4-Platelet-CD47-Immune-Resilience-2026.html</ns0:loc>
+    <ns0:lastmod>2026-07-13</ns0:lastmod>
     <ns0:changefreq>monthly</ns0:changefreq>
     <ns0:priority>0.8</ns0:priority>
   </ns0:url>
@@ -1525,7 +1537,7 @@
   </ns0:url>
   <ns0:url>
     <ns0:loc>https://longbiosci.com/news/index.html</ns0:loc>
-    <ns0:lastmod>2026-07-12</ns0:lastmod>
+    <ns0:lastmod>2026-07-13</ns0:lastmod>
     <ns0:priority>0.8</ns0:priority>
   </ns0:url>
   <ns0:url>
