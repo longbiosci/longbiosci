@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://longbiosci.com/news/7-Ketocholesterol-Derivatives-Pathophysiology.html</loc><lastmod>2026-04-05</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
 <url><loc>https://longbiosci.com/news/AAV-FGF21-Gene-Therapy-Healthspan-Lifespan-2026.html</loc><lastmod>2025-01-01</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
@@ -42,7 +42,7 @@
 <url><loc>https://longbiosci.com/news/Cave-Organisms-Longevity-Troglobionts-2026.html</loc><lastmod>2026-07-19</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://longbiosci.com/news/Celastrol-Exercise-Mimetic-Longevity-2026.html</loc><lastmod>2026-05-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://longbiosci.com/news/Cell-Senescence-Biological-Complexity-Nature-Reviews-2026.html</loc><lastmod>2026-06-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-<url><loc>https://longbiosci.com/news/Cell-Type-Senescence-Signatures-Blood-Aging-Clocks-2026.html</loc>
+<url><loc>https://longbiosci.com/news/Cell-Type-Senescence-Signatures-Blood-Aging-Clocks-2026.html</loc><lastmod>2026-07-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://longbiosci.com/news/CMLase-Enzyme-Breaks-Down-CML-AGEs-Nature-Communications-2026.html</loc><lastmod>2026-07-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://longbiosci.com/news/Cell-Type-Senescence-Signatures-Blood-Biomarker-2026.html</loc><lastmod>2026-05-12</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://longbiosci.com/news/Cellino-appoints-Ed-Tekeian-as.html</loc><lastmod>2026-04-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -100,6 +100,7 @@
 <url><loc>https://longbiosci.com/news/Granzyme-K-Aged-CD8-T-cells-Cognitive-Decline-2026.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://longbiosci.com/news/Gut-Brain-Axis-Neurodegenerative-Diseases.html</loc><lastmod>2026-07-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://longbiosci.com/news/Gut-Exosome-Aging-Microbiome-2026.html</loc><lastmod>2026-04-11</lastmod><priority>0.8</priority></url>
+<url><loc>https://longbiosci.com/news/GPR40-Agonist-GW9508-Thymus-Regeneration-2026.html</loc><lastmod>2026-07-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://longbiosci.com/news/Gut-Microbiome-EpiBiome-Epigenetic-Aging-2026.html</loc><lastmod>2026-07-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://longbiosci.com/news/Gut-Microbiome-Neurodegenerative-Treatment.html</loc><lastmod>2026-06-02</lastmod><priority>0.8</priority></url>
 <url><loc>https://longbiosci.com/news/Gut-Microbiota-Glutamic-Acid-Oocyte-Rejuvenation-2026.html</loc><lastmod>2026-03-31</lastmod><priority>0.8</priority></url>
@@ -166,11 +167,7 @@
 <url><loc>https://longbiosci.com/news/NIA-ITP-11-Compounds-No-Lifespan-Extension-2026.html</loc><lastmod>2026-04-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://longbiosci.com/news/NIA-ITP-Compounds-No-Lifespan-Extension-2026.html</loc><lastmod>2026-04-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://longbiosci.com/news/NIH-SenNet-Human-Senescence-Atlas-2026.html</loc><lastmod>2026-03-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-<url>  <url>
-    <loc>https://longbiosci.com/news/NMJ-Failure-Sarcopenia-ClC-1-Inhibition-2026.html</loc>
-    <lastmod>2026-07-20</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
+<url><loc>https://longbiosci.com/news/NMJ-Failure-Sarcopenia-ClC-1-Inhibition-2026.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://longbiosci.com/news/NOX4-Skeletal-Muscle-Exercise-Aging-2026.html</loc><lastmod>2026-04-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://longbiosci.com/news/NYT-Altos-Labs-Cell-Rejuvenation-Longevity-2026.html</loc><lastmod>2026-04-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://longbiosci.com/news/Naked-Mole-Rat-Microbiome-Healthy-Aging-2026.html</loc><lastmod>2026-06-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -190,7 +187,7 @@
 <url><loc>https://longbiosci.com/news/Oxidized-LDL-Cerebrovascular-Aging.html</loc><lastmod>2026-05-13</lastmod><priority>0.8</priority></url>
 <url><loc>https://longbiosci.com/news/Oxygen-Sensing-Limb-Regeneration-2026.html</loc><lastmod>2026-04-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://longbiosci.com/news/Oxygen-Sensing-Limb-Regeneration-HIF1A-2026.html</loc><lastmod>2026-05-02</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-<url><url><loc>https://longbiosci.com/news/P-Tau217-Cognitive-Impairment-Prediction-2026.html</loc><lastmod>2026-07-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://longbiosci.com/news/P-Tau217-Cognitive-Impairment-Prediction-2026.html</loc><lastmod>2026-07-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://longbiosci.com/news/PANoptosis-Cardiac-Aging-Review-2026.html</loc><lastmod>2026-04-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://longbiosci.com/news/PEPITEM-Autoimmune-Arthritis-2026.html</loc><lastmod>2026-04-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://longbiosci.com/news/PM20D1-N-oleoyl-Leucine-Microglia-Alzheimer-2026.html</loc><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -265,7 +262,7 @@
 <url><loc>https://longbiosci.com/news/Treatment-of-Aging-Will-Requir.html</loc><lastmod>2026-06-09</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://longbiosci.com/news/Universal-Transcriptomic-Hallmarks-Mammalian-Aging-Mortality-2026.html</loc><lastmod>2026-06-12</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://longbiosci.com/news/Vitamin-C-Brain-Aging-Default-Mode-Network-PLOS-2026.html</loc><lastmod>2026-04-09</lastmod><priority>0.8</priority></url>
-<url><url><loc>https://longbiosci.com/news/WHO-Intrinsic-Capacity-Health-Measurement-2026.html</loc><lastmod>2026-07-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://longbiosci.com/news/WHO-Intrinsic-Capacity-Health-Measurement-2026.html</loc><lastmod>2026-07-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://longbiosci.com/news/White-Adipose-Atrophy-Accelerates-Aging-Male-2026.html</loc><lastmod>2026-05-28</lastmod><priority>0.8</priority></url>
 <url><loc>https://longbiosci.com/news/Young-Plasma-Exchange-Cognitive-Impairment-Pilot-2026.html</loc><lastmod>2026-07-03</lastmod><priority>0.8</priority></url>
 <url><loc>https://longbiosci.com/news/cGAS-STING-Neuroinflammation-Therapeutic-Target-2026.html</loc><lastmod>2026-04-24</lastmod><priority>0.8</priority></url>
