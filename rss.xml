@@ -1,10 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss version="2.0">
 <channel>
-<link>https://longbiosci.com/rss.xml</link>
+  <item><title>SORLA蛋白上调减轻tau病理：为阿尔茨海默病神经保护提供新靶点 - LongBiosci</title><link>https://longbiosci.com/news/SORLA-Upregulation-Tau-Pathology-Neuroprotection-2026.html</link><description><![CDATA[Science Advances发表研究：上调SORLA蛋白表达可减轻tau磷酸化和播种、恢复突触可塑性、减轻神经胶质过度活化，为阿尔茨海默病神经保护提供新靶点。]]></description><pubDate>Sun, 26 Jul 2026 18:00:00 +0800</pubDate><guid>https://longbiosci.com/news/SORLA-Upregulation-Tau-Pathology-Neuroprotection-2026.html</guid></item>
+  <item><title>衰老形态调节剂：靶向SASP多通路策略实现健康衰老——Experimental Gerontology 2026 - LongBiosci</title><link>https://longbiosci.com/news/Senomorphic-Agents-Multi-Target-SASP-Healthy-Aging-2026.html</link><description><![CDATA[2026年7月发表于Experimental Gerontology的系统综述，系统梳理衰老形态调节剂（Senomorphic agents）通过调控SASP实现健康衰老的靶点策略与临床转化前景。]]></description><pubDate>Sun, 26 Jul 2026 12:00:00 +0800</pubDate><guid>https://longbiosci.com/news/Senomorphic-Agents-Multi-Target-SASP-Healthy-Aging-2026.html</guid></item>
+  <link>https://longbiosci.com/rss.xml</link>
 <description>LongBiosci - 长寿科技前沿</description>
 <language>zh-CN</language>
-<lastBuildDate>Sat, 25 Jul 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 26 Jul 2026 18:00:00 +0800</lastBuildDate>
 <item><title>GPR40小分子激动剂GW9508：胸腺再生抗衰老新策略 - LongBiosci</title><link>https://longbiosci.com/news/GPR40-Agonist-GW9508-Thymus-Regeneration-2026.html</link><description><![CDATA[最新研究首次发现，GPR40选择性激动剂GW9508可通过激活AMPK并抑制ERK1/2-MAPK通路，恢复老年小鼠胸腺结构和功能，为逆转免疫衰老提供了一条全新的小分子药物路径。]]></description><pubDate>Sat, 25 Jul 2026 12:00:00 +0800</pubDate><guid>https://longbiosci.com/news/GPR40-Agonist-GW9508-Thymus-Regeneration-2026.html</guid></item>
 <item><title>核转运蛋白：衰老生物学的核心统一机制——Aging Cell 2026视角 - LongBiosci</title><link>https://longbiosci.com/news/Karyopherins-Central-Regulators-Aging-AgingCell-2026.html</link><description><![CDATA[2026年发表于Aging Cell的视角文章提出：核转运蛋白（karyopherins）的年龄依赖性功能障碍是连接蛋白质稳态崩溃、基因调控失调和年龄相关疾病的关键统一机制，应将其重新定位为衰老生物学的核心。]]></description><pubDate>Fri, 24 Jul 2026 12:00:00 +0800</pubDate><guid>https://longbiosci.com/news/Karyopherins-Central-Regulators-Aging-AgingCell-2026.html</guid></item>
 <item><title>肠道微生物组EpiBiome模型：精准预测表观遗传衰老速度——Nature Aging 2026 - LongBiosci</title><link>https://longbiosci.com/news/Gut-Microbiome-EpiBiome-Epigenetic-Aging-2026.html</link><description><![CDATA[科学家开发出基于肠道微生物组的表观遗传年龄预测模型EpiBiome，整合宏基因组、功能通路和表观遗传数据，实现超越传统表观遗传时钟的预测精度，为抗衰老干预效果评估提供新工具。]]></description><pubDate>Thu, 23 Jul 2026 12:00:00 +0800</pubDate><guid>https://longbiosci.com/news/Gut-Microbiome-EpiBiome-Epigenetic-Aging-2026.html</guid></item>
@@ -23,7 +25,5 @@
 <item><title>长寿产业成熟阶段：从"炒作周期"到"机制驱动"——文献计量学综述 2026 - LongBiosci</title><link>https://longbiosci.com/news/Longevity-Industry-Matures-Bibliometric-Review-2026.html</link><description><![CDATA[]]></description><pubDate>Sat, 17 Jul 2026 12:00:00 +0800</pubDate><guid>https://longbiosci.com/news/Longevity-Industry-Matures-Bibliometric-Review-2026.html</guid></item>
 <item><title>营养干预调节人体细胞衰老：29项临床研究的系统评价</title><link>https://longbiosci.com/news/Nutritional-Interventions-Cellular-Senescence-Human-Studies-2026.html</link><description><![CDATA[]]></description><pubDate>Thu, 16 Jul 2026 18:06:13 +0800</pubDate><guid>https://longbiosci.com/news/Nutritional-Interventions-Cellular-Senescence-Human-Studies-2026.html</guid></item>
 <item><title>表观遗传时钟纵向变化预测死亡风险：InCHIANTI队列24年追踪研究</title><link>https://longbiosci.com/news/Longitudinal-Epigenetic-Clock-InCHIANTI-Mortality-2026.html</link><description><![CDATA[]]></description><pubDate>Thu, 16 Jul 2026 12:04:20 +0800</pubDate><guid>https://longbiosci.com/news/Longitudinal-Epigenetic-Clock-InCHIANTI-Mortality-2026.html</guid></item>
-<item><title>系统重校 + 表观重编程：抗衰老双靶点协同策略</title><link>https://longbiosci.com/news/Systemic-Recalibration-Epigenetic-Resetting-Longevity-2026.html</link><description><![CDATA[]]></description><pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate><guid>https://longbiosci.com/news/Systemic-Recalibration-Epigenetic-Resetting-Longevity-2026.html</guid></item>
-<item><title>全身系统重置与表观遗传重编程：协同抗衰老双轴干预新框架——Ageing Research Reviews 2026</title><link>https://longbiosci.com/news/Systemic-Recalibration-Epigenetic-Reprogramming-Combination-2026.html</link><description><![CDATA[]]></description><pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate><guid>https://longbiosci.com/news/Systemic-Recalibration-Epigenetic-Reprogramming-Combination-2026.html</guid></item>
 </channel>
 </rss>
