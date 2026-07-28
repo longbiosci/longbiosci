@@ -1,3 +1,12 @@
+# 长寿科技最新资讯 · 2026-07-28
+
+1. **小分子 TGN-073 激活 AQP4 增强脑类淋巴功能，减轻 tau 病理与神经退行性变**
+   - 来源: Molecular Neurodegeneration | 日期: 2026-07-18（论文）/ 2026-07-28（报道）
+   - 链接: https://doi.org/10.1186/s13024-026-00977-7
+   - 本地: /news/AQP4-TGN073-Glymphatic-Tau-Pathology-MolNeurodegener-2026.html
+   - 核心发现：PS19 tau 转基因小鼠中，AQP4 激活剂 TGN-073 增强脑类淋巴功能、恢复血管周围 AQP4 组织架构，显著减少 tau 积累和神经退行性变；AQP4 缺失鼠中效果完全消失，证实靶点特异性。
+
+---
 # 长寿科技最新资讯 · 2026-06-21
 
 1. **David Sinclair 公布口服化学重编程候选药物 SL-100：剑指 XPrize $1.01 亿健康跨度大奖**
