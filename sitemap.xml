@@ -91,56 +91,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://longbiosci.com/nmn.html</loc>
-    <lastmod>2026-04-05</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/papers/index.html</loc>
-    <lastmod>2026-04-05</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/rapamycin.html</loc>
-    <lastmod>2026-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/research/index.html</loc>
-    <lastmod>2026-04-05</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/senolytic.html</loc>
-    <lastmod>2026-03-11</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/spermidine.html</loc>
-    <lastmod>2026-04-05</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/stemcell.html</loc>
-    <lastmod>2026-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/telomere.html</loc>
-    <lastmod>2026-04-05</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/trials.html</loc>
-    <lastmod>2026-04-05</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/zh/index.html</loc>
-    <lastmod>2026-04-05</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://longbiosci.com/news/7-Ketocholesterol-Derivatives-Pathophysiology.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
@@ -525,7 +475,7 @@
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
   </url>
-  <url>
+  <url><loc>https://longbiosci.com/news/EP2-Macrophage-Senescent-Neutrophils-Organ-Aging-Science-2026.html</loc><lastmod>2026-08-01</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url><url>
     <loc>https://longbiosci.com/news/Electrical-Pulses-Reverse-Aging-Sea-Squirts-Stanford-2026.html</loc>
     <lastmod>2026-05-09</lastmod>
     <changefreq>monthly</changefreq>
@@ -910,12 +860,12 @@
     <lastmod>2026-07-18</lastmod>
     <changefreq>monthly</changefreq>
   </url>
-  <url>
+  <url><loc>https://longbiosci.com/news/MEK-T-Cell-Exhaustion-Immunotherapy-MS%20KCC-2026.html</loc><lastmod>2026-07-31</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url><url>
     <loc>https://longbiosci.com/news/MG53-Muscle-Stem-Cell-Activation.html</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>monthly</changefreq>
   </url>
-  <url><loc>https://longbiosci.com/news/MEK-T-Cell-Exhaustion-Immunotherapy-MS%20KCC-2026.html</loc><lastmod>2026-07-31</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url><url>
+  <url>
     <loc>https://longbiosci.com/news/Macrophage-Gene-Cartilage-Regeneration-Aging.html</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>monthly</changefreq>
@@ -1096,12 +1046,6 @@
     <changefreq>monthly</changefreq>
   </url>
     <url>
-        <loc>https://longbiosci.com/news/PFAS-Forever-Chemicals-Epigenetic-Aging-Frontiers-2026.html</loc>
-        <lastmod>2026-07-30</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-  <url>
     <loc>https://longbiosci.com/news/P-Tau217-Cognitive-Impairment-Prediction-2026.html</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>monthly</changefreq>
@@ -1116,6 +1060,12 @@
     <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
+  <url>
+        <loc>https://longbiosci.com/news/PFAS-Forever-Chemicals-Epigenetic-Aging-Frontiers-2026.html</loc>
+        <lastmod>2026-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
   <url>
     <loc>https://longbiosci.com/news/PM20D1-N-oleoyl-Leucine-Microglia-Alzheimer-2026.html</loc>
     <lastmod>2026-06-15</lastmod>
@@ -1351,7 +1301,7 @@
     <lastmod>2026-06-20</lastmod>
     <changefreq>monthly</changefreq>
   </url>
-  <url>
+  <url><loc>https://longbiosci.com/news/Senotype-Framework-Cellular-Senescence-Nature-Aging-2026.html</loc><lastmod>2026-08-01</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url><url>
     <loc>https://longbiosci.com/news/Sentcell-Immune-Rejuvenation-Senescent-T-Cells-Phase1-2026.html</loc>
     <lastmod>2026-06-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -1571,4 +1521,54 @@
     <lastmod>2026-03-17</lastmod>
     <changefreq>monthly</changefreq>
   </url>
-</urlset>
+<url>
+    <loc>https://longbiosci.com/nmn.html</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/papers/index.html</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/rapamycin.html</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/research/index.html</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/senolytic.html</loc>
+    <lastmod>2026-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/spermidine.html</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/stemcell.html</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/telomere.html</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/trials.html</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/zh/index.html</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  </urlset>
