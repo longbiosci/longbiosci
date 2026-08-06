@@ -392,12 +392,18 @@
   </url>
   <url>
     <loc>https://longbiosci.com/news/DNA-R-Loop-Senescence-SASP-Nature-Aging-2026.html</loc>
-    <url>
-      <loc>https://longbiosci.com/news/Diranersen-Tau-Alzheimer-Biogen-Phase2-2026.html</loc>
-      <lastmod>2026-08-03</lastmod>
-    </url>
     <lastmod>2026-05-24</lastmod>
     <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/DMA-Senolytic-Navitoclax-Metformin-Dichloroacetate-2026.html</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Diranersen-Tau-Alzheimer-Biogen-Phase2-2026.html</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://longbiosci.com/news/DQ-Senolytic-Multi-Omics-Kidney-Rejuvenation-2026.html</loc>
@@ -1119,6 +1125,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://longbiosci.com/news/PhenoAge-Surgery-Mortality-Biological-Aging-2026.html</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://longbiosci.com/news/Phosphatidylcholine-Mitochondrial-Aging-Nature-2026.html</loc>
     <lastmod>2026-05-16</lastmod>
     <changefreq>monthly</changefreq>
@@ -1501,7 +1512,7 @@
   </url>
   <url>
     <loc>https://longbiosci.com/news/index.html</loc>
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
