@@ -5,10 +5,24 @@
     <link>https://longbiosci.com</link>
     <description>最新长寿科技、生物医药、抗衰老技术研究文献速递</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 08 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://longbiosci.com/rss.xml" rel="self" type="application/rss+xml"/>
   
   
+  <item>
+    <title><![CDATA[代谢组学揭示5大延寿手段共同机制：UMHET3小鼠研究2026]]></title>
+    <link>https://longbiosci.com/news/Metabolomics-5-Longevity-Interventions-UMHET3-Mice-2026.html</link>
+    <guid isPermaLink="true">https://longbiosci.com/news/Metabolomics-5-Longevity-Interventions-UMHET3-Mice-2026.html</guid>
+    <pubDate>Sun, 09 Aug 2026 00:00:00 +0800</pubDate>
+    <description><![CDATA[西班牙CNIC研究团队揭示5大延寿手段（运动、减少热量、蛋氨酸限制、雷帕霉素、恢复NAD+）通过代谢重编程协同延长寿命的共同机制。UMHET3小鼠全代谢组学研究。]]></description>
+  </item>
+  <item>
+    <title><![CDATA[低T3综合征或为进化延寿策略：Cureus研究]]></title>
+    <link>https://longbiosci.com/news/Non-Thyroidal-Illness-Syndrome-Longevity-Cureus-2026.html</link>
+    <guid isPermaLink="true">https://longbiosci.com/news/Non-Thyroidal-Illness-Syndrome-Longevity-Cureus-2026.html</guid>
+    <pubDate>Sun, 09 Aug 2026 00:00:00 +0800</pubDate>
+    <description><![CDATA[Cureus研究综述：非甲状腺疾病综合征（低T3综合征）可能是生物体在应激条件下的主动代谢适应策略，通过降低代谢率延长寿命。]]></description>
+  </item>
   <item>
         <title><![CDATA[首次系统定义！蛋白质限制延缓衰老的七大标志特征]]></title>
         <link>https://longbiosci.com/news/Protein-Restriction-Hallmarks-Aging-Review-2026.html</link>
@@ -153,20 +167,6 @@
     <description><![CDATA[日本研究团队在PS19 tau转基因小鼠中证实，小分子化合物TGN-073通过激活水通道蛋白4（AQP4）增强脑类淋巴功能，可显著减轻tau蛋白积累、神经元丢失和神经胶质增生。Molecular Neurodegeneration 2026]]></description>
     </item>
 
-  <item>
-        <title><![CDATA[小分子GPR40激动剂GW9508恢复老年小鼠胸腺功能——Aging Cell 2026 - LongBiosci]]></title>
-    <link>https://longbiosci.com/news/GPR40-Agonist-Thymic-Regeneration-Aging-2026.html</link>
-    <guid isPermaLink="true">https://longbiosci.com/news/GPR40-Agonist-Thymic-Regeneration-Aging-2026.html</guid>
-    <pubDate>Mon, 27 Jul 2026 12:00:00 +0800</pubDate>
-    <description><![CDATA[2026年7月发表于Aging Cell的新研究系统阐释了GPR40小分子激动剂的胸腺再生抗衰老机制。GPR40通过AMPK激活和ERK1/2-MAPK通路抑制，恢复老年小鼠胸腺结构和功能，为逆转免疫衰老提供了全新的小分子药物路径。]]></description>
-    </item>
-
-  <item>
-        <title><![CDATA[SORLA蛋白上调减轻tau病理：为阿尔茨海默病神经保护提供新靶点 - LongBiosci]]></title>
-    <link>https://longbiosci.com/news/SORLA-Upregulation-Tau-Pathology-Neuroprotection-2026.html</link>
-    <guid isPermaLink="true">https://longbiosci.com/news/SORLA-Upregulation-Tau-Pathology-Neuroprotection-2026.html</guid>
-    <pubDate>Sun, 26 Jul 2026 18:00:00 +0800</pubDate>
-    <description><![CDATA[Science Advances发表研究：上调SORLA蛋白表达可减轻tau磷酸化和播种、恢复突触可塑性、减轻神经胶质过度活化，为阿尔茨海默病神经保护提供新靶点。]]></description>
-    </item>
+  
   </channel>
 </rss>
