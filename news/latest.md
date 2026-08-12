@@ -1,3 +1,12 @@
+# 长寿科技最新资讯 · 2026-08-12
+
+1. **短效抗PD-L1抗体IBC-Ab002用于阿尔茨海默病Phase 1b安全性良好，30mg/kg组脑脊液神经退行性标志物改善——Nature Medicine 2026**
+   - 来源: Nature Medicine | 日期: 2026-08-11（论文发表）/ 2026-08-12（Fight Aging! 报道）
+   - 链接: https://doi.org/10.1038/s41591-026-04547-8
+   - 本地: /news/Anti-PD-L1-IBC-Ab002-Alzheimer-Phase1b-Nature-Medicine-2026.html
+   - 核心发现：IBC-Ab002为Fc沉默短效抗PD-L1抗体，在40名早期AD患者Phase 1b试验中安全性耐受性良好，无ARIA；30mg/kg组脑脊液神经元及突触损伤标志物呈改善方向，但样本量有限未达统计显著性；这是PD-L1靶向神经免疫策略的首次人体验证，支持进一步临床开发。
+
+---
 # 长寿科技最新资讯 · 2026-08-11
 
 1. **靶向抑制端粒DNA损伤反应（tDDR）恢复造血功能——Nature Aging 2026**
