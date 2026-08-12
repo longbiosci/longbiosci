@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
+<rss version="2.0">
   <channel>
     <title>LongBiosci - 长寿科技文献速递</title>
     <link>https://longbiosci.com</link>
     <description>最新长寿科技、生物医药、抗衰老技术研究文献速递</description>
     <language>zh-CN</language>
-    <item><title>百岁老人肠道中的 Clostridium scindens：或可通过其代谢产物 IAA 延缓肠道衰老</title><link>https://longbiosci.com/news/Clostridium-Scindens-Centos-Gut-IAA-2026.html</link><description>新研究通过共现网络分析发现，百岁老人肠道中富集 Clostridium scindens，该菌产生的吲哚-3-乙酸（IAA）可通过激活芳香烃受体（AhR）信号恢复肠道屏障功能，为延缓肠道衰老提供新思路。</description><pubDate>Mon, 10 Aug 2026 08:00:00 GMT</pubDate><guid isPermaLink="true">https://longbiosci.com/news/Clostridium-Scindens-Centos-Gut-IAA-2026.html</guid><author>LongBiosci</author></item><lastBuildDate>Sun, 09 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 08:00:00 GMT</lastBuildDate>
     <link href="https://longbiosci.com/rss.xml" rel="self" type="application/rss+xml" />
   
   
-  <item>
+  <item><title>靶向端粒DNA损伤反应改善造血衰老——Nature Aging 2026</title><link>https://longbiosci.com/news/tDDR-Telomere-Hematopoietic-Aging-2026.html</link><description>Nature Aging 2026最新研究，靶向端粒DNA损伤反应改善造血干细胞衰老。</description><pubDate>Tue, 11 Aug 2026 08:00:00 GMT</pubDate><guid isPermaLink="true">https://longbiosci.com/news/tDDR-Telomere-Hematopoietic-Aging-2026.html</guid></item><item><title>靶向端粒DNA损伤反应恢复造血功能：新型反义寡核苷酸策略离临床更近一步</title><link>https://longbiosci.com/news/tDDR-Inhibition-Hematopoietic-Aging-Nature-Aging-2026.html</link><description>新型反义寡核苷酸（tASO）靶向抑制tDDR，恢复衰老造血干细胞功能，为端粒疾病治疗提供新策略。</description><pubDate>Tue, 11 Aug 2026 08:00:00 GMT</pubDate><guid isPermaLink="true">https://longbiosci.com/news/tDDR-Inhibition-Hematopoietic-Aging-Nature-Aging-2026.html</guid></item><item><title>百岁老人肠道中的 Clostridium scindens：或可通过其代谢产物 IAA 延缓肠道衰老</title><link>https://longbiosci.com/news/Clostridium-Scindens-Centos-Gut-IAA-2026.html</link><description>新研究通过共现网络分析发现，百岁老人肠道中富集 Clostridium scindens，该菌产生的吲哚-3-乙酸（IAA）可通过激活芳香烃受体（AhR）信号恢复肠道屏障功能，为延缓肠道衰老提供新思路。</description><pubDate>Mon, 10 Aug 2026 08:00:00 GMT</pubDate><guid isPermaLink="true">https://longbiosci.com/news/Clostridium-Scindens-Centos-Gut-IAA-2026.html</guid><author>LongBiosci</author></item><item>
     <title>代谢组学揭示5大延寿手段共同机制：UMHET3小鼠研究2026</title>
     <link>https://longbiosci.com/news/Metabolomics-5-Longevity-Interventions-UMHET3-Mice-2026.html</link>
     <guid isPermaLink="true">https://longbiosci.com/news/Metabolomics-5-Longevity-Interventions-UMHET3-Mice-2026.html</guid>
@@ -141,22 +141,6 @@
     <guid isPermaLink="true">https://longbiosci.com/news/MEK-T-Cell-Exhaustion-Immunotherapy-MS%20KCC-2026.html</guid>
     <pubDate>Fri, 31 Jul 2026 08:00:00 GMT</pubDate>
     <description>MSKCC研究揭示MEK信号分子在T细胞耗竭中的核心作用——T细胞耗竭本质是能量危机，抑制MEK可助其恢复抗肿瘤活性，为免疫重建提供新靶点。</description>
-    </item>
-
-  <item>
-        <title>植物线粒体口服可穿越血脑屏障：姜黄来源T-Mit融合 microglia 逆转认知衰老 - LongBiosci</title>
-    <link>https://longbiosci.com/news/Plant-Mitochondria-Turmeric-Cognitive-Dysfunction-2026.html</link>
-    <guid isPermaLink="true">https://longbiosci.com/news/Plant-Mitochondria-Turmeric-Cognitive-Dysfunction-2026.html</guid>
-    <pubDate>Wed, 29 Jul 2026 12:00:00 GMT</pubDate>
-    <description>最新研究证实：植物线粒体（尤其是姜黄来源）口服后能穿越肠道、进入大脑，与小胶质细胞自身的线粒体融合，通过TREM2受体和MFN1介导的融合机制，重编程细胞能量代谢并逆转老年小鼠认知功能障碍。</description>
-    </item>
-
-  <item>
-        <title>司美格鲁肽（Ozempic）可延缓表观遗传衰老：首个 RCT 证据 - LongBiosci</title>
-    <link>https://longbiosci.com/news/Semaglutide-Epigenetic-Aging-Nature-Communications-2026.html</link>
-    <guid isPermaLink="true">https://longbiosci.com/news/Semaglutide-Epigenetic-Aging-Nature-Communications-2026.html</guid>
-    <pubDate>Wed, 29 Jul 2026 08:00:00 GMT</pubDate>
-    <description>加州大学圣地亚哥分校团队在 Nature Communications 发表首个随机对照试验，证明司美格鲁肽（Ozempic/Wegovy 活性成分）可延缓人体表观遗传衰老标志物，DunedinPACE 时钟减慢 9%，为 GLP-1 类药物开辟抗衰老新赛道。</description>
     </item>
 
   </channel>
