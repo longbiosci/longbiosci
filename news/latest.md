@@ -1,3 +1,18 @@
+# 长寿科技最新资讯 · 2026-08-27
+
+1. **细胞毒性CD4+ T细胞：衰老中的双刃剑——International Immunology 综述 2026**
+   - 来源: International Immunology · Fight Aging! | 日期: 2026-08-26
+   - 链接: https://doi.org/10.1093/intimm/dxag037
+   - 本地: /news/Cytotoxic-CD4-T-cells-Aging-Conceptual-Framework-2026.html
+   - 核心发现：CD4+ T细胞可表达穿孔素/颗粒酶获得细胞毒性，在衰老中显著扩增——既能清除衰老细胞、病毒和肿瘤细胞（有益），也能驱动自身免疫和神经退行性疾病（有害），是精准免疫调节的新靶点。
+
+2. **衰老不是线性损耗：2000万细胞揭示"细胞社会"的大规模重构——Quanta Magazine 2026**
+   - 来源: Quanta Magazine · Fight Aging! | 日期: 2026-08-26
+   - 链接: https://www.quantamagazine.org/why-aging-may-be-a-program-not-a-breakdown-20260814/
+   - 本地: /news/Aging-Cell-Society-Remodeling-Quanta-2026.html
+   - 核心发现：大规模单细胞研究（2000万细胞）揭示衰老是"细胞社会"的分阶段重构过程，而非分子损伤的线性积累——仅约1/4的细胞亚型在衰老中发生强烈变化，特定细胞群在特定时间窗口集中消失或扩增；与"程序化衰老"理论高度一致。
+
+---
 # 长寿科技最新资讯 · 2026-08-23
 
 1. **TIMP2 蛋白疗法调节老化大脑小胶质细胞功能——Nature Communications 2026**
