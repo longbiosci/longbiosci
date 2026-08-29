@@ -1948,6 +1948,19 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://longbiosci.com/news/Strength-Training-Longevity-Sweet-Spot-BJSM-2026.html</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Meditation-7-Days-Brain-Rewiring-UCSD-2026.html</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
     <loc>https://longbiosci.com/news/Systemic-Epigenetic-Dysregulation-Aging-Therapeutic-Target.html</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>monthly</changefreq>
@@ -2105,7 +2118,7 @@
   </url>
   <url>
     <loc>https://longbiosci.com/news/index.html</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

@@ -1,172 +1,171 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<rss version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LongBiosci - 长寿科技资讯</title>
     <link>https://longbiosci.com</link>
     <description>LongBiosci 每日更新生物医药、长寿科技、衰老机制研究领域最新进展。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 27 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 00:00:00 GMT</lastBuildDate>
     <atom:link xmlns="http://www.w3.org/2005/Atom" href="https://longbiosci.com/rss.xml" rel="self" type="application/rss+xml" />
-        <item>
-      <title>细胞毒性CD4+ T细胞：衰老研究的新前沿</title>
-      <link>https://longbiosci.com/news/Cytotoxic-CD4-CTL-Senescence-Aging-2026.html</link>
-      <description>Fight Aging! 2026，CD4+细胞毒性T细胞（CD4 CTL）随衰老积累，与多种年龄相关疾病密切相关</description>
-      <pubDate>Sat, 27 Aug 2026 18:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://longbiosci.com/news/Cytotoxic-CD4-CTL-Senescence-Aging-2026.html</guid>
-      <category>免疫衰老</category>
-    </item>
-    <item>
-      <title>细胞社会重构：衰老研究的新视角</title>
-      <link>https://longbiosci.com/news/Aging-Cell-Society-Remodeling-Quanta-2026.html</link>
-      <description>Quanta Magazine 2026，细胞衰老是生命必然还是可干预的病理过程？</description>
-      <pubDate>Wed, 26 Aug 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://longbiosci.com/news/Aging-Cell-Society-Remodeling-Quanta-2026.html</guid>
-      <category>观点评论</category>
-    </item>
-    <item>
-      <title>细胞毒性CD4+ T细胞衰老概念框架：健康与疾病中的角色</title>
-      <link>https://longbiosci.com/news/Cytotoxic-CD4-T-cells-Aging-Conceptual-Framework-2026.html</link>
-      <description>Fight Aging! 2026，CD4 CTL细胞在免疫监测和疾病中的作用综述</description>
-      <pubDate>Wed, 26 Aug 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">https://longbiosci.com/news/Cytotoxic-CD4-T-cells-Aging-Conceptual-Framework-2026.html</guid>
-      <category>免疫衰老</category>
-    </item>
-<item>
-      <title>L-BAIBA：运动代谢激酶延缓肌肉衰老的分子机制</title>
-      <link>https://longbiosci.com/news/L-BAIBA-Metabokine-Exercise-Aging-PGC1%CE%B1-PPAR%CE%B4-2026.html</link>
-      <description />
-      <pubDate />
-      <guid isPermaLink="false">https://longbiosci.com/news/L-BAIBA-Metabokine-Exercise-Aging-PGC1%CE%B1-PPAR%CE%B4-2026.html</guid>
-      <category>运动与代谢</category>
-    </item>
-<item>
-      <title>L-BAIBA：运动介导肌肉适应的关键代谢因子</title>
-      <link>https://longbiosci.com/news/L-BAIBA-PGC1%CE%B1-BAIBA-PPAR%CE%B4-Skeletal-Muscle-Adaptation-2026.html</link>
-      <description />
-      <pubDate />
-      <guid isPermaLink="false">https://longbiosci.com/news/L-BAIBA-PGC1%CE%B1-BAIBA-PPAR%CE%B4-Skeletal-Muscle-Adaptation-2026.html</guid>
-      <category>运动与代谢</category>
-    </item>
-<item>
-      <title>XPRIZE Healthspan公布20强决赛团队：中美日韩角逐延缓衰老新疗法</title>
-      <link>https://longbiosci.com/news/XPRIZE-Healthspan-Finalist-Teams-2026.html</link>
-      <description />
-      <pubDate />
-      <guid isPermaLink="false">https://longbiosci.com/news/XPRIZE-Healthspan-Finalist-Teams-2026.html</guid>
-      <category>行业动态</category>
-    </item>
-<item>
-      <title>线粒体超复合体与长寿：氧化磷酸化高级组装结构在衰老中的作用</title>
-      <link>https://longbiosci.com/news/Mitochondrial-Supercomplexes-Longevity-Review-2026.html</link>
-      <description />
-      <pubDate />
-      <guid isPermaLink="false">https://longbiosci.com/news/Mitochondrial-Supercomplexes-Longevity-Review-2026.html</guid>
-      <category>机制研究</category>
-    </item>
-<item>
-      <title>长寿基因 INDY 延寿新机制：调控肠道菌群与肠道稳态</title>
-      <link>https://longbiosci.com/news/INDY-Gut-Microbiome-Longevity-Drosophila-2026.html</link>
-      <description />
-      <pubDate />
-      <guid isPermaLink="false">https://longbiosci.com/news/INDY-Gut-Microbiome-Longevity-Drosophila-2026.html</guid>
-      <category>肠道微生物</category>
-    </item>
-<item>
-      <title>NLRP3 炎症小体与年龄相关性黄斑变性：从机制到治疗策略</title>
-      <link>https://longbiosci.com/news/NLRP3-Inflammasome-Age-Related-Macular-Degeneration-2026.html</link>
-      <description />
-      <pubDate />
-      <guid isPermaLink="false">https://longbiosci.com/news/NLRP3-Inflammasome-Age-Related-Macular-Degeneration-2026.html</guid>
-      <category>炎症</category>
-    </item>
-<item>
-      <title>空气污染驱动帕金森病：分子机制综述——神经炎症、肠道菌群与α-突触核蛋白病理</title>
-      <link>https://longbiosci.com/news/Air-Pollution-Parkinson-Mechanisms-Review-2026.html</link>
-      <description />
-      <pubDate />
-      <guid isPermaLink="false">https://longbiosci.com/news/Air-Pollution-Parkinson-Mechanisms-Review-2026.html</guid>
-      <category>神经退行性疾病</category>
-    </item>
-<item>
-      <title>靶向RANKL中和抗体延长早衰小鼠寿命——Aging Cell 2026</title>
-      <link>https://longbiosci.com/news/RANKL-Antibody-Progeria-Longevity-2026.html</link>
-      <description />
-      <pubDate />
-      <guid isPermaLink="false">https://longbiosci.com/news/RANKL-Antibody-Progeria-Longevity-2026.html</guid>
-      <category>机制研究</category>
-    </item>
-<item>
-      <title>中年血管风险决定痴呆-free生存年限：ARIC研究26年随访揭示12.6年差异</title>
-      <link>https://longbiosci.com/news/Vascular-Risk-Midlife-Dementia-Free-Survival-ARIC-2026.html</link>
-      <description />
-      <pubDate />
-      <guid isPermaLink="false">https://longbiosci.com/news/Vascular-Risk-Midlife-Dementia-Free-Survival-ARIC-2026.html</guid>
-      <category>流行病学</category>
-    </item>
-<item>
-      <title>TIMP2 蛋白疗法调节老化大脑小胶质细胞功能——Nature Communications 2026</title>
-      <link>https://longbiosci.com/news/TIMP2-Microglia-Aging-Brain-Nature-Communications-2026.html</link>
-      <description />
-      <pubDate />
-      <guid isPermaLink="false">https://longbiosci.com/news/TIMP2-Microglia-Aging-Brain-Nature-Communications-2026.html</guid>
-      <category>神经免疫</category>
-    </item>
-<item>
-      <title>LMNA-CK2-STING轴驱动全身性衰老——Nature Communications 2026</title>
-      <link>https://longbiosci.com/news/LMNA-CK2-STING-Systemic-Aging-NatCommun-2026.html</link>
-      <description />
-      <pubDate />
-      <guid isPermaLink="false">https://longbiosci.com/news/LMNA-CK2-STING-Systemic-Aging-NatCommun-2026.html</guid>
-      <category>机制研究</category>
-    </item>
-<item>
-      <title>CK2α-LMNA-STING轴：全身性衰老新机制——Nature Communications 2026</title>
-      <link>https://longbiosci.com/news/CK2alpha-LMNA-STING-Systemic-Aging-Nat-Comms-2026.html</link>
-      <description />
-      <pubDate />
-      <guid isPermaLink="false">https://longbiosci.com/news/CK2alpha-LMNA-STING-Systemic-Aging-Nat-Comms-2026.html</guid>
-      <category>机制研究</category>
-    </item>
-<item>
-      <title>山中因子重编程增强神经可塑性：中风后运动功能恢复新策略</title>
-      <link>https://longbiosci.com/news/OSKTF-Reprogramming-Stroke-Rehabilitation-2026.html</link>
-      <description />
-      <pubDate />
-      <guid isPermaLink="false">https://longbiosci.com/news/OSKTF-Reprogramming-Stroke-Rehabilitation-2026.html</guid>
-      <category>再生医学</category>
-    </item>
-<item>
-      <title>台湾13,423名老年人研究：综合体能测试指数最高五分位全因死亡风险降低61%</title>
-      <link>https://longbiosci.com/news/Fitness-Mortality-Taiwan-JAMA-2026.html</link>
-      <description />
-      <pubDate />
-      <guid isPermaLink="false">https://longbiosci.com/news/Fitness-Mortality-Taiwan-JAMA-2026.html</guid>
-      <category>流行病学</category>
-    </item>
-<item>
-      <title>衰老细胞生物标志物综述：追踪衰老、衰老细胞与炎症老化在年龄相关疾病中的复杂关联</title>
-      <link>https://longbiosci.com/news/Senescent-Cell-Biomarkers-Inflammaging-Review-2026.html</link>
-      <description />
-      <pubDate />
-      <guid isPermaLink="false">https://longbiosci.com/news/Senescent-Cell-Biomarkers-Inflammaging-Review-2026.html</guid>
-      <category>生物标志物</category>
-    </item>
-<item>
-      <title>肺干细胞衰老驱动特发性肺纤维化——过渡细胞状态的致命角色</title>
-      <link>https://longbiosci.com/news/Lung-Stem-Cell-Senescence-IPF-Transitional-Cells-2026.html</link>
-      <description />
-      <pubDate />
-      <guid isPermaLink="false">https://longbiosci.com/news/Lung-Stem-Cell-Senescence-IPF-Transitional-Cells-2026.html</guid>
-      <category>Senolytic</category>
-    </item>
-<item>
-      <title>Nature重磅：线粒体代谢驱动衰老细胞SASP——全新药物靶点浮现</title>
-      <link>https://longbiosci.com/news/Mitochondrial-Metabolism-Epigenetic-SASP-Nature-2026.html</link>
-      <description />
-      <pubDate />
-      <guid isPermaLink="false">https://longbiosci.com/news/Mitochondrial-Metabolism-Epigenetic-SASP-Nature-2026.html</guid>
-      <category>机制研究</category>
-    </item>
-
+      <item>
+    <title><![CDATA[力量训练延寿]]></title>
+    <link>https://longbiosci.com/news/Strength-Training-Longevity-Sweet-Spot-BJSM-2026.html</link>
+    <description><![CDATA[三项美国大型前瞻性队列研究30年随访、近15万名医护人员数据揭示：每周90-120分钟力量训练全因死亡风险降低13%，心血管死亡降低19%，神经系统疾病死亡（主要为痴呆）降低27%；最佳组合为有氧运动+1-2小时力量训练，全因死亡风险降低45%。]]></description>
+    <pubDate>28 Aug 2026 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">https://longbiosci.com/news/Strength-Training-Longevity-Sweet-Spot-BJSM-2026.html</guid>
+    <category><![CDATA[研究进展]]></category>
+  </item>
+  <item>
+    <title><![CDATA[仅7天冥想即可重塑大脑：UCSD研究揭示全身生物系统改变]]></title>
+    <link>https://longbiosci.com/news/Meditation-7-Days-Brain-Rewiring-UCSD-2026.html</link>
+    <description><![CDATA[加州大学圣地亚哥分校研究揭示：仅7天的正念冥想静修即可在健康成年人中检测到大脑活动、血液化学、免疫信号、代谢和天然疼痛控制系统的多重改变，并出现神经可塑性增强的分子标志，为]]></description>
+    <pubDate>28 Aug 2026 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">https://longbiosci.com/news/Meditation-7-Days-Brain-Rewiring-UCSD-2026.html</guid>
+    <category><![CDATA[研究进展]]></category>
+  </item>
+  <item>
+    <title><![CDATA[细胞毒性CD4+ T细胞：免疫系统中被低估的衰老调节者]]></title>
+    <link>https://longbiosci.com/news/Cytotoxic-CD4-CTL-Senescence-Aging-2026.html</link>
+    <description><![CDATA[最新综述揭示一类特殊的CD4+ T细胞——细胞毒性CD4+ T细胞（CD4 CTL）——兼具杀伤衰老细胞与驱动炎症的双重角色，为抗衰老免疫干预提供了全新的视角。]]></description>
+    <pubDate>27 Aug 2026 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">https://longbiosci.com/news/Cytotoxic-CD4-CTL-Senescence-Aging-2026.html</guid>
+    <category><![CDATA[研究进展]]></category>
+  </item>
+  <item>
+    <title><![CDATA[衰老不是线性损耗：细胞社会的大规模重构]]></title>
+    <link>https://longbiosci.com/news/Aging-Cell-Society-Remodeling-Quanta-2026.html</link>
+    <description><![CDATA[基于小鼠大规模单细胞研究的新视角：衰老不是分子损伤的线性积累，而是类似发育的阶段性重构过程——特定细胞群在特定时间窗口集中消失或扩增，构成]]></description>
+    <pubDate>26 Aug 2026 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">https://longbiosci.com/news/Aging-Cell-Society-Remodeling-Quanta-2026.html</guid>
+    <category><![CDATA[衰老理论]]></category>
+  </item>
+  <item>
+    <title><![CDATA[细胞毒性CD4+ T细胞：衰老中的双刃剑]]></title>
+    <link>https://longbiosci.com/news/Cytotoxic-CD4-T-cells-Aging-Conceptual-Framework-2026.html</link>
+    <description><![CDATA[国际免疫学综述：细胞毒性CD4+ T细胞（CD4 CTL）在衰老过程中显著扩增，既能清除衰老细胞和病毒/肿瘤，发挥保护作用；也可驱动自身免疫和神经退行性疾病，加剧组织损伤。理解其双面角色为免疫干预提供新靶点。]]></description>
+    <pubDate>26 Aug 2026 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">https://longbiosci.com/news/Cytotoxic-CD4-T-cells-Aging-Conceptual-Framework-2026.html</guid>
+    <category><![CDATA[免疫衰老]]></category>
+  </item>
+  <item>
+    <title><![CDATA[L-BAIBA：运动代谢激酶延缓肌肉衰老的分子机制]]></title>
+    <link>https://longbiosci.com/news/L-BAIBA-Metabokine-Exercise-Aging-PGC1%CE%B1-PPAR%CE%B4-2026.html</link>
+    <description><![CDATA[Nature Communications发表研究，揭示L-BAIBA作为运动代谢激酶，通过PGC1α-BAIBA-PPARδ轴介导骨骼肌对运动的适应性，为老年人运动效果强化提供了新的干预靶点。]]></description>
+    <pubDate>26 Aug 2026 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">https://longbiosci.com/news/L-BAIBA-Metabokine-Exercise-Aging-PGC1%CE%B1-PPAR%CE%B4-2026.html</guid>
+    <category><![CDATA[研究进展]]></category>
+  </item>
+  <item>
+    <title><![CDATA[长寿基因 INDY 延寿新机制：调控肠道菌群与肠道稳态 - LongBiosci]]></title>
+    <link>https://longbiosci.com/news/INDY-Gut-Microbiome-Longevity-Drosophila-2026.html</link>
+    <description><![CDATA[Aging 期刊发表新研究，揭示长寿基因 INDY（I'm Not Dead Yet）通过调控肠道菌群组成与负荷量、影响肠道屏障完整性来延长果蝇寿命，为 INDY 的延寿机制提供全新视角。]]></description>
+    <pubDate>25 Aug 2026 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">https://longbiosci.com/news/INDY-Gut-Microbiome-Longevity-Drosophila-2026.html</guid>
+    <category><![CDATA[研究进展]]></category>
+  </item>
+  <item>
+    <title><![CDATA[L-BAIBA：运动介导肌肉适应的关键代谢因子]]></title>
+    <link>https://longbiosci.com/news/L-BAIBA-PGC1%CE%B1-BAIBA-PPAR%CE%B4-Skeletal-Muscle-Adaptation-2026.html</link>
+    <description><![CDATA[Nature Communications 2026发表重磅研究，首次系统阐明L-BAIBA（β-氨基异丁酸）作为代谢激酶（metabokine），通过PGC1α-BAIBA-PPARδ信号轴介导运动诱导的肌肉适应与功能改善，并揭示老年补充L-BAIBA可恢复运动反应，为肌肉衰减症和衰老干预提供新靶点。]]></description>
+    <pubDate>25 Aug 2026 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">https://longbiosci.com/news/L-BAIBA-PGC1%CE%B1-BAIBA-PPAR%CE%B4-Skeletal-Muscle-Adaptation-2026.html</guid>
+    <category><![CDATA[研究进展]]></category>
+  </item>
+  <item>
+    <title><![CDATA[线粒体超复合体与长寿：氧化磷酸化高级组装结构在衰老中的作用 - LongBiosci]]></title>
+    <link>https://longbiosci.com/news/Mitochondrial-Supercomplexes-Longevity-Review-2026.html</link>
+    <description><![CDATA[Frontiers in Aging 发表综述，系统梳理线粒体呼吸链超复合体（SCs）的分子组装、生理功能及与长寿的关联，探讨通过调节超复合体促进健康衰老的潜在策略。]]></description>
+    <pubDate>25 Aug 2026 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">https://longbiosci.com/news/Mitochondrial-Supercomplexes-Longevity-Review-2026.html</guid>
+    <category><![CDATA[研究进展]]></category>
+  </item>
+  <item>
+    <title><![CDATA[XPRIZE Healthspan公布20强决赛团队：中美日韩角逐延缓衰老新疗法]]></title>
+    <link>https://longbiosci.com/news/XPRIZE-Healthspan-Finalist-Teams-2026.html</link>
+    <description><![CDATA[XPRIZE Healthspan宣布20支决赛团队晋级，其中10支获100万美元里程碑奖金，总额1000万美元。团队来自美国、韩国、日本、中国，涵盖新型药物、生物制剂、细胞再生、基因疗法、AI精准健康等前沿延缓衰老技术路线。]]></description>
+    <pubDate>25 Aug 2026 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">https://longbiosci.com/news/XPRIZE-Healthspan-Finalist-Teams-2026.html</guid>
+    <category><![CDATA[行业动态]]></category>
+  </item>
+  <item>
+    <title><![CDATA[NLRP3 炎症小体与年龄相关性黄斑变性：从机制到治疗策略 - LongBiosci]]></title>
+    <link>https://longbiosci.com/news/NLRP3-Inflammasome-Age-Related-Macular-Degeneration-2026.html</link>
+    <description><![CDATA[Frontiers in Aging Neuroscience 2026 综述：NLRP3 炎症小体是年龄相关性黄斑变性（AMD）发病机制中的核心整合因子，系统综述其在干性AMD地理萎缩与湿性AMD新生血管化中的不同作用，并评估靶向NLRP3通路的最新治疗策略。]]></description>
+    <pubDate>24 Aug 2026 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">https://longbiosci.com/news/NLRP3-Inflammasome-Age-Related-Macular-Degeneration-2026.html</guid>
+    <category><![CDATA[炎症]]></category>
+  </item>
+  <item>
+    <title><![CDATA[空气污染驱动帕金森病：神经炎症、肠道菌群与α-突触核蛋白病理]]></title>
+    <link>https://longbiosci.com/news/Air-Pollution-Parkinson-Mechanisms-Review-2026.html</link>
+    <description><![CDATA[最新综述系统梳理空气污染与帕金森病（PD）的分子关联：颗粒物（PM）、氮氧化物（NOx）、臭氧（O3）通过神经炎症、氧化应激、肠道菌群紊乱等通路，加速α-突触核蛋白错误折叠与多巴胺能神经元退化，并恶化PD病程。]]></description>
+    <pubDate>21 Aug 2026 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">https://longbiosci.com/news/Air-Pollution-Parkinson-Mechanisms-Review-2026.html</guid>
+    <category><![CDATA[研究进展]]></category>
+  </item>
+  <item>
+    <title><![CDATA[靶向RANKL中和抗体延长早衰小鼠寿命]]></title>
+    <link>https://longbiosci.com/news/RANKL-Antibody-Progeria-Longevity-2026.html</link>
+    <description><![CDATA[研究团队发现，靶向RANKL的中和抗体可恢复早衰小鼠骨量、减少肌肉纤维化并显著延长寿命，为早衰症及生理性衰老干预提供新的治疗思路。]]></description>
+    <pubDate>21 Aug 2026 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">https://longbiosci.com/news/RANKL-Antibody-Progeria-Longevity-2026.html</guid>
+    <category><![CDATA[研究进展]]></category>
+  </item>
+  <item>
+    <title><![CDATA[TIMP2 蛋白疗法调节老化大脑中小胶质细胞功能]]></title>
+    <link>https://longbiosci.com/news/TIMP2-Microglia-Aging-Brain-Nature-Communications-2026.html</link>
+    <description><![CDATA[Nature Communications 发表研究：TIMP2 是调节小胶质细胞年龄相关功能失调的关键介质，TIMP2 缺失加重小胶质细胞炎症表型，而外源给予 TIMP2 可逆转老化小鼠小胶质细胞激活状态，减少促炎小胶质细胞比例并增强吞噬功能，为神经退行性疾病的干预提供新思路。]]></description>
+    <pubDate>21 Aug 2026 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">https://longbiosci.com/news/TIMP2-Microglia-Aging-Brain-Nature-Communications-2026.html</guid>
+    <category><![CDATA[神经免疫]]></category>
+  </item>
+  <item>
+    <title><![CDATA[中年血管风险决定痴呆-free生存年限：26年随访揭示12.6年差距]]></title>
+    <link>https://longbiosci.com/news/Vascular-Risk-Midlife-Dementia-Free-Survival-ARIC-2026.html</link>
+    <description><![CDATA[ARIC研究对12,409名中年人26年随访显示，糖尿病、高血压、吸烟三项血管风险因素与痴呆风险和死亡高度相关：无风险因素者痴呆-free生存期30.1年，三风险因素者仅17.5年，差距达12.6年。]]></description>
+    <pubDate>21 Aug 2026 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">https://longbiosci.com/news/Vascular-Risk-Midlife-Dementia-Free-Survival-ARIC-2026.html</guid>
+    <category><![CDATA[研究进展]]></category>
+  </item>
+  <item>
+    <title><![CDATA[CK2α-LMNA-STING Axis: New Mechanism of Systemic Aging]]></title>
+    <link>https://longbiosci.com/news/CK2alpha-LMNA-STING-Systemic-Aging-Nat-Comms-2026.html</link>
+    <description><![CDATA[深圳大学团队发现核纤层蛋白LMNA通过招募CK2α磷酸化STING，限制其在核膜处积累，从而抑制cGAS-STING通路驱动的炎症衰老。H-151药物抑制STING可显著改善早老小鼠骨骼流失并延长寿命。]]></description>
+    <pubDate>20 Aug 2026 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">https://longbiosci.com/news/CK2alpha-LMNA-STING-Systemic-Aging-Nat-Comms-2026.html</guid>
+    <category><![CDATA[科学研究]]></category>
+  </item>
+  <item>
+    <title><![CDATA[LMNA-CK2-STING轴：核纤层蛋白A调控STING积累与系统性衰老 - LongBiosci]]></title>
+    <link>https://longbiosci.com/news/LMNA-CK2-STING-Systemic-Aging-NatCommun-2026.html</link>
+    <description><![CDATA[深圳大学团队Nature Communications发表：核纤层蛋白A（LMNA）作为核被膜支架，招募CK2α磷酸化STING并促进其降解，从而抑制cGAS-STING驱动的炎症衰老。H-151药理抑制STING可显著改善早衰小鼠表型并延长寿命。]]></description>
+    <pubDate>20 Aug 2026 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">https://longbiosci.com/news/LMNA-CK2-STING-Systemic-Aging-NatCommun-2026.html</guid>
+    <category><![CDATA[研究进展]]></category>
+  </item>
+  <item>
+    <title><![CDATA[台湾13,423名老年人研究：综合体能测试指数最高五分位全因死亡风险降低61%]]></title>
+    <link>https://longbiosci.com/news/Fitness-Mortality-Taiwan-JAMA-2026.html</link>
+    <description><![CDATA[台湾一项覆盖13,423名65岁以上老年人的全国性队列研究（中位随访7年）显示：综合体能测试最高五分位者的全因死亡风险仅为最低五分位的39%，量化了体能（平衡/敏捷、下肢力量、心肺耐力）对老年人死亡率的独立保护效应。]]></description>
+    <pubDate>19 Aug 2026 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">https://longbiosci.com/news/Fitness-Mortality-Taiwan-JAMA-2026.html</guid>
+    <category><![CDATA[流行病学]]></category>
+  </item>
+  <item>
+    <title><![CDATA[肺干细胞衰老驱动特发性肺纤维化——过渡细胞状态的致命角色]]></title>
+    <link>https://longbiosci.com/news/Lung-Stem-Cell-Senescence-IPF-Transitional-Cells-2026.html</link>
+    <description><![CDATA[2026年8月Eur Respir Rev综述揭示：肺泡干细胞衰老是特发性肺纤维化（IPF）再生的核心障碍，过渡细胞持续状态（transitional cell persistence）是疾病进展的关键机制。这为senotherapy（衰老定向疗法）开辟了精准干预肺纤维化的新路径。]]></description>
+    <pubDate>19 Aug 2026 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">https://longbiosci.com/news/Lung-Stem-Cell-Senescence-IPF-Transitional-Cells-2026.html</guid>
+    <category><![CDATA[研究进展]]></category>
+  </item>
+  <item>
+    <title><![CDATA[Nature重磅：线粒体代谢驱动衰老细胞SASP]]></title>
+    <link>https://longbiosci.com/news/Mitochondrial-Metabolism-Epigenetic-SASP-Nature-2026.html</link>
+    <description><![CDATA[Nature 2026年发表研究揭示：衰老细胞通过线粒体丙酮酸-柠檬酸-乙酰辅酶A轴主动调控SASP（衰老相关分泌表型）产生，表观遗传重编程是核心机制。这一发现为靶向线粒体代谢的senomorphics药物开发提供了全新靶点。]]></description>
+    <pubDate>19 Aug 2026 00:00:00 GMT</pubDate>
+    <guid isPermaLink="false">https://longbiosci.com/news/Mitochondrial-Metabolism-Epigenetic-SASP-Nature-2026.html</guid>
+    <category><![CDATA[研究进展]]></category>
+  </item>
   </channel>
 </rss>
