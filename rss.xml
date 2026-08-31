@@ -1,6 +1,21 @@
 <?xml version='1.0' encoding='utf-8'?>
 <rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
+  <item>
+    <title>多病模式决定运动干预效果：SPRINTT试验二次分析</title>
+    <link>https://longbiosci.com/news/Multimorbidity-Patterns-SPRINTT-Mobility-Nature-Aging-2026.html</link>
+    <guid>https://longbiosci.com/news/Multimorbidity-Patterns-SPRINTT-Mobility-Nature-Aging-2026.html</guid>
+    <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+    <description>SPRINTT试验二次分析揭示：老年衰弱人群的多病模式显著影响运动干预效果，合并精神疾病者获益最大（移动障碍/死亡风险降低35%），而心代谢型和呼吸型患者获益有限。</description>
+  </item>
+  <item>
+    <title>首个跨40种人体组织的结构衰老图谱：PathStAR从常规病理图像量化组织结构性衰老</title>
+    <link>https://longbiosci.com/news/PathStAR-Structural-Aging-Human-Tissues-Nature-Aging-2026.html</link>
+    <guid>https://longbiosci.com/news/PathStAR-Structural-Aging-Human-Tissues-Nature-Aging-2026.html</guid>
+    <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+    <description>NIH团队开发PathStAR框架，对25,306例尸检组织（40种组织、970名21-70岁捐赠者）进行组织结构性衰老量化，揭示血管组织早期加速、绝经相关生殖道晚期加速，以及跨器官协调恶化等关键规律。</description>
+  </item>
+
     <item><title>Nature Aging：mtDNA泄露激活cGAS-STING驱动卵巢衰老</title><link>https://longbiosci.com/news/cGAS-STING-Mitochondria-DNA-Ovarian-Aging-Nature-Aging-2026.html</link><guid>https://longbiosci.com/news/cGAS-STING-Mitochondria-DNA-Ovarian-Aging-Nature-Aging-2026.html</guid><pubDate>Sat, 29 Aug 2026 16:00:00 GMT</pubDate><description>Nature Aging新研究揭示：衰老卵母细胞线粒体DNA泄露至胞质，激活cGAS-STING炎症信号通路，通过cGAMP转移传播至周围颗粒细胞，驱动卵巢衰老；抑制该通路可显著改善卵巢功能，为卵巢衰老干预提供全新靶点。</description><category>机制研究</category></item><item><title>衰老细胞清除恢复老年大脑白质小胶质细胞年轻态</title><link>https://longbiosci.com/news/Senolytics-Restore-Microglia-White-Matter-Nature-Aging-2026.html</link><description>Nature Aging 2026：白质小胶质细胞同时携带DAM和SenBrain特征，衰老细胞清除可逆转有害表型。</description><pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate><guid isPermaLink="true">https://longbiosci.com/news/Senolytics-Restore-Microglia-White-Matter-Nature-Aging-2026.html</guid><category>Senolytic</category></item><item><title>运动通过TMAO-αKlotho通路对抗老年骨质疏松</title><link>https://longbiosci.com/news/Exercise-TMAO-Klotho-NLRP3-Osteoporosis-iScience-2026.html</link><description>iScience 2026研究揭示运动改善骨密度的分子机制：降低TMAO、维持α-Klotho、抑制NLRP3。</description><pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate><guid isPermaLink="true">https://longbiosci.com/news/Exercise-TMAO-Klotho-NLRP3-Osteoporosis-iScience-2026.html</guid><category>运动与代谢</category></item><item><title>运动延缓卵巢衰老：15万人数据 + 小鼠机制验证</title><link>https://longbiosci.com/news/Exercise-Slows-Ovarian-Aging-Nature-Aging-2026.html</link><description>超15万人研究证实运动与延迟绝经相关； adiponectin 成为运动延缓卵巢衰老的关键分子靶点。</description><pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate><guid isPermaLink="true">https://longbiosci.com/news/Exercise-Slows-Ovarian-Aging-Nature-Aging-2026.html</guid><category>运动</category></item><item><title>可收缩肌移植物：小鼠全身抗衰老新疗法</title><link>https://longbiosci.com/news/Contractile-Myografts-Systemic-AntiAging-Nature-Aging-2026.html</link><description>自体肌细胞皮下移植形成持续收缩的</description><pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate><guid isPermaLink="true">https://longbiosci.com/news/Contractile-Myografts-Systemic-AntiAging-Nature-Aging-2026.html</guid><category>Senolytic</category></item><title>LongBiosci - 长寿科技资讯</title>
     <link>https://longbiosci.com</link>
     <description>LongBiosci 每日更新生物医药、长寿科技、衰老机制研究领域最新进展。</description>
