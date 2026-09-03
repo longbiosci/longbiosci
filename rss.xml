@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>LongBiosci 长寿科技资讯</title>
     <link>https://longbiosci.com</link>
     <description>最新抗衰老与长寿科技研究资讯</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 01 Sep 2026 00:00:00 GMT</lastBuildDate>
-    <atom:link href="https://longbiosci.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <item>
+    <lastBuildDate>Mon, 01 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <ns0:link href="https://longbiosci.com/rss.xml" rel="self" type="application/rss+xml" />
+  <item><title>CD8+效应记忆T细胞动态可预测亚临床动脉粥样硬化斑块形成</title><link>https://longbiosci.com/news/Immune-Signatures-Atherosclerosis-Plaque-Immunity-Aging-2026.html</link><description>&lt;p&gt;3年纵向研究：CD8+效应记忆T细胞扩增是最强独立预测因子，免疫标志物比传统代谢指标更能预测早期血管风险。&lt;/p&gt;</description><pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate><guid isPermaLink="true">https://longbiosci.com/news/Immune-Signatures-Atherosclerosis-Plaque-Immunity-Aging-2026.html</guid><category>免疫与炎症</category></item><item>
     <title>长寿医学切入基层医疗：全科医生面对</title>
     <link>https://longbiosci.com/news/Longevity-Medicine-Primary-Care-Desire-Paths-2026.html</link>
     <guid isPermaLink="true">https://longbiosci.com/news/Longevity-Medicine-Primary-Care-Desire-Paths-2026.html</guid>
@@ -140,13 +140,5 @@
     <description>XPRIZE Healthspan宣布20支决赛团队晋级，其中10支获100万美元里程碑奖金，总额1000万美元。团队来自美国、韩国、日本、中国，涵盖新型药物、生物制剂、细胞再生、基因疗法、AI精准健康等前沿延缓衰老技术路线。</description>
     <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
 
-  </item>  <item>
-    <title>NLRP3 炎症小体与年龄相关性黄斑变性：从机制到治疗策略 - LongBiosci</title>
-    <link>https://longbiosci.com/news/NLRP3-Inflammasome-Age-Related-Macular-Degeneration-2026.html</link>
-    <guid isPermaLink="true">https://longbiosci.com/news/NLRP3-Inflammasome-Age-Related-Macular-Degeneration-2026.html</guid>
-    <description>Frontiers in Aging Neuroscience 2026 综述：NLRP3 炎症小体是年龄相关性黄斑变性（AMD）发病机制中的核心整合因子，系统综述其在干性AMD地理萎缩与湿性AMD新生血管化中的不同作用，并评估靶向NLRP3通路的最新治疗策略。</description>
-    <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-
-  </item>
-  </channel>
+  </item>  </channel>
 </rss>
