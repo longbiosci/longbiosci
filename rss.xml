@@ -1,13 +1,61 @@
-<?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:ns0="http://www.w3.org/2005/Atom" version="2.0">
-  <channel>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
     <title>LongBiosci 长寿科技资讯</title>
     <link>https://longbiosci.com</link>
     <description>最新抗衰老与长寿科技研究资讯</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 04 Sep 2026 00:00:00 GMT</lastBuildDate>
-    <ns0:link href="https://longbiosci.com/rss.xml" rel="self" type="application/rss+xml" />
-    <item>
+    <lastBuildDate>Fri, 04 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://longbiosci.com/rss.xml" rel="self" type="application/rss+xml" />
+  <item>
+    <title><![CDATA[小胶质细胞端粒缩短加速大脑衰老：DLK1成为关键介质——Neuron 2026]]></title>
+    <link>https://longbiosci.com/news/Senescent-Microglia-Telomere-DLK1-Hypomyelin-2026.html</link>
+    <guid isPermaLink="true">https://longbiosci.com/news/Senescent-Microglia-Telomere-DLK1-Hypomyelin-2026.html</guid>
+    <description><![CDATA[Neuron发表研究，首次揭示端粒缩短的小胶质细胞通过分泌可溶性DLK1蛋白，诱导髓鞘老化及神经元功能障碍，为大脑衰老机制和小胶质细胞相关神经退行性疾病提供新靶点。]]></description>
+    <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
+    <category>神经衰老</category>
+  </item>
+  <item>
+    <title><![CDATA[GLP-1药物延缓衰老：司美格鲁肽延长雌性小鼠寿命——Nature 2026]]></title>
+    <link>https://longbiosci.com/news/GLP1-Semaglutide-Extend-Lifespan-Female-Mice-2026.html</link>
+    <guid isPermaLink="true">https://longbiosci.com/news/GLP1-Semaglutide-Extend-Lifespan-Female-Mice-2026.html</guid>
+    <description><![CDATA[NIH研究团队在Nature发表研究，发现GLP-1受体激动剂司美格鲁肽可延长雌性小鼠寿命，改善多项衰老标志物，效果超出单纯热量限制范畴，为GLP-1药物的抗衰老潜力提供重要证据。]]></description>
+    <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
+    <category>GLP-1</category>
+  </item>
+  <item>
+    <title><![CDATA[大脑免疫细胞来源颠覆：外周血细胞可替代小胶质细胞——Nature 2026]]></title>
+    <link>https://longbiosci.com/news/Microglia-Replaced-Peripheral-Blood-Cells-Human-Brain-Aging-2026.html</link>
+    <guid isPermaLink="true">https://longbiosci.com/news/Microglia-Replaced-Peripheral-Blood-Cells-Human-Brain-Aging-2026.html</guid>
+    <description><![CDATA[Nature发表重磅研究，首次通过谱系追踪揭示人类大脑小胶质细胞的真正来源：外周血细胞可在衰老过程中替代驻留小胶质细胞，颠覆传统认知，为神经退行性疾病治疗开辟新方向。]]></description>
+    <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
+    <category>神经免疫</category>
+  </item>
+<item>
+    <title><![CDATA[小胶质细胞端粒缩短加速大脑衰老：DLK1成为关键介质——Neuron 2026]]></title>
+    <link>https://longbiosci.com/news/Senescent-Microglia-Telomere-DLK1-Hypomyelin-2026.html</link>
+    <guid isPermaLink="true">https://longbiosci.com/news/Senescent-Microglia-Telomere-DLK1-Hypomyelin-2026.html</guid>
+    <description><![CDATA[Neuron发表研究，首次揭示端粒缩短的小胶质细胞通过分泌可溶性DLK1蛋白，诱导髓鞘老化及神经元功能障碍，为大脑衰老机制和小胶质细胞相关神经退行性疾病提供新靶点。]]></description>
+    <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
+    <category>神经衰老</category>
+  </item>
+<item>
+    <title><![CDATA[GLP-1药物延缓衰老：司美格鲁肽延长雌性小鼠寿命——Nature 2026]]></title>
+    <link>https://longbiosci.com/news/GLP1-Semaglutide-Extend-Lifespan-Female-Mice-2026.html</link>
+    <guid isPermaLink="true">https://longbiosci.com/news/GLP1-Semaglutide-Extend-Lifespan-Female-Mice-2026.html</guid>
+    <description><![CDATA[NIH研究团队在Nature发表研究，发现GLP-1受体激动剂司美格鲁肽可延长雌性小鼠寿命，改善多项衰老标志物，效果超出单纯热量限制范畴，为GLP-1药物的抗衰老潜力提供重要证据。]]></description>
+    <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
+    <category>GLP-1</category>
+  </item>
+<item>
+    <title><![CDATA[大脑免疫细胞来源颠覆：外周血细胞可替代小胶质细胞——Nature 2026]]></title>
+    <link>https://longbiosci.com/news/Microglia-Replaced-Peripheral-Blood-Cells-Human-Brain-Aging-2026.html</link>
+    <guid isPermaLink="true">https://longbiosci.com/news/Microglia-Replaced-Peripheral-Blood-Cells-Human-Brain-Aging-2026.html</guid>
+    <description><![CDATA[Nature发表重磅研究，首次通过谱系追踪揭示人类大脑小胶质细胞的真正来源：外周血细胞可在衰老过程中替代驻留小胶质细胞，颠覆传统认知，为神经退行性疾病治疗开辟新方向。]]></description>
+    <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
+    <category>神经免疫</category>
+  </item>
+<item>
     <title>Nature 封面研究：晚年司美格鲁肽治疗显著延长小鼠寿命——或为热量限制模拟物</title>
     <link>https://longbiosci.com/news/Semaglutide-Lifespan-Extension-Nature-2026.html</link>
     <description><![CDATA[NIH 团队在 Nature 发表重磅研究，对 20 月龄老年雌性小鼠每日注射司美格鲁肽，中位寿命从 742 天延长至 834 天（延长约 12.4%），且延寿效应独立于体重下降，提示 GLP-1 类药物或为热量限制的分子模拟物，开启延寿研究新赛道。]]></description>
@@ -15,7 +63,7 @@
     <guid isPermaLink="true">https://longbiosci.com/news/Semaglutide-Lifespan-Extension-Nature-2026.html</guid>
     <category>研究发现</category>
   </item>
-  <item>
+<item>
     <title>小分子AdipoR激动剂Medicarpin：骨骼肌萎缩治疗新策略——Journal of Cachexia, Sarcopenia and Muscle 2026</title>
     <link>https://longbiosci.com/news/Medicarpin-Adiponectin-Agonist-Muscle-Atrophy-2026.html</link>
     <description><![CDATA[研究人员发现小分子药物Medicarpin可模拟脂联素（Adiponectin）信号，通过激活AdipoR1/R2受体促进肌肉生长，在老年肌肉萎缩和大鼠去神经模型中显著改善肌肉功能，为骨骼肌衰老和相关疾病提供新的药理学干预路径。]]></description>
@@ -23,124 +71,94 @@
     <guid isPermaLink="true">https://longbiosci.com/news/Medicarpin-Adiponectin-Agonist-Muscle-Atrophy-2026.html</guid>
     <category>研究发现</category>
   </item>
-<item><title>CD8+效应记忆T细胞动态可预测亚临床动脉粥样硬化斑块形成</title><link>https://longbiosci.com/news/Immune-Signatures-Atherosclerosis-Plaque-Immunity-Aging-2026.html</link><description>&lt;p&gt;3年纵向研究：CD8+效应记忆T细胞扩增是最强独立预测因子，免疫标志物比传统代谢指标更能预测早期血管风险。&lt;/p&gt;</description><pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate><guid isPermaLink="true">https://longbiosci.com/news/Immune-Signatures-Atherosclerosis-Plaque-Immunity-Aging-2026.html</guid><category>免疫与炎症</category></item><item>
+<item><title>CD8+效应记忆T细胞动态可预测亚临床动脉粥样硬化斑块形成</title><link>https://longbiosci.com/news/Immune-Signatures-Atherosclerosis-Plaque-Immunity-Aging-2026.html</link><description>&lt;p&gt;3年纵向研究：CD8+效应记忆T细胞扩增是最强独立预测因子，免疫标志物比传统代谢指标更能预测早期血管风险。&lt;/p&gt;</description><pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate><guid isPermaLink="true">https://longbiosci.com/news/Immune-Signatures-Atherosclerosis-Plaque-Immunity-Aging-2026.html</guid><category>免疫与炎症</category></item>
+<item>
     <title>长寿医学切入基层医疗：全科医生面对</title>
     <link>https://longbiosci.com/news/Longevity-Medicine-Primary-Care-Desire-Paths-2026.html</link>
     <guid isPermaLink="true">https://longbiosci.com/news/Longevity-Medicine-Primary-Care-Desire-Paths-2026.html</guid>
     <description>Nature Aging 发表评论文章指出：患者正带着衰老生物学问题涌向基层诊所，而医学教育尚未为此做好准备。全科医生 Dean Ariel 呼吁医学界系统性接纳长寿医学，而非任由患者自行在网络上摸索。</description>
     <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
 
-  </item>  <item>
+  </item>
+<item>
     <title>Nature Medicine：TranslAGE数据库揭示表观遗传时钟对抗衰老干预的响应规律</title>
     <link>https://longbiosci.com/news/TranslAGE-Epigenetic-Clock-Responsiveness-Nature-Medicine-2026.html</link>
     <guid isPermaLink="true">https://longbiosci.com/news/TranslAGE-Epigenetic-Clock-Responsiveness-Nature-Medicine-2026.html</guid>
     <description>Nature Medicine发表重磅研究：构建包含51项纵向干预研究、16种表观遗传时钟和94个DNA甲基化生物标志物的TranslAGE数据库，系统评估各类抗衰老干预手段对表观遗传时钟的影响，为临床试验设计提供精准指导。</description>
     <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
 
-  </item>  <item>
+  </item>
+<item>
     <title>多病模式决定运动干预效果：SPRINTT试验二次分析</title>
     <link>https://longbiosci.com/news/Multimorbidity-Patterns-SPRINTT-Mobility-Nature-Aging-2026.html</link>
     <guid isPermaLink="true">https://longbiosci.com/news/Multimorbidity-Patterns-SPRINTT-Mobility-Nature-Aging-2026.html</guid>
     <description>SPRINTT试验二次分析揭示：老年衰弱人群的多病模式显著影响运动干预效果，合并精神疾病者获益最大（移动障碍/死亡风险降低35%），而心代谢型和呼吸型患者获益有限。</description>
     <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
 
-  </item>  <item>
+  </item>
+<item>
     <title>首个跨40种人体组织的结构衰老图谱：PathStAR从常规病理图像量化组织结构性衰老</title>
     <link>https://longbiosci.com/news/PathStAR-Structural-Aging-Human-Tissues-Nature-Aging-2026.html</link>
     <guid isPermaLink="true">https://longbiosci.com/news/PathStAR-Structural-Aging-Human-Tissues-Nature-Aging-2026.html</guid>
     <description>NIH团队开发PathStAR框架，对25,306例尸检组织（40种组织、970名21-70岁捐赠者）进行组织结构性衰老量化，揭示血管组织早期加速、绝经相关生殖道晚期加速，以及跨器官协调恶化等关键规律。</description>
     <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
 
-  </item>  <item>
+  </item>
+<item>
     <title>mtDNA泄露激活cGAS-STING：卵巢衰老新机制</title>
     <link>https://longbiosci.com/news/cGAS-STING-Mitochondria-DNA-Ovarian-Aging-Nature-Aging-2026.html</link>
     <guid isPermaLink="true">https://longbiosci.com/news/cGAS-STING-Mitochondria-DNA-Ovarian-Aging-Nature-Aging-2026.html</guid>
     <description>Nature Aging新研究揭示：衰老卵母细胞线粒体DNA泄露至胞质，激活cGAS-STING炎症信号通路，通过cGAMP转移传播至周围颗粒细胞，驱动卵巢衰老；抑制该通路可显著改善卵巢功能，为卵巢衰老干预提供全新靶点。</description>
     <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
 
-  </item>  <item>
+  </item>
+<item>
     <title>可收缩肌移植物：小鼠全身抗衰老新疗法</title>
     <link>https://longbiosci.com/news/Contractile-Myografts-Systemic-AntiAging-Nature-Aging-2026.html</link>
     <guid isPermaLink="true">https://longbiosci.com/news/Contractile-Myografts-Systemic-AntiAging-Nature-Aging-2026.html</guid>
     <description>Nature Aging发表重磅研究：科学家将自体肌细胞皮下移植形成持续收缩的</description>
     <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
 
-  </item>  <item>
+  </item>
+<item>
     <title>运动延缓卵巢衰老：15万人数据 + 小鼠机制验证</title>
     <link>https://longbiosci.com/news/Exercise-Slows-Ovarian-Aging-Nature-Aging-2026.html</link>
     <guid isPermaLink="true">https://longbiosci.com/news/Exercise-Slows-Ovarian-Aging-Nature-Aging-2026.html</guid>
     <description>Nature Aging发表大规模研究：超15万名参与者横断面分析证实体力活动与延迟绝经相关；小鼠实验进一步揭示 adiponectin 是运动延缓卵巢衰老的关键分子靶点，为干预生殖衰老提供行为学和分子双重证据。</description>
     <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
 
-  </item>  <item>
+  </item>
+<item>
     <title>运动通过TMAO-αKlotho通路对抗老年骨质疏松</title>
     <link>https://longbiosci.com/news/Exercise-TMAO-Klotho-NLRP3-Osteoporosis-iScience-2026.html</link>
     <guid isPermaLink="true">https://longbiosci.com/news/Exercise-TMAO-Klotho-NLRP3-Osteoporosis-iScience-2026.html</guid>
     <description>iScience发表研究：运动通过降低肠道菌群代谢产物TMAO、维持α-Klotho水平、抑制NLRP3炎症小体，显著改善老年骨质疏松，为肠道-骨骼炎症轴提供新证据。</description>
     <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
 
-  </item>  <item>
+  </item>
+<item>
     <title>衰老细胞清除恢复老年大脑白质小胶质细胞年轻态</title>
     <link>https://longbiosci.com/news/Senolytics-Restore-Microglia-White-Matter-Nature-Aging-2026.html</link>
     <guid isPermaLink="true">https://longbiosci.com/news/Senolytics-Restore-Microglia-White-Matter-Nature-Aging-2026.html</guid>
     <description>Nature Aging发表研究：大脑白质中存在一类同时表达疾病相关小胶质细胞（DAM）标记和SenBrain衰老基因的独特群体，衰老细胞清除可逆转其有害表型，恢复更年轻的小胶质细胞组织结构。</description>
     <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
 
-  </item>  <item>
+  </item>
+<item>
     <title>仅7天冥想即可重塑大脑：UCSD研究揭示全身生物系统改变</title>
     <link>https://longbiosci.com/news/Meditation-7-Days-Brain-Rewiring-UCSD-2026.html</link>
     <guid isPermaLink="true">https://longbiosci.com/news/Meditation-7-Days-Brain-Rewiring-UCSD-2026.html</guid>
     <description>加州大学圣地亚哥分校研究揭示：仅7天的正念冥想静修即可在健康成年人中检测到大脑活动、血液化学、免疫信号、代谢和天然疼痛控制系统的多重改变，并出现神经可塑性增强的分子标志，为</description>
     <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
 
-  </item>  <item>
+  </item>
+<item>
     <title>力量训练延寿</title>
     <link>https://longbiosci.com/news/Strength-Training-Longevity-Sweet-Spot-BJSM-2026.html</link>
     <guid isPermaLink="true">https://longbiosci.com/news/Strength-Training-Longevity-Sweet-Spot-BJSM-2026.html</guid>
     <description>三项美国大型前瞻性队列研究30年随访、近15万名医护人员数据揭示：每周90-120分钟力量训练全因死亡风险降低13%，心血管死亡降低19%，神经系统疾病死亡（主要为痴呆）降低27%；最佳组合为有氧运动+1-2小时力量训练，全因死亡风险降低45%。</description>
     <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
 
-  </item>  <item>
-    <title>细胞毒性CD4+ T细胞：免疫系统中被低估的衰老调节者</title>
-    <link>https://longbiosci.com/news/Cytotoxic-CD4-CTL-Senescence-Aging-2026.html</link>
-    <guid isPermaLink="true">https://longbiosci.com/news/Cytotoxic-CD4-CTL-Senescence-Aging-2026.html</guid>
-    <description>最新综述揭示一类特殊的CD4+ T细胞——细胞毒性CD4+ T细胞（CD4 CTL）——兼具杀伤衰老细胞与驱动炎症的双重角色，为抗衰老免疫干预提供了全新的视角。</description>
-    <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-
-  </item>  <item>
-    <title>衰老不是线性损耗：细胞社会的大规模重构</title>
-    <link>https://longbiosci.com/news/Aging-Cell-Society-Remodeling-Quanta-2026.html</link>
-    <guid isPermaLink="true">https://longbiosci.com/news/Aging-Cell-Society-Remodeling-Quanta-2026.html</guid>
-    <description>基于小鼠大规模单细胞研究的新视角：衰老不是分子损伤的线性积累，而是类似发育的阶段性重构过程——特定细胞群在特定时间窗口集中消失或扩增，构成</description>
-    <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-
-  </item>  <item>
-    <title>细胞毒性CD4+ T细胞：衰老中的双刃剑</title>
-    <link>https://longbiosci.com/news/Cytotoxic-CD4-T-cells-Aging-Conceptual-Framework-2026.html</link>
-    <guid isPermaLink="true">https://longbiosci.com/news/Cytotoxic-CD4-T-cells-Aging-Conceptual-Framework-2026.html</guid>
-    <description>国际免疫学综述：细胞毒性CD4+ T细胞（CD4 CTL）在衰老过程中显著扩增，既能清除衰老细胞和病毒/肿瘤，发挥保护作用；也可驱动自身免疫和神经退行性疾病，加剧组织损伤。理解其双面角色为免疫干预提供新靶点。</description>
-    <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-
-  </item>  <item>
-    <title>L-BAIBA：运动代谢激酶延缓肌肉衰老的分子机制</title>
-    <link>https://longbiosci.com/news/L-BAIBA-Metabokine-Exercise-Aging-PGC1%CE%B1-PPAR%CE%B4-2026.html</link>
-    <guid isPermaLink="true">https://longbiosci.com/news/L-BAIBA-Metabokine-Exercise-Aging-PGC1%CE%B1-PPAR%CE%B4-2026.html</guid>
-    <description>Nature Communications发表研究，揭示L-BAIBA作为运动代谢激酶，通过PGC1α-BAIBA-PPARδ轴介导骨骼肌对运动的适应性，为老年人运动效果强化提供了新的干预靶点。</description>
-    <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-
-  </item><item>
-    <title>L-BAIBA：运动介导肌肉适应的关键代谢因子</title>
-    <link>https://longbiosci.com/news/L-BAIBA-PGC1%CE%B1-BAIBA-PPAR%CE%B4-Skeletal-Muscle-Adaptation-2026.html</link>
-    <guid isPermaLink="true">https://longbiosci.com/news/L-BAIBA-PGC1%CE%B1-BAIBA-PPAR%CE%B4-Skeletal-Muscle-Adaptation-2026.html</guid>
-    <description>Nature Communications 2026发表重磅研究，首次系统阐明L-BAIBA（β-氨基异丁酸）作为代谢激酶（metabokine），通过PGC1α-BAIBA-PPARδ信号轴介导运动诱导的肌肉适应与功能改善，并揭示老年补充L-BAIBA可恢复运动反应，为肌肉衰减症和衰老干预提供新靶</description>
-    <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-
-  </item>  <item>
-    <title>线粒体超复合体与长寿：氧化磷酸化高级组装结构在衰老中的作用 - LongBiosci</title>
-    <link>https://longbiosci.com/news/Mitochondrial-Supercomplexes-Longevity-Review-2026.html</link>
-    <guid isPermaLink="true">https://longbiosci.com/news/Mitochondrial-Supercomplexes-Longevity-Review-2026.html</guid>
-    <description>Frontiers in Aging 发表综述，系统梳理线粒体呼吸链超复合体（SCs）的分子组装、生理功能及与长寿的关联，探讨通过调节超复合体促进健康衰老的潜在策略。</description>
-    <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-
-  </item></channel>
+  </item>
+  </channel>
 </rss>
