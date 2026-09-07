@@ -49,6 +49,35 @@
     .skip-link:focus {
         top: 0;
     }
+    /* 移动端底部导航 */
+    .bottom-nav {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #fff;
+        display: flex;
+        justify-content: space-around;
+        padding: 8px 0;
+        box-shadow: 0 -2px 10px rgba(0,0,0,0.08);
+        z-index: 100;
+    }
+    .nav-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2px;
+        color: #999;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .nav-item.active { color: #e94560; }
+    .nav-item .icon { font-size: 20px; }
+    @media (min-width: 768px) {
+        .bottom-nav { max-width: 700px; left: 50%; transform: translateX(-50%); }
+    }
+    /* 容器底部留白给固定导航 */
+    .container { padding-bottom: 80px !important; }
 
 </style>
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -97,5 +126,23 @@
             © 2026 LongBiosci · 抗衰老研究资讯
         </p>
     </div>
+    <nav class="bottom-nav">
+        <a href="/" class="nav-item">
+            <span class="icon">🏠</span>
+            <span>首页</span>
+        </a>
+        <a href="/papers/" class="nav-item">
+            <span class="icon">📚</span>
+            <span>论文</span>
+        </a>
+        <a href="/news/" class="nav-item">
+            <span class="icon">📰</span>
+            <span>资讯</span>
+        </a>
+        <a href="/about.html" class="nav-item active">
+            <span class="icon">👤</span>
+            <span>关于</span>
+        </a>
+    </nav>
 </body>
 </html>
