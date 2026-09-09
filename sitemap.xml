@@ -2088,12 +2088,7 @@
     <ns0:changefreq>monthly</ns0:changefreq>
     <ns0:priority>0.8</ns0:priority>
   </ns0:url>
-  <ns0:url>
-    <ns0:loc>https://longbiosci.com/about.html</ns0:loc>
-    <ns0:lastmod>2026-01-01</ns0:lastmod>
-    <ns0:changefreq>monthly</ns0:changefreq>
-    <ns0:priority>0.8</ns0:priority>
-  </ns0:url>
+  
   <ns0:url>
     <ns0:loc>https://longbiosci.com/article.html</ns0:loc>
     <ns0:lastmod>2026-03-12</ns0:lastmod>
@@ -2186,7 +2181,7 @@
   </ns0:url>
   <ns0:url>
     <ns0:loc>https://longbiosci.com/events/index.html</ns0:loc>
-    <ns0:lastmod>2026-03-28</ns0:lastmod>
+    <ns0:lastmod>2026-09-09</ns0:lastmod>
     <ns0:changefreq>monthly</ns0:changefreq>
     <ns0:priority>0.8</ns0:priority>
   </ns0:url>
