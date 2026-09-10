@@ -5,9 +5,33 @@
     <link>https://longbiosci.com</link>
     <description>最新生物医药与长寿科技研究资讯</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 07 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Sep 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://longbiosci.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <item>
+      <item>
+    <title>SENESCENCE2030 路线图：迈向精准衰老医学的共识框架</title>
+    <link>https://longbiosci.com/news/SENESCENCE2030-Roadmap-Precision-Senescence-Medicine-2026.html</link>
+    <description>SENESCENCE2030 网络在 Nature Aging 发表共识路线图，凝聚全球研究、临床、产业与政策力量，系统规划精准衰老医学从基础研究到临床转化的五大优先方向，为细胞衰老干预的临床落地提供里程碑式指导框架。</description>
+    <pubDate>Thu, 09 Sep 2026 00:00:00 GMT</pubDate>
+    <guid isPermaLink="true">https://longbiosci.com/news/SENESCENCE2030-Roadmap-Precision-Senescence-Medicine-2026.html</guid>
+    <category>Senolytic</category>
+  </item>
+<item>
+    <title>「适应成本假说」：为何健康行为无法完全预防年龄相关疾病</title>
+    <link>https://longbiosci.com/news/Adaptive-Cost-Hypothesis-NCDs-Evolvable-Lifespan-2026.html</link>
+    <description>新假说认为，非传染性疾病并非「现代生活与祖先生物学错配」的产物，而是在寿命延长后、适应性机制超出其进化设计寿命时、不得不付出的必然代价。</description>
+    <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+    <guid isPermaLink="true">https://longbiosci.com/news/Adaptive-Cost-Hypothesis-NCDs-Evolvable-Lifespan-2026.html</guid>
+    <category>理论综述</category>
+  </item>
+<item>
+    <title>Dog Aging Project：超5万只伴侣犬揭示老年共病模式</title>
+    <link>https://longbiosci.com/news/Dog-Aging-Project-50000-Dogs-Multimorbidity-2026.html</link>
+    <description>Dog Aging Project 利用超过5万只伴侣犬数据，首次系统揭示犬类共病（multimorbidity）的累积规律及其与死亡风险的关联，为人类衰老临床转化研究提供关键模型支撑。</description>
+    <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+    <guid isPermaLink="true">https://longbiosci.com/news/Dog-Aging-Project-50000-Dogs-Multimorbidity-2026.html</guid>
+    <category>临床研究</category>
+  </item>
+<item>
       <title><![CDATA[Nano-ERASER：穿越血脑屏障递送抗体，星形胶质细胞重编程为神经元逆转阿尔茨海默病 - LongBiosci]]></title>
       <link>https://longbiosci.com/news/Nano-ERASER-Astrocyte-Neuron-AD-2026.html</link>
       <guid isPermaLink="true">https://longbiosci.com/news/Nano-ERASER-Astrocyte-Neuron-AD-2026.html</guid>
@@ -169,36 +193,6 @@
       <link>https://longbiosci.com/news/Exercise-Slows-Ovarian-Aging-Nature-Aging-2026.html</link>
       <guid isPermaLink="true">https://longbiosci.com/news/Exercise-Slows-Ovarian-Aging-Nature-Aging-2026.html</guid>
       <description><![CDATA[Nature Aging发表大规模研究：超15万名参与者横断面分析证实体力活动与延迟绝经相关；小鼠实验进一步揭示 adiponectin 是运动延缓卵巢衰老的关键分子靶点，为干预生殖衰老提供行为学和分子双重证据。]]></description>
-      <category><![CDATA[研究进展]]></category>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-    
-    </item>
-<item>
-
-      <title><![CDATA[运动如何通过肠道菌群-TMAO-αKlotho通路对抗老年骨质疏松（iScience 2026）]]></title>
-      <link>https://longbiosci.com/news/Exercise-TMAO-Klotho-NLRP3-Osteoporosis-iScience-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/Exercise-TMAO-Klotho-NLRP3-Osteoporosis-iScience-2026.html</guid>
-      <description><![CDATA[iScience发表研究：运动通过降低肠道菌群代谢产物TMAO、维持α-Klotho水平、抑制NLRP3炎症小体，显著改善老年骨质疏松，为肠道-骨骼炎症轴提供新证据。]]></description>
-      <category><![CDATA[研究进展]]></category>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-    
-    </item>
-<item>
-
-      <title><![CDATA[衰老细胞清除恢复老年大脑白质小胶质细胞年轻态（Nature Aging 2026）]]></title>
-      <link>https://longbiosci.com/news/Senolytics-Restore-Microglia-White-Matter-Nature-Aging-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/Senolytics-Restore-Microglia-White-Matter-Nature-Aging-2026.html</guid>
-      <description><![CDATA[Nature Aging发表研究：大脑白质中存在一类同时表达疾病相关小胶质细胞（DAM）标记和SenBrain衰老基因的独特群体，衰老细胞清除可逆转其有害表型，恢复更年轻的小胶质细胞组织结构。]]></description>
-      <category><![CDATA[研究进展]]></category>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-    
-    </item>
-<item>
-
-      <title><![CDATA[仅7天冥想即可重塑大脑：UCSD研究揭示全身生物系统改变——Communications Biology 2026]]></title>
-      <link>https://longbiosci.com/news/Meditation-7-Days-Brain-Rewiring-UCSD-2026.html</link>
-      <guid isPermaLink="true">https://longbiosci.com/news/Meditation-7-Days-Brain-Rewiring-UCSD-2026.html</guid>
-      <description><![CDATA[加州大学圣地亚哥分校研究揭示：仅7天的正念冥想静修即可在健康成年人中检测到大脑活动、血液化学、免疫信号、代谢和天然疼痛控制系统的多重改变，并出现神经可塑性增强的分子标志，为]]></description>
       <category><![CDATA[研究进展]]></category>
       <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
     
