@@ -100,7 +100,7 @@
             <h1>心肌细胞再生突破：SAV1基因疗法开启首个人体临床试验</h1>
             <div class="date">📅 2026-05-28 | 来源：Nature News</div>
         </div>
-        <div class="content">
+        <div class="content" article-content">
             <a href="/" class="back-link">← 返回首页</a>
             <div class="intro">
                 <strong>核心发现：</strong>德克萨斯心脏研究所James Martin团队开发的SAV1基因疗法，通过RNA干扰抑制细胞分裂"刹车"蛋白SAV1，促使心肌细胞重新进入增殖状态。猪心梗模型中射血分数提升14%，已于2026年6月获FDA批准启动首个人体临床试验，心血管疾病再生医学迎来重要里程碑。
@@ -157,5 +157,29 @@
         <a href="/rss.xml">RSS</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="/about/">关于</a>
     </div>
 </footer>
+
+<div class="read-progress" aria-hidden="true"><div class="read-progress-bar" id="readBar"></div></div>
+<button class="to-top" id="toTop" type="button" aria-label="回到顶部" title="回到顶部">\u2191</button>
+<script>
+(function(){
+  var bar=document.getElementById('readBar');
+  var btn=document.getElementById('toTop');
+  var main=document.getElementById('main-content');
+  if(!main){return}
+  function onScroll(){
+    var h=main.offsetHeight;
+    var y=window.pageYOffset+window.innerHeight;
+    var p=h?Math.min(100,Math.max(0,(y/main.offsetTop+h)*100)):0;
+    if(bar){bar.style.width=p.toFixed(1)+'%'}
+    if(btn){btn.classList.toggle('show',window.pageYOffset>600)}
+  }
+  window.addEventListener('scroll',onScroll,{passive:true});
+  window.addEventListener('resize',onScroll);
+  onScroll();
+  if(btn){btn.addEventListener('click',function(){
+    window.scrollTo({top:0,behavior:'smooth'});
+  })}
+})();
+</script>
 </body>
 </html>

@@ -132,7 +132,8 @@
                 <p><a href="https://www.sciencedaily.com/releases/2026/06/260610003119.htm" target="_blank" rel="noopener noreferrer">查看ScienceDaily报道 →</a></p>
             </div>
 
-            <footer class="article-footer">
+            <div class="related-block"><h3>延伸阅读</h3><ul class="related-list"><li><a href="/news/Dasatinib-Quercetin-Senolytic-MASH-Liver-Fibrosis-RCT-2026.html">达沙替尼+槲皮素治疗 MASH 肝纤维化：31 人随机对照试验 47% </a> <span class="tag-date">2026-10-07</span></li><li><a href="/news/SENESCENCE2030-Roadmap-Precision-Senescence-Medicine-2026.html">SENESCENCE2030 路线图：迈向精准衰老医学的共识框架</a> <span class="tag-date">2026-09-09</span></li><li><a href="/news/Senolytics-Restore-Microglia-White-Matter-Nature-Aging-2026.html">衰老细胞清除恢复老年大脑白质小胶质细胞年轻态</a> <span class="tag-date">2026-08-29</span></li></ul></div>
+<footer class="article-footer">
                 <a href="/news/" class="back-link">← 返回新闻列表</a>
             </footer>
         </article>
@@ -144,5 +145,29 @@
         <a href="/rss.xml">RSS</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="/about/">关于</a>
     </div>
 </footer>
+
+<div class="read-progress" aria-hidden="true"><div class="read-progress-bar" id="readBar"></div></div>
+<button class="to-top" id="toTop" type="button" aria-label="回到顶部" title="回到顶部">\u2191</button>
+<script>
+(function(){
+  var bar=document.getElementById('readBar');
+  var btn=document.getElementById('toTop');
+  var main=document.getElementById('main-content');
+  if(!main){return}
+  function onScroll(){
+    var h=main.offsetHeight;
+    var y=window.pageYOffset+window.innerHeight;
+    var p=h?Math.min(100,Math.max(0,(y/main.offsetTop+h)*100)):0;
+    if(bar){bar.style.width=p.toFixed(1)+'%'}
+    if(btn){btn.classList.toggle('show',window.pageYOffset>600)}
+  }
+  window.addEventListener('scroll',onScroll,{passive:true});
+  window.addEventListener('resize',onScroll);
+  onScroll();
+  if(btn){btn.addEventListener('click',function(){
+    window.scrollTo({top:0,behavior:'smooth'});
+  })}
+})();
+</script>
 </body>
 </html>

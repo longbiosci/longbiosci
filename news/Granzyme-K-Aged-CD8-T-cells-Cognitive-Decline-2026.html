@@ -90,7 +90,7 @@
             <div class="date">📅 <time datetime="2026-06-02">2026年6月2日</time> | 来源：Immunity | DOI: 10.1016/j.immuni.2026.04.014</div>
         </div>
 
-        <div class="content">
+        <div class="content" article-content">
             <a href="/" class="back-link">← 返回首页</a>
 
             <div class="intro">
@@ -185,5 +185,29 @@
     </div>
 </footer>
 
+
+<div class="read-progress" aria-hidden="true"><div class="read-progress-bar" id="readBar"></div></div>
+<button class="to-top" id="toTop" type="button" aria-label="回到顶部" title="回到顶部">\u2191</button>
+<script>
+(function(){
+  var bar=document.getElementById('readBar');
+  var btn=document.getElementById('toTop');
+  var main=document.getElementById('main-content');
+  if(!main){return}
+  function onScroll(){
+    var h=main.offsetHeight;
+    var y=window.pageYOffset+window.innerHeight;
+    var p=h?Math.min(100,Math.max(0,(y/main.offsetTop+h)*100)):0;
+    if(bar){bar.style.width=p.toFixed(1)+'%'}
+    if(btn){btn.classList.toggle('show',window.pageYOffset>600)}
+  }
+  window.addEventListener('scroll',onScroll,{passive:true});
+  window.addEventListener('resize',onScroll);
+  onScroll();
+  if(btn){btn.addEventListener('click',function(){
+    window.scrollTo({top:0,behavior:'smooth'});
+  })}
+})();
+</script>
 </body>
 </html>

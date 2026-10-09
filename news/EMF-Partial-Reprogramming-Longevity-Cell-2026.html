@@ -92,7 +92,7 @@
                 <p class="source">来源: <a href="https://www.fightaging.org/archives/2026/05/" target="_blank" rel="noopener noreferrer">Fight Aging!</a> | 原始论文: <a href="https://doi.org/10.1016/j.cell.2026.03.029" target="_blank" rel="noopener noreferrer">Cell (2026)</a></p>
             </header>
 
-            <div class="article-body">
+            <div class="article-body" article-content">
                 <p>部分细胞重编程（Partial Cellular Reprogramming）——用山中因子（Yamanaka Factors）将衰老细胞恢复至年轻表观遗传状态——被普遍认为是抗衰老领域最具潜力的技术路径之一。然而，如何<strong>安全、精准、可控</strong>地在活体中实现这一过程，始终是最大难题。韩国 Dongguk University 团队在 <em>Cell</em> 发表的新研究，给出了一种极具想象力的答案：<strong>用电磁场（EMF）作为远程"遥控器"，无线激活基因重编程。</strong></p>
 
                 <h2>核心问题：递送与控制</h2>
@@ -164,5 +164,29 @@
         <a href="/rss.xml">RSS</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="/about/">关于</a>
     </div>
 </footer>
+
+<div class="read-progress" aria-hidden="true"><div class="read-progress-bar" id="readBar"></div></div>
+<button class="to-top" id="toTop" type="button" aria-label="回到顶部" title="回到顶部">\u2191</button>
+<script>
+(function(){
+  var bar=document.getElementById('readBar');
+  var btn=document.getElementById('toTop');
+  var main=document.getElementById('main-content');
+  if(!main){return}
+  function onScroll(){
+    var h=main.offsetHeight;
+    var y=window.pageYOffset+window.innerHeight;
+    var p=h?Math.min(100,Math.max(0,(y/main.offsetTop+h)*100)):0;
+    if(bar){bar.style.width=p.toFixed(1)+'%'}
+    if(btn){btn.classList.toggle('show',window.pageYOffset>600)}
+  }
+  window.addEventListener('scroll',onScroll,{passive:true});
+  window.addEventListener('resize',onScroll);
+  onScroll();
+  if(btn){btn.addEventListener('click',function(){
+    window.scrollTo({top:0,behavior:'smooth'});
+  })}
+})();
+</script>
 </body>
 </html>

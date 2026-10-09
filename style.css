@@ -55,7 +55,8 @@
   --sh-md:0 2px 8px rgba(15,43,70,.08);
   --sh-lg:0 8px 28px rgba(15,43,70,.11);
 
-  --w-page:1160px; --w-text:720px; --w-narrow:640px;
+  --w-page:1160px; --w-text:680px;   /* 中文长文约 38 字/行 */
+  --w-narrow:640px;
   --ease:cubic-bezier(.4,0,.2,1);
 
   /* 旧变量名兼容映射 */
@@ -294,13 +295,127 @@ code{
 .article-header .date{color:var(--c-faint);font-size:var(--f-sm)}
 .article-header .tag{margin-right:var(--s-2)}
 
-.article-content{font-size:var(--f-md);line-height:var(--lh-relax);color:var(--c-body)}
-.article-content h2{font-size:var(--f-xl);margin:var(--s-7) 0 var(--s-4);padding-top:var(--s-2)}
-.article-content h3{font-size:var(--f-lg);margin:var(--s-6) 0 var(--s-3)}
-.article-content p{margin-bottom:var(--s-5)}
-.article-content ul,.article-content ol{margin-bottom:var(--s-5)}
-.article-content li{margin-bottom:var(--s-3)}
-.article-content strong{color:var(--c-ink);font-weight:600}
+/* ---- 长文正文排版 ----
+   参数依据中文长文阅读习惯：
+   字号 17px（在 16px 基础上微升，长时间阅读不累）
+   行高 1.9（中文需要比西文更大的行距）
+   版心 680px（约 38 中文字/行，舒适区间 30-40）
+   段间距1em（用 em 而非固定 px，缩放时保持比例）
+   中文字体栈优先思源/苹方，系统字体兜底
+*/
+.article-content{
+  font-size:17px;
+  line-height:1.9;
+  color:var(--c-body);
+  /* 中文正文用 text-align: justify 可让段落边缘更整齐，
+     但 justify 在窄屏会导致异常拉伸，故仅在宽屏启用 */
+  hyphens:auto;
+  overflow-wrap:break-word;
+  word-break:normal;
+}
+
+/* 首段不做首字下沉（科研资讯以信息密度优先） */
+.article-content h2{
+  font-size:var(--f-xl);
+  margin:var(--s-7) 0 var(--s-4);
+  padding-top:var(--s-3);
+  line-height:var(--lh-snug);
+  /* h2 上加细分割线，让读者快速定位章节 */
+  border-top:1px solid var(--c-line);
+}
+.article-content h3{font-size:var(--f-lg);margin:var(--s-6) 0 var(--s-3);line-height:var(--lh-snug)}
+.article-content h4{font-size:var(--f-base);margin:var(--s-5) 0 var(--s-2);color:var(--c-ink-soft)}
+
+.article-content p{margin:0 0 1.15em;text-indent:0}
+.article-content ul,.article-content ol{margin:0 0 1.15em;padding-left:1.5em}
+.article-content li{margin-bottom:.5em}
+.article-content li>ul,.article-content li>ol{margin-top:.5em;margin-bottom:.5em}
+
+/* 链接在正文中需醒目 */
+.article-content a:not(.back-link){
+  color:var(--c-primary);
+  text-decoration:underline;
+  text-decoration-thickness:1px;
+  text-underline-offset:2px;
+  transition:color .16s var(--ease),background .16s var(--ease);
+}
+.article-content a:not(.back-link):hover{
+  background:var(--c-primary-soft);
+  text-decoration:none;
+}
+
+/* 引用块：科研文章常引原文，需要明显区分 */
+.article-content blockquote{
+  font-size:16px;
+  color:var(--c-ink-soft);
+  border-left:3px solid var(--c-primary-line);
+  background:var(--c-surface);
+  padding:var(--s-4) var(--s-5);
+  margin:1.4em 0;
+}
+
+/* 行内代码与图表 */
+.article-content code{
+  font-size:.88em;
+  background:var(--c-bg-sunken);
+  padding:.15em .45em;
+  border-radius:var(--r-sm);
+  color:var(--c-accent);
+}
+.article-content pre{
+  overflow-x:auto;
+  background:var(--c-bg-sunken);
+  padding:var(--s-4);
+  border-radius:var(--r-md);
+  margin:1.2em 0;
+  line-height:1.6;
+}
+.article-content pre code{background:none;padding:0;color:inherit}
+
+/* 表格：科研内容常见，需横向滚动而非撑破布局 */
+.article-content table{
+  width:100%;
+  border-collapse:collapse;
+  font-size:var(--f-sm);
+  margin:1.3em 0;
+  display:block;
+  overflow-x:auto;
+}
+.article-content th,.article-content td{
+  border:1px solid var(--c-line);
+  padding:var(--s-2) var(--s-3);
+  text-align:left;
+}
+.article-content th{background:var(--c-bg-sunken);font-weight:600}
+
+/* 图片：正文图不应超出版心 */
+.article-content img{
+  max-width:100%;
+  height:auto;
+  border-radius:var(--r-md);
+  margin:1.3em auto;
+  display:block;
+}
+.article-content figure{margin:1.4em 0}
+.article-content figcaption{
+  font-size:var(--f-xs);
+  color:var(--c-faint);
+  text-align:center;
+  margin-top:var(--s-2);
+  line-height:var(--lh-normal);
+}
+
+/* 提示框（证据分级/局限性）——长文中需要视觉锚定 */
+.article-content .notice-box{
+  font-size:var(--f-sm);
+  line-height:1.8;
+  margin:1.5em 0;
+}
+
+/* 宽屏启用两端对齐，让右边缘更整齐 */
+@media (min-width:1025px){
+  .article-content p{text-align:justify;text-justify:inter-ideograph)}
+}
 
 .article-footer{margin-top:var(--s-7);padding-top:var(--s-5);
   border-top:1px solid var(--c-line)}
@@ -533,3 +648,59 @@ body:has(.bottom-nav){padding-bottom:64px}
 .stat-n{font-size:var(--f-xl);font-weight:600;color:var(--c-primary);
   font-variant-numeric:tabular-nums;line-height:1.2}
 .stat-l{font-size:var(--f-xs);color:var(--c-muted)}
+
+/* ==========================================================================
+   10. 阅读辅助组件（长文体验）
+   ========================================================================== */
+
+/* 阅读进度条：读者随时知道"读到哪了" */
+.read-progress{
+  position:fixed;top:0;left:0;right:0;height:3px;z-index:200;
+  background:transparent;pointer-events:none;
+}
+.read-progress-bar{
+  height:100%;width:0;background:var(--c-primary);
+  transition:width .1s linear;
+}
+
+/* 回到顶部：长文必备 */
+.to-top{
+  position:fixed;right:var(--s-5);bottom:var(--s-5);z-index:150;
+  width:44px;height:44px;border-radius:50%;
+  background:var(--c-bg-raised);border:1px solid var(--c-line-strong);
+  color:var(--c-primary);box-shadow:var(--sh-md);cursor:pointer;
+  display:flex;align-items:center;justify-content:center;
+  opacity:0;visibility:hidden;transition:opacity .2s var(--ease),visibility .2s var(--ease);
+  font-size:var(--f-md);line-height:1;
+}
+.to-top.show{opacity:1;visibility:visible}
+.to-top:hover{background:var(--c-primary);color:#fff;border-color:var(--c-primary)}
+
+/* 文章元信息栏：把日期/来源/证据等级集中呈现 */
+.article-meta{
+  display:flex;align-items:center;gap:var(--s-3);flex-wrap:wrap;
+  padding:var(--s-3) 0;margin-bottom:var(--s-4);
+  border-bottom:1px solid var(--c-line);
+  font-size:var(--f-sm);color:var(--c-muted);
+}
+.article-meta .src{color:var(--c-muted)}
+.article-meta .src a{font-weight:500}
+
+/* 正文内的"延伸阅读"区块 */
+.related-block{
+  margin:var(--s-7) 0 var(--s-4);padding-top:var(--s-5);
+  border-top:1px solid var(--c-line);
+}
+.related-block h3{font-size:var(--f-base);margin:0 0 var(--s-3);color:var(--c-ink)}
+.related-list{list-style:none;padding:0;margin:0}
+.related-list li{
+  padding:var(--s-2) 0;border-bottom:1px solid var(--c-line);
+  font-size:var(--f-sm);
+}
+.related-list li:last-child{border-bottom:0}
+
+/* 移动端：增大点击区域 */
+@media (max-width:768px){
+  .to-top{width:40px;height:40px;right:var(--s-3);bottom:var(--s-3)}
+  .article-meta{font-size:var(--f-xs);gap:var(--s-2)}
+}

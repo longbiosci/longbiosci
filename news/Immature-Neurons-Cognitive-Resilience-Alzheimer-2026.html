@@ -92,7 +92,7 @@
                 <p class="source">来源: <a href="https://nin.nl/news/not-all-alzheimers-leads-to-dementia/" target="_blank" rel="noopener noreferrer">Netherlands Institute for Neuroscience</a></p>
             </header>
 
-            <div class="article-body">
+            <div class="article-body" article-content">
                 <p>为什么有些人大脑中已经积累了明显的阿尔茨海默病理性标志（如蛋白聚集体），却从未出现认知功能下降的症状？这一"认知弹性"（Cognitive Resilience）现象困扰了神经科学家数十年。<strong>荷兰神经科学研究所（Netherlands Institute for Neuroscience）最新发表在 Cell Stem Cell 上的研究，为这一谜题提供了迄今最清晰的分子层面解释：答案藏在一种罕见的"未成熟神经元"中。</strong></p>
 
                 <h2>约30%的人对阿尔茨海默"免疫"</h2>
@@ -145,5 +145,29 @@
         <a href="/rss.xml">RSS</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="/about/">关于</a>
     </div>
 </footer>
+
+<div class="read-progress" aria-hidden="true"><div class="read-progress-bar" id="readBar"></div></div>
+<button class="to-top" id="toTop" type="button" aria-label="回到顶部" title="回到顶部">\u2191</button>
+<script>
+(function(){
+  var bar=document.getElementById('readBar');
+  var btn=document.getElementById('toTop');
+  var main=document.getElementById('main-content');
+  if(!main){return}
+  function onScroll(){
+    var h=main.offsetHeight;
+    var y=window.pageYOffset+window.innerHeight;
+    var p=h?Math.min(100,Math.max(0,(y/main.offsetTop+h)*100)):0;
+    if(bar){bar.style.width=p.toFixed(1)+'%'}
+    if(btn){btn.classList.toggle('show',window.pageYOffset>600)}
+  }
+  window.addEventListener('scroll',onScroll,{passive:true});
+  window.addEventListener('resize',onScroll);
+  onScroll();
+  if(btn){btn.addEventListener('click',function(){
+    window.scrollTo({top:0,behavior:'smooth'});
+  })}
+})();
+</script>
 </body>
 </html>

@@ -92,7 +92,7 @@
                 <p class="source">来源: <a href="https://www.fightaging.org/archives/2026/05/oxidative-stress-impairs-deubiquitylase-activity-in-the-aging-brain/" target="_blank" rel="noopener noreferrer">Fight Aging!</a></p>
             </header>
 
-            <div class="article-body">
+            <div class="article-body" article-content">
                 <p>蛋白质稳态（Proteostasis）是细胞维持正常功能的核心机制之一，其失效是衰老的重要标志。泛素-蛋白酶体系统（UPS）是蛋白质稳态的核心执行者：泛素连接酶给目标蛋白打上"降解标签"，蛋白酶体负责将其分解；而<strong>去泛素化酶（DUBs）</strong>则起到拮抗作用——将泛素从蛋白上移除，调节蛋白质命运和信号通路动态平衡。<strong>最新研究首次系统揭示：衰老大脑中一类DUBs的催化活性随龄下降，且原因是氧化应激导致的巯基（thiol）氧化，而非蛋白丰度的改变。</strong></p>
 
                 <h2>研究方法：活动蛋白组学跨物种解析</h2>
@@ -155,5 +155,29 @@
         <a href="/rss.xml">RSS</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="/about/">关于</a>
     </div>
 </footer>
+
+<div class="read-progress" aria-hidden="true"><div class="read-progress-bar" id="readBar"></div></div>
+<button class="to-top" id="toTop" type="button" aria-label="回到顶部" title="回到顶部">\u2191</button>
+<script>
+(function(){
+  var bar=document.getElementById('readBar');
+  var btn=document.getElementById('toTop');
+  var main=document.getElementById('main-content');
+  if(!main){return}
+  function onScroll(){
+    var h=main.offsetHeight;
+    var y=window.pageYOffset+window.innerHeight;
+    var p=h?Math.min(100,Math.max(0,(y/main.offsetTop+h)*100)):0;
+    if(bar){bar.style.width=p.toFixed(1)+'%'}
+    if(btn){btn.classList.toggle('show',window.pageYOffset>600)}
+  }
+  window.addEventListener('scroll',onScroll,{passive:true});
+  window.addEventListener('resize',onScroll);
+  onScroll();
+  if(btn){btn.addEventListener('click',function(){
+    window.scrollTo({top:0,behavior:'smooth'});
+  })}
+})();
+</script>
 </body>
 </html>

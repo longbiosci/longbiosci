@@ -81,7 +81,7 @@
                 <p class="source">来源: <a href="https://doi.org/10.1111/acel.70655" target="_blank" rel="noopener noreferrer">Aging Cell (2026)</a></p>
             </header>
 
-            <div class="article-body">
+            <div class="article-body" article-content">
                 <p>一项最新研究揭示，<strong>靶向RANKL（RANK配体）的中和抗体</strong>可同时改善早衰小鼠的骨骼、肌肉及寿命指标，为早衰症（Hutchinson-Gilford Progeria Syndrome, HGPS）及生理性衰老干预提供了全新治疗思路。该研究发表于 <em>Aging Cell</em>（2026），DOI: 10.1111/acel.70655。</p>
 
                 <h2>研究背景</h2>
@@ -114,5 +114,29 @@
         <a href="/rss.xml">RSS</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="/about/">关于</a>
     </div>
 </footer>
+
+<div class="read-progress" aria-hidden="true"><div class="read-progress-bar" id="readBar"></div></div>
+<button class="to-top" id="toTop" type="button" aria-label="回到顶部" title="回到顶部">\u2191</button>
+<script>
+(function(){
+  var bar=document.getElementById('readBar');
+  var btn=document.getElementById('toTop');
+  var main=document.getElementById('main-content');
+  if(!main){return}
+  function onScroll(){
+    var h=main.offsetHeight;
+    var y=window.pageYOffset+window.innerHeight;
+    var p=h?Math.min(100,Math.max(0,(y/main.offsetTop+h)*100)):0;
+    if(bar){bar.style.width=p.toFixed(1)+'%'}
+    if(btn){btn.classList.toggle('show',window.pageYOffset>600)}
+  }
+  window.addEventListener('scroll',onScroll,{passive:true});
+  window.addEventListener('resize',onScroll);
+  onScroll();
+  if(btn){btn.addEventListener('click',function(){
+    window.scrollTo({top:0,behavior:'smooth'});
+  })}
+})();
+</script>
 </body>
 </html>

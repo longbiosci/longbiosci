@@ -92,7 +92,7 @@
                 <p class="source">来源: <a href="https://www.fightaging.org/archives/2026/05/fecal-microbiota-transplantation-reduces-mdm2-expression-and-risk-of-liver-cancer/" target="_blank" rel="noopener noreferrer">Fight Aging!</a> · <a href="https://www.eurekalert.org/news-releases/1124997" target="_blank" rel="noopener noreferrer">EurekAlert</a></p>
             </header>
 
-            <div class="article-body">
+            <div class="article-body" article-content">
                 <p>肠道微生物组随衰老发生的结构性改变（肠道菌群失调）是衰老九大标志之一，其后果包括慢性炎症上升、有益代谢物减少，进而影响全身器官功能。<strong>最新研究显示：将年轻小鼠粪便微生物组移植到老年小鼠体内，可显著抑制MDM2基因的表达，并使肝癌发生率从25%（2/8）降至零。</strong>这一发现为"肠道-肝脏轴"的抗衰老干预潜力提供了迄今最直接的实验证据。</p>
 
                 <h2>研究设计：从心脏研究意外发现肝脏惊喜</h2>
@@ -151,5 +151,29 @@
         <a href="/rss.xml">RSS</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="/about/">关于</a>
     </div>
 </footer>
+
+<div class="read-progress" aria-hidden="true"><div class="read-progress-bar" id="readBar"></div></div>
+<button class="to-top" id="toTop" type="button" aria-label="回到顶部" title="回到顶部">\u2191</button>
+<script>
+(function(){
+  var bar=document.getElementById('readBar');
+  var btn=document.getElementById('toTop');
+  var main=document.getElementById('main-content');
+  if(!main){return}
+  function onScroll(){
+    var h=main.offsetHeight;
+    var y=window.pageYOffset+window.innerHeight;
+    var p=h?Math.min(100,Math.max(0,(y/main.offsetTop+h)*100)):0;
+    if(bar){bar.style.width=p.toFixed(1)+'%'}
+    if(btn){btn.classList.toggle('show',window.pageYOffset>600)}
+  }
+  window.addEventListener('scroll',onScroll,{passive:true});
+  window.addEventListener('resize',onScroll);
+  onScroll();
+  if(btn){btn.addEventListener('click',function(){
+    window.scrollTo({top:0,behavior:'smooth'});
+  })}
+})();
+</script>
 </body>
 </html>

@@ -75,6 +75,7 @@
         </nav>
     </header>
     <main id="main-content">
+<div class="article-content">
         <h1>细胞外基质：衰老细胞积累与持续存在中被忽视的关键环节</h1>
         <div class="meta">
             <span>📅 2026年5月12日</span>
@@ -132,12 +133,36 @@
         <div class="warning-box">
             <strong>注意：</strong>本文为 Nature Aging 论文的解读与评述，部分结论尚需更多体内研究验证。ECM 调控策略从基础研究到临床应用仍有较长距离。
         </div>
-    </main>
+    </div></main>
 <footer class="site-footer">
     <div class="wrap">
         <p>© 2026 LongBiosci 编辑部 · 衰老与长寿科技资讯</p>
         <a href="/rss.xml">RSS</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="/about/">关于</a>
     </div>
 </footer>
+
+<div class="read-progress" aria-hidden="true"><div class="read-progress-bar" id="readBar"></div></div>
+<button class="to-top" id="toTop" type="button" aria-label="回到顶部" title="回到顶部">\u2191</button>
+<script>
+(function(){
+  var bar=document.getElementById('readBar');
+  var btn=document.getElementById('toTop');
+  var main=document.getElementById('main-content');
+  if(!main){return}
+  function onScroll(){
+    var h=main.offsetHeight;
+    var y=window.pageYOffset+window.innerHeight;
+    var p=h?Math.min(100,Math.max(0,(y/main.offsetTop+h)*100)):0;
+    if(bar){bar.style.width=p.toFixed(1)+'%'}
+    if(btn){btn.classList.toggle('show',window.pageYOffset>600)}
+  }
+  window.addEventListener('scroll',onScroll,{passive:true});
+  window.addEventListener('resize',onScroll);
+  onScroll();
+  if(btn){btn.addEventListener('click',function(){
+    window.scrollTo({top:0,behavior:'smooth'});
+  })}
+})();
+</script>
 </body>
 </html>

@@ -67,6 +67,42 @@
   ]
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "@id": "https://longbiosci.com/news/WHO-Intrinsic-Capacity-Health-Measurement-2026.html#article",
+  "url": "https://longbiosci.com/news/WHO-Intrinsic-Capacity-Health-Measurement-2026.html",
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://longbiosci.com/news/WHO-Intrinsic-Capacity-Health-Measurement-2026.html"},
+  "headline": "WHO&quot;内在能力&quot;框架：首次可能直接测量健康而非疾病",
+  "description": "WHO提出的",
+  "articleSection": "生命历程",
+  "datePublished": "2026-07-22",
+  "dateModified": "2026-07-22",
+  "inLanguage": "zh-CN",
+  "author": {"@type": "Organization", "name": "LongBiosci 编辑部"},
+  "publisher": {
+    "@type": "Organization",
+    "name": "LongBiosci",
+    "alternateName": "LongBiosci 编辑部",
+    "url": "https://longbiosci.com",
+    "logo": {"@type": "ImageObject", "url": "https://longbiosci.com/logo.jpg", "width": 836, "height": 257}
+  },
+  "isPartOf": {"@type": "WebSite", "@id": "https://longbiosci.com/#website", "name": "LongBiosci"}
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "首页", "item": "https://longbiosci.com/"},
+    {"@type": "ListItem", "position": 2, "name": "最新收录", "item": "https://longbiosci.com/news/"},
+    {"@type": "ListItem", "position": 3, "name": "生命历程", "item": "https://longbiosci.com/topics/"},
+    {"@type": "ListItem", "position": 4, "name": "WHO&quot;内在能力&quot;框架：首次可能直接测量健康而非疾病", "item": "https://longbiosci.com/news/WHO-Intrinsic-Capacity-Health-Measurement-2026.html"}
+  ]
+}
+</script>
 </head>
 <body>
 <a href="#main-content" class="skip-link">跳转到主要内容</a>
@@ -84,7 +120,12 @@
         </div>
     </nav>
 </header>
-<main id="main-content">
+<main id="main-content"><nav class="breadcrumb" aria-label="面包屑导航">
+        <a href="/">首页</a> &rsaquo; <a href="/news/">最新收录</a> &rsaquo;
+        <a href="/topics/">主题</a> &rsaquo; <span aria-current="page">WHO"内在能力"框架：首次可能直接测量健康而非疾病</span>
+    </nav>
+<div class="article-content">
+    
     <p style="color:#888;font-size:0.9em;margin-bottom:20px;">📅 <a href="/">首页</a> &gt; <a href="/news/">新闻</a> &gt; 本文</p>
     
     <h1>WHO"内在能力"框架：首次可能直接测量健康而非疾病</h1>
@@ -152,12 +193,36 @@
     <p>WHO内在能力框架代表了老年医学从"疾病中心"向"功能中心"转变的重要一步。历史上，我们第一次有机会不依赖疾病来定义健康，而是直接量化人类的功能储备和恢复能力。这不仅将加速抗衰老科学的发展，也可能从根本上重塑我们对"健康老龄化"的理解。</p>
 
     <a class="back-link" href="/news/">← 返回新闻列表</a>
-</main>
+</div></main>
 <footer class="site-footer">
     <div class="wrap">
         <p>© 2026 LongBiosci 编辑部 · 衰老与长寿科技资讯</p>
         <a href="/rss.xml">RSS</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="/about/">关于</a>
     </div>
 </footer>
+
+<div class="read-progress" aria-hidden="true"><div class="read-progress-bar" id="readBar"></div></div>
+<button class="to-top" id="toTop" type="button" aria-label="回到顶部" title="回到顶部">\u2191</button>
+<script>
+(function(){
+  var bar=document.getElementById('readBar');
+  var btn=document.getElementById('toTop');
+  var main=document.getElementById('main-content');
+  if(!main){return}
+  function onScroll(){
+    var h=main.offsetHeight;
+    var y=window.pageYOffset+window.innerHeight;
+    var p=h?Math.min(100,Math.max(0,(y/main.offsetTop+h)*100)):0;
+    if(bar){bar.style.width=p.toFixed(1)+'%'}
+    if(btn){btn.classList.toggle('show',window.pageYOffset>600)}
+  }
+  window.addEventListener('scroll',onScroll,{passive:true});
+  window.addEventListener('resize',onScroll);
+  onScroll();
+  if(btn){btn.addEventListener('click',function(){
+    window.scrollTo({top:0,behavior:'smooth'});
+  })}
+})();
+</script>
 </body>
 </html>

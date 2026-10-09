@@ -79,7 +79,7 @@
                 <p class="source">来源: <a href="https://news.wfu.edu/2026/04/16/for-regrowing-human-limbs-this-salamander-gene-could-hold-the-key/" target="_blank" rel="noopener noreferrer">Wake Forest University News</a></p>
             </header>
 
-            <div class="article-body">
+            <div class="article-body" article-content">
                 <p>每年全球有超过<strong>100万例肢体截肢</strong>，主要由糖尿病血管疾病、外伤、癌症或感染导致——随着人口老龄化和糖尿病发病率上升，这一数字仍在持续增长。如何超越假肢，实现真正的器官再生，是再生医学的终极目标之一。近日，Wake Forest大学、杜克大学和威斯康星大学麦迪逊分校联合发表研究，揭示了跨越三个物种的通用再生基因密码，并于2026年4月16日发表在<strong>《美国国家科学院院刊》（PNAS）</strong>。</p>
 
                 <h2>三个物种，一个基因家族</h2>
@@ -125,5 +125,29 @@
         <a href="/rss.xml">RSS</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="/about/">关于</a>
     </div>
 </footer>
+
+<div class="read-progress" aria-hidden="true"><div class="read-progress-bar" id="readBar"></div></div>
+<button class="to-top" id="toTop" type="button" aria-label="回到顶部" title="回到顶部">\u2191</button>
+<script>
+(function(){
+  var bar=document.getElementById('readBar');
+  var btn=document.getElementById('toTop');
+  var main=document.getElementById('main-content');
+  if(!main){return}
+  function onScroll(){
+    var h=main.offsetHeight;
+    var y=window.pageYOffset+window.innerHeight;
+    var p=h?Math.min(100,Math.max(0,(y/main.offsetTop+h)*100)):0;
+    if(bar){bar.style.width=p.toFixed(1)+'%'}
+    if(btn){btn.classList.toggle('show',window.pageYOffset>600)}
+  }
+  window.addEventListener('scroll',onScroll,{passive:true});
+  window.addEventListener('resize',onScroll);
+  onScroll();
+  if(btn){btn.addEventListener('click',function(){
+    window.scrollTo({top:0,behavior:'smooth'});
+  })}
+})();
+</script>
 </body>
 </html>

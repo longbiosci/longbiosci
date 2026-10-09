@@ -74,6 +74,10 @@
         </nav>
 
 <main class="article" id="main-content">
+    <nav class="breadcrumb" aria-label="面包屑导航">
+        <a href="/">首页</a> &rsaquo; <a href="/news/">最新收录</a> &rsaquo;
+        <a href="/topics/">主题</a> &rsaquo; <span aria-current="page">DNA甲基化时钟揭示社会健康不平等的生物学机制</span>
+    </nav>
     <article>
         <header class="article-header">
             <div class="article-meta">
@@ -86,7 +90,7 @@
             <p class="lead">Aging 2026基于NHANES数据证明：GrimAge2等表观遗传时钟可解释高达52%的职业间死亡率差异，为社会因素如何转化为生物学衰老的科学争议提供了迄今最系统的量化证据。</p>
         </header>
 
-        <div class="article-body">
+        <div class="article-body" article-content">
             <h2>研究背景</h2>
             <p>大量流行病学数据早已证明：社会经济地位与预期寿命之间存在显著关联。美国数据显示，受教育程度较低者的18岁预期寿命比大学毕业者短约11年；在贫困线以下人群比高收入人群短约11年；不同职业群体间差异也极为明显。</p>
             <p>然而，一个关键问题始终悬而未决：<strong>这些社会因素究竟通过什么生物学机制缩短了寿命？</strong>它们是否真的加速了人体内部的生物学衰老过程？</p>
@@ -150,5 +154,29 @@
         <a href="/rss.xml">RSS</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="/about/">关于</a>
     </div>
 </footer>
+
+<div class="read-progress" aria-hidden="true"><div class="read-progress-bar" id="readBar"></div></div>
+<button class="to-top" id="toTop" type="button" aria-label="回到顶部" title="回到顶部">\u2191</button>
+<script>
+(function(){
+  var bar=document.getElementById('readBar');
+  var btn=document.getElementById('toTop');
+  var main=document.getElementById('main-content');
+  if(!main){return}
+  function onScroll(){
+    var h=main.offsetHeight;
+    var y=window.pageYOffset+window.innerHeight;
+    var p=h?Math.min(100,Math.max(0,(y/main.offsetTop+h)*100)):0;
+    if(bar){bar.style.width=p.toFixed(1)+'%'}
+    if(btn){btn.classList.toggle('show',window.pageYOffset>600)}
+  }
+  window.addEventListener('scroll',onScroll,{passive:true});
+  window.addEventListener('resize',onScroll);
+  onScroll();
+  if(btn){btn.addEventListener('click',function(){
+    window.scrollTo({top:0,behavior:'smooth'});
+  })}
+})();
+</script>
 </body>
 </html>

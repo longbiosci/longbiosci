@@ -79,6 +79,10 @@
         </nav>
 
 <main class="article" id="main-content">
+    <nav class="breadcrumb" aria-label="面包屑导航">
+        <a href="/">首页</a> &rsaquo; <a href="/news/">最新收录</a> &rsaquo;
+        <a href="/topics/">主题</a> &rsaquo; <span aria-current="page">Science封面研究：早期逆境塑造跨组织表观基因组——…</span>
+    </nav>
     <article>
         <header class="article-header">
             <div class="article-meta">
@@ -91,7 +95,7 @@
             <p class="lead">亚利桑那州立大学与范德堡大学合作，追踪237只猕猴全生命周期，首次在分子层面证明：早期逆境（ELA）在多个组织留下协同表观遗传印记，但并非均匀加速生物学衰老——而是以组织特异性方式"重塑"基因组的调控状态。</p>
         </header>
 
-        <div class="article-body">
+        <div class="article-body" article-content">
             <h2>研究背景</h2>
             <p>早期逆境（Early Life Adversity, ELA）与成年期年龄相关疾病、寿命缩短之间的关联早已被流行病学研究所证实。然而，一个核心问题始终悬而未决：<strong>这些早年经历究竟通过什么分子机制影响衰老进程？</strong></p>
             <p>既往研究多依赖血液样本，且难以获取人类完整的生命历程数据，导致研究结论存在明显局限性。</p>
@@ -166,5 +170,29 @@
         <a href="/rss.xml">RSS</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="/about/">关于</a>
     </div>
 </footer>
+
+<div class="read-progress" aria-hidden="true"><div class="read-progress-bar" id="readBar"></div></div>
+<button class="to-top" id="toTop" type="button" aria-label="回到顶部" title="回到顶部">\u2191</button>
+<script>
+(function(){
+  var bar=document.getElementById('readBar');
+  var btn=document.getElementById('toTop');
+  var main=document.getElementById('main-content');
+  if(!main){return}
+  function onScroll(){
+    var h=main.offsetHeight;
+    var y=window.pageYOffset+window.innerHeight;
+    var p=h?Math.min(100,Math.max(0,(y/main.offsetTop+h)*100)):0;
+    if(bar){bar.style.width=p.toFixed(1)+'%'}
+    if(btn){btn.classList.toggle('show',window.pageYOffset>600)}
+  }
+  window.addEventListener('scroll',onScroll,{passive:true});
+  window.addEventListener('resize',onScroll);
+  onScroll();
+  if(btn){btn.addEventListener('click',function(){
+    window.scrollTo({top:0,behavior:'smooth'});
+  })}
+})();
+</script>
 </body>
 </html>

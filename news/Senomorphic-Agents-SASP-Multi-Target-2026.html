@@ -92,7 +92,7 @@
                 <p class="source">来源: <a href="https://www.fightaging.org/" target="_blank" rel="noopener noreferrer">Fight Aging!</a> · 参考论文: <em>Senomorphic agents: Multi-target strategies to tame the senescence-associated secretory phenotype for healthy ageing</em> (DOI: 10.1016/j.exger.2026.113249, <em>Experimental Gerontology</em>)</p>
             </header>
 
-            <div class="article-body">
+            <div class="article-body" article-content">
                 <p>衰老细胞（Senescent Cells）随年龄积累，通过其<strong>衰老相关分泌表型（SASP）</strong>持续释放促炎因子、蛋白酶及其他生物活性分子，成为推动机体衰老及相关疾病的核心机制之一。即便在某个组织中衰老细胞占比不足1%，其分泌信号也能广泛干扰周围细胞行为、破坏组织结构与功能。</p>
 
                 <p>面对衰老细胞带来的负担，抗衰老领域目前形成了两大主要技术路线：<strong>senolytics（衰老细胞清除剂）</strong>和<strong>senomorphic agents（衰老细胞调节剂）</strong>。前者直接诱导衰老细胞凋亡，后者则选择性地压制其有害分泌行为——不必消灭细胞，只需"驯服"它。</p>
@@ -133,5 +133,29 @@
         <a href="/rss.xml">RSS</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="/about/">关于</a>
     </div>
 </footer>
+
+<div class="read-progress" aria-hidden="true"><div class="read-progress-bar" id="readBar"></div></div>
+<button class="to-top" id="toTop" type="button" aria-label="回到顶部" title="回到顶部">\u2191</button>
+<script>
+(function(){
+  var bar=document.getElementById('readBar');
+  var btn=document.getElementById('toTop');
+  var main=document.getElementById('main-content');
+  if(!main){return}
+  function onScroll(){
+    var h=main.offsetHeight;
+    var y=window.pageYOffset+window.innerHeight;
+    var p=h?Math.min(100,Math.max(0,(y/main.offsetTop+h)*100)):0;
+    if(bar){bar.style.width=p.toFixed(1)+'%'}
+    if(btn){btn.classList.toggle('show',window.pageYOffset>600)}
+  }
+  window.addEventListener('scroll',onScroll,{passive:true});
+  window.addEventListener('resize',onScroll);
+  onScroll();
+  if(btn){btn.addEventListener('click',function(){
+    window.scrollTo({top:0,behavior:'smooth'});
+  })}
+})();
+</script>
 </body>
 </html>
