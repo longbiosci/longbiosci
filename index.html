@@ -1,1531 +1,392 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="referrer" content="strict-origin-when-cross-origin">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LongBiosci - 衰老生物学与长寿科技</title>
+<meta name="description" content="追踪衰老与长寿科技领域的前沿进展：细胞衰老、表观遗传重编程、代谢干预、临床试验与产业动态。每篇标注证据分级。">
+<link rel="canonical" href="https://longbiosci.com/">
+<meta name="robots" content="index, follow">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    
-    <meta name="description" content="LongBiosci - 衰老生物学与抗衰老科技综合平台">
-    <meta name="keywords" content="抗衰老,长寿,衰老生物学,senolytic,NAD+,端粒,线粒体">
-    <meta name="theme-color" content="#0f3460">
-    
-    <title>LongBiosci - 衰老生物学与抗衰老科技</title>
-    <link rel="canonical" href="https://longbiosci.com/">
-    <!-- International SEO -->
-    <link rel="alternate" hreflang="zh-CN" href="https://longbiosci.com/">
-    <link rel="alternate" hreflang="en-US" href="https://longbiosci.com/en/">
-    <link rel="alternate" hreflang="x-default" href="https://longbiosci.com/">
-    
-    <!-- Open Graph -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://longbiosci.com/">
-    <meta property="og:title" content="LongBiosci - 衰老生物学与抗衰老科技">
-    <meta property="og:description" content="每日更新抗衰老领域最新研究进展：Senolytic药物、NAD+代谢、端粒生物学、临床试验等前沿资讯">
-    <meta property="og:image" content="https://longbiosci.com/logo.jpg">
-    <meta property="og:site_name" content="LongBiosci">
-    <meta property="og:locale" content="zh_CN">
-    
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@LongBiosci">
-    <meta name="twitter:title" content="LongBiosci - 衰老生物学与抗衰老科技">
-    <meta name="twitter:description" content="每日更新抗衰老领域最新研究进展：Senolytic药物、NAD+代谢、端粒生物学、临床试验等前沿资讯">
-    <meta name="twitter:image" content="https://longbiosci.com/logo.jpg">
-    
-    <!-- SEO & Robots -->
-    <meta name="robots" content="index, follow">    <!-- Google Fonts Performance -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://longbiosci.com/">
+<meta property="og:title" content="LongBiosci - 衰老生物学与长寿科技">
+<meta property="og:description" content="追踪衰老与长寿科技领域的前沿进展，每篇标注证据分级。">
+<meta property="og:image" content="https://longbiosci.com/logo.jpg">
+<meta property="og:site_name" content="LongBiosci">
+<meta property="og:locale" content="zh_CN">
 
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
-
-    <!-- JSON-LD Structured Data -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "WebSite",
-          "@id": "https://longbiosci.com/#website",
-          "name": "LongBiosci",
-          "url": "https://longbiosci.com",
-          "description": "衰老生物学与抗衰老科技综合平台，每日更新抗衰老领域最新研究进展",
-          "inLanguage": "zh-CN",
-          "publisher": {
-            "@type": "Organization",
-            "name": "LongBiosci",
-            "url": "https://longbiosci.com",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "https://longbiosci.com/logo.jpg",
-              "width": 836,
-              "height": 257
-            }
-          },
-          "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://longbiosci.com/?q={search_term_string}",
-            "query-input": "required name=search_term_string"
-          }
-        },
-        {
-          "@type": "Organization",
-          "name": "LongBiosci",
-          "url": "https://longbiosci.com",
-          "description": "衰老生物学与抗衰老科技综合平台",
-          "sameAs": [
-            "https://twitter.com/LongBiosci"
-          ]
-        }
-      ]
-    }
-    </script>
-
-    <style>
-        :root {
-            --primary: #0f3460; --secondary: #16213e;
-            --accent: #e94560; --success: #00A86B;
-            --info: #1976d2; --purple: #533483;
-        }
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        html { scroll-behavior: smooth; }
-        
-        body {
-            font-family: "Noto Sans SC", "PingFang SC", sans-serif;
-            background: #f8f9fa;
-            min-height: 100vh;
-            padding-bottom: 70px;
-        }
-        
-        .header {
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            padding: 15px 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        
-        .header h1 { color: #fff; font-size: 18px; font-weight: 700; }
-        
-        .banner {
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            padding: 40px 20px;
-            color: #fff;
-            text-align: center;
-        }
-        
-        .banner h2 { font-size: 24px; margin-bottom: 8px; }
-        .banner p { font-size: 14px; opacity: 0.85; }
-        
-        .channels {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 1px;
-            background: #ddd;
-        }
-        
-        .channel {
-            background: #fff;
-            padding: 12px 5px;
-            text-align: center;
-            cursor: pointer;
-            font-size: 11px;
-            text-decoration: none;
-            color: inherit;
-        }
-        
-        .channel:hover { background: #f5f5f5; }
-        
-        .channel .icon { font-size: 22px; display: block; margin-bottom: 4px; }
-        .channel .label { color: #666; }
-        .channel.active { background: var(--primary); color: #fff; }
-        .channel.active .label { color: #fff; }
-        .channel.active:hover { background: var(--primary); }
-        
-        .section { padding: 15px; }
-        .section-title {
-            font-size: 16px;
-            font-weight: 600;
-            color: var(--primary);
-            margin-bottom: 12px;
-            padding-left: 10px;
-            border-left: 3px solid var(--accent);
-        }
-        
-        .feed-item {
-            background: #fff;
-            border-radius: 12px;
-            padding: 16px;
-            margin-bottom: 12px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-            display: block;
-            text-decoration: none;
-            color: inherit;
-        }
-        
-        .feed-item:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
-        
-        .feed-header { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
-        
-        .tag {
-            padding: 3px 8px;
-            border-radius: 4px;
-            font-size: 11px;
-            font-weight: 500;
-        }
-        
-        .tag-tech { background: #e3f2fd; color: var(--info); }
-        .tag-paper { background: #f3e5f5; color: var(--purple); }
-        
-        .time { color: #999; font-size: 12px; margin-left: auto; }
-        
-        .feed-title {
-            font-size: 15px;
-            font-weight: 600;
-            color: #1a1a2e;
-            margin-bottom: 8px;
-            line-height: 1.4;
-        }
-        
-        .feed-desc {
-            font-size: 13px;
-            color: #666;
-            line-height: 1.5;
-        }
-        
-        .feed-source {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            margin-top: 12px;
-            padding-top: 10px;
-            border-top: 1px solid #f0f0f0;
-            font-size: 12px;
-            color: var(--info);
-        }
-        
-        .bottom-nav {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: #fff;
-            display: flex;
-            justify-content: space-around;
-            padding: 8px 0;
-            box-shadow: 0 -2px 10px rgba(0,0,0,0.08);
-            z-index: 100;
-        }
-        
-        .nav-item {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 2px;
-            color: #999;
-            text-decoration: none;
-            font-size: 10px;
-        }
-        
-        .nav-item.active { color: var(--accent); }
-        .nav-item .icon { font-size: 20px; }
-        
-        @media (max-width: 480px) {
-            .channels { grid-template-columns: repeat(2, 1fr); }
-            .channel { padding: 12px 5px; font-size: 12px; min-height: 60px; }
-            .channel .icon { font-size: 22px; }
-            .channel .label { font-size: 12px; }
-            .banner { padding: 25px 15px; }
-            .banner h2 { font-size: 18px; }
-            .feed-item { padding: 14px 12px; }
-            .feed-title { font-size: 14px; }
-            .feed-desc { font-size: 13px; }
-            body { -webkit-text-size-adjust: 100%; }
-        }
-
-        @media (min-width: 768px) {
-            .container { max-width: 600px; margin: 0 auto; }
-            .bottom-nav { max-width: 600px; left: 50%; transform: translateX(-50%); }
-        }
-    
-    .skip-link {
-        position: absolute;
-        top: -40px;
-        left: 0;
-        background: #0f3460;
-        color: #fff;
-        padding: 8px 16px;
-        z-index: 1000;
-        text-decoration: none;
-        font-weight: 600;
-    }
-    .skip-link:focus {
-        top: 0;
-    }
-
-</style>
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="LongBiosci - 衰老生物学与长寿科技">
+<meta name="twitter:description" content="追踪衰老与长寿科技领域的前沿进展，每篇标注证据分级。">
+<meta name="twitter:image" content="https://longbiosci.com/logo.jpg">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="stylesheet" href="/style.css">
+<link rel="alternate" type="application/rss+xml" title="LongBiosci RSS" href="/rss.xml">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://longbiosci.com/#website",
+  "url": "https://longbiosci.com",
+  "name": "LongBiosci",
+  "description": "衰老生物学与长寿科技资讯平台",
+  "inLanguage": "zh-CN",
+  "publisher": { "@id": "https://longbiosci.com/#organization" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://longbiosci.com/#organization",
+  "name": "LongBiosci",
+  "alternateName": "LongBiosci 编辑部",
+  "url": "https://longbiosci.com",
+  "description": "衰老与长寿科技领域的科研资讯平台"
+}
+</script>
 </head>
 <body>
 <a href="#main-content" class="skip-link">跳转到主要内容</a>
-
-    <header class="header">
-        <h1>🧬 LongBiosci</h1>
-    </header>
-    
-    <div class="banner">
-        <h2>衰老生物学与抗衰老科技</h2>
-        <p>科研 · 技术 · 产业 · 人物</p>
-    </div>
-    
-    <div id="main-content" class="channels" role="navigation" aria-label="主导航">
-        <a href="./" class="channel active" aria-label="首页"><span class="icon">📖</span><span class="label">首页</span></a>
-        <a href="papers/" class="channel" aria-label="论文"><span class="icon">📚</span><span class="label">论文</span></a>
-        <a href="companies/" class="channel" aria-label="公司"><span class="icon">🏢</span><span class="label">公司</span></a>
-        <a href="events/" class="channel" aria-label="活动"><span class="icon">📅</span><span class="label">活动</span></a>
-    </div>
-    
-    <div class="section">
-        <div class="section-title">⭐ 热门推荐</div>
-            <div class="feed-item">
-                <div class="item-meta">
-                    <span class="tag">临床研究</span>
-                    <span class="date">2026-09-08</span>
-                </div>
-                <a href="/news/Dog-Aging-Project-50000-Dogs-Multimorbidity-2026.html">Dog Aging Project：超5万只伴侣犬揭示老年共病模式</a>
-            </div>
-            <div class="feed-item">
-                <div class="item-meta">
-                    <span class="tag">理论综述</span>
-                    <span class="date">2026-09-08</span>
-                </div>
-                <a href="/news/Adaptive-Cost-Hypothesis-NCDs-Evolvable-Lifespan-2026.html">「适应成本假说」：为何健康行为无法完全预防年龄相关疾病</a>
-            </div>
-            <div class="feed-item">
-                <div class="item-meta">
-                    <span class="tag">Senolytic</span>
-                    <span class="date">2026-09-09</span>
-                </div>
-                <a href="/news/SENESCENCE2030-Roadmap-Precision-Senescence-Medicine-2026.html">SENESCENCE2030 路线图：迈向精准衰老医学的共识框架</a>
-            </div>
-<div class="feed-item">
-        <a href="/Nano-ERASER-Astrocyte-Neuron-Alzheimer-2026.html" class="feed-link">
-          <div class="feed-date">2026-09-04</div>
-          <div class="feed-title">Nano-ERASER：穿越血脑屏障递送抗体，重编程星形胶质细胞为神经元逆转阿尔茨海默病</div>
-          <div class="feed-meta">
-            <span class="feed-desc">Cell & BioSciences发表研究：Nano-ERASER系统通过静脉注射将抗PTBP1抗体递送至大脑星形胶质细胞，触发蛋白质降解介导的细胞重编程，在...</span>
-            <span class="feed-tag">技术突破</span>
-          </div>
-        </a>
-      </div>
-
-<div class="feed-item">
-        <a href="/Nano-ERASER-Astrocyte-Neuron-AD-2026.html" class="feed-link">
-          <div class="feed-date">2026-09-07</div>
-          <div class="feed-title">Nano-ERASER：穿越血脑屏障递送抗体，星形胶质细胞重编程为神经元逆转阿尔茨海默病</div>
-          <div class="feed-meta">
-            <span class="feed-desc">新研究提出 Nano-ERASER 技术平台，通过静脉注射将抗体选择性递送穿越血脑屏障，靶向星形胶质细胞并将其重编程为功能性神经元，为阿尔茨海默病治疗提供全新再...</span>
-            <span class="feed-tag">神经再生</span>
-          </div>
-        </a>
-      </div>
-
-
-<a href="/news/Nano-ERASER-AtN-Reprogramming-Alzheimer-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#e74c3c;color:#fff;">神经再生</div>
-                            <div class="feed-title">Nano-ERASER系统：穿越血脑屏障递送抗体，"按需"降解PTBP1驱动星形胶质细胞转化为神经元——逆转阿尔茨海默病进展新策略</div>
-                            <div class="feed-desc">研究人员开发Nano-ERASER系统，利用血脑屏障穿透配体与聚合物纳米载体将抗PTBP1抗体选择性递送至脑星形胶质细胞，通过TRIM21介导的蛋白酶体降解快速下调PTBP1，在阿尔茨海默病小鼠模型中成功实现星形胶质细胞向神经元的转化，恢复神经网络功能——为神经退行性疾病再生医学提供新路径。</div>
-                            <div class="feed-source">2026-09-05 · Cell & Bioelectricity</div>
-                        </a>
-<a href="/news/Nano-ERASER-Astrocyte-Neuron-Alzheimer-Reversal-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#2980b9;color:#fff;">神经再生</div>
-                            <div class="feed-title">Nano-ERASER系统：静脉注射纳米抗体穿越血脑屏障，将星形胶质细胞重编程为神经元逆转阿尔茨海默病</div>
-                            <div class="feed-desc">Cell & Bioelectricity发表开放获取研究：利用Nano-ERASER系统将抗PTBP1抗体经静脉注射穿越血脑屏障递送至星形胶质细胞，触发细胞重编程为功能性神经元，在5XFAD阿尔茨海默病小鼠模型中显著改善认知、学习和记忆能力。</div>
-                            <div class="feed-source">2026-09-04 · Cell & Bioelectricity</div>
-                        </a>
-<a href="/news/Senescent-Microglia-Telomere-DLK1-Hypomyelin-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#8e44ad;color:#fff;">神经衰老</div>
-                            <div class="feed-title">小胶质细胞端粒缩短加速大脑衰老：DLK1成为关键介质——Neuron 2026</div>
-                            <div class="feed-desc">Neuron发表研究，首次揭示端粒缩短的小胶质细胞通过分泌可溶性DLK1蛋白，诱导髓鞘老化及神经元功能障碍，为大脑衰老机制和小胶质细胞相关神经退行性疾病提供新靶点。</div>
-                            <div class="feed-source">2026-09-04 · Neuron</div>
-                        </a>
-<a href="/news/GLP1-Semaglutide-Extend-Lifespan-Female-Mice-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#c0392b;color:#fff;">Nature 2026</div>
-                            <div class="feed-title">GLP-1药物延缓衰老：司美格鲁肽延长雌性小鼠寿命——Nature 2026</div>
-                            <div class="feed-desc">NIH研究团队在Nature发表研究，发现GLP-1受体激动剂司美格鲁肽可延长雌性小鼠寿命，改善多项衰老标志物，效果超出单纯热量限制范畴，为GLP-1药物的抗衰老潜力提供重要证据。</div>
-                            <div class="feed-source">2026-09-04 · Nature</div>
-                        </a>
-<a href="/news/Microglia-Replaced-Peripheral-Blood-Cells-Human-Brain-Aging-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#2980b9;color:#fff;">神经免疫</div>
-                            <div class="feed-title">大脑免疫细胞来源颠覆：外周血细胞可替代小胶质细胞——Nature 2026</div>
-                            <div class="feed-desc">Nature发表重磅研究，首次通过谱系追踪揭示人类大脑小胶质细胞的真正来源：外周血细胞可在衰老过程中替代驻留小胶质细胞，颠覆传统认知，为神经退行性疾病治疗开辟新方向。</div>
-                            <div class="feed-source">2026-09-04 · Nature</div>
-                        </a>
-<a href="/news/Semaglutide-Lifespan-Extension-Nature-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#c0392b;color:#fff;">Nature 2026</div>
-                            <div class="feed-title">Nature 封面研究：晚年司美格鲁肽治疗显著延长小鼠寿命——或为热量限制模拟物</div>
-                            <div class="feed-desc">NIH 团队对 20 月龄老年雌性小鼠每日注射司美格鲁肽，中位寿命从 742 天延长至 834 天（延长约 12.4%），延寿效果在停药后仍然显著。</div>
-                            <div class="feed-source">2026-09-03 · Nature</div>
-                        </a>
-<a href="/news/Medicarpin-Adiponectin-Agonist-Muscle-Atrophy-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#27ae60;color:#fff;">研究发现</div>
-                            <div class="feed-title">小分子AdipoR激动剂Medicarpin：骨骼肌萎缩治疗新策略</div>
-                            <div class="feed-desc">Medicarpin可模拟脂联素（Adiponectin）信号，通过激活AdipoR1/R2受体促进肌肉生长，在老年肌肉萎缩和大鼠去神经模型中均显示显著疗效。</div>
-                            <div class="feed-source">2026-09-02 · Journal of Cachexia, Sarcopenia and Muscle</div>
-                        </a>
-<a href="/news/TranslAGE-Epigenetic-Clock-Responsiveness-Nature-Medicine-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#2980b9;color:#fff;">表观遗传</div>
-                            <div class="feed-title">Nature Medicine：TranslAGE数据库揭示表观遗传时钟对抗衰老干预的响应规律</div>
-                            <div class="feed-desc">Nature Medicine发表重磅研究：构建包含51项纵向干预研究、16种表观遗传时钟和94个DNA甲基化生物标志物的TranslAGE数据库，系统评估各类干预手段对不同衰老时钟的影响。</div>
-                            <div class="feed-source">2026-09-01 · Nature Medicine</div>
-                        </a>
-<a href="/news/Immune-Signatures-Atherosclerosis-Plaque-Immunity-Aging-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#c0392b;color:#fff;">动脉粥样硬化</div>
-                            <div class="feed-title">CD8+效应记忆T细胞动态可预测亚临床动脉粥样硬化斑块形成</div>
-                            <div class="feed-desc">3年纵向研究：CD8+效应记忆T细胞扩增是最强独立预测因子，免疫标志物比传统代谢指标更能预测早期血管风险。</div>
-                            <div class="feed-source">2026-09-01 · Immunity & Aging</div>
-                        </a>
-<a href="/news/Longevity-Medicine-Primary-Care-Desire-Paths-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#27ae60;color:#fff;">观点评论</div>
-                            <div class="feed-title">长寿医学切入基层医疗：全科医生面对"欲望路径"困境</div>
-                            <div class="feed-desc">Nature Aging发表评论文章指出：患者正带着衰老生物学问题涌向基层诊所，而医学教育尚未为此做好准备。全科医生Dean Ariel呼吁医学界系统性接纳长寿医学。</div>
-                            <div class="feed-source">2026-09-01 · Nature Aging</div>
-                        </a>
-<a href="news/PathStAR-Structural-Aging-Human-Tissues-Nature-Aging-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#27ae60;color:#fff;">顶级研究</div>
-                            <div class="feed-title">首个跨40种人体组织的结构衰老图谱：PathStAR</div>
-                            <div class="feed-desc">NIH团队开发PathStAR框架，对25,306例尸检组织（40种组织、970名21-70岁捐赠者）进行组织结构性衰老量化，揭示血管组织早期加速、绝经相关生殖道晚期加速等关键规律。</div>
-                            <div class="feed-source">2026-08-31 · Nature Aging</div>
-                        </a>
-<a href="news/Multimorbidity-Patterns-SPRINTT-Mobility-Nature-Aging-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#2980b9;color:#fff;">临床研究</div>
-                            <div class="feed-title">多病模式决定运动干预效果：SPRINTT试验二次分析</div>
-                            <div class="feed-desc">SPRINTT试验二次分析揭示：老年衰弱人群的多病模式显著影响运动干预效果，合并精神疾病者获益最大（移动障碍/死亡风险降低35%）。</div>
-                            <div class="feed-source">2026-08-31 · Nature Aging</div>
-                        </a>
-<a href="news/SASP-Paracrine-Spreading-Senescence-Human-Brain-Cell-Types-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#8e44ad;color:#fff;">机制研究</div>
-                            <div class="feed-title">衰老如何在大脑细胞间传播：SASP旁分泌机制</div>
-                            <div class="feed-desc">研究人员系统揭示了衰老相关分泌表型（SASP）如何在人脑星形胶质细胞、内皮细胞、小胶质细胞、少突胶质细胞和神经元之间通过旁分泌方式传播衰老。</div>
-                            <div class="feed-source">2026-08-24 · Ageing Cell</div>
-                        </a>
-
-<a href="news/cGAS-STING-Mitochondria-DNA-Ovarian-Aging-Nature-Aging-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#8e44ad;color:#fff;">机制研究</div>
-                            <div class="feed-title">mtDNA泄露激活cGAS-STING驱动卵巢衰老</div>
-                            <div class="feed-desc">Nature Aging新研究揭示：衰老卵母细胞线粒体DNA泄露至胞质，激活cGAS-STING炎症信号通路，通过cGAMP转移传播至周围颗粒细胞，驱动卵巢衰老。</div>
-                            <div class="feed-source">2026-08-30 · Nature Aging</div>
-                        </a>
-href="news/Senolytics-Restore-Microglia-White-Matter-Nature-Aging-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#c0392b;color:#fff;">Senolytic</div>
-                            <div class="feed-title">衰老细胞清除恢复老年大脑白质小胶质细胞年轻态</div>
-                            <div class="feed-desc">Nature Aging 2026：白质小胶质细胞同时携带DAM和SenBrain特征，衰老细胞清除可逆转有害表型，为阿尔茨海默病等白质病变治疗提供新思路。</div>
-                            <div class="feed-source">2026-08-29 · Nature Aging</div>
-                        </a><a href="news/Exercise-TMAO-Klotho-NLRP3-Osteoporosis-iScience-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#27ae60;color:#fff;">运动与代谢</div>
-                            <div class="feed-title">运动通过TMAO-αKlotho通路对抗老年骨质疏松</div>
-                            <div class="feed-desc">iScience 2026研究揭示运动改善骨密度的分子机制：降低TMAO水平、维持α-Klotho表达、抑制NLRP3炎症小体，为老年骨质疏松提供非药物干预策略。</div>
-                            <div class="feed-source">2026-08-29 · iScience</div>
-                        </a><a href="news/Exercise-Slows-Ovarian-Aging-Nature-Aging-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#27ae60;color:#fff;">运动</div>
-                            <div class="feed-title">运动延缓卵巢衰老：15万人数据 + 小鼠机制验证</div>
-                            <div class="feed-desc">超15万人研究证实运动与延迟绝经相关； adiponectin 成为运动延缓卵巢衰老的关键分子靶点，为女性健康老龄化提供循证干预建议。</div>
-                            <div class="feed-source">2026-08-29 · Nature Aging</div>
-                        </a><a href="news/Contractile-Myografts-Systemic-AntiAging-Nature-Aging-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#c0392b;color:#fff;">Senolytic</div>
-                            <div class="feed-title">可收缩肌移植物：小鼠全身抗衰老新疗法</div>
-                            <div class="feed-desc">Nature Aging 2026：自体肌细胞皮下移植形成持续收缩的肌移植物，通过系统性旁分泌效应改善代谢、认知和身体功能，为肌肉减少症和衰老相关功能障碍提供新策略。</div>
-                            <div class="feed-source">2026-08-29 · Nature Aging</div>
-                        </a>
-
-                            <div class="feed-title">仅7天冥想即可重塑大脑：UCSD研究揭示全身生物系统改变</div>
-                            <div class="feed-desc">加州大学圣地亚哥分校研究：仅7天正念冥想静修即可在健康成年人中检测到大脑活动、血液化学、免疫信号、代谢和天然疼痛控制系统的多重改变。</div>
-                            <div class="feed-source">2026-08-28 · Communications Biology</div>
-                        </a>
-<a href="news/Strength-Training-Longevity-Sweet-Spot-BJSM-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#27ae60;color:#fff;">运动延寿</div>
-                            <div class="feed-title">力量训练延寿"最佳剂量"：30年近15万人队列研究揭示90-120分钟/周最优</div>
-                            <div class="feed-desc">三项美国大型前瞻性队列研究30年随访、近15万名医护人员数据：每周90-120分钟力量训练全因死亡风险降低13%，心血管死亡降低19%，痴呆相关死亡降低27%。</div>
-                            <div class="feed-source">2026-08-28 · British Journal of Sports Medicine</div>
-                        </a>
-                        <a href="news/Cytotoxic-CD4-CTL-Senescence-Aging-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#8e44ad;color:#fff;">免疫衰老</div>
-                            <div class="feed-title">细胞毒性CD4+ T细胞：衰老研究的新前沿</div>
-                            <div class="feed-desc">Fight Aging! 2026，CD4+细胞毒性T细胞（CD4 CTL）随衰老积累，与多种年龄相关疾病密切相关。</div>
-                            <div class="feed-source">2026-08-27 · Fight Aging!</div>
-                        </a>
-
-                        
-                            <div class="feed-desc">L-BAIBA通过PGC1α-BAIBA-PPARδ轴介导骨骼肌对运动的适应性，为老年人运动效果强化提供新靶点。</div>
-                            <div class="feed-source">2026-08-26 · 研究</div>
-                        </a><a href="news/L-BAIBA-PGC1%CE%B1-BAIBA-PPAR%CE%B4-Skeletal-Muscle-Adaptation-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#27ae60;color:#fff;">运动与代谢</div>
-                            <div class="feed-title">L-BAIBA：运动介导肌肉适应的关键代谢因子</div>
-                            <div class="feed-desc">Nature Communications揭示L-BAIBA作为PGC1α下游代谢因子，通过PPARδ介导运动诱导的肌肉线粒体生成与纤维类型重塑。</div>
-                            <div class="feed-source">2026-08-25 · Nature Communications</div>
-                        </a>
-                        <a href="news/XPRIZE-Healthspan-Finalist-Teams-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#2980b9;color:#fff;">行业动态</div>
-                            <div class="feed-title">XPRIZE Healthspan公布20强决赛团队：中美日韩角逐延缓衰老新疗法</div>
-                            <div class="feed-desc">XPRIZE Healthspan宣布20支决赛团队晋级，其中10支获100万美元里程碑奖金。团队涵盖新型药物、生物制剂、细胞再生、基因疗法、AI精准健康等前沿延缓衰老技术路线。</div>
-                            <div class="feed-source">2026-08-25 · XPRIZE</div>
-                        </a><a href="news/Mitochondrial-Supercomplexes-Longevity-Review-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#27ae60;color:#fff;">机制研究</div>
-                            <div class="feed-title">线粒体超复合体与长寿：氧化磷酸化高级组装结构在衰老中的作用</div>
-                            <div class="feed-desc">Frontiers in Aging 综述：线粒体呼吸链超复合体在衰老中组装稳定性下降，调节超复合体或可成为健康老龄化干预新策略。</div>
-                            <div class="feed-source">2026-08-25 · Frontiers in Aging</div>
-                        </a>
-                            <div class="feed-desc">Aging 期刊新研究：长寿基因 INDY 通过调控肠道菌群与肠道屏障完整性延长果蝇寿命。</div>
-                            <div class="feed-source">2026-08-25 · Aging</div>
-                        </a>
-
-
-                        <a href="news/Air-Pollution-Parkinson-Mechanisms-Review-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#c0392b;color:#fff;">神经退行性疾病</div>
-                            <div class="feed-title">空气污染驱动帕金森病：分子机制综述——神经炎症、肠道菌群与α-突触核蛋白病理</div>
-                            <div class="feed-desc">综述揭示空气污染通过多条分子通路加速帕金森病发生发展：神经炎症、α-突触核蛋白错误折叠、肠道菌群紊乱及嗅觉通路入脑。</div>
-                            <div class="feed-source">2026-08-21 · Parkinson's Disease (Hindawi)</div>
-                        </a><a href="news/RANKL-Antibody-Progeria-Longevity-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#27ae60;color:#fff;">机制研究</div>
-                            <div class="feed-title">靶向RANKL中和抗体延长早衰小鼠寿命——Aging Cell 2026</div>
-                            <div class="feed-desc">RANKL中和抗体恢复骨量、减少肌肉纤维化、延长寿命，为早衰症和抗衰老提供新靶点。</div>
-                            <div class="feed-source">2026-08-21 · Aging Cell</div>
-                        </a><a href="news/Vascular-Risk-Midlife-Dementia-Free-Survival-ARIC-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#2980b9;color:#fff;">流行病学</div>
-                            <div class="feed-title">中年血管风险决定痴呆-free生存年限：ARIC研究26年随访揭示12.6年差异</div>
-                            <div class="feed-desc">ARIC研究显示，中年时拥有3项血管风险因素（糖尿病、高血压、吸烟）者，痴呆-free生存期比无风险因素者少12.6年。</div>
-                            <div class="feed-source">2026-08-21 · ARIC研究</div>
-                        </a><a href="news/LMNA-CK2-STING-Systemic-Aging-NatCommun-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#27ae60;color:#fff;">机制研究</div>
-                            <div class="feed-title">LMNA-CK2-STING轴驱动全身性衰老——Nature Communications 2026</div>
-                            <div class="feed-desc">Nature Communications 2026：LMNA-CK2-STING信号轴系统性调控衰老，CK2α催化LMNA核膜蛋白引发STING通路慢性激活。</div>
-                            <div class="feed-source">2026-08-20 · Nature Communications</div>
-                        </a><a href="news/CK2alpha-LMNA-STING-Systemic-Aging-Nat-Comms-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#27ae60;color:#fff;">机制研究</div>
-                            <div class="feed-title">CK2α-LMNA-STING轴：全身性衰老新机制——Nature Communications 2026</div>
-                            <div class="feed-desc">Nature Communications 2026：CK2α介导的LMNA磷酸化驱动STING系统性炎症，揭示机体衰老的新型分子轴线。</div>
-                            <div class="feed-source">2026-08-20 · Nature Communications</div>
-                        </a>news/Histological-Aging-Signatures-Tissue-Clocks-Nature-Medicine-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#8e44ad;color:#fff;">生物标志物</div>
-                            <div class="feed-title">Nature Medicine：40种组织病理学图像构建组织特异衰老时钟</div>
-                            <div class="feed-desc">利用40种人体组织全切片病理学图像，结合血液转录组数据，构建组织特异性衰老时钟</div>
-                            <div class="feed-source">2026-08-17 · Nature Medicine</div>
-                        </a>
-                        
-                                                <a href="news/NLRP3-Inflammasome-Age-Related-Macular-Degeneration-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#e74c3c;color:#fff;">炎症</div>
-                            <div class="feed-title">NLRP3 炎症小体与年龄相关性黄斑变性：从机制到治疗策略</div>
-                            <div class="feed-desc">Frontiers in Aging Neuroscience 2026 综述：NLRP3 炎症小体是年龄相关性黄斑变性（AMD）发病机制中的核心整合因子，连接氧化应激、脂褐质沉积与补体激活三大病理通路。炎症小体激活导致眼底慢性炎症、感光细胞损伤和地图状萎缩。</div>
-                            <div class="feed-source">2026-08-24 · Frontiers in Aging Neuroscience</div>
-                        </a>
-<a href="news/OSKTF-Reprogramming-Stroke-Rehabilitation-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#27ae60;color:#fff;">再生医学</div>
-                            <div class="feed-title">山中因子重编程增强神经可塑性：中风后运动功能恢复新策略</div>
-                            <div class="feed-desc">Genes & Diseases 发表研究：利用 Oct4/Sox2/Klf4（OSKTFs）山中因子对皮层脊髓神经元进行表观遗传重编程，可显著增强中风小鼠的神经可塑性和运动功能恢复</div>
-                            <div class="feed-source">2026-08-18 · Genes &amp; Diseases</div>
-                        </a>
-
-                        <a href="news/Fitness-Mortality-Taiwan-JAMA-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#e67e22;color:#fff;">流行病学</div>
-                            <div class="feed-title">台湾13,423名老年人研究：综合体能测试指数最高五分位全因死亡风险降低61%</div>
-                            <div class="feed-desc">台湾一项覆盖13,423名65岁以上老年人的全国性队列研究（中位随访7年）显示：综合体能测试最高五分位者的全因死亡风险仅为最低五分位的39%</div>
-                            <div class="feed-source">2026-08-19 · JAMA Network Open</div>
-                        </a>
-                        <a href="news/Mitochondrial-Metabolism-Epigenetic-SASP-Nature-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#8e44ad;color:#fff;">机制研究</div>
-                            <div class="feed-title">Nature重磅：线粒体代谢驱动衰老细胞SASP——全新药物靶点浮现</div>
-                            <div class="feed-desc">Nature 2026年发表研究揭示：衰老细胞通过线粒体丙酮酸-柠檬酸-乙酰辅酶A轴主动调控SASP产生，表观遗传重编程是核心机制</div>
-                            <div class="feed-source">2026-08-19 · Nature</div>
-                        </a>
-                        <a href="news/Lung-Stem-Cell-Senescence-IPF-Transitional-Cells-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#c0392b;color:#fff;">Senolytic</div>
-                            <div class="feed-title">肺干细胞衰老驱动特发性肺纤维化——过渡细胞状态的致命角色</div>
-                            <div class="feed-desc">Eur Respir Rev 综述揭示：肺泡干细胞衰老是特发性肺纤维化（IPF）再生的核心障碍，过渡细胞持续状态是疾病进展的关键机制</div>
-                            <div class="feed-source">2026-08-19 · European Respiratory Review</div>
-                        </a>
-                        <a href="news/Senescent-Cell-Biomarkers-Inflammaging-Review-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#27ae60;color:#fff;">生物标志物</div>
-                            <div class="feed-title">衰老细胞生物标志物综述：追踪衰老、衰老细胞与炎症老化在年龄相关疾病中的复杂关联</div>
-                            <div class="feed-desc">MDPI Biomedicines 综述系统梳理衰老细胞和炎症老化的生物标志物研究现状，为将标志物知识转化为临床生物标志物提供参考</div>
-                            <div class="feed-source">2026-08-19 · Biomedicines</div>
-                        </a>
-
-                        <a href="news/Semaglutide-Alcohol-Use-Disorder-AJP-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#2980b9;color:#fff;">临床研究</div>
-                            <div class="feed-title">司美格鲁肽显著减少酒精渴求与饮酒量——AJP 2026</div>
-                            <div class="feed-desc">口服司美格鲁肽8周显著减少酒精使用障碍患者的大量饮酒天数和每日饮酒量，效果优于现有FDA批准药物，为GLP-1受体激动剂延寿机制再添新证据</div>
-                            <div class="feed-source">2026-08-18 · AJP</div>
-                        </a>
-<a href="news/Arginine-Decline-Aging-Immune-MHC1-Rockefeller-Cell-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#c0392b;color:#fff;">顶级研究</div>
-                            <div class="feed-title">精氨酸随年龄自然下降：或可解释老年人癌症与病毒易感性增加</div>
-                            <div class="feed-desc">Rockefeller大学Cell发表：精氨酸缺乏破坏MHC-1合成，免疫系统无法识别癌变和感染细胞</div>
-                            <div class="feed-source">2026-08-16 · Cell</div>
-                        </a>
-                        <a href="news/Exercise-Delays-Ovarian-Aging-Nature-Aging-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#4a90d9;color:#fff;">临床研究</div>
-                            <div class="feed-title">运动延缓卵巢衰老：15万人研究证实 + 小鼠机制验证，adiponectin 为关键靶点</div>
-                            <div class="feed-desc">Nature Aging 2026：15万人前瞻性队列证实规律运动显著延缓卵巢衰老，机制层面 adiponectin 为关键调控因子</div>
-                            <div class="feed-source">2026-08-15 · Nature Aging</div>
-                        </a>
-                        <a href="news/Myasthenia-Gravis-Unexpected-Longevity-2026.html" class="feed-item">
-                            <div class="feed-tag">观点评论</div>
-                            <div class="feed-title">意外的长寿信号：重症肌无力患者比普通人多活约5年</div>
-                            <div class="feed-desc">一项出人意料的流行病学发现：重症肌无力患者全因死亡率显著低于普通人群</div>
-                            <div class="feed-source">2026-08-15 · 研究发现</div>
-                        </a>
-                        <a href="news/Senolytic-Therapy-Pulmonary-Metabolic-Disease-2026.html" class="feed-item">
-                            <div class="feed-tag" style="background:#e07b39;color:#fff;">衰老细胞</div>
-                            <div class="feed-title">衰老细胞清除：慢性肺病与代谢疾病共治新策略</div>
-                            <div class="feed-desc">Frontiers in Aging：衰老细胞是慢性肺部疾病与代谢性疾病的共同生物学基础</div>
-                            <div class="feed-source">2026-08-14 · Frontiers in Aging</div>
-                        </a>
-                        <a href="news/Obesity-Accelerates-Aging-Mechanisms-Therapeutics-2026.html" class="feed-item">
-                            <div class="feed-tag">综述</div>
-                            <div class="feed-title">肥胖加速衰老：机制与治疗启示</div>
-                            <div class="feed-desc">肥胖通过加速衰老九大特征促进年龄相关疾病，衰老干预或对肥胖人群有独特价值</div>
-                            <div class="feed-source">2026-08-14 · 研究综述</div>
-                        </a>
-                        <a href="news/Anti-PD-L1-IBC-Ab002-Alzheimer-Phase1b-Nature-Medicine-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">临床研究</span>
-                <span class="time">2026-08-12</span>
-            </div>
-            <div class="feed-title">Nature Medicine：短效抗PD-L1抗体IBC-Ab002用于阿尔茨海默病Phase 1b安全性良好</div>
-            <div class="feed-desc">Phase 1b试验：40名早期AD患者接受IBC-Ab002治疗，安全性耐受性良好；30mg/kg组脑脊液神经退行性标志物呈改善方向，为PD-L1靶向神经免疫疗法提供首批人体数据。</div>
-            <div class="feed-source">📄 Nature Medicine 2026</div>
-                        </a>
-
-                        <a href="news/Clostridium-Scindens-Centos-Gut-IAA-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">肠道微生物</span>
-                <span class="time">2026-08-10</span>
-            </div>
-            <div class="feed-title">百岁老人肠道中的 Clostridium scindens：或可通过其代谢产物 IAA 延缓肠道衰老</div>
-            <div class="feed-desc">新研究通过共现网络分析发现，百岁老人肠道中富集 Clostridium scindens，该菌产生的吲哚-3-乙酸（IAA）可通过激活芳香烃受体（AhR）信号恢复肠道屏障功能，为延缓肠道衰老提供新思路。</div>
-            <div class="feed-source">📄 研究 2026</div>
-                        </a>
-                        <a href="news/tDDR-Telomere-Hematopoietic-Aging-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">机制研究</span>
-                <span class="time">2026-08-11</span>
-            </div>
-            <div class="feed-title">靶向端粒DNA损伤反应改善造血衰老——Nature Aging 2026</div>
-            <div class="feed-desc">tASO抑制tDDR恢复造血功能，为血液系统抗衰老开辟新方向。</div>
-            <div class="feed-source">📄 Nature Aging 2026</div>
-                        </a>
-                        <a href="news/tDDR-Inhibition-Hematopoietic-Aging-Nature-Aging-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">机制研究</span>
-                <span class="time">2026-08-11</span>
-            </div>
-            <div class="feed-title">靶向端粒DNA损伤反应恢复造血功能：新型反义寡核苷酸策略离临床更近一步</div>
-            <div class="feed-desc">新型反义寡核苷酸（tASO）靶向抑制tDDR，恢复衰老造血干细胞功能，为端粒疾病治疗提供新策略。</div>
-            <div class="feed-source">📄 Nature Aging 2026</div>
-                        </a>
-
-                        <a href="news/Methionine-Supplemented-Longevity-Diet-FGF21-Long-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">营养与生活方式</span>
-                <span class="time">2026-08-06</span>
-            </div>
-            <div class="feed-title">低蛋白+蛋氨酸补充饮食：Valter Longo团队揭示延寿且不减肌力的新机制——Cell Metabolism 2026</div>
-            <div class="feed-desc">Valter Longo团队在Cell Metabolism发表研究：低蛋白饮食补充蛋氨酸激活GH-GLP-1-FGF21轴，在不减肌肉力量的前提下减少脂肪、改善代谢、延长寿命。</div>
-            <div class="feed-source">📄 Cell Metabolism 2026</div>
-                        </a>
-
-                        <a href="news/Protein-Restriction-Hallmarks-Aging-Review-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">综述</span>
-                <span class="time">2026-08-08</span>
-            </div>
-            <div class="feed-title">首次系统定义！蛋白质限制延缓衰老的七大标志特征</div>
-            <div class="feed-desc">蛋白质限制延缓衰老机制综述首次定义七大标志特征，为热量限制模拟物研究提供新框架。</div>
-            <div class="feed-source">📄 研究综述 2026</div>
-                        </a>
-                        <a href="news/Metabolomics-5-Longevity-Interventions-UMHET3-Mice-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">机制研究</span>
-                <span class="time">2026-08-09</span>
-            </div>
-            <div class="feed-title">代谢组学揭示5大延寿手段共同机制：UMHET3小鼠研究</div>
-            <div class="feed-desc">西班牙CNIC研究团队揭示运动、热量限制、蛋氨酸限制、雷帕霉素、NAD+恢复通过代谢重编程协同延长寿命的共同机制。</div>
-            <div class="feed-source">📄 研究 2026</div>
-                        </a>
-
-                        <a href="news/Non-Thyroidal-Illness-Syndrome-Longevity-Cureus-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">观点评论</span>
-                <span class="time">2026-08-09</span>
-            </div>
-            <div class="feed-title">低T3综合征或为进化延寿策略</div>
-            <div class="feed-desc">Cureus研究综述：非甲状腺疾病综合征可能是生物体在应激条件下的主动代谢适应策略，通过降低代谢率延长寿命。</div>
-            <div class="feed-source">📄 Cureus 2026</div>
-                        </a>
-
-
-
-                        <a href="news/Italy-Longevity-Medicine-Health-Service-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">政策解读</span>
-                <span class="time">2026-08-07</span>
-            </div>
-            <div class="feed-title">意大利发布长寿医学整合路线图：面向全球最老龄化国家的系统性变革</div>
-            <div class="feed-desc">意大利学者在Aging Cell发表立场文件，系统阐述将长寿医学策略整合进国家卫生服务体系的路径，面向全球最老龄化国家提出系统性变革方案。</div>
-            <div class="feed-source">📄 Aging Cell 2026</div>
-                        </a>
-                        <a href="news/DunedinPoAm-Inflammation-Mortality-NHANES-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">生物标志物</span>
-                <span class="time">2026-08-06</span>
-            </div>
-            <div class="feed-title">表观遗传衰老速度DunedinPoAm与全因死亡率：NHANES 18.5年随访揭示炎症中介效应</div>
-            <div class="feed-desc">NHANES 2532人18.5年随访研究证实：表观遗传衰老速度指标DunedinPoAm每升高一个四分位距，全因死亡风险增加1.5倍，系统性炎症介导了2.33%~23.5%的死亡风险。</div>
-            <div class="feed-source">📄 Aging 2026</div>
-                        </a>                        <a href="news/Mitochondria-Metabolism-Epigenetic-SASP-Nature-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">机制研究</span>
-                <span class="time">2026-08-06</span>
-            </div>
-            <div class="feed-title">线粒体代谢-表观遗传对话驱动SASP：衰老细胞炎症的新机制 —— Nature 2026</div>
-            <div class="feed-desc">线粒体代谢通过乙酰-CoA调控SASP组蛋白乙酰化，Nature 2026揭示选择性抑制衰老细胞炎症的全新靶点。</div>
-            <div class="feed-source">📄 Nature 2026</div>
-                        </a>
-                        <a href="news/EP2-Antagonism-Senescent-Neutrophil-Clearance-Organ-Aging-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">机制研究</span>
-                <span class="time">2026-08-03</span>
-            </div>
-            <div class="feed-title">Science重磅：EP2受体拮抗恢复巨噬细胞清除衰老细胞能力，多器官衰老大幅逆转</div>
-            <div class="feed-desc">Science发表重要研究：抑制EP2信号可恢复巨噬细胞吞噬清除衰老中性粒细胞的能力，在老年小鼠中实现认知衰退、 frailty、肌肉减少症、心脏功能障碍等多器官大幅逆转。</div>
-            <div class="feed-source">📄 Science 2026</div>
-                        </a>
-                        <a href="news/Diranersen-Tau-Alzheimer-Biogen-Phase2-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">临床研究</span>
-                <span class="time">2026-08-03</span>
-            </div>
-            <div class="feed-title">Biogen反义寡核苷酸diranersen：tau蛋白降低50-65%，阿尔茨海默2期临床成功</div>
-            <div class="feed-desc">Biogen diranersen在II期临床中降低tau蛋白50-65%，认知衰退减缓26%，无淀粉样蛋白药物常见脑出血副作用，III期试验已在计划中。</div>
-            <div class="feed-source">📄 Biogen 2026</div>
-                        </a>
-                        <a href="news/Protein-Diet-Longevity-Lamming-Cell-Review-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">营养与生活方式</span>
-                <span class="time">2026-08-03</span>
-            </div>
-            <div class="feed-title">蛋白质狂热并非人人适用：综合评述揭示低蛋白饮食延寿的分子机制</div>
-            <div class="feed-desc">Cell Press Blue评述350余篇论文：缺乏运动者摄入过多蛋白质会加速细胞更新、积累分子损伤；低蛋白饮食或为延寿策略。ScienceNews 2026年7月31日。</div>
-            <div class="feed-source">📄 Cell Press / ScienceNews 2026</div>
-                        </a>
-
-                        <a href="news/Microglia-Replace-Monocyte-Epigenetic-Aging-Science-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">机制研究</span>
-                <span class="time">2026-08-02</span>
-            </div>
-            <div class="feed-title">Science突破：衰老大脑中小胶质细胞被单核细胞取代</div>
-            <div class="feed-desc">Science发表研究，通过单细胞多组学分析发现，衰老大脑中小胶质细胞被具有单核细胞表观遗传特征的新群体取代，揭示神经炎症的全新驱动机制。</div>
-            <div class="feed-source">📄 Science 2026</div>
-                        </a>
-                        <a href="news/Gut-Microbiome-TMAO-Atrial-Fibrillation-Aging-JCI-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">临床研究</span>
-                <span class="time">2026-08-02</span>
-            </div>
-            <div class="feed-title">肠道代谢物TMAO促进房颤发生：JCI揭示心血管老化的微生物组机制</div>
-            <div class="feed-desc">JCI研究证实TMAO与房颤风险独立相关，TMAO通过抑制M2毒蕈碱受体引发自主神经失调，为预防房颤提供饮食干预和靶向疗法新思路。</div>
-            <div class="feed-source">📄 JCI 2026</div>
-                        </a>
-                        <a href="news/EP2-Macrophage-Senescent-Neutrophils-Organ-Aging-Science-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">机制研究</span>
-                <span class="time">2026-08-01</span>
-            </div>
-            <div class="feed-title">巨噬细胞EP2受体抑制：清除衰老中性粒细胞限制器官衰老</div>
-            <div class="feed-desc">Science 2026最新研究揭示：组织驻留巨噬细胞表面EP2前列腺素受体抑制其对衰老中性粒细胞的清除能力，是器官衰老的关键驱动因素。EP2抑制可恢复巨噬细胞功能，在老年小鼠中逆转认知衰退、肌肉减少、心脏功能障碍等多器官衰老表型。</div>
-            <div class="feed-source">📄 Science 2026</div>
-                        </a>
-                        <a href="news/Senotype-Framework-Cellular-Senescence-Nature-Aging-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">综述</span>
-                <span class="time">2026-08-01</span>
-            </div>
-            <div class="feed-title">Nature Aging：衰老表型分类学Senotype框架——重新定义衰老细胞的多样性</div>
-            <div class="feed-desc">Nature Aging 2026 Perspective提出Senotype框架：基于细胞来源、分子特征和生物学效应三个维度对衰老细胞进行系统性分类，区分适应性衰老细胞与有害性衰老细胞，为精准衰老干预提供新蓝图。</div>
-            <div class="feed-source">📄 Nature Aging 2026</div>
-                        </a>
-                        <a href="news/Semaglutide-Epigenetic-Aging-Nature-Communications-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">临床研究</span>
-                <span class="time">2026-07-29</span>
-            </div>
-            <div class="feed-title">司美格鲁肽（Ozempic）可延缓表观遗传衰老：首个 RCT 证据</div>
-            <div class="feed-desc">加州大学圣地亚哥分校团队在 Nature Communications 发表首个随机对照试验，证明司美格鲁肽可延缓人体表观遗传衰老标志物，DunedinPACE 时钟减慢 9%。</div>
-            <div class="feed-source">📄 Nature Communications 2026</div>
-                        </a>
-                        <a href="news/MEK-T-Cell-Exhaustion-Immunotherapy-MS%20KCC-2026.html" class="feed-item">
-                            <div class="feed-header">
-                                <span class="tag">免疫治疗</span>
-                                <span class="time">2026-07-31</span>
-                            </div>
-                            <div class="feed-title">MEK抑制剂：一条有望逆转T细胞耗竭、助力免疫重建的新通路</div>
-                            <div class="feed-desc">MSKCC研究揭示MEK信号分子在T细胞耗竭中的核心作用——T细胞耗竭本质是能量危机，抑制MEK可助其恢复抗肿瘤活性。</div>
-                            <div class="feed-source">📄 KCC 2026</div>
-                        </a>
-                        
-                        <a href="news/Karyopherins-Central-Regulators-Aging-AgingCell-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">机制研究</span>
-                <span class="time">2026-07-24</span>
-            </div>
-            <div class="feed-title">核转运蛋白：衰老生物学的核心统一机制——Aging Cell 2026</div>
-            <div class="feed-desc">2026年发表于Aging Cell的视角文章提出：核转运蛋白（karyopherins）的年龄依赖性功能障碍是连接蛋白质稳态崩溃、基因调控失调和年龄相关疾病的关键统一机制。</div>
-            <div class="feed-source">📄 Aging Cell 2026</div>
-        </a>
-                                                <a href="news/SORLA-Upregulation-Tau-Pathology-Neuroprotection-2026.html" class="feed-item">
-                            <span class="feed-date">07-26</span>
-                            <span class="feed-title">SORLA蛋白上调减轻tau病理：为阿尔茨海默病神经保护提供新靶点</span>
-                            <span class="tag">阿尔茨海默</span>
-                        </a>
-                        <a href="news/GPR40-Agonist-Thymic-Regeneration-Aging-2026.html" class="feed-item">
-                            <span class="feed-date">07-27</span>
-                            <span class="feed-title">小分子GPR40激动剂GW9508恢复老年小鼠胸腺功能——Aging Cell 2026</span>
-                            <span class="tag">免疫衰老</span>
-                        </a>
-                        <a href="news/PhenoAge-Surgery-Mortality-Biological-Aging-2026.html" class="feed-item">
-                            <span class="feed-date">08-05</span>
-                            <span class="feed-title">生物年龄加速增加手术后死亡风险：43万人大型国际研究验证</span>
-                            <span class="tag">临床研究</span>
-                        </a>
-                        <a href="news/DMA-Senolytic-Navitoclax-Metformin-Dichloroacetate-2026.html" class="feed-item">
-                            <span class="feed-date">08-05</span>
-                            <span class="feed-title">低剂量Navitoclax新突破：DMA三药组合安全清除衰老细胞并延长寿命</span>
-                            <span class="tag">Senolytic</span>
-                        </a>
-                        <a href="news/Senomorphic-Agents-SASP-Multi-Target-2026.html" class="feed-item">
-                            <span class="feed-date">08-04</span>
-                            <span class="feed-title">衰老细胞分泌表型：定向驯服SASP的新一代抗衰老策略</span>
-                            <span class="tag">Senomorphic</span>
-                        </a>
-                        
-
-                                                <a href="news/AQP4-TGN073-Glymphatic-Tau-Pathology-MolNeurodegener-2026.html" class="feed-item">
-                            <span class="feed-date">07-28</span>
-                            <span class="feed-title">小分子TGN-073激活AQP4增强脑类淋巴功能减轻tau病理</span>
-                            <span class="tag">脑类淋巴</span>
-                        </a>
-<a href="news/Methionine-Supplemented-Longevity-Diet-FGF21-Long-2026.html" class="feed-item">
-                            <span class="feed-date">08-06</span>
-                            <span class="feed-title">低蛋白+蛋氨酸补充饮食：Valter Longo团队揭示延寿且不减肌力的新机制</span>
-                            <span class="tag">营养与生活方式</span>
-                        </a>
-                        <a href="news/Mitochondria-Metabolism-Epigenetic-SASP-Nature-2026.html" class="feed-item">
-                            <span class="feed-date">08-06</span>
-                            <span class="feed-title">线粒体代谢-表观遗传对话驱动SASP：衰老细胞炎症的新机制</span>
-                            <span class="tag">机制研究</span>
-                        </a>
-                        <a href="news/EPS8-Aging-Trigger-Neurodegeneration-Nature-Aging-2026.html" class="feed-item">
-                            <span class="feed-date">08-05</span>
-                            <span class="feed-title">衰老通过EPS8蛋白积累触发神经退行性疾病——Nature Aging 2026</span>
-                            <span class="tag">机制研究</span>
-                        </a>
-                        <a href="news/Gut-Microbiome-EpiBiome-Epigenetic-Aging-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">基础研究</span>
-                <span class="time">2026-07-23</span>
-            </div>
-            <div class="feed-title">肠道微生物组EpiBiome模型：精准预测表观遗传衰老速度</div>
-            <div class="feed-desc">科学家开发出基于肠道微生物组的表观遗传年龄预测模型EpiBiome，整合宏基因组、功能通路和表观遗传数据，实现超越传统表观遗传时钟的预测精度。</div>
-            <div class="feed-source">📄 Nature Aging 2026</div>
-        </a>
-                        <a href="news/Plant-Mitochondria-Turmeric-Cognitive-Dysfunction-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">机制研究</span>
-                <span class="time">2026-07-29</span>
-            </div>
-            <div class="feed-title">植物线粒体口服可穿越血脑屏障：姜黄来源T-Mit融合小胶质细胞逆转认知衰老</div>
-            <div class="feed-desc">植物线粒体（尤其是姜黄来源）口服后能穿越肠道进入大脑，与小胶质细胞线粒体融合，重编程能量代谢，逆转老年小鼠认知功能障碍。</div>
-            <div class="feed-source">📄 Fight Aging!</div>
-        </a>
-                        <a href="news/LRRK2-EV-cGAS-STING-Parkinson-Accelerated-Aging-Cell-Reports-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">机制研究</span>
-                <span class="time">2026-07-22</span>
-            </div>
-            <div class="feed-title">LRRK2突变+细胞外囊泡：帕金森病作为"加速衰老疾病"的新证据</div>
-            <div class="feed-desc">LRRK2功能获得性突变通过细胞外囊泡激活cGAS-STING通路，将外周炎症传递至大脑，驱动帕金森神经退行。</div>
-            <div class="feed-source">📄 Cell Reports 2026</div>
-        </a>
-                        <a href="news/Immune-Cell-Senescence-Bone-Diseases-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">综述</span>
-                <span class="time">2026-07-22</span>
-            </div>
-            <div class="feed-title">免疫细胞衰老驱动慢性骨骼疾病：骨免疫机制综述</div>
-            <div class="feed-desc">Frontiers in Immunology综述：免疫细胞衰老通过破坏骨免疫微环境促进骨吸收增加、抑制骨形成，为骨质疏松等骨骼疾病提供新的干预靶点。</div>
-            <div class="feed-source">📄 Frontiers in Immunology 2026</div>
-        </a>
-<a href="news/CMLase-Enzyme-Breaks-Down-CML-AGEs-Nature-Communications-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">技术突破</span>
-                <span class="time">2026-07-22</span>
-            </div>
-            <div class="feed-title">CMLase：工程酶可逆转CML-AGE蛋白质损伤</div>
-            <div class="feed-desc">此前，Revolve Pharmaceuticals曾专注于开发降解糖交联（glucosepane）的候选酶，但后来将重心转向 CML——这是一种在老化组织中丰度极高的 AGE 修饰，其稳定结构使得传统代谢途径无法将其清除，长期以来被视为"不可逆"损伤。</div>
-            <div class="feed-source">📄 Nature Communications 2026</div>
-        </a>
-<a href="news/P-Tau217-Cognitive-Impairment-Prediction-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">生物标志物</span>
-                <span class="time">2026-07-22</span>
-            </div>
-            <div class="feed-title">血液P-Tau217水平可预测5年内认知障碍风险——2684人纵向研究</div>
-            <div class="feed-desc">血液中p-tau217水平较高的个体，其脑细胞中神经退行性机制已经在以高于平均水平的速度运行，在未来数年内出现阿尔茨海默病症状的概率也相应更高。</div>
-            <div class="feed-source">📄 JAMA 2026</div>
-        </a>
-<a href="news/WHO-Intrinsic-Capacity-Health-Measurement-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">健康评估</span>
-                <span class="time">2026-07-22</span>
-            </div>
-            <div class="feed-title">WHO"内在能力"框架：首次可能直接测量健康而非疾病</div>
-            <div class="feed-desc">健康是主观的——"看到就知道"。但这对疗法开发来说远远不够。健康必须被量化、被精确测量。WHO等机构已发布了相关指南，但在实际操作中，科学家们对这些指南的解读千差万别，每个人在细节层面都有自己的定义，这使得不同研究之间的比较成为一项巨大挑战。</div>
-            <div class="feed-source">📄 WHO 2026</div>
-        </a>
-                        <a href="news/Lung-Parenchyma-Cellular-Aging-Clock-Nature-Communications-2026.html" class="feed-item"> class="feed-item">
-            <div class="feed-header">
-                <span class="tag">基础研究</span>
-                <span class="time">2026-07-19</span>
-            </div>
-            <div class="feed-title">人类肺实质细胞衰老时钟——Nature Communications 单细胞研究</div>
-            <div class="feed-desc">西奈山医院 Tsankov 团队利用单细胞和空间分辨率技术系统性解析人类肺实质衰老，首次鉴定出多种细胞衰老标志物，并构建肺生物年龄评估时钟。</div>
-            <div class="feed-source">📄 Nature Communications 2026</div>
-        </a>
-                        <a href="news/BCG-Trained-Immunity-CNS-Alzheimer-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">临床研究</span>
-                <span class="time">2026-07-10</span>
-            </div>
-            <div class="feed-title">卡介苗训练免疫作用于中枢神经系统：阿尔茨海默病的潜在干预途径</div>
-            <div class="feed-desc">2026年Nature Communications Medicine研究表明，卡介苗（BCG）疫苗可在阿尔茨海默病高风险人群中诱导持久的训练免疫样变化，并降低阿尔茨海默病风险。</div>
-            <div class="feed-source">📄 Nature Communications Medicine 2026</div>
-        </a>
-                        <a href="news/CSF-Turnover-Dysfunction-iRBD-NPJ-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">生物标志物</span>
-                <span class="time">2026-07-12</span>
-            </div>
-            <div class="feed-title">脑脊液引流功能障碍：iRBD早期生物标志物研究</div>
-            <div class="feed-desc">哈佛医学院和马赛大学团队通过7T MRI发现，孤立性REM睡眠行为障碍（iRBD）患者脑脊液及血管周围空间体积异常增大，提示脑脊液引流功能受损可能是突触核蛋白病早期标志物。</div>
-            <div class="feed-source">📄 npj Parkinson's Disease 2026</div>
-        </a>
-                        <a href="news/CSF-Turnover-Dysfunction-iRBD-Synucleinopathy-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">生物标志物</span>
-                <span class="time">2026-07-10</span>
-            </div>
-            <div class="feed-title">脑脊液循环障碍：突触核蛋白病早期生物标志物</div>
-            <div class="feed-desc">2026年Nature Aging研究表明，脑脊液（CSF）循环功能障碍是快速眼动睡眠行为障碍（iRBD）患者突触核蛋白病进展的早期生物标志物，iRBD患者表现显著CSF循环障碍。</div>
-            <div class="feed-source">📄 Nature Aging 2026</div>
-        </a>
-                                                <a href="news/NMJ-Failure-Sarcopenia-ClC-1-Inhibition-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">机制研究</span>
-                <span class="time">2026-07-20</span>
-            </div>
-            <div class="feed-title">肌肉衰老新机制：神经肌肉接头失效与ClC-1离子通道抑制</div>
-            <div class="feed-desc">JCI研究揭示神经肌肉接头传递失效是肌少症核心机制，ClC-1抑制剂可改善老年肌肉功能。</div>
-            <div class="feed-source">📄 JCI 2026</div>
-        </a>
-<a href="news/SIRT3-Mitochondrial-Disc-Degeneration-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">研究</span>
-                <span class="time">2026-07-20</span>
-            </div>
-            <div class="feed-title">SIRT3激活剂改善线粒体功能治疗椎间盘退变</div>
-            <div class="feed-desc">研究证实SIRT3在人类椎间盘退变中表达显著下调，2-APQC作为SIRT3激活剂可改善线粒体功能、减轻炎症与细胞衰老，为退行性椎间盘疾病提供新的抗衰老干预靶点。</div>
-            <div class="feed-source">📄 Experimental Gerontology 2026</div>
-        </a>
-
-                        <a href="news/Cave-Organisms-Longevity-Troglobionts-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">生物学</span>
-                <span class="time">2026-07-19</span>
-            </div>
-            <div class="feed-title">洞穴生物的长寿秘诀：暗无天日，却活得更久</div>
-            <div class="feed-desc">洞穴生物（穴居生物 troglobionts）为何寿命远超地表近亲？Proteus 蝾螈可活100岁以上，洞穴鱼比地表鱼寿命长数倍。研究揭示四大机制：外因死亡率降低、能量代谢下调、蛋白质稳态增强、细胞应激抵抗提升。</div>
-            <div class="feed-source">📄 Heales · 洞穴生物学综述</div>
-        </a>
-                        <a href="news/Mitochondrial-Haplotype-Mismatch-Lifespan-PNAS-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">研究进展</span>
-                <span class="time">2026-07-19</span>
-            </div>
-            <div class="feed-title">线粒体移植疗法：DNA单倍型匹配或是延长寿命的关键——PNAS 2026</div>
-            <div class="feed-desc">线粒体移植是抗衰老疗法的热门方向，但新研究揭示线粒体DNA单倍型与核DNA不匹配可能导致寿命缩短约10%。这一发现对线粒体移植疗法的临床设计具有重要指导意义。</div>
-            <div class="feed-source">📄 PNAS 2026 · Fight Aging! 报道</div>
-        </a>
-                        <a href="news/Mitochondrial-Haplotype-Mismatch-Lifespan-Fly-Study-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">基础研究</span>
-                <span class="time">2026-07-18</span>
-            </div>
-            <div class="feed-title">线粒体单倍型错配对寿命的影响——果蝇研究</div>
-            <div class="feed-desc">线粒体移植作为抗衰老疗法正在走向临床，但线粒体DNA单倍型与核DNA不匹配会带来什么后果？新研究通过果蝇实验揭示：单倍型错配可使中位寿命缩短约10%，为人工合成最优线粒体DNA策略提供了重要参考。</div>
-            <div class="feed-source">📄 2026年7月</div>
-        </a>
-                        <a href="news/Network-Medicine-pAGE-Drug-Repurposing-Aging-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">药物研发</span>
-                <span class="time">2026-07-17</span>
-            </div>
-            <div class="feed-title">网络医学+pAGE：抗衰老药物再利用的全新筛选范式</div>
-            <div class="feed-desc">网络医学框架将2358个长寿相关基因映射至人类相互作用组，识别6442种化合物与各衰老特征模块的网络邻近度，并引入pAGE指标评估候选药物，为抗衰老药物再利用提供可证伪的筛选工具。</div>
-            <div class="feed-source">📄 Nature Aging 2026</div>
-        </a>
-                        <a href="news/Longevity-Industry-Matures-Bibliometric-Review-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">行业报告</span>
-                <span class="time">2026-07-17</span>
-            </div>
-            <div class="feed-title">长寿产业成熟阶段：从"炒作周期"到"机制驱动"</div>
-            <div class="feed-desc">文献计量学综述揭示：长寿产业正从炒作周期转向以衰老生物学机制（hallmarks）为核心的结构化转化医学框架，聚焦三大干预路径——衰老定向疗法、营养感知代谢调节剂和稳态恢复化合物。</div>
-            <div class="feed-source">📄 2026年7月综述</div>
-        </a>
-
-                        <a href="news/Longitudinal-Epigenetic-Clock-InCHIANTI-Mortality-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">研究进展</span>
-                <span class="time">2026-07-16</span>
-            </div>
-            <div class="feed-title">表观遗传时钟纵向变化预测死亡风险：InCHIANTI队列24年追踪研究</div>
-            <div class="feed-desc">InCHIANTI队列699名成年人24年追踪研究证明：表观遗传时钟的纵向加速变化，而非单次测量值，是更强的全因死亡预测因子。</div>
-            <div class="feed-source">📄 Nature Aging 2026</div>
-        </a>
-                        <a href="news/Systemic-Recalibration-Epigenetic-Resetting-Longevity-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">综述</span>
-                <span class="time">2026-07-15</span>
-            </div>
-            <div class="feed-title">全身系统重校+表观重编程：抗衰老双靶点协同新策略</div>
-            <div class="feed-desc">最新综述提出将治疗性血浆置换与部分表观重编程结合，针对衰老的两条不同层次机制进行协同干预。</div>
-            <div class="feed-source">📄 长生3号编辑整理</div>
-        </a>
-                        <a href="news/Systemic-Recalibration-Epigenetic-Reprogramming-Combination-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">综述</span>
-                <span class="time">2026-07-15</span>
-            </div>
-            <div class="feed-title">表观遗传重编程+治疗性血浆置换：双轴协同干预抗衰老</div>
-            <div class="feed-desc">表观遗传重编程+治疗性血浆置换：双轴协同干预抗衰老，针对不同衰老层次实现多模式治疗。</div>
-            <div class="feed-source">📄 Ageing Research Reviews 2026</div>
-        </a>
-                        <a href="news/SIRT3-Activation-Disc-Degeneration-Mitochondria-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">研究进展</span>
-                <span class="time">2026-07-14</span>
-            </div>
-            <div class="feed-title">SIRT3激活重编程线粒体功能逆转椎间盘退变</div>
-            <div class="feed-desc">SIRT3激活剂2-APQC通过重编程线粒体功能，在衰老小鼠模型中显著逆转椎间盘退变，恢复线粒体功能、减轻炎症和细胞衰老，为腰痛这一最常见的衰老相关疾病提供新的治疗策略。</div>
-            <div class="feed-source">📄 Experimental Gerontology</div>
-        </a>
-                        <a href="news/Sirt3-Activator-2APQC-Intervertebral-Disc-Degeneration-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">研究进展</span>
-                <span class="time">2026-07-14</span>
-            </div>
-            <div class="feed-title">Sirt3激活剂2-APQC逆转椎间盘退化</div>
-            <div class="feed-desc">Sirt3激活剂2-APQC在衰老小鼠模型中显著改善椎间盘退化，恢复线粒体功能、减少炎症与衰老细胞。这一研究将Sirt3/线粒体功能障碍通路与衰老细胞积累联系起来，为退行性椎间盘疾病提供新的治疗靶点。</div>
-            <div class="feed-source">📄 Experimental Gerontology</div>
-        </a>
-
-
-                        <a href="news/LAV-BPIFB4-Platelet-CD47-Immune-Resilience-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">机制研究</span>
-                <span class="time">2026-07-13</span>
-            </div>
-            <div class="feed-title">百岁老人BPIFB4延寿变体新机制：血小板-CD47轴</div>
-            <div class="feed-desc">百岁老人富集的BPIFB4延寿变体（LAV-BPIFB4）通过重塑血小板免疫特征、上调CD47分子来抑制单核细胞炎症，为复制百岁老人延寿机制提供了可转化的药物开发路径。</div>
-            <div class="feed-source">📄 Aging Cell</div>
-        </a>
-                        <a href="news/DunedinPACE-Lifestyle-Intervention-RCT-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">临床研究</span>
-                <span class="time">2026-07-13</span>
-            </div>
-            <div class="feed-title">随机对照试验证实生活方式干预延缓表观遗传衰老</div>
-            <div class="feed-desc">为期12周的运动+含BB536益生菌酸奶的复合生活方式干预，可使中年男性DunedinPACE衰老速度减缓约2.2%，为表观遗传衰老时钟的临床转化提供重要证据。</div>
-            <div class="feed-source">📄 Aging</div>
-        </a>
-                        <a href="news/Trained-Immunity-Vaccines-Inflammaging-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">研究</span>
-                <span class="time">2026-07-12</span>
-            </div>
-            <div class="feed-title">训练免疫：疫苗或可成为降低衰老慢性炎症的新策略</div>
-            <div class="feed-desc">最新研究揭示疫苗接种可产生持久的训练免疫（trained immunity），通过骨髓祖细胞表观遗传重编程增强单核细胞/巨噬细胞的抗感染能力，并系统性降低衰老慢性炎症，有望成为抗衰老干预新范式。</div>
-            <div class="feed-source">📄 研究</div>
-        </a>
-                <a href="news/CSF-Turnover-Dysfunction-iRBD-Biomarker-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">研究</span>
-                <span class="time">2026-07-12</span>
-            </div>
-            <div class="feed-title">脑脊液引流功能障碍：iRBD 或成为突触核蛋白病早期生物标志物</div>
-            <div class="feed-desc">哈佛/MGH团队7T MRI研究揭示，快速眼动睡眠行为障碍（iRBD）患者存在显著的脑脊液与血管周围空间液体瘀滞，提示脑脊液引流功能障碍可能是突触核蛋白病（如帕金森、路易体痴呆）的早期标志。</div>
-            <div class="feed-source">📄 npj Parkinson's Disease</div>
-        </a>
-        <a href="news/BCG-Immunotherapy-CNS-Immunity-Alzheimer-Biomarkers-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">研究</span>
-                <span class="time">2026-07-11</span>
-            </div>
-            <div class="feed-title">BCG免疫治疗重编程中枢神经免疫并改变阿尔茨海默病生物标志物</div>
-            <div class="feed-desc">卡介苗（BCG）——已使用超过百年的结核病疫苗——被发现可通过重编程中枢神经系统免疫微环境，显著降低阿尔茨海默病相关的生物标志物，为老药新用开辟了全新路径。</div>
-            <div class="feed-source">📄 研究</div>
-        </a>
-        <a href="news/Chronoferroptosis-Neuronal-Resilience-Iron-Aging-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">机制研究</span>
-                <span class="time">2026-07-11</span>
-            </div>
-            <div class="feed-title">铁积累如何导致神经退行性疾病？Salk研究所发现"时间性铁死亡"新机制</div>
-            <div class="feed-desc">Salk研究所科学家发现了一种依赖时间节律的铁死亡形式——"时间性铁死亡"（chronoferroptosis）：铁积累在不同时间点对细胞的致死效应存在约24小时节律周期。</div>
-            <div class="feed-source">📄 Salk研究所</div>
-        </a>
-<a href="news/DQ-Senolytic-Multi-Omics-Kidney-Rejuvenation-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">机制研究</span>
-                <span class="time">2026-07-10</span>
-            </div>
-            <div class="feed-title">达沙替尼+槲皮素多组学分析：衰老肾脏的系统性回春机制 — npj Aging 2026</div>
-            <div class="feed-desc">达沙替尼+槲皮素(D+Q)联合用药可逆转衰老小鼠肾脏的单细胞转录组衰老特征，恢复肾小管上皮细胞和免疫细胞稳态。该研究揭示了D+Q通过清除衰老细胞实现肾脏系统性回春的多组学机制。</div>
-            <div class="feed-source">📄 npj Aging</div>
-        </a>
-
-        <a href="news/IL-11-Ovarian-Aging-Matrix-Stiffness-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">研究</span>
-                <span class="time">2026-07-08</span>
-            </div>
-            <div class="feed-title">靶向IL-11/基质硬度通路延缓卵巢衰老——Nature Aging新研究</div>
-            <div class="feed-desc">Nature Aging发表研究：小鼠、大鼠和人类卵巢中IL-11随年龄升高，激活成纤维细胞分泌细胞外基质，导致卵巢基质硬度增加。靶向IL-11信号可延缓卵巢衰老，为女性生育力保护和抗衰老干预开辟新方向。</div>
-            <div class="feed-source">📄 Nature Aging</div>
-        </a>
-        <a href="news/BioAge-BGE-102-NLRP3-Quell-CV-Phase2-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">临床进展</span>
-                <span class="time">2026-07-09</span>
-            </div>
-            <div class="feed-title">BioAge 炎症衰老抑制剂进入 2 期临床：NLRP3 靶点的人体长寿数据驱动发现</div>
-            <div class="feed-desc">BioAge Labs BGE-102（NLRP3 炎性体口服抑制剂）进入 2 期 QUELL-CV 试验，用于心血管高风险人群的慢性炎症。源自人类长寿数据集分析——先找衰老生物学差异，再定位疾病靶点。</div>
-            <div class="feed-source">📄 Longevity.Technology</div>
-        </a>
-        <a href="news/Repair-Biotechnologies-REP-0003-FDA-RDEP-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">行业动态</span>
-                <span class="time">2026-07-09</span>
-            </div>
-            <div class="feed-title">Repair Bio 旗下 REP-0003 获 FDA RDEP 资格：mRNA 疗法瞄准细胞内游离胆固醇清除</div>
-            <div class="feed-desc">Repair Biotechnologies 旗下 REP-0003（细胞内游离胆固醇清除 mRNA 疗法）获得 FDA 罕见病证据原则（RDEP）资格，适应症为纯合子家族性高胆固醇血症（HoFH）。</div>
-            <div class="feed-source">📄 Fight Aging!</div>
-        </a>
-        <a href="news/SIRT6-Centenarian-Variants-Senolytic-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">Senolytic药物</span>
-                <span class="time">2026-07-09</span>
-            </div>
-            <div class="feed-title">百岁老人SIRT6变体降低衰老细胞负担——新研究揭示延寿机制</div>
-            <div class="feed-desc">百岁老人中富集的SIRT6基因变体通过减少组织中衰老细胞负担发挥保护作用，而非简单的基因过表达，为靶向衰老细胞的干预策略指明新方向。</div>
-            <div class="feed-source">📄 Research Square</div>
-        </a>
-        <a href="news/Immune-Aging-Biomarkers-Clinical-Trials-Nature-Medicine-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">临床进展</span>
-                <span class="time">2026-07-06</span>
-            </div>
-            <div class="feed-title">Nature Medicine：建立免疫衰老生物标志物临床试验评估框架——五维标准出炉</div>
-            <div class="feed-desc">Nature Medicine 2026年7月3日发表重磅论文，汇聚衰老科学领域顶级团队，建立免疫衰老生物标志物五维评估框架，多维免疫功能综合指标表现最优，直接服务于XPRIZE Healthspan竞赛。</div>
-            <div class="feed-source">📄 Nature Medicine</div>
-        </a>
-        <a href="news/Longevity-Medicine-Ethics-Knowledge-Gap-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">观点评论</span>
-                <span class="time">2026-07-06</span>
-            </div>
-            <div class="feed-title">长寿医学的伦理困境：知识鸿沟比财富差距更难跨越</div>
-            <div class="feed-desc">随着雷帕霉素、Senolytics等延寿干预手段的科学证据日益积累，伦理学界持续担忧：这些技术将只为富人服务。然而，Fight Aging!最新评论指出，知识鸿沟可能比财富差距更难跨越。</div>
-            <div class="feed-source">📄 Fight Aging!</div>
-        </a>
-        <a href="news/Telomere-Damage-Signaling-Hematopoiesis-Immune-Restore-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">机制研究</span>
-                <span class="time">2026-07-02</span>
-            </div>
-            <div class="feed-title">靶向端粒损伤信号通路恢复造血与免疫功能</div>
-            <div class="feed-desc">Nature Aging发表重磅研究：靶向端粒非编码RNA抑制端粒损伤信号，可恢复老年小鼠造血功能和免疫功能，并改善人类造血干细胞活性，为造血干细胞衰老干预提供全新治疗路径。</div>
-            <div class="feed-source">📄 Nature Aging 2026</div>
-        </a>
-        <a href="news/IL-11-Matrix-Stiffness-Ovarian-Aging-Nature-Aging-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">研究</span>
-                <span class="time">2026-07-02</span>
-            </div>
-            <div class="feed-title">Nature Aging：IL-11 调控卵巢基质硬度——延缓卵巢衰老的新靶点</div>
-            <div class="feed-desc">Nature Aging 2026 最新研究：卵巢基质硬度随年龄增长而增加，通过靶向 IL-11-ERK 信号通路可逆转这一过程，为卵巢衰老及多种病理性卵巢功能障碍提供全新治疗思路。</div>
-            <div class="feed-source">📄 Nature Aging 2026</div>
-        </a>
-        <a href="news/Intermittent-Hypoxia-Epigenetic-Age-Acceleration-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">研究</span>
-                <span class="time">2026-07-03</span>
-            </div>
-            <div class="feed-title">间歇性低氧加速老年小鼠表观遗传年龄：双刃剑效应新证据</div>
-            <div class="feed-desc">间歇性低氧（高压氧舱等）在部分临床场景有延缓衰老潜力，但npj Aging新研究表明：老年小鼠中仅停止低氧暴露后加速效应完全可逆，年轻小鼠未受影响——提示低氧-衰老关系存在剂量-效应阈值与年龄依赖性。</div>
-            <div class="feed-source">📄 npj Aging</div>
-        </a>
-        <a href="news/Vitamin-C-Brain-Aging-Default-Mode-Network-PLOS-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">研究</span>
-                <span class="time">2026-07-03</span>
-            </div>
-            <div class="feed-title">维生素C水平与大脑健康：超2000名老年人研究新发现</div>
-            <div class="feed-desc">日本弘前大学研究：2,044名老年人血液维生素C水平与大脑默认模式网络（DMN）结构连接性密切相关，较高维生素C水平与更大灰质体积相关，提示补充维生素C或为低成本认知保护策略。</div>
-            <div class="feed-source">📄 PLOS ONE</div>
-        </a>
-        <a href="news/Biological-Accelerated-Aging-Early-Onset-Cancer-Nature-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">重磅研究</span>
-                <span class="time">2026-07-05</span>
-            </div>
-            <div class="feed-title">Nature Medicine重磅：年轻一代生物衰老加速与早发性癌症风险上升——15.4万人研究</div>
-            <div class="feed-desc">华盛顿大学医学院基于UK Biobank 15.4万人数据分析，首次揭示年轻世代生物衰老速度创历史新高，且与肺癌、消化道癌、子宫癌早发强相关，独立于遗传因素。</div>
-            <div class="feed-source">📄 Nature Medicine</div>
-        </a>
-        <a href="news/Centenarian-Blood-Metabolome-Longevity-GeroScience-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">代谢组学</span>
-                <span class="time">2026-07-05</span>
-            </div>
-            <div class="feed-title">百岁老人血液藏"长寿密码"：代谢指纹揭示健康衰老新机制——GeroScience 2026</div>
-            <div class="feed-desc">波士顿大学研究团队分析213名百岁老人血液样本，发现长寿者拥有独特的血液代谢"指纹"，包括高水平胆汁酸和保留的类固醇水平，可区分健康极端衰老与普通衰老。</div>
-            <div class="feed-source">📄 GeroScience</div>
-        </a>
-        <a href="news/Sentcell-Immune-Rejuvenation-Senescent-T-Cells-Phase1-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">临床进展</span>
-                <span class="time">2026-07-05</span>
-            </div>
-            <div class="feed-title">UCL/Sentcell 启动I期临床试验：靶向衰老T细胞实现免疫重编程</div>
-            <div class="feed-desc">UCL教授Alessio Lanna创立Sentcell，将多年研究成果转化为I期临床试验，通过肌注药物重编程衰老T细胞，恢复免疫功能。</div>
-            <div class="feed-source">📄 UCL/Sentcell</div>
-        </a>
-        <a href="news/Exercise-Trained-Human-Muscle-Multiomics-Nature-Aging-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">基础研究</span>
-                <span class="time">2026-07-04</span>
-            </div>
-            <div class="feed-title">运动训练骨骼肌多组学延缓分子衰老：人类肌肉对长期训练的系统性响应</div>
-            <div class="feed-desc">Nature Aging发表最新研究，对12名受试者进行为期6个月的个性化运动训练计划，系统性多组学分析揭示运动通过调节线粒体功能、代谢重编程和表观遗传重塑等多通路系统性延缓骨骼肌分子衰老。</div>
-            <div class="feed-source">📄 Nature Aging</div>
-        </a>
-        <a href="news/Cell-Type-Senescence-Signatures-Blood-Aging-Clocks-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">生物标志物</span>
-                <span class="time">2026-07-04</span>
-            </div>
-            <div class="feed-title">血液中细胞类型特异性衰老标志物可预测健康状态</div>
-            <div class="feed-desc">Cell Reports发表研究，利用14种人类细胞类型的衰老相关分泌蛋白（SAPS）构建血液检测，可在无需组织活检的情况下追踪多种组织衰老状态，在BLSA和InCHIANTI两大纵向研究中验证了临床相关性。</div>
-            <div class="feed-source">📄 Cell Reports</div>
-        </a>
-
-        <a href="news/Nasal-Spray-Reversed-Brain-Aging-TAMU-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">神经退行</span>
-                <span class="time">2026-06-30</span>
-            </div>
-            <div class="feed-title">德克萨斯农工大学：鼻腔喷雾剂或可逆转大脑衰老</div>
-            <div class="feed-desc">德克萨斯农工大学研究团队开发一种基于细胞外囊泡（EV）的鼻腔喷雾剂，仅需两剂即可恢复记忆、减轻大脑慢性炎症、改善线粒体功能，在动物模型中展现出逆转大脑衰老的潜力，研究发表在 Journal of Extracellular Vesicles。</div>
-            <div class="feed-source">📄 Journal of Extracellular Vesicles</div>
-        </a>
-        <a href="news/IDOL-Enzyme-Alzheimer-IU-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">阿尔茨海默</span>
-                <span class="time">2026-06-30</span>
-            </div>
-            <div class="feed-title">印第安纳大学：IDOL 酶——阿尔茨海默病全新治疗靶点</div>
-            <div class="feed-desc">印第安纳大学医学院研究团队发现，大脑中一种名为 IDOL 的酶是阿尔茨海默病的新型治疗靶点。在动物模型中，删除神经元中的 IDOL 可显著减少 β-淀粉样蛋白斑块，并降低 APOE 蛋白水平，具有多维度治疗潜力。</div>
-            <div class="feed-source">📄 印第安纳大学医学院</div>
-        </a>
-        <a href="news/NOX4-Skeletal-Muscle-Exercise-Aging-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">研究进展</span>
-                <span class="time">2026-06-29</span>
-            </div>
-            <div class="feed-title">骨骼肌NOX4下降如何加剧衰老：运动适应性丧失的分子机制</div>
-            <div class="feed-desc">Science Advances新研究揭示：骨骼肌中NADPH氧化酶NOX4随衰老显著下降，导致运动诱导的适应性稳态丧失，为萝卜硫素等NFE2L2激活剂在老年肌肉保护中的应用提供了科学依据。</div>
-            <div class="feed-source">📄 Science Advances</div>
-        </a>
-        <a href="news/Stem-Cell-Rejuvenation-Age-Related-Degeneration-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">综述</span>
-                <span class="time">2026-06-29</span>
-            </div>
-            <div class="feed-title">干细胞疗法抗衰老最新进展：预适应与衰老清除的协同路径</div>
-            <div class="feed-desc">Fight Aging!综述：干细胞再生能力随衰老下降成为多种退行性疾病的核心驱动因素，预适应（preconditioning）和衰老清除（senolytics）正成为恢复老年干细胞功能的两大主流策略。</div>
-            <div class="feed-source">📄 Fight Aging!</div>
-        </a>
-
-        <a href="news/Epigenetic-Aging-Clock-Interventions-Systematic-Review-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">系统综述</span>
-                <span class="time">2026-06-28</span>
-            </div>
-            <div class="feed-title">逆转表观遗传年龄的系统综述：41项研究验证延寿干预效果——Frontiers in Genetics 2026</div>
-            <div class="feed-desc">系统综述整理41项人类研究，汇总所有可降低表观遗传年龄的干预手段，包括运动、GLP-1激动剂司美格鲁肽、热量限制、omega-3、NMN等，为延寿研究提供循证基础。</div>
-            <div class="feed-source">📄 Frontiers in Genetics 2026</div>
-        </a>
-        <a href="news/Partial-Reprogramming-Funding-Boom-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">行业动态</span>
-                <span class="time">2026-06-28</span>
-            </div>
-            <div class="feed-title">部分重编程融资热潮：NewLimit融资4.35亿美元推进人体试验——2026</div>
-            <div class="feed-desc">2026年部分表观遗传重编程疗法融资持续火热，NewLimit获得4.35亿美元融资即将启动人体试验，Retro Bio、Life Biosciences、Altos Labs等多家机构重金布局，延寿赛道进入新阶段。</div>
-            <div class="feed-source">📄 行业研究</div>
-        </a>
-        <a href="news/DNA-R-Loop-Senescence-SASP-Nature-Aging-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">机制研究</span>
-                <span class="time">2026-06-29</span>
-            </div>
-            <div class="feed-title">细胞核R环DNA外排驱动衰老细胞炎症信号——Nature Aging 2026</div>
-            <div class="feed-desc">Nature Aging研究揭示：衰老细胞通过XPO1-DDX1复合体将R环状DNA外排至细胞质，激活cGAS-STING通路驱动SASP。XPO1抑制剂KPT-330（塞利尼索）可阻断该通路，延长健康寿命，为抗衰老干预提供新靶点。</div>
-            <div class="feed-source">📄 Nature Aging 2026</div>
-        </a>
-        <a href="news/Geromedicine-Trial-Hierarchical-Endpoints-Win-Statistics-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">方法学</span>
-                <span class="time">2026-06-28</span>
-            </div>
-            <div class="feed-title">老年医学临床试验新方法：分层终点与胜率统计——Nature Aging 2026</div>
-            <div class="feed-desc">Nature Aging发表重磅方法学论文：Abdellatif、Kim和Kroemer提出老年医学试验分层终点与胜率统计新框架，有望突破延寿药物临床试验困局，加速监管审批。</div>
-            <div class="feed-source">📄 Nature Aging 2026</div>
-        </a>
-        <a href="news/Blood-Metabolome-Brain-Health-Midlife-Nature-Aging-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">基础研究</span>
-                <span class="time">2026-06-27</span>
-            </div>
-            <div class="feed-title">血液代谢组学揭示中年大脑健康代谢轨迹——Nature Aging 2026</div>
-            <div class="feed-desc">荷兰 Rotterdam Study 1082人研究：991种血液代谢物中14种与认知功能强相关，麦角硫因效应量最大；生活方式、抗酸药物是代谢物水平最强决定因素；代谢物特征与AD发病高度重叠，提示中年是干预关键窗口。</div>
-            <div class="feed-source">📄 Nature Aging 2026</div>
-        </a>
-                <a href="news/Exercise-Mitochondrial-Quality-Control-Brain-Aging-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">运动</span>
-                <span class="time">2026-06-26</span>
-            </div>
-            <div class="feed-title">运动通过线粒体质量控制机制对抗大脑衰老——前沿综述</div>
-            <div class="feed-desc">大脑衰老过程中线粒体功能障碍是认知衰退的核心驱动因素。综述系统梳理运动如何通过激活AMPK/SIRT1/PGC-1α通路，调控线粒体质量控制体系，维持神经细胞能量代谢稳态并促进神经再生。</div>
-            <div class="feed-source">📄 前沿综述</div>
-        </a>
-        <a href="news/NextGen-Epigenetic-Clock-Interventions-41-Human-Studies-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag">表观遗传</span>
-                <span class="time">2026-06-26</span>
-            </div>
-            <div class="feed-title">下一代表观遗传学生物钟干预手段综述——41项人体研究汇总</div>
-            <div class="feed-desc">系统综述汇总41项人体研究，系统梳理可降低表观遗传学生物钟的干预手段，包括运动、植物性饮食、GLP-1药物、热限制、NMN等，并指出部分手段反而加速生物年龄的反直觉现象。</div>
-            <div class="feed-source">📄 系统综述</div>
-        </a>
-<a href="news/Biological-Clocks-Life-Insurance-Underwriting-2026.html" class="feed-item">
-            <div class="feed-header"></div>
-            <div class="feed-title">生物衰老时钟：人寿保险准备好了吗？</div>
-            <div class="feed-desc">长寿科技公司和保险公司均在押注"生物年龄"测量，但最新分析显示，现有表观遗传时钟在个体层面的准确性尚不足以支持人寿保险承保决策。</div>
-            <div class="feed-source">📄 Insurance Science 2026</div>
-        </a>
-        <a href="news/NIH-SenNet-Human-Senescence-Atlas-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag tag-tech">里程碑</span>
-                <span class="time">2026-06-24</span>
-            </div>
-            <div class="feed-title">NIH SenNet 发布首个人类细胞衰老图谱——里程碑式成果登 Cell</div>
-            <div class="feed-desc">NIH SenNet 在 Cell 期刊发布首个人类细胞衰老综合图谱，首次在单细胞和空间分辨率下系统绘制衰老细胞在人体组织中的分布图谱，为抗衰老干预奠定科学基础。</div>
-            <div class="feed-source">📄 Cell · NIH SenNet</div>
-        </a>
-
-        <a href="news/AAV-FGF21-Gene-Therapy-Healthspan-Lifespan-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag tag-tech">基因治疗</span>
-                <span class="time">2026-06-24</span>
-            </div>
-            <div class="feed-title">肌肉定向 AAV-FGF21 基因疗法延长健康寿命与寿命——Molecular Therapy 2026</div>
-            <div class="feed-desc">通过肌肉定向 AAV 载体递送 FGF21 基因，使老年及肥胖小鼠实现健康寿命和寿命的双重延长，涵盖代谢、心脏、肾脏、认知等多器官改善，并激活 AMPK 信号通路。</div>
-            <div class="feed-source">📄 Molecular Therapy</div>
-        </a>
-
-        <a href="news/Sinclair-SL100-Oral-Reprogramming-XPrize-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag tag-tech">临床试验</span>
-                <span class="time">2026-06-21</span>
-            </div>
-            <div class="feed-title">David Sinclair 公布口服重编程药物 SL-100，XPrize 全人体测试</div>
-            <div class="feed-desc">哈佛 Sinclair 团队将口服化学重编程药物 SL-100 投入 XPrize 人体测试，目标逆转10年生物年龄，争夺$1.01亿健康跨度大奖。</div>
-            <div class="feed-source">📄 XPrize · 哈佛医学院</div>
-        </a>
-        
-        <a href="news/Spatial-Transcriptomics-Ovary-Aging-Nature-Aging-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag tag-paper">Nature Aging</span>
-                <span class="time">2026-06-17</span>
-            </div>
-            <div class="feed-title">空间转录组学揭示卵巢衰老：时空协调性崩溃</div>
-            <div class="feed-desc">利用 Slide-seq 空间转录组学技术，首次在单细胞分辨率下解析衰老对卵巢时空协调性的破坏，发现卵巢功能衰退涉及卵泡发育与黄体功能的时间同步性崩溃。</div>
-            <div class="feed-source">📄 Nature Aging</div>
-        </a>
-
-        <a href="news/sc-ChromAging-Single-Cell-Chromatin-Aging-Clock-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag tag-paper">npj Aging</span>
-                <span class="time">2026-06-22</span>
-            </div>
-            <div class="feed-title">sc-ChromAging：单细胞染色质可及性衰老钟——精准解码免疫细胞衰老轨迹</div>
-            <div class="feed-desc">基于 scATAC-seq 技术构建的单细胞染色质可及性衰老钟，CD4+ 初始 T 细胞预测精度最高，首次实现细胞类型特异性的表观遗传衰老轨迹解析。</div>
-            <div class="feed-source">📄 npj Aging and Mechanisms of Disease</div>
-        </a>
-                <a href="news/Exercise-Immune-Aging-Immunosenescence-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag tag-paper">Frontiers in Aging</span>
-                <span class="time">2026-06-22</span>
-            </div>
-            <div class="feed-title">运动：对抗免疫衰老的最强干预——最新综述揭示机制与应用</div>
-            <div class="feed-desc">Frontiers in Aging 最新综述：规律运动通过调节系统性炎症、NET 负担、IGF-1 信号等机制延缓免疫衰老，是目前证据最充分的抗衰老干预手段。</div>
-            <div class="feed-source">📄 Frontiers in Aging</div>
-        </a>
-        
-        
-        <a href="news/ELA-Epigenome-Heterogeneity-Macaques-Science-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag tag-paper">Science 封面</span>
-                <span class="time">2026-06-21</span>
-            </div>
-            <div class="feed-title">Science 封面：早期逆境以组织特异性方式重塑表观基因组</div>
-            <div class="feed-desc">追踪237只猕猴全生命周期，发现早期逆境在多个组织留下协同表观遗传印记，挑战"加速衰老"传统假设。</div>
-            <div class="feed-source">📄 Science</div>
-        </a>
-        
-        <div class="section-title">🔬 科研进展</div>
-        
-        <a href="news/CMA-Decline-Macrophage-Senescent-Clearance-NatureAging-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag tag-tech">研究进展</span>
-                <span class="time">2026-10-09</span>
-            </div>
-            <div class="feed-title">CMA 衰退让「僵尸细胞」逃过免疫清除：衰老细胞堆积的双重失效</div>
-            <div class="feed-desc">Nature Aging：伴侣介导自噬（CMA）随年龄衰退，同时毒化衰老细胞并使巨噬细胞无法脱掉 SIRP-α 吞噬受体，导致衰老细胞堆积。CA77.1 老年小鼠给药 5 个月降低多器官衰老细胞负荷，早期给药使肺纤维化减少约 55%。属临床前小鼠研究。</div>
-            <div class="feed-source">📄 Nature Aging 2026</div>
-        </a>
-        
-        <a href="news/AMPK-Direct-Activation-991-Lifespan-AgingCell-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag tag-tech">突破</span>
-                <span class="time">2026-10-09</span>
-            </div>
-            <div class="feed-title">直接激活 AMPK 让酵母、线虫、果蝇延寿逾 25%：首次证明 AMPK 本身是延寿靶点</div>
-            <div class="feed-desc">Aging Cell：用直接激活剂 991 靶向 AMPK，首次在三种模式生物中证明延寿（部分逾 25%），绕开二甲双胍的多机制干扰；小鼠仅见促长寿蛋白组，未证明寿命延长。属临床前模式生物研究。</div>
-            <div class="feed-source">📄 Aging Cell 2026</div>
-        </a>
-        
-        <a href="news/StackAge-Multi-Omics-Aging-Clock-UK-Biobank-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag tag-tech">研究进展</span>
-                <span class="time">2026-06-19</span>
-            </div>
-            <div class="feed-title">StackAge：整合30K样本的多组学生物年龄时钟</div>
-            <div class="feed-desc">基于 UK Biobank 30K 样本的多组学生物年龄时钟，精准预测12种慢性病风险，比单一表观时钟更准确。</div>
-            <div class="feed-source">📄 多组学研究</div>
-        </a>
-        
-        <a href="news/Senolytic-Regenerative-Synergy-Healthspan-Lifespan-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag tag-tech">研究进展</span>
-                <span class="time">2026-06-19</span>
-            </div>
-            <div class="feed-title">衰老细胞清除与再生医学协同：延长健康寿命新范式</div>
-            <div class="feed-desc">衰老细胞清除（senolytic）与MSC再生疗法联合，显著延长健康寿命和总寿命，支持协同增效临床前证据。</div>
-            <div class="feed-source">📄 抗衰老研究</div>
-        </a>
-        <a href="news/Senolytic-Regenerative-Synergy-Healthspan-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag tag-tech">研究进展</span>
-                <span class="time">2026-06-19</span>
-            </div>
-            <div class="feed-title">衰老细胞清除与干细胞联合疗法：突破性协同效应</div>
-            <div class="feed-desc">首次系统验证 Senolytic 药物与再生疗法协同作用，显著延长健康寿命，为联合抗衰老疗法提供重要临床前证据。</div>
-            <div class="feed-source">📄 抗衰老研究</div>
-        </a>
-    </div>
-    
-    <div class="section">
-        <div class="section-title">💡 技术前沿</div>
-        
-        <a href="news/Sinclair-SL100-Oral-Reprogramming-XPrize-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag tag-tech">重编程</span>
-                <span class="time">2026-06</span>
-            </div>
-            <div class="feed-title">口服化学重编程 SL-100 进入 XPrize 人体测试</div>
-            <div class="feed-desc">David Sinclair 团队口服候选药物 SL-100 采用小分子化学重编程路线，绕过 Yamanaka 因子风险，目标10年逆转人体生物年龄。</div>
-            <div class="feed-source">📄 哈佛医学院 · XPrize</div>
-        </a>
-        
-        <a href="news/ELA-Epigenome-Heterogeneity-Macaques-Science-2026.html" class="feed-item">
-            <div class="feed-header">
-                <span class="tag tag-tech">表观遗传</span>
-                <span class="time">2026-06</span>
-            </div>
-            <div class="feed-title">Science 封面研究：早期逆境"重塑"而非"加速"衰老</div>
-            <div class="feed-desc">237只猕猴全生命周期追踪表明，早期逆境在多个组织留下协同表观遗传印记，为理解生命早期经历对健康的影响提供新框架。</div>
-            <div class="feed-source">📄 Science</div>
-        </a>
-    </div>
-    
-    <div class="section">
-        <div class="section-title">🏢 产业动态</div>
-        
-        <a href="https://www.xprize.org/prizes/brahma" rel="noopener noreferrer" target="_blank" class="feed-item">
-            <div class="feed-header">
-                <span class="tag tag-tech">竞赛</span>
-                <span class="time">2026</span>
-            </div>
-            <div class="feed-title">XPrize HealthSpan：$1.01 亿健康跨度大奖</div>
-            <div class="feed-desc">全球最大抗衰老竞赛，要求团队在人体测试中实现显著生物年龄逆转。Sinclair SL-100 等多个项目已获资助。</div>
-            <div class="feed-source">📄 XPrize Foundation</div>
-        </a>
-        
-        <a href="https://ir.unitybiotechnology.com/" rel="noopener noreferrer" target="_blank" class="feed-item">
-            <div class="feed-header">
-                <span class="tag tag-tech">公司</span>
-                <span class="time">2026</span>
-            </div>
-            <div class="feed-title">Unity Biotechnology (UBX)</div>
-            <div class="feed-desc">Senolytic 药物先驱，UBX0101 进入骨关节炎 Phase 2。纳斯达克上市。</div>
-            <div class="feed-source">📄 UBX · NASDAQ: UBX</div>
-        </a>
-    </div>
-    
-    <nav class="bottom-nav">
-        <a href="/" class="nav-item active" aria-label="当前页：首页"><span class="icon">🏠</span><span>首页</span></a>
-        <a href="papers/" class="nav-item" aria-label="论文"><span class="icon">📚</span><span>论文</span></a>
-        <a href="companies/" class="nav-item" aria-label="公司"><span class="icon">🏢</span><span>公司</span></a>
-        <a href="events/" class="nav-item" aria-label="活动"><span class="icon">📅</span><span>活动</span></a>
+<header class="site-header">
+  <div class="wrap">
+    <a href="/" class="brand">🧬 LongBiosci</a>
+    <nav class="main-nav" aria-label="主导航">
+      <a href="/" aria-current="page">首页</a>
+      <a href="/news/">最新</a>
+      <a href="/topics/">主题专辑</a>
+      <a href="/evidence/">证据分级</a>
+      <a href="/trials.html">临床试验</a>
+      <a href="/companies/">产业</a>
+      <a href="/about/">关于</a>
     </nav>
+  </div>
+</header>
+<main id="main-content">
+  <section class="hero">
+    <div class="wrap">
+      <h1>衰老生物学与长寿科技</h1>
+      <p>追踪细胞衰老、表观遗传重编程、代谢干预与临床试验的前沿进展。全站 372 篇研究解读，每篇标注证据分级——同行评议人体研究、临床前研究或预印本，来源可溯。
+    </div>
+  </section>
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>今日必读</h2>
+        <span class="section-note">最新 6 篇 · 更新至 2026-10-09</span>
+        <a href="/news/" class="section-more">查看全部 →</a>
+      </div>
+      <div class="lead-grid">
+        <a href="/news/AMPK-Direct-Activation-991-Lifespan-AgingCell-2026.html" class="lead-card">
+          <div class="item-meta">
+            <span class="tag">突破</span>
+            <span class="tier tier-B">B</span>
+          </div>
+          <h3>直接激活 AMPK 让酵母、线虫、果蝇延寿逾 25%：Aging Cell 首次证明 AMPK 本身是延寿靶点</h3>
+          <p>Aging Cell 研究用直接激活剂 991 靶向 AMPK，首次在三种模式生物中延长寿命（部分超过 25%），并在小鼠中诱导促长寿蛋白组。这排除了二甲双胍类药物的多机制干扰，首次证明 AM…</p>
+          <div class="card-foot">
+            <span>2026-10-09</span>
+            <span>·</span>
+            <span>代谢与营养</span>
+            <span>·</span>
+            <span>onlinelibrary.wiley.com</span>
+          </div>
+        </a>
+        <a href="/news/CMA-Decline-Macrophage-Senescent-Clearance-NatureAging-2026.html" class="lead-card">
+          <div class="item-meta">
+            <span class="tag">研究进展</span>
+            <span class="tier tier-B">B</span>
+          </div>
+          <h3>CMA 衰退让「僵尸细胞」逃过免疫清除：Nature Aging 揭示衰老细胞堆积的双重失效</h3>
+          <p>Nature Aging 研究发现，伴侣介导自噬（CMA）随年龄衰退，同时毒化衰老细胞并削弱巨噬细胞的吞噬能力，导致衰老细胞在老年体内堆积。CA77.1 在老年小鼠中降低衰老细胞负荷，早期给药…</p>
+          <div class="card-foot">
+            <span>2026-10-09</span>
+            <span>·</span>
+            <span>免疫与炎症</span>
+            <span>·</span>
+            <span>www.nature.com</span>
+          </div>
+        </a>
+        <a href="/news/Life-Biosciences-ER-100-First-Human-Data-AAO-2026.html" class="lead-card">
+          <div class="item-meta">
+            <span class="tag">临床进展</span>
+            <span class="tier tier-A">A</span>
+          </div>
+          <h3>全球首个细胞重编程人体试验公布早期数据：3 名青光眼患者 2 例视野改善，剂量将升至 3 倍</h3>
+          <p>Life Biosciences 在 AAO 2026 公布 ER-100 一期临床首个人体数据：单次玻璃体内注射 OSK 转录因子，3 名开角型青光眼患者随访 56 天均未见严重不良事件，2…</p>
+          <div class="card-foot">
+            <span>2026-10-09</span>
+            <span>·</span>
+            <span>表观遗传</span>
+            <span>·</span>
+            <span>www.lifebiosciences.com</span>
+          </div>
+        </a>
+        <a href="/news/Dasatinib-Quercetin-Senolytic-MASH-Liver-Fibrosis-RCT-2026.html" class="lead-card">
+          <div class="item-meta">
+            <span class="tag">临床进展</span>
+            <span class="tier tier-A">A</span>
+          </div>
+          <h3>达沙替尼+槲皮素治疗 MASH 肝纤维化：31 人随机对照试验 47% 纤维化改善</h3>
+          <p>一项 31 人二期随机双盲对照试验显示，间歇性 senolytic 方案（达沙替尼 100mg + 槲皮素 1000mg）在纤维化 MASH 患者中实现 47% 纤维化改善（安慰剂组 7%），…</p>
+          <div class="card-foot">
+            <span>2026-10-07</span>
+            <span>·</span>
+            <span>细胞衰老</span>
+            <span>·</span>
+            <span>www.healthtolongevity.com</span>
+          </div>
+        </a>
+        <a href="/news/GLP1-Aging-Independent-Pathway-Mechanism-Deepdive-2026.html" class="lead-card">
+          <div class="item-meta">
+            <span class="tag">研究进展</span>
+            <span class="tier tier-B">B</span>
+          </div>
+          <h3>GLP-1 抗衰老的独立通路：一文读懂「超越热量限制」的关键发现</h3>
+          <p>Nature 研究显示 GLP-1 药物在老年小鼠中延长中位寿命 92 天，且其抗衰老机制独立于热量限制——不引发饥饿信号下的代谢适应。本文在站内 9 月报道基础上，聚焦机制层面的深化解读。</p>
+          <div class="card-foot">
+            <span>2026-10-05</span>
+            <span>·</span>
+            <span>代谢与营养</span>
+            <span>·</span>
+            <span>www.nature.com</span>
+          </div>
+        </a>
+        <a href="/news/Oral-Microbiome-Neisseria-flavescens-Geroprotective-NatureAging-2026.html" class="lead-card">
+          <div class="item-meta">
+            <span class="tag">研究进展</span>
+            <span class="tier tier-B">B</span>
+          </div>
+          <h3>北大团队发现口腔&quot;长寿菌&quot;微黄奈瑟菌：Nature Aging 报道可延缓衰老并逆转多项指标</h3>
+          <p>北京大学韩敬东团队在 Nature Aging 发表研究，基于 760 人队列舌苔宏基因组与血浆代谢组，构建多模态衰老时钟，发现口腔菌群组成与衰老速度密切相关，微黄奈瑟菌（Neisseria …</p>
+          <div class="card-foot">
+            <span>2026-10-03</span>
+            <span>·</span>
+            <span>代谢与营养</span>
+            <span>·</span>
+            <span>www.nature.com</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>主题专辑</h2>
+        <span class="section-note">按衰老机制归类，避免信息流碎片化</span>
+      </div>
+      <div class="topic-grid">
+        <a href="/topics/cellular-senescence.html" class="topic-card">
+          <span class="t-name">细胞衰老</span>
+          <span class="t-count">46 篇 · Senolytic、SASP 与免疫清除</span>
+        </a>
+        <a href="/topics/epigenetics.html" class="topic-card">
+          <span class="t-name">表观遗传</span>
+          <span class="t-count">33 篇 · 重编程、DNA 甲基化与生物年龄</span>
+        </a>
+        <a href="/topics/metabolism-nutrition.html" class="topic-card">
+          <span class="t-name">代谢与营养</span>
+          <span class="t-count">45 篇 · NAD+、mTOR、GLP-1 与饮食干预</span>
+        </a>
+        <a href="/topics/immunology-inflammation.html" class="topic-card">
+          <span class="t-name">免疫与炎症</span>
+          <span class="t-count">44 篇 · 免疫衰老、炎症老化与免疫治疗</span>
+        </a>
+        <a href="/topics/neurodegeneration.html" class="topic-card">
+          <span class="t-name">神经退行</span>
+          <span class="t-count">72 篇 · 阿尔茨海默、帕金森与认知衰退</span>
+        </a>
+        <a href="/topics/organ-aging.html" class="topic-card">
+          <span class="t-name">器官衰老</span>
+          <span class="t-count">38 篇 · 心脏、肝脏、肌肉、卵巢等器官</span>
+        </a>
+        <a href="/topics/life-course.html" class="topic-card">
+          <span class="t-name">生命历程</span>
+          <span class="t-count">67 篇 · 发育编程、早衰与健康公平</span>
+        </a>
+        <a href="/topics/methods-tools.html" class="topic-card">
+          <span class="t-name">方法与工具</span>
+          <span class="t-count">27 篇 · 单细胞、多组学与研究方法</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>证据分级</h2>
+        <span class="section-note">本站对每篇文章标注证据强度，读者可按需筛选</span>
+        <a href="/about/#editorial-policy" class="section-more">分级标准 →</a>
+      </div>
+      <div class="ev-grid">
+        <a href="/evidence/A.html" class="ev-card">
+          <div class="ev-head">
+            <span class="ev-tier ev-a">A</span>
+            <h3>同行评议人体研究</h3>
+          </div>
+          <p>已发表的人体研究，含随机对照试验与队列分析。结论可信度最高。</p>
+          <span class="ev-n">84 篇</span>
+        </a>
+        <a href="/evidence/B.html" class="ev-card">
+          <div class="ev-head">
+            <span class="ev-tier ev-b">B</span>
+            <h3>同行评议临床前研究</h3>
+          </div>
+          <p>动物或体外实验的同行评议研究。机制清晰，但尚不能外推至人体。</p>
+          <span class="ev-n">280 篇</span>
+        </a>
+        <a href="/evidence/C.html" class="ev-card">
+          <div class="ev-head">
+            <span class="ev-tier ev-c">C</span>
+            <h3>预印本（未经同行评议）</h3>
+          </div>
+          <p>预印本，未经同行评议。结论可能随审稿而改变，仅供跟踪参考。</p>
+          <span class="ev-n">8 篇</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>最新收录</h2>
+        <span class="section-note">持续更新</span>
+        <a href="/news/" class="section-more">更多 →</a>
+      </div>
+      <div class="feed">
+        <div class="feed-item">
+          <div class="item-meta">
+            <span class="tag">Senolytic</span>
+            <span class="tier tier-B">B</span>
+            <span class="tag-date">2026-09-09</span>
+            <span>细胞衰老</span>
+          </div>
+          <div class="feed-title"><a href="/news/SENESCENCE2030-Roadmap-Precision-Senescence-Medicine-2026.html">SENESCENCE2030 路线图：迈向精准衰老医学的共识框架</a></div>
+          <p class="feed-desc">SENESCENCE2030 网络在 Nature Aging 发表共识路线图，凝聚全球研究、临床、产业与政策力量，系统规划精准衰老医学从基础研究到临床转化的五大优先方向，为细胞衰老干预的临床落地提供里程碑式指导框架。</p>
+        </div>
+        <div class="feed-item">
+          <div class="item-meta">
+            <span class="tag">理论综述</span>
+            <span class="tier tier-B">B</span>
+            <span class="tag-date">2026-09-08</span>
+            <span>方法与工具</span>
+          </div>
+          <div class="feed-title"><a href="/news/Adaptive-Cost-Hypothesis-NCDs-Evolvable-Lifespan-2026.html">「适应成本假说」：为何健康行为无法完全预防年龄相关疾病</a></div>
+          <p class="feed-desc">新假说认为，非传染性疾病并非「现代生活与祖先生物学错配」的产物，而是在寿命延长后、适应性机制超出其进化设计寿命时、不得不付出的必然代价。</p>
+        </div>
+        <div class="feed-item">
+          <div class="item-meta">
+            <span class="tag">临床研究</span>
+            <span class="tier tier-A">A</span>
+            <span class="tag-date">2026-09-08</span>
+            <span>生命历程</span>
+          </div>
+          <div class="feed-title"><a href="/news/Dog-Aging-Project-50000-Dogs-Multimorbidity-2026.html">Dog Aging Project：超5万只伴侣犬揭示老年共病模式</a></div>
+          <p class="feed-desc">Dog Aging Project 利用超过5万只伴侣犬数据，首次系统揭示犬类共病（multimorbidity）的累积规律及其与死亡风险的关联，为人类衰老临床转化研究提供关键模型支撑。</p>
+        </div>
+        <div class="feed-item">
+          <div class="item-meta">
+            <span class="tag">神经退行</span>
+            <span class="tier tier-B">B</span>
+            <span class="tag-date">2026-09-07</span>
+            <span>神经退行</span>
+          </div>
+          <div class="feed-title"><a href="/news/Nano-ERASER-Astrocyte-Neuron-AD-2026.html">Nano-ERASER：穿越血脑屏障递送抗体，星形胶质细胞重编程为神经元逆转阿尔茨海默病</a></div>
+          <p class="feed-desc">新研究提出 Nano-ERASER 技术平台，通过静脉注射将抗体选择性递送穿越血脑屏障，靶向星形胶质细胞并将其重编程为功能性神经元，为阿尔茨海默病治疗提供全新再生医学路径。</p>
+        </div>
+        <div class="feed-item">
+          <div class="item-meta">
+            <span class="tag">神经再生</span>
+            <span class="tier tier-B">B</span>
+            <span class="tag-date">2026-09-05</span>
+            <span>神经退行</span>
+          </div>
+          <div class="feed-title"><a href="/news/Nano-ERASER-AtN-Reprogramming-Alzheimer-2026.html">Nano-ERASER系统：穿越血脑屏障递送抗体，&quot;按需&quot;降解PTBP1驱动星形胶质细胞转化为神经元——逆转阿尔茨海默病进展新策略</a></div>
+          <p class="feed-desc">研究人员开发Nano-ERASER系统，利用血脑屏障穿透配体与聚合物纳米载体将抗PTBP1抗体选择性递送至脑星形胶质细胞，通过TRIM21介导的蛋白酶体降解快速下调PTBP1，在阿尔茨海默病小鼠模型中成功实现星形胶质细胞向神经元的转化，恢复神经网络功能——为神经退行性疾病再生医学…</p>
+        </div>
+        <div class="feed-item">
+          <div class="item-meta">
+            <span class="tag">研究进展</span>
+            <span class="tier tier-A">A</span>
+            <span class="tag-date">2026-09-04</span>
+            <span>代谢与营养</span>
+          </div>
+          <div class="feed-title"><a href="/news/GLP1-Semaglutide-Extend-Lifespan-Female-Mice-2026.html">GLP-1药物延缓衰老：司美格鲁肽延长雌性小鼠寿命</a></div>
+          <p class="feed-desc">NIH研究团队在Nature发表研究，发现GLP-1受体激动剂司美格鲁肽可延长雌性小鼠寿命，改善多项衰老标志物，效果超出单纯热量限制范畴，为GLP-1药物的抗衰老潜力提供重要证据。</p>
+        </div>
+        <div class="feed-item">
+          <div class="item-meta">
+            <span class="tag">研究进展</span>
+            <span class="tier tier-B">B</span>
+            <span class="tag-date">2026-09-04</span>
+            <span>神经退行</span>
+          </div>
+          <div class="feed-title"><a href="/news/Microglia-Replaced-Peripheral-Blood-Cells-Human-Brain-Aging-2026.html">颠覆认知：外周血细胞可替代大脑免疫细胞</a></div>
+          <p class="feed-desc">Nature发表重磅研究，首次通过谱系追踪揭示人类大脑小胶质细胞的真正来源：外周血细胞可在衰老过程中替代驻留小胶质细胞，颠覆</p>
+        </div>
+        <div class="feed-item">
+          <div class="item-meta">
+            <span class="tag">技术突破</span>
+            <span class="tier tier-B">B</span>
+            <span class="tag-date">2026-09-04</span>
+            <span>神经退行</span>
+          </div>
+          <div class="feed-title"><a href="/news/Nano-ERASER-Astrocyte-Neuron-Alzheimer-2026.html">Nano-ERASER：穿越血脑屏障递送抗体，重编程星形胶质细胞为神经元逆转阿尔茨海默病</a></div>
+          <p class="feed-desc">Cell &amp; BioSciences发表研究：Nano-ERASER系统通过静脉注射将抗PTBP1抗体递送至大脑星形胶质细胞，触发蛋白质降解介导的细胞重编程，在5XFAD阿尔茨海默病小鼠模型中实现认知功能逆转——为神经退行性疾病的原位神经再生提供全新平台。</p>
+        </div>
+        <div class="feed-item">
+          <div class="item-meta">
+            <span class="tag">神经再生</span>
+            <span class="tier tier-B">B</span>
+            <span class="tag-date">2026-09-04</span>
+            <span>神经退行</span>
+          </div>
+          <div class="feed-title"><a href="/news/Nano-ERASER-Astrocyte-Neuron-Alzheimer-Reversal-2026.html">Nano-ERASER系统：静脉注射纳米抗体穿越血脑屏障，将星形胶质细胞重编程为神经元逆转阿尔茨海默病</a></div>
+          <p class="feed-desc">Cell &amp; Bioelectricity发表开放获取研究：利用Nano-ERASER系统将抗PTBP1抗体经静脉注射穿越血脑屏障递送至星形胶质细胞，触发细胞重编程为功能性神经元，在5XFAD阿尔茨海默病小鼠模型中显著改善认知、学习和记忆能力。</p>
+        </div>
+        <div class="feed-item">
+          <div class="item-meta">
+            <span class="tag">研究进展</span>
+            <span class="tier tier-B">B</span>
+            <span class="tag-date">2026-09-04</span>
+            <span>神经退行</span>
+          </div>
+          <div class="feed-title"><a href="/news/Senescent-Microglia-Telomere-DLK1-Hypomyelin-2026.html">小胶质细胞端粒缩短加速大脑衰老：DLK1成为关键介质</a></div>
+          <p class="feed-desc">Neuron发表研究，首次揭示端粒缩短的小胶质细胞通过分泌可溶性DLK1蛋白，诱导髓鞘老化及神经元功能障碍，为大脑衰老机制和小胶质细胞相关神经退行性疾病提供新靶点。</p>
+        </div>
+        <div class="feed-item">
+          <div class="item-meta">
+            <span class="tag">机制研究</span>
+            <span class="tier tier-B">B</span>
+            <span class="tag-date">2026-09-03</span>
+            <span>代谢与营养</span>
+          </div>
+          <div class="feed-title"><a href="/news/Semaglutide-Lifespan-Extension-Nature-2026.html">Nature 封面研究：晚年司美格鲁肽治疗显著延长小鼠寿命——或为热量限制模拟物</a></div>
+          <p class="feed-desc">NIH 团队在 Nature 发表重磅研究，对 20 月龄老年雌性小鼠每日注射司美格鲁肽，中位寿命从 742 天延长至 834 天（延长约 12.4%），且延寿效应独立于体重下降，提示 GLP-1 类药物或为热量限制的分子模拟物，开启延寿研究新赛道。</p>
+        </div>
+        <div class="feed-item">
+          <div class="item-meta">
+            <span class="tag">研究发现</span>
+            <span class="tier tier-B">B</span>
+            <span class="tag-date">2026-09-02</span>
+            <span>器官衰老</span>
+          </div>
+          <div class="feed-title"><a href="/news/Medicarpin-Adiponectin-Agonist-Muscle-Atrophy-2026.html">小分子AdipoR激动剂Medicarpin：骨骼肌萎缩治疗新策略</a></div>
+          <p class="feed-desc">研究人员发现小分子药物Medicarpin可模拟脂联素（Adiponectin）信号，通过激活AdipoR1/R2受体促进肌肉生长，在老年肌肉萎缩和大鼠去神经模型中显著改善肌肉功能，为骨骼肌衰老和相关疾病提供新的药理学干预路径。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© 2026 LongBiosci · 衰老与长寿科技资讯 · 全站 372 篇
+    <a href="/rss.xml">RSS</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="/about/">关于</a>
+  </div>
+</footer>
 </body>
 </html>
