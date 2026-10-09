@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 88" width="320" height="88" role="img" aria-label="LongBiosci 衰老生物学与长寿科技">
+  <title>LongBiosci</title>
+  <desc>衰老生物学与长寿科技</desc>
+
+  <g transform="translate(44,44)">
+    <circle cx="0" cy="0" r="24" fill="none" stroke="#0d4f8b" stroke-width="4.6"/>
+    <path d="M0-24A24 24 0 0 1 20.2-13.1" fill="none"
+          stroke="#1a7f4b" stroke-width="4.6" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="8.8" fill="#0d4f8b"/>
+  </g>
+
+  <text x="86" y="41" font-family="system-ui,-apple-system,'Segoe UI',sans-serif"
+        font-size="27" font-weight="600" letter-spacing="-0.5" fill="#0f2b46">LongBiosci</text>
+  <text x="87" y="63" font-family="system-ui,-apple-system,'Segoe UI',sans-serif"
+        font-size="13.5" letter-spacing="1.4" fill="#6b7885">衰老生物学与长寿科技</text>
+</svg>
