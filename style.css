@@ -413,3 +413,25 @@ body {
     margin: 20px 0;
     font-style: italic;
 }
+
+/* 证据分级 / 局限性提示框（2026-10新增） */
+.notice-box {
+    margin: 25px 0;
+    padding: 18px 22px;
+    background: #fff8e6;
+    border-left: 4px solid #d4a017;
+    border-radius: 0 8px 8px 0;
+    font-size: 0.92em;
+    color: #4a4a4a;
+}
+.notice-box p { margin-bottom: 12px; line-height: 1.8; }
+.notice-box p:last-child { margin-bottom: 0; }
+.notice-box strong { color: #8a6d1a; }
+.notice-box ul { margin: 8px 0; padding-left: 22px; }
+.notice-box li { line-height: 1.8; margin-bottom: 6px; }
+
+/* 证据分级徽章 */
+.tier { display: inline-block; padding: 2px 9px; border-radius: 6px; font-size: 12px; font-weight: 700; margin-right: 6px; }
+.tier-a { background: #d4edda; color: #155724; }
+.tier-b { background: #fff3cd; color: #856404; }
+.tier-c { background: #e2e3e5; color: #383d41; }
