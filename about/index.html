@@ -25,13 +25,35 @@
   "mainEntity": {
     "@type": "Organization",
     "name": "LongBiosci",
+    "alternateName": "LongBiosci 编辑部",
     "url": "https://longbiosci.com",
-    "description": "LongBiosci 致力于传播抗衰老科学研究与长寿科技资讯"
+    "description": "LongBiosci 致力于传播抗衰老科学研究与长寿科技资讯",
+    "publishingPrinciples": "https://longbiosci.com/about/#editorial-policy"
   },
   "isPartOf": {
     "@type": "WebSite",
     "@id": "https://longbiosci.com/#website"
   }
+}
+    </script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://longbiosci.com/#organization",
+  "name": "LongBiosci",
+  "url": "https://longbiosci.com",
+  "description": "抗衰老与长寿科技领域的科研资讯平台",
+  "knowsAbout": [
+    "细胞衰老与 senolytic 药物",
+    "NAD+ 代谢与 NMN",
+    "表观遗传重编程",
+    "mTOR 与热量限制",
+    "端粒生物学",
+    "生物年龄时钟",
+    "长寿领域临床试验"
+  ],
+  "slogan": "以严谨、可溯源的方式跟踪衰老科学进展"
 }
     </script>
     <!-- Google Fonts Performance -->
@@ -49,6 +71,18 @@
         .back { display: inline-block; margin-bottom: 20px; color: #1976d2; text-decoration: none; }
         .section-link { background: #f5f5f5; border-radius: 12px; padding: 15px 20px; margin: 10px 0; }
         .section-link a { font-weight: 500; }
+        .policy { background: #f7f9fc; border-left: 4px solid #0f3460; border-radius: 0 12px 12px 0; padding: 18px 22px; margin: 15px 0; }
+        .policy h3 { color: #0f3460; font-size: 15px; margin: 0 0 10px; font-weight: 700; }
+        .policy ul { margin: 0; padding-left: 20px; }
+        .policy li { color: #555; line-height: 1.75; margin-bottom: 8px; font-size: 14px; }
+        .policy li:last-child { margin-bottom: 0; }
+        .policy strong { color: #0f3460; }
+        .tier { display: inline-block; padding: 2px 9px; border-radius: 6px; font-size: 12px; font-weight: 700; margin-right: 6px; }
+        .tier-a { background: #d4edda; color: #155724; }
+        .tier-b { background: #fff3cd; color: #856404; }
+        .tier-c { background: #e2e3e5; color: #383d41; }
+        .badge-org { display: inline-block; background: #0f3460; color: #fff; padding: 5px 14px; border-radius: 8px; font-size: 13px; font-weight: 500; margin-bottom: 4px; }
+        .meta-line { color: #888; font-size: 13px; line-height: 1.9; margin-top: 6px; }
     </style>
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 </head>
@@ -59,20 +93,52 @@
         <a href="../" class="back">← 返回首页</a>
         <h1>🧬 关于 LongBiosci</h1>
 
+        <p><span class="badge-org">LongBiosci 编辑部</span></p>
+        <p class="meta-line">本站内容由LongBiosci 编辑部撰写与维护。<br>最后更新：2026 年 10 月</p>
+
         <h2>我们的使命</h2>
-        <p>LongBiosci 致力于传播抗衰老、长寿科技领域的最新研究进展，让更多人了解科学前沿，连接研究与大众。</p>
+        <p>LongBiosci 致力于传播抗衰老、长寿科技领域的最新研究进展，让更多人了解科学前沿，连接研究与大众。我们相信衰老科学正在从基础研究走向可干预的临床阶段，而这个转折期的信息质量，直接决定读者能否做出可靠的判断。</p>
+
+        <h2>我们怎么做内容</h2>
+        <div class="policy" id="editorial-policy">
+            <h3>编辑方针</h3>
+            <ul>
+                <li><strong>溯源优先。</strong>每篇文章均标注原始来源期刊、机构或会议名称，并给出可点击的原始链接。我们不生产无出处的二手信息。</li>
+                <li><strong>区分证据强度。</strong>同行评议论文、预印本、临床前研究、新闻报道在文中分别标注，不混为一谈。</li>
+                <li><strong>预印本单独标记。</strong>bioRxiv / medRxiv 等平台发布的论文<strong>未经同行评议</strong>，我们一律显式标注，避免读者误读为已确立结论。</li>
+                <li><strong>动物与人体分开。</strong>小鼠实验结果不会表述为人体效果；临床前阶段会明确写出「临床前证据」字样。</li>
+                <li><strong>标注局限。</strong>研究设计、样本量、随访时间等可能影响结论可靠性的因素，在深度文章中会主动说明。</li>
+                <li><strong>不夸大。</strong>标题与导语不制造恐慌，也不把机制发现包装成可用疗法。</li>
+            </ul>
+        </div>
+
+        <div class="policy">
+            <h3>证据分级说明</h3>
+            <ul>
+                <li><span class="tier tier-a">A</span><strong>同行评议人体研究</strong> — 随机对照试验、队列研究等已发表结论，可信度最高。</li>
+                <li><span class="tier tier-b">B</span><strong>同行评议临床前研究</strong> — 动物或体外实验，尚不能外推至人体。</li>
+                <li><span class="tier tier-c">C</span><strong>预印本</strong> — 未经同行评议，结论可能随审稿而改变，仅供参考。</li>
+                <li><span class="tier tier-c">资讯</span><strong>行业动态</strong> — 融资、人事、会议等事实性信息，不含机制解读。</li>
+            </ul>
+        </div>
 
         <h2>内容板块</h2>
         <div class="section-link">📰 <a href="/news/">行业资讯</a> — 最新科研进展与行业动态</div>
         <div class="section-link">📄 <a href="/papers/">论文精选</a> — 重磅论文深度解读</div>
         <div class="section-link">🔬 <a href="/daily/">每日简报</a> — 每天更新的抗衰老研究热点</div>
         <div class="section-link">💊 <a href="/trials.html">临床试验</a> — 抗衰老领域临床试验追踪</div>
+        <div class="section-link">🏢 <a href="/companies/">公司动态</a> — 长寿赛道企业融资与进展</div>
 
         <h2>关注领域</h2>
-        <p>Senolytic 药物、NAD+ 代谢、端粒生物学、mTOR 抑制剂、热量限制、干细胞等抗衰老策略。</p>
+        <p>细胞衰老与 Senolytic 药物、NAD+ 代谢与 NMN、表观遗传重编程、mTOR 抑制剂与热量限制、端粒生物学、生物年龄时钟、干细胞与再生医学，以及长寿领域的临床试验进展。</p>
 
-        <h2>联系我们</h2>
-        <p>📧 Email: contact@longbiosci.com</p>
+        <h2>纠错与联系</h2>
+        <p>发现事实错误、引用有误，或希望补充某项研究的报道，请通过GitHub 仓库的公开提交渠道反馈：</p>
+        <div class="section-link">💬 <a href="https://github.com/longbiosci/longbiosci/issues" target="_blank" rel="noopener noreferrer">github.com/longbiosci/longbiosci/issues</a> — 纠错、建议与合作洽谈</div>
+        <p class="meta-line">我们会在核实后尽快处理，并在文章底部注明修订记录。</p>
+
+        <h2>免责声明</h2>
+        <p>本站内容仅用于科研信息传播，<strong>不构成任何医疗建议</strong>。任何抗衰老干预方案均应在专业医师指导下进行，请勿依据本站信息自行用药或调整治疗方案。</p>
 
         <p class="about-copy">
             © 2026 LongBiosci · 抗衰老研究资讯 · <a href="https://longbiosci.com">longbiosci.com</a>
