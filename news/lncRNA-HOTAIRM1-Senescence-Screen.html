@@ -78,20 +78,23 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="/" class="logo">🧬 LongBiosci</a>
-            <div class="nav-links">
-                <a href="/">首页</a>
-                <a href="/news/">新闻</a>
-                <a href="/papers/">论文</a>
-                <a href="/companies/">公司</a>
-                <a href="/about.html">关于</a>
-            </div>
-        </nav>
-    </header>
+    <a href="#main-content" class="skip-link">跳转到主要内容</a>
+<header class="site-header">
+    <nav class="wrap" aria-label="主导航">
+        <a href="/" class="brand">🧬 LongBiosci</a>
+        <div class="main-nav">
+            <a href="/">首页</a>
+            <a href="/news/">最新</a>
+            <a href="/topics/">主题专辑</a>
+            <a href="/evidence/">证据分级</a>
+            <a href="/search.html">搜索</a>
+            <a href="/trials.html">临床试验</a>
+            <a href="/about/">关于</a>
+        </div>
+    </nav>
+</header>
 
-    <main class="article-container">
+    <main class="article-container" id="main-content">
         <nav class="breadcrumb" aria-label="面包屑导航">
             <a href="/">首页</a> &gt; <a href="/news/">新闻</a> &gt; <span aria-current="page">lncRNA调控衰老机制</span>
         </nav>
@@ -148,8 +151,11 @@
         </article>
     </main>
 
-    <footer>
-        <p>&copy; 2026 LongBiosci · 追踪长寿科学前沿</p>
-    </footer>
+    <footer class="site-footer">
+    <div class="wrap">
+        <p>© 2026 LongBiosci 编辑部 · 衰老与长寿科技资讯</p>
+        <a href="/rss.xml">RSS</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="/about/">关于</a>
+    </div>
+</footer>
 </body>
 </html>
