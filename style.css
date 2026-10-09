@@ -474,3 +474,62 @@ body:has(.bottom-nav){padding-bottom:64px}
   *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}
   html{scroll-behavior:auto}
 }
+
+/* ========== 旧页面内容组件的样式映射（2026-10 迁移）============== */
+
+/* 旧 .header 块 → 改用 .hero */
+.page-hero{padding:var(--s-7) 0 var(--s-6);border-bottom:1px solid var(--c-line);
+  background:radial-gradient(ellipse 80% 60% at 50% -10%,var(--c-primary-soft),transparent);
+  text-align:center}
+.page-hero h1{font-size:var(--f-2xl);margin-bottom:var(--s-2)}
+.page-hero p{font-size:var(--f-md);color:var(--c-muted);margin:0}
+
+.page-body{padding:var(--s-6) 0;max-width:var(--w-page);margin:0 auto;padding-left:var(--s-5);padding-right:var(--s-5)}
+
+/* 卡片通用（旧 .card / .paper-card / .topic-card / .event-card 等）*/
+.legacy-card{background:var(--c-bg-raised);border:1px solid var(--c-line);
+  border-radius:var(--r-lg);padding:var(--s-5);margin-bottom:var(--s-3);
+  transition:box-shadow .18s var(--ease),transform .18s var(--ease)}
+.legacy-card:hover{box-shadow:var(--sh-md);transform:translateY(-2px)}
+.legacy-card h3{font-size:var(--f-md);margin:0 0 var(--s-2);color:var(--c-ink)}
+.legacy-card p{font-size:var(--f-sm);color:var(--c-muted);line-height:var(--lh-normal);margin:0 0 var(--s-3)}
+.legacy-meta{font-size:var(--f-xs);color:var(--c-faint);margin-bottom:var(--s-2);
+  display:flex;gap:var(--s-3);flex-wrap:wrap}
+
+/* 筛选条 */
+.filter-bar{display:flex;gap:var(--s-2);flex-wrap:wrap;margin-bottom:var(--s-5);
+  padding-bottom:var(--s-4);border-bottom:1px solid var(--c-line)}
+.filter{padding:var(--s-1) var(--s-3);background:var(--c-surface);
+  border:1px solid var(--c-line);border-radius:var(--r-pill);
+  font-size:var(--f-xs);color:var(--c-ink-soft);cursor:pointer;
+  transition:background .16s var(--ease),border-color .16s var(--ease)}
+.filter:hover{border-color:var(--c-primary-line);background:var(--c-primary-soft)}
+.filter.active,.filter[aria-pressed="true"]{background:var(--c-primary);color:#fff;border-color:var(--c-primary)}
+
+/* 搜索框（旧页面的 .search-box / .search-input）*/
+.search-box{margin-bottom:var(--s-5)}
+.search-input{width:100%;padding:var(--s-3) var(--s-4);
+  font-size:var(--f-base);font-family:inherit;color:var(--c-ink);
+  background:var(--c-bg-raised);border:1px solid var(--c-line-strong);
+  border-radius:var(--r-md);transition:border-color .16s var(--ease)}
+.search-input:focus{outline:none;border-color:var(--c-primary-lift)}
+
+/* 返回链接（旧 .back-link 顶部的）*/
+.page-back{display:inline-block;margin-bottom:var(--s-4);font-size:var(--f-sm);font-weight:500}
+
+/* 研究领域网格 */
+.research-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
+  gap:var(--s-4);margin-top:var(--s-5)}
+.research-card{display:block;padding:var(--s-5);background:var(--c-bg-raised);
+  border:1px solid var(--c-line);border-radius:var(--r-lg);
+  transition:box-shadow .18s var(--ease),transform .18s var(--ease)}
+.research-card:hover{box-shadow:var(--sh-md);transform:translateY(-2px);text-decoration:none}
+.research-card h3{font-size:var(--f-md);margin:0 0 var(--s-2);color:var(--c-primary)}
+.research-card p{font-size:var(--f-sm);color:var(--c-muted);line-height:var(--lh-normal);margin:0 0 var(--s-3)}
+
+/* 统计条 */
+.stat-row{display:flex;gap:var(--s-5);flex-wrap:wrap;margin:var(--s-5) 0 0;
+  padding-top:var(--s-4);border-top:1px solid var(--c-line)}
+.stat-n{font-size:var(--f-xl);font-weight:600;color:var(--c-primary);
+  font-variant-numeric:tabular-nums;line-height:1.2}
+.stat-l{font-size:var(--f-xs);color:var(--c-muted)}

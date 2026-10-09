@@ -1,356 +1,120 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="referrer" content="strict-origin-when-cross-origin">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="LongBiosci 抗衰老公司库：收录全球长寿科技公司，涵盖 Senolytic 药物、AI 制药、基因疗法等前沿抗衰老技术公司数据库。">
-    <link rel="canonical" href="https://longbiosci.com/companies/">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://longbiosci.com/companies/">
-    <meta property="og:title" content="公司库 - LongBiosci">
-    <meta property="og:description" content="收录全球长寿科技公司，涵盖 Senolytic 药物、AI 制药、基因疗法等前沿抗衰老技术公司数据库。">
-    <meta property="og:image" content="https://longbiosci.com/logo.jpg">
-    <meta name="twitter:card" content="summary_large_image">
-    <title>公司库 - LongBiosci</title>
-    <!-- Google Fonts Performance -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
-    <!-- JSON-LD Structured Data -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "CollectionPage",
-      "isPartOf": {
-        "@type": "WebSite",
-        "@id": "https://longbiosci.com/#website",
-        "url": "https://longbiosci.com/",
-        "name": "LongBiosci",
-        "publisher": {
-          "@type": "Organization",
-          "name": "LongBiosci",
-          "url": "https://longbiosci.com"
-        }
-      },
-      "name": "公司库 - LongBiosci",
-      "url": "https://longbiosci.com/companies/",
-      "description": "收录全球长寿科技公司，涵盖 Senolytic 药物、AI 制药、基因疗法等前沿抗衰老技术公司数据库。",
-      "inLanguage": "zh-CN",
-      "publisher": {
-        "@type": "Organization",
-        "name": "LongBiosci",
-        "url": "https://longbiosci.com"
-      }
-    }
-    </script>
-    <style>
-        :root {
-            --primary: #0f3460; --secondary: #16213e;
-            --accent: #e94560; --success: #00A86B;
-            --info: #1976d2;
-        }
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: "Noto Sans SC", sans-serif;
-            background: #f5f6fa;
-            min-height: 100vh;
-            padding-bottom: 70px;
-        }
-        
-        .header {
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            padding: 20px;
-            color: #fff;
-            text-align: center;
-        }
-        
-        .header h1 { font-size: 22px; margin-bottom: 5px; }
-        .header p { font-size: 14px; opacity: 0.8; }
-        
-        .back-link {
-            display: inline-block;
-            padding: 10px 20px;
-            color: var(--info);
-            text-decoration: none;
-            font-size: 14px;
-        }
-        
-        .search-box {
-            padding: 15px;
-            background: #fff;
-        }
-        
-        .search-input {
-            width: 100%;
-            padding: 12px 15px;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            font-size: 15px;
-        }
-        
-        .filter-bar {
-            display: flex;
-            gap: 8px;
-            padding: 10px 15px;
-            overflow-x: auto;
-            background: #fff;
-        }
-        
-        .filter {
-            padding: 6px 12px;
-            background: #f5f5f5;
-            border-radius: 20px;
-            font-size: 12px;
-            white-space: nowrap;
-            cursor: pointer;
-        }
-        
-        .filter.active {
-            background: var(--primary);
-            color: #fff;
-        }
-        
-        .companies { padding: 15px; }
-        
-        .company-card {
-            background: #fff;
-            border-radius: 12px;
-            padding: 16px;
-            margin-bottom: 12px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-            display: flex;
-            gap: 15px;
-        }
-        
-        .company-logo {
-            width: 60px;
-            height: 60px;
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            border-radius: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 24px;
-            color: #fff;
-            flex-shrink: 0;
-        }
-        
-        .company-info { flex: 1; }
-        
-        .company-name {
-            font-size: 16px;
-            font-weight: 600;
-            color: #1a1a2e;
-            margin-bottom: 5px;
-        }
-        
-        .company-desc {
-            font-size: 13px;
-            color: #666;
-            line-height: 1.4;
-            margin-bottom: 8px;
-        }
-        
-        .company-tags {
-            display: flex;
-            gap: 6px;
-            flex-wrap: wrap;
-        }
-        
-        .tag {
-            padding: 2px 8px;
-            background: #e3f2fd;
-            color: var(--info);
-            border-radius: 4px;
-            font-size: 11px;
-        }
-        
-        .tag.funding {
-            background: #e8f5e9;
-            color: var(--success);
-        }
-        
-        .bottom-nav {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: #fff;
-            display: flex;
-            justify-content: space-around;
-            padding: 8px 0;
-            box-shadow: 0 -2px 10px rgba(0,0,0,0.08);
-            z-index: 100;
-        }
-        
-        .nav-item {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 2px;
-            color: #999;
-            text-decoration: none;
-            font-size: 10px;
-            padding: 5px 12px;
-        }
-        
-        .nav-item.active { color: var(--accent); }
-        .nav-item .icon { font-size: 20px; }
-        
-        @media (min-width: 768px) {
-            .container { max-width: 600px; margin: 0 auto; }
-            .companies { max-width: 600px; margin: 0 auto; }
-            .bottom-nav { max-width: 600px; left: 50%; transform: translateX(-50%); }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>公司库 - LongBiosci</title>
+<meta name="description" content="收录全球长寿科技公司：活跃研发企业 11 家，另存档已被收购企业 3 家。涵盖表观遗传重编程、Senolytic、免疫衰老、线粒体等主要技术路线。">
+<link rel="canonical" href="https://longbiosci.com/companies/">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://longbiosci.com/companies/">
+<meta property="og:title" content="公司库 - LongBiosci">
+<meta property="og:description" content="收录全球长寿科技公司：活跃研发企业 11 家，另存档已被收购企业 3 家。涵盖表观遗传重编程、Senolytic、免疫衰老、线粒体等主要技术路线。">
+<meta property="og:image" content="https://longbiosci.com/logo.jpg">
+<meta property="og:site_name" content="LongBiosci">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="公司库 - LongBiosci">
+<meta name="twitter:description" content="收录全球长寿科技公司：活跃研发企业 11 家，另存档已被收购企业 3 家。涵盖表观遗传重编程、Senolytic、免疫衰老、线粒体等主要技术路线。">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="stylesheet" href="/style.css">
+<style>
+/* 本页专属样式 */
+.entity-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:var(--s-4)}
+.entity-card{background:var(--c-bg-raised);border:1px solid var(--c-line);
+  border-radius:var(--r-lg);padding:var(--s-5);display:flex;gap:var(--s-4);
+  transition:box-shadow .18s var(--ease),transform .18s var(--ease)}
+.entity-card:hover{box-shadow:var(--sh-md);transform:translateY(-2px)}
+.entity-logo{width:52px;height:52px;flex-shrink:0;border-radius:var(--r-md);
+  background:var(--c-primary);color:#fff;display:flex;align-items:center;
+  justify-content:center;font-weight:700;font-size:var(--f-sm);letter-spacing:.02em}
+.entity-name{font-size:var(--f-md);font-weight:600;color:var(--c-ink);margin-bottom:var(--s-1)}
+.entity-desc{font-size:var(--f-sm);color:var(--c-muted);line-height:var(--lh-normal);margin:0 0 var(--s-3)}
+.entity-tags{display:flex;gap:var(--s-1);flex-wrap:wrap;margin-bottom:var(--s-2)}
+.entity-note{font-size:var(--f-xs);color:var(--c-faint);line-height:var(--lh-normal)}
+.status-badge{display:inline-flex;align-items:center;padding:1px 7px;border-radius:var(--r-pill);
+  font-size:var(--f-xs);font-weight:500}
+.status-active{background:var(--c-ev-a-bg);color:var(--c-ev-a)}
+.status-acquired{background:#f1e8e0;color:#8a5a2b}
+@media (prefers-color-scheme:dark){.status-acquired{background:#2a1f16;color:#d4a07a}}
+/* 时间轴 */
+.tl{position:relative;padding-left:var(--s-6)}
+.tl::before{content:'';position:absolute;left:8px;top:var(--s-2);bottom:var(--s-2);
+  width:2px;background:var(--c-line)}
+.tl-item{position:relative;padding-bottom:var(--s-5)}
+.tl-item::before{content:'';position:absolute;left:calc(-1 * var(--s-6) + 3px);top:6px;
+  width:12px;height:12px;border-radius:50%;background:var(--c-primary);
+  border:2px solid var(--c-bg)}
+.tl-date{font-size:var(--f-xs);color:var(--c-primary);font-weight:500;
+  font-variant-numeric:tabular-nums;margin-bottom:var(--s-1)}
+.tl-name{font-size:var(--f-base);font-weight:600;color:var(--c-ink);margin-bottom:var(--s-1)}
+.tl-meta{font-size:var(--f-xs);color:var(--c-faint);margin-bottom:var(--s-2);
+  display:flex;gap:var(--s-2);flex-wrap:wrap}
+.tl-desc{font-size:var(--f-sm);color:var(--c-muted);line-height:var(--lh-normal);margin:0}
+.stat-row{display:flex;gap:var(--s-5);flex-wrap:wrap;margin:var(--s-4) 0 0;
+  padding-top:var(--s-4);border-top:1px solid var(--c-line)}
+.stat-n{font-size:var(--f-xl);font-weight:600;color:var(--c-primary);
+  font-variant-numeric:tabular-nums;line-height:1.2}
+.stat-l{font-size:var(--f-xs);color:var(--c-muted)}
+</style>
 </head>
 <body>
-    <div class="header">
-        <h1>🏢 公司库</h1>
-        <p>抗衰老领域公司一览</p>
-    </div>
-    
-    <a href="../" class="back-link">← 返回首页</a>
-    
-    <div class="search-box">
-        <input type="text" class="search-input" placeholder="搜索公司...">
-    </div>
-    
-    <div class="filter-bar">
-        <span class="filter active">全部</span>
-        <span class="filter">Senolytics</span>
-        <span class="filter">NAD+</span>
-        <span class="filter">线粒体</span>
-        <span class="filter">iPSC</span>
-        <span class="filter">制药</span>
-    </div>
-    
-    <div class="companies">
-        <!-- 公司1 -->
-        <div class="company-card">
-            <div class="company-logo">YL</div>
-            <div class="company-info">
-                <div class="company-name">YouthBio</div>
-                <div class="company-desc">专注于 Senolytic 药物研发，已进入临床阶段</div>
-                <div class="company-tags">
-                    <span class="tag">Senolytics</span>
-                    <span class="tag funding">B轮 1.2亿美元</span>
-                </div>
-            </div>
-        </div>
-        
-        <!-- 公司2 -->
-        <div class="company-card">
-            <div class="company-logo">AL</div>
-            <div class="company-info">
-                <div class="company-name">Altos Labs</div>
-                <div class="company-desc">iPSC 重编程技术抗衰老，日本/美国同步开展临床</div>
-                <div class="company-tags">
-                    <span class="tag">iPSC</span>
-                    <span class="tag">细胞疗法</span>
-                </div>
-            </div>
-        </div>
-        
-        <!-- 公司3 -->
-        <div class="company-card">
-            <div class="company-logo">AM</div>
-            <div class="company-info">
-                <div class="company-name">Amino</div>
-                <div class="company-desc">蛋白质稳态公司，已被诺华 25亿美元收购</div>
-                <div class="company-tags">
-                    <span class="tag">蛋白质</span>
-                    <span class="tag funding">并购 25亿美元</span>
-                </div>
-            </div>
-        </div>
-        
-        <!-- 公司4 -->
-        <div class="company-card">
-            <div class="company-logo">MX</div>
-            <div class="company-info">
-                <div class="company-name">Mitrix</div>
-                <div class="company-desc">线粒体补充疗法，A轮 5000万美元</div>
-                <div class="company-tags">
-                    <span class="tag">线粒体</span>
-                    <span class="tag funding">A轮 5000万美元</span>
-                </div>
-            </div>
-        </div>
-        
-        <!-- 公司5 -->
-        <div class="company-card">
-            <div class="company-logo">SI</div>
-            <div class="company-info">
-                <div class="company-name">Sirtris (GSK)</div>
-                <div class="company-desc">SIRT1 激动剂，NAD+ 代谢先驱，已被 GSK 收购</div>
-                <div class="company-tags">
-                    <span class="tag">NAD+</span>
-                    <span class="tag funding">收购 7.2亿美元</span>
-                </div>
-            </div>
-        </div>
-        
-        <!-- 公司6 -->
-        <div class="company-card">
-            <div class="company-logo">CA</div>
-            <div class="company-info">
-                <div class="company-name">Calico</div>
-                <div class="company-desc">Google/Alphabet 旗下抗衰老公司，与 AbbVie 合作</div>
-                <div class="company-tags">
-                    <span class="tag">制药</span>
-                    <span class="tag">Google</span>
-                </div>
-            </div>
-        </div>
-        
-        <!-- 公司7 -->
-        <div class="company-card">
-            <div class="company-logo">RE</div>
-            <div class="company-info">
-                <div class="company-name">Retro Biosciences</div>
-                <div class="company-desc">专注细胞重编程，已获 1.8 亿美元融资</div>
-                <div class="company-tags">
-                    <span class="tag">iPSC</span>
-                    <span class="tag funding">1.8亿美元</span>
-                </div>
-            </div>
-        </div>
-        
-        <!-- 公司8 -->
-        <div class="company-card">
-            <div class="company-logo">HE</div>
-            <div class="company-info">
-                <div class="company-name">Helicase</div>
-                <div class="company-desc">DNA 损伤修复，延长端粒技术</div>
-                <div class="company-tags">
-                    <span class="tag">端粒</span>
-                    <span class="tag">DNA</span>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <nav class="bottom-nav">
-        <a href="../" class="nav-item">
-            <span class="icon">🏠</span>
-            <span>首页</span>
-        </a>
-        <a href="/trials.html" class="nav-item">
-            <span class="icon">🧪</span>
-            <span>临床</span>
-        </a>
-        <a href="companies/" class="nav-item active">
-            <span class="icon">🏢</span>
-            <span>公司</span>
-        </a>
-        <a href="/about.html" class="nav-item">
-            <span class="icon">👤</span>
-            <span>关于</span>
-        </a>
+<a href="#main-content" class="skip-link">跳转到主要内容</a>
+<header class="site-header">
+  <div class="wrap">
+    <a href="/" class="brand">🧬 LongBiosci</a>
+    <nav class="main-nav" aria-label="主导航">
+      <a href="/">首页</a>
+      <a href="/news/">最新</a>
+      <a href="/topics/">主题专辑</a>
+      <a href="/evidence/">证据分级</a>
+      <a href="/search.html">搜索</a>
+      <a href="/companies/" aria-current="page">产业</a>
+      <a href="/trials.html">临床试验</a>
+      <a href="/about/">关于</a>
     </nav>
+  </div></header>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "公司库",
+  "url": "https://longbiosci.com/companies/",
+  "description": "收录全球长寿科技公司：活跃研发企业 11 家，另存档已被收购企业 3 家。涵盖表观遗传重编程、Senolytic、免疫衰老、线粒体等主要技术路线。",
+  "inLanguage": "zh-CN",
+  "isPartOf": {"@type": "WebSite", "@id": "https://longbiosci.com/#website",
+               "url": "https://longbiosci.com", "name": "LongBiosci"},
+  "publisher": {"@type": "Organization", "name": "LongBiosci",
+                "alternateName": "LongBiosci 编辑部",
+                "url": "https://longbiosci.com"}
+}
+</script>
+<main id="main-content">
+<section class="hero"><div class="wrap">
+<h1>公司库</h1>
+<p>收录全球长寿科技公司：活跃研发企业 11 家，另存档已被收购企业 3 家。涵盖表观遗传重编程、Senolytic、免疫衰老、线粒体等主要技术路线。</p>
+</div></section>
+<section class="section"><div class="wrap">
+<p class="notice-box"><strong>关于存续状态</strong>部分公司已被大型药企收购。为避免读者误判，本页明确标注收购方与金额，同时保留其历史研究价值作为行业脉络参考。</p><div class="stat-row"><div><div class="stat-n">14</div><div class="stat-l">在册企业</div></div><div><div class="stat-n">11</div><div class="stat-l">活跃研发中</div></div><div><div class="stat-n">3</div><div class="stat-l">已被收购（存档）</div></div></div><div class="entity-grid" style="margin-top:2rem"><div class="entity-card"><div class="entity-logo">AL</div><div><div class="entity-name">Altos Labs</div><div style="margin-bottom:.4rem"><span class="status-badge status-active">活跃</span></div><p class="entity-desc">iPSC 重编程抗衰老，先驱性人体试验（TRS-0502）入组中，日本与美国同步推进。</p><div class="entity-tags"><span class="tag">iPSC</span><span class="tag">重编程</span><span class="tag">人体试验</span></div><p class="entity-note">创始人 Jeff bezier、Kyle Craft、Sandy Izetta</p></div></div>
+<div class="entity-card"><div class="entity-logo">LB</div><div><div class="entity-name">Life Biosciences</div><div style="margin-bottom:.4rem"><span class="status-badge status-active">活跃</span></div><p class="entity-desc">表观遗传重编程，ER-100 一期临床于 2026-10 公布首个人体数据（AAO 2026）。</p><div class="entity-tags"><span class="tag">表观遗传</span><span class="tag">AAV 基因疗法</span><span class="tag">临床一期</span></div><p class="entity-note">联合创始人 David Sinclair；试验 NCT07290244</p></div></div>
+<div class="entity-card"><div class="entity-logo">RE</div><div><div class="entity-name">Retro Biosciences</div><div style="margin-bottom:.4rem"><span class="status-badge status-active">活跃</span></div><p class="entity-desc">细胞重编程，2026 年获 5 亿美元融资推进 Genesis 项目。</p><div class="entity-tags"><span class="tag">重编程</span><span class="tag">大额融资</span></div><p class="entity-note">Sam Altman 投资</p></div></div>
+<div class="entity-card"><div class="entity-logo">CA</div><div><div class="entity-name">Calico Life Sciences</div><div style="margin-bottom:.4rem"><span class="status-badge status-active">活跃</span></div><p class="entity-desc">Alphabet 旗下，谷歌资助的衰老研究机构，与 AbbVie 合作开发抗衰药物。</p><div class="entity-tags"><span class="tag">大厂研究</span><span class="tag">制药合作</span></div><p class="entity-note">Arthur Levitzky 领导</p></div></div>
+<div class="entity-card"><div class="entity-logo">UB</div><div><div class="entity-name">Unity Biotechnology</div><div style="margin-bottom:.4rem"><span class="status-badge status-active">活跃</span></div><p class="entity-desc">衰老相关疾病靶点识别，uPAR 靶向药物曾进入临床，后转向免疫衰老方向。</p><div class="entity-tags"><span class="tag">免疫衰老</span><span class="tag">靶点发现</span></div></div></div>
+<div class="entity-card"><div class="entity-logo">NL</div><div><div class="entity-name">NewLimit</div><div style="margin-bottom:.4rem"><span class="status-badge status-active">活跃</span></div><p class="entity-desc">NLRP3 炎症小体抑制剂，通过抑制慢性低度炎症延缓衰老进程。</p><div class="entity-tags"><span class="tag">NLRP3</span><span class="tag">炎症老化</span></div><p class="entity-note">2023 年完成 3.5 亿美元 C 轮</p></div></div>
+<div class="entity-card"><div class="entity-logo">CB</div><div><div class="entity-name">Cambrian Bio</div><div style="margin-bottom:.4rem"><span class="status-badge status-active">活跃</span></div><p class="entity-desc">以哺乳动物发育生物学为基础的衰老干预，聚焦通路调节药物。</p><div class="entity-tags"><span class="tag">通路药物</span><span class="tag">哺乳动物衰老</span></div><p class="entity-note">成立时获 1.25 亿美元，创始人 Bob Greiner、Shankar Musunuru</p></div></div>
+<div class="entity-card"><div class="entity-logo">MX</div><div><div class="entity-name">Mitrix</div><div style="margin-bottom:.4rem"><span class="status-badge status-active">活跃</span></div><p class="entity-desc">线粒体靶向疗法，聚焦线粒体质量控制与移植。</p><div class="entity-tags"><span class="tag">线粒体</span></div></div></div>
+<div class="entity-card"><div class="entity-logo">YL</div><div><div class="entity-name">YouthBio</div><div style="margin-bottom:.4rem"><span class="status-badge status-active">活跃</span></div><p class="entity-desc">专注端粒延长与细胞年轻化，中国与波士顿双研发中心。</p><div class="entity-tags"><span class="tag">端粒</span><span class="tag">细胞重编程</span></div><p class="entity-note">李霁勇博士团队</p></div></div>
+<div class="entity-card"><div class="entity-logo">RL</div><div><div class="entity-name">Rubedo Life Sciences</div><div style="margin-bottom:.4rem"><span class="status-badge status-active">活跃</span></div><p class="entity-desc">选择性清除衰老细胞的 senolytic，RLS-1496 已推进至一期临床。</p><div class="entity-tags"><span class="tag">Senolytic</span><span class="tag">临床一期</span></div><p class="entity-note">2026 年完成 B 轮融资</p></div></div>
+<div class="entity-card"><div class="entity-logo">AM</div><div><div class="entity-name">Amino</div><div style="margin-bottom:.4rem"><span class="status-badge status-acquired">已被 诺华（Novartis） 收购</span></div><p class="entity-desc">蛋白质稳态与细胞质量控制，曾是衰老领域标杆企业。</p><div class="entity-tags"><span class="tag">蛋白质稳态</span></div><p class="entity-note">2023 年被诺华（Novartis）收购，交易金额约 155 亿美元。</div></div>
+<div class="entity-card"><div class="entity-logo">SI</div><div><div class="entity-name">Sirtris Pharmaceuticals</div><div style="margin-bottom:.4rem"><span class="status-badge status-acquired">已被 GSK 收购</span></div><p class="entity-desc">SIRT1 激动剂与 NAD+ 代谢研究先驱，开创 senolytic 早期研究范式。</p><div class="entity-tags"><span class="tag">NAD+</span><span class="tag">SIRT1</span></div><p class="entity-note">2014 年被GSK收购，交易金额约 7.2 亿美元。</div></div>
+<div class="entity-card"><div class="entity-logo">CB</div><div><div class="entity-name">CohBar</div><div style="margin-bottom:.4rem"><span class="status-badge status-acquired">已被 阿斯利康（AstraZeneca） 收购</span></div><p class="entity-desc">基于线粒体生物学的老龄化疾病治疗。</p><div class="entity-tags"><span class="tag">线粒体</span></div><p class="entity-note">2020 年被阿斯利康（AstraZeneca）收购，交易金额约 11 亿美元。</div></div>
+<div class="entity-card"><div class="entity-logo">SB</div><div><div class="entity-name">Sana Biotechnology</div><div style="margin-bottom:.4rem"><span class="status-badge status-active">活跃</span></div><p class="entity-desc">工程化细胞治疗平台（含衰老相关细胞类型），连接免疫细胞重编程。</p><div class="entity-tags"><span class="tag">细胞治疗</span><span class="tag">工程化细胞</span></div></div></div></div>
+</div></section>
+</main><footer class="site-footer">
+  <div class="wrap">
+    <p>© 2026 LongBiosci 编辑部 · 衰老与长寿科技资讯</p>
+    <a href="/rss.xml">RSS</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="/about/">关于</a>
+  </div>
+</footer>
 </body>
 </html>

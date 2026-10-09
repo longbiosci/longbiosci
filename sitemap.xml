@@ -121,6 +121,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://longbiosci.com/research/index.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/papers/index.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://longbiosci.com/news/index.html</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>daily</changefreq>
@@ -215,6 +227,12 @@
     <lastmod>2026-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/investors/index.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://longbiosci.com/index.html</loc>
@@ -331,6 +349,30 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://longbiosci.com/events/index.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/deep-dive/index.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/daily/index.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/companies/index.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://longbiosci.com/about/index.html</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
@@ -397,22 +439,10 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://longbiosci.com/research/index.html</loc>
-    <lastmod>2026-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://longbiosci.com/rapamycin.html</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/papers/index.html</loc>
-    <lastmod>2026-09-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://longbiosci.com/nmn.html</loc>
@@ -439,21 +469,9 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://longbiosci.com/investors/index.html</loc>
-    <lastmod>2026-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://longbiosci.com/glossary.html</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/events/index.html</loc>
-    <lastmod>2026-09-10</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
@@ -461,18 +479,6 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/deep-dive/index.html</loc>
-    <lastmod>2026-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/daily/index.html</loc>
-    <lastmod>2026-09-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://longbiosci.com/cover-generator.html</loc>
@@ -485,12 +491,6 @@
     <lastmod>2026-09-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/companies/index.html</loc>
-    <lastmod>2026-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://longbiosci.com/article.html</loc>

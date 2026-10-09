@@ -1,346 +1,116 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="referrer" content="strict-origin-when-cross-origin">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="LongBiosci 抗衰老行业活动：汇总全球抗衰老大会、学术研讨会、融资路演等最新行业活动信息。">
-    <link rel="canonical" href="https://longbiosci.com/events/">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://longbiosci.com/events/">
-    <meta property="og:title" content="行业活动 - LongBiosci">
-    <meta property="og:description" content="汇总全球抗衰老大会、学术研讨会、融资路演等最新行业活动信息。">
-    <meta property="og:image" content="https://longbiosci.com/logo.jpg">
-    <meta name="twitter:card" content="summary_large_image">
-    <title>行业活动 - LongBiosci</title>
-    <!-- Google Fonts Performance -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
-    <!-- JSON-LD Structured Data -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "CollectionPage",
-      "name": "行业活动 - LongBiosci",
-      "url": "https://longbiosci.com/events/",
-      "description": "汇总全球抗衰老大会、学术研讨会、融资路演等最新行业活动信息。",
-      "inLanguage": "zh-CN",
-      "publisher": {
-        "@type": "Organization",
-        "name": "LongBiosci",
-        "url": "https://longbiosci.com"
-      }
-    }
-    </script>
-    <style>
-        :root {
-            --primary: #0f3460; --secondary: #16213e;
-            --accent: #e94560; --success: #00A86B;
-            --info: #1976d2;
-        }
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: "Noto Sans SC", sans-serif;
-            background: #f5f6fa;
-            min-height: 100vh;
-            padding-bottom: 70px;
-        }
-        
-        .header {
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            padding: 20px;
-            color: #fff;
-            text-align: center;
-        }
-        
-        .header h1 { font-size: 24px; margin-bottom: 5px; }
-        .header p { font-size: 14px; opacity: 0.8; }
-        
-        .back-link {
-            display: inline-block;
-            padding: 10px 20px;
-            color: var(--info);
-            text-decoration: none;
-            font-size: 14px;
-        }
-        
-        .events { padding: 15px; }
-        
-        .month-title {
-            font-size: 16px;
-            font-weight: 600;
-            color: var(--primary);
-            margin: 20px 0 15px;
-            padding-left: 10px;
-            border-left: 3px solid var(--accent);
-        }
-        
-        .event-card {
-            background: #fff;
-            border-radius: 12px;
-            padding: 16px;
-            margin-bottom: 12px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-        }
-        
-        .event-date {
-            display: inline-block;
-            background: var(--primary);
-            color: #fff;
-            padding: 4px 10px;
-            border-radius: 4px;
-            font-size: 12px;
-            margin-bottom: 10px;
-        }
-        
-        .event-card.past .event-date { background: #999; }
-        
-        .event-title {
-            font-size: 16px;
-            font-weight: 600;
-            color: #1a1a2e;
-            margin-bottom: 8px;
-        }
-        
-        .event-desc {
-            font-size: 14px;
-            color: #666;
-            line-height: 1.5;
-        }
-        
-        .event-meta {
-            display: flex;
-            gap: 15px;
-            margin-top: 12px;
-            font-size: 12px;
-            color: #999;
-        }
-        
-        .event-tag {
-            display: inline-block;
-            padding: 2px 8px;
-            background: #e3f2fd;
-            color: var(--info);
-            border-radius: 4px;
-            font-size: 11px;
-            margin-right: 8px;
-        }
-        
-        .bottom-nav {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: #fff;
-            display: flex;
-            justify-content: space-around;
-            padding: 8px 0;
-            box-shadow: 0 -2px 10px rgba(0,0,0,0.08);
-            z-index: 100;
-        }
-        
-        .nav-item {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 2px;
-            color: #999;
-            text-decoration: none;
-            font-size: 10px;
-            padding: 5px 12px;
-        }
-        
-        .nav-item.active { color: var(--accent); }
-        .nav-item .icon { font-size: 20px; }
-        
-        @media (min-width: 768px) {
-            .container { max-width: 600px; margin: 0 auto; }
-            .events { max-width: 600px; margin: 0 auto; }
-            .bottom-nav { max-width: 600px; left: 50%; transform: translateX(-50%); }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>会议日历 - LongBiosci</title>
+<meta name="description" content="衰老生物学与长寿科技领域的学术会议与产业活动日历（2026-10-15 至 2027-06-05）。">
+<link rel="canonical" href="https://longbiosci.com/events/">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://longbiosci.com/events/">
+<meta property="og:title" content="会议日历 - LongBiosci">
+<meta property="og:description" content="衰老生物学与长寿科技领域的学术会议与产业活动日历（2026-10-15 至 2027-06-05）。">
+<meta property="og:image" content="https://longbiosci.com/logo.jpg">
+<meta property="og:site_name" content="LongBiosci">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="会议日历 - LongBiosci">
+<meta name="twitter:description" content="衰老生物学与长寿科技领域的学术会议与产业活动日历（2026-10-15 至 2027-06-05）。">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="stylesheet" href="/style.css">
+<style>
+/* 本页专属样式 */
+.entity-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:var(--s-4)}
+.entity-card{background:var(--c-bg-raised);border:1px solid var(--c-line);
+  border-radius:var(--r-lg);padding:var(--s-5);display:flex;gap:var(--s-4);
+  transition:box-shadow .18s var(--ease),transform .18s var(--ease)}
+.entity-card:hover{box-shadow:var(--sh-md);transform:translateY(-2px)}
+.entity-logo{width:52px;height:52px;flex-shrink:0;border-radius:var(--r-md);
+  background:var(--c-primary);color:#fff;display:flex;align-items:center;
+  justify-content:center;font-weight:700;font-size:var(--f-sm);letter-spacing:.02em}
+.entity-name{font-size:var(--f-md);font-weight:600;color:var(--c-ink);margin-bottom:var(--s-1)}
+.entity-desc{font-size:var(--f-sm);color:var(--c-muted);line-height:var(--lh-normal);margin:0 0 var(--s-3)}
+.entity-tags{display:flex;gap:var(--s-1);flex-wrap:wrap;margin-bottom:var(--s-2)}
+.entity-note{font-size:var(--f-xs);color:var(--c-faint);line-height:var(--lh-normal)}
+.status-badge{display:inline-flex;align-items:center;padding:1px 7px;border-radius:var(--r-pill);
+  font-size:var(--f-xs);font-weight:500}
+.status-active{background:var(--c-ev-a-bg);color:var(--c-ev-a)}
+.status-acquired{background:#f1e8e0;color:#8a5a2b}
+@media (prefers-color-scheme:dark){.status-acquired{background:#2a1f16;color:#d4a07a}}
+/* 时间轴 */
+.tl{position:relative;padding-left:var(--s-6)}
+.tl::before{content:'';position:absolute;left:8px;top:var(--s-2);bottom:var(--s-2);
+  width:2px;background:var(--c-line)}
+.tl-item{position:relative;padding-bottom:var(--s-5)}
+.tl-item::before{content:'';position:absolute;left:calc(-1 * var(--s-6) + 3px);top:6px;
+  width:12px;height:12px;border-radius:50%;background:var(--c-primary);
+  border:2px solid var(--c-bg)}
+.tl-date{font-size:var(--f-xs);color:var(--c-primary);font-weight:500;
+  font-variant-numeric:tabular-nums;margin-bottom:var(--s-1)}
+.tl-name{font-size:var(--f-base);font-weight:600;color:var(--c-ink);margin-bottom:var(--s-1)}
+.tl-meta{font-size:var(--f-xs);color:var(--c-faint);margin-bottom:var(--s-2);
+  display:flex;gap:var(--s-2);flex-wrap:wrap}
+.tl-desc{font-size:var(--f-sm);color:var(--c-muted);line-height:var(--lh-normal);margin:0}
+.stat-row{display:flex;gap:var(--s-5);flex-wrap:wrap;margin:var(--s-4) 0 0;
+  padding-top:var(--s-4);border-top:1px solid var(--c-line)}
+.stat-n{font-size:var(--f-xl);font-weight:600;color:var(--c-primary);
+  font-variant-numeric:tabular-nums;line-height:1.2}
+.stat-l{font-size:var(--f-xs);color:var(--c-muted)}
+</style>
 </head>
 <body>
-    <div class="header">
-        <h1>📅 行业活动</h1>
-        <p>学术会议 · 行业展会 · 线上直播</p>
-    </div>
-    
-    <a href="../" class="back-link">← 返回首页</a>
-    
-    <div class="events">
-        <!-- 2026年9月 -->
-        <div class="month-title">2026年9月</div>
-        
-        <div class="event-card">
-            <span class="event-date">2026-09-20</span>
-            <div class="event-title">2026年国际抗衰老医学大会（ICAAM 2026）</div>
-            <div class="event-desc">迪拜举行的第28届国际抗衰老医学大会，涵盖Senolytic药物、基因疗法、NAD+前体等最新临床进展。</div>
-            <div class="event-meta">
-                <span class="event-tag">会议</span>
-                <span>📍 迪拜</span>
-            </div>
-        </div>
-        
-        <!-- 2026年10月 -->
-        <div class="month-title">2026年10月</div>
-        
-        <div class="event-card">
-            <span class="event-date">2026-10-08</span>
-            <div class="event-title">衰老细胞研究学会年会（SIS 2026）</div>
-            <div class="event-desc">衰老细胞研究学会年度会议，聚焦Senolytic与Senomorphic疗法的临床转化。</div>
-            <div class="event-meta">
-                <span class="event-tag">会议</span>
-                <span>📍 波士顿</span>
-            </div>
-        </div>
-        
-        <div class="event-card">
-            <span class="event-date">2026-10-15</span>
-            <div class="event-title">长寿科技投资论坛 2026</div>
-            <div class="event-desc">汇聚全球顶尖长寿科技投资人与创业者，探讨抗衰老领域的投资机遇与挑战。</div>
-            <div class="event-meta">
-                <span class="event-tag">会议</span>
-                <span>📍 旧金山</span>
-            </div>
-        </div>
-        
-        <div class="event-card">
-            <span class="event-date">2026-10-22</span>
-            <div class="event-title">Nature Aging 峰会：衰老的生物标志物</div>
-            <div class="event-desc">探讨表观遗传时钟、蛋白质组学等新型衰老生物标志物的临床应用。</div>
-            <div class="event-meta">
-                <span class="event-tag">线上直播</span>
-                <span>🌐 在线</span>
-            </div>
-        </div>
-        
-        <!-- 2026年11月 -->
-        <div class="month-title">2026年11月</div>
-        
-        <div class="event-card">
-            <span class="event-date">2026-11-03</span>
-            <div class="event-title">2026年神经退行性疾病峰会</div>
-            <div class="event-desc">聚焦阿尔茨海默病、帕金森病与衰老机制的交叉研究，讨论Nano-ERASER等新型疗法。</div>
-            <div class="event-meta">
-                <span class="event-tag">会议</span>
-                <span>📍 伦敦</span>
-            </div>
-        </div>
-        
-        <div class="event-card">
-            <span class="event-date">2026-11-12</span>
-            <div class="event-title">XPRIZE Healthspan 决赛路演</div>
-            <div class="event-desc">XPRIZE Healthspan 20强决赛团队现场展示延缓衰老干预措施的科学依据与临床方案。</div>
-            <div class="event-meta">
-                <span class="event-tag">会议</span>
-                <span>📍 洛杉矶</span>
-            </div>
-        </div>
-        
-        <!-- 2026年12月 -->
-        <div class="month-title">2026年12月</div>
-        
-        <div class="event-card">
-            <span class="event-date">2026-12-05</span>
-            <div class="event-title">长寿医学学会年会（ALM 2026）</div>
-            <div class="event-desc">长寿医学学会第12届年会，探讨将最新抗衰老研究成果转化为临床实践。</div>
-            <div class="event-meta">
-                <span class="event-tag">会议</span>
-                <span>📍 迈阿密</span>
-            </div>
-        </div>
-        
-        <!-- 2026年4月 -->
-        <div class="month-title">2026年4月</div>
-        
-        <div class="event-card">
-            <span class="event-date">2026-04-15</span>
-            <div class="event-title">长寿科技峰会 2026</div>
-            <div class="event-desc">全球抗衰老领域最具影响力的年度峰会，汇聚顶尖科学家、投资人和创业者。</div>
-            <div class="event-meta">
-                <span class="event-tag">会议</span>
-                <span>📍 旧金山</span>
-            </div>
-        </div>
-        
-        <div class="event-card">
-            <span class="event-date">2026-04-22</span>
-            <div class="event-title">日本抗衰老医学会年会</div>
-            <div class="event-desc">日本抗衰老医学学会第10届年会，聚焦最新临床研究进展。</div>
-            <div class="event-meta">
-                <span class="event-tag">会议</span>
-                <span>📍 东京</span>
-            </div>
-        </div>
-        
-        <!-- 2026年3月 -->
-        <div class="month-title">2026年3月</div>
-        
-        <div class="event-card">
-            <span class="event-date">2026-03-20</span>
-            <div class="event-title">衰老细胞清除疗法研讨会</div>
-            <div class="event-desc">线上研讨会，探讨 Senolytic 药物的最新临床进展。</div>
-            <div class="event-meta">
-                <span class="event-tag">线上直播</span>
-                <span>🌐 在线</span>
-            </div>
-        </div>
-        
-        <div class="event-card">
-            <span class="event-date">2026-03-15</span>
-            <div class="event-title">JP Morgan 医疗健康大会</div>
-            <div class="event-desc">旧金山年度医疗健康投资大会，多家长寿科技公司发布最新进展。</div>
-            <div class="event-meta">
-                <span class="event-tag">会议</span>
-                <span>📍 旧金山</span>
-            </div>
-        </div>
-        
-        <div class="event-card past">
-            <span class="event-date">2026-03-01</span>
-            <div class="event-title">NAD+ 代谢与衰老研讨会</div>
-            <div class="event-desc">探讨 NAD+ 前体在抗衰老中的应用。</div>
-            <div class="event-meta">
-                <span class="event-tag">线上直播</span>
-                <span>🌐 在线</span>
-            </div>
-        </div>
-        
-        <!-- 2026年2月 -->
-        <div class="month-title">2026年2月</div>
-        
-        <div class="event-card past">
-            <span class="event-date">2026-02-28</span>
-            <div class="event-title">硅谷抗衰老投资人见面会</div>
-            <div class="event-desc">长寿科技领域投资人闭门交流活动。</div>
-            <div class="event-meta">
-                <span class="event-tag">聚会</span>
-                <span>📍 硅谷</span>
-            </div>
-        </div>
-    </div>
-    
-    <nav class="bottom-nav">
-        <a href="../" class="nav-item">
-            <span class="icon">🏠</span>
-            <span>首页</span>
-        </a>
-        <a href="/trials.html" class="nav-item">
-            <span class="icon">🧪</span>
-            <span>临床</span>
-        </a>
-        <a href="events/" class="nav-item active">
-            <span class="icon">📅</span>
-            <span>活动</span>
-        </a>
-        <a href="/about/" class="nav-item">
-            <span class="icon">👤</span>
-            <span>关于</span>
-        </a>
+<a href="#main-content" class="skip-link">跳转到主要内容</a>
+<header class="site-header">
+  <div class="wrap">
+    <a href="/" class="brand">🧬 LongBiosci</a>
+    <nav class="main-nav" aria-label="主导航">
+      <a href="/">首页</a>
+      <a href="/news/">最新</a>
+      <a href="/topics/">主题专辑</a>
+      <a href="/evidence/">证据分级</a>
+      <a href="/search.html">搜索</a>
+      <a href="/companies/" aria-current="page">产业</a>
+      <a href="/trials.html">临床试验</a>
+      <a href="/about/">关于</a>
     </nav>
+  </div></header>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "会议日历",
+  "url": "https://longbiosci.com/events/",
+  "description": "衰老生物学与长寿科技领域的学术会议与产业活动日历（2026-10-15 至 2027-06-05）。",
+  "inLanguage": "zh-CN",
+  "isPartOf": {"@type": "WebSite", "@id": "https://longbiosci.com/#website",
+               "url": "https://longbiosci.com", "name": "LongBiosci"},
+  "publisher": {"@type": "Organization", "name": "LongBiosci",
+                "alternateName": "LongBiosci 编辑部",
+                "url": "https://longbiosci.com"}
+}
+</script>
+<main id="main-content">
+<section class="hero"><div class="wrap">
+<h1>会议日历</h1>
+<p>衰老生物学与长寿科技领域的学术会议与产业活动日历（2026-10-15 至 2027-06-05）。</p>
+</div></section>
+<section class="section"><div class="wrap">
+<p>标记 2026 年下半年至 2027 年上半年的衰老与长寿领域关键会议。带「产业会议」标记的是观察商业化动向的重要窗口。</p><div style="margin-top:1.5rem"><div class="tl">
+<div class="tl-item"><div class="tl-date">2026-10-15</div><div class="tl-name">American Aging Association (AGE) 年度会议</div><div class="tl-meta"><span class="tag">学术会议</span><span>美国·亚特兰大</span></div><p class="tl-desc">衰老研究领域历史最悠久的学术会议之一，涵盖从分子机制到临床转化的全谱系研究。</p></div>
+<div class="tl-item"><div class="tl-date">2026-10-20</div><div class="tl-name">Senescence 衰老细胞研究学会年会（SIS 2026）</div><div class="tl-meta"><span class="tag">学术会议</span><span>美国·波士顿</span></div><p class="tl-desc">聚焦 Senolytic 与 Senomorphic 疗法的临床转化，是衰老细胞领域最专业的学术会议。</p></div>
+<div class="tl-item"><div class="tl-date">2026-11-05</div><div class="tl-name">Society for Experimental Biology (SEB) 年会</div><div class="tl-meta"><span class="tag">学术会议</span><span>美国·圣地亚哥</span></div><p class="tl-desc">实验生物学学会年会，含多场衰老与再生医学分会。</p></div>
+<div class="tl-item"><div class="tl-date">2026-11-18</div><div class="tl-name">International Congress of Gerontology &amp; Geriatrics (IAGG)</div><div class="tl-meta"><span class="tag">国际会议</span><span>线上</span></div><p class="tl-desc">国际老年学与老年医学大会，多国分会场同步。</p></div>
+<div class="tl-item"><div class="tl-date">2026-12-01</div><div class="tl-name">ASH 年会（American Society of Hematology）</div><div class="tl-meta"><span class="tag">学术会议</span><span>美国·圣地亚哥</span></div><p class="tl-desc">含骨髓微环境与克隆性造血相关分会，与衰老相关血液学密切相关。</p></div>
+<div class="tl-item"><div class="tl-date">2027-01-12</div><div class="tl-name">JPM 生物医疗年会（重磅产业信号）</div><div class="tl-meta"><span class="tag">产业会议</span><span>美国·旧金山</span></div><p class="tl-desc">长寿科技公司集中发布临床数据与合作，是观察产业风向的关键窗口。</p></div>
+<div class="tl-item"><div class="tl-date">2027-03-20</div><div class="tl-name">International Congress of Gerontology（ICAG）</div><div class="tl-meta"><span class="tag">国际会议</span><span>待定</span></div><p class="tl-desc">国际老年学会会议，衰老机制与干预的学术主战场。</p></div>
+<div class="tl-item"><div class="tl-date">2027-06-05</div><div class="tl-name">International Society for Cell Senescence (ISCS) 会议</div><div class="tl-meta"><span class="tag">学术会议</span><span>欧洲</span></div><p class="tl-desc">国际细胞衰老学会会议，细胞衰老领域的国际性平台。</p></div>
+</div></div>
+</div></section>
+</main><footer class="site-footer">
+  <div class="wrap">
+    <p>© 2026 LongBiosci 编辑部 · 衰老与长寿科技资讯</p>
+    <a href="/rss.xml">RSS</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="/about/">关于</a>
+  </div>
+</footer>
 </body>
 </html>

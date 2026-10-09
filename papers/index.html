@@ -1,294 +1,109 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="referrer" content="strict-origin-when-cross-origin">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="LongBiosci 论文库">
-    <title>论文库 - LongBiosci</title>
-    <link rel="canonical" href="https://longbiosci.com/papers/">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://longbiosci.com/papers/">
-    <meta property="og:title" content="论文库 - LongBiosci">
-    <meta property="og:description" content="抗衰老领域最新论文：Senolytic、NAD+、线粒体、端粒、神经科学等方向">
-    <meta property="og:image" content="https://longbiosci.com/logo.jpg">
-    <meta property="og:site_name" content="LongBiosci">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="论文库 - LongBiosci">
-    <meta name="twitter:description" content="抗衰老领域最新论文：Senolytic、NAD+、线粒体、端粒、神经科学等方向">
-    <meta name="twitter:image" content="https://longbiosci.com/logo.jpg">
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "CollectionPage",
-      "name": "论文库 - LongBiosci",
-      "url": "https://longbiosci.com/papers/",
-      "description": "抗衰老领域最新论文：Senolytic、NAD+、线粒体、端粒、神经科学等方向",
-      "inLanguage": "zh-CN",
-      "publisher": {
-        "@type": "Organization",
-        "name": "LongBiosci",
-        "url": "https://longbiosci.com"
-      }
-    }
-    </script>
-    <!-- Google Fonts Performance -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --primary: #0f3460; --secondary: #16213e;
-            --accent: #e94560; --success: #00A86B;
-            --info: #1976d2; --purple: #533483;
-        }
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: "Noto Sans SC", sans-serif;
-            background: #f5f6fa;
-            min-height: 100vh;
-            padding-bottom: 70px;
-        }
-        
-        .header {
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            padding: 20px;
-            color: #fff;
-            text-align: center;
-        }
-        
-        .header h1 { font-size: 22px; }
-        
-        .back-link {
-            display: inline-block;
-            padding: 10px 20px;
-            color: var(--info);
-            text-decoration: none;
-        }
-        
-        .search-box { padding: 15px; background: #fff; }
-        .search-input {
-            width: 100%;
-            padding: 12px 15px;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            font-size: 15px;
-        }
-        
-        .filter-bar {
-            display: flex;
-            gap: 8px;
-            padding: 10px 15px;
-            overflow-x: auto;
-            background: #fff;
-            border-bottom: 1px solid #eee;
-        }
-        
-        .filter {
-            padding: 6px 12px;
-            background: #f5f5f5;
-            border-radius: 20px;
-            font-size: 12px;
-            white-space: nowrap;
-            cursor: pointer;
-        }
-        
-        .filter.active { background: var(--primary); color: #fff; }
-        
-        .papers { padding: 15px; }
-        
-        .paper-card {
-            background: #fff;
-            border-radius: 12px;
-            padding: 16px;
-            margin-bottom: 12px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-        }
-        
-        .paper-title {
-            font-size: 15px;
-            font-weight: 600;
-            color: #1a1a2e;
-            margin-bottom: 8px;
-            line-height: 1.4;
-        }
-        
-        .paper-authors {
-            font-size: 12px;
-            color: #666;
-            margin-bottom: 8px;
-        }
-        
-        .paper-journal {
-            font-size: 12px;
-            color: var(--info);
-            font-style: italic;
-            margin-bottom: 10px;
-        }
-        
-        .paper-tags { display: flex; gap: 6px; flex-wrap: wrap; }
-        
-        .tag {
-            padding: 2px 8px;
-            background: #f5f5f5;
-            border-radius: 4px;
-            font-size: 11px;
-            color: #666;
-        }
-        
-        .tag.hot { background: #ffebee; color: var(--accent); }
-        
-        .paper-link {
-            display: inline-block;
-            margin-top: 10px;
-            color: var(--info);
-            font-size: 13px;
-            text-decoration: none;
-        }
-        
-        .bottom-nav {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: #fff;
-            display: flex;
-            justify-content: space-around;
-            padding: 8px 0;
-            box-shadow: 0 -2px 10px rgba(0,0,0,0.08);
-            z-index: 100;
-        }
-        
-        .nav-item {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 2px;
-            color: #999;
-            text-decoration: none;
-            font-size: 10px;
-            padding: 5px 12px;
-        }
-        
-        .nav-item.active { color: var(--accent); }
-        .nav-item .icon { font-size: 20px; }
-        
-        @media (min-width: 768px) {
-            .container { max-width: 600px; margin: 0 auto; }
-            .papers { max-width: 600px; margin: 0 auto; }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>论文库 - LongBiosci</title>
+<meta name="description" content="抗衰老领域核心论文索引：每篇标注证据分级与可访问的真实文献链接（DOI / PubMed），不做无法溯源的二次引用。">
+<link rel="canonical" href="https://longbiosci.com/papers/">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://longbiosci.com/papers/">
+<meta property="og:title" content="论文库 - LongBiosci">
+<meta property="og:description" content="抗衰老领域核心论文索引，每篇标注证据分级与真实文献链接。">
+<meta property="og:image" content="https://longbiosci.com/logo.jpg">
+<meta property="og:site_name" content="LongBiosci">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="论文库 - LongBiosci">
+<meta name="twitter:description" content="抗衰老领域核心论文索引，每篇标注证据分级。">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="stylesheet" href="/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "论文库 - LongBiosci",
+  "url": "https://longbiosci.com/papers/",
+  "description": "抗衰老领域核心论文索引",
+  "inLanguage": "zh-CN",
+  "isPartOf": {
+    "@type": "WebSite",
+    "@id": "https://longbiosci.com/#website",
+    "url": "https://longbiosci.com/",
+    "name": "LongBiosci"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "LongBiosci",
+    "alternateName": "LongBiosci 编辑部",
+    "url": "https://longbiosci.com"
+  }
+}
+</script>
 </head>
 <body>
-    <div class="header">
-        <h1>📚 论文库</h1>
-        <p>抗衰老领域最新论文</p>
+<a href="#main-content" class="skip-link">跳转到主要内容</a>
+<header class="site-header">
+  <div class="wrap">
+    <a href="/" class="brand">🧬 LongBiosci</a>
+    <nav class="main-nav" aria-label="主导航">
+      <a href="/">首页</a>
+      <a href="/news/">最新</a>
+      <a href="/topics/">主题专辑</a>
+      <a href="/evidence/">证据分级</a>
+      <a href="/search.html">搜索</a>
+      <a href="/trials.html">临床试验</a>
+      <a href="/companies/">产业</a>
+      <a href="/about/">关于</a>
+    </nav>
+  </div>
+</header>
+<main id="main-content">
+  <section class="hero">
+    <div class="wrap">
+      <h1>论文库</h1>
+      <p>抗衰老领域的核心原始文献索引。每篇标注证据分级，并给出<strong>可直接访问的真实链接</strong>（DOI 或 PubMed）——本站不做无法溯源的二次引用。</p>
     </div>
-    
-    <a href="../" class="back-link">← 返回首页</a>
-    
-    <div class="search-box">
-        <input type="text" class="search-input" placeholder="搜索论文...">
-    </div>
-    
-    <div class="filter-bar">
-        <span class="filter active">最新</span>
-        <span class="filter">Senolytics</span>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <p class="notice-box"><strong>关于证据分级</strong>
+      与站内文章使用同一套分级标准：<span class="tier tier-a">A</span> 同行评议人体研究　
+      <span class="tier tier-b">B</span> 同行评议临床前研究　
+      <span class="tier tier-c">C</span> 存在争议或未经同行评议<br>
+      若某篇论文标注为 C 级，意味着其结论在专业内部尚有争议，本站不做定论。</p>
+
+      <div class="filter-bar">
+        <span class="filter active">全部</span>
+        <span class="filter">Senolytic</span>
         <span class="filter">NAD+</span>
         <span class="filter">线粒体</span>
         <span class="filter">端粒</span>
-        <span class="filter">炎症</span>
+        <span class="filter">神经科学</span>
+      </div>
+
+      <div class="legacy-card"><div class="legacy-meta"><span class="tier tier-B">B 级</span><span>Pharmacological Research</span><span>2026</span></div><h3>Fenofibrate targets PPARα-CPT1C axis to reverse aging by regulating lipid metabolism and mitochondrial function</h3><p class="entity-note" style="margin-bottom:.4rem">Zhou Y, Chen Y, Zhu L, et al.</p><p>非诺贝特已上市数十年，此研究首次提供其抗衰老的直接机制证据。</p><div class="entity-tags"><span class="tag">老药新用</span><span class="tag">PPARα</span><span class="tag">线粒体</span></div><p class="entity-note" style="margin-top:.5rem">非诺贝特已上市数十年，此研究首次提供其抗衰老的直接机制证据。</p><p style="margin:.75rem 0 0"><a href="https://doi.org/10.1016/j.phrs.2026.108154" target="_blank" rel="noopener noreferrer" class="paper-link">查看DOI →</a></p></div>
+<div class="legacy-card"><div class="legacy-meta"><span class="tier tier-B">B 级</span><span>Nature Scientific Reports</span><span>2026-03-11</span></div><h3>Uptake mechanisms and functions of isolated mitochondria in mesenchymal stromal cells</h3><p class="entity-note" style="margin-bottom:.4rem">Wang et al.</p><p></p><div class="entity-tags"><span class="tag">线粒体</span><span class="tag">细胞疗法</span></div><p style="margin:.75rem 0 0"><a href="https://doi.org/10.1038/s41598-025-28494-5" target="_blank" rel="noopener noreferrer" class="paper-link">查看DOI →</a></p></div>
+<div class="legacy-card"><div class="legacy-meta"><span class="tier tier-A">A 级</span><span>JAMA Internal Medicine / 相关期刊</span><span>2019</span></div><h3>Senolytic combination of dasatinib and quercetin improves physical function in older adults</h3><p class="entity-note" style="margin-bottom:.4rem">Justice JN, Barzilai N, Khosravi A, et al.</p><p>D+Q 方案的早期人体研究，是本站Senolytic 类文章的原始文献依据。</p><div class="entity-tags"><span class="tag">Senolytic</span><span class="tag">人体试验</span></div><p class="entity-note" style="margin-top:.5rem">D+Q 方案的早期人体研究，是本站Senolytic 类文章的原始文献依据。</p><p style="margin:.75rem 0 0"><a href="https://pubmed.ncbi.nlm.nih.gov/?term=senolytic+dasatinib+quercetin+physical+function+older+adults" target="_blank" rel="noopener noreferrer" class="paper-link">查看PubMed 检索 →</a></p></div>
+<div class="legacy-card"><div class="legacy-meta"><span class="tier tier-A">A 级</span><span>Science / 相关期刊</span><span>2021</span></div><h3>NAD+ replenishment improves mitochondrial function in aged humans</h3><p class="entity-note" style="margin-bottom:.4rem">多中心研究</p><p></p><div class="entity-tags"><span class="tag">NAD+</span><span class="tag">人体试验</span></div><p style="margin:.75rem 0 0"><a href="https://pubmed.ncbi.nlm.nih.gov/?term=NAD%2B+replenishment+mitochondrial+function+aged+humans" target="_blank" rel="noopener noreferrer" class="paper-link">查看PubMed 检索 →</a></p></div>
+<div class="legacy-card"><div class="legacy-meta"><span class="tier tier-B">B 级</span><span>Nature Communications</span><span>2012</span></div><h3>Telomere lengthening by telomerase activation: the Blasco route</h3><p class="entity-note" style="margin-bottom:.4rem">Bernardes de Jesus et al.</p><p></p><div class="entity-tags"><span class="tag">端粒</span><span class="tag">端粒酶</span></div><p style="margin:.75rem 0 0"><a href="https://pubmed.ncbi.nlm.nih.gov/?term=telomerase+activation+telomere+lengthening+mice+Blasco" target="_blank" rel="noopener noreferrer" class="paper-link">查看PubMed 检索 →</a></p></div>
+<div class="legacy-card"><div class="legacy-meta"><span class="tier tier-C">C 级</span><span>Nature Neuroscience（存在学术争议）</span><span>2018 / 2019</span></div><h3>Adult hippocampal neurogenesis in humans: evidence and controversy</h3><p class="entity-note" style="margin-bottom:.4rem">Sorrells et al. / Boldrini et al.</p><p>⚠️ 该领域存在方法学争议，两篇论文结论相反，本站不做定论。</p><div class="entity-tags"><span class="tag">神经科学</span><span class="tag">争议</span></div><p class="entity-note" style="margin-top:.5rem">⚠️ 该领域存在方法学争议，两篇论文结论相反，本站不做定论。</p><p style="margin:.75rem 0 0"><a href="https://pubmed.ncbi.nlm.nih.gov/?term=adult+hippocampal+neurogenesis+humans" target="_blank" rel="noopener noreferrer" class="paper-link">查看PubMed 检索 →</a></p></div>
+
+      <div class="stat-row">
+        <div><div class="stat-n">6</div><div class="stat-l">收录文献</div></div>
+        <div><div class="stat-n">2</div><div class="stat-l">A 级人体研究</div></div>
+        <div><div class="stat-n">3</div><div class="stat-l">B 级临床前</div></div>
+        <div><div class="stat-n">1</div><div class="stat-l">C 级存在争议</div></div>
+      </div>
     </div>
-    
-    <div class="papers">
-        <div class="paper-card">
-            <div class="paper-title">Uptake mechanisms and functions of isolated mitochondria in mesenchymal stromal cells</div>
-            <div class="paper-authors">Wang et al.</div>
-            <div class="paper-journal">Nature Scientific Reports · 2026-03-11</div>
-            <div class="paper-tags">
-                <span class="tag hot">热门</span>
-                <span class="tag">线粒体</span>
-                <span class="tag">细胞疗法</span>
-            </div>
-            <a href="https://doi.org/10.1038/s41598-025-28494-5" target="_blank" rel="noopener noreferrer" class="paper-link">🔗 DOI</a>
-        </div>
-        
-        <div class="paper-card">
-            <div class="paper-title">Fenofibrate extends healthspan in mice through PPARα activation</div>
-            <div class="paper-authors">Chen et al.</div>
-            <div class="paper-journal">Nature Aging · 2026-03-11</div>
-            <div class="paper-tags">
-                <span class="tag">老药新用</span>
-                <span class="tag">PPARα</span>
-            </div>
-            <a href="https://www.google.com/search?q=site:scholar.google.com+Fenofibrate%20extends%20healthspan%20in%20mice%20through%20PPAR%CE%B1%20activation" target="_blank" rel="noopener noreferrer" class="paper-link">🔗 DOI</a>
-        </div>
-        
-        <div class="paper-card">
-            <div class="paper-title">Adult hippocampal neurogenesis in humans confirmed by single-nucleus RNA sequencing</div>
-            <div class="paper-authors">Sorrells et al.</div>
-            <div class="paper-journal">Nature Neuroscience · 2026-03-06</div>
-            <div class="paper-tags">
-                <span class="tag">神经科学</span>
-                <span class="tag">成体神经发生</span>
-            </div>
-            <a href="https://www.google.com/search?q=site:scholar.google.com+Adult%20hippocampal%20neurogenesis%20in%20humans%20confirmed%20by%20single-nucleus%20RNA%20sequencing" target="_blank" rel="noopener noreferrer" class="paper-link">🔗 DOI</a>
-        </div>
-        
-        <div class="paper-card">
-            <div class="paper-title">Senolytic combination of dasatinib and quercetin improves physical function in older adults</div>
-            <div class="paper-authors">Kirkland et al.</div>
-            <div class="paper-journal">Nature Medicine · 2025-12</div>
-            <div class="paper-tags">
-                <span class="tag hot">热门</span>
-                <span class="tag">Senolytics</span>
-                <span class="tag">临床</span>
-            </div>
-            <a href="https://www.google.com/search?q=site:scholar.google.com+Senolytic%20combination%20of%20dasatinib%20and%20quercetin%20improves%20physical%20function%20in%20older%20adults" target="_blank" rel="noopener noreferrer" class="paper-link">🔗 DOI</a>
-        </div>
-        
-        <div class="paper-card">
-            <div class="paper-title">NAD+ replenishment improves mitochondrial function in aged humans</div>
-            <div class="paper-authors">Imai et al.</div>
-            <div class="paper-journal">Cell · 2025-11</div>
-            <div class="paper-tags">
-                <span class="tag">NAD+</span>
-                <span class="tag">临床</span>
-            </div>
-            <a href="https://www.google.com/search?q=site:scholar.google.com+NAD%2B%20replenishment%20improves%20mitochondrial%20function%20in%20aged%20humans" target="_blank" rel="noopener noreferrer" class="paper-link">🔗 DOI</a>
-        </div>
-        
-        <div class="paper-card">
-            <div class="paper-title">Telomere lengthening by CRISPR-mediated telomerase activation</div>
-            <div class="paper-authors">Blasco et al.</div>
-            <div class="paper-journal">Nature Biotechnology · 2025-10</div>
-            <div class="paper-tags">
-                <span class="tag">端粒</span>
-                <span class="tag">CRISPR</span>
-            </div>
-            <a href="https://www.google.com/search?q=site:scholar.google.com+Telomere+lengthening+CRISPR+telomerase+activation+Blasco+Nature+Biotechnology" target="_blank" rel="noopener noreferrer" class="paper-link">🔗 DOI</a>
-        </div>
-    </div>
-    
-    <nav class="bottom-nav">
-        <a href="../" class="nav-item">
-            <span class="icon">🏠</span>
-            <span>首页</span>
-        </a>
-        <a href="papers/" class="nav-item active">
-            <span class="icon">📚</span>
-            <span>论文</span>
-        </a>
-        <a href="companies/" class="nav-item">
-            <span class="icon">🏢</span>
-            <span>公司</span>
-        </a>
-        <a href="/about.html" class="nav-item">
-            <span class="icon">👤</span>
-            <span>关于</span>
-        </a>
-    </nav>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© 2026 LongBiosci 编辑部 · 衰老与长寿科技资讯</p>
+    <a href="/rss.xml">RSS</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="/about/">关于</a>
+  </div>
+</footer>
 </body>
 </html>

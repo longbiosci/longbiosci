@@ -29,48 +29,31 @@
       }
     }
     </script>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        :root { --primary: #0f3460; --secondary: #16213e; --accent: #e94560; --success: #00A86B; --info: #1976d2; }
-        body { font-family: "Noto Sans SC", sans-serif; background: linear-gradient(135deg, var(--primary), var(--secondary)); min-height: 100vh; padding: 20px 10px; }
-        .container { max-width: 800px; margin: 0 auto; background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.15); }
-        .cover { background: linear-gradient(135deg, var(--primary), var(--secondary)); padding: 40px 20px; text-align: center; color: white; }
-        .cover h1 { font-size: 28px; margin-bottom: 10px; }
-        .cover .date { color: #ffb3ba; font-size: 18px; font-weight: 600; }
-        .content { padding: 25px 20px; }
-        .back-link { display: inline-block; margin-bottom: 15px; color: var(--info); text-decoration: none; font-size: 14px; padding: 8px 0; }
-        .section h2 { color: var(--primary); font-size: 18px; font-weight: 700; background: #f8f9fa; padding: 12px 15px; border-radius: 8px; border-left: 4px solid var(--accent); margin-bottom: 15px; }
-        .item { background: #ffffff; border-radius: 10px; padding: 16px; margin-bottom: 12px; border: 1px solid #e0e0e0; }
-        .item a { text-decoration: none; color: #1a1a2e; display: block; }
-        .item a:hover h3 { color: var(--accent); }
-        .item h3 { font-size: 16px; margin-bottom: 6px; transition: color 0.2s; font-weight: 600; color: #1a1a2e; }
-        .item p { color: #333; font-size: 14px; line-height: 1.6; }
-        .item .meta { color: #555; font-size: 12px; margin-top: 8px; }
-        .tag { display: inline-block; background: var(--success); color: white; padding: 3px 8px; border-radius: 4px; font-size: 11px; margin-right: 5px; }
-        .tag.today { background: var(--accent); }
-        .item.today-item { border: 2px solid var(--accent); background: #fff9f9; }
-        .footer { background: #f8f9fa; padding: 20px; text-align: center; color: #555; font-size: 13px; }
-        
-        /* 移动端优化 */
-        @media (max-width: 600px) {
-            body { padding: 10px 5px; }
-            .container { border-radius: 12px; }
-            .cover { padding: 30px 15px; }
-            .cover h1 { font-size: 22px; }
-            .cover .date { font-size: 15px; }
-            .content { padding: 15px 12px; }
-            .section h2 { font-size: 15px; padding: 10px 12px; }
-            .item { padding: 14px; }
-            .item h3 { font-size: 15px; }
-            .item p { font-size: 13px; }
-            a { min-height: 44px; }
-        }
-    </style>
+    
+    
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <div class="container">
+    <body>
+<a href="#main-content" class="skip-link">跳转到主要内容</a>
+<header class="site-header">
+  <div class="wrap">
+    <a href="/" class="brand">🧬 LongBiosci</a>
+    <nav class="main-nav" aria-label="主导航">
+      <a href="/">首页</a>
+      <a href="/news/">最新</a>
+      <a href="/topics/">主题专辑</a>
+      <a href="/evidence/">证据分级</a>
+      <a href="/search.html">搜索</a>
+      <a href="/trials.html">临床试验</a>
+      <a href="/companies/">产业</a>
+      <a href="/about/">关于</a>
+    </nav>
+  </div>
+</header>
+<main id="main-content">
+<div class="container">
         <div class="cover">
             <h1>🧬 长寿科技简报</h1>
             <div class="date">每日更新 · 2026年</div>
@@ -114,5 +97,14 @@
             </div>
         </div>
     </div>
+</body>
+</html>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© 2026 LongBiosci 编辑部 · 衰老与长寿科技资讯</p>
+    <a href="/rss.xml">RSS</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="/about/">关于</a>
+  </div>
+</footer>
 </body>
 </html>
