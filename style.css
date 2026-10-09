@@ -149,11 +149,21 @@ code{
 .site-header .wrap{display:flex;align-items:center;gap:var(--s-5);min-height:64px}
 
 .brand{
-  display:inline-flex;align-items:center;gap:var(--s-2);
+  display:inline-flex;align-items:center;gap:.5rem;
   font-size:var(--f-md);font-weight:600;color:var(--c-ink);
   letter-spacing:var(--ls-tight);flex-shrink:0;
 }
 .brand:hover{text-decoration:none;color:var(--c-primary)}
+
+/* 品牌标识图形 */
+.brand-mark{width:28px;height:28px;flex-shrink:0;display:block}
+.brand-name{white-space:nowrap}
+
+/* 移动端：图形略缩小，隐藏文字只留图形（空间不足时） */
+@media (max-width:420px){
+  .brand-mark{width:24px;height:24px}
+  .brand-name{font-size:var(--f-sm)}
+}
 
 .main-nav{display:flex;align-items:center;gap:var(--s-1);margin-left:auto;flex-wrap:wrap}
 .main-nav a{
