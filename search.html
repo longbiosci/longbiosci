@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>站内搜索 - LongBiosci</title>
+<meta name="description" content="搜索 LongBiosci 全部 372 篇抗衰老与长寿科技研究解读。">
+<link rel="canonical" href="https://longbiosci.com/search.html">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://longbiosci.com/search.html">
+<meta property="og:title" content="站内搜索 - LongBiosci">
+<meta property="og:description" content="搜索全部 372 篇抗衰老与长寿科技研究解读。">
+<meta property="og:image" content="https://longbiosci.com/logo.jpg">
+<meta property="og:site_name" content="LongBiosci">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="站内搜索 - LongBiosci">
+<meta name="twitter:description" content="搜索全部 372 篇研究解读。">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="stylesheet" href="/style.css">
+<style>
+/* 搜索页专属样式（仅本页） */
+.search-box{position:relative;margin-bottom:var(--s-5)}
+.search-input{
+  width:100%;padding:var(--s-4) var(--s-5) var(--s-4) 3rem;
+  font-size:var(--f-md);font-family:inherit;color:var(--c-ink);
+  background:var(--c-bg-raised);border:1px solid var(--c-line-strong);
+  border-radius:var(--r-lg);box-shadow:var(--sh-sm);
+  transition:border-color .16s var(--ease),box-shadow .16s var(--ease);
+}
+.search-input:focus{outline:none;border-color:var(--c-primary-lift);box-shadow:var(--sh-md)}
+.search-input::placeholder{color:var(--c-faint)}
+.search-icon{
+  position:absolute;left:var(--s-4);top:50%;transform:translateY(-50%);
+  color:var(--c-faint);pointer-events:none;font-size:var(--f-md);
+}
+.search-meta{font-size:var(--f-sm);color:var(--c-muted);margin-bottom:var(--s-4)}
+.sr-only{
+  position:absolute;width:1px;height:1px;padding:0;margin:-1px;
+  overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;
+}
+.result-item mark{background:#fff3b0;color:inherit;padding:0 2px;border-radius:2px}
+.filter-chips{display:flex;gap:var(--s-2);flex-wrap:wrap;margin-bottom:var(--s-5)}
+.chip{
+  padding:var(--s-1) var(--s-3);border:1px solid var(--c-line);
+  border-radius:var(--r-pill);font-size:var(--f-xs);color:var(--c-ink-soft);
+  background:var(--c-bg-raised);cursor:pointer;
+  transition:background .16s var(--ease),border-color .16s var(--ease);
+}
+.chip:hover{border-color:var(--c-primary-line);background:var(--c-primary-soft)}
+.chip[aria-pressed="true"]{background:var(--c-primary);color:#fff;border-color:var(--c-primary)}
+@media (prefers-color-scheme:dark){.result-item mark{background:#4a3f10;color:#f0e6c0}}
+</style>
+</head>
+<body>
+<a href="#main-content" class="skip-link">跳转到主要内容</a>
+<header class="site-header">
+  <div class="wrap">
+    <a href="/" class="brand">🧬 LongBiosci</a>
+    <nav class="main-nav" aria-label="主导航">
+      <a href="/">首页</a>
+      <a href="/news/">最新</a>
+      <a href="/topics/">主题专辑</a>
+      <a href="/evidence/">证据分级</a>
+      <a href="/search.html" aria-current="page">搜索</a>
+      <a href="/trials.html">临床试验</a>
+      <a href="/about/">关于</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main-content">
+  <section class="hero">
+    <div class="wrap">
+      <h1>站内搜索</h1>
+      <p>检索全部 <span id="total-count">372</span> 篇研究解读。支持按标题、摘要、标签全文匹配。</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="search-box">
+        <span class="search-icon" aria-hidden="true">⌕</span>
+        <label class="sr-only" for="q">搜索文章</label>
+        <input type="search" id="q" class="search-input" autocomplete="off"
+               placeholder="输入关键词，如：Senolytic、表观遗传、临床试验、NMN…"
+               autofocus>
+      </div>
+
+      <div class="filter-chips" role="group" aria-label="按证据等级筛选">
+        <button class="chip" type="button" data-filter="all" aria-pressed="true">全部</button>
+        <button class="chip" type="button" data-filter="A" aria-pressed="false">A 同行评议人体</button>
+        <button class="chip" type="button" data-filter="B" aria-pressed="false">B 临床前</button>
+        <button class="chip" type="button" data-filter="C" aria-pressed="false">C 预印本</button>
+      </div>
+
+      <p class="search-meta" id="status" aria-live="polite">正在载入索引…</p>
+
+      <div id="results" class="feed"></div>
+
+      <nav class="pager" id="pager" aria-label="搜索结果分页" hidden>
+        <a href="#" id="prev" rel="prev">← 上一页</a>
+        <span class="pager-info" id="page-info"></span>
+        <a href="#" id="next" rel="next">下一页 →</a>
+      </nav>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© 2026 LongBiosci · 衰老与长寿科技资讯</p>
+    <a href="/rss.xml">RSS</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="/about/">关于</a>
+  </div>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  var PER_PAGE = 20;
+  var index = null;
+  var filtered = [];
+  var curPage = 1;
+  var activeFilter = 'all';
+
+  var $q = document.getElementById('q');
+  var $status = document.getElementById('status');
+  var $results = document.getElementById('results');
+  var $pager = document.getElementById('pager');
+  var $prev = document.getElementById('prev');
+  var $next = document.getElementById('next');
+  var $pageInfo = document.getElementById('page-info');
+  var $total = document.getElementById('total-count');
+
+  function esc(s) {
+    return String(s == null ? '' : s)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  function highlight(text, terms) {
+    var out = esc(text);
+    if (!terms.length) return out;
+    var re = new RegExp('(' + terms.map(function (t) {
+      return t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    }).join('|') + ')', 'gi');
+    return out.replace(re, '<mark>$1</mark>');
+  }
+
+  function search(q) {
+    if (!q) return index.slice();
+    var terms = q.toLowerCase().split(/\s+/).filter(Boolean);
+    return index.filter(function (it) {
+      var blob = (it.t + ' ' + it.x + ' ' + it.g + ' ' + it.p).toLowerCase();
+      return terms.every(function (t) { return blob.indexOf(t) !== -1; });
+    });
+  }
+
+  function render(terms) {
+    var totalPages = Math.max(1, Math.ceil(filtered.length / PER_PAGE));
+    if (curPage > totalPages) curPage = totalPages;
+    var start = (curPage - 1) * PER_PAGE;
+    var slice = filtered.slice(start, start + PER_PAGE);
+
+    if (!filtered.length) {
+      $status.textContent = '没有匹配「' + $q.value + '」的文章。';
+      $results.innerHTML = '';
+      $pager.hidden = true;
+      return;
+    }
+
+    $status.textContent = '找到 ' + filtered.length + ' 篇文章'
+      + (terms.length ? '，匹配「' + terms.join(' ') + '」' : '');
+
+    $results.innerHTML = slice.map(function (it) {
+      return '<div class="feed-item result-item">'
+        + '<div class="item-meta">'
+        + '<span class="tag">' + esc(it.g) + '</span>'
+        + '<span class="tier tier-' + esc(it.e) + '">' + esc(it.e) + '</span>'
+        + '<span class="tag-date">' + esc(it.d) + '</span>'
+        + '<span>' + esc(it.p) + '</span>'
+        + '</div>'
+        + '<div class="feed-title"><a href="' + esc(it.u) + '">' + highlight(it.t, terms) + '</a></div>'
+        + (it.x ? '<p class="feed-desc">' + highlight(it.x, terms) + '</p>' : '')
+        + '</div>';
+    }).join('');
+
+    if (totalPages > 1) {
+      $pager.hidden = false;
+      $pageInfo.textContent = '第 ' + curPage + ' / ' + totalPages + ' 页';
+      $prev.style.visibility = curPage > 1 ? 'visible' : 'hidden';
+      $next.style.visibility = curPage < totalPages ? 'visible' : 'hidden';
+    } else {
+      $pager.hidden = true;
+    }
+  }
+
+  function run() {
+    var q = $q.value.trim();
+    var terms = q.toLowerCase().split(/\s+/).filter(Boolean);
+    var base = search(q);
+    filtered = activeFilter === 'all'
+      ? base
+      : base.filter(function (it) { return it.e === activeFilter; });
+    curPage = 1;
+    render(terms);
+  }
+
+  fetch('/data/search-index.json')
+    .then(function (r) { return r.json(); })
+    .then(function (raw) {
+      // 索引为压缩数组格式：[title, url, date, tag, topic, evidence, desc]
+      index = raw.map(function (r) {
+        return { t: r[0], u: r[1], d: r[2], g: r[3], p: r[4], e: r[5], x: r[6] };
+      });
+      $total.textContent = index.length;
+      $status.textContent = '共 ' + index.length + ' 篇文章可检索。输入关键词开始搜索。';
+      run();
+    })
+    .catch(function () {
+      $status.textContent = '搜索索引载入失败，请稍后重试。';
+    });
+
+  var timer = null;
+  $q.addEventListener('input', function () {
+    clearTimeout(timer);
+    timer = setTimeout(run, 140);
+  });
+
+  Array.prototype.forEach.call(
+    document.querySelectorAll('.chip'),
+    function (btn) {
+      btn.addEventListener('click', function () {
+        activeFilter = btn.getAttribute('data-filter');
+        Array.prototype.forEach.call(
+          document.querySelectorAll('.chip'),
+          function (b) { b.setAttribute('aria-pressed', b === btn ? 'true' : 'false'); }
+        );
+        run();
+      });
+    }
+  );
+
+  $prev.addEventListener('click', function (e) {
+    e.preventDefault();
+    if (curPage > 1) { curPage--; render($q.value.trim().toLowerCase().split(/\s+/).filter(Boolean)); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+  });
+  $next.addEventListener('click', function (e) {
+    e.preventDefault();
+    var tp = Math.max(1, Math.ceil(filtered.length / PER_PAGE));
+    if (curPage < tp) { curPage++; render($q.value.trim().toLowerCase().split(/\s+/).filter(Boolean)); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+  });
+})();
+</script>
+</body>
+</html>
