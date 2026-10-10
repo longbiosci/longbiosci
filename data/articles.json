@@ -1,5 +1,38 @@
 [
  {
+  "slug": "Dog-Epigenetic-Clock-LINE1-Science-2026.html",
+  "title": "大狗的表观遗传时钟走得更快：Science 报告 894 只犬 LINE1 跳跃基因去甲基化",
+  "desc": "Science 2026-10-08：分析 894 只家犬 1640 份甲基化组，大型犬与雄性犬表观遗传衰老更快，LINE1 转座元件去甲基化是最突出的分子特征，且与死亡风险相关。巨型犬每年 LINE1 甲基化损失比小型犬多约 35%。",
+  "tag": "衰老钟",
+  "date": "2026-10-10",
+  "topic": "表观遗传",
+  "type": "研究进展",
+  "evidence": "B",
+  "source": "www.science.org"
+ },
+ {
+  "slug": "Exercise-EV-microRNA29-Osteoarthritis-Cartilage-2026.html",
+  "title": "运动的护关节信号装在细胞外囊泡里：microRNA-29 与老年骨关节炎软骨",
+  "desc": "Nature Aging 2026-09-29：Mass General Brigham 发现三个月有氧运动改变循环细胞外囊泡的分子载荷，microRNA-29 是关键中介；向老年骨关节炎关节递送 microRNA-29 可恢复软骨细胞的年轻化特征。",
+  "tag": "运动",
+  "date": "2026-10-10",
+  "topic": "代谢与营养",
+  "type": "研究进展",
+  "evidence": "B",
+  "source": "www.nature.com"
+ },
+ {
+  "slug": "Lipid-Chain-Elongation-Plb1-Hallmark-Aging-2026.html",
+  "title": "脂质链变长是跨物种衰老标志：Nature Aging 找到可干预的 Plb1 靶点",
+  "desc": "Nature Aging 2026-10-07：跨小鼠、线虫、果蝇、人类的多种组织脂质组显示，脂质酰基链延长是保守的衰老标志。饮食限制与雷帕霉素可逆转，Plb1 敲低在线虫中延长寿命。",
+  "tag": "代谢",
+  "date": "2026-10-10",
+  "topic": "代谢与营养",
+  "type": "研究进展",
+  "evidence": "B",
+  "source": "www.nature.com"
+ },
+ {
   "slug": "AMPK-Direct-Activation-991-Lifespan-AgingCell-2026.html",
   "title": "直接激活 AMPK 让酵母、线虫、果蝇延寿逾 25%：Aging Cell 首次证明 AMPK 本身是延寿靶点",
   "desc": "Aging Cell 研究用直接激活剂 991 靶向 AMPK，首次在三种模式生物中延长寿命（部分超过 25%），并在小鼠中诱导促长寿蛋白组。这排除了二甲双胍类药物的多机制干扰，首次证明 AMPK 本身而非其下游效应具备延寿作用。",
@@ -62,7 +95,7 @@
   "date": "2026-10-03",
   "topic": "代谢与营养",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": "www.nature.com"
  },
  {
@@ -95,7 +128,7 @@
   "date": "2026-09-08",
   "topic": "生命历程",
   "type": "临床进展",
-  "evidence": "A",
+  "evidence": "B",
   "source": "www.fightaging.org"
  },
  {
@@ -216,7 +249,7 @@
   "date": "2026-09-01",
   "topic": "生命历程",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": ""
  },
  {
@@ -282,7 +315,7 @@
   "date": "2026-08-29",
   "topic": "器官衰老",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": ""
  },
  {
@@ -304,7 +337,7 @@
   "date": "2026-08-29",
   "topic": "细胞衰老",
   "type": "研究进展",
-  "evidence": "A",
+  "evidence": "B",
   "source": ""
  },
  {
@@ -326,7 +359,7 @@
   "date": "2026-08-28",
   "topic": "器官衰老",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": ""
  },
  {
@@ -337,7 +370,7 @@
   "date": "2026-08-27",
   "topic": "神经退行",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": ""
  },
  {
@@ -425,7 +458,7 @@
   "date": "2026-08-25",
   "topic": "生命历程",
   "type": "行业动态",
-  "evidence": "B",
+  "evidence": "A",
   "source": "www.fightaging.org"
  },
  {
@@ -436,7 +469,7 @@
   "date": "2026-08-24",
   "topic": "方法与工具",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": ""
  },
  {
@@ -491,7 +524,7 @@
   "date": "2026-08-21",
   "topic": "器官衰老",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": ""
  },
  {
@@ -524,7 +557,7 @@
   "date": "2026-08-19",
   "topic": "方法与工具",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": "www.fightaging.org"
  },
  {
@@ -535,7 +568,7 @@
   "date": "2026-08-19",
   "topic": "细胞衰老",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": ""
  },
  {
@@ -612,7 +645,7 @@
   "date": "2026-08-15",
   "topic": "器官衰老",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": "www.nature.com"
  },
  {
@@ -623,7 +656,7 @@
   "date": "2026-08-15",
   "topic": "生命历程",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": ""
  },
  {
@@ -733,7 +766,7 @@
   "date": "2026-08-07",
   "topic": "生命历程",
   "type": "行业动态",
-  "evidence": "A",
+  "evidence": "B",
   "source": "doi.org"
  },
  {
@@ -755,7 +788,7 @@
   "date": "2026-08-06",
   "topic": "代谢与营养",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": "doi.org"
  },
  {
@@ -799,7 +832,7 @@
   "date": "2026-08-05",
   "topic": "器官衰老",
   "type": "临床进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": "www.fightaging.org"
  },
  {
@@ -843,7 +876,7 @@
   "date": "2026-08-03",
   "topic": "代谢与营养",
   "type": "研究进展",
-  "evidence": "A",
+  "evidence": "B",
   "source": "www.sciencenews.org"
  },
  {
@@ -854,7 +887,7 @@
   "date": "2026-08-02",
   "topic": "代谢与营养",
   "type": "研究进展",
-  "evidence": "A",
+  "evidence": "B",
   "source": "www.fightaging.org"
  },
  {
@@ -1074,7 +1107,7 @@
   "date": "2026-07-22",
   "topic": "神经退行",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": ""
  },
  {
@@ -1085,7 +1118,7 @@
   "date": "2026-07-22",
   "topic": "生命历程",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": ""
  },
  {
@@ -1107,7 +1140,7 @@
   "date": "2026-07-20",
   "topic": "细胞衰老",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": ""
  },
  {
@@ -1129,7 +1162,7 @@
   "date": "2026-07-19",
   "topic": "生命历程",
   "type": "研究进展",
-  "evidence": "A",
+  "evidence": "B",
   "source": "doi.org"
  },
  {
@@ -1206,7 +1239,7 @@
   "date": "2026-07-15",
   "topic": "表观遗传",
   "type": "研究进展",
-  "evidence": "A",
+  "evidence": "B",
   "source": "www.fightaging.org"
  },
  {
@@ -1228,7 +1261,7 @@
   "date": "2026-07-14",
   "topic": "细胞衰老",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": ""
  },
  {
@@ -1272,7 +1305,7 @@
   "date": "2026-07-12",
   "topic": "神经退行",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": "doi.org"
  },
  {
@@ -1349,7 +1382,7 @@
   "date": "2026-07-09",
   "topic": "免疫与炎症",
   "type": "临床进展",
-  "evidence": "A",
+  "evidence": "B",
   "source": "www.longevity.technology"
  },
  {
@@ -1437,7 +1470,7 @@
   "date": "2026-07-05",
   "topic": "代谢与营养",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": "doi.org"
  },
  {
@@ -1459,7 +1492,7 @@
   "date": "2026-07-04",
   "topic": "器官衰老",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": "doi.org"
  },
  {
@@ -1536,7 +1569,7 @@
   "date": "2026-07-01",
   "topic": "生命历程",
   "type": "行业动态",
-  "evidence": "B",
+  "evidence": "A",
   "source": "www.niradata.com"
  },
  {
@@ -1602,7 +1635,7 @@
   "date": "2026-06-28",
   "topic": "代谢与营养",
   "type": "综述解读",
-  "evidence": "A",
+  "evidence": "B",
   "source": "doi.org"
  },
  {
@@ -1701,7 +1734,7 @@
   "date": "2026-06-24",
   "topic": "细胞衰老",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": "www.fightaging.org"
  },
  {
@@ -1745,7 +1778,7 @@
   "date": "2026-06-21",
   "topic": "表观遗传",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": ""
  },
  {
@@ -1789,7 +1822,7 @@
   "date": "2026-06-19",
   "topic": "方法与工具",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": "doi.org"
  },
  {
@@ -1822,7 +1855,7 @@
   "date": "2026-06-18",
   "topic": "表观遗传",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": ""
  },
  {
@@ -1855,7 +1888,7 @@
   "date": "2026-06-17",
   "topic": "方法与工具",
   "type": "观点评论",
-  "evidence": "A",
+  "evidence": "B",
   "source": "www.nature.com"
  },
  {
@@ -1899,7 +1932,7 @@
   "date": "2026-06-12",
   "topic": "方法与工具",
   "type": "观点评论",
-  "evidence": "B",
+  "evidence": "A",
   "source": "www.fightaging.org"
  },
  {
@@ -1910,7 +1943,7 @@
   "date": "2026-06-12",
   "topic": "神经退行",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": ""
  },
  {
@@ -1921,7 +1954,7 @@
   "date": "2026-06-12",
   "topic": "表观遗传",
   "type": "研究进展",
-  "evidence": "A",
+  "evidence": "B",
   "source": ""
  },
  {
@@ -1932,7 +1965,7 @@
   "date": "2026-06-12",
   "topic": "生命历程",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": ""
  },
  {
@@ -1998,7 +2031,7 @@
   "date": "2026-06-09",
   "topic": "免疫与炎症",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": ""
  },
  {
@@ -2009,7 +2042,7 @@
   "date": "2026-06-09",
   "topic": "代谢与营养",
   "type": "研究进展",
-  "evidence": "A",
+  "evidence": "B",
   "source": "www.nature.com"
  },
  {
@@ -2152,7 +2185,7 @@
   "date": "2026-06-02",
   "topic": "免疫与炎症",
   "type": "研究进展",
-  "evidence": "A",
+  "evidence": "B",
   "source": ""
  },
  {
@@ -2185,7 +2218,7 @@
   "date": "2026-06-01",
   "topic": "表观遗传",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": "www.fightaging.org"
  },
  {
@@ -2207,7 +2240,7 @@
   "date": "2026-05-31",
   "topic": "生命历程",
   "type": "研究进展",
-  "evidence": "A",
+  "evidence": "B",
   "source": ""
  },
  {
@@ -2295,7 +2328,7 @@
   "date": "2026-05-27",
   "topic": "器官衰老",
   "type": "临床进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": "www.fightaging.org"
  },
  {
@@ -2339,7 +2372,7 @@
   "date": "2026-05-25",
   "topic": "神经退行",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": "www.fightaging.org"
  },
  {
@@ -2350,7 +2383,7 @@
   "date": "2026-05-24",
   "topic": "细胞衰老",
   "type": "机制研究",
-  "evidence": "B",
+  "evidence": "A",
   "source": "www.nature.com"
  },
  {
@@ -2383,7 +2416,7 @@
   "date": "2026-05-22",
   "topic": "器官衰老",
   "type": "临床进展",
-  "evidence": "A",
+  "evidence": "B",
   "source": "www.fightaging.org"
  },
  {
@@ -2416,7 +2449,7 @@
   "date": "2026-05-22",
   "topic": "代谢与营养",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": ""
  },
  {
@@ -2427,7 +2460,7 @@
   "date": "2026-05-20",
   "topic": "代谢与营养",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": ""
  },
  {
@@ -2438,7 +2471,7 @@
   "date": "2026-05-20",
   "topic": "方法与工具",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": "www.nature.com"
  },
  {
@@ -2504,7 +2537,7 @@
   "date": "2026-05-14",
   "topic": "神经退行",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": ""
  },
  {
@@ -2515,7 +2548,7 @@
   "date": "2026-05-14",
   "topic": "方法与工具",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": ""
  },
  {
@@ -2537,7 +2570,7 @@
   "date": "2026-05-13",
   "topic": "免疫与炎症",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": ""
  },
  {
@@ -2636,7 +2669,7 @@
   "date": "2026-05-06",
   "topic": "表观遗传",
   "type": "研究进展",
-  "evidence": "A",
+  "evidence": "B",
   "source": ""
  },
  {
@@ -2834,7 +2867,7 @@
   "date": "2026-04-23",
   "topic": "细胞衰老",
   "type": "研究进展",
-  "evidence": "A",
+  "evidence": "B",
   "source": ""
  },
  {
@@ -2922,7 +2955,7 @@
   "date": "2026-04-20",
   "topic": "生命历程",
   "type": "研究进展",
-  "evidence": "A",
+  "evidence": "B",
   "source": "www.fightaging.org"
  },
  {
@@ -3109,7 +3142,7 @@
   "date": "2026-04-11",
   "topic": "神经退行",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": "www.sciencedaily.com"
  },
  {
@@ -3153,7 +3186,7 @@
   "date": "2026-04-09",
   "topic": "细胞衰老",
   "type": "研究进展",
-  "evidence": "A",
+  "evidence": "B",
   "source": "www.fightaging.org"
  },
  {
@@ -3186,7 +3219,7 @@
   "date": "2026-04-09",
   "topic": "神经退行",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": ""
  },
  {
@@ -3351,7 +3384,7 @@
   "date": "2026-04-02",
   "topic": "细胞衰老",
   "type": "综述解读",
-  "evidence": "A",
+  "evidence": "B",
   "source": "doi.org"
  },
  {
@@ -3362,7 +3395,7 @@
   "date": "2026-04-02",
   "topic": "表观遗传",
   "type": "综述解读",
-  "evidence": "A",
+  "evidence": "B",
   "source": "doi.org"
  },
  {
@@ -3406,7 +3439,7 @@
   "date": "2026-03-31",
   "topic": "神经退行",
   "type": "研究进展",
-  "evidence": "A",
+  "evidence": "B",
   "source": "www.fightaging.org"
  },
  {
@@ -3472,7 +3505,7 @@
   "date": "2026-03-30",
   "topic": "器官衰老",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": "www.fightaging.org"
  },
  {
@@ -3538,7 +3571,7 @@
   "date": "2026-03-28",
   "topic": "生命历程",
   "type": "研究进展",
-  "evidence": "A",
+  "evidence": "B",
   "source": "www.fightaging.org"
  },
  {
@@ -3659,7 +3692,7 @@
   "date": "2026-03-23",
   "topic": "器官衰老",
   "type": "研究进展",
-  "evidence": "A",
+  "evidence": "B",
   "source": "doi.org"
  },
  {
@@ -3758,7 +3791,7 @@
   "date": "2026-03-19",
   "topic": "细胞衰老",
   "type": "研究进展",
-  "evidence": "A",
+  "evidence": "B",
   "source": "www.fightaging.org"
  },
  {
@@ -3923,7 +3956,7 @@
   "date": "2026-03-16",
   "topic": "表观遗传",
   "type": "临床进展",
-  "evidence": "A",
+  "evidence": "B",
   "source": "www.nature.com"
  },
  {
@@ -3934,7 +3967,7 @@
   "date": "2026-03-12",
   "topic": "细胞衰老",
   "type": "综述解读",
-  "evidence": "A",
+  "evidence": "B",
   "source": "www.fightaging.org"
  },
  {
@@ -3945,7 +3978,7 @@
   "date": "2026-03-11",
   "topic": "生命历程",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "C",
   "source": "www.nature.com"
  },
  {
@@ -3967,7 +4000,7 @@
   "date": "2026-03-10",
   "topic": "表观遗传",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": ""
  },
  {
@@ -3989,7 +4022,7 @@
   "date": "2026-03-09",
   "topic": "表观遗传",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": "www.fightaging.org"
  },
  {
@@ -4000,7 +4033,7 @@
   "date": "2026-03-08",
   "topic": "表观遗传",
   "type": "研究进展",
-  "evidence": "B",
+  "evidence": "A",
   "source": "www.fightaging.org"
  },
  {
