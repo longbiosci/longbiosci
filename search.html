@@ -62,7 +62,7 @@
     <nav class="main-nav" aria-label="主导航">
       <a href="/">首页</a>
       <a href="/news/">最新</a>
-      <a href="/topics/">主题专辑</a>
+      <a href="/topics/">主题专辑</a><a href="/research/">概念与工具</a><a href="/daily/">周刊</a>
       <a href="/evidence/">证据分级</a>
       <a href="/search.html" aria-current="page">搜索</a>
       <a href="/trials.html">临床试验</a>
@@ -180,7 +180,7 @@
       return '<div class="feed-item result-item">'
         + '<div class="item-meta">'
         + '<span class="tag">' + esc(it.g) + '</span>'
-        + '<span class="tier tier-' + esc(it.e) + '">' + esc(it.e) + '</span>'
+        + (it.e ? '<span class="tier tier-' + esc(it.e) + '">' + esc(it.e) + '</span>' : '')
         + '<span class="tag-date">' + esc(it.d) + '</span>'
         + '<span>' + esc(it.p) + '</span>'
         + '</div>'

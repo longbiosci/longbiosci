@@ -1,154 +1,706 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="referrer" content="strict-origin-when-cross-origin">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>衰老细胞清除剂 - LongBiosci</title>
-    <meta name="description" content="衰老细胞清除剂（Senolytics）研究进展与临床试验 - LongBiosci">
-<link rel="canonical" href="https://longbiosci.com/senolytic/">
-    <!-- Open Graph -->
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="https://longbiosci.com/senolytic/">
-    <meta property="og:title" content="衰老细胞清除剂 Senolytics - LongBiosci">
-    <meta property="og:description" content="衰老细胞清除剂（Senolytics）研究进展与临床试验 - LongBiosci">
-    <meta property="og:image" content="https://longbiosci.com/og-image.png">
-    <meta property="og:site_name" content="LongBiosci">
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="衰老细胞清除剂 Senolytics - LongBiosci">
-    <meta name="twitter:description" content="衰老细胞清除剂（Senolytics）研究进展与临床试验 - LongBiosci">
-    <meta name="twitter:image" content="https://longbiosci.com/og-image.png">
-
-    <link rel="icon" href="/logo.png">
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; color: #333; background: #f8f9fa; line-height: 1.6; }
-        header { background: white; padding: 1.5rem 2rem; box-shadow: 0 1px 3px rgba(0,0,0,0.08); display: flex; justify-content: space-between; align-items: center; }
-        header img { height: 40px; }
-        header a { color: #00A86B; text-decoration: none; font-weight: 500; }
-        .container { max-width: 900px; margin: 2rem auto; padding: 0 1.5rem; }
-        h1 { color: #00A86B; margin-bottom: 0.5rem; font-size: 2.2rem; }
-        .subtitle { color: #666; margin-bottom: 2rem; }
-        .info-box { background: white; border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
-        .info-box h3 { color: #00A86B; margin-bottom: 0.8rem; }
-        .info-box p { color: #555; line-height: 1.7; }
-        .info-box a { color: #00A86B; text-decoration: underline; }
-        .trial-card { background: white; border-radius: 12px; padding: 1.2rem; margin-bottom: 1rem; box-shadow: 0 1px 3px rgba(0,0,0,0.06); display: flex; justify-content: space-between; align-items: center; }
-        .trial-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
-        .trial-info h3 { color: #222; font-size: 1.1rem; margin-bottom: 0.3rem; }
-        .trial-info h3 a { color: #222; text-decoration: none; }
-        .trial-info h3 a:hover { color: #00A86B; }
-        .trial-info p { color: #666; font-size: 0.9rem; }
-        .trial-info p a { color: #666; }
-        .status { padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.75rem; }
-        .recruiting { background: #e8f5e9; color: #2e7d32; }
-        .completed { background: #f5f5f5; color: #666; }
-        .active { background: #e3f2fd; color: #1565c0; }
-        
-        .related { margin-top: 2rem; }
-        .related h3 { color: #00A86B; margin-bottom: 1rem; }
-        .related-links { display: flex; gap: 1rem; flex-wrap: wrap; }
-        .related-links a { padding: 0.5rem 1rem; background: white; border-radius: 20px; color: #555; text-decoration: none; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
-        .related-links a:hover { background: #00A86B; color: white; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Senolytic 衰老细胞清除 — LongBiosci</title>
+<meta name="description" content="选择性清除衰老细胞的药物类别，是目前证据积累最快的抗衰干预方向。本站收录 64 篇相关研究解读，按证据分级标注。">
+<link rel="canonical" href="https://longbiosci.com/senolytic.html">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://longbiosci.com/senolytic.html">
+<meta property="og:title" content="Senolytic 衰老细胞清除">
+<meta property="og:description" content="选择性清除衰老细胞的药物类别，是目前证据积累最快的抗衰干预方向。本站收录 64 篇相关研究解读，按证据分级标注。">
+<meta property="og:image" content="https://longbiosci.com/og-image.png">
+<meta property="og:site_name" content="LongBiosci">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Senolytic 衰老细胞清除">
+<meta name="twitter:description" content="选择性清除衰老细胞的药物类别，是目前证据积累最快的抗衰干预方向。本站收录 64 篇相关研究解读，按证据分级标注。">
+<meta name="twitter:image" content="https://longbiosci.com/og-image.png">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="icon" type="image/svg+xml" href="/favicon-dark.svg" media="(prefers-color-scheme: dark)">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="stylesheet" href="/style.css">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "衰老细胞清除 Senolytics - LongBiosci 抗衰老",
-  "description": "衰老细胞清除Senolytics抗衰老机制、临床试验数据与健康应用 - LongBiosci朗生生物科技",
+  "headline": "Senolytic 衰老细胞清除",
+  "description": "选择性清除衰老细胞的药物类别，是目前证据积累最快的抗衰干预方向。本站收录 64 篇相关研究解读，按证据分级标注。",
+  "url": "https://longbiosci.com/senolytic.html",
   "image": "https://longbiosci.com/og-image.png",
-  "author": {
-    "@type": "Organization",
-    "name": "LongBiosci"
-  },
-  "datePublished": "2026-04-05",
+  "author": { "@type": "Organization", "name": "LongBiosci 编辑部" },
   "publisher": {
     "@type": "Organization",
     "name": "LongBiosci",
     "url": "https://longbiosci.com",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://longbiosci.com/og-image.png",
-      "width": 836,
-      "height": 257
-    }
+    "logo": { "@type": "ImageObject", "url": "https://longbiosci.com/og-image.png" }
   },
-  "inLanguage": "zh-CN",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://longbiosci.com/senolytic/"
-  }
+  "inLanguage": "zh-CN"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "首页", "item": "https://longbiosci.com/" },
+    { "@type": "ListItem", "position": 2, "name": "核心概念", "item": "https://longbiosci.com/topics/" },
+    { "@type": "ListItem", "position": 3, "name": "Senolytic 衰老细胞清除", "item": "https://longbiosci.com/senolytic.html" }
+  ]
 }
 </script>
 </head>
 <body>
-    <header>
-        <img src="/logo.png" alt="LongBiosci" width="836" height="257">
-        <a href="/">← 返回首页</a>
-    </header>
-    
-    <div class="container">
-        <h1>Senolytic</h1>
-        <p class="subtitle">Drugs that selectively clear senescent cells</p>
-        
-        <div class="info-box">
-            <h3>What is Senolytic?</h3>
-            <p>
-                <a href="https://en.wikipedia.org/wiki/Senolytic" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer">Senolytic drugs</a> are a class of drugs that selectively eliminate <a href="https://en.wikipedia.org/wiki/Cellular_senescence" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer">senescent cells</a>. 
-                Senescent cells accumulate with age and secrete harmful <a href="https://en.wikipedia.org/wiki/Senescence-associated_secretory_phenotype" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer">SASP</a> factors, contributing to aging and age-related diseases.
-                <br><br>
-                Key senolytic agents include <a href="/nmn.html">NMN</a>, <a href="/metformin.html">Metformin</a>, and natural flavonoids like <a href="https://pubmed.ncbi.nlm.nih.gov/" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer">Fisetin</a> and Quercetin.
-            </p>
-        </div>
-        
-        <h3 class="section-title">Clinical Trials</h3>
-        
-        <div class="trial-card">
-            <div class="trial-info">
-                <h3><a href="https://clinicaltrials.gov/ct2/show/NCT04685590" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer">NCT04685590</a> - Senolytic</h3>
-                <p><a href="https://en.wikipedia.org/wiki/Alzheimer%27s_disease" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer">Alzheimer's Disease</a> • Washington University</p>
-            </div>
-            <span class="status recruiting">Recruiting</span>
-        </div>
-        
-        <div class="trial-card">
-            <div class="trial-info">
-                <h3><a href="https://clinicaltrials.gov/ct2/show/NCT02848131" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer">NCT02848131</a> - Senolytic</h3>
-                <p><a href="https://en.wikipedia.org/wiki/Chronic_kidney_disease" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer">Chronic Kidney Disease</a> • Mayo Clinic</p>
-            </div>
-            <span class="status recruiting">Recruiting</span>
-        </div>
-        
-        <div class="trial-card">
-            <div class="trial-info">
-                <h3><a href="https://clinicaltrials.gov/ct2/show/NCT06133634" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer">NCT06133634</a> - Fisetin</h3>
-                <p>Vascular Function • University of Colorado</p>
-            </div>
-            <span class="status active">Active</span>
-        </div>
-        
-        <div class="trial-card">
-            <div class="trial-info">
-                <h3><a href="https://clinicaltrials.gov/ct2/show/NCT04063124" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer">NCT04063124</a> - Senolytic</h3>
-                <p><a href="https://en.wikipedia.org/wiki/Alzheimer%27s_disease" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer">Alzheimer's Disease</a> • University of Texas</p>
-            </div>
-            <span class="status completed">Completed</span>
-        </div>
-        
-        <div class="related">
-            <h3>Related Topics</h3>
-            <div class="related-links">
-                <a href="/nmn.html">NMN / NAD+</a>
-                <a href="/metformin.html">Metformin</a>
-                <a href="/stemcell.html">Stem Cells</a>
-            </div>
-        </div>
-    </div>
+<a href="#main-content" class="skip-link">跳转到主要内容</a>
+<header class="site-header">
+  <div class="wrap">
+    <a href="/" class="brand"><img src="/logo-mark.svg" alt="" class="brand-mark" width="28" height="28"><span class="brand-name">LongBiosci</span></a>
+    <nav class="main-nav" aria-label="主导航">
+      <a href="/">首页</a>
+      <a href="/news/">最新</a>
+      <a href="/topics/" aria-current="page">主题专辑</a><a href="/research/">概念与工具</a><a href="/daily/">周刊</a>
+      <a href="/evidence/">证据分级</a>
+      <a href="/trials.html">临床试验</a>
+      <a href="/companies/">产业</a>
+      <a href="/about/">关于</a>
+    </nav>
+  </div>
+</header>
+<main id="main-content">
+
+<section class="hero"><div class="wrap">
+<h1>Senolytic 衰老细胞清除</h1>
+<p>选择性清除衰老细胞的药物类别，是目前证据积累最快的抗衰干预方向。</p>
+</div></section>
+<section class="section"><div class="wrap">
+<div class="notice-box">
+<p><strong>站内证据概览</strong>：共 <strong>64</strong> 篇相关解读 —— A 级（人体研究）16 · B 级（临床前）46 · C 级（预印本）2</p>
+<p>⚠️ <strong>人体证据仍是瓶颈。</strong> 达沙替尼+槲皮素（D+Q）在纤维化 MASH 的 31 人随机对照试验中显示 47% 纤维化改善，但dasatinib 是处方抗癌药，不能作为保健品自行服用。清除衰老细胞也可能干扰伤口愈合等正常生理过程。</p>
+</div>
+</div></section>
+<section class="section"><div class="wrap">
+<h2>站内相关研究（64 篇）</h2>
+<div class="feed">
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">衰老细胞</span>
+<span class="tier tier-A">A</span>
+<span class="tag-date">2026-03-26</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Senescent-Cells-Sarcopenia-Therapy.html">衰老细胞如何驱动肌少症：Senolytics与Senomorphics双路径干预新进展</a></div>
+<p class="feed-desc">最新综述揭示衰老细胞在骨骼肌衰老中的积累机制及其对肌少症的驱动作用，系统梳理Senolytics清除衰老细胞与Senomorphics调节SASP两大干预策略的最新进展。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">综述</span>
+<span class="tier tier-A">A</span>
+<span class="tag-date">2026-08-04</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Senomorphic-Agents-SASP-Multi-Target-2026.html">衰老细胞分泌表型：定向&quot;驯服&quot;SASP的新一代抗衰老策略</a></div>
+<p class="feed-desc">衰老细胞通过SASP驱动慢性炎症与多病共存。最新综述系统梳理senomorphic agents（衰老细胞调节剂）多靶点干预策略，相比直接清除衰老细胞的senolytics，驯服而非消灭的路径正受到越来越多关注。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">细胞衰老</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-08-19</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Mitochondrial-Metabolism-Epigenetic-SASP-Nature-2026.html">Nature重磅：线粒体代谢驱动衰老细胞SASP——全新药物靶点浮现</a></div>
+<p class="feed-desc">Nature 2026年发表研究揭示：衰老细胞通过线粒体丙酮酸-柠檬酸-乙酰辅酶A轴主动调控SASP（衰老相关分泌表型）产生，表观遗传重编程是核心机制。这一发现为靶向线粒体代谢的senomorphics药物开发提供了全新靶点。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">研究</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-08-06</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Mitochondria-Metabolism-Epigenetic-SASP-Nature-2026.html">线粒体代谢-表观遗传对话驱动SASP：衰老细胞炎症的新机制</a></div>
+<p class="feed-desc">Nature发表重磅研究：线粒体代谢通过调控乙酰-CoA水平，驱动衰老相关分泌表型（SASP）基因的组蛋白乙酰化，为选择性抑制衰老细胞炎症提供全新药物靶点，抑制SLC25A1可改善老年小鼠健康寿命。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">细胞衰老</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-05-29</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Senolytic-Tooth-Aging-NFATC1-Dental-Pulp-2026.html">衰老细胞清除新靶点：牙髓老化与Senolytic疗法修复</a></div>
+<p class="feed-desc">最新研究（Stem Cell Reports, 2026）揭示牙齿老化的分子机制：牙髓间充质干细胞中NFATC1丢失驱动牙齿衰老，而senolytic药物可通过清除衰老牙髓细胞恢复牙齿的自我修复能力，为保存天然牙提供新策略。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">生物标志物</span>
+<span class="tier tier-C">C</span>
+<span class="tag-date">2026-04-15</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/SASP-Score-Deep-Learning-Senescent-Cell-2026.html">SASP评分：深度学习 + 蛋白质组学量化衰老细胞负担，预测死亡风险</a></div>
+<p class="feed-desc">研究团队利用UK Biobank大规模蛋白质组数据，结合Transformer架构深度学习模型（GAET），构建复合SASP评分，成功预测全因死亡率及痴呆、COPD、心肌梗死、脑卒中等慢性病风险，并验证运动干预可显著改变SASP评分轨迹。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">综述</span>
+<span class="tier tier-A">A</span>
+<span class="tag-date">2026-04-24</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Chronic-Kidney-Disease-Cellular-Senescence-2026.html">衰老细胞与慢性肾脏病：最新综述揭示治疗新靶点</a></div>
+<p class="feed-desc">开放获取综述论文系统梳理了细胞衰老与肾脏衰老及慢性肾脏病（CKD）之间的关联。研究指出，CKD可被视为肾脏加速衰老的表现形式，并强调senolytic药物在CKD治疗中的临床潜力。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">综述</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-07-26</span>
+<span>方法与工具</span>
+</div>
+<div class="feed-title"><a href="/news/Senomorphic-Agents-Multi-Target-SASP-Healthy-Aging-2026.html">衰老形态调节剂：靶向SASP多通路策略实现健康衰老</a></div>
+<p class="feed-desc">2026年7月发表于Experimental Gerontology的系统综述，系统梳理衰老形态调节剂（Senomorphic agents）通过调控SASP实现健康衰老的机制、分类及转化挑战，为衰老干预提供</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">系统评价</span>
+<span class="tier tier-A">A</span>
+<span class="tag-date">2026-07-16</span>
+<span>代谢与营养</span>
+</div>
+<div class="feed-title"><a href="/news/Nutritional-Interventions-Cellular-Senescence-Human-Studies-2026.html">营养干预调节人体细胞衰老：29项临床研究的系统评价</a></div>
+<p class="feed-desc">最新系统评价综合29项临床研究（共3811名参与者），系统评估营养干预策略对人体细胞衰老生物标志物的影响，发现热量限制在调节衰老相关分泌表型（SASP）方面效果最为显著。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">机制研究</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-06-29</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/DNA-R-Loop-Senescence-SASP-Nature-Aging-2026.html">细胞核R环DNA外排驱动衰老细胞炎症信号</a></div>
+<p class="feed-desc">Nature Aging研究揭示：衰老细胞通过XPO1-DDX1复合体将R环状DNA外排至细胞质，激活cGAS-STING通路驱动SASP。XPO1抑制剂KPT-330（塞利尼索）可阻断该通路，延长健康寿命，为抗衰老干预提供新靶点。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">重磅研究</span>
+<span class="tier tier-A">A</span>
+<span class="tag-date">2026-06-24</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/NIH-SenNet-Human-Senescence-Atlas-2026.html">NIH SenNet发布首个人类细胞衰老图谱——里程碑式成果登Cell</a></div>
+<p class="feed-desc">NIH细胞衰老网络(SenNet)于2026年6月在Cell期刊发布首个人类细胞衰老综合图谱，首次在单细胞和空间分辨率下系统绘制衰老细胞在人体组织中的分布图谱，为抗衰老干预奠定科学基础。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">研究</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-06-19</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Senolytic-Regenerative-Synergy-Healthspan-2026.html">衰老细胞清除与干细胞联合疗法显著延长健康寿命 — 突破性协同效应验证</a></div>
+<p class="feed-desc">发表于Journal of Translational Medicine的新研究首次系统验证：衰老细胞清除（senolytic）与个性化间充质干细胞（pMSC）再生疗法联用，可显著延长早衰小鼠的健康寿命与寿命，为联合抗衰老疗法提供了重要的临床前证据。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">细胞衰老</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-06-19</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Senolytic-Regenerative-Synergy-Healthspan-Lifespan-2026.html">衰老细胞清除与再生医学协同：延长健康寿命新范式</a></div>
+<p class="feed-desc">最新研究证实：衰老细胞清除（senolytic）与间充质干细胞（MSC）再生疗法联合使用，在加速衰老小鼠模型中显著延长健康寿命和总寿命，支持两者协同增效的临床前证据。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">细胞衰老</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-05-16</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Senolytic-Cost-Benefit-Precision-Intervention-2026.html">衰老细胞清除的隐忧：精准干预还是&quot;一网打尽&quot;？</a></div>
+<p class="feed-desc">Fight Aging! 深度评论（2026年5月15日）：当前衰老细胞清除策略面临重要反思——衰老细胞并非铁板一块，广谱清除可能带来风险。如何平衡清除有害衰老细胞与保留有益衰老过程的矛盾，是下一代 senolytic 药物研发的核心挑战。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">衰老细胞</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-03-26</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Fifteen-Years-Senescent-Cell-Clearance.html">衰老细胞清除15年：里程碑实验如何重塑衰老研究界</a></div>
+<p class="feed-desc">2026年是首个体内衰老细胞清除实验发表15周年。Fight Aging!系统回顾这一里程碑如何重塑衰老研究界对细胞衰老的态度，并深入分析衰老细胞在肌肉衰老中的角色及干预策略。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">综述解读</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-03-12</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Respiratory-System-Aging-Senotherapy-Lung-Disease-2026.html">呼吸系统：衰老如何为疾病搭建舞台——衰老的生物学机制与治疗前景</a></div>
+<p class="feed-desc">2026年综述指出，呼吸系统衰老与COPD、肺纤维化等年龄相关疾病密切相关。Senotherapy（衰老定向药物）正在成为呼吸系统疾病新的治疗策略，包括senomorphics（抑制衰老细胞）和senolytics（清除衰老细胞）两大方向。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">研究进展</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-10-09</span>
+<span>免疫与炎症</span>
+</div>
+<div class="feed-title"><a href="/news/CMA-Decline-Macrophage-Senescent-Clearance-NatureAging-2026.html">CMA 衰退让「僵尸细胞」逃过免疫清除：Nature Aging 揭示衰老细胞堆积的双重失效</a></div>
+<p class="feed-desc">Nature Aging 研究发现，伴侣介导自噬（CMA）随年龄衰退，同时毒化衰老细胞并削弱巨噬细胞的吞噬能力，导致衰老细胞在老年体内堆积。CA77.1 在老年小鼠中降低衰老细胞负荷，早期给药使肺纤维化减少约 55%。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">细胞衰老</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-08-29</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Senolytics-Restore-Microglia-White-Matter-Nature-Aging-2026.html">衰老细胞清除恢复老年大脑白质小胶质细胞年轻态</a></div>
+<p class="feed-desc">Nature Aging发表研究：大脑白质中存在一类同时表达疾病相关小胶质细胞（DAM）标记和SenBrain衰老基因的独特群体，衰老细胞清除可逆转其有害表型，恢复更年轻的小胶质细胞组织结构。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">机制研究</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-08-24</span>
+<span>神经退行</span>
+</div>
+<div class="feed-title"><a href="/news/SASP-Paracrine-Spreading-Senescence-Human-Brain-Cell-Types-2026.html">衰老如何在大脑细胞间传播：SASP旁分泌机制研究</a></div>
+<p class="feed-desc">研究人员系统揭示了衰老相关分泌表型（SASP）如何在人脑星形胶质细胞、内皮细胞、小胶质细胞、少突胶质细胞和神经元之间通过旁分泌方式传播衰老，为靶向SASP信号干预脑衰老提供了新的治疗靶点。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">细胞衰老</span>
+<span class="tier tier-A">A</span>
+<span class="tag-date">2026-08-19</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Lung-Stem-Cell-Senescence-IPF-Transitional-Cells-2026.html">肺干细胞衰老驱动特发性肺纤维化——过渡细胞状态的致命角色</a></div>
+<p class="feed-desc">2026年8月Eur Respir Rev综述揭示：肺泡干细胞衰老是特发性肺纤维化（IPF）再生的核心障碍，过渡细胞持续状态（transitional cell persistence）是疾病进展的关键机制。这为senotherapy（衰老定向疗法）开辟了精准…</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">生物标志物</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-08-19</span>
+<span>免疫与炎症</span>
+</div>
+<div class="feed-title"><a href="/news/Senescent-Cell-Biomarkers-Inflammaging-Review-2026.html">衰老细胞生物标志物综述：追踪衰老、衰老细胞与炎症老化在年龄相关疾病中的复杂关联</a></div>
+<p class="feed-desc">MDPI Biomedicines 综述系统梳理衰老细胞（senescent cells）和炎症老化（inflammaging）的生物标志物研究现状：衰老细胞目前可量化程度高于炎症老化，但两者双向因果关系驱动免疫衰老；将标志物知识转化为临床生物标志物仍是重大挑…</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">综述进展</span>
+<span class="tier tier-A">A</span>
+<span class="tag-date">2026-08-14</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Senolytic-Therapy-Pulmonary-Metabolic-Disease-2026.html">衰老细胞清除：慢性肺病与代谢疾病共治新策略</a></div>
+<p class="feed-desc">Frontiers in Aging发表综述：衰老细胞是慢性肺部疾病（慢阻肺、特发性肺纤维化）与代谢性疾病（肥胖、2型糖尿病）的共同生物学基础，衰老细胞清除疗法有望一箭双雕。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">研究</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-08-05</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/DMA-Senolytic-Navitoclax-Metformin-Dichloroacetate-2026.html">低剂量Navitoclax新突破：DMA三药组合安全清除衰老细胞并延长寿命</a></div>
+<p class="feed-desc">研究人员将Navitoclax用量降低10倍，结合二氯醋酸盐和二甲双胍（DMA组合），开发出可同时清除衰老细胞和癌细胞、对健康细胞无毒的衰老干预方案，并在老年小鼠中延长了寿命。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">研究</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-08-03</span>
+<span>器官衰老</span>
+</div>
+<div class="feed-title"><a href="/news/EP2-Antagonism-Senescent-Neutrophil-Clearance-Organ-Aging-2026.html">Science重磅：EP2受体拮抗恢复巨噬细胞清除衰老细胞能力，多器官衰老大幅逆转</a></div>
+<p class="feed-desc">Science发表重要研究：组织驻留巨噬细胞（TRM）表面的EP2前列腺素受体是衰老的关键驱动节点——抑制EP2信号可恢复巨噬细胞吞噬清除衰老中性粒细胞的能力，在老年小鼠中实现认知衰退、 frailty、肌肉减少症、心脏功能障碍等多器官大幅逆转，为抗衰老治疗提…</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">Nature Aging</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-08-01</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Senotype-Framework-Cellular-Senescence-Nature-Aging-2026.html">Nature Aging：提出衰老表型分类学Senotype框架——重新定义衰老细胞的多样性</a></div>
+<p class="feed-desc">Nature Aging 2026 Perspective提出Senotype（衰老表型分类）框架：基于细胞来源、分子特征和生物学效应三个维度对衰老细胞进行系统性分类，区分适应性衰老细胞与有害性衰老细胞，为精准衰老干预提供新蓝图。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">免疫与炎症</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-07-22</span>
+<span>免疫与炎症</span>
+</div>
+<div class="feed-title"><a href="/news/Immune-Cell-Senescence-Bone-Diseases-2026.html">免疫细胞衰老驱动慢性骨骼疾病：骨免疫机制综述</a></div>
+<p class="feed-desc">Frontiers in Immunology 2026发表综述指出：免疫细胞衰老是连接全身衰老、慢性低度炎症与骨代谢紊乱的关键中介，直接推动骨质疏松、关节炎等慢性骨骼疾病的发展，并系统梳理了干预策略的研究进展。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">单细胞研究</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-07-18</span>
+<span>方法与工具</span>
+</div>
+<div class="feed-title"><a href="/news/Lung-Parenchyma-Cellular-Aging-Clock-Nature-Communications-2026.html">人类肺实质细胞衰老时钟——Nature Communications 单细胞研究</a></div>
+<p class="feed-desc">西奈山医院 Tsankov 团队在 Nature Communications 发表重磅研究，利用单细胞和空间分辨率技术系统性解析人类肺实质衰老，首次鉴定出多种细胞衰老标志物，并构建肺生物年龄评估时钟，为肺部年龄相关疾病风险评估提供新工具。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">细胞衰老</span>
+<span class="tier tier-A">A</span>
+<span class="tag-date">2026-07-14</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Sirt3-Activator-2APQC-Intervertebral-Disc-Degeneration-2026.html">Sirt3激活剂2-APQC逆转椎间盘退化：线粒体-衰老细胞双重靶点</a></div>
+<p class="feed-desc">Sirt3激活剂2-APQC在衰老小鼠模型中显著改善椎间盘退化，恢复线粒体功能、减少炎症与衰老细胞。这一研究将Sirt3/线粒体功能障碍通路与衰老细胞积累联系起来，为腰背痛干预提供新靶点。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">抗衰老研究</span>
+<span class="tier tier-C">C</span>
+<span class="tag-date">2026-07-09</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/SIRT6-Centenarian-Variants-Senolytic-2026.html">百岁老人SIRT6变体降低衰老细胞负担——新研究揭示延寿机制</a></div>
+<p class="feed-desc">2026年7月发表于Research Square的开放获取研究表明，百岁老人中富集的SIRT6基因变体通过减少组织中衰老细胞负担发挥保护作用，而非简单的基因过表达。这一发现为衰老干预策略指明新方向。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">表观遗传</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-06-22</span>
+<span>表观遗传</span>
+</div>
+<div class="feed-title"><a href="/news/sc-ChromAging-Single-Cell-Chromatin-Aging-Clock-2026.html">sc-ChromAging：单细胞染色质可及性衰老钟——精准解码免疫细胞衰老轨迹</a></div>
+<p class="feed-desc">基于scATAC-seq技术的单细胞染色质可及性衰老钟sc-ChromAging发布：CD4+初始T细胞预测精度最高，首次实现细胞类型特异性的表观遗传衰老轨迹解析。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">细胞衰老</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-06-14</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/LATS1-2-CD38-Endothelial-Senescence-Atherothrombosis-2026.html">LATS1/2 蛋白缺失驱动内皮细胞衰老：揭秘心梗与中风的新型分子机制</a></div>
+<p class="feed-desc">MD Anderson 研究中心于2026年6月发表研究，揭示内皮细胞中 LATS1/2 蛋白缺失如何激活 CD38 酶，引发炎症与动脉粥样硬化血栓形成，为心梗与中风提供全新治疗靶点。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">研究进展</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-06-11</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Phosphatidylcholine-Mitochondrial-Aging-Nature-Communications-2026.html">磷脂酰胆碱流失：细胞衰老的&quot;隐藏推手&quot;被揭示</a></div>
+<p class="feed-desc">德国莱布尼茨衰老研究所（FLI）团队在Nature Communications发表研究：随年龄增长的磷脂酰胆碱水平下降是线粒体功能障碍的重要驱动因素。补充磷脂酰胆碱或胆碱，可在仅两天内恢复线粒体年轻态，提示生物衰老具有可逆性。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">细胞衰老</span>
+<span class="tier tier-A">A</span>
+<span class="tag-date">2026-05-15</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Cellular-Senescence-Heterogeneity-Precision-Intervention-2026.html">衰老细胞：从清除策略到精准干预的范式转变</a></div>
+<p class="feed-desc">最新综述指出，衰老细胞并非同质群体，不同亚型对组织稳态的影响截然不同。一代衰老细胞清除药物临床推进迟缓，学界呼吁重新评估成本收益，并加速精准干预策略的落地。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">细胞衰老</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-05-12</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/ECM-Senescence-Self-Reinforcing-2026.html">细胞外基质：衰老细胞积累与持续存在中被忽视的关键环节</a></div>
+<p class="feed-desc">Nature Aging 2026年5月发表新 Comment，提出细胞外基质（ECM）通过整合素信号和机械感知调控衰老细胞的进入与存续，构成衰老相关衰老细胞积累的自我强化回路。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">细胞衰老</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-05-04</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/ECM-Aging-Senescence-Circuit-Nature-Aging-2026.html">Nature Aging：细胞外基质老化——衰老细胞积累的&quot;自强化回路&quot;</a></div>
+<p class="feed-desc">Nature Aging 2026年5月4日发表的最新评述指出：细胞外基质（ECM）老化是衰老细胞积累与持续存在的关键驱动因素。研究提出\</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">研究进展</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-04-28</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/RIPK3-MLKL-HSC-Aging-Mitochondria-2026.html">RIPK3-MLKL轴驱动造血干细胞衰老：线粒体损伤新机制</a></div>
+<p class="feed-desc">Nature Communications发表研究表明，RIPK3-MLKL信号轴介导了多种细胞应激源对造血干细胞功能的损伤作用，揭示了MLKL在线粒体层面的非坏死性新功能，为干预干细胞衰老提供新靶点。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">细胞衰老</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-04-23</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Cell-Senescence-Biological-Complexity-Nature-Reviews-2026.html">Nature Reviews 综述：重新审视细胞衰老</a></div>
+<p class="feed-desc">Nature Reviews Molecular Cell Biology 最新综述（2026年4月）指出：当前对细胞衰老的认知严重低估了其生物学复杂性。细胞衰老不仅是应激损伤的结果，更是受进化保守的程序化过程，在胚胎发育和成人生理中发挥不可或缺的作用。这一范…</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">研究进展</span>
+<span class="tier tier-A">A</span>
+<span class="tag-date">2026-04-07</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/BCL-2-Inhibition-Pulmonary-Fibrosis.html">BCL-2抑制可逆转肺纤维化：Senolytic新靶点</a></div>
+<p class="feed-desc">研究发现BCL-2蛋白持续表达阻止肺纤维化的自稳态修复，使用ABT-199（维奈托克）选择性抑制BCL-2可恢复凋亡通路，促进纤维化消退与肺再生，为特发性肺纤维化治疗带来新希望。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">综述</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-03-31</span>
+<span>神经退行</span>
+</div>
+<div class="feed-title"><a href="/news/Astrocyte-Senescence-Neurodegeneration-Review.html">星形胶质细胞衰老与神经退行：炎症与衰老的交汇点</a></div>
+<p class="feed-desc">最新开放获取综述系统梳理星形胶质细胞在衰老过程中的两种有害状态：反应性炎症与细胞衰老，揭示两者共同驱动神经退行性病变的机制，为下一代神经保护疗法提供靶点地图。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">基础研究</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-03-29</span>
+<span>神经退行</span>
+</div>
+<div class="feed-title"><a href="/news/IVNS1ABP-Mutation-Progeroid-Neuropathy.html">IVNS1ABP突变驱动早老样神经病变：细胞衰老新机制</a></div>
+<p class="feed-desc">Nature Communications发表研究，首次发现IVNS1ABP基因突变通过引发细胞分裂缺陷和DNA损伤，导致细胞衰老，表现为早老样神经病变。这一发现为理解衰老相关神经退行性病变的分子机制提供了全新视角。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">干细胞衰老</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-03-21</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Btaf1-Hematopoietic-Stem-Cell-Aging.html">染色质重塑驱动Btaf1变体过表达——揭秘造血干细胞衰老机制</a></div>
+<p class="feed-desc">Nature Communications发表：老化造血干细胞中染色质环路改变驱动Btaf1短亚型过表达，激活衰老相关基因表达，促进巨核细胞祖细胞分化，为造血系统衰老机制提供新解释。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">免疫衰老</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-03-19</span>
+<span>免疫与炎症</span>
+</div>
+<div class="feed-title"><a href="/news/Neutrophil-Senescence-Host-Defense.html">中性粒细胞衰老损害老年宿主抗菌防御——阻断TNFα可逆转</a></div>
+<p class="feed-desc">Aging Cell发表研究：老年宿主肺部中性粒细胞（PMN）呈现衰老样特征，抗菌能力下降；阻断TNFα可逆转这一过程，为改善老年人感染抵抗力提供新思路。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">研究进展</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-03-19</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Senotherapeutics-Strategies-2026.html">衰老细胞靶向治疗最新综述：从广谱清除到精准重编程</a></div>
+<p class="feed-desc">2026年最新综述系统梳理了衰老细胞靶向治疗（Senotherapeutics）领域三大下一代策略：基于免疫的衰老细胞清除、精准衰老疗法及精准重编程。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">Senolytic</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-09-09</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/SENESCENCE2030-Roadmap-Precision-Senescence-Medicine-2026.html">SENESCENCE2030 路线图：迈向精准衰老医学的共识框架</a></div>
+<p class="feed-desc">SENESCENCE2030 网络在 Nature Aging 发表共识路线图，凝聚全球研究、临床、产业与政策力量，系统规划精准衰老医学从基础研究到临床转化的五大优先方向，为细胞衰老干预的临床落地提供里程碑式指导框架。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">综述</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-06-29</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Stem-Cell-Rejuvenation-Age-Related-Degeneration-2026.html">干细胞疗法抗衰老最新进展：预适应与衰老清除的协同路径</a></div>
+<p class="feed-desc">Fight Aging!综述：干细胞再生能力随衰老下降成为多种退行性疾病的核心驱动因素，预适应（preconditioning）和衰老清除（senolytics）正成为恢复老年干细胞功能的两大主流策略。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">研究进展</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-03-23</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Bystander-Senescence-Brain-Therapy.html">靶向旁观者衰老：大脑衰老干预新思路</a></div>
+<p class="feed-desc">最新研究揭示衰老细胞通过SASP向邻近脑细胞传播衰老的机制，鉴定出星形胶质细胞、内皮细胞等多种脑细胞的特定SASP配体与受体，为阻断大脑衰老级联扩散提供新靶点。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">临床进展</span>
+<span class="tier tier-A">A</span>
+<span class="tag-date">2026-10-07</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Dasatinib-Quercetin-Senolytic-MASH-Liver-Fibrosis-RCT-2026.html">达沙替尼+槲皮素治疗 MASH 肝纤维化：31 人随机对照试验 47% 纤维化改善</a></div>
+<p class="feed-desc">一项 31 人二期随机双盲对照试验显示，间歇性 senolytic 方案（达沙替尼 100mg + 槲皮素 1000mg）在纤维化 MASH 患者中实现 47% 纤维化改善（安慰剂组 7%），但样本量小且不良事件发生率高。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">免疫与炎症</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-08-27</span>
+<span>免疫与炎症</span>
+</div>
+<div class="feed-title"><a href="/news/Cytotoxic-CD4-CTL-Senescence-Aging-2026.html">细胞毒性CD4+ T细胞：免疫系统中被低估的衰老调节者</a></div>
+<p class="feed-desc">最新综述揭示一类特殊的CD4+ T细胞——细胞毒性CD4+ T细胞（CD4 CTL）——兼具杀伤衰老细胞与驱动炎症的双重角色，为抗衰老免疫干预提供了全新的视角。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">免疫衰老</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-08-26</span>
+<span>免疫与炎症</span>
+</div>
+<div class="feed-title"><a href="/news/Cytotoxic-CD4-T-cells-Aging-Conceptual-Framework-2026.html">细胞毒性CD4+ T细胞：衰老中的双刃剑</a></div>
+<p class="feed-desc">国际免疫学综述：细胞毒性CD4+ T细胞（CD4 CTL）在衰老过程中显著扩增，既能清除衰老细胞和病毒/肿瘤，发挥保护作用；也可驱动自身免疫和神经退行性疾病，加剧组织损伤。理解其双面角色为免疫干预提供新靶点。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">综述</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-08-14</span>
+<span>代谢与营养</span>
+</div>
+<div class="feed-title"><a href="/news/Obesity-Accelerates-Aging-Mechanisms-Therapeutics-2026.html">肥胖加速衰老：机制与治疗启示</a></div>
+<p class="feed-desc">2026年综述指出肥胖通过加速衰老九大特征（包括衰老细胞积累、端粒缩短、表观遗传改变等）促进年龄相关疾病，衰老干预手段如热量限制和运动可有效减少肥胖，衰老治疗对肥胖人群或有独特价值。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">综述进展</span>
+<span class="tier tier-A">A</span>
+<span class="tag-date">2026-08-10</span>
+<span>代谢与营养</span>
+</div>
+<div class="feed-title"><a href="/news/Protein-Restriction-Hallmarks-Aging-Review-2026.html">蛋白质限制延寿：首次系统归纳六大标志</a></div>
+<p class="feed-desc">研究人员首次系统归纳了蛋白质限制（Protein Restriction, PR）延缓衰老的六大分子标志，包括代谢改善、营养感知通路激活、衰老细胞减少、线粒体功能提升、表观基因组重塑和自噬增强，为PR作为抗衰老干预提供了理论框架。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">细胞衰老</span>
+<span class="tier tier-A">A</span>
+<span class="tag-date">2026-07-20</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/SIRT3-Mitochondrial-Disc-Degeneration-2026.html">SIRT3激活剂改善线粒体功能：治疗椎间盘退变的新靶点</a></div>
+<p class="feed-desc">研究证实SIRT3在人类椎间盘退变中表达显著下调，2-APQC作为SIRT3激活剂可改善线粒体功能、减轻炎症与细胞衰老，为退行性椎间盘疾病提供新的抗衰老干预靶点。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">研究进展</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-07-14</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/SIRT3-Activation-Disc-Degeneration-Mitochondria-2026.html">SIRT3激活重编程线粒体功能逆转椎间盘退变</a></div>
+<p class="feed-desc">SIRT3激活剂2-APQC通过重编程线粒体功能，在衰老小鼠模型中显著逆转椎间盘退变，恢复线粒体功能、减轻炎症和细胞衰老，为腰痛这一最常见的衰老相关疾病提供新的治疗靶点。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">细胞衰老</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-07-10</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/DQ-Senolytic-Multi-Omics-Kidney-Rejuvenation-2026.html">达沙替尼+槲皮素多组学分析：衰老肾脏的系统性回春机制</a></div>
+<p class="feed-desc">npj Aging 发表最新研究，对12月龄自然衰老小鼠进行8个月达沙替尼+槲皮素（D+Q）senolytic 治疗，通过多组学技术系统性揭示 D+Q 恢复 Klotho、逆转肾小管衰老标志物、重塑 PPARα 脂肪酸代谢通路的多层次分子机制。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">研究进展</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-07-04</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Intermittent-Hypoxia-Epigenetic-Aging-Nature-Aging-2026.html">间歇性低氧加速老年小鼠表观遗传衰老——但可逆</a></div>
+<p class="feed-desc">2026年Nature Aging发表论文，发现间歇性低氧仅在老年小鼠中可逆加速表观遗传衰老，且提示表观遗传衰老时钟可能反映的是氧感知响应而非细胞衰老的根本驱动因素。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">研究进展</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-07-02</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Telomere-Damage-Signaling-Hematopoiesis-Immune-Restore-2026.html">靶向端粒损伤信号通路恢复造血与免疫功能</a></div>
+<p class="feed-desc">Nature Aging发表重磅研究：靶向端粒非编码RNA抑制端粒损伤信号，可恢复老年小鼠造血功能和免疫功能，并改善人类造血干细胞活性，为造血干细胞衰老干预提供全新治疗路径。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">研究进展</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-06-17</span>
+<span>免疫与炎症</span>
+</div>
+<div class="feed-title"><a href="/news/Nucleic-Acid-Mislocalization-Coagul-Aging-Review-2026.html">核酸错位激活衰老炎症：cGAS-STING通路与血栓-衰老新机制</a></div>
+<p class="feed-desc">最新开放获取综述揭示：衰老细胞中错位的DNA/RNA片段激活cGAS-STING等天然免疫受体，驱动慢性炎症和血栓倾向（coagul-aging），提出核酸可作为衰老干预的潜在靶点。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">分子机制</span>
+<span class="tier tier-A">A</span>
+<span class="tag-date">2026-05-24</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/DIS3-tRNA-Halves-Aging-NatCommun-2026.html">tRNA片段：延寿密码被破解 — DIS3核糖核酸酶延缓衰老机制新发现</a></div>
+<p class="feed-desc">韩国KAIST团队在Nature Communications发表研究：发现核糖核酸酶DIS3通过生成tRNA片段（tRH）延缓线虫和人类细胞衰老，揭示了tRNA碎片在长寿干预中的古老而保守的分子机制。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">研究</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-04-27</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Chromatin-Closure-Stem-Cell-Exhaustion-RIKEN-2026.html">RIKEN揭示：衰老过程中染色质闭合驱动干细胞耗竭新机制</a></div>
+<p class="feed-desc">RIKEN研究团队利用果蝇模型发现，衰老过程中特定染色质区域的闭合（chromatin closure）通过下调ced-6基因表达，独立于细胞过度增殖之外驱动肠道干细胞耗竭，为理解人类干细胞衰老提供了新方向。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">研究</span>
+<span class="tier tier-A">A</span>
+<span class="tag-date">2026-04-21</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Homoharringtonine-Senotherapeutic-WAT-2026.html">高三尖杉酯碱（HHT）：老牌抗白血病药物的抗衰老新发现</a></div>
+<p class="feed-desc">Nature Communications发表重磅研究：对2150种已获批药物进行系统筛选，发现高三尖杉酯碱（HHT）——一种已有数十年历史的FDA批准抗白血病药物——具有显著的衰老细胞清除活性，可改善小鼠代谢功能并延长寿命。</p>
+</div>
+</div>
+</div></section>
+<section class="section"><div class="wrap">
+<h2>其他核心概念</h2>
+<div class="topic-grid">
+<a href="/nmn.html" class="topic-card"><span class="t-name">NMN 与 NAD+ 前体</span></a>
+<a href="/rapamycin.html" class="topic-card"><span class="t-name">Rapamycin 雷帕霉素</span></a>
+<a href="/metformin.html" class="topic-card"><span class="t-name">Metformin 二甲双胍</span></a>
+<a href="/telomere.html" class="topic-card"><span class="t-name">端粒与端粒酶</span></a>
+<a href="/stemcell.html" class="topic-card"><span class="t-name">干细胞与细胞替代</span></a>
+<a href="/spermidine.html" class="topic-card"><span class="t-name">Spermidine 亚精胺</span></a>
+<a href="/melatonin.html" class="topic-card"><span class="t-name">Melatonin 褪黑素</span></a>
+</div>
+</div></section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© 2026 LongBiosci · 衰老与长寿科技资讯</p>
+    <a href="/rss.xml">RSS</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="/about/">关于</a>
+  </div>
+</footer>
 </body>
 </html>

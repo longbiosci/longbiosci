@@ -1,118 +1,556 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="referrer" content="strict-origin-when-cross-origin">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stem Cells - LongBiosci Clinical Trials</title>
-    <meta name="description" content="干细胞抗衰老研究最新进展、临床试验与机制解析 - LongBiosci朗生生物科技">
-<link rel="canonical" href="https://longbiosci.com/stemcell/">
-    <!-- Open Graph -->
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="https://longbiosci.com/stemcell/">
-    <meta property="og:title" content="干细胞 Stem Cells - LongBiosci 抗衰老">
-    <meta property="og:description" content="干细胞抗衰老研究最新进展、临床试验与机制解析 - LongBiosci朗生生物科技">
-    <meta property="og:image" content="https://longbiosci.com/og-image.png">
-    <meta property="og:site_name" content="LongBiosci">
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="干细胞 Stem Cells - LongBiosci 抗衰老">
-    <meta name="twitter:description" content="干细胞抗衰老研究最新进展、临床试验与机制解析 - LongBiosci朗生生物科技">
-    <meta name="twitter:image" content="https://longbiosci.com/og-image.png">
-
-    <link rel="icon" href="/logo.png">
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.6; color: #e0e0e0; background: #0a0a0a; min-height: 100vh; }
-        a { color: #00A86B; text-decoration: none; }
-        header { background: linear-gradient(135deg, #0a1628, #1a3a2f); color: white; padding: 3rem 2rem; text-align: center; }
-        header h1 { background: linear-gradient(135deg, #fff, #00A86B); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-        nav { background: rgba(10,22,40,0.95); padding: 1rem; text-align: center; position: sticky; top: 0; z-index: 100; }
-        nav a { color: #a0dcd0; margin: 0 1rem; }
-        .container { max-width: 1000px; margin: 0 auto; padding: 2rem; }
-        .trials-table { width: 100%; border-collapse: collapse; background: rgba(26,58,47,0.4); border-radius: 12px; overflow: hidden; }
-        .trials-table th, .trials-table td { padding: 1rem; text-align: left; border-bottom: 1px solid rgba(0,168,107,0.2); }
-        .trials-table th { background: rgba(0,168,107,0.2); color: #00A86B; }
-        .trials-table tr:hover { background: rgba(0,168,107,0.1); }
-        .status { padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.8rem; }
-        .status.recruiting { background: rgba(0,168,107,0.3); }
-        .status.active { background: rgba(0,100,200,0.3); }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>干细胞与细胞替代 — LongBiosci</title>
+<meta name="description" content="通过补充或重编程干细胞恢复组织功能，是再生医学抗衰的主要路线。本站收录 45 篇相关研究解读，按证据分级标注。">
+<link rel="canonical" href="https://longbiosci.com/stemcell.html">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://longbiosci.com/stemcell.html">
+<meta property="og:title" content="干细胞与细胞替代">
+<meta property="og:description" content="通过补充或重编程干细胞恢复组织功能，是再生医学抗衰的主要路线。本站收录 45 篇相关研究解读，按证据分级标注。">
+<meta property="og:image" content="https://longbiosci.com/og-image.png">
+<meta property="og:site_name" content="LongBiosci">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="干细胞与细胞替代">
+<meta name="twitter:description" content="通过补充或重编程干细胞恢复组织功能，是再生医学抗衰的主要路线。本站收录 45 篇相关研究解读，按证据分级标注。">
+<meta name="twitter:image" content="https://longbiosci.com/og-image.png">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="icon" type="image/svg+xml" href="/favicon-dark.svg" media="(prefers-color-scheme: dark)">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="stylesheet" href="/style.css">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "干细胞 Stem Cell - LongBiosci 抗衰老",
-  "description": "干细胞抗衰老机制、临床试验数据与健康应用 - LongBiosci朗生生物科技",
+  "headline": "干细胞与细胞替代",
+  "description": "通过补充或重编程干细胞恢复组织功能，是再生医学抗衰的主要路线。本站收录 45 篇相关研究解读，按证据分级标注。",
+  "url": "https://longbiosci.com/stemcell.html",
   "image": "https://longbiosci.com/og-image.png",
-  "author": {
-    "@type": "Organization",
-    "name": "LongBiosci"
-  },
-  "datePublished": "2026-04-05",
+  "author": { "@type": "Organization", "name": "LongBiosci 编辑部" },
   "publisher": {
     "@type": "Organization",
     "name": "LongBiosci",
     "url": "https://longbiosci.com",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://longbiosci.com/og-image.png",
-      "width": 836,
-      "height": 257
-    }
+    "logo": { "@type": "ImageObject", "url": "https://longbiosci.com/og-image.png" }
   },
-  "inLanguage": "zh-CN",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://longbiosci.com/stemcell/"
-  }
+  "inLanguage": "zh-CN"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "首页", "item": "https://longbiosci.com/" },
+    { "@type": "ListItem", "position": 2, "name": "核心概念", "item": "https://longbiosci.com/topics/" },
+    { "@type": "ListItem", "position": 3, "name": "干细胞与细胞替代", "item": "https://longbiosci.com/stemcell.html" }
+  ]
 }
 </script>
 </head>
 <body>
-    <header>
-        <img src="/logo.png" alt="LongBiosci" class="logo-inline" width="836" height="257">
-        <h1>Stem Cell Clinical Trials</h1>
-        <p>Stem cell therapy for anti-aging</p>
-    </header>
-    <nav>
-        <a href="/">← Back to Home</a>
+<a href="#main-content" class="skip-link">跳转到主要内容</a>
+<header class="site-header">
+  <div class="wrap">
+    <a href="/" class="brand"><img src="/logo-mark.svg" alt="" class="brand-mark" width="28" height="28"><span class="brand-name">LongBiosci</span></a>
+    <nav class="main-nav" aria-label="主导航">
+      <a href="/">首页</a>
+      <a href="/news/">最新</a>
+      <a href="/topics/" aria-current="page">主题专辑</a><a href="/research/">概念与工具</a><a href="/daily/">周刊</a>
+      <a href="/evidence/">证据分级</a>
+      <a href="/trials.html">临床试验</a>
+      <a href="/companies/">产业</a>
+      <a href="/about/">关于</a>
     </nav>
-    <div class="container">
-        <a href="/" class="back-home">← Back to Home</a>
-        <h2 class="section-title">Active Stem Cell Trials</h2>
-        <table class="trials-table">
-            <thead>
-                <tr><th>NCT ID</th><th>Cell Type</th><th>Indication</th><th>Status</th><th>Location</th></tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><a href="https://clinicaltrials.gov/ct2/show/NCT04174898" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer">NCT04174898</a></td>
-                    <td>MSC</td>
-                    <td>Anti-Aging</td>
-                    <td><span class="status active">Active</span></td>
-                    <td>China</td>
-                </tr>
-                <tr>
-                    <td><a href="https://clinicaltrials.gov/ct2/show/NCT07124208" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer">NCT07124208</a></td>
-                    <td>Stem Cells</td>
-                    <td>Randomized Trial</td>
-                    <td><span class="status recruiting">Recruiting</span></td>
-                    <td>USA</td>
-                </tr>
-                <tr>
-                    <td><a href="https://clinicaltrials.gov/ct2/show/NCT01828723" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer">NCT01828723</a></td>
-                    <td>HSC</td>
-                    <td>Transplantation</td>
-                    <td><span class="status active">Active</span></td>
-                    <td>USA</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+  </div>
+</header>
+<main id="main-content">
+
+<section class="hero"><div class="wrap">
+<h1>干细胞与细胞替代</h1>
+<p>通过补充或重编程干细胞恢复组织功能，是再生医学抗衰的主要路线。</p>
+</div></section>
+<section class="section"><div class="wrap">
+<div class="notice-box">
+<p><strong>站内证据概览</strong>：共 <strong>45</strong> 篇相关解读 —— A 级（人体研究）9 · B 级（临床前）36 · C 级（预印本）0</p>
+<p>⚠️ <strong>临床前为主。</strong> 该方向绝大多数证据来自动物实验或体外细胞，人体试验规模小且多处于 I 期安全性阶段。</p>
+</div>
+</div></section>
+<section class="section"><div class="wrap">
+<h2>站内相关研究（45 篇）</h2>
+<div class="feed">
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">研究进展</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-04-28</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/RIPK3-MLKL-HSC-Aging-Mitochondria-2026.html">RIPK3-MLKL轴驱动造血干细胞衰老：线粒体损伤新机制</a></div>
+<p class="feed-desc">Nature Communications发表研究表明，RIPK3-MLKL信号轴介导了多种细胞应激源对造血干细胞功能的损伤作用，揭示了MLKL在线粒体层面的非坏死性新功能，为干预干细胞衰老提供新靶点。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">干细胞衰老</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-03-21</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Btaf1-Hematopoietic-Stem-Cell-Aging.html">染色质重塑驱动Btaf1变体过表达——揭秘造血干细胞衰老机制</a></div>
+<p class="feed-desc">Nature Communications发表：老化造血干细胞中染色质环路改变驱动Btaf1短亚型过表达，激活衰老相关基因表达，促进巨核细胞祖细胞分化，为造血系统衰老机制提供新解释。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">临床进展</span>
+<span class="tier tier-A">A</span>
+<span class="tag-date">2026-10-09</span>
+<span>表观遗传</span>
+</div>
+<div class="feed-title"><a href="/news/Life-Biosciences-ER-100-First-Human-Data-AAO-2026.html">全球首个细胞重编程人体试验公布早期数据：3 名青光眼患者 2 例视野改善，剂量将升至 3 倍</a></div>
+<p class="feed-desc">Life Biosciences 在 AAO 2026 公布 ER-100 一期临床首个人体数据：单次玻璃体内注射 OSK 转录因子，3 名开角型青光眼患者随访 56 天均未见严重不良事件，2 例视野测试改善，DSMB 批准剂量升至 6×10¹¹ vg。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">神经退行</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-09-07</span>
+<span>神经退行</span>
+</div>
+<div class="feed-title"><a href="/news/Nano-ERASER-Astrocyte-Neuron-AD-2026.html">Nano-ERASER：穿越血脑屏障递送抗体，星形胶质细胞重编程为神经元逆转阿尔茨海默病</a></div>
+<p class="feed-desc">新研究提出 Nano-ERASER 技术平台，通过静脉注射将抗体选择性递送穿越血脑屏障，靶向星形胶质细胞并将其重编程为功能性神经元，为阿尔茨海默病治疗提供全新再生医学路径。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">技术突破</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-09-04</span>
+<span>神经退行</span>
+</div>
+<div class="feed-title"><a href="/news/Nano-ERASER-Astrocyte-Neuron-Alzheimer-2026.html">Nano-ERASER：穿越血脑屏障递送抗体，重编程星形胶质细胞为神经元逆转阿尔茨海默病</a></div>
+<p class="feed-desc">Cell &amp; BioSciences发表研究：Nano-ERASER系统通过静脉注射将抗PTBP1抗体递送至大脑星形胶质细胞，触发蛋白质降解介导的细胞重编程，在5XFAD阿尔茨海默病小鼠模型中实现认知功能逆转——为神经退行性疾病的原位神经再生提供全新平台。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">神经再生</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-09-04</span>
+<span>神经退行</span>
+</div>
+<div class="feed-title"><a href="/news/Nano-ERASER-Astrocyte-Neuron-Alzheimer-Reversal-2026.html">Nano-ERASER系统：静脉注射纳米抗体穿越血脑屏障，将星形胶质细胞重编程为神经元逆转阿尔茨海默病</a></div>
+<p class="feed-desc">Cell &amp; Bioelectricity发表开放获取研究：利用Nano-ERASER系统将抗PTBP1抗体经静脉注射穿越血脑屏障递送至星形胶质细胞，触发细胞重编程为功能性神经元，在5XFAD阿尔茨海默病小鼠模型中显著改善认知、学习和记忆能力。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">细胞衰老</span>
+<span class="tier tier-A">A</span>
+<span class="tag-date">2026-08-19</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Lung-Stem-Cell-Senescence-IPF-Transitional-Cells-2026.html">肺干细胞衰老驱动特发性肺纤维化——过渡细胞状态的致命角色</a></div>
+<p class="feed-desc">2026年8月Eur Respir Rev综述揭示：肺泡干细胞衰老是特发性肺纤维化（IPF）再生的核心障碍，过渡细胞持续状态（transitional cell persistence）是疾病进展的关键机制。这为senotherapy（衰老定向疗法）开辟了精准…</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">表观遗传</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-08-17</span>
+<span>表观遗传</span>
+</div>
+<div class="feed-title"><a href="/news/OSKTF-Reprogramming-Stroke-Rehabilitation-2026.html">山中因子重编程增强神经可塑性：中风后运动功能恢复新策略</a></div>
+<p class="feed-desc">Genes &amp; Diseases 发表研究：利用 Oct4/Sox2/Klf4（OSKTFs）山中因子对皮层脊髓神经元进行表观遗传重编程，可显著增强中风小鼠的神经可塑性和运动功能恢复，为衰老中枢神经损伤修复开辟新方向。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">表观遗传</span>
+<span class="tier tier-A">A</span>
+<span class="tag-date">2026-07-15</span>
+<span>表观遗传</span>
+</div>
+<div class="feed-title"><a href="/news/Systemic-Recalibration-Epigenetic-Reprogramming-Combination-2026.html">全身系统重置与表观遗传重编程：协同抗衰老双轴干预新框架</a></div>
+<p class="feed-desc">最新综述提出全身系统重置与靶向表观遗传重编程的联合策略，指出两者在生物学层面干预不同层次的衰老机制，协同使用有望实现更全面的多模式抗衰老效果。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">研究进展</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-07-15</span>
+<span>表观遗传</span>
+</div>
+<div class="feed-title"><a href="/news/Systemic-Recalibration-Epigenetic-Resetting-Longevity-2026.html">系统重校 + 表观重编程：抗衰老双靶点协同策略</a></div>
+<p class="feed-desc">最新综述提出将治疗性血浆置换（系统重校）与部分表观重编程结合，针对衰老的两条不同层次机制进行协同干预，为多模态抗衰老疗法提供理论框架。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">研究进展</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-07-14</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/SIRT3-Activation-Disc-Degeneration-Mitochondria-2026.html">SIRT3激活重编程线粒体功能逆转椎间盘退变</a></div>
+<p class="feed-desc">SIRT3激活剂2-APQC通过重编程线粒体功能，在衰老小鼠模型中显著逆转椎间盘退变，恢复线粒体功能、减轻炎症和细胞衰老，为腰痛这一最常见的衰老相关疾病提供新的治疗靶点。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">神经退行</span>
+<span class="tier tier-A">A</span>
+<span class="tag-date">2026-07-11</span>
+<span>神经退行</span>
+</div>
+<div class="feed-title"><a href="/news/BCG-Immunotherapy-CNS-Immunity-Alzheimer-Biomarkers-2026.html">BCG免疫治疗重编程中枢神经免疫并改变阿尔茨海默病生物标志物</a></div>
+<p class="feed-desc">两项开放标签临床试验显示，卡介苗（BCG）免疫治疗可在老年人外周和中枢神经系统中诱导训练有素免疫，改变阿尔茨海默病相关生物标志物——脑脊液淀粉样蛋白-β水平下降，为神经退行性疾病干预提供新策略。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">临床进展</span>
+<span class="tier tier-A">A</span>
+<span class="tag-date">2026-07-05</span>
+<span>免疫与炎症</span>
+</div>
+<div class="feed-title"><a href="/news/Sentcell-Immune-Rejuvenation-Senescent-T-Cells-Phase1-2026.html">UCL/Sentcell启动I期临床试验：靶向衰老T细胞实现免疫重编程</a></div>
+<p class="feed-desc">UCL教授Alessio Lanna创立Sentcell，将多年研究成果转化为I期临床试验，通过肌注药物重编程衰老T细胞，恢复免疫功能，初期针对HIV感染者等免疫加速衰老人群，未来有望扩展至癌症和健康老龄化。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">综述</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-06-29</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Stem-Cell-Rejuvenation-Age-Related-Degeneration-2026.html">干细胞疗法抗衰老最新进展：预适应与衰老清除的协同路径</a></div>
+<p class="feed-desc">Fight Aging!综述：干细胞再生能力随衰老下降成为多种退行性疾病的核心驱动因素，预适应（preconditioning）和衰老清除（senolytics）正成为恢复老年干细胞功能的两大主流策略。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">行业动态</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-06-28</span>
+<span>表观遗传</span>
+</div>
+<div class="feed-title"><a href="/news/Partial-Reprogramming-Funding-Boom-2026.html">部分重编程疗法融资热潮：NewLimit融资4.35亿美元推进人体试验</a></div>
+<p class="feed-desc">2026年部分表观遗传重编程疗法融资持续火热，NewLimit获得4.35亿美元融资即将启动人体试验，Retro Bio、Life Biosciences、Altos Labs等多家机构重金布局，延寿赛道进入新阶段。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">临床进展</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-06-21</span>
+<span>表观遗传</span>
+</div>
+<div class="feed-title"><a href="/news/Sinclair-SL100-Oral-Reprogramming-XPrize-2026.html">David Sinclair 公布全身体细胞重编程口服候选药物 SL-100，瞄准 XPrize $1.01 亿健康跨度大奖</a></div>
+<p class="feed-desc">MIT Technology Review 独家披露：哈佛 David Sinclair 团队计划将口服</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">研究</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-06-19</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Senolytic-Regenerative-Synergy-Healthspan-2026.html">衰老细胞清除与干细胞联合疗法显著延长健康寿命 — 突破性协同效应验证</a></div>
+<p class="feed-desc">发表于Journal of Translational Medicine的新研究首次系统验证：衰老细胞清除（senolytic）与个性化间充质干细胞（pMSC）再生疗法联用，可显著延长早衰小鼠的健康寿命与寿命，为联合抗衰老疗法提供了重要的临床前证据。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">表观遗传</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-06-12</span>
+<span>表观遗传</span>
+</div>
+<div class="feed-title"><a href="/news/NewLimit-435M-Epigenetic-Reprogramming-2026.html">长寿公司 NewLimit 融资 4.35 亿美元：表观遗传重编程迈入临床时代</a></div>
+<p class="feed-desc">长寿科技公司 NewLimit 宣布完成 4.35 亿美元 C 轮融资，由 Founders Fund 领投，计划于 2027 年启动表观遗传重编程疗法首次人体临床试验，肝脏衰老干预率先推进。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">器官衰老</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-05-11</span>
+<span>器官衰老</span>
+</div>
+<div class="feed-title"><a href="/news/EMF-Cyclic-Cellular-Reprogramming-Mice-Longevity-2026.html">电磁场诱导细胞重编程：韩国团队让老年小鼠寿命延长，研究登 Cell</a></div>
+<p class="feed-desc">韩国东国大学科学家利用电磁场（EMF）诱导周期性细胞重编程，显著延长老年小鼠寿命。75%治疗组小鼠存活至108周（相当于人类70岁），远超对照组50%。主动脉、皮肤、肝脏、肾脏等多个器官出现年轻化逆转，发表于Cell期刊。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">研究</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-04-27</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Chromatin-Closure-Stem-Cell-Exhaustion-RIKEN-2026.html">RIKEN揭示：衰老过程中染色质闭合驱动干细胞耗竭新机制</a></div>
+<p class="feed-desc">RIKEN研究团队利用果蝇模型发现，衰老过程中特定染色质区域的闭合（chromatin closure）通过下调ced-6基因表达，独立于细胞过度增殖之外驱动肠道干细胞耗竭，为理解人类干细胞衰老提供了新方向。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">深度解读</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-04-02</span>
+<span>表观遗传</span>
+</div>
+<div class="feed-title"><a href="/news/Partial-Reprogramming-Clinical-Challenges.html">体内部分重编程的临床挑战：再生与致瘤风险之间的博弈</a></div>
+<p class="feed-desc">最新综述系统梳理山中因子（OSKM）体内部分重编程的安全挑战：全能性风险、组织特异性敏感性差异、化学重编程局限性，以及实现安全临床转化的关键条件。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">肌肉衰老</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-03-26</span>
+<span>器官衰老</span>
+</div>
+<div class="feed-title"><a href="/news/MG53-Muscle-Stem-Cell-Activation.html">MG53：肌肉干细胞早期激活的应激缓冲器——或可逆转老年肌肉再生衰退</a></div>
+<p class="feed-desc">最新综述提出MG53蛋白或可通过缓冲应激相关膜损伤、维持程序化协调来促进老年肌肉干细胞早期激活，为改善骨骼肌再生能力提供新的干预靶点。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">研究进展</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-03-19</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Senotherapeutics-Strategies-2026.html">衰老细胞靶向治疗最新综述：从广谱清除到精准重编程</a></div>
+<p class="feed-desc">2026年最新综述系统梳理了衰老细胞靶向治疗（Senotherapeutics）领域三大下一代策略：基于免疫的衰老细胞清除、精准衰老疗法及精准重编程。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">基础研究</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-03-09</span>
+<span>表观遗传</span>
+</div>
+<div class="feed-title"><a href="/news/EMF-Cellular-Reprogramming-Mouse-Longevity-Cell-2026.html">韩国研究：电磁场诱导细胞重编程延长小鼠寿命</a></div>
+<p class="feed-desc">韩国东国大学团队在 Cell 发表研究，利用电磁场（EMF）触发</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">研究突破</span>
+<span class="tier tier-A">A</span>
+<span class="tag-date">2026-03-09</span>
+<span>表观遗传</span>
+</div>
+<div class="feed-title"><a href="/news/EMF-Induced-Cyclic-Reprogramming-Mouse-Longevity-2026.html">电磁场诱导环式细胞重编程：小鼠寿命显著延长</a></div>
+<p class="feed-desc">科学家利用电磁场（EMF）替代小分子化合物，诱导老年小鼠环式细胞重编程，实现寿命延长（75% vs 50-60%存活至108周）并逆转多种器官衰老指标，相关论文发表于 Ageing Research Reviews（DOI: 10.1016/j.arr.202…</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">研究</span>
+<span class="tier tier-A">A</span>
+<span class="tag-date">2026-03-08</span>
+<span>表观遗传</span>
+</div>
+<div class="feed-title"><a href="/news/EMF-Partial-Reprogramming-Longevity-Cell-2026.html">电磁场远程激活基因重编程延寿——Cell发表韩国团队研究</a></div>
+<p class="feed-desc">韩国 Dongguk University 团队在 Cell 发表研究：通过电磁场（EMF）远程激活山中因子（OSK）基因，实现小鼠体内部分细胞重编程，显著延长寿命并逆转多器官衰老，首次提出 Cyb5b 为潜在细胞EMF感受器。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">临床进展</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-03-05</span>
+<span>神经退行</span>
+</div>
+<div class="feed-title"><a href="/news/Partial-Reprogramming-Altos-Labs-Life-Biosciences-Human-Trial-2026.html">部分重编程：从胚胎重生机制到首个人体临床试验</a></div>
+<p class="feed-desc">Fight Aging! 深度解析部分细胞重编程的历史与现状：Altos Labs 发布科普文章推动公众认知，Life Biosciences 正式启动首个人体临床试验，探索治疗视神经损伤的潜力。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">研究进展</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-08-11</span>
+<span>生命历程</span>
+</div>
+<div class="feed-title"><a href="/news/tDDR-Inhibition-Hematopoietic-Aging-Nature-Aging-2026.html">靶向端粒DNA损伤反应恢复造血功能：新型反义寡核苷酸策略离临床更近一步</a></div>
+<p class="feed-desc">Nature Aging 2026发表新研究：靶向抑制端粒DNA损伤反应（tDDR）可恢复造血干细胞功能，改善衰老小鼠造血能力，并提升人类老年供体造血干细胞的离体功能，为端粒疾病和老年造血衰老提供全新治疗思路。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">研究进展</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-08-11</span>
+<span>生命历程</span>
+</div>
+<div class="feed-title"><a href="/news/tDDR-Telomere-Hematopoietic-Aging-2026.html">靶向端粒DNA损伤反应改善造血衰老</a></div>
+<p class="feed-desc">研究人员通过端粒反义寡核苷酸（tASO）抑制端粒DNA损伤反应（tDDR），恢复端粒缩短导致的造血功能障碍，并在老年小鼠和人类造血干细胞中验证有效。该研究为血液系统抗衰老治疗开辟了新方向。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">研究进展</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-07-02</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Telomere-Damage-Signaling-Hematopoiesis-Immune-Restore-2026.html">靶向端粒损伤信号通路恢复造血与免疫功能</a></div>
+<p class="feed-desc">Nature Aging发表重磅研究：靶向端粒非编码RNA抑制端粒损伤信号，可恢复老年小鼠造血功能和免疫功能，并改善人类造血干细胞活性，为造血干细胞衰老干预提供全新治疗路径。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">细胞衰老</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-05-29</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Senolytic-Tooth-Aging-NFATC1-Dental-Pulp-2026.html">衰老细胞清除新靶点：牙髓老化与Senolytic疗法修复</a></div>
+<p class="feed-desc">最新研究（Stem Cell Reports, 2026）揭示牙齿老化的分子机制：牙髓间充质干细胞中NFATC1丢失驱动牙齿衰老，而senolytic药物可通过清除衰老牙髓细胞恢复牙齿的自我修复能力，为保存天然牙提供新策略。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">细胞衰老</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-08-19</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Mitochondrial-Metabolism-Epigenetic-SASP-Nature-2026.html">Nature重磅：线粒体代谢驱动衰老细胞SASP——全新药物靶点浮现</a></div>
+<p class="feed-desc">Nature 2026年发表研究揭示：衰老细胞通过线粒体丙酮酸-柠檬酸-乙酰辅酶A轴主动调控SASP（衰老相关分泌表型）产生，表观遗传重编程是核心机制。这一发现为靶向线粒体代谢的senomorphics药物开发提供了全新靶点。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">代谢与衰老</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-08-09</span>
+<span>代谢与营养</span>
+</div>
+<div class="feed-title"><a href="/news/Non-Thyroidal-Illness-Syndrome-Longevity-Cureus-2026.html">低T3综合征：甲状腺的&quot;节能模式&quot;或是进化保留的延寿策略</a></div>
+<p class="feed-desc">Cureus发表综述提出：非甲状腺疾病综合征（NTIS）中的低T3状态并非单纯的病理现象，而是进化保守的代谢适应机制——与热量限制延寿共享相同的代谢重编程路径，GLP-1受体激动剂也触发类似反应。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">研究</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-07-29</span>
+<span>神经退行</span>
+</div>
+<div class="feed-title"><a href="/news/Plant-Mitochondria-Turmeric-Cognitive-Dysfunction-2026.html">植物线粒体口服可穿越血脑屏障：姜黄来源T-Mit融合 microglia 逆转认知衰老</a></div>
+<p class="feed-desc">最新研究证实：植物线粒体（尤其是姜黄来源）口服后能穿越肠道、进入大脑，与小胶质细胞自身的线粒体融合，通过TREM2受体和MFN1介导的融合机制，重编程细胞能量代谢并逆转老年小鼠认知功能障碍。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">细胞衰老</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-06-19</span>
+<span>细胞衰老</span>
+</div>
+<div class="feed-title"><a href="/news/Senolytic-Regenerative-Synergy-Healthspan-Lifespan-2026.html">衰老细胞清除与再生医学协同：延长健康寿命新范式</a></div>
+<p class="feed-desc">最新研究证实：衰老细胞清除（senolytic）与间充质干细胞（MSC）再生疗法联合使用，在加速衰老小鼠模型中显著延长健康寿命和总寿命，支持两者协同增效的临床前证据。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">表观遗传</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-06-18</span>
+<span>表观遗传</span>
+</div>
+<div class="feed-title"><a href="/news/DNA-Methylation-Clock-Epigenetic-Progeria-2026.html">DNA甲基化时钟：被拆解的早衰密码</a></div>
+<p class="feed-desc">Nature Genetics重磅研究：首次发现DNA甲基化超甲基化可主动驱动干细胞功能障碍与组织衰退，而非仅仅作为衰老的</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">综述</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-06-10</span>
+<span>免疫与炎症</span>
+</div>
+<div class="feed-title"><a href="/news/Mitochondria-Master-Regulator-Aging-Inflammaging-2026.html">线粒体：衰老的主调控器，连接能量代谢与慢性炎症</a></div>
+<p class="feed-desc">2026年6月开放获取综述提出线粒体功能障碍不仅是衰老的标志之一，更是干细胞耗竭与炎症衰老的 upstream 上游驱动因素，整合生物能量学、氧化还原调控与固有免疫信号，为抗衰老干预提供系统性框架。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">研究</span>
+<span class="tier tier-A">A</span>
+<span class="tag-date">2026-06-08</span>
+<span>代谢与营养</span>
+</div>
+<div class="feed-title"><a href="/news/GLP1-Muscle-Preservation-Stanford-PGDHi-2026.html">GLP-1减肥肌肉流失怎么办？斯坦福团队找到对策</a></div>
+<p class="feed-desc">斯坦福大学团队发现，PGDHi抑制剂可恢复GLP-1用药期间的肌肉干细胞再生能力，防止肌力下降。该药已进入临床试验阶段，有望成为GLP-1减肥的标准伴侣用药。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">表观遗传</span>
+<span class="tier tier-A">A</span>
+<span class="tag-date">2026-06-01</span>
+<span>表观遗传</span>
+</div>
+<div class="feed-title"><a href="/news/SIRT6-AAV-Chromatin-Rejuvenation-Liver-2026.html">Sirtuin 6过表达逆转肝脏细胞染色质衰老——Nature Communications研究</a></div>
+<p class="feed-desc">2026年5月Nature Communications发表研究，SIRT6过表达可在小鼠肝脏中逆转年龄相关的染色质结构变化，将炎症升高、代谢下降的衰老状态恢复至年轻水平，为表观遗传重编程抗衰老提供了新证据。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">表观遗传</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-05-06</span>
+<span>表观遗传</span>
+</div>
+<div class="feed-title"><a href="/news/NYT-Altos-Labs-Cell-Rejuvenation-Longevity-2026.html">《纽约时报》深度长文：长寿科技被过度炒作？但这项研究真能改变人类</a></div>
+<p class="feed-desc">《纽约时报》2026年4月27日发表重磅长文，系统介绍细胞回春与部分重编程领域：从受精卵的</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">综述解读</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-03-29</span>
+<span>表观遗传</span>
+</div>
+<div class="feed-title"><a href="/news/Epigenetic-Dysregulation-Aging-Therapeutic-Target.html">系统性表观遗传失调：衰老的核心驱动机制与治疗靶点</a></div>
+<p class="feed-desc">Nature Reviews Drug Discovery发表重磅综述，系统阐述表观遗传失调如何驱动衰老进程——涵盖核架构退化、表观遗传记忆紊乱、核小体改变和转录重编程，并提出系统性干预策略，为抗衰老药物研发指明新方向。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">综述</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-03-28</span>
+<span>表观遗传</span>
+</div>
+<div class="feed-title"><a href="/news/Systemic-Epigenetic-Dysregulation-Aging-Therapeutic-Target.html">系统性表观遗传失调：衰老的核心驱动因素与治疗靶点</a></div>
+<p class="feed-desc">Nature Reviews Molecular Cell Biology发表重磅综述，系统阐述表观遗传失调如何驱动衰老及其作为治疗靶点的潜力，涵盖核架构恶化、表观遗传记忆紊乱、核小体改变和转录重编程等机制。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">研究进展</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-03-19</span>
+<span>生命历程</span>
+</div>
+<div class="feed-title"><a href="/news/LEV-Foundation-RMR1-Results.html">LEV Foundation RMR1 结果：联合干预突破小鼠寿命上限</a></div>
+<p class="feed-desc">LEV Foundation 发布 RMR1 研究结果：1000只小鼠联合使用雷帕霉素、衰老药物、端粒酶基因疗法和干细胞移植，首次证明多种损伤修复干预具有协同效应，为人类逆龄疗法提供关键概念验证。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">临床进展</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-03-16</span>
+<span>表观遗传</span>
+</div>
+<div class="feed-title"><a href="/news/Partial-Reprogramming-Human-Trial-Glaucoma-Nature-2026.html">Nature重磅：细胞&quot;逆龄&quot;技术首启人体青光眼试验</a></div>
+<p class="feed-desc">2026年4月7日，Nature发表专题报道：部分细胞重编程技术正式启动首个人体临床试验，瞄准青光眼——这一导致不可逆失明的重要衰老相关疾病。</p>
+</div>
+<div class="feed-item">
+<div class="item-meta">
+<span class="tag">神经科学</span>
+<span class="tier tier-B">B</span>
+<span class="tag-date">2026-03-01</span>
+<span>神经退行</span>
+</div>
+<div class="feed-title"><a href="/news/Immature-Neurons-Cognitive-Resilience-Alzheimer-2026.html">认知弹性之谜：未成熟神经元如何抵御阿尔茨海默病理</a></div>
+<p class="feed-desc">荷兰神经科学研究所揭示：约30%阿尔茨海默患者从不出现症状，秘密在于未成熟神经元的自我保护程序——Cell Stem Cell重磅研究为认知弹性机制提供分子层面解释。</p>
+</div>
+</div>
+</div></section>
+<section class="section"><div class="wrap">
+<h2>其他核心概念</h2>
+<div class="topic-grid">
+<a href="/senolytic.html" class="topic-card"><span class="t-name">Senolytic 衰老细胞清除</span></a>
+<a href="/nmn.html" class="topic-card"><span class="t-name">NMN 与 NAD+ 前体</span></a>
+<a href="/rapamycin.html" class="topic-card"><span class="t-name">Rapamycin 雷帕霉素</span></a>
+<a href="/metformin.html" class="topic-card"><span class="t-name">Metformin 二甲双胍</span></a>
+<a href="/telomere.html" class="topic-card"><span class="t-name">端粒与端粒酶</span></a>
+<a href="/spermidine.html" class="topic-card"><span class="t-name">Spermidine 亚精胺</span></a>
+<a href="/melatonin.html" class="topic-card"><span class="t-name">Melatonin 褪黑素</span></a>
+</div>
+</div></section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© 2026 LongBiosci · 衰老与长寿科技资讯</p>
+    <a href="/rss.xml">RSS</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="/about/">关于</a>
+  </div>
+</footer>
 </body>
 </html>
