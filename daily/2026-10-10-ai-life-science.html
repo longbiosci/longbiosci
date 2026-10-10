@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI for Life Science · 生命科学日报 2026-10-10</title>
+<meta name="description" content="生命科学与生物产业每日动态：学术前沿、AI 驱动研发、临床监管、资本并购、衰老健康寿命、监管基建。">
+<meta name="robots" content="index, follow">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#F7F9F7; --card:#FFFFFF; --soft:#EEF4F1; --soft2:#FAFCFB;
+  --ink:#16211C; --ink2:#4C5A54; --muted:#869189;
+  --brand:#2F7D6E; --brand2:#256555; --brandl:#D7EAE3;
+  --gold:#C9973F; --goldl:#F7EBD5; --red:#B5432F; --redl:#FBE3DF;
+  --line:#E1E9E5; --line2:#C6DBD3;
+  --r:14px; --rs:9px;
+  --sh:0 4px 18px rgba(47,125,110,.07); --sh2:0 10px 30px rgba(47,125,110,.16);
+  --grad:linear-gradient(135deg,#2F7D6E 0%,#6BA98F 55%,#C9973F 100%);
+  --gradsoft:linear-gradient(135deg,#E4F0EA 0%,#F8F0E0 100%);
+  --f:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif;
+  --fm:"SF Mono",Menlo,Consolas,monospace;
+  --t:.25s cubic-bezier(.4,0,.2,1);
+}
+html{scroll-behavior:smooth;scroll-padding-top:88px}
+body{font-family:var(--f);background:var(--bg);color:var(--ink);line-height:1.65;
+  overflow-x:hidden;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+
+.nav{position:sticky;top:0;z-index:60;background:rgba(247,249,247,.92);
+  backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav-in{max-width:1180px;margin:0 auto;padding:11px 24px;display:flex;align-items:center;gap:16px}
+.brand{font-weight:800;font-size:.95rem;white-space:nowrap;display:flex;align-items:center;gap:8px}
+.brand i{width:9px;height:9px;border-radius:50%;background:var(--grad);display:block;
+  box-shadow:0 0 0 3px var(--brandl)}
+.navpills{display:flex;gap:6px;flex:1;overflow-x:auto;scrollbar-width:none}
+.navpills::-webkit-scrollbar{display:none}
+.navpill{display:inline-flex;align-items:center;gap:7px;font-size:.82rem;color:var(--ink2);
+  padding:6px 13px;border-radius:999px;white-space:nowrap;border:1px solid transparent;transition:var(--t)}
+.navpill:hover{background:var(--brandl);color:var(--brand2)}
+.navpill.on{background:var(--brand);color:#fff;box-shadow:0 3px 12px rgba(47,125,110,.28)}
+.navpill.on .np-dot{background:#fff!important}
+.np-dot{width:7px;height:7px;border-radius:50%;flex:none}
+.np-num{font-family:var(--fm);font-size:.7rem;opacity:.7}
+
+.hero{position:relative;overflow:hidden;background:var(--gradsoft);
+  border-bottom:1px solid var(--line);padding:64px 0 46px}
+.hero::before,.hero::after{content:"";position:absolute;border-radius:50%;pointer-events:none}
+.hero::before{top:-130px;right:-90px;width:340px;height:340px;
+  background:radial-gradient(circle,rgba(47,125,110,.16),transparent 70%)}
+.hero::after{bottom:-110px;left:-70px;width:260px;height:260px;
+  background:radial-gradient(circle,rgba(201,151,63,.16),transparent 70%)}
+.kicker{display:inline-flex;align-items:center;gap:8px;font-size:.74rem;font-weight:700;
+  letter-spacing:.13em;color:var(--brand2);background:#fff;border:1px solid var(--line2);
+  padding:6px 14px;border-radius:999px;position:relative}
+.kicker b{width:6px;height:6px;border-radius:50%;background:var(--brand);display:block}
+h1{font-size:clamp(1.85rem,5vw,3rem);line-height:1.16;margin:18px 0 10px;
+  letter-spacing:-.02em;position:relative;font-weight:800}
+.hdate{font-size:.97rem;color:var(--ink2);font-family:var(--fm);position:relative}
+.lead{margin-top:26px;background:#fff;border:1px solid var(--line);border-left:4px solid var(--brand);
+  border-radius:var(--r);padding:18px 20px;box-shadow:var(--sh);position:relative;max-width:880px}
+.lead .lt{font-size:.67rem;font-weight:800;letter-spacing:.12em;color:var(--brand2);margin-bottom:6px}
+.lead h2{font-size:1.05rem;line-height:1.5;margin-bottom:6px;font-weight:700}
+.lead p{font-size:.88rem;color:var(--ink2)}
+.stats{display:grid;grid-template-columns:1.4fr repeat(6,1fr);gap:9px;margin-top:26px;position:relative}
+.stat{background:#fff;border:1px solid var(--line);border-radius:var(--rs);padding:12px 6px;
+  text-align:center;transition:var(--t)}
+.stat:hover{border-color:var(--line2);box-shadow:var(--sh);transform:translateY(-2px)}
+.stat.hero-stat{background:var(--grad);border-color:transparent}
+.stat.hero-stat .s-num{color:#fff!important}
+.stat.hero-stat .s-label{color:rgba(255,255,255,.92)}
+.s-num{display:block;font-size:1.5rem;font-weight:800;line-height:1.2;font-family:var(--fm)}
+.s-label{display:block;font-size:.7rem;color:var(--muted);margin-top:2px}
+
+.block{padding-top:44px}
+.block-head{display:flex;align-items:flex-end;gap:12px;margin-bottom:16px;
+  padding-bottom:10px;border-bottom:2px solid var(--line)}
+.bh-l{flex:1;min-width:0}
+.block-head h2{font-size:1.22rem;font-weight:800;display:flex;align-items:center;gap:10px}
+.bdot{width:9px;height:9px;border-radius:3px;display:block;flex:none}
+.bdesc{font-size:.79rem;color:var(--muted);margin-top:3px;padding-left:19px}
+.bcount{font-size:.76rem;color:var(--brand2);font-family:var(--fm);
+  background:var(--brandl);padding:3px 11px;border-radius:999px;white-space:nowrap}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:15px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);
+  padding:17px 18px 14px;display:flex;flex-direction:column;position:relative;overflow:hidden;
+  transition:var(--t)}
+.card::before{content:"";position:absolute;left:0;top:0;height:3px;width:100%;
+  background:var(--accent);opacity:.85}
+.card:hover{transform:translateY(-3px);box-shadow:var(--sh2);border-color:var(--line2)}
+.c-top{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:9px}
+.c-no{font-family:var(--fm);font-size:.92rem;font-weight:800;color:var(--brand);
+  background:var(--brandl);padding:2px 9px;border-radius:7px;line-height:1.5}
+.chip{font-size:.7rem;color:var(--ink2);background:var(--soft);border:1px solid var(--line);
+  padding:2px 9px;border-radius:999px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tag{font-size:.66rem;font-weight:700;padding:2px 7px;border-radius:5px;
+  color:#7A4A12;background:var(--goldl);border:1px solid #E7D2A8}
+.tag.监管暂停,.tag.失败,.tag.警示{color:var(--red);background:var(--redl);border:1px solid #F0C4BC}
+.c-title{font-size:1rem;font-weight:700;line-height:1.48;margin-bottom:8px}
+.c-sum{font-size:.85rem;color:var(--ink2);line-height:1.68;flex:1}
+.c-foot{display:flex;align-items:center;gap:10px;margin-top:13px;padding-top:10px;
+  border-top:1px dashed var(--line)}
+.c-time{font-size:.73rem;color:var(--muted);font-family:var(--fm)}
+.c-go{margin-left:auto;font-size:.78rem;font-weight:700;color:var(--brand);
+  display:inline-flex;align-items:center;gap:4px;transition:var(--t)}
+.c-go:hover{color:var(--brand2);gap:7px}
+
+footer{margin-top:52px;padding:30px 0 40px;background:var(--soft);border-top:1px solid var(--line)}
+.f-top{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;
+  padding-bottom:14px;margin-bottom:14px;border-bottom:1px dashed var(--line2)}
+.f-total{font-size:.95rem;font-weight:700;display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+.f-total b{font-family:var(--fm);font-size:1.28rem;color:var(--brand)}
+.f-src{font-size:.79rem;color:var(--ink2);text-align:right}
+.f-note{font-size:.79rem;color:var(--ink2);background:#fff;border:1px solid var(--line);
+  border-radius:var(--rs);padding:11px 14px;margin-bottom:13px;line-height:1.75}
+.f-bot{font-size:.74rem;color:var(--muted);line-height:1.85}
+.home-link{color:var(--brand);font-weight:700}
+
+@media(max-width:1000px){.stats{grid-template-columns:repeat(4,1fr)}.stat.hero-stat{grid-column:span 4}}
+@media(max-width:620px){
+  .wrap,.nav-in{padding-left:16px;padding-right:16px}
+  .hero{padding:44px 0 34px}
+  .stats{grid-template-columns:repeat(2,1fr);gap:8px}
+  .stat.hero-stat{grid-column:span 2}
+  .grid{grid-template-columns:1fr}
+  .block{padding-top:34px}
+  .bdesc{display:none}
+  .f-src{text-align:left}
+  .lead{padding:15px 16px}
+}
+@media print{.nav{display:none}.card{break-inside:avoid}body{background:#fff}}
+</style>
+</head>
+<body>
+
+<nav class="nav"><div class="nav-in">
+  <span class="brand"><i></i>AI for Life Science · 日报</span>
+  <div class="navpills" id="pills"><a class="navpill" href="#sec-research"><span class="np-dot" style="background:#2F7D6E"></span>学术前沿与论文<span class="np-num">7</span></a><a class="navpill" href="#sec-ai"><span class="np-dot" style="background:#3B6FB6"></span>AI 与计算驱动研发<span class="np-num">4</span></a><a class="navpill" href="#sec-clinical"><span class="np-dot" style="background:#8A5CC7"></span>临床试验与监管审批<span class="np-num">5</span></a><a class="navpill" href="#sec-capital"><span class="np-dot" style="background:#C0743A"></span>资本、融资与并购<span class="np-num">4</span></a><a class="navpill" href="#sec-longevity"><span class="np-dot" style="background:#5B8C3E"></span>衰老与健康寿命<span class="np-num">5</span></a><a class="navpill" href="#sec-platform"><span class="np-dot" style="background:#A0503C"></span>监管、基建与产业环境<span class="np-num">4</span></a></div>
+</div></nav>
+
+<header class="hero"><div class="wrap">
+  <span class="kicker"><b></b>每日动态 · 生命科学 · 生物产业</span>
+  <h1>AI for Life Science 日报</h1>
+  <p class="hdate">2026 年 10 月 10 日 · 星期六 · 今日 29 条</p>
+  <div class="lead">
+    <div class="lt">今日焦点</div>
+    <h2>蛋白有了「出生证明」，同日四只催化剂同日到期</h2>
+    <p>DeepMind 在 Nature 给出 SynthID Bio——把可验证水印直接写进氨基酸序列与原子坐标，合成后仍可检出，为 AI 生成蛋白解决了「来源证明」这个基础设施问题。与之呼应，今日 I-DXd 小细胞肺癌 PDUFA 到期，同日还有三只 III 期读数；而 Viatris 44.8% 溢价收购 Pacira，则说明产业资本仍在为已验证的现金流资产付溢价。</p>
+  </div>
+  <div class="stats">
+    <a class="stat hero-stat" href="#sec-research"><span class="s-num">29</span><span class="s-label">今日总条数</span></a>
+    <a class="stat" href="#sec-research"><span class="s-num" style="color:#2F7D6E">7</span><span class="s-label">学术前沿与论文</span></a><a class="stat" href="#sec-ai"><span class="s-num" style="color:#3B6FB6">4</span><span class="s-label">AI 与计算驱动研发</span></a><a class="stat" href="#sec-clinical"><span class="s-num" style="color:#8A5CC7">5</span><span class="s-label">临床试验与监管审批</span></a><a class="stat" href="#sec-capital"><span class="s-num" style="color:#C0743A">4</span><span class="s-label">资本、融资与并购</span></a><a class="stat" href="#sec-longevity"><span class="s-num" style="color:#5B8C3E">5</span><span class="s-label">衰老与健康寿命</span></a><a class="stat" href="#sec-platform"><span class="s-num" style="color:#A0503C">4</span><span class="s-label">监管、基建与产业环境</span></a>
+  </div>
+</div></header>
+
+<main class="wrap"><section class="block" id="sec-research"><div class="block-head"><div class="bh-l"><h2><span class="bdot" style="background:#2F7D6E"></span>学术前沿与论文</h2><p class="bdesc">顶刊与预印本里的机制发现、模型与方法</p></div><span class="bcount">7 条</span></div><div class="grid"><article class="card" style="--accent:#2F7D6E"><div class="c-top"><span class="c-no">01</span><span class="chip">Nature / Times of India</span></div><h3 class="c-title">Nature：DeepMind 用 SynthID Bio 给 AI 生成蛋白「烙」上可验证水印</h3><p class="c-sum">水印直接嵌入氨基酸序列与原子坐标，不影响功能与结构精度，且合成后仍可检出；Hassabis 称生物安全是 AI 时代最紧迫…</p><div class="c-foot"><span class="c-time">10月9日</span><a class="c-go" href="http://m.timesofindia.com/technology/tech-news/Google-DeepMind-watermarks-AI-generated-protein-as-company-chief-AI-scientist-Demis-Hassabis-flags-Biosecurity-as-urgent-AI-era-challenge/affcmtoi_articleshow/134619027.cms" target="_blank" rel="noopener noreferrer">阅读原文<svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></article><article class="card" style="--accent:#2F7D6E"><div class="c-top"><span class="c-no">02</span><span class="chip">Immunity / Live Science</span></div><h3 class="c-title">Immunity：血液蛋白特征可预判 17 年健康衰老走向</h3><p class="c-sum">GZMK⁺与 GZMB⁺ 效应记忆 CD8⁺ T 细胞比例与衰老轨迹相关；用 329 人建模型后在 4.8 万 UK Bi…</p><div class="c-foot"><span class="c-time">10月9日</span><a class="c-go" href="https://www.livescience.com/health/aging/scientists-have-identified-a-protein-signature-in-blood-that-could-predict-healthy-aging" target="_blank" rel="noopener noreferrer">阅读原文<svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></article><article class="card" style="--accent:#2F7D6E"><div class="c-top"><span class="c-no">03</span><span class="chip">Science / Bio Precision Aging</span></div><h3 class="c-title">Science：狗的表观遗传时钟解释「体型越大寿命越短」</h3><p class="c-sum">分析 894 条狗的 1640 个甲基化组，大型犬与雄性犬分子衰老更快；体型相关甲基化变化集中在转座子，性别相关则聚集于…</p><div class="c-foot"><span class="c-time">10月8日</span><a class="c-go" href="https://www.bioprecisionaging.com/post/senolytics-clear-liver-scarring-in-a-small-trial-a-direct-ampk-activator-extends-lifespan-in-three" target="_blank" rel="noopener noreferrer">阅读原文<svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></article><article class="card" style="--accent:#2F7D6E"><div class="c-top"><span class="c-no">04</span><span class="chip">Nature / 科学网医疗</span></div><h3 class="c-title">Nature：果蝇 Lsp2 蛋白把「吃得饱」与「活得久」拆开</h3><p class="c-sum">湖南师大翟宗昭团队联合湖南大学、中科院上海营养健康所，从幼虫储存蛋白 Lsp2 入手，发现关闭它可精准降低核糖体蛋白翻译并…</p><div class="c-foot"><span class="c-time">10月9日</span><a class="c-go" href="https://medical.sciencenet.cn/sbhtmlnews/2026/10/372002.shtm" target="_blank" rel="noopener noreferrer">阅读原文<svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></article><article class="card" style="--accent:#2F7D6E"><div class="c-top"><span class="c-no">05</span><span class="chip">Aging Cell / Bio Precision Aging</span><span class="tag 动物数据">动物数据</span></div><h3 class="c-title">Aging Cell：直接激活 AMPK 在酵母、线虫、果蝇三个物种延长寿命</h3><p class="c-sum">用化合物 991 直接结合并激活 AMPK，寿命效应在缺失功能性 AMPK 的 worm 与酵母中消失，支持机制；但小鼠仅…</p><div class="c-foot"><span class="c-time">10月上旬</span><a class="c-go" href="https://www.bioprecisionaging.com/post/senolytics-clear-liver-scarring-in-a-small-trial-a-direct-ampk-activator-extends-lifespan-in-three" target="_blank" rel="noopener noreferrer">阅读原文<svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></article><article class="card" style="--accent:#2F7D6E"><div class="c-top"><span class="c-no">06</span><span class="chip">medRxiv / DeepTech</span><span class="tag 预印本">预印本</span></div><h3 class="c-title">medRxiv：HealthFlux 首个全景模态人类健康世界模型</h3><p class="c-sum">斯坦福应可钧联合 UW、HMS、MIT 发布；把多模态健康数据当作「整部电影」而非零散帧推演连续健康轨迹，指向 Delph…</p><div class="c-foot"><span class="c-time">10月10日</span><a class="c-go" href="https://www.toutiao.com/article/7694893411026862632" target="_blank" rel="noopener noreferrer">阅读原文<svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></article><article class="card" style="--accent:#2F7D6E"><div class="c-top"><span class="c-no">07</span><span class="chip">Nature Biotechnology / 腾讯新闻</span></div><h3 class="c-title">Nature Biotechnology：伯克利团队破解可编程合成酶量产瓶颈</h3><p class="c-sum">王子龙等把生物制造的产量瓶颈往前推了几个数量级；生物制造、计算预测、成本与碳排放优化、材料性能验证各占四分之一，论文发表后…</p><div class="c-foot"><span class="c-time">10月9日</span><a class="c-go" href="https://news.qq.com/rain/a/20261009A05TIT00" target="_blank" rel="noopener noreferrer">阅读原文<svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></article></div></section><section class="block" id="sec-ai"><div class="block-head"><div class="bh-l"><h2><span class="bdot" style="background:#3B6FB6"></span>AI 与计算驱动研发</h2><p class="bdesc">AI 药物发现的落地进展、联邦学习与蛋白质模型</p></div><span class="bcount">4 条</span></div><div class="grid"><article class="card" style="--accent:#3B6FB6"><div class="c-top"><span class="c-no">08</span><span class="chip">Nature / ScienceAI</span></div><h3 class="c-title">Nature：5 家药企联邦训练 OpenFold3，模型显著超过纯公开数据版本</h3><p class="c-sum">用超2 万份未公开的专有蛋白质—小分子结构数据做联邦训练，蛋白质—药物相互作用预测表现明显更好，且优于任一单家药企单独训练。</p><div class="c-foot"><span class="c-time">10月9日</span><a class="c-go" href="https://dy.163.com/article/L8Q6VRCU0552A8U8.html" target="_blank" rel="noopener noreferrer">阅读原文<svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></article><article class="card" style="--accent:#3B6FB6"><div class="c-top"><span class="c-no">09</span><span class="chip">投资界 / 猎云网 / 新浪财经</span></div><h3 class="c-title">利太智药完成近 5000 万元种子轮，做 AI 原生多肽药物设计</h3><p class="c-sum">讯飞创投与 L2F 光源基金联合投资；搭「数据—模型—分子」三层体系与 72 小时生成—合成闭环，已在多个肿瘤与代谢靶点完…</p><div class="c-foot"><span class="c-time">10月10日</span><a class="c-go" href="https://finance.sina.cn/2026-10-10/detail-iniusxps0709461.d.html" target="_blank" rel="noopener noreferrer">阅读原文<svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></article><article class="card" style="--accent:#3B6FB6"><div class="c-top"><span class="c-no">10</span><span class="chip">澎湃新闻</span></div><h3 class="c-title">Nature 讨论：AI 正从「预测器」进化为「发现者」</h3><p class="c-sum">DeepMind 的 Co-Scientist 与 FutureHouse 的 Robin 均用多智能体架构；Robin…</p><div class="c-foot"><span class="c-time">10月9日</span><a class="c-go" href="https://www.thepaper.cn/newsDetail_forward_34212157" target="_blank" rel="noopener noreferrer">阅读原文<svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></article><article class="card" style="--accent:#3B6FB6"><div class="c-top"><span class="c-no">11</span><span class="chip">ScienceAI</span></div><h3 class="c-title">蛋白质 AI 的真正瓶颈不在公开数据，而在药企未公开的「隐藏库存」</h3><p class="c-sum">PDB 中实验确定的蛋白质—类药分子相互作用案例仅约 1 万个，而这批隐藏数据的规模估计可能已超过 PDB 总量。</p><div class="c-foot"><span class="c-time">10月9日</span><a class="c-go" href="https://dy.163.com/article/L8Q6VRCU0552A8U8.html" target="_blank" rel="noopener noreferrer">阅读原文<svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></article></div></section><section class="block" id="sec-clinical"><div class="block-head"><div class="bh-l"><h2><span class="bdot" style="background:#8A5CC7"></span>临床试验与监管审批</h2><p class="bdesc">三期读数、获批与失败、监管处置</p></div><span class="bcount">5 条</span></div><div class="grid"><article class="card" style="--accent:#8A5CC7"><div class="c-top"><span class="c-no">12</span><span class="chip">pdufa.bio / BioPharmaWatch</span></div><h3 class="c-title">今天（10 月 10 日）多只重磅催化剂同日落地</h3><p class="c-sum">First若inatamab deruxtecan（I-DXd）小细胞肺癌 PDUFA 今日到期；同日还有 Zenas 的…</p><div class="c-foot"><span class="c-time">10月10日</span><a class="c-go" href="https://www.biopharmawatch.com/news/MNKD/mannkind-furoscix-readyflow-hfsa-2026" target="_blank" rel="noopener noreferrer">阅读原文<svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></article><article class="card" style="--accent:#8A5CC7"><div class="c-top"><span class="c-no">13</span><span class="chip">BioPharmaWatch</span></div><h3 class="c-title">I-DXd 小细胞肺癌适应症今日迎来 FDA 决议</h3><p class="c-sum">第一三共与默克共同开发，PDUFA 目标日 10 月 10 日；孤儿药与优先审评资格，BioPharmaWatch 给出的…</p><div class="c-foot"><span class="c-time">10月10日</span><a class="c-go" href="https://www.biopharmawatch.com/news/MNKD/mannkind-furoscix-readyflow-hfsa-2026" target="_blank" rel="noopener noreferrer">阅读原文<svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></article><article class="card" style="--accent:#8A5CC7"><div class="c-top"><span class="c-no">14</span><span class="chip">CancerNetwork / FDA 监管文件</span><span class="tag 监管暂停">监管暂停</span></div><h3 class="c-title">FDA 对 HER3 ADC（BNT326/YL202）I 期试验下达部分暂停</h3><p class="c-sum">MediLink 已暂停美国新患者入组。FDA 要求提交 YL202-INT-101-01 与 YL202-CN-201-…</p><div class="c-foot"><span class="c-time">10月上旬</span><a class="c-go" href="https://www.cancernetwork.com/view/fda-places-partial-hold-on-bnt326-yl202-trial-for-nsclc-breast-cancer" target="_blank" rel="noopener noreferrer">阅读原文<svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></article><article class="card" style="--accent:#8A5CC7"><div class="c-top"><span class="c-no">15</span><span class="chip">Obesity Science &amp; Practice / Bio Precision Aging</span><span class="tag 先导试验">先导试验</span></div><h3 class="c-title">GLP-1 停药后减重反弹：小样本随机试验给出两个低风险干预方向</h3><p class="c-sum">Tufts 与 UT Southwestern 在 Obesity Science &amp; Practice 发表 39 人先…</p><div class="c-foot"><span class="c-time">10月7日</span><a class="c-go" href="https://www.bioprecisionaging.com/post/senolytics-clear-liver-scarring-in-a-small-trial-a-direct-ampk-activator-extends-lifespan-in-three" target="_blank" rel="noopener noreferrer">阅读原文<svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></article><article class="card" style="--accent:#8A5CC7"><div class="c-top"><span class="c-no">16</span><span class="chip">ET Pharma / FDA</span></div><h3 class="c-title">礼来快速跟进，FDA 预计 12 月 27 日前决定其速效美洛昔康</h3><p class="c-sum">Viatris 收购 Pacira 后，FDA 将于 12 月 27 日前决定是否批准其速效美洛昔康用于中重度急性疼痛；被…</p><div class="c-foot"><span class="c-time">10月10日</span><a class="c-go" href="https://pharma.economictimes.indiatimes.com/news/mergers-and-acquisitions/viatris-to-buy-pain-therapy-maker-pacira-biosciences-for-1-65-billion/134845926" target="_blank" rel="noopener noreferrer">阅读原文<svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></article></div></section><section class="block" id="sec-capital"><div class="block-head"><div class="bh-l"><h2><span class="bdot" style="background:#C0743A"></span>资本、融资与并购</h2><p class="bdesc">IPO、并购、授权交易与二级市场</p></div><span class="bcount">4 条</span></div><div class="grid"><article class="card" style="--accent:#C0743A"><div class="c-top"><span class="c-no">17</span><span class="chip">ET Pharma</span></div><h3 class="c-title">Viatris 16.5 亿美元收购 Pacira，押注非阿片类镇痛</h3><p class="c-sum">每股 36.50 美元，较前收盘溢价 44.8%；Pacira 股价盘中涨约 44%，Viatris 跌近 2%。分析师称…</p><div class="c-foot"><span class="c-time">10月10日</span><a class="c-go" href="https://pharma.economictimes.indiatimes.com/news/mergers-and-acquisitions/viatris-to-buy-pain-therapy-maker-pacira-biosciences-for-1-65-billion/134845926" target="_blank" rel="noopener noreferrer">阅读原文<svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></article><article class="card" style="--accent:#C0743A"><div class="c-top"><span class="c-no">18</span><span class="chip">ET Pharma</span></div><h3 class="c-title">Pacira 两款核心药物 2025 年净销售额 6.92 亿美元</h3><p class="c-sum">Exparel（术后急性疼痛）5.751 亿、Zilretta（膝骨关节炎疼痛）1.166 亿。Viatris 称将把两药…</p><div class="c-foot"><span class="c-time">10月10日</span><a class="c-go" href="https://pharma.economictimes.indiatimes.com/news/mergers-and-acquisitions/viatris-to-buy-pain-therapy-maker-pacira-biosciences-for-1-65-billion/134845926" target="_blank" rel="noopener noreferrer">阅读原文<svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></article><article class="card" style="--accent:#C0743A"><div class="c-top"><span class="c-no">19</span><span class="chip">ET Pharma</span></div><h3 class="c-title">交易预计 2026 年底前完成，Viatris 称将即时增厚财务指引</h3><p class="c-sum">主要以超额现金支付，其余为短期借款；公司称对总杠杆率影响极小。此前 Viatris 因印度工厂火灾等制造问题承压，并面临仿…</p><div class="c-foot"><span class="c-time">10月10日</span><a class="c-go" href="https://pharma.economictimes.indiatimes.com/news/mergers-and-acquisitions/viatris-to-buy-pain-therapy-maker-pacira-biosciences-for-1-65-billion/134845926" target="_blank" rel="noopener noreferrer">阅读原文<svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></article><article class="card" style="--accent:#C0743A"><div class="c-top"><span class="c-no">20</span><span class="chip">ET Pharma / Oppenheimer</span></div><h3 class="c-title">Oppenheimer：Pacira 股价贴近要价，说明市场认为交易会成交且几无溢价空间</h3><p class="c-sum">分析师 Les Sulewski 指出，Pacira 自 2025 年 11 月起持续面临激进投资者压力，股价贴近报价反映…</p><div class="c-foot"><span class="c-time">10月10日</span><a class="c-go" href="https://pharma.economictimes.indiatimes.com/news/mergers-and-acquisitions/viatris-to-buy-pain-therapy-maker-pacira-biosciences-for-1-65-billion/134845926" target="_blank" rel="noopener noreferrer">阅读原文<svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></article></div></section><section class="block" id="sec-longevity"><div class="block-head"><div class="bh-l"><h2><span class="bdot" style="background:#5B8C3E"></span>衰老与健康寿命</h2><p class="bdesc">衰老机制、免疫衰老与健康寿命评估</p></div><span class="bcount">5 条</span></div><div class="grid"><article class="card" style="--accent:#5B8C3E"><div class="c-top"><span class="c-no">21</span><span class="chip">Immunity / 腾讯网</span></div><h3 class="c-title">免疫衰老关键机制：GZMB 偏高者远期结局更差</h3><p class="c-sum">华盛顿大学、圣路易斯儿童医院与伦敦国王学院联合团队发现，GZMB⁺效应记忆 CD8⁺ T 细胞占比更高者，后续不良健康结局…</p><div class="c-foot"><span class="c-time">10月9日</span><a class="c-go" href="https://new.qq.com/rain/a/20261010A088NX00" target="_blank" rel="noopener noreferrer">阅读原文<svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></article><article class="card" style="--accent:#5B8C3E"><div class="c-top"><span class="c-no">22</span><span class="chip">Immunity / 腾讯网</span></div><h3 class="c-title">三阶段验证路径：2600 人单细胞 → 329 人建模 → 4.8 万人 UK Biobank</h3><p class="c-sum">研究强调健康衰老特征是两类细胞维持特定平衡，而非单一细胞数量无限升高——这为「同龄人衰老分化」提供了细胞学解释。</p><div class="c-foot"><span class="c-time">10月9日</span><a class="c-go" href="https://new.qq.com/rain/a/20261010A088NX00" target="_blank" rel="noopener noreferrer">阅读原文<svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></article><article class="card" style="--accent:#5B8C3E"><div class="c-top"><span class="c-no">23</span><span class="chip">Live Science</span><span class="tag 观察性研究">观察性研究</span></div><h3 class="c-title">研究者强调相关性不等于因果，且小鼠与人类 granzyme K 细胞并不等价</h3><p class="c-sum">通讯作者 Artyomov 明示该比值可能是疾病的结果而非原因；Allen Institute 的 Gustafson 指…</p><div class="c-foot"><span class="c-time">10月9日</span><a class="c-go" href="https://www.livescience.com/health/aging/scientists-have-identified-a-protein-signature-in-blood-that-could-predict-healthy-aging" target="_blank" rel="noopener noreferrer">阅读原文<svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></article><article class="card" style="--accent:#5B8C3E"><div class="c-top"><span class="c-no">24</span><span class="chip">Nature / 科学网医疗</span></div><h3 class="c-title">森实蝇研究给出「只关促衰老通路」的具体靶点</h3><p class="c-sum">Lsp2 是受必需氨基酸特异诱导的脂肪因子，被称为「蛋白质质检员」；此前被当作幼虫储存蛋白，功能标签明确，在衰老研究中长期…</p><div class="c-foot"><span class="c-time">10月9日</span><a class="c-go" href="https://medical.sciencenet.cn/sbhtmlnews/2026/10/372002.shtm" target="_blank" rel="noopener noreferrer">阅读原文<svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></article><article class="card" style="--accent:#5B8C3E"><div class="c-top"><span class="c-no">25</span><span class="chip">medRxiv / DeepTech</span><span class="tag 预印本">预印本</span></div><h3 class="c-title">HealthFlux 试图把健康推演从「逐字写句」变成「先看全片」</h3><p class="c-sum">研究者用沙漏比喻生物学各尺度的建模条件：分子端已接近物理形式，中间的细胞与器官尺度最难观察，人群端则恰好积累了长期轨迹。</p><div class="c-foot"><span class="c-time">10月10日</span><a class="c-go" href="https://www.toutiao.com/article/7694893411026862632" target="_blank" rel="noopener noreferrer">阅读原文<svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></article></div></section><section class="block" id="sec-platform"><div class="block-head"><div class="bh-l"><h2><span class="bdot" style="background:#A0503C"></span>监管、基建与产业环境</h2><p class="bdesc">生物安全、政策与基础设施</p></div><span class="bcount">4 条</span></div><div class="grid"><article class="card" style="--accent:#A0503C"><div class="c-top"><span class="c-no">26</span><span class="chip">Times of India / Nature</span></div><h3 class="c-title">合成生物安全成焦点：熟悉的机器生成序列可绕过基因合成筛查</h3><p class="c-sum">DeepMind 点出风险：陌生的机器生成序列可能绕过传统基因合成过滤器，未经验证的合成结构数据则可能污染开放获取的科学数…</p><div class="c-foot"><span class="c-time">10月上旬</span><a class="c-go" href="http://m.timesofindia.com/technology/tech-news/Google-DeepMind-watermarks-AI-generated-protein-as-company-chief-AI-scientist-Demis-Hassabis-flags-Biosecurity-as-urgent-AI-era-challenge/affcmtoi_articleshow/134619027.cms" target="_blank" rel="noopener noreferrer">阅读原文<svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></article><article class="card" style="--accent:#A0503C"><div class="c-top"><span class="c-no">27</span><span class="chip">Nature / 生物探索</span></div><h3 class="c-title">SynthID Bio 分序列与结构两条路径实现水印</h3><p class="c-sum">序列路径把统计偏好写进氨基酸选择，经 AlphaProteo 与定制 ProteinMPNN 验证后结合亲和力与未标记版本…</p><div class="c-foot"><span class="c-time">10月上旬</span><a class="c-go" href="https://www.toutiao.com/article/7694535247929442867/" target="_blank" rel="noopener noreferrer">阅读原文<svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></article><article class="card" style="--accent:#A0503C"><div class="c-top"><span class="c-no">28</span><span class="chip">生物探索 / Nature</span></div><h3 class="c-title">蛋白质水印比图片水印难得多：改一个氨基酸就可能改变功能</h3><p class="c-sum">改变图片极少量像素人眼看不出，改蛋白的一个氨基酸却可能改变折叠、稳定性、亲和力乃至整个功能——这是生物学水印的核心难点。</p><div class="c-foot"><span class="c-time">10月9日</span><a class="c-go" href="https://www.toutiao.com/article/7694535247929442867/" target="_blank" rel="noopener noreferrer">阅读原文<svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></article><article class="card" style="--accent:#A0503C"><div class="c-top"><span class="c-no">29</span><span class="chip">生物探索 / Nature</span></div><h3 class="c-title">传统来源追踪的局限：元数据可删、中心库需维护、规模化涉隐私与知识产权</h3><p class="c-sum">研究团队的思路是把来源信息放进蛋白本身而非放在旁边，使「来源证明」随对象长期存在。</p><div class="c-foot"><span class="c-time">10月9日</span><a class="c-go" href="https://www.toutiao.com/article/7694535247929442867/" target="_blank" rel="noopener noreferrer">阅读原文<svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div></article></div></section></main>
+
+<footer><div class="wrap">
+  <div class="f-top">
+    <div class="f-total">全站合计<b>29</b>条 · 六个版块连续编号 01 – 29</div>
+    <div class="f-src">统计窗口：2026 年 10 月 10 日（当日动态为主，个别条目为当日披露的前一日事件）</div>
+  </div>
+  <div class="f-note">本页由公开网络检索汇总，覆盖期刊论文、预印本、监管公告、临床读数与交易报道。标注「预印本」者未经同行评议，「动物数据 / 观察性研究 / 先导试验」为证据强度限定，「监管暂停」为负面监管处置；引用数字与结论前请回到第三方原文核对。</div>
+  <p class="f-bot">本页为单文件静态仪表盘，样式与脚本全部内联，无外部资源依赖，可离线打开与打印。内容用于研究信息跟踪，不构成投资建议或医疗建议；第三方原文版权归原作者所有。<br>发布于 <a href="/" class="home-link">LongBiosci</a> · 衰老生物学与长寿科技 · 本栏目为产业动态速览，与站内单篇深度解读的证据分级标准相互独立。</p>
+</div></footer>
+
+<script>
+(function(){
+  var pills=[].slice.call(document.querySelectorAll('.navpill'));
+  var secs=pills.map(function(p){return document.querySelector(p.getAttribute('href'));});
+  function sync(){
+    var y=window.scrollY+150,cur=0;
+    secs.forEach(function(s,i){if(s&&s.offsetTop<=y)cur=i;});
+    pills.forEach(function(p,i){p.classList.toggle('on',i===cur);});
+  }
+  var tick=false;
+  window.addEventListener('scroll',function(){
+    if(!tick){tick=true;requestAnimationFrame(function(){sync();tick=false;});}
+  },{passive:true});
+  sync();
+  var io=new IntersectionObserver(function(en){
+    en.forEach(function(e){
+      if(!e.isIntersecting)return;
+      var el=e.target,t=parseInt(el.textContent,10),s=0;
+      if(isNaN(t))return;
+      var step=function(){
+        s+=Math.max(1,Math.ceil(t/24));
+        if(s>=t){el.textContent=String(t);return;}
+        el.textContent=String(s);requestAnimationFrame(step);
+      };
+      requestAnimationFrame(step);io.unobserve(el);
+    });
+  },{threshold:.3});
+  [].slice.call(document.querySelectorAll('.s-num')).forEach(function(el){io.observe(el);});
+})();
+</script>
+</body>
+</html>
