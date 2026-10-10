@@ -260,7 +260,7 @@
   "date": "2026-09-01",
   "topic": "表观遗传",
   "type": "研究进展",
-  "evidence": "A",
+  "evidence": "B",
   "source": "doi.org"
  },
  {
@@ -458,7 +458,7 @@
   "date": "2026-08-25",
   "topic": "生命历程",
   "type": "行业动态",
-  "evidence": "A",
+  "evidence": "B",
   "source": "www.fightaging.org"
  },
  {
@@ -1569,7 +1569,7 @@
   "date": "2026-07-01",
   "topic": "生命历程",
   "type": "行业动态",
-  "evidence": "A",
+  "evidence": "B",
   "source": "www.niradata.com"
  },
  {
@@ -1657,7 +1657,7 @@
   "date": "2026-06-28",
   "topic": "表观遗传",
   "type": "行业动态",
-  "evidence": "A",
+  "evidence": "B",
   "source": "longevity.technology"
  },
  {
@@ -1789,7 +1789,7 @@
   "date": "2026-06-21",
   "topic": "表观遗传",
   "type": "临床进展",
-  "evidence": "A",
+  "evidence": "B",
   "source": "www.technologyreview.com"
  },
  {
@@ -1870,17 +1870,6 @@
   "source": "www.fightaging.org"
  },
  {
-  "slug": "Partial-Reprogramming-Funding-NewLimit-435M-RetroBio-2026.html",
-  "title": "部分重编程赛道持续吸金：NewLimit获投4.35亿美元，Retro Biosciences估值达18亿美元",
-  "desc": "2026年抗衰老重编程领域融资加速：NewLimit完成4.35亿美元C轮、计划明年启动人体临床；Retro Biosciences估值达18亿美元。",
-  "tag": "行业动态",
-  "date": "2026-06-17",
-  "topic": "表观遗传",
-  "type": "行业动态",
-  "evidence": "A",
-  "source": "www.fightaging.org"
- },
- {
   "slug": "Pragmatism-Preclinical-Aging-Research-NatureAging-2026.html",
   "title": "衰老临床前研究需要实用主义：Nature Aging发出方法论呼吁",
   "desc": "Nature Aging发表Steven N. Austad署名文章，指出当前衰老与长寿临床前研究存在系统性方法论缺陷，呼吁采用更务实的研究设计，提高从实验室到临床的可转化性。",
@@ -1932,7 +1921,7 @@
   "date": "2026-06-12",
   "topic": "方法与工具",
   "type": "观点评论",
-  "evidence": "A",
+  "evidence": "B",
   "source": "www.fightaging.org"
  },
  {
@@ -1965,7 +1954,7 @@
   "date": "2026-06-12",
   "topic": "生命历程",
   "type": "研究进展",
-  "evidence": "A",
+  "evidence": "B",
   "source": ""
  },
  {
@@ -2504,7 +2493,7 @@
   "date": "2026-05-16",
   "topic": "细胞衰老",
   "type": "研究进展",
-  "evidence": "A",
+  "evidence": "B",
   "source": ""
  },
  {
@@ -4066,7 +4055,7 @@
   "date": "2026-03-05",
   "topic": "神经退行",
   "type": "临床进展",
-  "evidence": "A",
+  "evidence": "B",
   "source": "www.fightaging.org"
  },
  {
