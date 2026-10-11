@@ -1,0 +1,105 @@
+/* ==========================================================================
+   海报生成器样式
+   挂在 poster.js 之后。全部使用既有设计令牌，自动适配暗色模式。
+   海报本身（canvas 内）永远用浅色——分享图不该跟随阅读主题变暗。
+   ========================================================================== */
+
+.lb-poster{
+  margin-top:var(--s-3);
+}
+.lb-poster-btn{
+  display:inline-flex;align-items:center;gap:.4em;
+  padding:.4em .85em;
+  background:transparent;
+  border:1px solid var(--c-line-strong);
+  border-radius:var(--r-pill);
+  color:var(--c-primary);
+  font:inherit;font-size:var(--f-sm);
+  cursor:pointer;
+  transition:background .16s var(--ease),border-color .16s var(--ease),
+             color .16s var(--ease),transform .16s var(--ease);
+}
+.lb-poster-btn:hover{
+  background:var(--c-primary-soft);
+  border-color:var(--c-primary);
+}
+.lb-poster-btn:active{transform:translateY(1px)}
+.lb-poster-btn:focus-visible{
+  outline:2px solid var(--c-primary);
+  outline-offset:2px;
+}
+
+/* ---------- 弹层 ---------- */
+.lb-poster-modal{
+  position:fixed;inset:0;z-index:300;
+  display:none;
+  align-items:center;justify-content:center;
+  padding:var(--s-4);
+  background:rgba(10,18,26,.62);
+  -webkit-backdrop-filter:blur(3px);
+  backdrop-filter:blur(3px);
+  overflow-y:auto;
+}
+.lb-poster-modal.on{display:flex}
+
+.lb-poster-panel{
+  width:100%;max-width:440px;
+  background:var(--c-bg-raised);
+  border:1px solid var(--c-line);
+  border-radius:var(--r-lg);
+  box-shadow:var(--sh-lg);
+  padding:var(--s-4);
+  max-height:calc(100vh - var(--s-6));
+  display:flex;flex-direction:column;
+}
+.lb-poster-head{
+  display:flex;align-items:center;justify-content:space-between;
+  margin-bottom:var(--s-3);
+}
+.lb-poster-head strong{font-size:var(--f-md);color:var(--c-ink)}
+.lb-poster-x{
+  width:32px;height:32px;line-height:1;
+  background:transparent;border:0;border-radius:var(--r-sm);
+  color:var(--c-muted);font-size:26px;cursor:pointer;
+}
+.lb-poster-x:hover{background:var(--c-bg-sunken);color:var(--c-ink)}
+
+.lb-poster-canvas-box{
+  overflow-y:auto;
+  border:1px solid var(--c-line);
+  border-radius:var(--r-md);
+  background:var(--c-bg-sunken);
+  flex:1;min-height:0;
+}
+.lb-poster-canvas-box canvas{display:block;width:100%;height:auto}
+
+.lb-poster-actions{
+  margin-top:var(--s-3);
+  display:flex;flex-direction:column;gap:var(--s-2);
+}
+.lb-poster-dl{
+  width:100%;
+  padding:.7em 1em;
+  background:var(--c-primary);
+  border:0;border-radius:var(--r-md);
+  color:#fff;font:inherit;font-size:var(--f-sm);font-weight:600;
+  cursor:pointer;
+  transition:background .16s var(--ease);
+}
+.lb-poster-dl:hover{background:var(--c-primary-lift)}
+.lb-poster-dl:active{transform:translateY(1px)}
+.lb-poster-tip{
+  margin:0;text-align:center;
+  font-size:var(--f-xs);color:var(--c-faint);
+}
+
+/* 移动端：面板贴近全屏，避免海报被压缩得看不清 */
+@media (max-width:520px){
+  .lb-poster-panel{max-width:none;padding:var(--s-3)}
+  .lb-poster-modal{padding:var(--s-2)}
+}
+
+/* 窄屏下按钮与元信息同行，避免多占一行 */
+@media (max-width:420px){
+  .lb-poster-btn{font-size:var(--f-xs);padding:.35em .7em}
+}
