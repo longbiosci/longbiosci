@@ -714,3 +714,140 @@ body:has(.bottom-nav){padding-bottom:64px}
   .to-top{width:40px;height:40px;right:var(--s-3);bottom:var(--s-3)}
   .article-meta{font-size:var(--f-xs);gap:var(--s-2)}
 }
+
+/* ==========================================================================
+   移动端适配（2026-10-11 补充）
+   实测方法：把页面放进 320/390px 宽的 iframe（headless Chromium 的
+   --window-size 有 500px 下限，直接开窗测不到 375px 的真实手机视口）。
+
+   修复要点：
+   1. **导航占 3 行**——`.main-nav` 继承桌面的 `flex-wrap:wrap`，
+      导致声明的 `overflow-x:auto` 永不生效，而是折成三行、
+      在 390px 屏上白占顶部约 110px。改为 `nowrap` 后恢复单行横滑。
+   2. **长URL 撑破视口**（about 页 github.com/.../issues 溢出 15px）
+      → 统一 `overflow-wrap:anywhere`。
+   3. **触控目标过小**——导航项 28px、页脚链接 20px，低于 44px 建议值。
+   4. **刘海屏安全区**——fixed 元素贴边会被状态栏/小白条压住。
+   ========================================================================== */
+
+/* ---- 1. 长串URL / 代码 / 无空格长词不再撑破容器 ---- */
+.article-content,.notice-box,.policy,.section-link,.meta-line,
+.related-list li,.lead-card,.card,.evidence-table td{
+  overflow-wrap:anywhere;
+  word-break:break-word;
+}
+/* 站内链接不该被拦腰断开，只在必要时断 */
+.article-content a,.lead-card a,.card a{overflow-wrap:break-word}
+
+/* ---- 2. 导航在移动端固定为单行横滑（核心修复）---- */
+@media (max-width:768px){
+  .site-header .wrap,.header-main{
+    min-height:56px;
+    gap:var(--s-3);
+    /* 品牌与导航同一行，导航占满剩余宽度 */
+    flex-wrap:nowrap;
+  }
+  .main-nav,.nav-links{
+    margin-left:0;
+    flex:1 1 auto;
+    min-width:0;              /* 允许在 flex 容器内收缩到内容以下 */
+    flex-wrap:nowrap;         /* ← 关键：覆盖桌面端的 wrap，触发横滑 */
+    overflow-x:auto;
+    overflow-y:hidden;
+    -webkit-overflow-scrolling:touch;
+    overscroll-behavior-x:contain;
+    scrollbar-width:none;     /* Firefox 隐藏滚动条 */
+    -ms-overflow-style:none;
+    /* 右侧留白，提示「还能往右滑」 */
+    padding-bottom:0;
+    padding-right:var(--s-4);
+    gap:2px;
+    /* 横向裁切，避免滚动时给整页带来横向溢出 */
+    scroll-snap-type:x proximity;
+  }
+  .main-nav::-webkit-scrollbar,.nav-links::-webkit-scrollbar{
+    display:none;             /* Chrome/Safari 隐藏滚动条 */
+  }
+  .main-nav a,.nav-links a{
+    flex:0 0 auto;
+    white-space:nowrap;
+    scroll-snap-align:start;
+    /* 触控目标提到 36px（配合 .wrap 的 56px 行高仍舒适） */
+    min-height:36px;
+    display:inline-flex;align-items:center;
+    padding:var(--s-1) var(--s-3);
+    font-size:var(--f-sm);
+  }
+  /* 品牌不再被压到导航中间 */
+  .brand,.logo{flex:0 0 auto}
+  .brand-mark{width:26px;height:26px}
+}
+
+/* ---- 3. 触控目标不小于 36px（Apple HIG 建议 44，考虑纵向空间取折中）---- */
+@media (max-width:768px){
+  .site-footer a,
+  .related-list a,
+  .pager a,
+  .chip,
+  .section-more{
+    min-height:36px;
+    display:inline-flex;align-items:center;
+  }
+  /* 页脚链接上下留白更松一点 */
+  .site-footer .wrap{gap:var(--s-3) var(--s-4)}
+  .site-footer p{width:100%}
+}
+
+/* ---- 4. 刘海屏/小白条安全区（fixed 元素与吸顶元素）---- */
+@supports (padding: max(0px)){
+  @media (max-width:768px){
+    .site-header{
+      padding-top:env(safe-area-inset-top);
+      /* 用实际背景补上状态栏区域，避免内容透出 */
+      background:var(--c-bg);
+    }
+    .to-top{
+      right:calc(var(--s-3) + env(safe-area-inset-right));
+      bottom:calc(var(--s-3) + env(safe-area-inset-bottom));
+    }
+    /* 列表页底部预留小白条空间 */
+    .article-container,.site-footer .wrap{
+      padding-bottom:calc(var(--s-6) + env(safe-area-inset-bottom));
+    }
+  }
+}
+
+/* ---- 5. 海报弹层在真机上的可用性 ---- */
+@media (max-width:768px){
+  .lb-poster-modal{
+    /* 真机没有鼠标滚轮，弹层必须自身可滚动 */
+    align-items:flex-start;
+    -webkit-overflow-scrolling:touch;
+  }
+  .lb-poster-panel{
+    max-height:none;
+    margin:auto 0;
+  }
+  .lb-poster-canvas-box{
+    /* 预览区给足高度，海报完整可见而不是被压缩 */
+    max-height:58vh;
+    -webkit-overflow-scrolling:touch;
+  }
+  /* 底部按钮更易点中 */
+  .lb-poster-dl{padding:.85em 1em;font-size:var(--f-md)}
+}
+
+/* ---- 6. 极窄屏（≤360px）再降一档 ---- */
+@media (max-width:360px){
+  .wrap,.header-main{padding:0 var(--s-3)}
+  .article-container{padding:var(--s-2) var(--s-3) var(--s-6)}
+  .main-nav a,.nav-links a{padding:var(--s-1) var(--s-2);font-size:var(--f-xs)}
+  .lb-poster-panel{padding:var(--s-2)}
+  .to-top{width:36px;height:36px}
+}
+
+/* ---- 7. 打印时不要固定元素与安全区留白 ---- */
+@media print{
+  .to-top,.lb-poster,.lb-poster-modal,.read-progress{display:none !important}
+  .site-header{position:static;padding-top:0}
+}
