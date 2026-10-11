@@ -1,30 +1,2280 @@
 {
+ "fetchedAt": "2026-10-11T10:29:19Z",
+ "source": "ClinicalTrials.gov API v2",
+ "sourceUrl": "https://clinicaltrials.gov/",
+ "total": 82,
+ "dedupSkipped": 6,
+ "groups": {
   "senolytic": {
-    "name": "Senolytic",
-    "description": "Drugs that selectively clear senescent cells",
-    "trials": [
-      {"nct": "NCT04685590", "drug": "Senolytic", "indication": "Alzheimer's Disease", "status": "Recruiting", "location": "Washington University"},
-      {"nct": "NCT02848131", "drug": "Senolytic", "indication": "Chronic Kidney Disease", "status": "Recruiting", "location": "Mayo Clinic"},
-      {"nct": "NCT06133634", "drug": "Fisetin", "indication": "Vascular Function", "status": "Active", "location": "University of Colorado"},
-      {"nct": "NCT04063124", "drug": "Senolytic", "indication": "Alzheimer's Disease", "status": "Completed", "location": "University of Texas"}
-    ]
+   "label": "Senolytics 衰老细胞清除",
+   "count": 14,
+   "trials": [
+    {
+     "nct": "NCT07637487",
+     "title": "Tocotrienol Supplementa as A Senolytic Agent in Middle-aged Adults",
+     "org": "未标注",
+     "status": "招募中",
+     "statusRaw": "RECRUITING",
+     "statusClass": "recruiting",
+     "phase": "NA",
+     "enroll": "220",
+     "enrollType": "",
+     "conditions": [
+      "Healthy"
+     ],
+     "interventions": [
+      "Treatment",
+      "Placebo"
+     ],
+     "countries": [
+      "Malaysia"
+     ],
+     "lastUpdate": "2026-06-09",
+     "statusVerified": "2026-06-01",
+     "startDate": "2023-10-31",
+     "completionDate": "2027-01-30",
+     "url": "https://clinicaltrials.gov/study/NCT07637487"
+    },
+    {
+     "nct": "NCT06399809",
+     "title": "Fisetin to Reduce Senescence and Mobility Impairment in PAD",
+     "org": "未标注",
+     "status": "招募中",
+     "statusRaw": "RECRUITING",
+     "statusClass": "recruiting",
+     "phase": "PHASE2",
+     "enroll": "34",
+     "enrollType": "",
+     "conditions": [
+      "Peripheral Arterial Disease",
+      "Aging",
+      "Peripheral Vascular Diseases",
+      "Walking, Difficulty"
+     ],
+     "interventions": [
+      "Fisetin",
+      "Placebo"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2026-04-15",
+     "statusVerified": "2026-04-01",
+     "startDate": "2024-09-30",
+     "completionDate": "2027-06-01",
+     "url": "https://clinicaltrials.gov/study/NCT06399809"
+    },
+    {
+     "nct": "NCT05653258",
+     "title": "Single Nuclei RNA-seq to Map Adipose Cellular Populations and Senescent Cells in Older Subjects",
+     "org": "未标注",
+     "status": "招募中",
+     "statusRaw": "RECRUITING",
+     "statusClass": "recruiting",
+     "phase": "PHASE2 / PHASE3",
+     "enroll": "160",
+     "enrollType": "",
+     "conditions": [
+      "Obesity",
+      "Healthy Lifestyle"
+     ],
+     "interventions": [
+      "Lifestyle Intervention",
+      "Dasatinib 100 MG",
+      "Quercetin 1000mg",
+      "Placebo"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2026-03-18",
+     "statusVerified": "2026-03-01",
+     "startDate": "2023-10-17",
+     "completionDate": "2028-02-01",
+     "url": "https://clinicaltrials.gov/study/NCT05653258"
+    },
+    {
+     "nct": "NCT06135870",
+     "title": "Role of Senescent Cells in Uterine Fibroid Pathogenesis (SOUL Study)",
+     "org": "未标注",
+     "status": "招募中",
+     "statusRaw": "RECRUITING",
+     "statusClass": "recruiting",
+     "phase": "未标注分期",
+     "enroll": "150",
+     "enrollType": "",
+     "conditions": [
+      "Fibroid",
+      "Leiomyoma"
+     ],
+     "interventions": [],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2025-12-11",
+     "statusVerified": "2025-12-01",
+     "startDate": "2023-11-01",
+     "completionDate": "2027-12-31",
+     "url": "https://clinicaltrials.gov/study/NCT06135870"
+    },
+    {
+     "nct": "NCT06133634",
+     "title": "Fisetin to Improve Vascular Function in Older Adults",
+     "org": "未标注",
+     "status": "进行中（不再招募）",
+     "statusRaw": "ACTIVE_NOT_RECRUITING",
+     "statusClass": "active",
+     "phase": "PHASE1 / PHASE2",
+     "enroll": "70",
+     "enrollType": "",
+     "conditions": [
+      "Aging",
+      "Endothelial Dysfunction",
+      "Arterial Stiffness"
+     ],
+     "interventions": [
+      "Fisetin",
+      "Placebo"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2026-09-25",
+     "statusVerified": "2026-09-01",
+     "startDate": "2023-09-25",
+     "completionDate": "2027-03-31",
+     "url": "https://clinicaltrials.gov/study/NCT06133634"
+    },
+    {
+     "nct": "NCT02848131",
+     "title": "Senescence in Chronic Kidney Disease",
+     "org": "未标注",
+     "status": "定向邀请入组",
+     "statusRaw": "ENROLLING_BY_INVITATION",
+     "statusClass": "active",
+     "phase": "PHASE2",
+     "enroll": "30",
+     "enrollType": "",
+     "conditions": [
+      "Chronic Kidney Disease"
+     ],
+     "interventions": [
+      "Group 2: Dasatinib",
+      "Group 2: Quercetin"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2026-05-19",
+     "statusVerified": "2026-05-01",
+     "startDate": "2016-07-01",
+     "completionDate": "2027-04-01",
+     "url": "https://clinicaltrials.gov/study/NCT02848131"
+    },
+    {
+     "nct": "NCT05838560",
+     "title": "Dasatinib Plus Quercetin for Accelerated Aging in Mental Disorders",
+     "org": "未标注",
+     "status": "进行中（不再招募）",
+     "statusRaw": "ACTIVE_NOT_RECRUITING",
+     "statusClass": "active",
+     "phase": "PHASE2",
+     "enroll": "40",
+     "enrollType": "",
+     "conditions": [
+      "Schizophrenia",
+      "Treatment Resistant Depression",
+      "Aging, Premature"
+     ],
+     "interventions": [
+      "Dasatinib",
+      "quercetin"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2026-04-21",
+     "statusVerified": "2026-04-01",
+     "startDate": "2023-07-01",
+     "completionDate": "2027-10-01",
+     "url": "https://clinicaltrials.gov/study/NCT05838560"
+    },
+    {
+     "nct": "NCT07144293",
+     "title": "Improving Physical Ability and Cellular Senescence Elimination in HIV",
+     "org": "未标注",
+     "status": "已完成",
+     "statusRaw": "COMPLETED",
+     "statusClass": "completed",
+     "phase": "PHASE2",
+     "enroll": "82",
+     "enrollType": "",
+     "conditions": [
+      "HIV",
+      "Frailty",
+      "Prefrail",
+      "Aging Problems"
+     ],
+     "interventions": [
+      "Dasatinib",
+      "Quercetin",
+      "Placebo - Dasatinib",
+      "Placebo - Quercetin"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2026-09-15",
+     "statusVerified": "2026-09-01",
+     "startDate": "2025-12-04",
+     "completionDate": "2026-08-26",
+     "url": "https://clinicaltrials.gov/study/NCT07144293"
+    },
+    {
+     "nct": "NCT07000734",
+     "title": "Fortifying Healthy Behaviors, Optimizing Medical Therapies and Enhancing Cognitive Function in Older Adults-pilot Study",
+     "org": "未标注",
+     "status": "已完成",
+     "statusRaw": "COMPLETED",
+     "statusClass": "completed",
+     "phase": "PHASE2",
+     "enroll": "23",
+     "enrollType": "",
+     "conditions": [
+      "Aging",
+      "Cognitive Decline",
+      "Older Adults",
+      "Cardiovascular"
+     ],
+     "interventions": [
+      "Risk managment",
+      "Dasatinib",
+      "Quercetin (dietary supplement)",
+      "Vortioxetine"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2026-08-19",
+     "statusVerified": "2026-08-01",
+     "startDate": "2025-07-28",
+     "completionDate": "2026-04-30",
+     "url": "https://clinicaltrials.gov/study/NCT07000734"
+    },
+    {
+     "nct": "NCT05422885",
+     "title": "Safety and Feasibility of Dasatinib and Quercetin in Adults at Risk for Alzheimer's Disease",
+     "org": "未标注",
+     "status": "已完成",
+     "statusRaw": "COMPLETED",
+     "statusClass": "completed",
+     "phase": "PHASE1 / PHASE2",
+     "enroll": "15",
+     "enrollType": "",
+     "conditions": [
+      "Aging"
+     ],
+     "interventions": [
+      "Dasatinib",
+      "Quercetin"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2025-03-17",
+     "statusVerified": "2025-02-01",
+     "startDate": "2022-05-20",
+     "completionDate": "2024-01-24",
+     "url": "https://clinicaltrials.gov/study/NCT05422885"
+    },
+    {
+     "nct": "NCT04313634",
+     "title": "Targeting Cellular Senescence With Senolytics to Improve Skeletal Health in Older Humans",
+     "org": "未标注",
+     "status": "已完成",
+     "statusRaw": "COMPLETED",
+     "statusClass": "completed",
+     "phase": "PHASE2",
+     "enroll": "74",
+     "enrollType": "",
+     "conditions": [
+      "Healthy"
+     ],
+     "interventions": [
+      "Dasatinib",
+      "Quercetin",
+      "Fisetin"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2024-07-22",
+     "statusVerified": "2024-07-01",
+     "startDate": "2020-06-09",
+     "completionDate": "2023-06-06",
+     "url": "https://clinicaltrials.gov/study/NCT04313634"
+    },
+    {
+     "nct": "NCT04770064",
+     "title": "Targeting Senescence to Reduce Osteoarthritis Pain and cartilagE Breakdown (ROPE)",
+     "org": "未标注",
+     "status": "已撤回",
+     "statusRaw": "WITHDRAWN",
+     "statusClass": "terminated",
+     "phase": "PHASE1 / PHASE2",
+     "enroll": "0",
+     "enrollType": "",
+     "conditions": [
+      "Osteoarthritis, Knee"
+     ],
+     "interventions": [
+      "High-dose/short-duration Fisetin",
+      "Low-dose/sustained-duration Fisetin",
+      "Oral placebo capsule"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2022-07-29",
+     "statusVerified": "2022-07-01",
+     "startDate": "2023-06-01",
+     "completionDate": "2024-05-31",
+     "url": "https://clinicaltrials.gov/study/NCT04770064"
+    },
+    {
+     "nct": "NCT04994561",
+     "title": "VIAging Deceleration Trial Using Metformin, Dasatinib, Rapamycin and Nutritional Supplements",
+     "org": "未标注",
+     "status": "已撤回",
+     "statusRaw": "WITHDRAWN",
+     "statusClass": "terminated",
+     "phase": "PHASE1",
+     "enroll": "0",
+     "enrollType": "",
+     "conditions": [
+      "Aging"
+     ],
+     "interventions": [
+      "Study Drugs and Nutritional Supplements"
+     ],
+     "countries": [],
+     "lastUpdate": "2022-06-07",
+     "statusVerified": "2022-06-01",
+     "startDate": "2022-06-01",
+     "completionDate": "2023-12-01",
+     "url": "https://clinicaltrials.gov/study/NCT04994561"
+    },
+    {
+     "nct": "NCT04946383",
+     "title": "Safety and Effectivness of Quercetin & Dasatinib on Epigenetic Aging",
+     "org": "未标注",
+     "status": "UNKNOWN",
+     "statusRaw": "UNKNOWN",
+     "statusClass": "unknown",
+     "phase": "PHASE2",
+     "enroll": "25",
+     "enrollType": "",
+     "conditions": [
+      "Aging"
+     ],
+     "interventions": [
+      "Dasatinib plus Quercetin"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2021-08-03",
+     "statusVerified": "2021-08-01",
+     "startDate": "2020-12-16",
+     "completionDate": "2022-06-30",
+     "url": "https://clinicaltrials.gov/study/NCT04946383"
+    }
+   ]
   },
   "nmn": {
-    "name": "NMN/NAD+",
-    "description": "β-Nicotinamide mononucleotide, NAD+ precursor",
-    "trials": [
-      {"nct": "NCT04571008", "drug": "NMN", "indication": "Organ System Biology", "status": "Completed", "location": "Washington University"},
-      {"nct": "NCT04685096", "drug": "NMN", "indication": "Cosmetics Anti-Aging", "status": "Completed", "location": "China"},
-      {"nct": "NCT05305677", "drug": "NMN", "indication": "PCOS", "status": "Completed", "location": "China"},
-      {"nct": "NCT06426355", "drug": "NMN", "indication": "IVF Assistance", "status": "Recruiting", "location": "China"}
-    ]
+   "label": "NMN / NAD+ 前体",
+   "count": 25,
+   "trials": [
+    {
+     "nct": "NCT07144527",
+     "title": "Nicotinamide Mononucleotide Supplementation for Exercise Tolerance Improvement in Healthy Older Adults",
+     "org": "未标注",
+     "status": "招募中",
+     "statusRaw": "RECRUITING",
+     "statusClass": "recruiting",
+     "phase": "NA",
+     "enroll": "40",
+     "enrollType": "",
+     "conditions": [
+      "Aging",
+      "Frailty",
+      "Exercise Tolerance",
+      "Healthy Male and Female Subjects"
+     ],
+     "interventions": [
+      "NMN and TMG (Euexia)",
+      "Nicotinamide Mononucleotide (NMN)",
+      "Placebo"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2026-10-07",
+     "statusVerified": "2026-02-01",
+     "startDate": "2026-02-21",
+     "completionDate": "2027-01-01",
+     "url": "https://clinicaltrials.gov/study/NCT07144527"
+    },
+    {
+     "nct": "NCT07416786",
+     "title": "Validation of NAD+ Measurements for Human Clinical Studies",
+     "org": "未标注",
+     "status": "招募中",
+     "statusRaw": "RECRUITING",
+     "statusClass": "recruiting",
+     "phase": "NA",
+     "enroll": "48",
+     "enrollType": "",
+     "conditions": [
+      "Healthy Adults"
+     ],
+     "interventions": [
+      "Oral NR Supplementation"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2026-09-11",
+     "statusVerified": "2026-09-01",
+     "startDate": "2026-09-01",
+     "completionDate": "2028-07-31",
+     "url": "https://clinicaltrials.gov/study/NCT07416786"
+    },
+    {
+     "nct": "NCT07073352",
+     "title": "ACEs, SIRT1, and Premature Vascular Aging in Humans",
+     "org": "未标注",
+     "status": "招募中",
+     "statusRaw": "RECRUITING",
+     "statusClass": "recruiting",
+     "phase": "NA",
+     "enroll": "30",
+     "enrollType": "",
+     "conditions": [
+      "Adverse Childhood Experiences",
+      "Endothelial Dysfunction"
+     ],
+     "interventions": [
+      "Nicotinamide Riboside",
+      "Placebo"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2026-08-19",
+     "statusVerified": "2026-08-01",
+     "startDate": "2025-03-27",
+     "completionDate": "2027-06-30",
+     "url": "https://clinicaltrials.gov/study/NCT07073352"
+    },
+    {
+     "nct": "NCT06592859",
+     "title": "Intervention of Nicotinamide Mononucleotide in Middle-aged and Elderly People",
+     "org": "未标注",
+     "status": "招募中",
+     "statusRaw": "RECRUITING",
+     "statusClass": "recruiting",
+     "phase": "NA",
+     "enroll": "240",
+     "enrollType": "",
+     "conditions": [
+      "Aging",
+      "NMN"
+     ],
+     "interventions": [
+      "NMN",
+      "placebo"
+     ],
+     "countries": [
+      "China"
+     ],
+     "lastUpdate": "2026-05-08",
+     "statusVerified": "2026-03-01",
+     "startDate": "2023-08-23",
+     "completionDate": "2026-12-31",
+     "url": "https://clinicaltrials.gov/study/NCT06592859"
+    },
+    {
+     "nct": "NCT05483465",
+     "title": "The Effect of NAD Supplementation on Brain Vascular Health in Aging",
+     "org": "未标注",
+     "status": "招募中",
+     "statusRaw": "RECRUITING",
+     "statusClass": "recruiting",
+     "phase": "PHASE4",
+     "enroll": "214",
+     "enrollType": "",
+     "conditions": [
+      "Aging"
+     ],
+     "interventions": [
+      "Nicotinamide riboside",
+      "Placebo"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2026-04-01",
+     "statusVerified": "2026-03-01",
+     "startDate": "2023-05-03",
+     "completionDate": "2027-12-01",
+     "url": "https://clinicaltrials.gov/study/NCT05483465"
+    },
+    {
+     "nct": "NCT07451496",
+     "title": "PRecision gerOMedicinE: Tailored Healthy agEing With Lifestyle, sUpplements and drugS (PROMETHEUS)",
+     "org": "未标注",
+     "status": "招募中",
+     "statusRaw": "RECRUITING",
+     "statusClass": "recruiting",
+     "phase": "NA",
+     "enroll": "20",
+     "enrollType": "",
+     "conditions": [
+      "Ageing"
+     ],
+     "interventions": [
+      "Sleep and dietary counseling",
+      "Supervised exercise and exergaming program",
+      "Motivational interviewing",
+      "Whey protein"
+     ],
+     "countries": [
+      "Singapore"
+     ],
+     "lastUpdate": "2026-03-05",
+     "statusVerified": "2026-02-01",
+     "startDate": "2025-09-29",
+     "completionDate": "2026-06-30",
+     "url": "https://clinicaltrials.gov/study/NCT07451496"
+    },
+    {
+     "nct": "NCT06425042",
+     "title": "Nicotinamide Riboside Supplementation and Exercise Training to Promote Healthy Longevity",
+     "org": "未标注",
+     "status": "招募中",
+     "statusRaw": "RECRUITING",
+     "statusClass": "recruiting",
+     "phase": "NA",
+     "enroll": "28",
+     "enrollType": "",
+     "conditions": [
+      "Healthy Aging",
+      "Lifestyle-related Condition",
+      "Metabolic Diseases"
+     ],
+     "interventions": [
+      "Nicotinamide Riboside (NR)",
+      "Placebo"
+     ],
+     "countries": [
+      "Chile"
+     ],
+     "lastUpdate": "2025-07-11",
+     "statusVerified": "2025-07-01",
+     "startDate": "2024-03-01",
+     "completionDate": "2026-03-01",
+     "url": "https://clinicaltrials.gov/study/NCT06425042"
+    },
+    {
+     "nct": "NCT06907329",
+     "title": "The Impact of Nicotinamide Mononucleotide Sustained-release Tablets on Immunosenescence and Metablism in Middle-aged and Elderly Individuals With Metabolic Disorders.",
+     "org": "未标注",
+     "status": "招募中",
+     "statusRaw": "RECRUITING",
+     "statusClass": "recruiting",
+     "phase": "NA",
+     "enroll": "126",
+     "enrollType": "",
+     "conditions": [
+      "Immunosenescence",
+      "Metabolism"
+     ],
+     "interventions": [
+      "NMN",
+      "Placebo"
+     ],
+     "countries": [
+      "China"
+     ],
+     "lastUpdate": "2025-07-08",
+     "statusVerified": "2025-06-01",
+     "startDate": "2025-06-05",
+     "completionDate": "2027-03-31",
+     "url": "https://clinicaltrials.gov/study/NCT06907329"
+    },
+    {
+     "nct": "NCT06919328",
+     "title": "Absorption and Tolerability of Injectable Administration of Niagen®+, as Compared to NAD+",
+     "org": "未标注",
+     "status": "招募中",
+     "statusRaw": "RECRUITING",
+     "statusClass": "recruiting",
+     "phase": "NA",
+     "enroll": "70",
+     "enrollType": "",
+     "conditions": [
+      "Healthy Aging"
+     ],
+     "interventions": [
+      "Niagen®",
+      "NAD+",
+      "Placebo"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2025-04-09",
+     "statusVerified": "2025-04-01",
+     "startDate": "2024-10-31",
+     "completionDate": "2025-06-30",
+     "url": "https://clinicaltrials.gov/study/NCT06919328"
+    },
+    {
+     "nct": "NCT06208527",
+     "title": "The NADage Study: Nicotinamide Riboside Replenishment Therapy Against Functional Decline in Aging",
+     "org": "未标注",
+     "status": "招募中",
+     "statusRaw": "RECRUITING",
+     "statusClass": "recruiting",
+     "phase": "PHASE2",
+     "enroll": "100",
+     "enrollType": "",
+     "conditions": [
+      "Frailty",
+      "Frail Elderly Syndrome",
+      "Frailty Syndrome",
+      "Aging"
+     ],
+     "interventions": [
+      "Nicotinamide Riboside (NR)",
+      "Placebo"
+     ],
+     "countries": [
+      "Norway"
+     ],
+     "lastUpdate": "2025-01-20",
+     "statusVerified": "2024-12-01",
+     "startDate": "2025-01-01",
+     "completionDate": "2030-12-01",
+     "url": "https://clinicaltrials.gov/study/NCT06208527"
+    },
+    {
+     "nct": "NCT03821623",
+     "title": "Nicotinamide Riboside for Treating Elevated Systolic Blood Pressure and Arterial Stiffness in Middle-aged and Older Adults",
+     "org": "未标注",
+     "status": "进行中（不再招募）",
+     "statusRaw": "ACTIVE_NOT_RECRUITING",
+     "statusClass": "active",
+     "phase": "PHASE2",
+     "enroll": "118",
+     "enrollType": "",
+     "conditions": [
+      "Hypertension",
+      "Aging"
+     ],
+     "interventions": [
+      "Nicotinamide riboside",
+      "Placebo"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2026-10-02",
+     "statusVerified": "2026-09-01",
+     "startDate": "2019-05-10",
+     "completionDate": "2027-10-01",
+     "url": "https://clinicaltrials.gov/study/NCT03821623"
+    },
+    {
+     "nct": "NCT06345443",
+     "title": "NRM on Vascular Perfusion in Healthy Adults",
+     "org": "未标注",
+     "status": "定向邀请入组",
+     "statusRaw": "ENROLLING_BY_INVITATION",
+     "statusClass": "active",
+     "phase": "NA",
+     "enroll": "200",
+     "enrollType": "",
+     "conditions": [
+      "Vascular Stiffness"
+     ],
+     "interventions": [
+      "Nicotinamide Riboside Malate",
+      "Placebo"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2026-03-18",
+     "statusVerified": "2026-03-01",
+     "startDate": "2024-11-25",
+     "completionDate": "2026-12-31",
+     "url": "https://clinicaltrials.gov/study/NCT06345443"
+    },
+    {
+     "nct": "NCT06889740",
+     "title": "Evaluate the Safety, Tolerability, and Efficacy of UthPeak NMNH (Reduced Nicotinamide Mononucleotide) in Healthy Adult Participants",
+     "org": "未标注",
+     "status": "已完成",
+     "statusRaw": "COMPLETED",
+     "statusClass": "completed",
+     "phase": "NA",
+     "enroll": "80",
+     "enrollType": "",
+     "conditions": [
+      "Healthy Aging"
+     ],
+     "interventions": [
+      "NMNH",
+      "Placebo"
+     ],
+     "countries": [
+      "India"
+     ],
+     "lastUpdate": "2025-07-04",
+     "statusVerified": "2025-07-01",
+     "startDate": "2024-07-08",
+     "completionDate": "2025-01-25",
+     "url": "https://clinicaltrials.gov/study/NCT06889740"
+    },
+    {
+     "nct": "NCT05517122",
+     "title": "Effect of Oral NAD+ Precursors Administration on Blood NAD+ Concentration in Healthy Adults",
+     "org": "未标注",
+     "status": "已完成",
+     "statusRaw": "COMPLETED",
+     "statusClass": "completed",
+     "phase": "NA",
+     "enroll": "68",
+     "enrollType": "",
+     "conditions": [
+      "Healthy"
+     ],
+     "interventions": [
+      "Nicotinamide (NAM)",
+      "Nicotinamide Riboside (NR)",
+      "Nicotinamide Mono Nucleotide (NMN)",
+      "Microcrystalline cellulose"
+     ],
+     "countries": [
+      "Switzerland"
+     ],
+     "lastUpdate": "2025-04-24",
+     "statusVerified": "2025-04-01",
+     "startDate": "2022-07-12",
+     "completionDate": "2022-11-24",
+     "url": "https://clinicaltrials.gov/study/NCT05517122"
+    },
+    {
+     "nct": "NCT03818802",
+     "title": "Effects of Vitamin B3 Derivative Nicotinamide Riboside (NR) in Bone, Skeletal Muscle and Metabolic Functions in Aging",
+     "org": "未标注",
+     "status": "已完成",
+     "statusRaw": "COMPLETED",
+     "statusClass": "completed",
+     "phase": "NA",
+     "enroll": "53",
+     "enrollType": "",
+     "conditions": [
+      "Healthy Elderly Volunteers"
+     ],
+     "interventions": [
+      "Nicotinamide Riboside",
+      "Placebo"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2025-02-26",
+     "statusVerified": "2024-04-01",
+     "startDate": "2019-09-16",
+     "completionDate": "2024-11-08",
+     "url": "https://clinicaltrials.gov/study/NCT03818802"
+    },
+    {
+     "nct": "NCT04112043",
+     "title": "Nicotinamide Riboside as an Enhancer of Exercise Therapy in Hypertensive Older Adults (The NEET Trial)",
+     "org": "未标注",
+     "status": "已完成",
+     "statusRaw": "COMPLETED",
+     "statusClass": "completed",
+     "phase": "PHASE1",
+     "enroll": "147",
+     "enrollType": "",
+     "conditions": [
+      "Hypertension"
+     ],
+     "interventions": [
+      "Walking Exercise",
+      "Nicotinamide Riboside (NR)"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2024-06-06",
+     "statusVerified": "2024-05-01",
+     "startDate": "2020-07-28",
+     "completionDate": "2023-05-26",
+     "url": "https://clinicaltrials.gov/study/NCT04112043"
+    },
+    {
+     "nct": "NCT05593939",
+     "title": "Slow Age: Interventions to Slow Aging in Humans",
+     "org": "未标注",
+     "status": "已完成",
+     "statusRaw": "COMPLETED",
+     "statusClass": "completed",
+     "phase": "PHASE2",
+     "enroll": "80",
+     "enrollType": "",
+     "conditions": [
+      "Aging"
+     ],
+     "interventions": [
+      "Exercise",
+      "Time restricted feeding",
+      "Nicotinamide riboside"
+     ],
+     "countries": [
+      "Denmark"
+     ],
+     "lastUpdate": "2023-04-25",
+     "statusVerified": "2022-09-01",
+     "startDate": "2022-05-01",
+     "completionDate": "2022-12-21",
+     "url": "https://clinicaltrials.gov/study/NCT05593939"
+    },
+    {
+     "nct": "NCT04823260",
+     "title": "To Evaluate the Efficacy and Safety of NMN as an Anti-ageing Supplement in Middle Aged and Older (40-65 Years) Adults",
+     "org": "未标注",
+     "status": "已完成",
+     "statusRaw": "COMPLETED",
+     "statusClass": "completed",
+     "phase": "NA",
+     "enroll": "90",
+     "enrollType": "",
+     "conditions": [
+      "Aging"
+     ],
+     "interventions": [
+      "Nicotinamide Mononucleotide",
+      "Placebo"
+     ],
+     "countries": [
+      "India"
+     ],
+     "lastUpdate": "2021-10-01",
+     "statusVerified": "2021-09-01",
+     "startDate": "2021-05-25",
+     "completionDate": "2021-09-09",
+     "url": "https://clinicaltrials.gov/study/NCT04823260"
+    },
+    {
+     "nct": "NCT04228640",
+     "title": "Evaluate the Efficacy and Safety of Uthever NMN(Nicotinamide Mononucleotide, a Form of Vitamin B3)",
+     "org": "未标注",
+     "status": "已完成",
+     "statusRaw": "COMPLETED",
+     "statusClass": "completed",
+     "phase": "NA",
+     "enroll": "66",
+     "enrollType": "",
+     "conditions": [
+      "Aging"
+     ],
+     "interventions": [
+      "NMN",
+      "Placebo"
+     ],
+     "countries": [
+      "India"
+     ],
+     "lastUpdate": "2021-04-01",
+     "statusVerified": "2021-03-01",
+     "startDate": "2020-12-15",
+     "completionDate": "2021-03-30",
+     "url": "https://clinicaltrials.gov/study/NCT04228640"
+    },
+    {
+     "nct": "NCT03754842",
+     "title": "Effect of Nicotinamide Riboside and Pterostilbene Supplementation on Muscle Regeneration in Elderly Humans",
+     "org": "未标注",
+     "status": "已完成",
+     "statusRaw": "COMPLETED",
+     "statusClass": "completed",
+     "phase": "NA",
+     "enroll": "32",
+     "enrollType": "",
+     "conditions": [
+      "Muscle Injury"
+     ],
+     "interventions": [
+      "Placebo (twice daily)",
+      "Nicotinamide Riboside/Pterostilbene (500 mg/100 mg twice daily)"
+     ],
+     "countries": [
+      "Denmark"
+     ],
+     "lastUpdate": "2020-11-05",
+     "statusVerified": "2020-03-01",
+     "startDate": "2019-02-12",
+     "completionDate": "2020-09-01",
+     "url": "https://clinicaltrials.gov/study/NCT03754842"
+    },
+    {
+     "nct": "NCT03501433",
+     "title": "Effects of Nicotinamide Riboside on Metabolism and Vascular Function",
+     "org": "未标注",
+     "status": "已完成",
+     "statusRaw": "COMPLETED",
+     "statusClass": "completed",
+     "phase": "NA",
+     "enroll": "16",
+     "enrollType": "",
+     "conditions": [
+      "Aging",
+      "Lipemia"
+     ],
+     "interventions": [
+      "Nicotinamide riboside chloride (Niagen)",
+      "Placebo"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2020-09-25",
+     "statusVerified": "2020-09-01",
+     "startDate": "2018-02-01",
+     "completionDate": "2019-12-01",
+     "url": "https://clinicaltrials.gov/study/NCT03501433"
+    },
+    {
+     "nct": "NCT02921659",
+     "title": "Safety & Efficacy of Nicotinamide Riboside Supplementation for Improving Physiological Function in Middle-Aged and Older Adults",
+     "org": "未标注",
+     "status": "已完成",
+     "statusRaw": "COMPLETED",
+     "statusClass": "completed",
+     "phase": "PHASE1 / PHASE2",
+     "enroll": "30",
+     "enrollType": "",
+     "conditions": [
+      "Aging"
+     ],
+     "interventions": [
+      "Niagen™",
+      "Placebo"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2016-12-01",
+     "statusVerified": "2016-11-01",
+     "startDate": "2015-04-01",
+     "completionDate": "2016-10-01",
+     "url": "https://clinicaltrials.gov/study/NCT02921659"
+    },
+    {
+     "nct": "NCT06382688",
+     "title": "IV Administration of ChromaDex's Niagen® as Compared to NAD+",
+     "org": "未标注",
+     "status": "UNKNOWN",
+     "statusRaw": "UNKNOWN",
+     "statusClass": "unknown",
+     "phase": "NA",
+     "enroll": "53",
+     "enrollType": "",
+     "conditions": [
+      "Healthy Aging"
+     ],
+     "interventions": [
+      "NAD+ (nicotinamide adenine dinucleotide) IV",
+      "Niagen® (nicotinamide riboside) IV",
+      "Niagen® (nicotinamide riboside) oral",
+      "Placebo"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2024-04-24",
+     "statusVerified": "2024-04-01",
+     "startDate": "2023-11-13",
+     "completionDate": "2024-08-31",
+     "url": "https://clinicaltrials.gov/study/NCT06382688"
+    },
+    {
+     "nct": "NCT05984550",
+     "title": "The Exploratory Study on the Nicotinamide Mononucleotide (Vital NAD ) to Promote the Rejuvenation of the Peripheral Blood Immune Cells of Adults.",
+     "org": "未标注",
+     "status": "UNKNOWN",
+     "statusRaw": "UNKNOWN",
+     "statusClass": "unknown",
+     "phase": "EARLY_PHASE1",
+     "enroll": "10",
+     "enrollType": "",
+     "conditions": [
+      "Enhance Immune Function"
+     ],
+     "interventions": [
+      "NMN"
+     ],
+     "countries": [
+      "China"
+     ],
+     "lastUpdate": "2023-08-21",
+     "statusVerified": "2023-08-01",
+     "startDate": "2023-08-01",
+     "completionDate": "2024-12-01",
+     "url": "https://clinicaltrials.gov/study/NCT05984550"
+    },
+    {
+     "nct": "NCT02950441",
+     "title": "Nicotinamide Adenine Dinucleotide and Skeletal Muscle Metabolic Phenotype",
+     "org": "未标注",
+     "status": "UNKNOWN",
+     "statusRaw": "UNKNOWN",
+     "statusClass": "unknown",
+     "phase": "PHASE2",
+     "enroll": "12",
+     "enrollType": "",
+     "conditions": [
+      "Aging"
+     ],
+     "interventions": [
+      "Nicotinamide Riboside",
+      "Placebo"
+     ],
+     "countries": [
+      "United Kingdom"
+     ],
+     "lastUpdate": "2017-06-07",
+     "statusVerified": "2016-10-01",
+     "startDate": "2016-06-01",
+     "completionDate": "2019-09-01",
+     "url": "https://clinicaltrials.gov/study/NCT02950441"
+    }
+   ]
   },
   "metformin": {
-    "name": "Metformin",
-    "description": "Classic longevity drug",
-    "trials": [
-      {"nct": "NCT02432287", "drug": "Metformin", "indication": "Longevity (MILES)", "status": "Completed", "location": "Albert Einstein College"},
-      {"nct": "NCT01765946", "drug": "Metformin", "indication": "Longevity Genes", "status": "Completed", "location": "NIA"}
-    ]
+   "label": "二甲双胍",
+   "count": 9,
+   "trials": [
+    {
+     "nct": "NCT06975111",
+     "title": "Focusing on the Menopausal Transition to Improve Mid-Life Women's Health",
+     "org": "未标注",
+     "status": "招募中",
+     "statusRaw": "RECRUITING",
+     "statusClass": "recruiting",
+     "phase": "PHASE2 / PHASE3",
+     "enroll": "200",
+     "enrollType": "",
+     "conditions": [
+      "Menopause",
+      "Menopause Hot Flashes",
+      "Menopause Related Conditions",
+      "Cardiovascular"
+     ],
+     "interventions": [
+      "Metformin",
+      "semaglutide",
+      "Anti-hypertensives",
+      "Lipid Lowering Medication"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2026-07-21",
+     "statusVerified": "2026-07-01",
+     "startDate": "2026-03-01",
+     "completionDate": "2030-10-01",
+     "url": "https://clinicaltrials.gov/study/NCT06975111"
+    },
+    {
+     "nct": "NCT07092618",
+     "title": "Effectiveness of Alternative Therapies in Maintaining Weight Loss Achieved by GLP-1 Medications Post-Cessation",
+     "org": "未标注",
+     "status": "招募中",
+     "statusRaw": "RECRUITING",
+     "statusClass": "recruiting",
+     "phase": "PHASE2 / PHASE3",
+     "enroll": "150",
+     "enrollType": "",
+     "conditions": [
+      "Longevity",
+      "GLP-1",
+      "Geroscience",
+      "Aging"
+     ],
+     "interventions": [
+      "Metformin",
+      "Rapamycin",
+      "Naltrexone",
+      "Vitamin C"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2025-07-30",
+     "statusVerified": "2025-05-01",
+     "startDate": "2024-12-17",
+     "completionDate": "2025-08-01",
+     "url": "https://clinicaltrials.gov/study/NCT07092618"
+    },
+    {
+     "nct": "NCT07475546",
+     "title": "Combination Gerotherapeutic Interventions for Healthspan Improvement",
+     "org": "未标注",
+     "status": "进行中（不再招募）",
+     "statusRaw": "ACTIVE_NOT_RECRUITING",
+     "statusClass": "active",
+     "phase": "PHASE3",
+     "enroll": "30",
+     "enrollType": "",
+     "conditions": [
+      "Healthspan Improvement",
+      "Aging",
+      "Longevity"
+     ],
+     "interventions": [
+      "Rapamycin",
+      "Naltrexone",
+      "Metformin",
+      "NAD+"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2026-03-16",
+     "statusVerified": "2026-03-01",
+     "startDate": "2025-07-23",
+     "completionDate": "2026-04-01",
+     "url": "https://clinicaltrials.gov/study/NCT07475546"
+    },
+    {
+     "nct": "NCT07788378",
+     "title": "Metformin in Elderly Patients With Type 2 Diabetes and Muscle Strength, Muscle Mass, and Physical Function: Positive or Negative Correlation?",
+     "org": "未标注",
+     "status": "已完成",
+     "statusRaw": "COMPLETED",
+     "statusClass": "completed",
+     "phase": "未标注分期",
+     "enroll": "290",
+     "enrollType": "",
+     "conditions": [
+      "Diabete Type 2",
+      "Muscle Strength",
+      "Muscle Mass",
+      "Physical Function"
+     ],
+     "interventions": [
+      "Metformin"
+     ],
+     "countries": [
+      "China"
+     ],
+     "lastUpdate": "2026-08-26",
+     "statusVerified": "2026-08-01",
+     "startDate": "2024-11-11",
+     "completionDate": "2024-12-24",
+     "url": "https://clinicaltrials.gov/study/NCT07788378"
+    },
+    {
+     "nct": "NCT07302932",
+     "title": "Metformin and Molecular Aging in Prediabetes",
+     "org": "未标注",
+     "status": "已完成",
+     "statusRaw": "COMPLETED",
+     "statusClass": "completed",
+     "phase": "NA",
+     "enroll": "112",
+     "enrollType": "",
+     "conditions": [
+      "Metformin, Prediabetes"
+     ],
+     "interventions": [
+      "Metformin treatment",
+      "Analyzed by qPCR for T/S ratio."
+     ],
+     "countries": [
+      "India"
+     ],
+     "lastUpdate": "2025-12-24",
+     "statusVerified": "2025-12-01",
+     "startDate": "2023-02-01",
+     "completionDate": "2025-01-30",
+     "url": "https://clinicaltrials.gov/study/NCT07302932"
+    },
+    {
+     "nct": "NCT03309007",
+     "title": "A Double-Blind, Placebo-Controlled Trial of Anti-Aging, Pro-Autophagy Effects of Metformin in Adults With Prediabetes",
+     "org": "未标注",
+     "status": "已完成",
+     "statusRaw": "COMPLETED",
+     "statusClass": "completed",
+     "phase": "PHASE3",
+     "enroll": "25",
+     "enrollType": "",
+     "conditions": [
+      "PreDiabetes",
+      "Aging"
+     ],
+     "interventions": [
+      "Metformin",
+      "Placebo Oral Tablet"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2023-12-11",
+     "statusVerified": "2023-12-01",
+     "startDate": "2017-09-01",
+     "completionDate": "2020-08-20",
+     "url": "https://clinicaltrials.gov/study/NCT03309007"
+    },
+    {
+     "nct": "NCT02432287",
+     "title": "Metformin in Longevity Study (MILES).",
+     "org": "未标注",
+     "status": "已完成",
+     "statusRaw": "COMPLETED",
+     "statusClass": "completed",
+     "phase": "PHASE4",
+     "enroll": "16",
+     "enrollType": "",
+     "conditions": [
+      "Aging"
+     ],
+     "interventions": [
+      "Metformin",
+      "Placebo"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2021-05-21",
+     "statusVerified": "2021-05-01",
+     "startDate": "2014-10-01",
+     "completionDate": "2017-12-01",
+     "url": "https://clinicaltrials.gov/study/NCT02432287"
+    },
+    {
+     "nct": "NCT01765946",
+     "title": "Metformin and Longevity Genes in Prediabetes",
+     "org": "未标注",
+     "status": "已完成",
+     "statusRaw": "COMPLETED",
+     "statusClass": "completed",
+     "phase": "PHASE4",
+     "enroll": "38",
+     "enrollType": "",
+     "conditions": [
+      "Insulin Resistance",
+      "Prediabetes",
+      "Aging",
+      "Inflammation"
+     ],
+     "interventions": [
+      "Metformin",
+      "placebo"
+     ],
+     "countries": [
+      "Italy"
+     ],
+     "lastUpdate": "2013-03-13",
+     "statusVerified": "2013-03-01",
+     "startDate": "2010-06-01",
+     "completionDate": "2013-03-01",
+     "url": "https://clinicaltrials.gov/study/NCT01765946"
+    },
+    {
+     "nct": "NCT03451006",
+     "title": "Effect of Metformin on Frailty in 12 Subjects",
+     "org": "未标注",
+     "status": "已终止",
+     "statusRaw": "TERMINATED",
+     "statusClass": "terminated",
+     "phase": "PHASE2",
+     "enroll": "7",
+     "enrollType": "",
+     "conditions": [
+      "Aging",
+      "Inflammation",
+      "Frailty"
+     ],
+     "interventions": [
+      "Metformin",
+      "Placebo"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2022-11-17",
+     "statusVerified": "2022-10-01",
+     "startDate": "2018-05-24",
+     "completionDate": "2021-12-16",
+     "url": "https://clinicaltrials.gov/study/NCT03451006"
+    }
+   ]
+  },
+  "rapamycin": {
+   "label": "雷帕霉素 / mTOR",
+   "count": 13,
+   "trials": [
+    {
+     "nct": "NCT05237687",
+     "title": "The Role of Sirolimus in Preventing Functional Decline in Older Adults",
+     "org": "未标注",
+     "status": "招募中",
+     "statusRaw": "RECRUITING",
+     "statusClass": "recruiting",
+     "phase": "PHASE2",
+     "enroll": "10",
+     "enrollType": "",
+     "conditions": [
+      "Aging"
+     ],
+     "interventions": [
+      "Sirolimus"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2026-06-25",
+     "statusVerified": "2025-11-01",
+     "startDate": "2026-03-31",
+     "completionDate": "2028-01-01",
+     "url": "https://clinicaltrials.gov/study/NCT05237687"
+    },
+    {
+     "nct": "NCT06727305",
+     "title": "MTOR Inhibitors in Older Adults",
+     "org": "未标注",
+     "status": "招募中",
+     "statusRaw": "RECRUITING",
+     "statusClass": "recruiting",
+     "phase": "PHASE1 / PHASE2",
+     "enroll": "60",
+     "enrollType": "",
+     "conditions": [
+      "Aging"
+     ],
+     "interventions": [
+      "Sirolimus 0.5 Mg Oral Tablet",
+      "Sirolimus 1Mg Oral Tablet",
+      "Sirolimus 2 MG Oral Tablet",
+      "Everolimus 0.5 MG Oral Tablet"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2026-06-25",
+     "statusVerified": "2026-06-01",
+     "startDate": "2026-05-11",
+     "completionDate": "2027-11-13",
+     "url": "https://clinicaltrials.gov/study/NCT06727305"
+    },
+    {
+     "nct": "NCT06658093",
+     "title": "RESTOR: PK/PD mTORi Inhibition in Older Adults",
+     "org": "未标注",
+     "status": "招募中",
+     "statusRaw": "RECRUITING",
+     "statusClass": "recruiting",
+     "phase": "EARLY_PHASE1",
+     "enroll": "194",
+     "enrollType": "",
+     "conditions": [
+      "Aging"
+     ],
+     "interventions": [
+      "Rapamycin",
+      "Everolimus",
+      "Placebo"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2026-06-01",
+     "statusVerified": "2026-05-01",
+     "startDate": "2026-03-04",
+     "completionDate": "2028-07-01",
+     "url": "https://clinicaltrials.gov/study/NCT06658093"
+    },
+    {
+     "nct": "NCT05949658",
+     "title": "Rapalog Pharmacology (RAP PAC) Study",
+     "org": "未标注",
+     "status": "招募中",
+     "statusRaw": "RECRUITING",
+     "statusClass": "recruiting",
+     "phase": "PHASE1",
+     "enroll": "72",
+     "enrollType": "",
+     "conditions": [
+      "Aging"
+     ],
+     "interventions": [
+      "Sirolimus",
+      "Everolimus"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2026-05-28",
+     "statusVerified": "2026-02-01",
+     "startDate": "2024-05-15",
+     "completionDate": "2028-12-01",
+     "url": "https://clinicaltrials.gov/study/NCT05949658"
+    },
+    {
+     "nct": "NCT04742777",
+     "title": "Effect of mTOR Inhibition & Other Metabolism Modulating Interventions on the Elderly [SubStudy Rapa & cMRI to Evaluate Cardiac Function]",
+     "org": "未标注",
+     "status": "进行中（不再招募）",
+     "statusRaw": "ACTIVE_NOT_RECRUITING",
+     "statusClass": "active",
+     "phase": "PHASE2",
+     "enroll": "20",
+     "enrollType": "",
+     "conditions": [
+      "Aging"
+     ],
+     "interventions": [
+      "rapamycin"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2026-09-23",
+     "statusVerified": "2026-09-01",
+     "startDate": "2022-02-01",
+     "completionDate": "2026-10-16",
+     "url": "https://clinicaltrials.gov/study/NCT04742777"
+    },
+    {
+     "nct": "NCT07354620",
+     "title": "A Pilot Study on Reverse Aging (The REVERSE Study)",
+     "org": "未标注",
+     "status": "进行中（不再招募）",
+     "statusRaw": "ACTIVE_NOT_RECRUITING",
+     "statusClass": "active",
+     "phase": "EARLY_PHASE1",
+     "enroll": "52",
+     "enrollType": "",
+     "conditions": [
+      "Aging"
+     ],
+     "interventions": [
+      "Rapamycin (Tablets)",
+      "Prolon diet"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2026-01-21",
+     "statusVerified": "2026-01-01",
+     "startDate": "2025-02-15",
+     "completionDate": "2026-05-01",
+     "url": "https://clinicaltrials.gov/study/NCT07354620"
+    },
+    {
+     "nct": "NCT05836025",
+     "title": "Effect of Rapamycin in Ovarian Aging",
+     "org": "未标注",
+     "status": "进行中（不再招募）",
+     "statusRaw": "ACTIVE_NOT_RECRUITING",
+     "statusClass": "active",
+     "phase": "PHASE2",
+     "enroll": "50",
+     "enrollType": "",
+     "conditions": [
+      "Perimenopausal"
+     ],
+     "interventions": [
+      "Rapamycin",
+      "Placebo"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2025-12-26",
+     "statusVerified": "2025-12-01",
+     "startDate": "2023-06-01",
+     "completionDate": "2026-09-01",
+     "url": "https://clinicaltrials.gov/study/NCT05836025"
+    },
+    {
+     "nct": "NCT05835999",
+     "title": "Everolimus Aging Study",
+     "org": "未标注",
+     "status": "已完成",
+     "statusRaw": "COMPLETED",
+     "statusClass": "completed",
+     "phase": "PHASE2",
+     "enroll": "106",
+     "enrollType": "",
+     "conditions": [
+      "Aging",
+      "Insulin Resistance"
+     ],
+     "interventions": [
+      "Everolimus 0.5 MG once per day",
+      "Everolimus 5 MG once per week",
+      "Placebo once per day",
+      "Placebo once per week"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2026-09-04",
+     "statusVerified": "2026-09-01",
+     "startDate": "2023-03-24",
+     "completionDate": "2026-07-22",
+     "url": "https://clinicaltrials.gov/study/NCT05835999"
+    },
+    {
+     "nct": "NCT06550271",
+     "title": "The Bioavailability of Compounded and Generic Rapamycin in Normative Aging Individuals",
+     "org": "未标注",
+     "status": "已完成",
+     "statusRaw": "COMPLETED",
+     "statusClass": "completed",
+     "phase": "未标注分期",
+     "enroll": "67",
+     "enrollType": "",
+     "conditions": [
+      "Aging"
+     ],
+     "interventions": [
+      "Rapamycin"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2024-08-13",
+     "statusVerified": "2024-08-01",
+     "startDate": "2023-04-25",
+     "completionDate": "2023-12-15",
+     "url": "https://clinicaltrials.gov/study/NCT06550271"
+    },
+    {
+     "nct": "NCT04488601",
+     "title": "Participatory Evaluation (of) Aging (With) Rapamycin (for) Longevity Study",
+     "org": "未标注",
+     "status": "已完成",
+     "statusRaw": "COMPLETED",
+     "statusClass": "completed",
+     "phase": "PHASE2",
+     "enroll": "129",
+     "enrollType": "",
+     "conditions": [
+      "Aging"
+     ],
+     "interventions": [
+      "Rapamycin",
+      "Placebo"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2024-01-24",
+     "statusVerified": "2022-10-01",
+     "startDate": "2020-01-01",
+     "completionDate": "2023-12-30",
+     "url": "https://clinicaltrials.gov/study/NCT04488601"
+    },
+    {
+     "nct": "NCT04608448",
+     "title": "Topical-RAPA Use in Inflammation Reversal and Re-setting the Epigenetic Clock",
+     "org": "未标注",
+     "status": "已完成",
+     "statusRaw": "COMPLETED",
+     "statusClass": "completed",
+     "phase": "EARLY_PHASE1",
+     "enroll": "22",
+     "enrollType": "",
+     "conditions": [
+      "Aging",
+      "Epigenetics",
+      "Inflammatory Mediators"
+     ],
+     "interventions": [
+      "Rapamycin Topical Ointment",
+      "Placebo"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2023-07-19",
+     "statusVerified": "2023-06-01",
+     "startDate": "2021-04-28",
+     "completionDate": "2022-04-15",
+     "url": "https://clinicaltrials.gov/study/NCT04608448"
+    },
+    {
+     "nct": "NCT02874924",
+     "title": "Effect of mTOR Inhibition and Other Metabolism Modulating Interventions on the Elderly",
+     "org": "未标注",
+     "status": "已完成",
+     "statusRaw": "COMPLETED",
+     "statusClass": "completed",
+     "phase": "PHASE2",
+     "enroll": "34",
+     "enrollType": "",
+     "conditions": [
+      "Aging"
+     ],
+     "interventions": [
+      "Rapamycin",
+      "Placebo",
+      "Rapamycin"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2018-12-04",
+     "statusVerified": "2018-03-01",
+     "startDate": "2016-06-01",
+     "completionDate": "2018-09-01",
+     "url": "https://clinicaltrials.gov/study/NCT02874924"
+    },
+    {
+     "nct": "NCT01649960",
+     "title": "Exercise and Low-Dose Rapamycin in Older Adults With CAD:Cardiac Rehabilitation And Rapamycin in Elderly (CARE) Trial",
+     "org": "未标注",
+     "status": "已完成",
+     "statusRaw": "COMPLETED",
+     "statusClass": "completed",
+     "phase": "PHASE1",
+     "enroll": "13",
+     "enrollType": "",
+     "conditions": [
+      "Aging",
+      "CAD"
+     ],
+     "interventions": [
+      "Rapamycin"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2016-12-07",
+     "statusVerified": "2016-12-01",
+     "startDate": "2012-08-01",
+     "completionDate": "2015-12-01",
+     "url": "https://clinicaltrials.gov/study/NCT01649960"
+    }
+   ]
+  },
+  "spermidine": {
+   "label": "亚精胺 / 自噬",
+   "count": 2,
+   "trials": [
+    {
+     "nct": "NCT07675200",
+     "title": "Effects of Miricell Supplementation on Biomarkers of Healthy Aging and Autophagy",
+     "org": "未标注",
+     "status": "招募中",
+     "statusRaw": "RECRUITING",
+     "statusClass": "recruiting",
+     "phase": "NA",
+     "enroll": "70",
+     "enrollType": "",
+     "conditions": [
+      "Autophagy",
+      "Healthy Aging"
+     ],
+     "interventions": [
+      "Spermidine",
+      "Placebo"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2026-06-30",
+     "statusVerified": "2026-06-01",
+     "startDate": "2026-01-09",
+     "completionDate": "2026-09-01",
+     "url": "https://clinicaltrials.gov/study/NCT07675200"
+    },
+    {
+     "nct": "NCT07202403",
+     "title": "Iterative Design Trial to Assess Dietary Supplements and Other Aging-targeted Therapies",
+     "org": "未标注",
+     "status": "定向邀请入组",
+     "statusRaw": "ENROLLING_BY_INVITATION",
+     "statusClass": "active",
+     "phase": "NA",
+     "enroll": "10",
+     "enrollType": "",
+     "conditions": [
+      "Aging",
+      "Longevity"
+     ],
+     "interventions": [
+      "Spermidine"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2025-10-01",
+     "statusVerified": "2025-09-01",
+     "startDate": "2025-09-01",
+     "completionDate": "2031-09-01",
+     "url": "https://clinicaltrials.gov/study/NCT07202403"
+    }
+   ]
+  },
+  "gerotherapeutics": {
+   "label": "其他 gerotherapeutics",
+   "count": 19,
+   "trials": [
+    {
+     "nct": "NCT07462767",
+     "title": "Precision Microbiota Interventions for Senoreduction Trial",
+     "org": "未标注",
+     "status": "尚未开始招募",
+     "statusRaw": "NOT_YET_RECRUITING",
+     "statusClass": "recruiting",
+     "phase": "PHASE1 / PHASE2",
+     "enroll": "160",
+     "enrollType": "",
+     "conditions": [
+      "HIV Infections",
+      "Alcohol Drinking",
+      "Aging",
+      "Immunosenescence"
+     ],
+     "interventions": [
+      "Limosilactobacillus reuteri",
+      "Blueberry extract"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2026-10-01",
+     "statusVerified": "2026-09-01",
+     "startDate": "2026-10-01",
+     "completionDate": "2029-12-01",
+     "url": "https://clinicaltrials.gov/study/NCT07462767"
+    },
+    {
+     "nct": "NCT07760506",
+     "title": "The Effects of Quercefit® and Ubiqsome™ in Mitigating Inflammation and Promoting Metabolic Health",
+     "org": "未标注",
+     "status": "招募中",
+     "statusRaw": "RECRUITING",
+     "statusClass": "recruiting",
+     "phase": "NA",
+     "enroll": "60",
+     "enrollType": "",
+     "conditions": [
+      "Healthy Aging",
+      "Inflammaging",
+      "Metabolic Health",
+      "Quercetin"
+     ],
+     "interventions": [
+      "Quercetin (dietary supplement)",
+      "Coenzyme Q10",
+      "Rice Flour"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2026-09-17",
+     "statusVerified": "2026-09-01",
+     "startDate": "2026-09-18",
+     "completionDate": "2028-08-01",
+     "url": "https://clinicaltrials.gov/study/NCT07760506"
+    },
+    {
+     "nct": "NCT07719088",
+     "title": "Psilocybin Effects on Healthy Aging Biomarkers and Purpose in Life",
+     "org": "未标注",
+     "status": "尚未开始招募",
+     "statusRaw": "NOT_YET_RECRUITING",
+     "statusClass": "recruiting",
+     "phase": "PHASE1",
+     "enroll": "50",
+     "enrollType": "",
+     "conditions": [
+      "Aging",
+      "Longevity",
+      "Biomarkers of Aging"
+     ],
+     "interventions": [
+      "Psilocybin (Usona Institute)"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2026-08-17",
+     "statusVerified": "2026-08-01",
+     "startDate": "2026-12-01",
+     "completionDate": "2028-12-01",
+     "url": "https://clinicaltrials.gov/study/NCT07719088"
+    },
+    {
+     "nct": "NCT07596576",
+     "title": "Sheba Healthspan Research Population (SHARP) Trial - Sheba Longevity Center Diagnostic and Intervention Protocol to Lower Biological Age in Older Adults",
+     "org": "未标注",
+     "status": "招募中",
+     "statusRaw": "RECRUITING",
+     "statusClass": "recruiting",
+     "phase": "NA",
+     "enroll": "1500",
+     "enrollType": "",
+     "conditions": [
+      "Healthy Aging",
+      "Healthspan",
+      "Biological Age",
+      "Intrinsic Capacity"
+     ],
+     "interventions": [
+      "healthspan personalized protocol",
+      "Control"
+     ],
+     "countries": [
+      "Israel"
+     ],
+     "lastUpdate": "2026-05-19",
+     "statusVerified": "2026-05-01",
+     "startDate": "2024-03-01",
+     "completionDate": "2027-12-01",
+     "url": "https://clinicaltrials.gov/study/NCT07596576"
+    },
+    {
+     "nct": "NCT07456449",
+     "title": "Collagen Peptides and Cellular Aging",
+     "org": "未标注",
+     "status": "招募中",
+     "statusRaw": "RECRUITING",
+     "statusClass": "recruiting",
+     "phase": "NA",
+     "enroll": "125",
+     "enrollType": "",
+     "conditions": [
+      "Longevity",
+      "Healthy Aging",
+      "Biological Ageing"
+     ],
+     "interventions": [
+      "Collagen peptides",
+      "Maltodextrin (Placebo)"
+     ],
+     "countries": [
+      "Austria"
+     ],
+     "lastUpdate": "2026-05-05",
+     "statusVerified": "2026-01-01",
+     "startDate": "2026-04-22",
+     "completionDate": "2028-08-01",
+     "url": "https://clinicaltrials.gov/study/NCT07456449"
+    },
+    {
+     "nct": "NCT07524478",
+     "title": "A Randomized Controlled Trial of a Multi-domain Smartphone Intervention Incorporating Generative AI for Healthy Older Adults",
+     "org": "未标注",
+     "status": "招募中",
+     "statusRaw": "RECRUITING",
+     "statusClass": "recruiting",
+     "phase": "NA",
+     "enroll": "300",
+     "enrollType": "",
+     "conditions": [
+      "Healthy Longevity"
+     ],
+     "interventions": [
+      "Multidomain intervention",
+      "Control"
+     ],
+     "countries": [
+      "Japan"
+     ],
+     "lastUpdate": "2026-04-16",
+     "statusVerified": "2026-04-01",
+     "startDate": "2026-03-10",
+     "completionDate": "2027-12-31",
+     "url": "https://clinicaltrials.gov/study/NCT07524478"
+    },
+    {
+     "nct": "NCT07466290",
+     "title": "L-serine and Strength Training in the Elderly",
+     "org": "未标注",
+     "status": "招募中",
+     "statusRaw": "RECRUITING",
+     "statusClass": "recruiting",
+     "phase": "NA",
+     "enroll": "126",
+     "enrollType": "",
+     "conditions": [
+      "Brain Health",
+      "Longevity",
+      "Cognitive Performance",
+      "Strength Training Effects"
+     ],
+     "interventions": [
+      "Strength training",
+      "L-serine supplementation",
+      "Control (cornstarch)"
+     ],
+     "countries": [
+      "Austria"
+     ],
+     "lastUpdate": "2026-03-12",
+     "statusVerified": "2026-02-01",
+     "startDate": "2026-03-01",
+     "completionDate": "2028-12-01",
+     "url": "https://clinicaltrials.gov/study/NCT07466290"
+    },
+    {
+     "nct": "NCT07113860",
+     "title": "Reframing Expectations About Aging - Physical Activity and Inclusive Reappraisal",
+     "org": "未标注",
+     "status": "招募中",
+     "statusRaw": "RECRUITING",
+     "statusClass": "recruiting",
+     "phase": "NA",
+     "enroll": "342",
+     "enrollType": "",
+     "conditions": [
+      "Self-perceptions of Aging",
+      "Physical Activity"
+     ],
+     "interventions": [
+      "Views on Aging Intervention",
+      "Projecte Moviment"
+     ],
+     "countries": [
+      "Spain"
+     ],
+     "lastUpdate": "2025-08-19",
+     "statusVerified": "2025-08-01",
+     "startDate": "2025-07-28",
+     "completionDate": "2027-10-01",
+     "url": "https://clinicaltrials.gov/study/NCT07113860"
+    },
+    {
+     "nct": "NCT06882434",
+     "title": "Holistic Integration for Healthy Longevity and Aging in Place",
+     "org": "未标注",
+     "status": "尚未开始招募",
+     "statusRaw": "NOT_YET_RECRUITING",
+     "statusClass": "recruiting",
+     "phase": "NA",
+     "enroll": "600",
+     "enrollType": "",
+     "conditions": [
+      "Cognitive Decline",
+      "Sarcopenia",
+      "Depression Disorders",
+      "Nutrition Disorder"
+     ],
+     "interventions": [
+      "Local intervention program",
+      "Referral Process",
+      "Telehealth Education & Digital Integration"
+     ],
+     "countries": [],
+     "lastUpdate": "2025-03-25",
+     "statusVerified": "2025-03-01",
+     "startDate": "2025-03-15",
+     "completionDate": "2028-12-31",
+     "url": "https://clinicaltrials.gov/study/NCT06882434"
+    },
+    {
+     "nct": "NCT06666660",
+     "title": "Daily Intake of Multivitamin & Mineral Supplementation Effects on Biological Age of Relatively Healthy Middle-aged Individuals",
+     "org": "未标注",
+     "status": "招募中",
+     "statusRaw": "RECRUITING",
+     "statusClass": "recruiting",
+     "phase": "NA",
+     "enroll": "400",
+     "enrollType": "",
+     "conditions": [
+      "Relatively Healthy Volunteers"
+     ],
+     "interventions": [
+      "Multivitamin/Mineral supplements",
+      "Placebo"
+     ],
+     "countries": [
+      "Singapore"
+     ],
+     "lastUpdate": "2024-10-30",
+     "statusVerified": "2024-10-01",
+     "startDate": "2024-09-23",
+     "completionDate": "2025-06-30",
+     "url": "https://clinicaltrials.gov/study/NCT06666660"
+    },
+    {
+     "nct": "NCT04195399",
+     "title": "A Study of a New Drug, Nirogacestat, for Treating Desmoid Tumors That Cannot be Removed by Surgery",
+     "org": "未标注",
+     "status": "进行中（不再招募）",
+     "statusRaw": "ACTIVE_NOT_RECRUITING",
+     "statusClass": "active",
+     "phase": "PHASE2",
+     "enroll": "31",
+     "enrollType": "",
+     "conditions": [
+      "Desmoid Fibromatosis",
+      "Recurrent Desmoid Fibromatosis",
+      "Unresectable Desmoid Fibromatosis"
+     ],
+     "interventions": [
+      "Biospecimen Collection",
+      "Computed Tomography",
+      "Echocardiography Test",
+      "Magnetic Resonance Imaging"
+     ],
+     "countries": [
+      "Australia",
+      "Canada",
+      "New Zealand",
+      "Puerto Rico",
+      "United States"
+     ],
+     "lastUpdate": "2026-10-01",
+     "statusVerified": "2026-09-01",
+     "startDate": "2020-10-07",
+     "completionDate": "2032-12-31",
+     "url": "https://clinicaltrials.gov/study/NCT04195399"
+    },
+    {
+     "nct": "NCT07723339",
+     "title": "BIOANCIENT_EX: Effects of a Physical Exercise Program in Centenarians of the BIOANCIENT Cohort: A Randomized Clinical Trial.",
+     "org": "未标注",
+     "status": "定向邀请入组",
+     "statusRaw": "ENROLLING_BY_INVITATION",
+     "statusClass": "active",
+     "phase": "NA",
+     "enroll": "60",
+     "enrollType": "",
+     "conditions": [
+      "Aging",
+      "Cellular Senescence",
+      "Biomarkers / Blood",
+      "Exercise"
+     ],
+     "interventions": [
+      "Exercise"
+     ],
+     "countries": [
+      "Spain"
+     ],
+     "lastUpdate": "2026-09-01",
+     "statusVerified": "2026-08-01",
+     "startDate": "2026-08-13",
+     "completionDate": "2027-12-01",
+     "url": "https://clinicaltrials.gov/study/NCT07723339"
+    },
+    {
+     "nct": "NCT06990256",
+     "title": "Evaluation of Urolithin A and Fisetin on Improving Sleep and Aging Biomarkers",
+     "org": "未标注",
+     "status": "进行中（不再招募）",
+     "statusRaw": "ACTIVE_NOT_RECRUITING",
+     "statusClass": "active",
+     "phase": "NA",
+     "enroll": "83",
+     "enrollType": "",
+     "conditions": [
+      "Sleep Disorder",
+      "Aging"
+     ],
+     "interventions": [
+      "Fisetin intervention",
+      "Placebo",
+      "Urolithin A intervention"
+     ],
+     "countries": [
+      "China"
+     ],
+     "lastUpdate": "2026-08-10",
+     "statusVerified": "2025-09-01",
+     "startDate": "2025-09-16",
+     "completionDate": "2026-12-30",
+     "url": "https://clinicaltrials.gov/study/NCT06990256"
+    },
+    {
+     "nct": "NCT04951700",
+     "title": "Aging and Disease Course: Contributions to Lifespan Neurobiology of Schizophrenia",
+     "org": "未标注",
+     "status": "进行中（不再招募）",
+     "statusRaw": "ACTIVE_NOT_RECRUITING",
+     "statusClass": "active",
+     "phase": "未标注分期",
+     "enroll": "194",
+     "enrollType": "",
+     "conditions": [
+      "Schizophrenia",
+      "Aging",
+      "Disease Course",
+      "Biomarker"
+     ],
+     "interventions": [
+      "Other"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2025-08-21",
+     "statusVerified": "2025-08-01",
+     "startDate": "2021-07-01",
+     "completionDate": "2027-04-30",
+     "url": "https://clinicaltrials.gov/study/NCT04951700"
+    },
+    {
+     "nct": "NCT07114536",
+     "title": "Evaluation of the Efficacy of Calcium a -Ketoglutarate(AKG-Ca) in Improving Human Aging",
+     "org": "未标注",
+     "status": "已完成",
+     "statusRaw": "COMPLETED",
+     "statusClass": "completed",
+     "phase": "NA",
+     "enroll": "34",
+     "enrollType": "",
+     "conditions": [
+      "Aging"
+     ],
+     "interventions": [
+      "Calcium-a-ketoglutarate",
+      "Placebo(starch)"
+     ],
+     "countries": [
+      "China"
+     ],
+     "lastUpdate": "2026-09-16",
+     "statusVerified": "2026-09-01",
+     "startDate": "2025-08-20",
+     "completionDate": "2025-11-30",
+     "url": "https://clinicaltrials.gov/study/NCT07114536"
+    },
+    {
+     "nct": "NCT05601102",
+     "title": "danceSing Care Evaluation: Testing the Effectiveness",
+     "org": "未标注",
+     "status": "已完成",
+     "statusRaw": "COMPLETED",
+     "statusClass": "completed",
+     "phase": "NA",
+     "enroll": "34",
+     "enrollType": "",
+     "conditions": [
+      "Older Adults",
+      "Healthy Aging",
+      "Aging",
+      "Quality of Life"
+     ],
+     "interventions": [
+      "danceSing Care"
+     ],
+     "countries": [
+      "United Kingdom"
+     ],
+     "lastUpdate": "2025-05-20",
+     "statusVerified": "2025-05-01",
+     "startDate": "2023-03-20",
+     "completionDate": "2023-08-20",
+     "url": "https://clinicaltrials.gov/study/NCT05601102"
+    },
+    {
+     "nct": "NCT01745263",
+     "title": "DO-HEALTH / Vitamin D3 - Omega3 - Home Exercise - Healthy Ageing and Longevity Trial",
+     "org": "未标注",
+     "status": "已完成",
+     "statusRaw": "COMPLETED",
+     "statusClass": "completed",
+     "phase": "PHASE3",
+     "enroll": "2157",
+     "enrollType": "",
+     "conditions": [
+      "Improve Healthy Ageing in Seniors; Prevent Disease at Older Age"
+     ],
+     "interventions": [
+      "Vitamin D3",
+      "Omega 3 fatty acids",
+      "Strength Home Exercise",
+      "Flexibility Home Exercise"
+     ],
+     "countries": [
+      "Austria",
+      "France",
+      "Germany",
+      "Portugal",
+      "Switzerland"
+     ],
+     "lastUpdate": "2018-08-09",
+     "statusVerified": "2018-08-01",
+     "startDate": "2012-12-20",
+     "completionDate": "2018-01-19",
+     "url": "https://clinicaltrials.gov/study/NCT01745263"
+    },
+    {
+     "nct": "NCT00818311",
+     "title": "Skin Safety Profile of Different Exposure to the Light Emitting Diode (LED) in Healthy Subjects",
+     "org": "未标注",
+     "status": "已完成",
+     "statusRaw": "COMPLETED",
+     "statusClass": "completed",
+     "phase": "NA",
+     "enroll": "100",
+     "enrollType": "",
+     "conditions": [
+      "Radiation Tolerance",
+      "Skin Aging",
+      "Rhytids"
+     ],
+     "interventions": [
+      "LED GentleWaves®"
+     ],
+     "countries": [
+      "United States"
+     ],
+     "lastUpdate": "2009-01-07",
+     "statusVerified": "2009-01-01",
+     "startDate": "2008-06-01",
+     "completionDate": "2008-12-01",
+     "url": "https://clinicaltrials.gov/study/NCT00818311"
+    },
+    {
+     "nct": "NCT03734419",
+     "title": "The Use of Aging Biomarkers in Saliva, Based on DNA Methylation Status in Elovl2 to Predict Biological Age",
+     "org": "未标注",
+     "status": "已撤回",
+     "statusRaw": "WITHDRAWN",
+     "statusClass": "terminated",
+     "phase": "未标注分期",
+     "enroll": "0",
+     "enrollType": "",
+     "conditions": [
+      "Healthy"
+     ],
+     "interventions": [],
+     "countries": [],
+     "lastUpdate": "2023-12-21",
+     "statusVerified": "2023-12-01",
+     "startDate": "2019-12-01",
+     "completionDate": "2021-12-01",
+     "url": "https://clinicaltrials.gov/study/NCT03734419"
+    }
+   ]
   }
+ }
 }

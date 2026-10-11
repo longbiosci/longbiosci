@@ -1,0 +1,218 @@
+/* ==========================================================================
+   临床试验数据库 —— 页面专属样式
+   基础令牌全部来自 /style.css，本文件只补试验库特有的组件。
+   独立成文件而非内联 <style>：原页面的内联样式无法响应暗色模式，
+   也不受 style.css 的移动端适配规则约束。
+   ========================================================================== */
+
+/* ---- 数据更新时间戳：页面上最显眼的位置 ---- */
+.tr-stamp{
+  margin-top:var(--s-4);
+  padding:var(--s-3) var(--s-4);
+  background:var(--c-bg-raised);
+  border:1px solid var(--c-line);
+  border-left:3px solid var(--c-primary);
+  border-radius:var(--r-md);
+  font-size:var(--f-sm);
+  color:var(--c-muted);
+  display:inline-block;
+}
+.tr-stamp strong{color:var(--c-primary);font-weight:600}
+.tr-stamp time{color:var(--c-ink)}
+
+/* ---- 分类 tab ---- */
+.tr-tabs{
+  display:flex;flex-wrap:wrap;gap:var(--s-2);
+  margin-bottom:var(--s-5);
+  padding-bottom:var(--s-2);
+  border-bottom:1px solid var(--c-line);
+}
+.tr-tab{
+  display:inline-flex;align-items:center;gap:.45em;
+  padding:var(--s-2) var(--s-4);
+  background:var(--c-bg-sunken);
+  border:1px solid var(--c-line);
+  border-radius:var(--r-pill);
+  color:var(--c-ink-soft);
+  font:inherit;font-size:var(--f-sm);
+  cursor:pointer;
+  transition:background .16s var(--ease),color .16s var(--ease),
+             border-color .16s var(--ease);
+}
+.tr-tab:hover{border-color:var(--c-primary);color:var(--c-primary)}
+.tr-tab[aria-selected="true"]{
+  background:var(--c-primary);border-color:var(--c-primary);color:#fff;
+}
+.tr-tab:focus-visible{outline:2px solid var(--c-primary);outline-offset:2px}
+.tr-tab-n{
+  font-size:var(--f-xs);
+  padding:0 .45em;border-radius:var(--r-pill);
+  background:var(--c-line);color:var(--c-muted);
+  font-variant-numeric:tabular-nums;
+}
+.tr-tab[aria-selected="true"] .tr-tab-n{
+  background:rgba(255,255,255,.22);color:#fff;
+}
+
+.tr-pane{display:none}
+.tr-pane.active{display:block}
+.tr-desc{
+  color:var(--c-muted);font-size:var(--f-sm);
+  margin-bottom:var(--s-4);max-width:62ch;
+}
+
+/* ---- 试验条目 ---- */
+.tr-list{list-style:none;padding:0;margin:0}
+.tr-item{
+  padding:var(--s-4);
+  margin-bottom:var(--s-3);
+  background:var(--c-bg-raised);
+  border:1px solid var(--c-line);
+  border-radius:var(--r-lg);
+  transition:border-color .16s var(--ease),box-shadow .16s var(--ease);
+}
+.tr-item:hover{border-color:var(--c-primary-line);box-shadow:var(--sh-sm)}
+
+.tr-head{
+  display:flex;align-items:flex-start;justify-content:space-between;
+  gap:var(--s-3);flex-wrap:wrap;margin-bottom:var(--s-2);
+}
+.tr-head h3{
+  font-size:var(--f-md);line-height:var(--lh-snug);
+  margin:0;flex:1 1 260px;min-width:0;
+}
+.tr-head h3 a{color:var(--c-ink)}
+.tr-item:hover .tr-head h3 a{color:var(--c-primary)}
+
+/* NCT 编号：等宽字体，像引用一样可识别 */
+.tr-nct{
+  display:inline-block;
+  font-family:ui-monospace,SFMono-Regular,Consolas,monospace;
+  font-size:var(--f-xs);letter-spacing:.02em;
+  color:var(--c-primary);
+  border-bottom:1px dashed var(--c-primary-line);
+  margin-bottom:var(--s-3);
+}
+.tr-nct:hover{color:var(--c-accent);border-bottom-color:var(--c-accent)}
+
+/* 元信息四格 */
+.tr-meta-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+  gap:var(--s-2) var(--s-4);
+  margin:0 0 var(--s-3);
+}
+.tr-meta{display:flex;gap:.5em;min-width:0}
+.tr-meta dt{
+  color:var(--c-faint);font-size:var(--f-xs);
+  flex:0 0 auto;white-space:nowrap;
+}
+.tr-meta dd{
+  margin:0;color:var(--c-ink-soft);font-size:var(--f-sm);
+  min-width:0;overflow-wrap:anywhere;
+}
+
+.tr-foot{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:var(--s-2) var(--s-3);flex-wrap:wrap;
+  padding-top:var(--s-3);border-top:1px solid var(--c-line);
+}
+.tr-tags{display:flex;flex-wrap:wrap;gap:var(--s-2)}
+.tr-tag{
+  padding:2px var(--s-2);border-radius:var(--r-sm);
+  background:var(--c-primary-soft);color:var(--c-primary);
+  font-size:var(--f-xs);
+}
+.tr-dates{display:flex;flex-wrap:wrap;gap:var(--s-3)}
+.tr-fresh{
+  color:var(--c-faint);font-size:var(--f-xs);
+  font-variant-numeric:tabular-nums;white-space:nowrap;
+}
+
+/* ---- 招募状态徽章：颜色语义与证据分级一致 ---- */
+.tr-status{
+  flex:0 0 auto;
+  display:inline-flex;align-items:center;
+  padding:3px var(--s-3);border-radius:var(--r-pill);
+  font-size:var(--f-xs);font-weight:600;white-space:nowrap;
+}
+.tr-recruiting{background:var(--c-ev-a-bg);color:var(--c-ev-a)}
+.tr-active{background:var(--c-primary-soft);color:var(--c-primary)}
+.tr-suspended{background:var(--c-ev-b-bg);color:var(--c-ev-b)}
+.tr-completed{background:var(--c-bg-sunken);color:var(--c-muted)}
+.tr-terminated{background:var(--c-bg-sunken);color:var(--c-faint)}
+.tr-unknown{background:var(--c-bg-sunken);color:var(--c-muted)}
+
+/* ---- 数据说明 ---- */
+.tr-about{
+  background:var(--c-surface);
+  border:1px solid var(--c-line);
+  border-radius:var(--r-lg);
+  padding:var(--s-5);
+}
+.tr-about dl{
+  display:grid;grid-template-columns:max-content 1fr;
+  gap:var(--s-2) var(--s-4);margin:0 0 var(--s-4);
+}
+.tr-about dt{
+  color:var(--c-faint);font-size:var(--f-sm);font-weight:500;
+  white-space:nowrap;
+}
+.tr-about dd{margin:0;color:var(--c-ink-soft);font-size:var(--f-sm);min-width:0}
+.tr-caveat{
+  margin:0;padding-top:var(--s-4);
+  border-top:1px solid var(--c-line);
+  font-size:var(--f-sm);color:var(--c-muted);
+}
+
+/* ---- 暗色模式微调 ---- */
+@media (prefers-color-scheme:dark){
+  .tr-tab[aria-selected="true"]{background:var(--c-primary-lift);
+    border-color:var(--c-primary-lift);color:#08131d}
+  .tr-tag{background:var(--c-primary-soft);color:var(--c-primary)}
+  .tr-nct{color:var(--c-primary);border-bottom-color:var(--c-primary-line)}
+  .tr-caveat{color:var(--c-muted)}
+}
+
+/* ---- 移动端 ---- */
+@media (max-width:768px){
+  .tr-stamp{display:block;font-size:var(--f-xs)}
+  /* 分类 tab 改为横滑，避免占掉整屏高度 */
+  .tr-tabs{
+    flex-wrap:nowrap;overflow-x:auto;
+    -webkit-overflow-scrolling:touch;
+    scrollbar-width:none;-ms-overflow-style:none;
+    scroll-snap-type:x proximity;
+  }
+  .tr-tabs::-webkit-scrollbar{display:none}
+  .tr-tab{flex:0 0 auto;white-space:nowrap;scroll-snap-align:start;
+    min-height:36px}
+  .tr-item{padding:var(--s-3)}
+  .tr-head h3{font-size:var(--f-base);flex:1 1 100%}
+  .tr-status{align-self:flex-start}
+  /* 元信息改为两列，比单列更省纵向空间 */
+  .tr-meta-grid{grid-template-columns:1fr 1fr}
+  /* 窄屏下标签在上、值在下，避免「样本量 / 220」被拆成两行 */
+  .tr-meta{flex-direction:column;gap:1px}
+  .tr-meta dt{
+    white-space:normal;      /* 长标签（如「样本量」）不再强制不换行 */
+    line-height:1.3;
+  }
+  .tr-meta dd{line-height:1.4}
+  .tr-foot{flex-direction:column;align-items:flex-start}
+  .tr-about{padding:var(--s-4)}
+  /* 单列 dl，长标签不与内容挤在一行 */
+  .tr-about dl{grid-template-columns:1fr;gap:var(--s-1)}
+  .tr-about dt{margin-top:var(--s-2)}
+}
+
+@media (max-width:360px){
+  .tr-meta-grid{grid-template-columns:1fr}
+  .tr-tab{font-size:var(--f-xs);padding:var(--s-1) var(--s-3)}
+}
+
+/* ---- 打印 ---- */
+@media print{
+  .tr-tabs{display:none}
+  .tr-pane{display:block !important;page-break-inside:avoid}
+}
