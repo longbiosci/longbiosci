@@ -60,19 +60,36 @@
     if (!desc && body) desc = body.textContent.replace(/\s+/g, ' ').trim();
     desc = desc.replace(/\s+/g, ' ').trim();
 
-    // 提取「核心发现」要点：取正文里第一个 <ul> 的前 3 条 li，
-    // 用于填充海报中段，避免出现大片空白
+    // 提取要点：取正文里第一个 <ul> 的条目（最多 5 条）。
+    // 海报是竖版长图，纵向空间充裕，比原来 3 条更能撑起信息量。
     var points = [];
     if (body) {
       var ul = body.querySelector('ul');
       if (ul) {
         var lis = ul.querySelectorAll('li');
-        for (var i = 0; i < lis.length && points.length < 3; i++) {
+        for (var i = 0; i < lis.length && points.length < 5; i++) {
           var s = lis[i].textContent.replace(/\s+/g, ' ').trim();
           if (s.length > 8) points.push(s);
         }
       }
     }
+
+    // 来源信息：取正文「来源:」行的机构名部分（去掉链接锚文本里的 URL 与论文名）
+    var source = '';
+    var srcEl = document.querySelector('.article-header .source');
+    if (srcEl) {
+      var st = srcEl.textContent.replace(/\s+/g, ' ').trim();
+      // 截到「论文：」或「· 论文」之前，避免塞进整段 DOI
+      var cutAt = st.search(/论文：|·\s*论文/);
+      source = (cutAt > 0 ? st.slice(0, cutAt) : st).replace(/^来源[:：]\s*/, '').trim();
+      if (source.length > 78) source = source.slice(0, 78) + '…';
+    }
+
+    // 二维码内容：优先 canonical（权威且绝对），退化到当前地址
+    var url = '';
+    var can = document.querySelector('link[rel="canonical"]');
+    if (can) url = can.getAttribute('content') || can.href || '';
+    if (!url) url = location.origin + location.pathname;
 
     return {
       title: title,
@@ -80,7 +97,9 @@
       date: date,
       tier: tier,
       topic: topic || '衰老与长寿',
-      points: points
+      points: points,
+      source: source,
+      url: url
     };
   }
 
@@ -213,7 +232,7 @@
     var dpr = 2;                                   // 2倍图，导出更清晰
     var PAD = 72;
     var maxW = W - PAD * 2;
-    var FOOT_H = 132;
+    var FOOT_H = m.url ? 210 : 132;               // 含二维码的页脚更高
 
     /* ---- 第一遍：量出内容总高（离屏测量，不影响可见画布）---- */
     var probe = document.createElement('canvas').getContext('2d');
@@ -243,8 +262,18 @@
       }
     }
 
+    // 来源区
+    var sourceLine = null;
+    if (m.source) {
+      probeY += 40 + 26;
+      probe.font = '400 21px ' + FONT;
+      var sl = wrap(probe, m.source, maxW);
+      sourceLine = sl;
+      probeY += sl.length * 30;
+    }
+
     /* ---- 画布高度按内容自适应，避免底部大片空白 ---- */
-    var HH = Math.round(Math.max(1080, Math.min(1600, probeY + 80 + FOOT_H)));
+    var HH = Math.round(Math.max(1080, Math.min(2200, probeY + 80 + FOOT_H)));
 
     canvas.width = W * dpr;
     canvas.height = HH * dpr;
@@ -353,6 +382,27 @@
       }
     }
 
+    // 来源
+    if (sourceLine) {
+      y += 40;
+      ctx.strokeStyle = C.line;
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.moveTo(PAD, y);
+      ctx.lineTo(W - PAD, y);
+      ctx.stroke();
+      y += 26;
+      ctx.font = '600 20px ' + FONT;
+      ctx.fillStyle = C.faint;
+      ctx.fillText('来源', PAD, y);
+      ctx.font = '400 21px ' + FONT;
+      ctx.fillStyle = C.muted;
+      for (i = 0; i < sourceLine.length; i++) {
+        ctx.fillText(sourceLine[i], PAD + 56, y);
+        y += 30;
+      }
+    }
+
     // 底部证据条
     ctx.fillStyle = C.sunken;
     ctx.fillRect(0, HH - FOOT_H, W, FOOT_H);
@@ -360,16 +410,65 @@
     ctx.lineWidth = 1;
     ctx.beginPath();
     ctx.moveTo(0, HH - FOOT_H);
-    ctx.lineTo(W, HH - FOOT_H);
+    ctx.lineTo(W, FOOT_H);
     ctx.stroke();
 
-    drawMark(ctx, PAD + 22, HH - FOOT_H / 2, 19, C.primary);
-    ctx.textBaseline = 'middle';
-    ctx.fillStyle = C.muted;
-    ctx.font = '400 23px ' + FONT;
-    ctx.fillText('longbiosci.com · 每篇标注证据分级', PAD + 62, HH - FOOT_H / 2);
+    if (m.url && window.LBQR) {
+      /* ---- 二维码 + 扫码提示 ----
+         二维码必须在浅底上，且四周留足静区（quiet zone），
+         否则微信/相机都扫不出来。整块垫白，不叠在灰底上。 */
+      var QS = 132;                       // 二维码边长
+      var qx = W - PAD - QS;
+      var qy = HH - FOOT_H + (FOOT_H - QS) / 2 - 6;
+      ctx.fillStyle = '#fff';
+      ctx.fillRect(qx - 12, qy - 12, QS + 24, QS + 24);
+      drawQR(ctx, m.url, qx, qy, QS);
+
+      drawMark(ctx, PAD + 22, HH - FOOT_H / 2 - 16, 19, C.primary);
+      ctx.textBaseline = 'middle';
+      ctx.fillStyle = C.muted;
+      ctx.font = '400 23px ' + FONT;
+      ctx.fillText('longbiosci.com · 每篇标注证据分级', PAD + 62, HH - FOOT_H / 2 - 16);
+      ctx.fillStyle = C.primary;
+      ctx.font = '600 22px ' + FONT;
+      ctx.fillText('扫码阅读全文', PAD + 62, HH - FOOT_H / 2 + 20);
+    } else {
+      drawMark(ctx, PAD + 22, HH - FOOT_H / 2, 19, C.primary);
+      ctx.textBaseline = 'middle';
+      ctx.fillStyle = C.muted;
+      ctx.font = '400 23px ' + FONT;
+      ctx.fillText('longbiosci.com · 每篇标注证据分级', PAD + 62, HH - FOOT_H / 2);
+    }
 
     return canvas;
+  }
+
+  /* ---------- 绘制二维码 ----------
+     每个数据模块画成实心方块（不做圆点化）—— 印刷与屏幕上都更稳。
+     模块数很多时自动合并为整条横线，减少 canvas 调用次数。 */
+  function drawQR(ctx, text, x, y, size) {
+    var mat;
+    try {
+      mat = window.LBQR.matrix(text);
+    } catch (e) {
+      return;                             // 编码失败就跳过，不让整张海报挂掉
+    }
+    var n = mat.length;
+    var cell = size / n;
+    ctx.fillStyle = '#000';
+    for (var r = 0; r < n; r++) {
+      var c = 0;
+      while (c < n) {
+        if (mat[r][c]) {
+          var c2 = c;
+          while (c2 + 1 < n && mat[r][c2 + 1]) c2++;
+          ctx.fillRect(x + c * cell, y + r * cell, (c2 - c + 1) * cell, cell);
+          c = c2 + 1;
+        } else {
+          c++;
+        }
+      }
+    }
   }
 
   /* ---------- 下载 ---------- */
