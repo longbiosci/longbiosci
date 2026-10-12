@@ -1,5 +1,38 @@
 [
  {
+  "slug": "Healthspan-Not-Lifespan-GeroScience-Gems-2026.html",
+  "title": "反对「延长健康寿命而非总寿命」：三位资深生物老年学家把这个口号判为误导",
+  "desc": "GeroScience 2026-10-07：David Gems、Ekaterina Iijima、João Pedro de Magalhães 撰文指出「延长健康寿命而非总寿命」是误导性陈词，混淆了老年医学与生物老年学的根本目标差异。",
+  "tag": "衰老理论",
+  "date": "2026-10-12",
+  "topic": "生命历程",
+  "type": "研究进展",
+  "evidence": "B",
+  "source": "link.springer.com"
+ },
+ {
+  "slug": "Jonathan-Tortoise-Genome-Epigenome-Science-Advances-2026.html",
+  "title": "194 岁陆龟 Jonathan 的表观基因组：长寿不是靠好基因，而是不磨损",
+  "desc": "Science Advances 2026-10-07：Kallel 与剑桥团队测出阿岛陆龟 Jonathan 的基因组与表观基因组，发现 287 个与 DNA 修复、产能相关的变异，且其表观遗传开关近两百年保持稳定。",
+  "tag": "表观遗传",
+  "date": "2026-10-12",
+  "topic": "表观遗传",
+  "type": "研究进展",
+  "evidence": "B",
+  "source": "www.cam.ac.uk"
+ },
+ {
+  "slug": "Lymph-Node-Contraction-Naive-CD8-Androgen-Ablation-NatureAging-2026.html",
+  "title": "为什么男性抗癌免疫更早失守：淋巴结先于肿瘤出问题，源头是雄激素压制胸腺",
+  "desc": "Nature Aging 2026-10-09：雄性小鼠 naive CD8+ T 细胞衰减更快，叠加更早的胸腺退化，导致淋巴结更早收缩、抗癌抗原识别受损；雄激素消融可恢复中年雄鼠抗肿瘤免疫，老年鼠无效。",
+  "tag": "免疫衰老",
+  "date": "2026-10-12",
+  "topic": "免疫与炎症",
+  "type": "研究进展",
+  "evidence": "B",
+  "source": "www.ebiotrade.com"
+ },
+ {
   "slug": "Exposome-Epigenetic-Age-Young-Adults-FinnTwin12-2026.html",
   "title": "22 岁时的生物学年龄，28% 由童年与青少年时期的环境决定：芬兰 FinnTwin12 队列研究",
   "desc": "Environment International：芬兰 Jyväskylä 大学团队用 FinnTwin12 队列 847 人、186 项环境与生活方式暴露，解释 22 岁表观遗传年龄约 28% 的变异。吸烟、饮酒、青年失业与衰老加速相关；树木覆盖率与植被指数与衰老较慢相关。",
@@ -1724,7 +1757,7 @@
   "topic": "神经退行",
   "type": "研究进展",
   "evidence": "B",
-  "source": ""
+  "source": "umami.is"
  },
  {
   "slug": "NextGen-Epigenetic-Clock-Interventions-41-Human-Studies-2026.html",
@@ -3968,7 +4001,7 @@
   "topic": "器官衰老",
   "type": "研究进展",
   "evidence": "B",
-  "source": ""
+  "source": "umami.is"
  },
  {
   "slug": "Partial-Reprogramming-Human-Trial-Glaucoma-Nature-2026.html",
@@ -4023,7 +4056,7 @@
   "topic": "表观遗传",
   "type": "研究进展",
   "evidence": "A",
-  "source": ""
+  "source": "umami.is"
  },
  {
   "slug": "EMF-Cellular-Reprogramming-Mouse-Longevity-Cell-2026.html",
