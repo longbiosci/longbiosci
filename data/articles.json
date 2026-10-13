@@ -4268,28 +4268,6 @@
     "source": "nin.nl"
   },
   {
-    "slug": "Longer-lipids-mark-aging-constrain-lifespan.html",
-    "title": "更长的脂质标记衰老并限制寿命",
-    "desc": "跨物种多组织脂质组学发现脂酰链延长是衰老的保守标志（小鼠/线虫/果蝇/人），且饮食限制可缩短心脏脂质链长；敲低脂质重塑因子 Plb1 逆转脂链延长并以脂质长度依赖方式延长线虫寿命。",
-    "tag": "研究进展",
-    "date": "2026-10-13",
-    "topic": "代谢与营养",
-    "type": "研究进展",
-    "evidence": "B",
-    "source": "doi.org/10.1038/s43587-026-01223-x"
-  },
-  {
-    "slug": "Decline-chaperone-mediated-autophagy-aging-impairs-macrophage-clearance-senescent-cells.html",
-    "title": "衰老中分子伴侣介导自噬（CMA）下降损害巨噬细胞对衰老细胞的清除",
-    "desc": "衰老相关的 CMA 衰退改变衰老细胞属性并抑制巨噬细胞的 CMA、削弱其对衰老细胞的吞噬，而药理学激活 CMA 可降低老年鼠衰老细胞负荷并减轻肺纤维化模型疾病严重度。",
-    "tag": "研究进展",
-    "date": "2026-10-13",
-    "topic": "细胞衰老",
-    "type": "研究进展",
-    "evidence": "B",
-    "source": "doi.org/10.1038/s43587-026-01240-w"
-  },
-  {
     "slug": "Disruption-CDK4-6-RAR--NF--B-axis-attenuates-senescence-associated-inflammation-improves-function.html",
     "title": "打断 CDK4/6–RARα–NF-κB 轴减轻衰老相关炎症并改善功能",
     "desc": "短期 abemaciclib 抑制 CDK4/6 即可抑制既有衰老细胞的 NF-κB 相关 SASP（NASP），降低化疗诱导衰老细胞的促瘤活性并改善小鼠体能；机制经 CDK4/6–RARα–NF-κB 轴，RARα 拮抗剂 agn194310 有类似效果。",
@@ -4387,17 +4365,6 @@
     "type": "研究进展",
     "evidence": "B",
     "source": "doi.org/10.1007/s11357-026-02485-4"
-  },
-  {
-    "slug": "Against-extend-healthspan-but-not-lifespan-clich.html",
-    "title": "反对「延长健康期而非延长寿命」这一陈词（观点）",
-    "desc": "作者主张\"延长健康期但不延长寿命\"是一个误导性的陈词——动物实验已证明延缓衰老、延长寿命可行，且这在不同程度上同时增加健康期与 gerospan（健康受损的晚年阶段）；若某干预延长 gerospan，由于它推迟了死亡（即挽救生命），在很多情况下不予提供是不道德的，因此该表述不是衰老研究的自洽目标。",
-    "tag": "综述",
-    "date": "2026-10-13",
-    "topic": "生命历程",
-    "type": "综述",
-    "evidence": "C",
-    "source": "doi.org/10.1007/s11357-026-02577-1"
   },
   {
     "slug": "open-benchmark-language-models-AI-aging-biology.html",
