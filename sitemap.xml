@@ -253,12 +253,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://longbiosci.com/news/Nano-ERASER-AtN-Reprogramming-Alzheimer-2026.html</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://longbiosci.com/news/GLP1-Semaglutide-Extend-Lifespan-Female-Mice-2026.html</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -266,12 +260,6 @@
   </url>
   <url>
     <loc>https://longbiosci.com/news/Microglia-Replaced-Peripheral-Blood-Cells-Human-Brain-Aging-2026.html</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/news/Nano-ERASER-Astrocyte-Neuron-Alzheimer-Reversal-2026.html</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -512,12 +500,6 @@
   </url>
   <url>
     <loc>https://longbiosci.com/news/Arginine-Decline-Aging-Immune-MHC1-Rockefeller-Cell-2026.html</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/news/Exercise-Delays-Ovarian-Aging-Nature-Aging-2026.html</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -847,12 +829,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://longbiosci.com/news/SIRT3-Activation-Disc-Degeneration-Mitochondria-2026.html</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://longbiosci.com/news/Sirt3-Activator-2APQC-Intervertebral-Disc-Degeneration-2026.html</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -877,12 +853,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://longbiosci.com/news/CSF-Turnover-Dysfunction-iRBD-NPJ-2026.html</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://longbiosci.com/news/Trained-Immunity-Vaccines-Inflammaging-2026.html</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -902,12 +872,6 @@
   </url>
   <url>
     <loc>https://longbiosci.com/news/BCG-Trained-Immunity-CNS-Alzheimer-2026.html</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/news/CSF-Turnover-Dysfunction-iRBD-Synucleinopathy-2026.html</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -992,12 +956,6 @@
   </url>
   <url>
     <loc>https://longbiosci.com/news/Intermittent-Hypoxia-Epigenetic-Aging-Nature-Aging-2026.html</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/news/Intermittent-Hypoxia-Epigenetic-Age-Acceleration-2026.html</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1268,12 +1226,6 @@
   </url>
   <url>
     <loc>https://longbiosci.com/news/Misplaced-Nucleic-Acids-Coagul-Aging-2026.html</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/news/Time-Restricted-Feeding-Healthspan-Lifespan-NatureAging-2026.html</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1663,25 +1615,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://longbiosci.com/news/SP8-FGF8-Digit-Regeneration-2026.html</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/news/SP-Gene-Limb-Regeneration-Salamander-2026.html</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://longbiosci.com/news/SP-Gene-Regeneration-Salamander-Mouse-Limb-PNAS-2026.html</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/news/SP-Gene-Regeneration-Limb-PNAS-2026.html</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -2275,12 +2209,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://longbiosci.com/news/roseburia-muscle.html</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://longbiosci.com/news/Partial-Reprogramming-Human-Trial-Glaucoma-Nature-2026.html</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -2306,18 +2234,6 @@
   </url>
   <url>
     <loc>https://longbiosci.com/news/epigenetic-clock-survival.html</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/news/EMF-Cellular-Reprogramming-Mouse-Longevity-Cell-2026.html</loc>
-    <lastmod>2026-10-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://longbiosci.com/news/EMF-Induced-Cyclic-Reprogramming-Mouse-Longevity-2026.html</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

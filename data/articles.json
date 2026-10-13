@@ -297,17 +297,6 @@
     "source": ""
   },
   {
-    "slug": "Nano-ERASER-AtN-Reprogramming-Alzheimer-2026.html",
-    "title": "Nano-ERASER系统：穿越血脑屏障递送抗体，\"按需\"降解PTBP1驱动星形胶质细胞转化为神经元——逆转阿尔茨海默病进展新策略",
-    "desc": "研究人员开发Nano-ERASER系统，利用血脑屏障穿透配体与聚合物纳米载体将抗PTBP1抗体选择性递送至脑星形胶质细胞，通过TRIM21介导的蛋白酶体降解快速下调PTBP1，在阿尔茨海默病小鼠模型中成功实现星形胶质细胞向神经元的转化，恢复神经网络功能——为神经退行性疾病再生医学提供新路径。",
-    "tag": "神经再生",
-    "date": "2026-09-05",
-    "topic": "神经退行",
-    "type": "研究进展",
-    "evidence": "B",
-    "source": "www.fightaging.org"
-  },
-  {
     "slug": "GLP1-Semaglutide-Extend-Lifespan-Female-Mice-2026.html",
     "title": "GLP-1药物延缓衰老：司美格鲁肽延长雌性小鼠寿命",
     "desc": "NIH研究团队在Nature发表研究，发现GLP-1受体激动剂司美格鲁肽可延长雌性小鼠寿命，改善多项衰老标志物，效果超出单纯热量限制范畴，为GLP-1药物的抗衰老潜力提供重要证据。",
@@ -328,17 +317,6 @@
     "type": "研究进展",
     "evidence": "B",
     "source": "www.nature.com"
-  },
-  {
-    "slug": "Nano-ERASER-Astrocyte-Neuron-Alzheimer-Reversal-2026.html",
-    "title": "Nano-ERASER系统：静脉注射纳米抗体穿越血脑屏障，将星形胶质细胞重编程为神经元逆转阿尔茨海默病",
-    "desc": "Cell & Bioelectricity发表开放获取研究：利用Nano-ERASER系统将抗PTBP1抗体经静脉注射穿越血脑屏障递送至星形胶质细胞，触发细胞重编程为功能性神经元，在5XFAD阿尔茨海默病小鼠模型中显著改善认知、学习和记忆能力。",
-    "tag": "神经再生",
-    "date": "2026-09-04",
-    "topic": "神经退行",
-    "type": "研究进展",
-    "evidence": "B",
-    "source": "www.fightaging.org"
   },
   {
     "slug": "Senescent-Microglia-Telomere-DLK1-Hypomyelin-2026.html",
@@ -779,17 +757,6 @@
     "type": "研究进展",
     "evidence": "B",
     "source": "www.rockefeller.edu"
-  },
-  {
-    "slug": "Exercise-Delays-Ovarian-Aging-Nature-Aging-2026.html",
-    "title": "运动延缓卵巢衰老：15万人研究证实 + 小鼠机制验证，adiponectin 为关键靶点",
-    "desc": "Nature Aging 2026年8月14日发表研究，对超15万名参与者进行横断面分析证实高体力活动与延迟绝经相关；小鼠实验进一步揭示运动通过 adiponectin 信号通路延缓卵巢衰老，为延长女性生育窗口提供行为干预新路径。",
-    "tag": "研究进展",
-    "date": "2026-08-15",
-    "topic": "器官衰老",
-    "type": "研究进展",
-    "evidence": "A",
-    "source": "www.nature.com"
   },
   {
     "slug": "Myasthenia-Gravis-Unexpected-Longevity-2026.html",
@@ -1386,17 +1353,6 @@
     "source": "www.fightaging.org"
   },
   {
-    "slug": "SIRT3-Activation-Disc-Degeneration-Mitochondria-2026.html",
-    "title": "SIRT3激活重编程线粒体功能逆转椎间盘退变",
-    "desc": "SIRT3激活剂2-APQC通过重编程线粒体功能，在衰老小鼠模型中显著逆转椎间盘退变，恢复线粒体功能、减轻炎症和细胞衰老，为腰痛这一最常见的衰老相关疾病提供新的治疗靶点。",
-    "tag": "研究进展",
-    "date": "2026-07-14",
-    "topic": "细胞衰老",
-    "type": "研究进展",
-    "evidence": "B",
-    "source": "doi.org"
-  },
-  {
     "slug": "Sirt3-Activator-2APQC-Intervertebral-Disc-Degeneration-2026.html",
     "title": "Sirt3激活剂2-APQC逆转椎间盘退化：线粒体-衰老细胞双重靶点",
     "desc": "Sirt3激活剂2-APQC在衰老小鼠模型中显著改善椎间盘退化，恢复线粒体功能、减少炎症与衰老细胞。这一研究将Sirt3/线粒体功能障碍通路与衰老细胞积累联系起来，为腰背痛干预提供新靶点。",
@@ -1441,17 +1397,6 @@
     "source": ""
   },
   {
-    "slug": "CSF-Turnover-Dysfunction-iRBD-NPJ-2026.html",
-    "title": "脑脊液引流功能障碍：iRBD早期生物标志物研究",
-    "desc": "哈佛医学院和马赛大学团队通过7T MRI发现，孤立性REM睡眠行为障碍（iRBD）患者脑脊液及血管周围空间体积异常增大，提示脑脊液引流功能受损可能是突触核蛋白病早期生物标志物，为帕金森病早诊提供新思路。",
-    "tag": "生物标志物",
-    "date": "2026-07-12",
-    "topic": "神经退行",
-    "type": "研究进展",
-    "evidence": "A",
-    "source": "doi.org"
-  },
-  {
     "slug": "Trained-Immunity-Vaccines-Inflammaging-2026.html",
     "title": "训练免疫：疫苗或可成为降低衰老慢性炎症的新策略",
     "desc": "最新研究揭示疫苗接种可产生",
@@ -1493,17 +1438,6 @@
     "topic": "神经退行",
     "type": "临床进展",
     "evidence": "A",
-    "source": "doi.org"
-  },
-  {
-    "slug": "CSF-Turnover-Dysfunction-iRBD-Synucleinopathy-2026.html",
-    "title": "脑脊液循环障碍：突触核蛋白病早期生物标志物",
-    "desc": "2026年Nature Aging研究表明，脑脊液（CSF）循环功能障碍是快速眼动睡眠行为障碍（iRBD）患者突触核蛋白病进展的早期生物标志物，iRBD患者表现出CSF和血管周围间隙（ PVS）体积增加，提示淋巴清除功能受损。",
-    "tag": "生物标志物",
-    "date": "2026-07-10",
-    "topic": "神经退行",
-    "type": "研究进展",
-    "evidence": "B",
     "source": "doi.org"
   },
   {
@@ -1659,17 +1593,6 @@
     "type": "研究进展",
     "evidence": "B",
     "source": "doi.org"
-  },
-  {
-    "slug": "Intermittent-Hypoxia-Epigenetic-Age-Acceleration-2026.html",
-    "title": "间歇性低氧加速老年小鼠表观遗传年龄：双刃剑效应新证据",
-    "desc": "最新研究揭示间歇性低氧暴露在幼年与老年小鼠中产生截然相反的表观遗传效应，老年小鼠出现可逆的表观遗传年龄加速，提示氧气与衰老之间存在复杂的非线性关系。",
-    "tag": "研究",
-    "date": "2026-07-03",
-    "topic": "表观遗传",
-    "type": "研究进展",
-    "evidence": "B",
-    "source": "www.fightaging.org"
   },
   {
     "slug": "IL-11-Matrix-Stiffness-Ovarian-Aging-Nature-Aging-2026.html",
@@ -2165,17 +2088,6 @@
     "type": "研究进展",
     "evidence": "A",
     "source": ""
-  },
-  {
-    "slug": "Time-Restricted-Feeding-Healthspan-Lifespan-NatureAging-2026.html",
-    "title": "限时进食延长健康寿命：终生实验揭示性别差异",
-    "desc": "Iiams等人终生小鼠实验证明，限时进食（TRF）在不改变饮食热量的情况下显著延长健康寿命，且存在显著性别差异：雄性小鼠寿命延长，雌性小鼠虽寿命未显著增加但健康寿命指标全面改善。这一发现将",
-    "tag": "研究进展",
-    "date": "2026-06-09",
-    "topic": "代谢与营养",
-    "type": "研究进展",
-    "evidence": "B",
-    "source": "www.nature.com"
   },
   {
     "slug": "Electrical-Pulses-Reverse-Aging-Sea-Squirts-Stanford-2026.html",
@@ -2882,44 +2794,11 @@
     "source": "www.genengnews.com"
   },
   {
-    "slug": "SP8-FGF8-Digit-Regeneration-2026.html",
-    "title": "蝾螈基因疗法突破：小鼠断指再生研究登PNAS",
-    "desc": "Wake Forest大学研究团队通过跨物种基因研究，揭示蝾螈SP8转录因子在肢体再生中的核心作用，并利用FGF8基因疗法成功促进小鼠断指骨骼再生。这一突破为未来人类肢体再生疗法奠定了基础。",
-    "tag": "",
-    "date": "2026-04-27",
-    "topic": "器官衰老",
-    "type": "研究进展",
-    "evidence": "B",
-    "source": ""
-  },
-  {
-    "slug": "SP-Gene-Limb-Regeneration-Salamander-2026.html",
-    "title": "蝾螈SP基因打开哺乳动物肢体再生之门",
-    "desc": "Wake Forest大学等机构研究发现，蝾螈体内的SP8基因是肢体再生的关键驱动因子，通过斑马鱼增强子递送FGF8基因疗法，可部分恢复小鼠断指再生的能力，为人类肢体再生疗法奠定基础。",
-    "tag": "再生医学",
-    "date": "2026-04-26",
-    "topic": "生命历程",
-    "type": "研究进展",
-    "evidence": "B",
-    "source": "news.wfu.edu"
-  },
-  {
     "slug": "SP-Gene-Regeneration-Salamander-Mouse-Limb-PNAS-2026.html",
     "title": "蝾螈 SP 基因打开哺乳动物再生之门：三大物种研究通向人类肢体再生",
     "desc": "Wake Forest、杜克、威斯康星大学跨物种合作研究，揭示 SP 转录因子（SP6/SP8）是两栖动物、鱼类和哺乳动物共享的再生核心基因，通过病毒基因疗法递送 FGF8 成功促进小鼠指尖骨再生，为人类肢体再生奠定基础。",
     "tag": "",
     "date": "2026-04-26",
-    "topic": "生命历程",
-    "type": "研究进展",
-    "evidence": "B",
-    "source": ""
-  },
-  {
-    "slug": "SP-Gene-Regeneration-Limb-PNAS-2026.html",
-    "title": "蝾螈基因解码：SP转录因子或开启人类肢体再生之路",
-    "desc": "Wake Forest、Duke、威斯康星大学跨机构合作研究，发现蝾螈SP基因在小鼠中可通过FGF8基因疗法实现指尖再生，为人类肢体再生开辟新方向。",
-    "tag": "",
-    "date": "2026-04-25",
     "topic": "生命历程",
     "type": "研究进展",
     "evidence": "B",
@@ -4004,17 +3883,6 @@
     "source": "www.fightaging.org"
   },
   {
-    "slug": "roseburia-muscle.html",
-    "title": "肠道细菌 Roseburia inulinivorans 增加肌肉力量",
-    "desc": "研究发现 Roseburia inulinivorans 细菌与肌肉力量正相关，补充后可提升肌肉力量约30%",
-    "tag": "研究进展",
-    "date": "2026-03-17",
-    "topic": "器官衰老",
-    "type": "研究进展",
-    "evidence": "B",
-    "source": "umami.is"
-  },
-  {
     "slug": "Partial-Reprogramming-Human-Trial-Glaucoma-Nature-2026.html",
     "title": "Nature重磅：细胞\"逆龄\"技术首启人体青光眼试验",
     "desc": "2026年4月7日，Nature发表专题报道：部分细胞重编程技术正式启动首个人体临床试验，瞄准青光眼——这一导致不可逆失明的重要衰老相关疾病。",
@@ -4068,28 +3936,6 @@
     "type": "研究进展",
     "evidence": "A",
     "source": "umami.is"
-  },
-  {
-    "slug": "EMF-Cellular-Reprogramming-Mouse-Longevity-Cell-2026.html",
-    "title": "韩国研究：电磁场诱导细胞重编程延长小鼠寿命",
-    "desc": "韩国东国大学团队在 Cell 发表研究，利用电磁场（EMF）触发",
-    "tag": "基础研究",
-    "date": "2026-03-09",
-    "topic": "表观遗传",
-    "type": "机制研究",
-    "evidence": "B",
-    "source": "www.fightaging.org"
-  },
-  {
-    "slug": "EMF-Induced-Cyclic-Reprogramming-Mouse-Longevity-2026.html",
-    "title": "电磁场诱导环式细胞重编程：小鼠寿命显著延长",
-    "desc": "科学家利用电磁场（EMF）替代小分子化合物，诱导老年小鼠环式细胞重编程，实现寿命延长（75% vs 50-60%存活至108周）并逆转多种器官衰老指标，相关论文发表于 Ageing Research Reviews（DOI: 10.1016/j.arr.2026.103009）。",
-    "tag": "研究突破",
-    "date": "2026-03-09",
-    "topic": "表观遗传",
-    "type": "研究进展",
-    "evidence": "A",
-    "source": "www.fightaging.org"
   },
   {
     "slug": "EMF-Partial-Reprogramming-Longevity-Cell-2026.html",
