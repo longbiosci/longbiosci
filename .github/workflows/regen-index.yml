@@ -6,6 +6,7 @@ on:
     paths:
       - "data/articles.json"
       - "scripts/gen_index.py"
+      - "scripts/gen_site.py"
       - ".github/workflows/regen-index.yml"
   workflow_dispatch:
 
@@ -29,14 +30,17 @@ jobs:
       - name: Rebuild rss.xml and sitemap.xml
         run: python3 scripts/gen_index.py
 
+      - name: Rebuild site index pages
+        run: python3 scripts/gen_site.py
+
       - name: Commit if changed
         run: |
-          if git diff --quiet -- rss.xml sitemap.xml; then
+          if git diff --quiet -- rss.xml sitemap.xml index.html news topics evidence; then
             echo "No index changes"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add rss.xml sitemap.xml
-          git commit -m "chore: auto-regen rss/sitemap from articles.json"
+          git add rss.xml sitemap.xml index.html news topics evidence
+          git commit -m "chore: auto-regen site indexes from articles.json"
           git push
