@@ -1,5 +1,38 @@
 [
  {
+  "slug": "Cardiolipin-ERRgamma-Muscle-Fiber-Switch-Nature-Aging-2026.html",
+  "title": "肌肉衰老不是单纯退化：哥本哈根团队找到「用力量换保护」的分子开关",
+  "desc": "Nature Aging 2026-10：哥本哈根大学Finger 与 Gerhart-Hines 团队证明，衰老肌肉从快肌纤维转向慢肌纤维并非单纯衰退，而是心磷脂下降触发 ROS 信号、经ERRγ 执行的保护性重编程；给小鼠补抗氧化剂反而让肌肉更小。",
+  "tag": "研究进展",
+  "date": "2026-10-13",
+  "topic": "器官衰老",
+  "type": "研究进展",
+  "evidence": "B",
+  "source": "www.earth.com"
+ },
+ {
+  "slug": "Lsp2-mTORC1-TOP-mRNA-Drosophila-Lifespan-Nature-2026.html",
+  "title": "不必少吃也能延寿：果蝇「营养传感器」Lsp2 找到延寿开关，绕开雷帕霉素",
+  "desc": "Nature 2026-09-23：湖南师大翟宗昭、湖南大学王奕蓉与中科院上海营养与健康所陆炯明团队发现，果蝇脂肪体因子 Lsp2 将氨基酸营养感知与 mTORC1 的 4E-BP–TOP mRNA 翻译分支连接起来，敲除 Lsp2 使雌蝇中位寿命延长 14%–28%，且无运动、生殖或应激抵抗方面的代价。",
+  "tag": "研究进展",
+  "date": "2026-10-13",
+  "topic": "代谢与营养",
+  "type": "研究进展",
+  "evidence": "B",
+  "source": "medical.sciencenet.cn"
+ },
+ {
+  "slug": "RamanOmics-Senescence-Detection-Nature-Aging-2026.html",
+  "title": "不用活检也能看见衰老细胞：MIT 团队用拉曼光谱给它做了「条形码」",
+  "desc": "Nature Aging 2026-10-11：MIT与哈佛医学院团队将拉曼显微镜与空间转录组结合，在47,602 个小鼠肺与皮肤细胞中找到脂质相关的衰老细胞化学信号，分类准确率从 74%/62% 提升至 78%/65%，朝无创检测衰老细胞迈出一步。",
+  "tag": "工具方法",
+  "date": "2026-10-13",
+  "topic": "方法与工具",
+  "type": "研究进展",
+  "evidence": "B",
+  "source": "healthmedicinet.com"
+ },
+ {
   "slug": "Healthspan-Not-Lifespan-GeroScience-Gems-2026.html",
   "title": "反对「延长健康寿命而非总寿命」：三位资深生物老年学家把这个口号判为误导",
   "desc": "GeroScience 2026-10-07：David Gems、Ekaterina Iijima、João Pedro de Magalhães 撰文指出「延长健康寿命而非总寿命」是误导性陈词，混淆了老年医学与生物老年学的根本目标差异。",
