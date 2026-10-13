@@ -271,6 +271,19 @@ def main():
         idx = idx[:m.start()] + '<div class="lead-grid">\n' + "".join(cards6) + "      </div>\n      </div></section>" + idx[m.end():]
     generated["index.html"] = idx
 
+    # ---- data/search-index.json（站内搜索数据源）----
+    search_idx = [
+        [str(a["title"]), f"/news/{a['slug']}", a.get("date", ""),
+         str(a.get("tag", "")), str(a.get("topic", "")),
+         str(a.get("evidence", "")), str(a.get("desc", ""))]
+        for a in arts
+    ]
+    si_path = ROOT / "data" / "search-index.json"
+    new_si = json.dumps(search_idx, ensure_ascii=False)
+    if not si_path.exists() or si_path.read_text(encoding="utf-8") != new_si:
+        si_path.write_text(new_si, encoding="utf-8")
+        print("updated: data/search-index.json")
+
     # ---- 写入 ----
     for rel, html in generated.items():
         p = ROOT / rel
