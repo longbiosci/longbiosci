@@ -1,0 +1,42 @@
+name: Regen rss/sitemap index
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/articles.json"
+      - "scripts/gen_index.py"
+      - ".github/workflows/regen-index.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: regen-index
+  cancel-in-progress: false
+
+jobs:
+  regen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Rebuild rss.xml and sitemap.xml
+        run: python3 scripts/gen_index.py
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- rss.xml sitemap.xml; then
+            echo "No index changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add rss.xml sitemap.xml
+          git commit -m "chore: auto-regen rss/sitemap from articles.json [skip ci]"
+          git push
