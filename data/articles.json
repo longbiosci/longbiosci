@@ -4266,5 +4266,148 @@
     "type": "研究进展",
     "evidence": "B",
     "source": "nin.nl"
+  },
+  {
+    "slug": "Longer-lipids-mark-aging-constrain-lifespan.html",
+    "title": "更长的脂质标记衰老并限制寿命",
+    "desc": "跨物种多组织脂质组学发现脂酰链延长是衰老的保守标志（小鼠/线虫/果蝇/人），且饮食限制可缩短心脏脂质链长；敲低脂质重塑因子 Plb1 逆转脂链延长并以脂质长度依赖方式延长线虫寿命。",
+    "tag": "研究进展",
+    "date": "2026-10-13",
+    "topic": "代谢与营养",
+    "type": "研究进展",
+    "evidence": "B",
+    "source": "doi.org/10.1038/s43587-026-01223-x"
+  },
+  {
+    "slug": "Decline-chaperone-mediated-autophagy-aging-impairs-macrophage-clearance-senescent-cells.html",
+    "title": "衰老中分子伴侣介导自噬（CMA）下降损害巨噬细胞对衰老细胞的清除",
+    "desc": "衰老相关的 CMA 衰退改变衰老细胞属性并抑制巨噬细胞的 CMA、削弱其对衰老细胞的吞噬，而药理学激活 CMA 可降低老年鼠衰老细胞负荷并减轻肺纤维化模型疾病严重度。",
+    "tag": "研究进展",
+    "date": "2026-10-13",
+    "topic": "细胞衰老",
+    "type": "研究进展",
+    "evidence": "B",
+    "source": "doi.org/10.1038/s43587-026-01240-w"
+  },
+  {
+    "slug": "Disruption-CDK4-6-RAR--NF--B-axis-attenuates-senescence-associated-inflammation-improves-function.html",
+    "title": "打断 CDK4/6–RARα–NF-κB 轴减轻衰老相关炎症并改善功能",
+    "desc": "短期 abemaciclib 抑制 CDK4/6 即可抑制既有衰老细胞的 NF-κB 相关 SASP（NASP），降低化疗诱导衰老细胞的促瘤活性并改善小鼠体能；机制经 CDK4/6–RARα–NF-κB 轴，RARα 拮抗剂 agn194310 有类似效果。",
+    "tag": "研究进展",
+    "date": "2026-10-13",
+    "topic": "细胞衰老",
+    "type": "研究进展",
+    "evidence": "B",
+    "source": "doi.org/10.1038/s43587-026-01168-1"
+  },
+  {
+    "slug": "Pro-aging-effects-chronic-glucocorticoid-signaling.html",
+    "title": "慢性糖皮质激素信号的促衰老效应（综述）",
+    "desc": "长期（而非急性）糖皮质激素暴露经改变营养感知、抑制自噬、损伤线粒体质控、诱导细胞衰老而与生物学衰老高度重叠；GC 响应多肽 ACBP/DBI 作为应激诱导的自噬抑制因子放大上述效应。",
+    "tag": "综述",
+    "date": "2026-10-13",
+    "topic": "代谢与营养",
+    "type": "综述",
+    "evidence": "C",
+    "source": "doi.org/10.1016/j.cmet.2026.05.002"
+  },
+  {
+    "slug": "senescence-stiffening-loop-Extracellular-matrix-remodeling-hypoperfusion-mitochondrial-dysfunction-drive-tissue-aging.html",
+    "title": "「衰老–硬化」正反馈环：ECM 重塑、低灌注与线粒体功能障碍驱动组织老化（综述）",
+    "desc": "ECM 硬化→血管顺应性下降/毛细血管减少→间歇性缺氧→氧化磷酸化受抑/ROS 升高→ATP 不足→衰老与炎症→ECM 进一步硬化，构成自我维持的「衰老–硬化」正反馈环，是组织衰老的新治疗靶点。",
+    "tag": "综述",
+    "date": "2026-10-13",
+    "topic": "器官衰老",
+    "type": "综述",
+    "evidence": "C",
+    "source": "doi.org/10.1016/j.cmet.2026.05.008"
+  },
+  {
+    "slug": "Novel-Flavonoid-Senotherapeutics-Identified-Phenotypic-Drug-Discovery-Reduce-Senescence-Improve-Multiple.html",
+    "title": "表型药物发现获得新型黄酮类 senotherapeutics",
+    "desc": "针对 fisetin 疗效不足与生物利用度差的痛点，用整合表型药物发现策略开发出两个新型 fisetin 衍生黄酮类 senolytic（SR29384、SR31133），广谱杀伤多种衰老细胞、降低组织衰老负荷并改善小鼠健康期指标；推定靶点为 PARP1、CDK2 与可能的 BCL-xL。",
+    "tag": "研究进展",
+    "date": "2026-10-13",
+    "topic": "细胞衰老",
+    "type": "研究进展",
+    "evidence": "B",
+    "source": "doi.org/10.1111/acel.70736"
+  },
+  {
+    "slug": "Chronic-Senolytic-Treatment-or-Aerobic-Exercise-Reduce-Senescence-Improve-Myocardial-Function.html",
+    "title": "慢性 senolytic 和/或有氧运动降低衰老心脏的衰老负荷并改善心肌功能 ★ 阴性结果值得注意",
+    "desc": "在 12 月龄 C57BL/6N 小鼠上做 9 个月干预，D+Q、有氧运动均显著降低心肌细胞与间质细胞的 p16⁺/p21⁺/γ-H2AX⁺ 比例并改善心功能与舒张功能，但两者联合未见叠加效应，且全心组织水平的 p16/p21 蛋白与 SASP 未被任何干预改变。",
+    "tag": "研究进展",
+    "date": "2026-10-13",
+    "topic": "细胞衰老",
+    "type": "研究进展",
+    "evidence": "B",
+    "source": "doi.org/10.1111/acel.70759"
+  },
+  {
+    "slug": "Mechanism-Based-Framework-Anti-Aging-Strategies-From-Metabolic-Regulation-Senotherapy-Stem-Cell-Based-Interventions.html",
+    "title": "抗衰策略的机制框架：从代谢调控到 senotherapy 与干细胞干预（综述）",
+    "desc": "综述主流抗衰干预（运动、热量限制及其模拟物、抗炎症衰老、senotherapy、parabiosis、干细胞疗法、表观遗传 rejuvenation）的现状与临床进展，提出代谢调控、炎症衰老控制、senotherapy 构成当代抗衰策略的三大互连支柱。",
+    "tag": "综述",
+    "date": "2026-10-13",
+    "topic": "代谢与营养",
+    "type": "综述",
+    "evidence": "C",
+    "source": "doi.org/10.1111/acel.70658"
+  },
+  {
+    "slug": "Targeting-cellular-senescence-dermatology-senolytic-senomorphic-strategies.html",
+    "title": "皮肤科中的衰老细胞靶向：senolytic 与 senomorphic 策略（综述）",
+    "desc": "皮肤衰老细胞（角质形成细胞、成纤维细胞、黑素细胞）经 SASP 降解 ECM、破坏色素平衡与屏障功能，本文系统梳理 senolytic（清除）与 senomorphic（抑制 SASP）两类策略在皮肤科的机制、证据与给药逻辑差异，并主张皮肤可作为系统性 gerotherapeutic 的转化平台。",
+    "tag": "综述",
+    "date": "2026-10-13",
+    "topic": "细胞衰老",
+    "type": "综述",
+    "evidence": "C",
+    "source": "doi.org/10.1007/s11357-026-02379-5"
+  },
+  {
+    "slug": "Association-between-whole-blood-NAD-concentration-frailty-community-dwelling-older-adults-Itabashi-Longitudinal.html",
+    "title": "社区老年人全血 NAD⁺ 浓度与衰弱的关联（Itabashi 队列）",
+    "desc": "在 529 名 ≥65 岁社区老年人中，衰弱者全血 NAD⁺ 中位浓度低于非衰弱者（24.00 vs 25.00 µmol/L，P=0.007），校正年龄性别空腹时间后 NAD⁺ 每升高 1 µmol/L，衰弱 OR = 0.871（95%CI 0.780–0.970，P=0.013）；但进一步校正血细胞比容后关联减弱（OR 0.911，95%CI 0.80",
+    "tag": "研究进展",
+    "date": "2026-10-13",
+    "topic": "代谢与营养",
+    "type": "研究进展",
+    "evidence": "B",
+    "source": "doi.org/10.1007/s11357-026-02545-9"
+  },
+  {
+    "slug": "Targeting-cellular-senescence-mitigates-chemotherapy-induced-bone-loss-young-aged-mice.html",
+    "title": "靶向衰老细胞减轻化疗诱导的骨丢失（年轻与年老小鼠）",
+    "desc": "化疗（多柔比星）诱导的骨骼加速老化（骨小梁丢失、骨髓脂肪化增加、衰老与炎症基因上调）具有性别与年龄依赖性（雌性更明显），D+Q 部分恢复成骨基因表达（Alpl、Runx2、Dmp1）、降低骨髓脂肪化，但骨小梁结构恢复有限；蛋白组显示 DX 诱导的衰老伴随 ECM 重塑与向糖酵解的代谢偏移，D+Q 部分逆转这些分子特征。",
+    "tag": "研究进展",
+    "date": "2026-10-13",
+    "topic": "器官衰老",
+    "type": "研究进展",
+    "evidence": "B",
+    "source": "doi.org/10.1007/s11357-026-02485-4"
+  },
+  {
+    "slug": "Against-extend-healthspan-but-not-lifespan-clich.html",
+    "title": "反对「延长健康期而非延长寿命」这一陈词（观点）",
+    "desc": "作者主张\"延长健康期但不延长寿命\"是一个误导性的陈词——动物实验已证明延缓衰老、延长寿命可行，且这在不同程度上同时增加健康期与 gerospan（健康受损的晚年阶段）；若某干预延长 gerospan，由于它推迟了死亡（即挽救生命），在很多情况下不予提供是不道德的，因此该表述不是衰老研究的自洽目标。",
+    "tag": "综述",
+    "date": "2026-10-13",
+    "topic": "生命历程",
+    "type": "综述",
+    "evidence": "C",
+    "source": "doi.org/10.1007/s11357-026-02577-1"
+  },
+  {
+    "slug": "open-benchmark-language-models-AI-aging-biology.html",
+    "title": "衰老生物学的开放基准与语言模型（LongevityBench）",
+    "desc": "推出 LongevityBench（17 项任务、覆盖 5 类生物数据域）并用其评估来自 6 家开发团队的 18 个前沿 AI 系统，结果没有单一模型在所有任务上占优，且基于组学的年龄预测无论模型规模多大都是最难的任务；而作者微调的 5 个多任务 Longevity-LLM（仅 0.6B–9B 参数）在 LongevityBench 上达到或超过远大于自身的",
+    "tag": "综述",
+    "date": "2026-10-13",
+    "topic": "方法与工具",
+    "type": "综述",
+    "evidence": "C",
+    "source": "doi.org/10.1016/j.cell.2026.08.026"
   }
 ]
