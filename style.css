@@ -851,3 +851,24 @@ body:has(.bottom-nav){padding-bottom:64px}
   .to-top,.lb-poster,.lb-poster-modal,.read-progress{display:none !important}
   .site-header{position:static;padding-top:0}
 }
+
+/* ===== /guide/ 热词专题页（2026-10-14 追加）===== */
+
+/* ---- 热词专题页 /guide/（gen_guide.py 生成）---- */
+.ev-snapshot{margin:var(--s-4) 0 var(--s-5)}
+.ev-bar{display:flex;height:10px;border-radius:999px;overflow:hidden;
+  background:var(--c-line);border:1px solid var(--c-line)}
+.ev-seg{display:block;height:100%}
+.ev-seg.ev-a{background:var(--c-ev-a)}
+.ev-seg.ev-b{background:var(--c-ev-b)}
+.ev-seg.ev-c{background:var(--c-ev-c)}
+.ev-legend{display:flex;flex-wrap:wrap;align-items:center;gap:var(--s-3);
+  margin-top:var(--s-3);font-size:var(--f-xs);color:var(--c-muted)}
+.ev-legend .tier{margin-right:-6px}
+.ev-range{margin-left:auto;color:var(--c-faint);font-variant-numeric:tabular-nums}
+.notice-line{font-size:var(--f-sm);color:var(--c-muted);line-height:var(--lh-normal);
+  padding:var(--s-3) var(--s-4);border-left:3px solid var(--c-primary-line);
+  background:var(--c-bg-raised);border-radius:0 var(--r-sm) var(--r-sm) 0;margin:var(--s-5) 0}
+.notice-line strong{color:var(--c-ink)}
+.guide .filter-bar a span{color:var(--c-faint);margin-left:6px;
+  font-variant-numeric:tabular-nums}
