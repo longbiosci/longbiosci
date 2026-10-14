@@ -81,6 +81,13 @@ GROUPS = [
     ("evidence/*.html",       "weekly",  "0.7"),
 ]
 
+# 热词专题组（2026-10-15 P0#3 补收录）
+# /guide/ 的 9 个页面自 2026-10-14 就已上线，但从未进过 sitemap——
+# 当时只补了页面没接入口也没登记。索引页给 0.8（等同 topics/evidence 索引），
+# 专题页 0.7（同组页一视同仁）。
+GUIDE_INDEX = ("guide/index.html", "weekly", "0.8")
+GUIDE_GROUP = ("guide/*.html", "weekly", "0.7")
+
 # 每日简报页受控清单（golden 基线收录范围）。
 # 注意：daily/2026-10-09/10 两篇 AI 简报页与 index-2026-03-11.html 未被收录，
 # 属原管线遗留疏漏（文件存在但无登记入口），已在运营待办跟踪，复刻版保持现状。
@@ -113,6 +120,11 @@ def collect(root="."):
     entries.append(("topics/index.html", None, *INDEX_PAGES[0][1:]))
     for p in sorted(glob_group(root, "topics/*.html")):
         entries.append((p, None, *GROUPS[0][1:]))
+
+    # 1b) guide 热词专题组：索引页优先，随后 8 个专题页按文件名排序
+    entries.append(("guide/index.html", None, *GUIDE_INDEX[1:]))
+    for p in sorted(glob_group(root, "guide/*.html")):
+        entries.append((p, None, *GUIDE_GROUP[1:]))
 
     # 2) news 组：索引页 mtime + 文章页全部来自 articles.json 登记
     entries.append(("news/index.html", None, *INDEX_PAGES[1][1:]))

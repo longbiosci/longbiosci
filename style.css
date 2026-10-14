@@ -174,6 +174,22 @@ code{
 .main-nav a:hover{background:var(--c-primary-soft);color:var(--c-primary);text-decoration:none}
 .main-nav a[aria-current="page"]{background:var(--c-primary);color:#fff}
 
+/* 搜索入口：独立button位，不占内容导航的行位（2026-10-15 P0#3） */
+.nav-search{margin-left:var(--s-2);padding-inline:var(--s-2);
+  display:inline-flex;align-items:center;gap:.35rem;
+  border:1px solid var(--c-line);background:var(--c-bg-soft)}
+.nav-search:hover{border-color:var(--c-primary);background:var(--c-primary-soft)}
+.nav-search svg{flex-shrink:0}
+.nav-search-text{font-size:inherit}
+
+/* 导航标签的「移动端省略段」：被 .nav-mq 包住的部分在窄屏隐藏。
+   目的不是偷懒省字，而是让 11 个入口在 390px 下排 2 行而不是 3 行
+   （实测 header 151px → 113px，比改造前的 9 入口还矮 2px）。
+   桌面仍显示完整栏目名，且带 .nav-mq 的链接都有 aria-label 写全名，
+   屏幕阅读器读到的始终是「主题专辑」而不是「专辑」。
+   ------------------------------------------------------------------ */
+.nav-mq{display:inline}
+
 /* 旧头部类名兼容 */
 .header-main{max-width:var(--w-page);margin:0 auto;padding:0 var(--s-5);
   display:flex;align-items:center;gap:var(--s-5);min-height:60px}
@@ -777,6 +793,7 @@ body:has(.bottom-nav){padding-bottom:64px}
     padding:var(--s-1) var(--s-3);
     font-size:var(--f-sm);
   }
+  .nav-mq{display:none}                /* 窄屏省字：专辑/热词/概念/证据/临床 */
   /* 品牌不再被压到导航中间 */
   .brand,.logo{flex:0 0 auto}
   .brand-mark{width:26px;height:26px}
