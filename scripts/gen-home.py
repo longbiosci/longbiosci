@@ -10,10 +10,11 @@ gen-home.py —— 首页生成器（逆向重写版 v1.0）
     （实证 6/6 张卡 shown=97 含省略号；先截断后转义，与 news 页同规则）
   - 「主题专辑」topic-grid：8 个专题硬编码展示顺序（非字母序），
     计数按 JSON topic 字段统计（53/34/48/45/66/37/67/30，合计 380）
-  - 「核心概念」topic-grid：6 张静态卡片，计数为硬编码值——
-    概念页（senolytic.html 等）是管线外静态页，其自身计数（64/45/7/8/6/5）
-    与首页卡片（72/43/8/8/6/6）已漂移，且无关键词规则可复现任一侧，
-    故按线上首页原样硬编码，漂移问题记入运营待办
+  - 「核心概念」topic-grid：6 张静态卡片，**计数运行时从概念页 HTML 实算**
+    （见 concept_count）。2026-10-15 前此处为硬编码（72/43/8/8/6/6），
+    与概念页自身页标（64/45/7/8/6/5）、概念页实际收录数（59/40/7/8/6/5）
+    三方漂移；现统一以「概念页实际列出的文章数」为唯一事实源，
+    与 scripts/refresh_counts.py 同口径，管线重建不会复发
   - 「证据分级」ev-grid：A/B/C 计数按 JSON evidence 字段统计（94/269/17）
   - 「最新收录」feed：取 JSON 第 7–18 篇（跳过已上 lead 的 6 篇），
     desc 截断 140 字符加 …（实证均恰止于 140；news 列表页为 150、
@@ -28,6 +29,7 @@ gen-home.py —— 首页生成器（逆向重写版 v1.0）
 import html
 import json
 import os
+import re
 import sys
 from collections import Counter
 
@@ -50,14 +52,19 @@ TOPICS = [
     ("methods-tools", "方法与工具", "单细胞、多组学与研究方法"),
 ]
 
-# 核心概念静态卡片（计数硬编码，见模块 docstring）
+# 核心概念静态卡片
+# ⚠️ 计数不再硬编码：改为运行时从各概念页 HTML 实算其收录链接数（见 concept_count）。
+#    历史硬编码值（72/43/8/8/6/6）与概念页自身页标（64/45/7/8/6/5）、
+#    与概念页实际收录数（59/40/7/8/6/5）三方互相矛盾，用户点「72 篇」进去看到别的数，
+#    直接损伤可信度。2026-10-15 起统一以「概念页实际列出的文章数」为唯一事实源
+#    （见 scripts/refresh_counts.py 的 docstring）。
 CONCEPTS = [
-    ("/senolytic.html", "Senolytic 清除", "72 篇 · 选择性清除衰老细胞的药物类别"),
-    ("/stemcell.html", "干细胞与细胞替代", "43 篇 · 再生医学抗衰主线"),
-    ("/rapamycin.html", "Rapamycin 雷帕霉素", "8 篇 · mTOR 抑制剂，模型生物延寿最稳"),
-    ("/telomere.html", "端粒与端粒酶", "8 篇 · 最经典的衰老标志物"),
-    ("/metformin.html", "Metformin 二甲双胍", "6 篇 · AMPK 通路抗衰候选，TAME 试验待验证"),
-    ("/nmn.html", "NMN 与 NAD+", "6 篇 · 消费级抗衰最大品类，人体证据弱"),
+    ("/senolytic.html", "Senolytic 清除", "选择性清除衰老细胞的药物类别"),
+    ("/stemcell.html", "干细胞与细胞替代", "再生医学抗衰主线"),
+    ("/rapamycin.html", "Rapamycin 雷帕霉素", "mTOR 抑制剂，模型生物延寿最稳"),
+    ("/telomere.html", "端粒与端粒酶", "最经典的衰老标志物"),
+    ("/metformin.html", "Metformin 二甲双胍", "AMPK 通路抗衰候选，TAME 试验待验证"),
+    ("/nmn.html", "NMN 与 NAD+", "消费级抗衰最大品类，人体证据弱"),
 ]
 
 # 证据分级静态文案（计数按 JSON evidence 字段统计）
@@ -288,6 +295,26 @@ def render_lead_card(a):
     )
 
 
+NEWS_LINK_RE = re.compile(
+    r'href="(?:https://longbiosci\.com)?/news/([^"#?]+\.html)"')
+
+
+def concept_count(root, href):
+    """概念页实际收录篇数 = 该页 HTML 中 /news/ 链接去重后的条数。
+
+    概念页是管线外静态页，收录清单由人工策展，无可靠关键词规则可复现
+    （实测关键词法相对页面清单有 12 篇漏收 / 17 篇误收），故以页面实际列出的
+    文章数为事实源——与 scripts/refresh_counts.py 保持同一口径。
+    """
+    p = os.path.join(root, href.lstrip("/"))
+    try:
+        with open(p, encoding="utf-8") as f:
+            html_text = f.read()
+    except OSError:
+        return 0
+    return len(set(NEWS_LINK_RE.findall(html_text)))
+
+
 def render_feed_item(a):
     return HOME_FEED_ITEM.format(
         tag=esc(a["tag"] or a["topic"]),
@@ -323,8 +350,9 @@ def main():
     out += SECTION_CLOSE
     out += CONCEPT_SECTION
     out += "\n".join(
-        CONCEPT_CARD.format(href=href, name=name, count=count)
-        for href, name, count in CONCEPTS) + "\n"
+        CONCEPT_CARD.format(href=href, name=name,
+                            count=f"{concept_count(root, href)} 篇 · {desc}")
+        for href, name, desc in CONCEPTS) + "\n"
     out += SECTION_CLOSE
     out += EVIDENCE_SECTION
     out += "\n".join(

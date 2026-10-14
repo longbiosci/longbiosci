@@ -34,7 +34,11 @@ REL_BLOCK_RE = re.compile(
     r'<ul class="related-list">(.*?)</ul>\s*</div>', re.S)
 REL_ITEM_RE = re.compile(
     r'<li><a href="/news/([^"]+)">(.*?)</a>\s*<span class="tag-date">([^<]*)</span></li>')
-NEWS_LINK_RE = re.compile(r'href="/news/([^"]+)"')
+ABS_LINK_RE = re.compile(r'href="https://longbiosci\.com/news/([^"]+)"')
+# 注意：必须同时覆盖「相对 /news/x.html」与「绝对 https://longbiosci.com/news/x.html」
+# 两种写法。2026-10-15 巡检发现：正文「与已有研究的关系」「相关阅读」小节用的是绝对
+# 写法，而本脚本原先只认相对写法，导致 2 条正文死链躲过了「死链复扫 0」的自检。
+NEWS_LINK_RE = re.compile(r'href="(?:https://longbiosci\.com)?/news/([^"]+)"')
 
 
 def load():
