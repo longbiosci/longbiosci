@@ -1,0 +1,54 @@
+{
+  "_comment": "热词专题页定义。关键词用于从 articles.json 聚合文章；lead 为专题定位句（人工维护，只描述范围与口径，不做因果断言）；redline 留空表示由证据构成自动推导。新增专题只需在此追加一条，scripts/gen_guide.py 会自动建页。",
+  "_不重复原则": "已存在 /research/ 概念页的热词（senolytic / stemcell / metformin / rapamycin / nmn / telomere / spermidine / melatonin）不再新建专题页，改为在概念页注入「证据快照」模块。",
+  "topics": [
+    {
+      "slug": "neurodegeneration",
+      "name": "神经退行与脑衰老",
+      "lead": "阿尔茨海默病、帕金森病与认知衰退方向的研究解读汇总。这是本站收录量最大的疾病方向。",
+      "keywords": ["阿尔茨海默", "帕金森", "tau", "淀粉样", "amyloid", "认知衰退", "痴呆", "synuclein", "脑衰老"]
+    },
+    {
+      "slug": "exercise-fasting",
+      "name": "运动与热量限制／限时进食",
+      "lead": "运动、热量限制与限时进食等生活方式干预的研究解读汇总。这类干预的共同特点是不需要新药审批即可实践，因此证据质量格外重要。",
+      "keywords": ["运动", "热量限制", "限时进食", "禁食", "fasting", "caloric restriction", "exercise", "空腹"]
+    },
+    {
+      "slug": "mitochondria-autophagy",
+      "name": "线粒体与自噬",
+      "lead": "线粒体功能与自噬／蛋白稳态方向的研究解读汇总。两条通路高度耦合，是多条抗衰干预的共同下游。",
+      "keywords": ["线粒体", "mitochondri", "自噬", "autophagy", "mitophagy", "蛋白酶体", "溶酶体"]
+    },
+    {
+      "slug": "partial-reprogramming",
+      "name": "部分重编程（OSK / Yamanaka）",
+      "lead": "通过短暂表达山中因子重置表观遗传标记的研究解读汇总。这是目前唯一宣称能「逆转」而非「延缓」细胞年龄的路线。",
+      "keywords": ["重编程", "yamanaka", "osk", "山中因子", "oskm", "山中"]
+    },
+    {
+      "slug": "inflammaging",
+      "name": "炎症老化与免疫衰老",
+      "lead": "慢性低度炎症（inflammaging）与免疫系统衰老的研究解读汇总。炎症既是衰老的标志，也是多种老年病的共同土壤。",
+      "keywords": ["inflammaging", "炎症老化", "免疫衰老", "il-6", "il-11", "慢性炎症", "炎性"]
+    },
+    {
+      "slug": "epigenetic-clock",
+      "name": "表观遗传时钟与生物年龄",
+      "lead": "DNA 甲基化时钟、DunedinPACE 等生物年龄测量工具的研究解读汇总。这一方向解决的是「干预有没有用」的测量问题。",
+      "keywords": ["表观遗传时钟", "甲基化时钟", "dnam", "生物年龄", "horvath", "phenoage", "grimage", "dunedinpace", "dunedin", "衰老时钟"]
+    },
+    {
+      "slug": "microbiome",
+      "name": "肠道微生物组",
+      "lead": "肠道菌群与衰老关系的研究解读汇总。因果方向仍是该领域最大的争议点。",
+      "keywords": ["微生物组", "microbiome", "肠道菌", "gut microbiota", "菌群", "akkermansia", "roseburia"]
+    },
+    {
+      "slug": "glp1-metabolic",
+      "name": "GLP-1 与代谢药物",
+      "lead": "GLP-1 受体激动剂等代谢类药物在衰老相关结局上的研究解读汇总。这类药物的人体数据量在抗衰候选中最为充分。",
+      "keywords": ["glp-1", "司美格鲁肽", "semaglutide", "替尔泊肽", "tirzepatide"]
+    }
+  ]
+}
