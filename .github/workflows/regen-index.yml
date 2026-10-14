@@ -1,13 +1,20 @@
 name: Regen rss/sitemap index
 
+# ⚠️ 2026-10-14 起改为**仅手动触发**。
+# 原因：本工作流用的 scripts/gen_index.py + scripts/gen_site.py 是
+# 「栏目重建前的旧版生成器」，产物严格劣于现行本地管线
+# （build-index.py → gen-home.py → gen-topic-pages.py → gen-news-index.py →
+#   rebuild-sitemap.py → add-rss-today-run.py → inject-poster.py）。
+# 实测被覆盖的差异：
+#   sitemap.xml        460 loc → 385 loc（丢失 topics/ evidence/ daily/
+#                      research/ privacy/ trials.html 与全部概念单页）
+#   search-index.json  395 条 → 380 条（丢失 15 条栏目/工具类条目）
+#   rss.xml53 item → 50 item
+#   并会删除 evidence/B-10~B-12、topics/cellular-senescence-3、
+#   topics/methods-tools-2 等有效分页。
+# 即：每次 push data/articles.json 都会静默把站点降级。
+# 现改为不自动触发，避免与本地管线的产出互相覆盖。
 on:
-  push:
-    branches: [main]
-    paths:
-      - "data/articles.json"
-      - "scripts/gen_index.py"
-      - "scripts/gen_site.py"
-      - ".github/workflows/regen-index.yml"
   workflow_dispatch:
 
 permissions:
