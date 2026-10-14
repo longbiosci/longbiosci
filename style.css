@@ -739,41 +739,40 @@ body:has(.bottom-nav){padding-bottom:64px}
 /* 站内链接不该被拦腰断开，只在必要时断 */
 .article-content a,.lead-card a,.card a{overflow-wrap:break-word}
 
-/* ---- 2. 导航在移动端固定为单行横滑（核心修复）---- */
+/* ---- 2. 导航在移动端：换行铺满，9 个入口全部可见（2026-10-15 P0#1 重写）----
+
+   历史：2026-10-11 这里刻意选了「单行横滑 + 隐藏滚动条」，当时的约束成立——
+   `.site-header` 是 position:sticky，多行导航常驻会长期吃掉约 110px 阅读区。
+   代价是实测 390px 下 9 个入口只露 3 个，且滚动条被隐藏后用户不知道还能滑，
+   等于后 6 个入口不可达（评估报告 P0「最严重缺陷」）。
+
+   本次解法：把「多行」与「吸顶」这对矛盾拆开——移动端取消 sticky，
+   header 随内容滚走，多行导航就不再常驻占屏；回到顶部由 `.to-top` 承担。
+   如要恢复旧形态：把 `.site-header{position:static}` 改回 sticky，
+   并把 `.main-nav` 的 flex-wrap 改回 nowrap、overflow-x 改回 auto 即可。
+   -------------------------------------------------------------------------- */
 @media (max-width:768px){
+  .site-header{position:static}          /* 移动端不吸顶：多行导航常驻会压迫阅读区 */
   .site-header .wrap,.header-main{
     min-height:56px;
     gap:var(--s-3);
-    /* 品牌与导航同一行，导航占满剩余宽度 */
-    flex-wrap:nowrap;
+    flex-wrap:wrap;                      /* 品牌与导航分行，导航独占整行 */
   }
   .main-nav,.nav-links{
     margin-left:0;
+    width:100%;
     flex:1 1 auto;
-    min-width:0;              /* 允许在 flex 容器内收缩到内容以下 */
-    flex-wrap:nowrap;         /* ← 关键：覆盖桌面端的 wrap，触发横滑 */
-    overflow-x:auto;
-    overflow-y:hidden;
-    -webkit-overflow-scrolling:touch;
-    overscroll-behavior-x:contain;
-    scrollbar-width:none;     /* Firefox 隐藏滚动条 */
-    -ms-overflow-style:none;
-    /* 右侧留白，提示「还能往右滑」 */
+    min-width:0;
+    flex-wrap:wrap;                      /* ← 换行铺满，9 入口全部可见 */
+    overflow:visible;
     padding-bottom:0;
-    padding-right:var(--s-4);
+    padding-right:0;
     gap:2px;
-    /* 横向裁切，避免滚动时给整页带来横向溢出 */
-    scroll-snap-type:x proximity;
-  }
-  .main-nav::-webkit-scrollbar,.nav-links::-webkit-scrollbar{
-    display:none;             /* Chrome/Safari 隐藏滚动条 */
   }
   .main-nav a,.nav-links a{
     flex:0 0 auto;
     white-space:nowrap;
-    scroll-snap-align:start;
-    /* 触控目标提到 36px（配合 .wrap 的 56px 行高仍舒适） */
-    min-height:36px;
+    min-height:36px;                     /* 触控目标仍保持 36px */
     display:inline-flex;align-items:center;
     padding:var(--s-1) var(--s-3);
     font-size:var(--f-sm);
