@@ -1,2 +1,5 @@
 node_modules/
 .DS_Store
+
+# 内容通道本地暂存（网盘产出的本地副本与查重报告，不入库）
+.intake/
