@@ -1,7 +1,7 @@
 {
  "site": {
-  "articles": 485,
-  "dois": 353
+  "articles": 549,
+  "dois": 417
  },
  "outputs": {
   "cards_2026-09-25.md": {
@@ -69,6 +69,16 @@
    "bytes": 30237,
    "suspicious_empty": false
   },
+  "lit-2026-10-16.cards.md": {
+   "rows": 0,
+   "bytes": 48338,
+   "suspicious_empty": false
+  },
+  "lit-2026-10-16.md": {
+   "rows": 67,
+   "bytes": 249984,
+   "suspicious_empty": false
+  },
   "lit-cards-2026-10-09.md": {
    "rows": 25,
    "bytes": 89241,
@@ -82,6 +92,16 @@
   "meta-ops-todo.md": {
    "rows": 0,
    "bytes": 25062,
+   "suspicious_empty": false
+  },
+  "ops-log-latest.md": {
+   "rows": 0,
+   "bytes": 96773,
+   "suspicious_empty": false
+  },
+  "ops-todo-latest.md": {
+   "rows": 0,
+   "bytes": 42341,
    "suspicious_empty": false
   },
   "preprint-2026-09-13.md": {
@@ -160,9 +180,9 @@
    "suspicious_empty": false
   }
  },
- "output_entries": 272,
- "covered": 85,
- "missing_count": 187,
+ "output_entries": 339,
+ "covered": 168,
+ "missing_count": 171,
  "missing": [
   {
    "fingerprint": "t:90bec65f27ced9a5",
@@ -459,7 +479,7 @@
     "pool_2026-10-13.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.20）；★中文摘要条目，必须人工核对站内中文关键词"
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.33）；★中文摘要条目，必须人工核对站内中文关键词"
   },
   {
    "fingerprint": "t:81679905a6ad9fb8",
@@ -990,6 +1010,39 @@
    "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
   },
   {
+   "fingerprint": "t:54731732bbc6257b",
+   "title": "RamanOmics decodes the spatial vibrational-molecular architecture of senescence in aging and repair",
+   "doi": "",
+   "code": "N02",
+   "seen_in": [
+    "lit-2026-10-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）"
+  },
+  {
+   "fingerprint": "t:9428dff452ec2fb4",
+   "title": "Physical activity delays ovarian aging in part through adiponectin-related signaling pathways",
+   "doi": "",
+   "code": "N04",
+   "seen_in": [
+    "lit-2026-10-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.33）"
+  },
+  {
+   "fingerprint": "t:e3918da0ea79df34",
+   "title": "The Role of EVs in the Aging Hematopoietic System",
+   "doi": "",
+   "code": "A13",
+   "seen_in": [
+    "lit-2026-10-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.06，词元重叠 0.50）"
+  },
+  {
    "fingerprint": "t:012a55f80422dedb",
    "title": "`arXiv:2609.13322`（SenSASP）",
    "doi": "",
@@ -1177,17 +1230,6 @@
    "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
   },
   {
-   "fingerprint": "doi:10.1038/s43587-026-01209-9",
-   "title": "Cytotoxic CD4⁺ T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling",
-   "doi": "10.1038/s43587-026-01209-9",
-   "code": "N4",
-   "seen_in": [
-    "cards_2026-09-25.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1038/s43587-026-01209-9，标题相似 0.00，词元重叠 0.50）"
-  },
-  {
    "fingerprint": "doi:10.1038/s43587-026-01177-0",
    "title": "Physical activity delays ovarian aging in part through adiponectin-related signaling pathways",
    "doi": "10.1038/s43587-026-01177-0",
@@ -1197,39 +1239,6 @@
    ],
    "status": "漏收",
    "basis": "四路均未命中（DOI=10.1038/s43587-026-01177-0，标题相似 0.00，词元重叠 0.33）"
-  },
-  {
-   "fingerprint": "doi:10.1038/s43587-026-01207-x",
-   "title": "A microprotein atlas of the human frontal cortex in Alzheimer's disease",
-   "doi": "10.1038/s43587-026-01207-x",
-   "code": "N8",
-   "seen_in": [
-    "cards_2026-09-25.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1038/s43587-026-01207-x，标题相似 0.00，词元重叠 0.33）"
-  },
-  {
-   "fingerprint": "doi:10.1038/s43587-026-01210-2",
-   "title": "Reframing the epidemiological transition as increasing returns to tackling aging-related diseases",
-   "doi": "10.1038/s43587-026-01210-2",
-   "code": "N9",
-   "seen_in": [
-    "cards_2026-09-25.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1038/s43587-026-01210-2，标题相似 0.00，词元重叠 0.25）"
-  },
-  {
-   "fingerprint": "doi:10.1038/s43587-026-01192-1",
-   "title": "Noncircadian BMAL1-YAP activity amplifies persistent inflammation in aged epidermis",
-   "doi": "10.1038/s43587-026-01192-1",
-   "code": "N10",
-   "seen_in": [
-    "cards_2026-09-25.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1038/s43587-026-01192-1，标题相似 0.00，词元重叠 0.50）"
   },
   {
    "fingerprint": "doi:10.1038/s43587-026-01230-y",
@@ -1265,28 +1274,6 @@
    "basis": "四路均未命中（DOI=10.1111/acel.70716，标题相似 0.00，词元重叠 0.50）"
   },
   {
-   "fingerprint": "doi:10.1111/acel.70677",
-   "title": "LivAge: An Online Aging Clock for Murine Transcriptomic Age Estimation",
-   "doi": "10.1111/acel.70677",
-   "code": "A3",
-   "seen_in": [
-    "cards_2026-09-25.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1111/acel.70677，标题相似 0.00，词元重叠 0.33）"
-  },
-  {
-   "fingerprint": "doi:10.1111/acel.70711",
-   "title": "Transmembrane Protein PTCHD4 Is a Novel Regulator of Cellular Senescence and Age-Related Pathologies",
-   "doi": "10.1111/acel.70711",
-   "code": "A5",
-   "seen_in": [
-    "cards_2026-09-25.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1111/acel.70711，标题相似 0.00，词元重叠 0.50）"
-  },
-  {
    "fingerprint": "doi:10.1111/acel.70710",
    "title": "Mitochondrial Haplotype Shapes the Trajectory of Ovarian Aging in Genetically Heterogeneous Rats",
    "doi": "10.1111/acel.70710",
@@ -1296,17 +1283,6 @@
    ],
    "status": "漏收",
    "basis": "四路均未命中（DOI=10.1111/acel.70710，标题相似 0.00，词元重叠 0.50）"
-  },
-  {
-   "fingerprint": "doi:10.1111/acel.70702",
-   "title": "Akkermansia muciniphila and Its Bioactive Derivatives: Emerging Regulators of Healthy Aging（Review）",
-   "doi": "10.1111/acel.70702",
-   "code": "A7",
-   "seen_in": [
-    "cards_2026-09-25.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1111/acel.70702，标题相似 0.00，词元重叠 0.33）"
   },
   {
    "fingerprint": "doi:10.1111/acel.70664",
@@ -1353,17 +1329,6 @@
    "basis": "四路均未命中（DOI=10.1111/acel.70701，标题相似 0.00，词元重叠 0.40）"
   },
   {
-   "fingerprint": "doi:10.1111/acel.70698",
-   "title": "Insights Into the Interplay Between Senescent Cells and Immune Cells",
-   "doi": "10.1111/acel.70698",
-   "code": "A12",
-   "seen_in": [
-    "cards_2026-09-25.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1111/acel.70698，标题相似 0.00，词元重叠 0.50）"
-  },
-  {
    "fingerprint": "doi:10.1111/acel.70675",
    "title": "The Thymic Microenvironment Shapes Age-Related Qualitative Changes in the TCR Repertoire",
    "doi": "10.1111/acel.70675",
@@ -1373,17 +1338,6 @@
    ],
    "status": "漏收",
    "basis": "四路均未命中（DOI=10.1111/acel.70675，标题相似 0.00，词元重叠 0.25）"
-  },
-  {
-   "fingerprint": "doi:10.1111/acel.70704",
-   "title": "Sustained Activation of CaMKII Promotes Skeletal Muscle Contractile Dysfunction in Aging",
-   "doi": "10.1111/acel.70704",
-   "code": "A14",
-   "seen_in": [
-    "cards_2026-09-25.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1111/acel.70704，标题相似 0.00，词元重叠 0.50）"
   },
   {
    "fingerprint": "doi:10.1111/acel.70674",
@@ -1419,17 +1373,6 @@
    "basis": "四路均未命中（DOI=10.1007/s11357-026-02546-8，标题相似 0.00，词元重叠 0.50）"
   },
   {
-   "fingerprint": "doi:10.1007/s11357-026-02500-8",
-   "title": "Frailty assessment in naturally aged mouse models（Review）",
-   "doi": "10.1007/s11357-026-02500-8",
-   "code": "G3",
-   "seen_in": [
-    "cards_2026-09-25.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1007/s11357-026-02500-8，标题相似 0.00，词元重叠 0.25）"
-  },
-  {
    "fingerprint": "doi:10.1007/s11357-026-02523-1",
    "title": "Apolipoprotein-rich electronegative HDL accelerates vascular aging and atherosclerosis by inducing endothelial senescence",
    "doi": "10.1007/s11357-026-02523-1",
@@ -1450,50 +1393,6 @@
    ],
    "status": "漏收",
    "basis": "四路均未命中（DOI=10.1007/s11357-026-02532-0，标题相似 0.00，词元重叠 0.67）"
-  },
-  {
-   "fingerprint": "doi:10.1007/s11357-026-02424-3",
-   "title": "Endothelial IGF-1/IGF-1R signaling supports young-blood-induced restoration of BBB integrity in aged mice",
-   "doi": "10.1007/s11357-026-02424-3",
-   "code": "G6",
-   "seen_in": [
-    "cards_2026-09-25.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1007/s11357-026-02424-3，标题相似 0.00，词元重叠 0.40）"
-  },
-  {
-   "fingerprint": "doi:10.1007/s11357-026-02501-7",
-   "title": "Parental longevity and polygenic longevity scores in relation to ageing-related factors（H70 队列）",
-   "doi": "10.1007/s11357-026-02501-7",
-   "code": "G7",
-   "seen_in": [
-    "cards_2026-09-25.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1007/s11357-026-02501-7，标题相似 0.00，词元重叠 0.25）；★中文摘要条目，必须人工核对站内中文关键词"
-  },
-  {
-   "fingerprint": "doi:10.1007/s11357-026-02505-3",
-   "title": "Longitudinal associations of one-carbon metabolism biomarkers with biological and epigenetic aging in older adults in India",
-   "doi": "10.1007/s11357-026-02505-3",
-   "code": "G8",
-   "seen_in": [
-    "cards_2026-09-25.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1007/s11357-026-02505-3，标题相似 0.00，词元重叠 0.40）"
-  },
-  {
-   "fingerprint": "doi:10.1007/s11357-026-02437-y",
-   "title": "The impact of cumulative obesity and genetic susceptibility on biological aging in Chinese older adults",
-   "doi": "10.1007/s11357-026-02437-y",
-   "code": "G9",
-   "seen_in": [
-    "cards_2026-09-25.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1007/s11357-026-02437-y，标题相似 0.00，词元重叠 0.40）"
   },
   {
    "fingerprint": "doi:10.1007/s11357-026-02543-x",
@@ -1529,17 +1428,6 @@
    "basis": "四路均未命中（DOI=10.1007/s11357-026-02464-9，标题相似 0.00，词元重叠 0.25）"
   },
   {
-   "fingerprint": "doi:10.1007/s11357-026-02506-2",
-   "title": "LAPTM5 correlates with RPE senescence and subretinal fibrosis through LAPTM5-WWP2-OPTN mitophagy cascade and cGAS/STING",
-   "doi": "10.1007/s11357-026-02506-2",
-   "code": "G13",
-   "seen_in": [
-    "cards_2026-09-25.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1007/s11357-026-02506-2，标题相似 0.00，词元重叠 0.50）"
-  },
-  {
    "fingerprint": "doi:10.1007/s11357-026-02498-z",
    "title": "The Arlington study of healthy aging（ASHA）cohort profile",
    "doi": "10.1007/s11357-026-02498-z",
@@ -1549,39 +1437,6 @@
    ],
    "status": "漏收",
    "basis": "四路均未命中（DOI=10.1007/s11357-026-02498-z，标题相似 0.00，词元重叠 0.33）"
-  },
-  {
-   "fingerprint": "doi:10.1016/j.cell.2026.07.045",
-   "title": "Multimodal brain cell atlas across the adult macaque lifespan",
-   "doi": "10.1016/j.cell.2026.07.045",
-   "code": "C1",
-   "seen_in": [
-    "cards_2026-09-25.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1016/j.cell.2026.07.045，标题相似 0.00，词元重叠 0.50）"
-  },
-  {
-   "fingerprint": "doi:10.1016/j.cell.2026.06.013",
-   "title": "Recurrent patterns of TOP1-mediated neuronal genomic damage shared by major neurodegenerative disorders",
-   "doi": "10.1016/j.cell.2026.06.013",
-   "code": "C2",
-   "seen_in": [
-    "cards_2026-09-25.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1016/j.cell.2026.06.013，标题相似 0.00，词元重叠 0.33）"
-  },
-  {
-   "fingerprint": "doi:10.1016/j.cell.2026.07.015",
-   "title": "Neurodegeneration as a dysregulation of neuroimmune crosstalk（Review）",
-   "doi": "10.1016/j.cell.2026.07.015",
-   "code": "C4",
-   "seen_in": [
-    "cards_2026-09-25.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1016/j.cell.2026.07.015，标题相似 0.00，词元重叠 0.33）"
   },
   {
    "fingerprint": "doi:10.1038/s43587-026-01227-7",
@@ -1782,17 +1637,6 @@
    "basis": "四路均未命中（DOI=10.1111/acel.70706，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
   },
   {
-   "fingerprint": "doi:10.1007/s11357-026-02362-0",
-   "title": "Study protocol for FAXAge: a randomized, controlled clinical trial of fasting and exercise to slow aging in humans",
-   "doi": "10.1007/s11357-026-02362-0",
-   "code": "G1",
-   "seen_in": [
-    "cards_2026-10-02.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1007/s11357-026-02362-0，标题相似 0.00，词元重叠 0.50）"
-  },
-  {
    "fingerprint": "doi:10.1007/s11357-026-02554-8",
    "title": "Autologous cytokine-induced NK cells as candidate cellular senolytics: evidence, obstacles…",
    "doi": "10.1007/s11357-026-02554-8",
@@ -1933,7 +1777,7 @@
     "cards_2026-10-02.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1007/s11357-026-02443-0，标题相似 0.00，词元重叠 0.33）"
+   "basis": "四路均未命中（DOI=10.1007/s11357-026-02443-0，标题相似 0.00，词元重叠 0.40）"
   },
   {
    "fingerprint": "doi:10.1007/s11357-026-02515-1",
@@ -2266,8 +2110,9 @@
    "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
   }
  ],
- "orphan_count": 485,
+ "orphan_count": 549,
  "orphan_sample": [
+  "3D-Culture-Reverses-Limbal-Niche-AgingCell-2026.html",
   "7-Ketocholesterol-Derivatives-Pathophysiology.html",
   "AAV-FGF21-Gene-Therapy-Healthspan-Lifespan-2026.html",
   "ADPHC-Ultrahuman-Biological-Health-Age-Public-Health-MOU.html",
@@ -2285,9 +2130,8 @@
   "ATF5-Muscle-Mass-Quality-Aging-2026.html",
   "Acid-Base-Dysregulation-Aging-Metabolism-Frailty-2026.html",
   "Adaptive-Cost-Hypothesis-NCDs-Evolvable-Lifespan-2026.html",
-  "Aged-Microbiota-Fecal-Transplant-Bama-Pig-2026.html",
-  "Aging-Cell-Society-Remodeling-Quanta-2026.html",
-  "Aging-Gene-Network-Multimorbidity-UK-Biobank-2026.html"
+  "Age-Associated-Gut-Microbiota-Dysbiosis-Impairs-AgingCell-2026.html",
+  "Aged-Microbiota-Fecal-Transplant-Bama-Pig-2026.html"
  ],
  "note": "missing 必须逐条人工核对后再写稿。判定为「漏收」只代表三路均未命中，不是结论——中文摘要条目尤其需要用中文关键词直接搜站内。"
 }
