@@ -9,7 +9,7 @@
 #   ./intake.sh [仓库根目录] [--since YYYY-MM-DD]
 #
 # 流程：
-#   1 列举网盘三层知识库目录（文献层/ 行业层 / 网站层）下的产出文件
+#   1 列举网盘知识库目录下的产出文件（文献层 / 行业层 / 网站层 + 元层父目录）
 #   2 按 mtime 过滤出 --since 之后新增或更新的文件（默认：只取最近 14 天）
 #   3 调用 harvest.py 做三路查重，产出 data/harvest-report.json
 #   4 打印漏收清单，供下一步写稿（gen_articles.py）
@@ -17,6 +17,14 @@
 # 边界说明：本脚本**不做写作**，只负责「有什么新产出、哪些还没上站」。
 #         写作环节刻意保持人工/AI 判断，因为证据分级与定量口径
 #         必须逐条按SOP §4.2 处理，不能自动化。
+#
+# ⚠️ 网盘 download_url 签名窗口仅约 1 小时，过期即 403 / InvalidAccessKeyId。
+#    手抄 URL 到 shell 里极易出错（本项目已踩两次）。
+#    标准做法：把 file_download 的返回原样存成 JSON，再用fetch.py 下载：
+#      python3 - <<'EOF'
+#      import json,sys; json.dump({"download_url": sys.argv[1]}, open("/tmp/u.json","w"))
+#      EOF
+#      python3 scripts/fetch.py /tmp/u.json <输出路径>
 #
 # ⚠️ 依赖网盘 MCP 工具（tdrive.dir_list / file_download），
 #    MCP 不可用时本脚本会跳过下载、仅做本地判定，不阻塞管线。
@@ -43,6 +51,14 @@ KNOWLEDGE_LAYERS=(
   "dsuxMCSCwEVB:文献层"      # 五刊监控深度卡片 / 预印本速递 / 总索引
   "dVEYJcsAbUdK:行业层"      # 行业情报周报 md + xlsx
   "drGisxAlABJK:网站层"      # 网站喂料池 xlsx / 喂料池总表 / 查重报告
+)
+
+# ⚠️ 元层（任务 7762988 月度研究热点综述）**没有独立目录**——
+# 实测 2026-10-15：产出 `月度研究热点综述_2026-10.md` 的 parent_id 是 dQpzABLkRxLu
+# （即网站层的父目录），而 dntPxtImVdXC 下只有三个子目录。
+# 漏掉这一行会导致每月 15 日的产出永远发现不了。
+EXTRA_DIRS=(
+  "dQpzABLkRxLu:元层"
 )
 
 echo "仓库根目录: ${ROOT}"
