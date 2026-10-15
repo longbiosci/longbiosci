@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>全量临床试验登记库 — LongBiosci</title>
+<meta name="description" content="抗衰老与长寿领域 558 项在招募临床试验的全量登记库：7 个方向、ClinicalTrials.gov 官方登记，支持关键词检索与方向/状态筛选。">
+<link rel="canonical" href="https://longbiosci.com/trials-full.html">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://longbiosci.com/trials-full.html">
+<meta property="og:title" content="全量临床试验登记库 — LongBiosci">
+<meta property="og:description" content="558 项衰老与长寿领域在招募临床试验的全量登记库，来自 ClinicalTrials.gov。">
+<meta property="og:image" content="https://longbiosci.com/og-image.png">
+<meta property="og:site_name" content="LongBiosci">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="全量临床试验登记库 — LongBiosci">
+<meta name="twitter:description" content="558 项在招募临床试验全量登记库。">
+<meta name="twitter:image" content="https://longbiosci.com/og-image.png">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/svg+xml" href="/favicon-dark.svg" media="(prefers-color-scheme: dark)">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/trials.css">
+<!-- longbiosci:analytics 无 Cookie、无跨站追踪、不收集身份信息；详见 /privacy/ -->
+<script defer src="https://cloud.umami.is/script.js" data-website-id="bfb60723-d93d-4925-b1a2-d7ef51b9014c" data-do-not-track="true"></script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">跳转到主要内容</a>
+<header class="site-header">
+  <div class="wrap">
+    <a href="/" class="brand"><img src="/logo-mark.svg" alt="" class="brand-mark" width="28" height="28"><span class="brand-name">LongBiosci</span></a>
+    <nav class="main-nav" aria-label="主导航">
+      <a href="/">首页</a>
+      <a href="/news/">最新</a>
+      <a href="/topics/" aria-label="主题专辑"><span class="nav-mq">主题</span>专辑</a>
+      <a href="/guide/" aria-label="热词专题">热词<span class="nav-mq">专题</span></a>
+      <a href="/research/" aria-label="概念与工具">概念<span class="nav-mq">与工具</span></a>
+      <a href="/daily/">周刊</a>
+      <a href="/evidence/" aria-label="证据分级">证据<span class="nav-mq">分级</span></a>
+      <a href="/trials.html" aria-current="page" aria-label="临床试验">临床<span class="nav-mq">试验</span></a>
+      <a href="/companies/">产业</a>
+      <a href="/about/">关于</a>
+      <a href="/search.html" class="nav-search" aria-label="站内搜索"><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="6.8" cy="6.8" r="4.6" fill="none" stroke="currentColor" stroke-width="1.6"/><line x1="10.3" y1="10.3" x2="14" y2="14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><span class="nav-search-text">搜索</span></a>
+    </nav>
+  </div>
+</header>
+
+<main id="main-content">
+<section class="hero"><div class="wrap">
+  <h1>全量临床试验登记库</h1>
+  <p><a href="/trials.html">主数据库（82 项 · 机制窄口径）</a>之外的宽口径全量视图：
+  来自 ClinicalTrials.gov API v2，覆盖 7 个方向、共 <strong>558</strong> 项正在招募 /
+  尚未招募 / 邀请入组的登记试验。其中「长寿」泛条目 475 项占比 85%，故本页不做
+  机制细分主表，只提供<strong>检索与筛选</strong>。</p>
+  <div class="tr-stamp">
+    <time datetime="2026-10-01">数据更新于 2026 年 10 月 1 日</time> · 招募中 <strong>368</strong> · 尚未招募 <strong>155</strong> · 邀请入组中 <strong>35</strong>
+  </div>
+</div></section>
+
+<section class="section"><div class="wrap">
+  <div class="notice-box">
+    <p><strong>与主数据库的关系：</strong>主表（<a href="/trials.html">/trials.html</a>）按
+    6 个机制关键词（senolytic / NMN / 二甲双胍 / 雷帕霉素 / 亚精胺 / gerotherapeutics）
+    精筛，适合按干预手段浏览；本页是同一官方源的宽口径抓取（含 475 条以「长寿」
+    为标签的泛条目），适合<strong>穷尽式检索</strong>。两者同源不同口径，互不替代。</p>
+  </div>
+
+  <div class="tf-controls" role="search">
+    <input id="tf-q" type="search" placeholder="检索标题 / NCT 编号 / 适应症 / 申办方…" aria-label="检索试验">
+    <div class="tf-chips" id="tf-cats" role="group" aria-label="方向筛选"></div>
+    <div class="tf-chips" id="tf-status" role="group" aria-label="状态筛选"></div>
+    <p class="tr-stamp" id="tf-count" aria-live="polite"></p>
+  </div>
+  <ul class="tr-list" id="tf-list"></ul>
+  <p style="text-align:center"><button id="tf-more" type="button" class="tr-tab">加载更多</button></p>
+</div></section>
+
+<section class="section"><div class="wrap">
+  <div class="notice-box">
+    <p><strong>局限性：</strong>数据来自 ClinicalTrials.gov，主要覆盖美国及注册地在此的
+    研究；登记信息由研究者自行填报，本站不做真实性核验；「长寿」标签为抓取脚本的
+    宽匹配，可能包含以老年人群为对象但非衰老干预的研究。数据源快照与清洗记录见
+    自动化任务（每月 1 号 09:00 刷新）。</p>
+  </div>
+</div></section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© 2026 LongBiosci 编辑部 · 衰老与长寿科技资讯</p>
+    <a href="/rss.xml">RSS</a> · 匿名访问统计由 <a href="https://umami.is" target="_blank" rel="noopener noreferrer">Umami</a> 提供（无 Cookie、不收集身份信息，详见 <a href="/privacy/">隐私政策</a>） · <a href="/sitemap.xml">Sitemap</a> ·
+    <a href="/privacy/">隐私政策</a> · <a href="/about/">关于</a>
+  </div>
+</footer>
+<style>
+.tf-controls{margin:16px 0 8px}
+#tf-q{width:100%;max-width:640px;padding:10px 14px;font-size:1rem;border:1px solid var(--border,#ccc);border-radius:8px;margin-bottom:12px}
+.tf-chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:8px}
+.tf-chip{cursor:pointer;border:1px solid var(--border,#ccc);background:none;border-radius:999px;padding:4px 12px;font-size:.85rem}
+.tf-chip[aria-pressed="true"]{background:var(--accent,#0a7);color:#fff;border-color:transparent}
+.tf-more{display:none}
+.tf-more.show{display:inline-block}
+</style>
+<script>
+(function () {
+  'use strict';
+  var DATA = null, list = [], shown = 0, PAGE = 50;
+  var CATS = ['长寿', '细胞衰老', 'NAD+前体', '雷帕霉素', 'mTOR', '二甲双胍', 'TAME', 'Senolytics'];
+  var STATUSES = ['招募中', '尚未招募', '邀请入组中'];
+  var sel = { q: '', cat: '', status: '' };
+  var $ = function (id) { return document.getElementById(id); };
+
+  function chips(el, arr, key) {
+    arr.forEach(function (c) {
+      var b = document.createElement('button');
+      b.type = 'button'; b.className = 'tf-chip'; b.textContent = c;
+      b.setAttribute('aria-pressed', 'false');
+      b.addEventListener('click', function () {
+        sel[key] = sel[key] === c ? '' : c;
+        el.querySelectorAll('.tf-chip').forEach(function (x) {
+          x.setAttribute('aria-pressed', x.textContent === sel[key] ? 'true' : 'false');
+        });
+        apply(true);
+      });
+      el.appendChild(b);
+    });
+  }
+
+  function filtered() {
+    var q = sel.q.toLowerCase();
+    return list.filter(function (t) {
+      if (sel.cat && t.tags.indexOf(sel.cat) === -1) return false;
+      if (sel.status && t.status !== sel.status) return false;
+      if (q) {
+        var hay = (t.nct + ' ' + t.title + ' ' + t.conditions + ' ' + t.sponsor + ' ' + t.intervention).toLowerCase();
+        if (hay.indexOf(q) === -1) return false;
+      }
+      return true;
+    });
+  }
+
+  function item(t) {
+    var li = document.createElement('li'); li.className = 'tr-item';
+    var cls = t.status === '招募中' ? 'tr-recruiting' : (t.status === '尚未招募' ? 'tr-notyet' : 'tr-invite');
+    var url = 'https://clinicaltrials.gov/study/' + t.nct;
+    li.innerHTML =
+      '<div class="tr-head"><h3><a href="' + url + '" target="_blank" rel="noopener noreferrer">' +
+      t.title.replace(/</g, '&lt;') + '</a></h3><span class="tr-status ' + cls + '">' + t.status + '</span></div>' +
+      '<a class="tr-nct" href="' + url + '" target="_blank" rel="noopener noreferrer">' + t.nct + '</a>' +
+      '<dl class="tr-meta-grid">' +
+      '<div class="tr-meta"><dt>阶段</dt><dd>' + (t.phase || '—') + '</dd></div>' +
+      '<div class="tr-meta"><dt>适应症 / 条件</dt><dd>' + (t.conditions || '—') + '</dd></div>' +
+      '<div class="tr-meta"><dt>申办方</dt><dd>' + (t.sponsor || '—') + '</dd></div>' +
+      '<div class="tr-meta"><dt>国家 / 地区</dt><dd>' + (t.country || '—') + '</dd></div>' +
+      '<div class="tr-meta"><dt>方向</dt><dd>' + t.tags + '</dd></div>' +
+      '<div class="tr-meta"><dt>最近更新</dt><dd>' + t.last_update + '</dd></div>' +
+      '</dl>';
+    return li;
+  }
+
+  function render(reset) {
+    var hits = filtered();
+    if (reset) { $('tf-list').innerHTML = ''; shown = 0; }
+    var frag = document.createDocumentFragment();
+    hits.slice(shown, shown + PAGE).forEach(function (t) { frag.appendChild(item(t)); });
+    $('tf-list').appendChild(frag);
+    shown += PAGE;
+    $('tf-count').textContent = '命中 ' + hits.length + ' / ' + list.length + ' 项' + (shown < hits.length ? '（已显示 ' + shown + '）' : '');
+    $('tf-more').classList.toggle('show', shown < hits.length);
+  }
+
+  function apply(reset) { render(reset); }
+
+  fetch('/data/trials-full.json').then(function (r) { return r.json(); }).then(function (d) {
+    DATA = d; list = d.trials;
+    chips($('tf-cats'), CATS, 'cat');
+    chips($('tf-status'), STATUSES, 'status');
+    $('tf-q').addEventListener('input', function () { sel.q = this.value.trim(); apply(true); });
+    $('tf-more').addEventListener('click', function () { render(false); });
+    render(true);
+  });
+})();
+</script>
+</body>
+</html>

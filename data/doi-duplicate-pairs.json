@@ -1,0 +1,142 @@
+[
+ {
+  "doi": "10.1007/s11357-026-02577-1",
+  "keep": "Healthspan-Not-Lifespan-GeroScience-Gems-2026.html",
+  "keep_ev": "B",
+  "keep_size": 22459,
+  "drop": "Healthspan-Not-Lifespan-Cliche-GeroScience-2026.html",
+  "drop_ev": "C",
+  "drop_size": 12039,
+  "tier_conflict": true
+ },
+ {
+  "doi": "10.1016/j.arr.2026.103190",
+  "keep": "Misplaced-Nucleic-Acids-Coagul-Aging-2026.html",
+  "keep_ev": "A",
+  "keep_size": 14849,
+  "drop": "Nucleic-Acid-Mislocalization-Coagul-Aging-Review-2026.html",
+  "drop_ev": "B",
+  "drop_size": 13305,
+  "tier_conflict": true
+ },
+ {
+  "doi": "10.1016/j.arr.2026.103227",
+  "keep": "Systemic-Recalibration-Epigenetic-Reprogramming-Combination-2026.html",
+  "keep_ev": "A",
+  "keep_size": 13242,
+  "drop": "Systemic-Recalibration-Epigenetic-Resetting-Longevity-2026.html",
+  "drop_ev": "B",
+  "drop_size": 12398,
+  "tier_conflict": true
+ },
+ {
+  "doi": "10.1016/j.cell.2026.08.026",
+  "keep": "LongevityBench-Open-Benchmark-Language-Models-2026.html",
+  "keep_ev": "B",
+  "keep_size": 11941,
+  "drop": "open-benchmark-language-models-AI-aging-biology.html",
+  "drop_ev": "C",
+  "drop_size": 12959,
+  "tier_conflict": true
+ },
+ {
+  "doi": "10.1016/j.celrep.2026.117389",
+  "keep": "Cell-Type-Senescence-Signatures-Blood-Aging-Clocks-2026.html",
+  "keep_ev": "A",
+  "keep_size": 13249,
+  "drop": "Cell-Type-Senescence-Signatures-Blood-Biomarker-2026.html",
+  "drop_ev": "A",
+  "drop_size": 12659,
+  "tier_conflict": false
+ },
+ {
+  "doi": "10.1016/j.exger.2026.113249",
+  "keep": "Senomorphic-Agents-SASP-Multi-Target-2026.html",
+  "keep_ev": "A",
+  "keep_size": 12679,
+  "drop": "Senomorphic-Agents-Multi-Target-SASP-Healthy-Aging-2026.html",
+  "drop_ev": "B",
+  "drop_size": 14116,
+  "tier_conflict": true
+ },
+ {
+  "doi": "10.1038/s41467-026-73115-y",
+  "keep": "SIRT6-AAV-Chromatin-Rejuvenation-Liver-2026.html",
+  "keep_ev": "A",
+  "keep_size": 13570,
+  "drop": "SIRT6-Overexpression-Chromatin-Reversal-Liver-2026.html",
+  "drop_ev": "B",
+  "drop_size": 14282,
+  "tier_conflict": true
+ },
+ {
+  "doi": "10.1038/s41586-026-10791-2",
+  "keep": "Mitochondrial-Metabolism-Epigenetic-SASP-Nature-2026.html",
+  "keep_ev": "B",
+  "keep_size": 17622,
+  "drop": "Mitochondria-Metabolism-Epigenetic-SASP-Nature-2026.html",
+  "drop_ev": "B",
+  "drop_size": 13893,
+  "tier_conflict": false
+ },
+ {
+  "doi": "10.1038/s43587-026-01136-9",
+  "keep": "tDDR-Inhibition-Hematopoietic-Aging-Nature-Aging-2026.html",
+  "keep_ev": "B",
+  "keep_size": 13720,
+  "drop": "tDDR-Telomere-Hematopoietic-Aging-2026.html",
+  "drop_ev": "B",
+  "drop_size": 12342,
+  "tier_conflict": false
+ },
+ {
+  "doi": "10.1097/cm9.0000000000003920",
+  "keep": "Gut-Brain-Axis-Neurodegenerative-Diseases.html",
+  "keep_ev": "B",
+  "keep_size": 12990,
+  "drop": "Gut-Microbiome-Neurodegenerative-Treatment.html",
+  "drop_ev": "B",
+  "drop_size": 12097,
+  "tier_conflict": false
+ },
+ {
+  "doi": "10.1111/acel.70630",
+  "keep": "GPR40-Agonist-Thymic-Regeneration-Aging-2026.html",
+  "keep_ev": "B",
+  "keep_size": 13964,
+  "drop": "GPR40-Agonist-GW9508-Thymus-Regeneration-2026.html",
+  "drop_ev": "B",
+  "drop_size": 12748,
+  "tier_conflict": false
+ },
+ {
+  "doi": "10.1111/acel.70736",
+  "keep": "Novel-Flavonoid-Senotherapeutics-Identified-Phenotypic-Drug-Discovery-Reduce-Senescence-Improve-Multiple.html",
+  "keep_ev": "B",
+  "keep_size": 12083,
+  "drop": "Senotherapeutics-Fisetin-Derivatives-Phenotypic-Screening-AgingCell-2026.html",
+  "drop_ev": "B",
+  "drop_size": 11387,
+  "tier_conflict": false
+ },
+ {
+  "doi": "10.3389/fgene.2026.1836446",
+  "keep": "NextGen-Epigenetic-Clock-Interventions-41-Human-Studies-2026.html",
+  "keep_ev": "A",
+  "keep_size": 13347,
+  "drop": "Epigenetic-Aging-Clock-Interventions-Systematic-Review-2026.html",
+  "drop_ev": "B",
+  "drop_size": 11937,
+  "tier_conflict": true
+ },
+ {
+  "doi": "10.3390/cells15080657",
+  "keep": "Immune-System-Aging-Neurodegeneration-2026.html",
+  "keep_ev": "B",
+  "keep_size": 13184,
+  "drop": "Immunosenescence-Inflammaging-Neurodegeneration-2026.html",
+  "drop_ev": "B",
+  "drop_size": 12361,
+  "tier_conflict": false
+ }
+]

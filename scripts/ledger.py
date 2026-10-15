@@ -184,10 +184,16 @@ def audit(root, outputs, entries=None, per_file=None):
 
 
 def main():
-    if len(sys.argv) < 3:
+    # 兼容两种写法：audit . / audit --repo .
+    # SOP 文档里写的是 `--repo .`，而本脚本原本只认位置参数，
+    # 照文档跑会得到一串莫名其妙的 "--repo/data/ledger.json 不存在"。
+    # 与其让每轮都踩一次，不如两种都收下。
+    argv = [a for a in sys.argv[1:] if a not in ("--repo", "-r")]
+    if len(argv) < 2:
         print(__doc__)
         sys.exit(1)
-    cmd, root = sys.argv[1], sys.argv[2]
+    cmd, root = argv[0], argv[1]
+    sys.argv = [sys.argv[0]] + argv
 
     if cmd == "build":
         files = sys.argv[3:]

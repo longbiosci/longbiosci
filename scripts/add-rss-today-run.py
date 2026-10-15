@@ -5,7 +5,13 @@ add-rss-today-run.py —— RSS 订阅源更新器（逆向重写版 v1.0）
 
 复刻来源：线上 rss.xml（2026-10-14 基线，53 个 item）+ data/articles.json。
 规则（自基线逆向得出）：
-  - 数据源：data/articles.json，取 date == 运行日期（UTC）且尚未进 RSS 的文章
+  - 数据源：data/articles.json，取 date == 运行日期（**本地 UTC+8**，与文章
+    date 字段同口径）且尚未进 RSS 的文章。
+    ⚠️ 这里曾经按 UTC 取「今天」：站点文章的 date 是本地日期，而管线
+    在北京时间 08:00–24:00 之间跑时 UTC 仍是前一天 → 当天新写的文章
+    永远判不进「今日」，只能靠手工 `--date` 补跑；更糟的是下一轮 UTC
+    翻页后又把前一天的文章当新的加进来，53 条上限从队尾挤掉 5 条，
+    feed 窗口每跑一次滑一格（2026-10-16 收尾自检 [B] 项因此报 FAIL）。
   - 新文章按 articles.json 顺序逐個 insert(0)（队首插入），因此当日批次在
     feed 顶部呈 JSON 逆序。实证：10-14 批次 JSON 序为
     COSMOS → King-Penguin → Menopause，线上 RSS 序为
@@ -32,7 +38,7 @@ add-rss-today-run.py —— RSS 订阅源更新器（逆向重写版 v1.0）
     块内的次序，不影响内容与正确性
 用法：add-rss-today-run.py [root] [--date YYYY-MM-DD] [--now "YYYY-MM-DD HH:MM:SS"]
   root   仓库根目录（默认当前目录）
-  --date 指定「今日」日期（默认 UTC 今天），用于补跑/验收
+  --date 指定「今日」日期（默认本地 UTC+8 今天），用于补跑/验收
   --now  指定 lastBuildDate 时刻（默认当前 UTC 时间），用于确定性复现
 """
 import html
@@ -40,7 +46,11 @@ import json
 import os
 import re
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
+
+# 站点文章的 date 字段写的是本地日期（UTC+8）。「今天」必须与之同口径，
+# 否则每天大半时间里的产出都进不了 feed（详见文件头说明）。
+LOCAL_TZ = timezone(timedelta(hours=8))
 
 MAX_ITEMS = 53  # feed 容量上限（自基线实测）
 SITE = "https://longbiosci.com"
@@ -111,7 +121,9 @@ def split_rss(raw):
 def main():
     args = sys.argv[1:]
     root = "."
-    run_date = datetime.now(timezone.utc).date()
+    # 「今日」按本地（UTC+8）判定 —— 与 articles.json 的 date 字段同口径。
+    # lastBuildDate 仍用 UTC（RFC822 惯例，后缀 GMT），两者不要混。
+    run_date = datetime.now(LOCAL_TZ).date()
     now = datetime.now(timezone.utc).replace(microsecond=0)
     i = 0
     while i < len(args):
@@ -148,11 +160,17 @@ def main():
         items.insert(0, item_xml(rec))
 
     if new_recs:
+        evicted = items[MAX_ITEMS:]          # 上限之外的被静默丢弃，必须点名
         items = items[:MAX_ITEMS]
         head = LASTBUILD_RE.sub(
             lambda m: m.group(1) + rfc822(now, "GMT") + m.group(2), head)
         names = "、".join(r["slug"][:40] for r in new_recs)
         print(f"  rss.xml: 新增 {len(new_recs)} 篇（{names}），共 {len(items)} 篇")
+        if evicted:
+            print(f"  ⚠️ feed 已达上限 {MAX_ITEMS}，挤出 {len(evicted)} 条：")
+            for it in evicted:
+                m = re.search(r"<title>(.*?)</title>", it)
+                print(f"     - {(m.group(1) if m else it[:60])[:70]}")
     else:
         print(f"  rss.xml: {date_str} 无新文章，未变动")
 

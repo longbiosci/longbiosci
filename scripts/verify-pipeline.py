@@ -43,9 +43,26 @@ URL_RE = re.compile(
     r"<priority>([^<]*)</priority>")
 
 
-def sha(path):
+# 「易变时间戳白名单」：这些字段写的是「本次运行时刻」，不是内容。
+# 逐字节比对时若不归一化，[B] 每轮必 FAIL 一次，而人工甄别两轮之后
+# 都证明是虚警——真出问题时，虚警会把它淹掉。故在此显式剔除，
+# 并在命中时打印说明，保留可追溯性。
+VOLATILE = {
+    "rss.xml": [(re.compile(rb"<lastBuildDate>[^<]*</lastBuildDate>"),
+                 b"<lastBuildDate>@VOLATILE@")],
+}
+_volatile_hit = set()
+
+
+def sha(path, rel=""):
     with open(path, "rb") as f:
-        return hashlib.sha256(f.read()).hexdigest()
+        data = f.read()
+    for pat, rep in VOLATILE.get(rel, ()):
+        new = pat.sub(rep, data)
+        if new != data:
+            _volatile_hit.add(rel)
+        data = new
+    return hashlib.sha256(data).hexdigest()
 
 
 def snapshot(root):
@@ -54,7 +71,8 @@ def snapshot(root):
         dirnames[:] = [d for d in dirnames if d not in SKIP_DIRS]
         for fn in filenames:
             full = os.path.join(dirpath, fn)
-            out[os.path.relpath(full, root)] = sha(full)
+            rel = os.path.relpath(full, root)
+            out[rel] = sha(full, rel)
     return out
 
 
@@ -132,6 +150,9 @@ def main():
         if changed:
             ok = False
         print(f"[B] 产物逐字节一致: {'PASS' if not changed else 'FAIL ' + str(sorted(changed)[:8])}")
+        if _volatile_hit:
+            print(f"    （已归一化易变时间戳字段：{sorted(_volatile_hit)}——"
+                  f"这些字段写的是运行时刻，不是内容）")
 
         # ---- C) sitemap 等价 ----
         # 整跑会把被重写的页面（topics/ news-N 等）mtime 推进到运行当天，

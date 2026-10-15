@@ -60,6 +60,7 @@ BASE = "https://longbiosci.com"
 PAGES = [
     ("zh/index.html",         "weekly",  "0.8"),
     ("trials.html",           "daily",   "0.8"),
+    ("trials-full.html",      "daily",   "0.6"),
     ("telomere.html",         "monthly", "0.7"),
     ("stemcell.html",         "monthly", "0.7"),
     ("spermidine.html",       "monthly", "0.6"),
