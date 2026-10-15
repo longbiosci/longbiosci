@@ -1,0 +1,72 @@
+{
+ "version": 1,
+ "updated_at": "2026-10-15T14:09:36+08:00",
+ "entries": {
+  "dkwSBCCuiNrB": {
+   "name": "文献层_五刊监控_深度文献卡片_2026-10-02",
+   "layer": "文献层",
+   "size": 215865,
+   "mtime": "1790905079000",
+   "status": "done",
+   "done_at": "2026-10-15T14:09:35+08:00",
+   "slugs": [],
+   "note": "已消化：文献44条→站内21篇(第12次运行)"
+  },
+  "dmhWJyyMYhzk": {
+   "name": "文献层_五刊监控_深度文献卡片_2026-09-25",
+   "layer": "文献层",
+   "size": 118088,
+   "mtime": "1790299536000",
+   "status": "done",
+   "done_at": "2026-10-15T14:09:35+08:00",
+   "slugs": [
+    "Selenium-Axis-Liver-Cartilage-Osteoarthritis-Metabolic-2026.html",
+    "Microbiota-Phenylacetylation-Kpaa-Mitochondrial-SIRT3-2026.html",
+    "Gut-Microbiome-Exposome-Brain-Aging-Framework-2026.html"
+   ],
+   "note": "已消化：51条中48条已收录，3条真漏收已补写上线"
+  },
+  "dtiCDKUMUdrG": {
+   "name": "行业情报周报_2026-10-14",
+   "layer": "行业层",
+   "size": 23365,
+   "mtime": "1791942978000",
+   "status": "done",
+   "done_at": "2026-10-15T14:09:35+08:00",
+   "slugs": [],
+   "note": "已消化：行业29条"
+  },
+  "dXzxgtkeYPXT": {
+   "name": "月度研究热点综述_2026-10",
+   "layer": "元层",
+   "size": 20322,
+   "mtime": "1792028699000",
+   "status": "done",
+   "done_at": "2026-10-15T14:09:35+08:00",
+   "slugs": [
+    "Vegan-Diet-PhenoAge-Inflammatory-Pathways-RCT-2026.html"
+   ],
+   "note": "已消化：TOP榜1篇真漏收已补写"
+  },
+  "dNTCoBPwiOnt": {
+   "name": "文献层_五刊监控_深度文献卡片_2026-10-09",
+   "layer": "文献层",
+   "size": 0,
+   "mtime": "1791508691000",
+   "status": "empty",
+   "done_at": "2026-10-15T14:09:36+08:00",
+   "slugs": [],
+   "note": "10-09期产出为空，需重跑任务7762989"
+  },
+  "dsMQHIJKCTLS": {
+   "name": "临床×文献交叉周报_2026-10-12",
+   "layer": "元层",
+   "size": 0,
+   "mtime": "1791767865000",
+   "status": "empty",
+   "done_at": "2026-10-15T14:09:36+08:00",
+   "slugs": [],
+   "note": "10-12期交叉周报产出为空，需重跑任务7660605"
+  }
+ }
+}

@@ -159,6 +159,53 @@ ROW = re.compile(r"^\s*\|\s*([A-Za-z]{0,4}\d{1,3})\s*\|", re.M)
 TITLE_HINTS = ("标题", "题目", "公司", "项目·靶点", "监管机构", "事项", "靶点", "名称")
 
 
+def parse_section_items(text):
+    """解析「### 标题 + 字段表」结构的产出（预印本速递、总索引等）
+
+    这类产出**不是编号表格**，而是：
+        ### 1. Soluble pathogenic tau transmission to astrocytes ...
+        | 字段 | 内容 |
+        |---|---|
+        | 作者 | Galvan, V.; ... |
+        | DOI | 10.64898/2026.09.08.750215 |
+        | 一句话贡献 | ... |
+
+    实测 2026-10-15：文献层「预印本速递」系列 11 期全部是这个结构，
+    而 parse_md_tables 只认`| N1 |` 编号表格 —— 所以这批产出**从未被查重覆盖过**。
+    这个解析器就是补这个洞。返回 [{title, doi, code, raw}]
+    """
+    items, cur = [], None
+    heads = list(re.finditer(r"^###\s+(\d+[.)、]?|[A-Za-z]{0,4}\d{1,3}[.)、]?)?\s*(.+)$",
+                             text, re.M))
+    for i, m in enumerate(heads):
+        num = (m.group(1) or "").strip(".)、")
+        title = re.sub(r"\*\*|\*|`", "", m.group(2)).strip()
+        if len(title) < 12:                       # 过滤「本期新增」「arXiv 空跑说明」这类小节
+            continue
+        end = heads[i + 1].start() if i + 1 < len(heads) else len(text)
+        block = text[m.end():end]
+        fields = dict(re.findall(r"^\|\s*([^|]{2,12}?)\s*\|\s*([^|]*?)\s*\|$",
+                                 block, re.M))
+        doi = normalize_doi(fields.get("DOI") or fields.get("doi") or "")
+        items.append({
+            "title": title[:300], "doi": doi,
+            "code": num if re.match(r"^[A-Za-z]{0,4}\d{1,3}$", num) else "",
+            "raw": " ".join(f"{k}={v}" for k, v in fields.items())[:600],
+        })
+    return items
+
+
+def load_candidates_section(paths):
+    """load_candidates 的补充版：也吃「### 标题+字段表」结构"""
+    items = load_candidates(paths)
+    for p in paths:
+        if not p.endswith(".md") or not os.path.exists(p):
+            continue
+        text = open(p, encoding="utf-8", errors="ignore").read()
+        items += parse_section_items(text)
+    return items
+
+
 def parse_md_tables(text):
     """解析 markdown 表格，返回 [{header, rows:[[cell,...]]}]
     按表头识别「标题」列，避免误把卷期/序号当标题"""
@@ -335,7 +382,7 @@ def main():
     slugs, titles, dois = load_slugs_and_dois(a.root)
     print(f"站内：{len(slugs)} 篇文章 / {len(dois)} 个DOI / {len(titles)} 个标题可比对")
 
-    items = load_candidates(a.files)
+    items = load_candidates_section(a.files)
     print(f"候选条目：{len(items)} 条（来自 {len(a.files)} 个产出文件）")
 
     for it in items:
