@@ -70,9 +70,60 @@ FALLBACK_TERMS = [
 ]
 
 
+# 只允许 Crossref 认可的 DOI 字符集。原来的 [^…]+ 会把
+# 「10.1016/j.ymthe.2026.05.025）·研究：MIT」整段吞进DOI，
+# 使得 DOI 精确匹配对站内自己都失效。
+DOI_RE = re.compile(r"10\.\d{4,9}/[-._;()/:a-z0-9<>\[\]+]+", re.I)
+# Markdown 链接形式：10.1038/xxx](https://doi.org/10.1038/xxx)
+# 链接语法字符混在 DOI 里，不先剥掉就会把后半段 URL 一起吞进来
+MD_LINK_RE = re.compile(r"\]\s*\(\s*[^)]*\)")
+
+
+def normalize_doi(d):
+    s = MD_LINK_RE.sub(" ", d or "").strip()
+    m = DOI_RE.match(s)
+    return m.group(0).rstrip(".,;:</a>").lower() if m else ""
+
+
+# 站内 slug 是英文 kebab-case，产出标题是英文原标题 —— 两者词元可比。
+# 这是绕开「站内标题是中文译名」盲区的通用手段：不需要 DOI、不需要中文对照表。
+_STOP = {"the", "and", "for", "with", "from", "that", "this", "into", "of", "in",
+         "a", "an", "to", "its", "via", "by", "on", "as", "at", "is", "are", "we",
+         # 文件名/期刊/通用噪声：出现在几乎每个 slug 里，不具区分度
+         "html", "index", "news", "aging", "longevity", "health", "study",
+         "research", "review", "cell", "cells", "human", "ageing"}
+
+
+def slug_tokens(s):
+    toks = re.findall(r"[a-z0-9]+", (s or "").lower())
+    return {t for t in toks if len(t) >= 4 and t not in _STOP and not t.isdigit()}
+
+
+def token_overlap(a_tokens, b_tokens):
+    """重叠率 = 交集 / 较小集合。取较小集合做分母，避免长标题被短slug 稀释"""
+    if not a_tokens or not b_tokens:
+        return 0.0, []
+    inter = a_tokens & b_tokens
+    return len(inter) / min(len(a_tokens), len(b_tokens)), sorted(inter)
+
+
 def load_slugs_and_dois(root):
-    """扫 news/*.html：收集所有站内 slug 与正文中的 DOI"""
+    """收集站内 slug / 标题 / DOI
+
+    DOI 优先读 data/doi-index.json（由backfill-doi.py 生成的权威索引），
+    读不到再回退到扫 news/*.html 全文。
+    为什么要索引：实测 2026-10-15 有 141 篇文章正文不含 DOI，
+    只扫正文会让这些条目永远判成「漏收」。
+    """
     slugs, titles, dois = set(), {}, set()
+
+    doi_index = os.path.join(root, "data/doi-index.json")
+    if os.path.exists(doi_index):
+        try:
+            idx = json.load(open(doi_index, encoding="utf-8"))
+            dois.update(normalize_doi(d) for d in idx)
+        except Exception:
+            pass
     for p in sorted(glob.glob(os.path.join(root, "news", "*.html"))):
         slug = os.path.basename(p)
         if slug in ("index.html",) or slug.startswith("news-"):
@@ -82,8 +133,9 @@ def load_slugs_and_dois(root):
         m = re.search(r"<title>(.*?)</title>", h, re.S)
         if m:
             titles[slug] = re.sub(r"\s+", " ", m.group(1)).split(" — ")[0].strip()
-        for d in re.findall(r"10\.\d{4,9}/[^\s\"'<>&]+", h):
-            dois.add(d.rstrip(".,);</a>").lower())
+        for d in DOI_RE.findall(h):
+            dois.add(normalize_doi(d))
+    dois.discard("")
     return slugs, titles, dois
 
 
@@ -146,8 +198,10 @@ def pick_title_col(header):
 
 def extract_doi(cells):
     for c in cells:
-        for d in re.findall(r"10\.\d{4,9}/[^\s\"'<>&|\]]+", c):
-            return d.rstrip(".,);").lower()
+        for d in DOI_RE.findall(c):
+            n = normalize_doi(d)
+            if n:
+                return n
     return ""
 
 
@@ -243,12 +297,27 @@ def judge(item, slugs, titles, dois, mech):
     if best >= 0.34:
         return "已收录", f"标题 3-gram 相似 {best:.2f} → {bs}", "low"
 
+    # 第 4 路：英文原标题 vs 站内英文 slug 的词元重叠。
+    # 为什么必须有这一路：站内 <title> 是中文译名，3-gram 相似度对英文原标题恒为 0.00；
+    # 但站内 slug 是英文 kebab-case，与英文原标题天然可比，且不需要维护中文对照表。
+    tt = slug_tokens(item["title"])
+    if len(tt) >= 2:
+        tob, ts = 0.0, ("", "")
+        for slug in slugs:
+            r, inter = token_overlap(tt, slug_tokens(slug))
+            if r > tob:
+                tob, ts = r, (slug, inter)
+        # 阈值 0.6：slug 通常只保留 3~5 个关键词，标题有 10+ 词，
+        # 取「较小集合做分母」后高特异性词的命中才算有效；0.6 可有效避免同领域泛词误判
+        if len(ts[1]) >= 3 and tob >= 0.5:
+            return "已收录", f"slug 词元重叠 {tob:.2f}（{len(ts[1])} 词：{ts[1][:4]}）→ {ts[0]}", "medium"
+
     if not doi and not code:
         return "需人工核对", \
                f"无 DOI、无条目编号，标题相似度不可用（站内为中文译名 vs 英文原标题）→ {bs or 'N/A'}", "none"
     return "漏收", \
-           (f"三路均未命中（标题最高相似 {best:.2f} → {bs or 'N/A'}；"
-            f"DOI={doi or '无'} code={code or '无'}）"), "none"
+           (f"四路均未命中（标题相似 {best:.2f} → {bs or 'N/A'}；"
+            f"slug 词元重叠 {tob:.2f}；DOI={doi or '无'} code={code or '无'}）"), "none"
 
 
 def main():

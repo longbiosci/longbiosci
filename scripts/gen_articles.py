@@ -1228,12 +1228,17 @@ def main():
         out = os.path.join(ROOT, "news", slug)
         with open(out, "w", encoding="utf-8", newline="") as f:
             f.write(build(slug, m, rel))
-        arts.append({
+        entry = {
             "slug": slug, "title": m["title"], "desc": m["desc"],
             "tag": m["tag"], "date": DATE, "topic": m["topic"],
             "type": m["tag"], "evidence": m["ev"],
             "source": "doi.org" if "doi.org" in m["source"] else "IMA 交叉追踪",
-        })
+        }
+        # 新条目若source 里带 DOI，一并写入（供 backfill/harvest 查重使用）
+        md = re.search(r"10\.\d{4,9}/[-._;()/:a-z0-9]+", m["source"], re.I)
+        if md:
+            entry["doi"] = md.group(0).rstrip(".,;:</a>")
+        arts.append(entry)
         made.append(slug)
 
     arts.sort(key=lambda a: (a.get("date", ""), a.get("slug", "")), reverse=True)

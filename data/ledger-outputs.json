@@ -1,0 +1,1732 @@
+{
+ "entries": [
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01190-3",
+   "title": "Contractile myografts confer systemic anti-aging benefits",
+   "doi": "10.1038/s43587-026-01190-3",
+   "code": "N1",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01219-7",
+   "title": "RamanOmics decodes the spatial vibrational-molecular architecture of senescence in aging and repair",
+   "doi": "10.1038/s43587-026-01219-7",
+   "code": "N2",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01168-1",
+   "title": "Disruption of CDK4/6-RARα-NF-κB axis attenuates senescence-associated inflammation and improves function during aging and following chemotherapy",
+   "doi": "10.1038/s43587-026-01168-1",
+   "code": "N3",
+   "seen_in": [
+    "cards_2026-09-25.md",
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01209-9",
+   "title": "Cytotoxic CD4⁺ T cells induce age-associated myelopoiesis through CCL5-CCR5 signaling",
+   "doi": "10.1038/s43587-026-01209-9",
+   "code": "N4",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01177-0",
+   "title": "Physical activity delays ovarian aging in part through adiponectin-related signaling pathways",
+   "doi": "10.1038/s43587-026-01177-0",
+   "code": "N5",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01204-0",
+   "title": "Fibronectin mediates APOE4-driven blood-brain barrier dysfunction in Alzheimer's disease",
+   "doi": "10.1038/s43587-026-01204-0",
+   "code": "N6",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01188-x",
+   "title": "Multimorbidity patterns influence mobility disability prevention in frail older adults from the SPRINTT trial",
+   "doi": "10.1038/s43587-026-01188-x",
+   "code": "N7",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01207-x",
+   "title": "A microprotein atlas of the human frontal cortex in Alzheimer's disease",
+   "doi": "10.1038/s43587-026-01207-x",
+   "code": "N8",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01210-2",
+   "title": "Reframing the epidemiological transition as increasing returns to tackling aging-related diseases",
+   "doi": "10.1038/s43587-026-01210-2",
+   "code": "N9",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01192-1",
+   "title": "Noncircadian BMAL1-YAP activity amplifies persistent inflammation in aged epidermis",
+   "doi": "10.1038/s43587-026-01192-1",
+   "code": "N10",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01230-y",
+   "title": "The chemical fingerprint of cellular senescence",
+   "doi": "10.1038/s43587-026-01230-y",
+   "code": "N11",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01175-2）",
+   "title": "Maladaptive trained immunity as a hematopoietic stem cell driver of inflammaging（News & Views）",
+   "doi": "10.1038/s43587-026-01175-2）",
+   "code": "N12",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01189-w",
+   "title": "Turning CDK4/6 inhibitors against the dark side of senescence（News & Views，评述 N3）",
+   "doi": "10.1038/s43587-026-01189-w",
+   "code": "N13",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.cmet.2026.05.002",
+   "title": "Pro-aging effects of chronic glucocorticoid signaling（Review）",
+   "doi": "10.1016/j.cmet.2026.05.002",
+   "code": "M1",
+   "seen_in": [
+    "cards_2026-09-25.md",
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.cmet.2026.08.023",
+   "title": "肝功能不全→SELENOP-ApoER2 轴受损→软骨硒缺乏→软骨细胞衰老→OA；无机硒补充可绕过该障碍缓解 OA",
+   "doi": "10.1016/j.cmet.2026.08.023",
+   "code": "M3",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.cmet.2026.05.016",
+   "title": "发现新型赖氨酸修饰 Kpaa（苯乙酰化），源于菌群苯丙氨酸-PAA 通路；HSP60 K481paa 触发线粒体 UPR，SIRT3 可逆转",
+   "doi": "10.1016/j.cmet.2026.05.016",
+   "code": "M4",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.cmet.2026.08.002",
+   "title": "肠道菌群是环境神经毒物暴露的首道代谢与屏障界面，决定宿主毒物反应与解毒能力——把\"暴露组\"接进脑老化框架",
+   "doi": "10.1016/j.cmet.2026.08.002",
+   "code": "M5",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70658",
+   "title": "A Mechanism-Based Framework for Anti-Aging Strategies（Review）",
+   "doi": "10.1111/acel.70658",
+   "code": "A1",
+   "seen_in": [
+    "cards_2026-09-25.md",
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70716",
+   "title": "Synaptic Mitochondrial Oxidative Stress Contributes to Individual Variability in Age-Related Cognitive Inflexibility in Mice",
+   "doi": "10.1111/acel.70716",
+   "code": "A2",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70677",
+   "title": "LivAge: An Online Aging Clock for Murine Transcriptomic Age Estimation",
+   "doi": "10.1111/acel.70677",
+   "code": "A3",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70678",
+   "title": "Aged Mitochondrial DNA Is Associated With Aberrant Acute Exercise-Induced Redox Responses in Human Skeletal Muscle",
+   "doi": "10.1111/acel.70678",
+   "code": "A4",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70711",
+   "title": "Transmembrane Protein PTCHD4 Is a Novel Regulator of Cellular Senescence and Age-Related Pathologies",
+   "doi": "10.1111/acel.70711",
+   "code": "A5",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70710",
+   "title": "Mitochondrial Haplotype Shapes the Trajectory of Ovarian Aging in Genetically Heterogeneous Rats",
+   "doi": "10.1111/acel.70710",
+   "code": "A6",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70702",
+   "title": "Akkermansia muciniphila and Its Bioactive Derivatives: Emerging Regulators of Healthy Aging（Review）",
+   "doi": "10.1111/acel.70702",
+   "code": "A7",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70664",
+   "title": "Oxygenaging: A Physiological Framework for Geroscience（Review）",
+   "doi": "10.1111/acel.70664",
+   "code": "A8",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70683",
+   "title": "Network Model to Predict Age-Related Transcriptional Reprogramming",
+   "doi": "10.1111/acel.70683",
+   "code": "A9",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70696",
+   "title": "Tissue-Level Transcriptomic Entropy Reveals Organ-Specific Aging Patterns and Predicts Cancer Progression",
+   "doi": "10.1111/acel.70696",
+   "code": "A10",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70701",
+   "title": "hUC-MSC Secretome Improves Skin Photoaging by Enhancing Mitophagy to Inhibit the cGAS-STING Pathway",
+   "doi": "10.1111/acel.70701",
+   "code": "A11",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70698",
+   "title": "Insights Into the Interplay Between Senescent Cells and Immune Cells",
+   "doi": "10.1111/acel.70698",
+   "code": "A12",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70675",
+   "title": "The Thymic Microenvironment Shapes Age-Related Qualitative Changes in the TCR Repertoire",
+   "doi": "10.1111/acel.70675",
+   "code": "A13",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70704",
+   "title": "Sustained Activation of CaMKII Promotes Skeletal Muscle Contractile Dysfunction in Aging",
+   "doi": "10.1111/acel.70704",
+   "code": "A14",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70674",
+   "title": "Molecular Mechanisms of Age-Related Taste Dysfunction Deciphered by Spatiotemporal Transcriptomics",
+   "doi": "10.1111/acel.70674",
+   "code": "A15",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02489-0",
+   "title": "High-intensity interval training in aged female mice preserves physical, cognitive, and cardiovascular function",
+   "doi": "10.1007/s11357-026-02489-0",
+   "code": "G1",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02546-8",
+   "title": "Ketone ester supplementation in aged mice produces sex-specific cognitive and metabolic effects",
+   "doi": "10.1007/s11357-026-02546-8",
+   "code": "G2",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02500-8",
+   "title": "Frailty assessment in naturally aged mouse models（Review）",
+   "doi": "10.1007/s11357-026-02500-8",
+   "code": "G3",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02523-1",
+   "title": "Apolipoprotein-rich electronegative HDL accelerates vascular aging and atherosclerosis by inducing endothelial senescence",
+   "doi": "10.1007/s11357-026-02523-1",
+   "code": "G4",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02532-0",
+   "title": "The TyrRS cascade: circadian gating of neuronal DNA repair and its collapse in aging（Review）",
+   "doi": "10.1007/s11357-026-02532-0",
+   "code": "G5",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02424-3",
+   "title": "Endothelial IGF-1/IGF-1R signaling supports young-blood-induced restoration of BBB integrity in aged mice",
+   "doi": "10.1007/s11357-026-02424-3",
+   "code": "G6",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02501-7",
+   "title": "Parental longevity and polygenic longevity scores in relation to ageing-related factors（H70 队列）",
+   "doi": "10.1007/s11357-026-02501-7",
+   "code": "G7",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02505-3",
+   "title": "Longitudinal associations of one-carbon metabolism biomarkers with biological and epigenetic aging in older adults in India",
+   "doi": "10.1007/s11357-026-02505-3",
+   "code": "G8",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02437-y",
+   "title": "The impact of cumulative obesity and genetic susceptibility on biological aging in Chinese older adults",
+   "doi": "10.1007/s11357-026-02437-y",
+   "code": "G9",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02543-x",
+   "title": "Accelerated aging as a key mechanism linking diet quality to cardiovascular disease（UK Biobank）",
+   "doi": "10.1007/s11357-026-02543-x",
+   "code": "G10",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02557-5",
+   "title": "A two-step model of age-associated autoreactivity: B cell-intrinsic aging meets inflammaging（Review）",
+   "doi": "10.1007/s11357-026-02557-5",
+   "code": "G11",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02464-9",
+   "title": "Hyaluronan deficiency disrupts endothelial glycocalyx integrity and contributes to age-related arterial dysfunction",
+   "doi": "10.1007/s11357-026-02464-9",
+   "code": "G12",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02506-2",
+   "title": "LAPTM5 correlates with RPE senescence and subretinal fibrosis through LAPTM5-WWP2-OPTN mitophagy cascade and cGAS/STING",
+   "doi": "10.1007/s11357-026-02506-2",
+   "code": "G13",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02498-z",
+   "title": "The Arlington study of healthy aging（ASHA）cohort profile",
+   "doi": "10.1007/s11357-026-02498-z",
+   "code": "G14",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.cell.2026.07.045",
+   "title": "Multimodal brain cell atlas across the adult macaque lifespan",
+   "doi": "10.1016/j.cell.2026.07.045",
+   "code": "C1",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.cell.2026.06.013",
+   "title": "Recurrent patterns of TOP1-mediated neuronal genomic damage shared by major neurodegenerative disorders",
+   "doi": "10.1016/j.cell.2026.06.013",
+   "code": "C2",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.cell.2026.08.026",
+   "title": "An open benchmark and language models for AI in aging biology",
+   "doi": "10.1016/j.cell.2026.08.026",
+   "code": "C3",
+   "seen_in": [
+    "cards_2026-09-25.md",
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.cell.2026.07.015",
+   "title": "Neurodegeneration as a dysregulation of neuroimmune crosstalk（Review）",
+   "doi": "10.1016/j.cell.2026.07.015",
+   "code": "C4",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01225-9",
+   "title": "Exercise enhances aged chondrocyte health through microRNA-29-enriched extracellular vesicles",
+   "doi": "10.1038/s43587-026-01225-9",
+   "code": "N1",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01227-7",
+   "title": "Mitochondrial membrane lipid cardiolipin controls fiber-type adaptations in aging muscle via estrogen-related receptor γ",
+   "doi": "10.1038/s43587-026-01227-7",
+   "code": "N2",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01220-0",
+   "title": "Multi-modality profiling identifies Neisseria flavescens as a central geroprotective oral commensal in humans",
+   "doi": "10.1038/s43587-026-01220-0",
+   "code": "N3",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01221-z",
+   "title": "A cross-species single-cell kidney epigenome atlas reveals epithelial-dominant aging-like states in disease",
+   "doi": "10.1038/s43587-026-01221-z",
+   "code": "N4",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01224-w",
+   "title": "GLP-1 receptor agonism extends median lifespan in mice（研究亮点）",
+   "doi": "10.1038/s43587-026-01224-w",
+   "code": "N5",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01200-4",
+   "title": "Mapping structural aging across human tissues reveals tissue-specific trajectories and coordinated deterioration",
+   "doi": "10.1038/s43587-026-01200-4",
+   "code": "N6",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01195-y",
+   "title": "Mitochondrial DNA leakage in oocytes activates cGAS-STING signaling to drive ovarian aging",
+   "doi": "10.1038/s43587-026-01195-y",
+   "code": "N7",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01206-y",
+   "title": "cGAS-deficient mice display premature aging associated with derepression of LINE1 elements and inflammation",
+   "doi": "10.1038/s43587-026-01206-y",
+   "code": "N8",
+   "seen_in": [
+    "cards_2026-10-02.md",
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01181-4",
+   "title": "A geroprotective probiotic and its functional metabolite counteract inflammaging to extend healthspan",
+   "doi": "10.1038/s43587-026-01181-4",
+   "code": "N9",
+   "seen_in": [
+    "cards_2026-10-02.md",
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01180-5",
+   "title": "Sex-specific aging clocks from a large-scale human phenome reveal distinct aging transitions and circulating signatures",
+   "doi": "10.1038/s43587-026-01180-5",
+   "code": "N10",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01196-x",
+   "title": "Inhibiting cyclin D1-CDK6 suppresses senescence-associated inflammatory gene expression and age-related functional decline",
+   "doi": "10.1038/s43587-026-01196-x",
+   "code": "N11",
+   "seen_in": [
+    "cards_2026-10-02.md",
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01148-5",
+   "title": "Senotypes define the diverse landscape of senescent cells（Perspective/Review）",
+   "doi": "10.1038/s43587-026-01148-5",
+   "code": "N12",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01222-y",
+   "title": "A consensus roadmap from the SENESCENCE2030 network towards precision senescence medicine",
+   "doi": "10.1038/s43587-026-01222-y",
+   "code": "N13",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.cmet.2026.08.014",
+   "title": "Blocking PD-L2 prevents senescent cell accumulation and age-related dysfunction",
+   "doi": "10.1016/j.cmet.2026.08.014",
+   "code": "M1",
+   "seen_in": [
+    "cards_2026-10-02.md",
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.cmet.2026.08.009",
+   "title": "Aging microenvironment induces CD8⁺ T cell exhaustion by suppressing hepatic β-hydroxybutyrylate synthesis",
+   "doi": "10.1016/j.cmet.2026.08.009",
+   "code": "M2",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.cmet.2026.06.015",
+   "title": "Aging vs. biological age: Conceptual considerations for age reversal claims",
+   "doi": "10.1016/j.cmet.2026.06.015",
+   "code": "M3",
+   "seen_in": [
+    "cards_2026-10-02.md",
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.cmet.2026.08.005",
+   "title": "Protein restriction and the hallmarks of aging: A coordinated physiological adaptive response?",
+   "doi": "10.1016/j.cmet.2026.08.005",
+   "code": "M4",
+   "seen_in": [
+    "cards_2026-10-02.md",
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.cmet.2026.09.003",
+   "title": "Microbial aldehyde-alcohol dehydrogenase degrades metformin to limit therapeutic response in type 2 diabetes",
+   "doi": "10.1016/j.cmet.2026.09.003",
+   "code": "M5",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70721",
+   "title": "Direct Pharmacological Activation of AMPK Extends Lifespan in Yeast, Worms and Flies",
+   "doi": "10.1111/acel.70721",
+   "code": "A1",
+   "seen_in": [
+    "cards_2026-10-02.md",
+    "meta_2026-10.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70742",
+   "title": "uPAR-Targeting T Cell Engager Exerts Senolytic Effects in Mice and Non-Human Primates…",
+   "doi": "10.1111/acel.70742",
+   "code": "A2",
+   "seen_in": [
+    "cards_2026-10-02.md",
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70737",
+   "title": "A Deep-Learning Based Biomarker of Systemic Cellular Senescence Burden to Predict Mortality and Health Outcomes",
+   "doi": "10.1111/acel.70737",
+   "code": "A3",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70734",
+   "title": "Autophagy Flux Is Remodeled Sex- and Cell Type-Specifically During Human Aging…",
+   "doi": "10.1111/acel.70734",
+   "code": "A4",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70743",
+   "title": "Organ-Specific Proteomic Aging Clocks Reveal Complexities Underlying the Healthy Drinking Paradox",
+   "doi": "10.1111/acel.70743",
+   "code": "A5",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70656",
+   "title": "Deep Learning Predicts Hematopoietic Stem Cell Aging From 3D Chromatin Images",
+   "doi": "10.1111/acel.70656",
+   "code": "A6",
+   "seen_in": [
+    "cards_2026-10-02.md",
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70720",
+   "title": "Mitochondrial Transplantation Rejuvenates Aging Heart by Restoring Mitophagy Flux via the HIF-3α-BNIP3 Axis",
+   "doi": "10.1111/acel.70720",
+   "code": "A7",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70730",
+   "title": "Therapeutic Immune Reprogramming by Rapamycin Attenuates Plaque Inflammation…",
+   "doi": "10.1111/acel.70730",
+   "code": "A8",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70735",
+   "title": "Single-Cell Mapping Identifies Aging-Associated Neutrophil Remodeling Across Multiple Organs",
+   "doi": "10.1111/acel.70735",
+   "code": "A9",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70733",
+   "title": "From Regenerative to Degenerative Niche: Multicellular Crosstalk and Population Dynamics in Skeletal Muscle Aging",
+   "doi": "10.1111/acel.70733",
+   "code": "A10",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70741",
+   "title": "Hepatocyte Growth Hormone Receptor Ablation Is Associated With Aging Phenotypes and Hepatic Mitochondrial Dysfunction",
+   "doi": "10.1111/acel.70741",
+   "code": "A11",
+   "seen_in": [
+    "cards_2026-10-02.md",
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70697",
+   "title": "GHA 转基因鼠首次证明 GH 拮抗延长寿命：雌雄中位与最大寿命均显著延长（最大寿命分别 +186 天 / +265 天），2 岁鼠更不易衰弱、握力更强（尽管肥胖增加）",
+   "doi": "10.1111/acel.70697",
+   "code": "A13",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70689",
+   "title": "SIRT1 富集于 L1 5'-UTR，招募 Lamin B1/KAP1 提升 H3K9me3 沉默 L1；SIRT1 缺失→L1 转录↑→cGAS-STING→细胞衰老，可被 3TC（NRTI） 挽救",
+   "doi": "10.1111/acel.70689",
+   "code": "A14",
+   "seen_in": [
+    "cards_2026-10-02.md",
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70700",
+   "title": "AAV9 递送腺嘌呤碱基编辑器体内修正 LMNA c.1824C>T：体外近 40% 校正，体内 P3/P14/1 月/4 月给药 6 月龄骨组织校正率约 14%/22%/10%/<1%，P14 组骨结构与转录程序部分挽救",
+   "doi": "10.1111/acel.70700",
+   "code": "A15",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70693",
+   "title": "放化疗后清除 p16⁺ 细胞的时机决定疗效：照射后 1 月清除无效，4 月清除显著减轻衰弱、改善神经肌肉/认知、恢复血脑屏障与肝代谢、提高中位生存（雌鼠获益最大）",
+   "doi": "10.1111/acel.70693",
+   "code": "A16",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70718",
+   "title": "Review：论证mtDNA 异质性克隆嵌合构成可量化的组织特异分子时钟，梳理中性漂变 vs 细胞选择之争、双相累积特征及与炎症老化/细胞衰老的下游连接",
+   "doi": "10.1111/acel.70718",
+   "code": "A17",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70706",
+   "title": "UC 中 NAD⁺ 代谢失调→线粒体功能障碍→mtDNA 泄漏→cGAS-STING→CD8⁺ T 细胞衰老；该\"衰老-代谢\"特征预示重症与生物制剂无应答，senolytic 显著减轻病情",
+   "doi": "10.1111/acel.70706",
+   "code": "A18",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02362-0",
+   "title": "Study protocol for FAXAge: a randomized, controlled clinical trial of fasting and exercise to slow aging in humans",
+   "doi": "10.1007/s11357-026-02362-0",
+   "code": "G1",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02554-8",
+   "title": "Autologous cytokine-induced NK cells as candidate cellular senolytics: evidence, obstacles…",
+   "doi": "10.1007/s11357-026-02554-8",
+   "code": "G2",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-025-01959-1",
+   "title": "Nicotinamide riboside supplementation restores microglial health and improves cognition in aged male mice",
+   "doi": "10.1007/s11357-025-01959-1",
+   "code": "G3",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-025-02029-2",
+   "title": "Multi-omic analysis of canine aging uncovers conserved aging pathways",
+   "doi": "10.1007/s11357-025-02029-2",
+   "code": "G4",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02429-y",
+   "title": "LINE-1 CpG methylation in canine blood and cortical DNA tracks epigenetic changes with age",
+   "doi": "10.1007/s11357-026-02429-y",
+   "code": "G5",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-025-02028-3",
+   "title": "Discrimination of normal from slow-aging mice by plasma metabolomic and proteomic features",
+   "doi": "10.1007/s11357-025-02028-3",
+   "code": "G6",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-025-02043-4",
+   "title": "Western Hunter-Gatherer genetic ancestry contributes to human longevity in the Italian population",
+   "doi": "10.1007/s11357-025-02043-4",
+   "code": "G7",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-025-02019-4",
+   "title": "Ovarian somatic tissue rejuvenates circulating apolipoproteins and promotes cognitive health in postreproductive female mice",
+   "doi": "10.1007/s11357-025-02019-4",
+   "code": "G8",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-025-02017-6",
+   "title": "Longevity-driven hepatic transcriptional programs mediate resilience to diet-induced liver injury in Ames dwarf mice",
+   "doi": "10.1007/s11357-025-02017-6",
+   "code": "G9",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-025-02022-9",
+   "title": "Intervertebral disc degeneration is accelerated by GH overexpression but attenuated by GH antagonism",
+   "doi": "10.1007/s11357-025-02022-9",
+   "code": "G10",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02555-7",
+   "title": "Plasma and cerebrospinal fluid proteomics reveal distinct patterns of senescence and neuropathology in aging rhesus macaques",
+   "doi": "10.1007/s11357-026-02555-7",
+   "code": "G11",
+   "seen_in": [
+    "cards_2026-10-02.md",
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02550-y",
+   "title": "Dietary pattern and epigenetic aging: a longitudinal twin study",
+   "doi": "10.1007/s11357-026-02550-y",
+   "code": "G12",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-025-02035-4",
+   "title": "Effect of fasting-mimicking diet on markers of autophagy and metabolic health in human subjects",
+   "doi": "10.1007/s11357-025-02035-4",
+   "code": "G13",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02425-2",
+   "title": "Circulating factors induced by time-restricted eating drive metabolic reprogramming in endothelial cells",
+   "doi": "10.1007/s11357-026-02425-2",
+   "code": "G14",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02443-0",
+   "title": "Epigenetic aging biomarkers in dietary geroscience: feasibility, participant perceptions, and trial design considerations",
+   "doi": "10.1007/s11357-026-02443-0",
+   "code": "G15",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02515-1",
+   "title": "Therapeutic potential of MitoQ, a mitochondria-targeted antioxidant, in age-related physiological dysfunction",
+   "doi": "10.1007/s11357-026-02515-1",
+   "code": "G16",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02421-6",
+   "title": "Senescent cardiac cells promote thrombus formation and impair fibrinolysis",
+   "doi": "10.1007/s11357-026-02421-6",
+   "code": "G17",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.cell.2026.08.013",
+   "title": "Caloric restriction modulates genome-wide somatic mutation in mice",
+   "doi": "10.1016/j.cell.2026.08.013",
+   "code": "C1",
+   "seen_in": [
+    "cards_2026-10-02.md",
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.cell.2026.06.032",
+   "title": "Skin-innervating glutamatergic neurons modulate aging",
+   "doi": "10.1016/j.cell.2026.06.032",
+   "code": "C2",
+   "seen_in": [
+    "cards_2026-10-02.md",
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.cell.2026.08.010",
+   "title": "Tabula Sapiens 2.0: A comprehensive transcriptomic atlas of human cell types",
+   "doi": "10.1016/j.cell.2026.08.010",
+   "code": "C3",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.cell.2026.06.035",
+   "title": "CSF clearance through arachnoid fenestrations to olfactory meningeal lymphatics",
+   "doi": "10.1016/j.cell.2026.06.035",
+   "code": "C4",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ]
+  },
+  {
+   "fingerprint": "t:0b876ab0a448531a",
+   "title": "Undecimal Bio",
+   "doi": "",
+   "code": "1",
+   "seen_in": [
+    "ind_2026-10-14.md"
+   ]
+  },
+  {
+   "fingerprint": "t:79bcc57a386a5ac7",
+   "title": "皮下微传感器连续多分子监测（葡萄糖首发，长期指向代谢健康）",
+   "doi": "",
+   "code": "3",
+   "seen_in": [
+    "ind_2026-10-14.md"
+   ]
+  },
+  {
+   "fingerprint": "t:87c071b666572b57",
+   "title": "细胞内生产 mRNA（VECTOR 平台：AI 序列设计 + 工程化活细胞生产），面向需高剂量/重复给药的疗法",
+   "doi": "",
+   "code": "4",
+   "seen_in": [
+    "ind_2026-10-14.md"
+   ]
+  },
+  {
+   "fingerprint": "t:b31b0ce79dd0cc04",
+   "title": "合成生物学抗衰原料：重组胶原蛋白、稀有人参皂苷 CK、维生素 K2、胞苷酸",
+   "doi": "",
+   "code": "5",
+   "seen_in": [
+    "ind_2026-10-14.md"
+   ]
+  },
+  {
+   "fingerprint": "t:de1e1c723132f8b8",
+   "title": "GCase 酶替代疗法 + Alector Brain Carrier 跨血脑屏障递送，帕金森病（GBA1 突变及非突变人群）",
+   "doi": "",
+   "code": "6",
+   "seen_in": [
+    "ind_2026-10-14.md"
+   ]
+  },
+  {
+   "fingerprint": "t:312ebe15946771b9",
+   "title": "临床 AI：持续分析 EHR 识别住院患者未诊断疾病（营养不良、心衰、院内感染等）",
+   "doi": "",
+   "code": "7",
+   "seen_in": [
+    "ind_2026-10-14.md"
+   ]
+  },
+  {
+   "fingerprint": "t:cff2c2103d460c59",
+   "title": "2026-10-12（LT 报道；原始公告称于世界阿尔茨海默病日发布，具体日期待核实）",
+   "doi": "",
+   "code": "4",
+   "seen_in": [
+    "ind_2026-10-14.md"
+   ]
+  },
+  {
+   "fingerprint": "t:de1cf4fcf0b264f6",
+   "title": "试验做对了仍可能因终点口径分歧而不获批；本次对齐结果将成为\"以症状为终点\"的神经退行性病路径样本，对衰老领域设计终点有直接借鉴价值",
+   "doi": "",
+   "code": "2",
+   "seen_in": [
+    "ind_2026-10-14.md"
+   ]
+  },
+  {
+   "fingerprint": "t:8ded011535bf9eeb",
+   "title": "作者的措辞是\"半开\"而非\"打开\"——所述路径全部处于提议/提交/资助阶段而非已生效。新监管类别通常以此为起点：先有人在同一年就\"缺什么\"达成一致",
+   "doi": "",
+   "code": "3",
+   "seen_in": [
+    "ind_2026-10-14.md"
+   ]
+  },
+  {
+   "fingerprint": "t:ff964fad2f8e2488",
+   "title": "与衰老研究间接相关：涉及\"抗衰\"化妆品原料与功效宣称的合规边界，国内抗衰原料（如重组胶原蛋白、稀有人参皂苷等合成生物学原料）商业化需同步跟踪",
+   "doi": "",
+   "code": "4",
+   "seen_in": [
+    "ind_2026-10-14.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70751",
+   "title": "可时序追踪的去衰老模型；化合物筛选平台",
+   "doi": "10.1111/acel.70751",
+   "code": "7",
+   "seen_in": [
+    "meta_2026-10.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1126/science.aeb2986",
+   "title": "1,640 个甲基化组 / 894 犬；体型–寿命权衡的转座子线索",
+   "doi": "10.1126/science.aeb2986",
+   "code": "8",
+   "seen_in": [
+    "meta_2026-10.md"
+   ]
+  },
+  {
+   "fingerprint": "t:28634514d749f90f",
+   "title": "AI 驱动的干预发现范式；口腔微生物组新轴线",
+   "doi": "",
+   "code": "9",
+   "seen_in": [
+    "meta_2026-10.md"
+   ]
+  },
+  {
+   "fingerprint": "t:1581c57f239e9d6d",
+   "title": "NAD+ 跨器官信号；Serpina3n 新分泌因子",
+   "doi": "",
+   "code": "10",
+   "seen_in": [
+    "meta_2026-10.md"
+   ]
+  },
+  {
+   "fingerprint": "t:c55906cf64289d33",
+   "title": "权威领域复盘；对 senolytics 的冷静评估",
+   "doi": "",
+   "code": "11",
+   "seen_in": [
+    "meta_2026-10.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1002/mco2.70899",
+   "title": "一个月等热量纯素 vs 高肉饮食；PhenoAge −1.7 岁",
+   "doi": "10.1002/mco2.70899",
+   "code": "12",
+   "seen_in": [
+    "meta_2026-10.md"
+   ]
+  },
+  {
+   "fingerprint": "t:efd4e05fc7f33f00",
+   "title": "ER-100 剂量水平 2（6×10¹¹ vg）安全性与疗效数据",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10.md"
+   ]
+  },
+  {
+   "fingerprint": "t:ae7c0d46e2473607",
+   "title": "FDA《监管科学重点领域》（FARS）正式文本",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10.md"
+   ]
+  },
+  {
+   "fingerprint": "t:eacc7e33c4cd2e39",
+   "title": "D+Q 治疗 MASH 的大型确证试验是否启动、终点如何选择",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10.md"
+   ]
+  },
+  {
+   "fingerprint": "t:dbe3594fb9fa5f9c",
+   "title": "UBE3C/CKAP4 预印本是否正式发表、有无独立验证",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10.md"
+   ]
+  },
+  {
+   "fingerprint": "t:ceedad2ef07d2646",
+   "title": "AMPK 直接激活剂 991 的小鼠数据",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10.md"
+   ]
+  },
+  {
+   "fingerprint": "t:328ceeb08f10e344",
+   "title": "TAME 试验融资是否出现实质性进展",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10.md"
+   ]
+  },
+  {
+   "fingerprint": "t:22db6767114a7bb5",
+   "title": "TranslAGE 后续：DunedinPACE / PCGrimAge 是否被确立为试验首选终点",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10.md"
+   ]
+  },
+  {
+   "fingerprint": "t:d470d4ad47775e61",
+   "title": "N. flavescens 是否进入人体概念验证",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10.md"
+   ]
+  },
+  {
+   "fingerprint": "t:3458455d5b3253a9",
+   "title": "心磷脂方向：elamipretide 用于年龄相关肌少症的再定位信号",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10.md"
+   ]
+  },
+  {
+   "fingerprint": "t:fdc98fa9d59b4328",
+   "title": "Lsp2 哺乳动物功能同源因子的搜索进展",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10.md"
+   ]
+  },
+  {
+   "fingerprint": "t:c0e28a1a4021d69a",
+   "title": "跨物种表观时钟（犬）向人类体型–衰老权衡的迁移研究",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10.md"
+   ]
+  },
+  {
+   "fingerprint": "t:90bec65f27ced9a5",
+   "title": "交叉#1 部分重编程：ER-100 Phase 1 首批 3 例：Day 56 无 DLT/SAE；2/3 例视野改善（≥28% 点位 >4",
+   "doi": "",
+   "code": "1",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:b49ad81198dc1a9f",
+   "title": "交叉#2 部分重编程：Salk/Buck：人神经元与胶质细胞瞬时 OSK（去 MYC）使表观年龄逆转约 10–15 年，恢复线粒体功能且维持细",
+   "doi": "",
+   "code": "2",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:cdd159bb03a9c0e9",
+   "title": "交叉#3 Senolytics：NCT05506488 Phase 2 读出：纤维化改善 47% vs 7%（P=0.02），MASH 缓解 53% v",
+   "doi": "",
+   "code": "3",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:4689f197d7e136de",
+   "title": "交叉#4 细胞衰老：CMA 随龄下降→巨噬细胞清除衰老细胞能力减弱；CA77.1 激活 CMA 使老年鼠多组织衰老负荷/炎症/纤维化下降；I",
+   "doi": "",
+   "code": "4",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:3fef14411dbd2598",
+   "title": "交叉#5 细胞衰老：SENESCENCE2030 路线图：要求衰老细胞内型分类、标准化生物标志物、精准 senolytic/senomorp",
+   "doi": "",
+   "code": "5",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:3190dbda614393d5",
+   "title": "交叉#6 NAD+前体：头对头 RCT（n=65）：NR 1000 mg / NMN 1000 mg × 14 天均使全血 NAD+ 约翻倍（安",
+   "doi": "",
+   "code": "6",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:4e17fe9237878074",
+   "title": "交叉#7 NAD+前体：系统评价/荟萃（15 项 RCT，250–2000 mg/d，14 天–24 周）：体重、BMI、空腹血糖、HbA1c、",
+   "doi": "",
+   "code": "7",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:b33db5705d0f1f04",
+   "title": "交叉#8 雷帕霉素/mTOR：低剂量雷帕霉素通过增强 DNA 损伤韧性降低老年人免疫细胞 p21（非自噬/蛋白合成依赖），提出 \"genoprotec",
+   "doi": "",
+   "code": "8",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:1725aefc139c3023",
+   "title": "交叉#9 雷帕霉素/mTOR：n=23（45–65 岁，9 名 APOE4 携带者），1 mg/d × 4 周：仅 APOE4 携带者局部脑血流增加",
+   "doi": "",
+   "code": "9",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:af30785228c5af20",
+   "title": "交叉#10 雷帕霉素/mTOR：HFpEF+衰弱（中位 71.3 岁）0.5 mg/d × 6 个月：功能终点失败（峰值 VO2、6 分钟步行未改善）；",
+   "doi": "",
+   "code": "10",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:67d0f8ddbc56f1be",
+   "title": "交叉#11 二甲双胍/TAME：TAME 至 2026 年中仍未入组任何受试者：FDA 2015 已同意复合终点（CVD+癌症+痴呆+死亡），但约 45",
+   "doi": "",
+   "code": "11",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:2cb6d4170b3d1dc8",
+   "title": "交叉#12 二甲双胍/TAME：直接 AMPK 激活剂 991 在裂殖酵母、C. elegans（≈18–20%）、Drosophila（≈9%",
+   "doi": "",
+   "code": "12",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:bebe5e1fd38d33e1",
+   "title": "交叉#13 二甲双胍/TAME：两项 Aging Cell 2019 RCT：二甲双胍钝化运动适应（有氧：胰岛素敏感性/VO₂max 增益减弱；抗阻",
+   "doi": "",
+   "code": "13",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:4730eefcf05a9ae2",
+   "title": "交叉#14 长寿 / 表观时钟：Nature Medicine 2026：51 项干预、>110 个 DNAm 标志物分析显示二甲双胍、司美格鲁肽、",
+   "doi": "",
+   "code": "14",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:0826e4de759da858",
+   "title": "交叉#15 长寿 / 表观时钟：原始 TRIIM（n=9–10，51–65 岁男性，rhGH+DHEA+metformin × 12 月）：MRI 证实",
+   "doi": "",
+   "code": "15",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:6e5d6dca460cc7ab",
+   "title": "交叉判定=A；置信度=中",
+   "doi": "",
+   "code": "17",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:0aa5f42df2b68ddf",
+   "title": "交叉判定=A（时钟外部验证）；置信度=中高",
+   "doi": "",
+   "code": "18",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01223-x",
+   "title": "脂酰链延长是跨物种保守的衰老标志，敲低 Plb1 逆转延长并延长线虫寿命",
+   "doi": "10.1038/s43587-026-01223-x",
+   "code": "21",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01240-w",
+   "title": "CMA 衰退是衰老细胞持续存留的驱动因，药物激活 CMA 可降低老年鼠衰老负荷",
+   "doi": "10.1038/s43587-026-01240-w",
+   "code": "22",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.cmet.2026.05.008",
+   "title": "ECM 硬化→低灌注→线粒体功能障碍→senescence→更硬，构成自持环路",
+   "doi": "10.1016/j.cmet.2026.05.008",
+   "code": "27",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70759",
+   "title": "D+Q 与运动均降低心肌 p16/p21/γ-H2AX 阳性率并改善心功能，但未见叠加效应",
+   "doi": "10.1111/acel.70759",
+   "code": "31",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02379-5",
+   "title": "皮肤可作为 gerotherapeutic 的转化平台；senolytic 可间歇给药、senomorphic 需持续给药",
+   "doi": "10.1007/s11357-026-02379-5",
+   "code": "37",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02545-9",
+   "title": "全血 NAD⁺ 每升高 1 µmol/L，衰弱 OR 0.871（95%CI 0.780–0.970），但校正血细胞比容后减弱",
+   "doi": "10.1007/s11357-026-02545-9",
+   "code": "39",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02485-4",
+   "title": "D+Q 部分恢复成骨基因表达、降低骨髓脂肪化，但骨小梁结构恢复有限",
+   "doi": "10.1007/s11357-026-02485-4",
+   "code": "40",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02577-1",
+   "title": "\"只延健康期不延寿命\"不是自洽的研究目标；延寿即救命， withholding 有伦理问题",
+   "doi": "10.1007/s11357-026-02577-1",
+   "code": "41",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:f5358b04fc61c380",
+   "title": "投融资 HexemBio（美国，旧金山/伯克利） 新一轮（本轮金额未单独披露） 累计总融资 1550 万美元（$15.5M total funding）",
+   "doi": "",
+   "code": "1",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:5ea5dc0a97212eaf",
+   "title": "投融资 Axo Longevity（英国/欧洲） Seed（超额认购） $5M",
+   "doi": "",
+   "code": "2",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:2db7e20c3f8487ec",
+   "title": "投融资 Moonwalk Biosciences（美国） Series B（超额认购） $70M",
+   "doi": "",
+   "code": "3",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:7fd1171193878ac3",
+   "title": "投融资 Biophytis（法国/美国，Euronext Growth: ALBPS） 增资（配股 + 认股权证，面向机构投资者，剔除原股东优先认购权） €5.3M（其中现金 €4.75M + Hexagon 债务转股 €0.55M）",
+   "doi": "",
+   "code": "4",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:15b6039bfbe68881",
+   "title": "投融资 Vincere Biosciences（美国） NIH SBIR Phase II 资助（非股权，2 年） $2.7M",
+   "doi": "",
+   "code": "5",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:3f0c9d5ac7c35c91",
+   "title": "投融资 Temple 收购 Longevous（印度/英国） 并购，金额未披露 未披露",
+   "doi": "",
+   "code": "6",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:47906bd713d7573d",
+   "title": "投融资 Clene Inc.（Nasdaq: CLNN） Registered Direct Offering（按 Nasdaq 市价规则） $4M（1,219,513 股 @ $3.28）",
+   "doi": "",
+   "code": "7",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:81679905a6ad9fb8",
+   "title": "投融资 FibroBiologics, Inc.（Nasdaq: FBLG） 私募配售（PIPE 性质） 约 $0.5M（298,508 股 @ $1.675 + 等额认股权证，行权价 $1.55，5 年期）",
+   "doi": "",
+   "code": "8",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:bdbe7a96b820f270",
+   "title": "投融资 （邻近赛道·老年照护科技） Inspiren Series C $70M",
+   "doi": "",
+   "code": "9",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:45fc961c17fe6f91",
+   "title": "投融资 （待核实） Magnitude Biosciences Seed £1.3M（+ £217k Innovate UK 配套资助）",
+   "doi": "",
+   "code": "10",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:6d100245a4080ec5",
+   "title": "管线 Insilico Medicine（HKEX: 3696） III 期首例受试者入组并给药",
+   "doi": "",
+   "code": "11",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:2f658a70231736eb",
+   "title": "管线 Insilico Medicine 新计划发布（非临床数据）",
+   "doi": "",
+   "code": "12",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:6602584a6332ced6",
+   "title": "管线 Insilico Medicine 论文发表（Nature Biotechnology）",
+   "doi": "",
+   "code": "13",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:0896e99053e4ed94",
+   "title": "管线 Genflow Biosciences（英国，LSE 附属） 达到主要终点",
+   "doi": "",
+   "code": "14",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:4092c27f1fe0d9e9",
+   "title": "管线 HexemBio 管线扩展 + 融资",
+   "doi": "",
+   "code": "15",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:2902f4dddae9157b",
+   "title": "管线 Moonwalk Biosciences B 轮资金 + 开发推进",
+   "doi": "",
+   "code": "16",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:55562cbd4ee126d5",
+   "title": "管线 Vincere Biosciences 资助 + 适应症扩展",
+   "doi": "",
+   "code": "17",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:14d3701c5d15196d",
+   "title": "管线 BioViva USA Inc. 专利授权",
+   "doi": "",
+   "code": "18",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:c9d5fee3aeebe160",
+   "title": "管线 Celularity × MuseCell Innovations（MCI） 生产合作（非临床进展）",
+   "doi": "",
+   "code": "19",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:5fadf90eacb5ec9a",
+   "title": "管线 Retro Biosciences I 期剂量与入组调整",
+   "doi": "",
+   "code": "20",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:44e0a2c905d6cb2b",
+   "title": "管线 GlycanAge × ExoEarth Corporation MOU 签署（商业化 + 联合研究）",
+   "doi": "",
+   "code": "21",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:1c2efcc91d804c09",
+   "title": "管线 Elysium Health 服务落地（非疗法）",
+   "doi": "",
+   "code": "22",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:8bd8e71c34e3e7f1",
+   "title": "监管 中国（国家药监局/卫健委监管逻辑；人民日报健康客户端报道，央视采访佐证） — 明确\"衰老非疾病范畴，我国从未批准任何'抗衰老'适应证药品\"",
+   "doi": "",
+   "code": "23",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:69c6d6bad8325dea",
+   "title": "监管 美国 FDA（首席科学家表态，经中国媒体转述） — 暂无任何药物获批衰老适应证；不认可\"逆转生物年龄\"的药效评价标准",
+   "doi": "",
+   "code": "24",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:921c9389460c1e06",
+   "title": "监管 中国 CDE — Rentosertib 拟纳入/获突破性治疗品种认定",
+   "doi": "",
+   "code": "25",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:d5c2e2de2cf0b0cb",
+   "title": "监管 加拿大（Canada's Drug Agency / CDA-AMC） — lecanemab（LEQEMBI）最终正面报销推荐",
+   "doi": "",
+   "code": "26",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:afdb3eae0cacef18",
+   "title": "监管 美国 FDA（罕见病终点政策） — 重新评估罕见病试验标准与终点选择",
+   "doi": "",
+   "code": "27",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:c90395803700cae7",
+   "title": "监管 美国 FDA（503A/503B 散装物质清单） — \"长寿肽\"灰色市场监管状态",
+   "doi": "",
+   "code": "28",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  },
+  {
+   "fingerprint": "t:1940fb63e65880f9",
+   "title": "监管 美国 FDA（孤儿药资格，背景项） — Rentosertib 获 IPF 孤儿药资格",
+   "doi": "",
+   "code": "29",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ]
+  }
+ ],
+ "files": {
+  "cards_2026-09-25.md": {
+   "rows": 50,
+   "bytes": 118088,
+   "suspicious_empty": false
+  },
+  "cards_2026-10-02.md": {
+   "rows": 56,
+   "bytes": 215865,
+   "suspicious_empty": false
+  },
+  "ind_2026-10-14.md": {
+   "rows": 10,
+   "bytes": 23365,
+   "suspicious_empty": false
+  },
+  "meta_2026-10.md": {
+   "rows": 18,
+   "bytes": 20322,
+   "suspicious_empty": false
+  },
+  "pool_2026-10-13.md": {
+   "rows": 71,
+   "bytes": 24622,
+   "suspicious_empty": false
+  }
+ }
+}
