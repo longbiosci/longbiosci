@@ -17,6 +17,7 @@
 #   5 rebuild-sitemap.py    重建 sitemap.xml
 #   6 add-rss-today-run.py  把当日新文章追加进 rss.xml（无新增则幂等不变）
 #   7 inject-poster.py      给文章页注入 /poster.js（已有则跳过）
+#   8 sync-search-index.py  重建 data/search-index.json 并刷新 search.html 计数
 #
 # ⚠️ 不要在 GitHub Actions 里跑：checkout 会重置全部文件 mtime，
 #    导致环节 5 的非文章页 lastmod 全量漂移到 checkout 当天。
@@ -38,7 +39,7 @@ PYTHON="${PYTHON:-python3}"
 step() {
   local n="$1" script="$2" desc="$3"
   shift 3
-  printf '\n[%s/7] %-22s %s\n' "$n" "$script" "$desc"
+  printf '\n[%s/8] %-22s %s\n' "$n" "$script" "$desc"
   if [[ "$script" == "add-rss-today-run.py" ]]; then
     "$PYTHON" "$HERE/$script" "$ROOT" "$@"
   else
@@ -55,5 +56,6 @@ step 4 gen-news-index.py     "生成 news 列表分页"
 step 5 rebuild-sitemap.py    "重建 sitemap.xml"
 step 6 add-rss-today-run.py  "追加当日新文章到 rss.xml"
 step 7 inject-poster.py      "注入海报脚本 /poster.js"
+step 8 sync-search-index.py  "重建站内搜索索引与计数"
 
-printf '\n✅ 管线执行完成（7/7）\n'
+printf '\n✅ 管线执行完成（8/8）\n'

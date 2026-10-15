@@ -43,6 +43,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://longbiosci.com/topics/immunology-inflammation-3.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://longbiosci.com/topics/immunology-inflammation.html</loc>
     <lastmod>2026-10-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -68,6 +74,12 @@
   </url>
   <url>
     <loc>https://longbiosci.com/topics/metabolism-nutrition-2.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/topics/metabolism-nutrition-3.html</loc>
     <lastmod>2026-10-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -259,6 +271,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://longbiosci.com/news/Aged-Microbiota-Fecal-Transplant-Bama-Pig-2026.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://longbiosci.com/news/Aging-Cell-Society-Remodeling-Quanta-2026.html</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>monthly</changefreq>
@@ -267,6 +285,12 @@
   <url>
     <loc>https://longbiosci.com/news/Aging-Gene-Network-Multimorbidity-UK-Biobank-2026.html</loc>
     <lastmod>2026-06-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Aging-vs-Biological-Age-Conceptual-Considerations-2026.html</loc>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -477,6 +501,12 @@
   <url>
     <loc>https://longbiosci.com/news/Calico-Fosigotifator-FDA-BTD-VWM-2026.html</loc>
     <lastmod>2026-06-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Caloric-Restriction-Somatic-Mutation-Genome-Integrity-Cell-2026.html</loc>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1063,6 +1093,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://longbiosci.com/news/Healthspan-Not-Lifespan-Cliche-GeroScience-2026.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://longbiosci.com/news/Healthspan-Not-Lifespan-GeroScience-Gems-2026.html</loc>
     <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
@@ -1357,6 +1393,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://longbiosci.com/news/LongevityBench-Open-Benchmark-Language-Models-2026.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://longbiosci.com/news/Longitudinal-Epigenetic-Clock-InCHIANTI-Mortality-2026.html</loc>
     <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
@@ -1447,8 +1489,20 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://longbiosci.com/news/Metformin-Blunts-Exercise-Adaptation-AgingCell-2019-RCT.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://longbiosci.com/news/Methionine-Supplemented-Longevity-Diet-FGF21-Long-2026.html</loc>
     <lastmod>2026-08-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Microbiome-Age-Clock-Bifidobacterium-5-AVAB-Healthspan-2026.html</loc>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1557,6 +1611,18 @@
   <url>
     <loc>https://longbiosci.com/news/Myostatin-MSTN-Genetic-Muscle-Mass.html</loc>
     <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/NAD-Precursor-Head-to-Head-RCT-NR-NMN-2026.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/NAD-Precursor-Systematic-Review-Meta-Analysis-2026.html</loc>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1807,6 +1873,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://longbiosci.com/news/Partial-Reprogramming-OSK-Human-Neurons-Glia-Epigenetic-Rejuvenation-2026.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://longbiosci.com/news/PathStAR-Structural-Aging-Human-Tissues-Nature-Aging-2026.html</loc>
     <lastmod>2026-08-31</lastmod>
     <changefreq>monthly</changefreq>
@@ -1891,6 +1963,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://longbiosci.com/news/Protein-Restriction-Coordinated-Adaptive-Response-2026.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://longbiosci.com/news/Protein-Restriction-Hallmarks-Aging-Review-2026.html</loc>
     <lastmod>2026-08-10</lastmod>
     <changefreq>monthly</changefreq>
@@ -1917,6 +1995,24 @@
   <url>
     <loc>https://longbiosci.com/news/RamanOmics-Senescence-Detection-Nature-Aging-2026.html</loc>
     <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Rapa-Small-Dose-DNA-Damage-Repair-p21-Immune-Cells-2026.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Rapamycin-APOE4-Cerebral-Blood-Flow-Trial-2026.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Rapamycin-HFpEF-Frailty-Functional-Endpoint-Failure-2026.html</loc>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1953,6 +2049,12 @@
   <url>
     <loc>https://longbiosci.com/news/Retro-Biosciences-1.8B-Valuation-2026.html</loc>
     <lastmod>2026-06-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Rhesus-Macaque-Plasma-CSF-Proteomics-Aging-GeroScience-2026.html</loc>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2125,6 +2227,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://longbiosci.com/news/Senotherapeutics-Fisetin-Derivatives-Phenotypic-Screening-AgingCell-2026.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://longbiosci.com/news/Senotherapeutics-Strategies-2026.html</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>monthly</changefreq>
@@ -2175,6 +2283,12 @@
   <url>
     <loc>https://longbiosci.com/news/Sirt3-Activator-2APQC-Intervertebral-Disc-Degeneration-2026.html</loc>
     <lastmod>2026-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Skin-Innervating-Glutamatergic-Neurons-Aging-Cell-2026.html</loc>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2251,6 +2365,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://longbiosci.com/news/TAME-Still-Zero-Participants-2026-Midyear-Status.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://longbiosci.com/news/TBX5-Heart-Failure-Atrial-Fibrillation.html</loc>
     <lastmod>2026-04-04</lastmod>
     <changefreq>monthly</changefreq>
@@ -2259,6 +2379,12 @@
   <url>
     <loc>https://longbiosci.com/news/TIMP2-Microglia-Aging-Brain-Nature-Communications-2026.html</loc>
     <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/TRIIM-Original-Study-MRI-Multiorgan-2026.html</loc>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2289,6 +2415,12 @@
   <url>
     <loc>https://longbiosci.com/news/Terbinafine-Miglustat-Mitochondrial-Stress-Longevity-2026.html</loc>
     <lastmod>2026-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Thymic-Health-Immune-Senescence-Nature-2026-Bernatz.html</loc>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2373,6 +2505,12 @@
   <url>
     <loc>https://longbiosci.com/news/Young-Plasma-Exchange-Cognitive-Impairment-Pilot-2026.html</loc>
     <lastmod>2026-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/cGAS-Deficient-Premature-Aging-LINE1-Inflammation-2026.html</loc>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2528,6 +2666,12 @@
   </url>
   <url>
     <loc>https://longbiosci.com/news-13.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news-14.html</loc>
     <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

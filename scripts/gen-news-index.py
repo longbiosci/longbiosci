@@ -42,7 +42,7 @@ PAGE_TAIL = '</div></section>\n</main><footer class="site-footer">\n  <div class
 
 FILTER_BAR = '<div class="filter-bar">\n<span class="filter-label">按主题浏览：</span>\n<a href="/topics/">全部主题</a>\n<a href="/evidence/A.html">A 级人体研究</a>\n<a href="/evidence/B.html">B 级临床前</a>\n<a href="/evidence/C.html">C 级预印本</a>\n<a href="/search.html">站内搜索</a>\n</div>\n'
 
-SUB_TEXT = '<p class="sub-text" style="text-align:center;margin-top:1rem">共 380 篇 — <a href="/news-2.html">查看第 2 页 →</a></p>\n'
+SUB_TEXT = '<p class="sub-text" style="text-align:center;margin-top:1rem">共 {total} 篇 — <a href="/news-2.html">查看第 2 页 →</a></p>\n'
 
 FEED_ITEM = """<div class="feed-item">
 <div class="item-meta">
