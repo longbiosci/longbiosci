@@ -88,6 +88,15 @@ def normalize_doi(d):
     # 先在 HTML / Markdown 语法字符处截断：残留的 `</a></td></tr` 无法靠
     # rstrip 清掉（rstrip 按字符集剥离，遇到 `r` 就停了），必须显式切。
     s = MD_LINK_RE.sub(" ", d or "").strip()
+    # ⚠️ Markdown 链接型 DOI：产出的 DOI 字段常写成
+    #   [10.1038/s43587-026-01219-7](https://doi.org/10.1038/...)
+    # 剥掉 `](...)` 后**开头会留下一个 `[`**，而下面的 split 以 `[` 为分隔符，
+    # 首段就是空串 → DOI 被整个吞掉，返回 ""。
+    # 后果（实测 2026-10-16 期 67 条全部如此）：四路查重的头一路 DOI 精确匹配
+    # 对产出侧整体失效，67 条全部退化成 confidence=none 的「漏收/需人工核对」，
+    # 而其中已有 2 条（RamanOmics / 运动-卵巢衰老）站内其实早有文章 ——
+    # 这正是「漏收数暴涨时先查 DOI 正则是否被污染」要防的事故。
+    s = s.lstrip("[<").strip()
     s = re.split(r"[<\[\s]", s, 1)[0]
     m = DOI_RE.match(s)
     return m.group(0).rstrip(".,;:</a>").lower() if m else ""
