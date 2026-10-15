@@ -82,10 +82,10 @@ A["Vegan-Diet-PhenoAge-Inflammatory-Pathways-RCT-2026.html"] = dict(
 </ul>
 
 <p>本站会跟踪这项研究的后续随访与是否有更大规模复制。相关机制背景可参考
-<a href="/news/Protein-Diet-Longevity-Cell-Review-2026.html">蛋白质饮食与长寿的 Cell 综述</a>
+<a href="/news/Protein-Diet-Longevity-Lamming-Cell-Review-2026.html">蛋白质饮食与长寿的 Cell 综述</a>
 与<a href="/news/Methionine-Supplemented-Longevity-Diet-FGF21-Long-2026.html">蛋氨酸-FGF21 轴研究</a>。</p>""",
     related=[
-        ("Protein-Diet-Longevity-Cell-Review-2026.html",
+        ("Protein-Diet-Longevity-Lamming-Cell-Review-2026.html",
          "蛋白质摄入与长寿：Cell 综述里的争议与共识"),
         ("Methionine-Supplemented-Longevity-Diet-FGF21-Long-2026.html",
          "蛋氨酸-FGF21 轴：饮食长寿效应里最热的通路之一"),

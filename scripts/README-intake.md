@@ -35,7 +35,7 @@
 news/*.html + articles.json
    │ ⑤ backfill-doi.py 补DOI 索引   ← 必须在写稿后跑，否则新文查不到
    ▼
-   │ ⑥ run-pipeline.sh（8 阶段）
+   │ ⑥ run-pipeline.sh（9 阶段，末位为死链+计数硬校验）
    ▼
 线上
    │ ⑦ ledger.py audit 对账 ── 产出 vs 上站双向核对
@@ -196,14 +196,15 @@ python3 scripts/harvest.py <repo> <files...> --mech /path/to/mech.json
 | `scripts/gen_industry_2026-10-15.py` | ④ 写稿范例（产业/监管类） |
 | `scripts/gen_missing_2026-09-25.py` | ④ 写稿范例（台账核定漏收的处置记录） |
 | `scripts/fetch.py` | 从 JSON 读 download_url 原样下载（防手抄 URL 出错） |
-| `scripts/run-pipeline.sh` | ⑥ 上线：8 阶段管线 |
+| `scripts/check-links.py` | ⑥末位：死链 + 计数一致性硬校验（不通过则管线失败） |
+| `scripts/run-pipeline.sh` | ⑥ 上线：9 阶段管线 |
 
 ## 每日自检清单（跑一遍才算完成一轮）
 
 ```bash
 python3 scripts/backfill-doi.py .        # 索引与文章库一致
 python3 scripts/ledger.py audit .        # 漏收数与上轮对比，无异常膨胀
-bash scripts/run-pipeline.sh# 8/8
+bash scripts/run-pipeline.sh             # 9/9，末位必须打印「检查通过」
 python3 -c "import json;print(len(json.load(open('data/articles.json'))))"  # 与首页/sitemap/search-index 一致
 ```
 
@@ -221,5 +222,7 @@ python3 -c "import json;print(len(json.load(open('data/articles.json'))))"  # �
 | `intake.sh` 报「未提供 NETDRIVE_MANIFEST」 | 未生成网盘清单 | 先用 `tdrive.dir_list` 生成 TSV |
 | `intake.sh` 报「跳过空文件 size=0」 | 上传失败（如文献层 2026-10-09 深度卡片） | 重跑该产出任务并回读校验 SHA256 |
 | `候选条目：0 条` | 文件格式不含表格 / 表头识别失败 | 检查 `parse_md_tables` 的 `TITLE_HINTS` |
+| 管线第9 步报「死链」 | 手写正文里的 `/news/xxx.html` 拼错 | 按脚本打印的路径核对；`slug` 用 `ls news/` 复制，别手敲 |
+| 管线第 9 步报「计数不一致」 | articles.json 与磁盘文件不同步 | 跑 `backfill-doi.py` 后重跑管线；若是新文章，确认已写入 articles.json |
 | 漏收数量远超预期 | 机制词表失效（编号前缀不匹配） | 补 `FALLBACK_TERMS` |
 | 漏收数量明显偏少 | 机制词过于通用 | 检查 `confidence=medium` 的条目，剔除通用词 |
