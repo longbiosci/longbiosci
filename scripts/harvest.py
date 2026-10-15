@@ -73,14 +73,22 @@ FALLBACK_TERMS = [
 # 只允许 Crossref 认可的 DOI 字符集。原来的 [^…]+ 会把
 # 「10.1016/j.ymthe.2026.05.025）·研究：MIT」整段吞进DOI，
 # 使得 DOI 精确匹配对站内自己都失效。
-DOI_RE = re.compile(r"10\.\d{4,9}/[-._;()/:a-z0-9<>\[\]+]+", re.I)
+#
+# ⚠️ 字符集里曾含 `<>`，后果是扫 news/*.html 时把 HTML 尾巴一起吞进 DOI：
+#   站内记成 `10.64898/2026.09.07.749858</a></td></tr`，而产出侧是干净 DOI，
+#   两边永远不相等 —— 这才是 ledger audit「漏收从几十跳到 178」的真因，
+#   不是产出真的漏了。DOI 里不可能出现尖括号，去掉。
+DOI_RE = re.compile(r"10\.\d{4,9}/[-._;()/:a-z0-9\[\]+]+", re.I)
 # Markdown 链接形式：10.1038/xxx](https://doi.org/10.1038/xxx)
 # 链接语法字符混在 DOI 里，不先剥掉就会把后半段 URL 一起吞进来
 MD_LINK_RE = re.compile(r"\]\s*\(\s*[^)]*\)")
 
 
 def normalize_doi(d):
+    # 先在 HTML / Markdown 语法字符处截断：残留的 `</a></td></tr` 无法靠
+    # rstrip 清掉（rstrip 按字符集剥离，遇到 `r` 就停了），必须显式切。
     s = MD_LINK_RE.sub(" ", d or "").strip()
+    s = re.split(r"[<\[\s]", s, 1)[0]
     m = DOI_RE.match(s)
     return m.group(0).rstrip(".,;:</a>").lower() if m else ""
 
@@ -348,8 +356,11 @@ def judge(item, slugs, titles, dois, mech):
     # 为什么必须有这一路：站内 <title> 是中文译名，3-gram 相似度对英文原标题恒为 0.00；
     # 但站内 slug 是英文 kebab-case，与英文原标题天然可比，且不需要维护中文对照表。
     tt = slug_tokens(item["title"])
+    # tob/ts 必须在 if 之外初始化：标题词元 <2 个时第 4 路整段跳过，
+    # 但最终 return 仍要打印 `tob:.2f` —— 未初始化会抛 UnboundLocalError，
+    # 让整批产出的查重直接崩掉（实测 2026-10-15 预印本 65 条全部报废）。
+    tob, ts = 0.0, ("", [])
     if len(tt) >= 2:
-        tob, ts = 0.0, ("", "")
         for slug in slugs:
             r, inter = token_overlap(tt, slug_tokens(slug))
             if r > tob:

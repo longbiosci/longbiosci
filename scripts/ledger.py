@@ -140,6 +140,10 @@ def audit(root, outputs, entries=None, per_file=None):
             continue
         # 第 4 路：英文原标题 vs 站内英文 slug 的词元重叠（绕开中文译名盲区）
         tt = slug_tokens(it["title"])
+        # r 必须在 if 之外初始化：标题词元 <2 个时第 4 路整段跳过，
+        # 但下面的「漏收」basis 仍要打印 `词元重叠 {r:.2f}` —— 未初始化会让
+        # 整份 audit 报告崩掉（与 harvest.py 的 tob 属同一类缺陷）。
+        r = 0.0
         if len(tt) >= 2:
             r, inter = 0.0, []
             bslug = ""
