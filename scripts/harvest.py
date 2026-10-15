@@ -183,13 +183,19 @@ def parse_section_items(text):
     这个解析器就是补这个洞。返回 [{title, doi, code, raw}]
     """
     items, cur = [], None
-    heads = list(re.finditer(r"^###\s+(\d+[.)、]?|[A-Za-z]{0,4}\d{1,3}[.)、]?)?\s*(.+)$",
-                             text, re.M))
+    # 编号后必须跟空白：否则「### 3.2 Cell Metabolism（5 篇）」会被切成
+    # num=3 / title="2 Cell Metabolism（5 篇）"，于是期刊小节被当成一篇文献
+    # 送进查重 —— 实测每期稳定产出 3~5 条假「漏收」，挤占人工复核名额。
+    heads = list(re.finditer(
+        r"^###\s+(\d+[.)、](?=\s)|[A-Za-z]{0,4}\d{1,3}[.)、](?=\s))?\s*(.+)$",
+        text, re.M))
     for i, m in enumerate(heads):
         num = (m.group(1) or "").strip(".)、")
         title = re.sub(r"\*\*|\*|`", "", m.group(2)).strip()
         if len(title) < 12:                       # 过滤「本期新增」「arXiv 空跑说明」这类小节
             continue
+        if not num and re.match(r"^\d+(\.\d+)*\s", title):
+            continue    # 纯章节编号标题（「3.2 Cell Metabolism（5 篇）」）不是文献条目
         end = heads[i + 1].start() if i + 1 < len(heads) else len(text)
         block = text[m.end():end]
         fields = dict(re.findall(r"^\|\s*([^|]{2,12}?)\s*\|\s*([^|]*?)\s*\|$",
@@ -217,8 +223,9 @@ def load_candidates_section(paths):
 def parse_md_tables(text):
     """解析 markdown 表格，返回 [{header, rows:[[cell,...]]}]
     按表头识别「标题」列，避免误把卷期/序号当标题"""
+    lines = text.splitlines()
     tables, cur = [], None
-    for line in text.splitlines():
+    for i, line in enumerate(lines):
         s = line.strip()
         if not (s.startswith("|") and s.endswith("|")):
             cur = None
@@ -230,7 +237,14 @@ def parse_md_tables(text):
         # 表头：不含编号但含标题类列名，或首列是「项目/字段」这类说明词
         looks_like_header = (any(h in " ".join(cells) for h in TITLE_HINTS)
                              or re.match(r"^[#\-*|]*\s*(项目|字段|字段名|序号|编号)", first))
-        if looks_like_header:
+        # 表头必须「下一行就是分隔行」。少了这一条，任何含「靶点」「名称」等
+        # 提示词的**数据行**都会被当成表头——实测 C12（fisetin 衍生物）因
+        # 单元格里有「推定靶点 PARP1/CDK2/BCL-xL」被判为表头而静默消失，
+        # 该条从此不再参与查重：真漏收会以「从未被扫到」的形式永久丢失。
+        nxt = lines[i + 1].strip() if i + 1 < len(lines) else ""
+        next_is_sep = nxt.startswith("|") and all(
+            set(c) <= set("-: ") for c in [c.strip() for c in nxt.strip("|").split("|")])
+        if looks_like_header and next_is_sep:
             cur = {"header": cells, "rows": []}
             tables.append(cur)
             continue
@@ -279,7 +293,10 @@ def load_candidates(paths):
                 title = re.sub(r"\*\*|\*|\[|\]|\(.*?\)", "",
                                cells[ti]).strip()
                 joined = " ".join(cells)
-                if len(title) < 12 or len(joined) < 20:
+                # 下限 12 会吃掉真实条目：C14「抗衰策略的机制框架综述」正好 11 字，
+                # 于是该条永远不进查重 —— 真漏收会以「从未被扫到」的形式永久丢失。
+                # 降到 8，噪声由 joined>=20 与「首列必须是编号」两道闸兜住。
+                if len(title) < 8 or len(joined) < 20:
                     continue
                 code = cells[0].strip()
                 items.append({

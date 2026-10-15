@@ -1,0 +1,15 @@
+{
+  "_doc": "实测下载字节数覆盖表。dir_list 返回的 size 是陈旧缓存（已实测两次：dsMQHIJKCTLS 列表 0/实际 33644；dNTCoBPwiOnt 列表 0/实际 89241），只能作为「需核验」的线索。凡经 tdrive.file_download + stat -c%s 实测的条目在此登记，build_manifest.py 会用实测值覆盖缓存值。判定空产的唯一合法依据是这里的实测值。",
+  "dNTCoBPwiOnt": {
+    "bytes": 89241,
+    "verified_at": "2026-10-16T04:05:00+08:00",
+    "by": "摄入巡检 12409847",
+    "note": "文献层_五刊监控_深度文献卡片_2026-10-09。dir_list 缓存 size=0，实测 89241 B 内容完整（26 篇卡片）。此前被误判为空产并落 empty 游标，2026-10-16 更正。"
+  },
+  "dsMQHIJKCTLS": {
+    "bytes": 33644,
+    "verified_at": "2026-10-16T00:51:32+08:00",
+    "by": "摄入巡检 12409847",
+    "note": "临床×文献交叉周报_2026-10-12。dir_list 缓存 size=0，实测 33644 B 完整。"
+  }
+}

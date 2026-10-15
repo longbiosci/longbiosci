@@ -1,7 +1,7 @@
 {
  "site": {
-  "articles": 484,
-  "dois": 350
+  "articles": 485,
+  "dois": 353
  },
  "outputs": {
   "cards_2026-09-25.md": {
@@ -60,13 +60,18 @@
    "suspicious_empty": false
   },
   "ima-pool-2026-10-13.md": {
-   "rows": 71,
+   "rows": 73,
    "bytes": 24622,
    "suspicious_empty": false
   },
   "industry-2026-09-16.md": {
-   "rows": 17,
+   "rows": 25,
    "bytes": 30237,
+   "suspicious_empty": false
+  },
+  "lit-cards-2026-10-09.md": {
+   "rows": 25,
+   "bytes": 89241,
    "suspicious_empty": false
   },
   "meta-ops-log.md": {
@@ -120,7 +125,7 @@
    "suspicious_empty": false
   },
   "preprint-2026-09-24.md": {
-   "rows": 5,
+   "rows": 6,
    "bytes": 25948,
    "suspicious_empty": false
   },
@@ -131,12 +136,17 @@
   },
   "site-ops-log.md": {
    "rows": 0,
-   "bytes": 88209,
+   "bytes": 92856,
    "suspicious_empty": false
   },
   "site-ops-todo.md": {
    "rows": 0,
-   "bytes": 40156,
+   "bytes": 41017,
+   "suspicious_empty": false
+  },
+  "交叉周报_2026-10-12.md": {
+   "rows": 0,
+   "bytes": 33644,
    "suspicious_empty": false
   },
   "预印本速递_2026-09-13.md": {
@@ -145,42 +155,15 @@
    "suspicious_empty": false
   },
   "预印本速递_2026-09-24.md": {
-   "rows": 5,
+   "rows": 6,
    "bytes": 25948,
    "suspicious_empty": false
   }
  },
- "output_entries": 260,
- "covered": 83,
- "missing_count": 177,
+ "output_entries": 272,
+ "covered": 85,
+ "missing_count": 187,
  "missing": [
-  {
-   "fingerprint": "doi:10.1038/s43587-026-01240-w",
-   "title": "衰老中分子伴侣介导自噬（CMA）下降损害巨噬细胞对衰老细胞的清除",
-   "doi": "10.1038/s43587-026-01240-w",
-   "code": "C04",
-   "seen_in": [
-    "ima-lit-2026-10-13.md",
-    "ima-pool-2026-10-13.md",
-    "pool_2026-10-13.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1038/s43587-026-01240-w，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-  },
-  {
-   "fingerprint": "doi:10.1111/acel.70656",
-   "title": "深度学习从 3D 染色质图像预测造血干细胞衰老",
-   "doi": "10.1111/acel.70656",
-   "code": "C18",
-   "seen_in": [
-    "cards_2026-10-02.md",
-    "ima-lit-2026-10-13.md",
-    "ima-pool-2026-10-13.md",
-    "pool_2026-10-13.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1111/acel.70656，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-  },
   {
    "fingerprint": "t:90bec65f27ced9a5",
    "title": "交叉#1 部分重编程：ER-100 Phase 1 首批 3 例：Day 56 无 DLT/SAE；2/3 例视野改善（≥28% 点位 >4",
@@ -362,28 +345,37 @@
    "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.33）；★中文摘要条目，必须人工核对站内中文关键词"
   },
   {
-   "fingerprint": "t:6e5d6dca460cc7ab",
-   "title": "交叉判定=A；置信度=中",
+   "fingerprint": "t:228ac6b5551121f7",
+   "title": "交叉#16 长寿 / 微生物组：老年菌群移植至巴马小型猪：紧密连接蛋白（ZO-1/claudin-1/occludin）↓，富集 Blautia obe",
    "doi": "",
-   "code": "17",
+   "code": "16",
    "seen_in": [
-    "ima-pool-2026-10-13.md",
-    "pool_2026-10-13.md"
+    "ima-pool-2026-10-13.md"
    ],
    "status": "漏收",
    "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
   },
   {
-   "fingerprint": "t:0aa5f42df2b68ddf",
-   "title": "交叉判定=A（时钟外部验证）；置信度=中高",
+   "fingerprint": "t:fc030fe7f401393d",
+   "title": "交叉#17 长寿 / 免疫：Nature 2026（Bernatz 等，652:986–994）：胸腺健康与免疫衰老、运动可改善免疫衰老指标",
+   "doi": "",
+   "code": "17",
+   "seen_in": [
+    "ima-pool-2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 1.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:6e7acc76f83c9a59",
+   "title": "交叉#18 长寿 / 时钟验证：犬表观时钟（Science 2026-10-08，Mariner 等，894 犬/1640 甲基化组）：大型犬与雄性",
    "doi": "",
    "code": "18",
    "seen_in": [
-    "ima-pool-2026-10-13.md",
-    "pool_2026-10-13.md"
+    "ima-pool-2026-10-13.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
   },
   {
    "fingerprint": "t:f5358b04fc61c380",
@@ -756,8 +748,19 @@
    "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
   },
   {
-   "fingerprint": "t:001534e757598a9f",
-   "title": "现金及等价物达 €8.9M，资金跑道延至 2028 Q1；OBA 试验 2027 Q1 启动、2028 H1 读出顶线。3 月增资的全部认股权证已行权，另有 €2.8M。股本扩至 350,132,497 股（对未参与股东显著稀释）",
+   "fingerprint": "t:77894b7209200d75",
+   "title": "Moonwalk Biosciences（美国）",
+   "doi": "",
+   "code": "3",
+   "seen_in": [
+    "industry-2026-09-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:5fdde07e618f6e39",
+   "title": "Biophytis（法国/美国，Euronext Growth: ALBPS）",
    "doi": "",
    "code": "4",
    "seen_in": [
@@ -767,10 +770,21 @@
    "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
   },
   {
-   "fingerprint": "t:d8d5668e0688231b",
-   "title": "完成 IND-enabling 安全性研究，推进至 IND 与首次人体",
+   "fingerprint": "t:062696e12942468d",
+   "title": "Vincere Biosciences（美国）",
    "doi": "",
    "code": "5",
+   "seen_in": [
+    "industry-2026-09-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:8fe228bea087b714",
+   "title": "Temple 收购 Longevous（印度/英国）",
+   "doi": "",
+   "code": "6",
    "seen_in": [
     "industry-2026-09-16.md"
    ],
@@ -778,15 +792,26 @@
    "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
   },
   {
-   "fingerprint": "t:d4770fe976ab7725",
-   "title": "线粒体健康与神经元保护（CNM-Au8，靶向线粒体功能与 NAD 通路并降低氧化应激）；ALS / 帕金森 / 多发性硬化",
+   "fingerprint": "t:1f380066d55bcb8f",
+   "title": "Clene Inc.（Nasdaq: CLNN）",
    "doi": "",
    "code": "7",
    "seen_in": [
     "industry-2026-09-16.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）"
+  },
+  {
+   "fingerprint": "t:827749f0d0dffb15",
+   "title": "FibroBiologics, Inc.（Nasdaq: FBLG）",
+   "doi": "",
+   "code": "8",
+   "seen_in": [
+    "industry-2026-09-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）"
   },
   {
    "fingerprint": "t:a0e2224f8904c457",
@@ -800,10 +825,21 @@
    "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.33）"
   },
   {
-   "fingerprint": "t:ab1c6abd656e8371",
-   "title": "一代（骨髓移植细胞治疗）：2025-07 获 FDA 孤儿药资格、2026-01 完成 pre-IND 会议、目标 2027 首次人体；二代（注射剂，无需体外采细胞处理）晚期临床前；三代（皮肤增强与保护）开发末期。平台发表于 Nature（s41586-023-06914-8），全球 17 项专利申请、2 项已授权",
+   "fingerprint": "t:522e435667c993df",
+   "title": "Insilico Medicine",
    "doi": "",
-   "code": "5",
+   "code": "2",
+   "seen_in": [
+    "industry-2026-09-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）"
+  },
+  {
+   "fingerprint": "t:488b018be360e0c0",
+   "title": "Genflow Biosciences（英国，LSE 附属）",
+   "doi": "",
+   "code": "4",
    "seen_in": [
     "industry-2026-09-16.md"
    ],
@@ -811,48 +847,81 @@
    "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
   },
   {
-   "fingerprint": "t:91f368dfbbd292c5",
-   "title": "$2.7M NIH SBIR II 期支持完成 IND-enabling 安全性研究，适应症由帕金森 CNS 项目扩展至急性肾损伤",
+   "fingerprint": "t:234395140c3d319e",
+   "title": "Moonwalk Biosciences",
+   "doi": "",
+   "code": "6",
+   "seen_in": [
+    "industry-2026-09-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）"
+  },
+  {
+   "fingerprint": "t:133c80d5993ca6e3",
+   "title": "Vincere Biosciences",
    "doi": "",
    "code": "7",
    "seen_in": [
     "industry-2026-09-16.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）"
   },
   {
-   "fingerprint": "t:e105b7ad8d12f87c",
-   "title": "Celularity 在新泽西 Florham Park 基地（147,215 平方英尺，9 个 Grade C/ISO 7 + 6 个 Grade D/ISO 8 洁净套件）按授权\"Dezawa Method\"生产 DMC，及 Dezawa MuseExosomes、MuseSecretome。基于当前市场与 MCI 预测，扩大合作后 5 年内可能为 Celularity 带来超 3 亿美元采购额与 200+ 高技能岗位（属预测性表述）。DMC 身份由\"生产方法 + 规格符合性\"定义，非仅由组织来源定义",
+   "fingerprint": "t:3b214a278b42d2a6",
+   "title": "BioViva USA Inc.",
+   "doi": "",
+   "code": "8",
+   "seen_in": [
+    "industry-2026-09-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）"
+  },
+  {
+   "fingerprint": "t:835c557c3159310f",
+   "title": "Celularity × MuseCell Innovations（MCI）",
    "doi": "",
    "code": "9",
    "seen_in": [
     "industry-2026-09-16.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.20）；★中文摘要条目，必须人工核对站内中文关键词"
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）"
   },
   {
-   "fingerprint": "t:10f22b6b5c097443",
-   "title": "在日本推进 GlycanAge 生物年龄检测商业化；并开展纵向联合研究，用 GlycanAge 追踪接受 EXOCURE 者的生物年龄与免疫相关变化。研究方案尚未定稿（待科学、医学、伦理与监管审查），样本量、测量频率、具体方案均未公布",
+   "fingerprint": "t:3d3a3d99637287db",
+   "title": "Retro Biosciences",
+   "doi": "",
+   "code": "10",
+   "seen_in": [
+    "industry-2026-09-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 1.00）"
+  },
+  {
+   "fingerprint": "t:03d5ed8aa21d9c50",
+   "title": "GlycanAge × ExoEarth Corporation",
    "doi": "",
    "code": "11",
    "seen_in": [
     "industry-2026-09-16.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）"
   },
   {
-   "fingerprint": "t:167f64932b61cd20",
-   "title": "纽约开业，医师主导的个性化长寿医疗；上线 18 项长寿方案（含处方药、肽类、补充剂，口服/鼻内/注射），Omar Baker 任 CMO，联合创始人兼首席科学家 Leonard Guarente 为合作者。属消费医疗服务，非获批疗法",
+   "fingerprint": "t:bd95ba51a41879dc",
+   "title": "Elysium Health",
    "doi": "",
    "code": "12",
    "seen_in": [
     "industry-2026-09-16.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）"
   },
   {
    "fingerprint": "t:3940fbf54a7b9d0f",
@@ -888,8 +957,19 @@
    "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.33）；★中文摘要条目，必须人工核对站内中文关键词"
   },
   {
-   "fingerprint": "t:9691ffff301096bb",
-   "title": "Ipamorelin acetate：列于 503B 临时政策 Category 2（2023-09 加入，FDA 认定\"可能具有显著安全风险\"）；CJC-1295：提名于 2024-09 撤回，不再在活跃 Category 2 表中，但 FDA 仍保留安全性风险表述；两者均未通过 503A 准入审评（顾问委员会分别于 2024-10、2024-12 投票反对纳入）。FDA 对 ipamorelin 的关注点为免疫原性、肽类杂质及严重不良事件报告",
+   "fingerprint": "t:572509a98abbbd5b",
+   "title": "美国 FDA（罕见病终点政策）",
+   "doi": "",
+   "code": "5",
+   "seen_in": [
+    "industry-2026-09-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:a6a1b0a06d4b46f0",
+   "title": "美国 FDA（503A/503B 散装物质清单）",
    "doi": "",
    "code": "6",
    "seen_in": [
@@ -899,8 +979,8 @@
    "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
   },
   {
-   "fingerprint": "t:473d30b9defc6ebd",
-   "title": "非本周事件，作为 III 期项目的监管背景列出",
+   "fingerprint": "t:4b5d3cbb72095a60",
+   "title": "美国 FDA（孤儿药资格，背景项）",
    "doi": "",
    "code": "7",
    "seen_in": [
@@ -1801,6 +1881,17 @@
    "basis": "四路均未命中（DOI=10.1007/s11357-025-02017-6，标题相似 0.00，词元重叠 0.33）"
   },
   {
+   "fingerprint": "doi:10.1007/s11357-025-02022-9",
+   "title": "Intervertebral disc degeneration is accelerated by GH overexpression but attenuated by GH antagonism",
+   "doi": "10.1007/s11357-025-02022-9",
+   "code": "G10",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1007/s11357-025-02022-9，标题相似 0.00，词元重叠 0.50）"
+  },
+  {
    "fingerprint": "doi:10.1007/s11357-026-02550-y",
    "title": "Dietary pattern and epigenetic aging: a longitudinal twin study",
    "doi": "10.1007/s11357-026-02550-y",
@@ -2151,9 +2242,31 @@
    ],
    "status": "漏收",
    "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:6e5d6dca460cc7ab",
+   "title": "交叉判定=A；置信度=中",
+   "doi": "",
+   "code": "17",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:0aa5f42df2b68ddf",
+   "title": "交叉判定=A（时钟外部验证）；置信度=中高",
+   "doi": "",
+   "code": "18",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
   }
  ],
- "orphan_count": 484,
+ "orphan_count": 485,
  "orphan_sample": [
   "7-Ketocholesterol-Derivatives-Pathophysiology.html",
   "AAV-FGF21-Gene-Therapy-Healthspan-Lifespan-2026.html",

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-16T01:10:27+08:00",
+ "updated_at": "2026-10-16T04:09:07+08:00",
  "entries": {
   "dkwSBCCuiNrB": {
    "name": "文献层_五刊监控_深度文献卡片_2026-10-02",
@@ -51,12 +51,15 @@
   "dNTCoBPwiOnt": {
    "name": "文献层_五刊监控_深度文献卡片_2026-10-09",
    "layer": "文献层",
-   "size": 0,
+   "size": 89241,
    "mtime": "1791508691000",
-   "status": "empty",
-   "done_at": "2026-10-16T00:51:32+08:00",
-   "slugs": [],
-   "note": "size=0，需重跑任务 7762989（重点期刊监控·每周五）。连续第 2 轮仍为空，未恢复。"
+   "status": "done",
+   "done_at": "2026-10-16T04:09:07+08:00",
+   "slugs": [
+    "CMA-Decline-Macrophage-Senescent-Clearance-NatureAging-2026.html",
+    "ChromAgeNet-AI-3D-Chromatin-Aging-HSC-AgingCell-2026.html"
+   ],
+   "note": "【更正 2026-10-16 04:0x】此前 2 轮判 size=0 系误判：dir_list 缓存假象第 2 次（同 dsMQHIJKCTLS）。实测下载 89241 B 完整（26 篇卡片）。四路查重 26/26 全部已收录（DOI 精确 high）：内容已于第 12 批经网站层《IMA_文献著录_2026-10-13》补收。本轮 0 篇新写；仅补 C04/C18 两篇缺失 DOI（arXiv/CrossRef 已核验）并重建 doi-index（342→344）。另修 harvest.py 三处静默丢条目缺陷（章节标题误判 / 含「靶点」数据行被当表头 / 标题<12字被过滤）。"
   },
   "dsMQHIJKCTLS": {
    "name": "临床×文献交叉周报_2026-10-12",

@@ -30,6 +30,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 DEFAULT_RAW = "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d4a-ef836f1a8000/nd_raw.json"
 REPO = os.path.dirname(HERE)
 OUT = os.path.join(REPO, "data", "intake-manifest.tsv")
+VERIFIED = os.path.join(REPO, "data", "verified-sizes.json")
 TZ = timezone(timedelta(hours=8))
 ORDER = ["文献层", "行业层", "网站层", "元层"]      # 元层垫底：其镜像条目让位
 PRIORITY = {layer: i for i, layer in enumerate(ORDER)}
@@ -62,6 +63,29 @@ def main():
                     continue
             best[fid] = (it, layer)
 
+    # 实测字节数覆盖缓存值：dir_list 的 size 是陈旧缓存，判空必须以实测为准。
+    # 已实测两次假象：dsMQHIJKCTLS（缓存 0 / 实际 33644）、dNTCoBPwiOnt（缓存 0 / 实际 89241）。
+    # 缓存 0 若直接进清单，cursor 会把一条完整产出当空文件跳过 —— 内容凭空丢失。
+    vsize, overriden = {}, []
+    if os.path.exists(VERIFIED):
+        for k, v in json.load(open(VERIFIED, encoding="utf-8")).items():
+            if k.startswith("_"):
+                continue
+            vsize[k] = int(v["bytes"] if isinstance(v, dict) else v)
+    if vsize:
+        for fid, (it, layer) in best.items():
+            got = vsize.get(fid)
+            if got is None:
+                continue
+            if str(it["size"]) != str(got):
+                overriden.append((it["name"], it["size"], got))
+            it["size"] = str(got)
+        # 缓存里根本没有的条目（极少见）也要补进清单
+        for fid, got in vsize.items():
+            if fid not in best:
+                best[fid] = ({"file_id": fid, "name": fid, "ext": "",
+                              "size": str(got), "modify_time": "0"}, "元层")
+
     rows = []
     for fid, (it, layer) in best.items():
         if layer != "元层" and "/IMA知识库" in it["name"]:
@@ -76,6 +100,10 @@ def main():
             f.write("\t".join(str(x) for x in r) + "\n")
 
     print(f"写入 {OUT}：{len(rows)} 个产出（去重掉 {mirrors} 条跨层镜像）")
+    for nm, cached, got in overriden:
+        print(f"  ⚠️ 缓存 size 被实测值覆盖：{nm[:40]}  {cached} → {got} B")
+    if overriden:
+        print(f"  共 {len(overriden)} 条（dir_list 缓存不可信，实测为准）")
     for layer in ORDER:
         n = sum(1 for r in rows if r[1] == layer)
         e = sum(1 for r in rows if r[1] == layer and str(r[4]) == "0")
