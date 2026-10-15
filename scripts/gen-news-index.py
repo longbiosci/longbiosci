@@ -17,13 +17,17 @@ gen-news-index.py —— 新闻列表页生成器（逆向重写版 v1.0）
     （先截断后转义，实证 16+3 篇）；title/desc 走 html.escape(quote=True)
   - feed 区闭合：</div>\n</div>\n（item 尾 + 容器尾，换行分隔）
   - footer 计数「共 N 篇」随总数刷新
-  - 不重生 news-14.html（10-13 去重后的过期遗留页，391 旧计数，留待办跟踪去留）
+  - 不重生 news-14.html（10-13 去重后的过期遗留页，391 旧计数）——
+    v1.1 起改为**主动删除**：文章数下降后残留页会成为过期孤儿页，仍返回 200
+    且被 rebuild-sitemap.py 的 os.listdir 扫进 sitemap，等于主动向搜索引擎提交
+    计数矛盾 + 内容重复的页面。prune_stale_archives() 负责清理，幂等。
   页面骨架模板自 git HEAD 版本逐字节提取（news_page_templates.json 同源生成）。
 """
 import html
 import json
 import math
 import os
+import re
 import sys
 
 PER_PAGE = 30
@@ -38,7 +42,7 @@ PAGE_TAIL = '</div></section>\n</main><footer class="site-footer">\n  <div class
 
 FILTER_BAR = '<div class="filter-bar">\n<span class="filter-label">按主题浏览：</span>\n<a href="/topics/">全部主题</a>\n<a href="/evidence/A.html">A 级人体研究</a>\n<a href="/evidence/B.html">B 级临床前</a>\n<a href="/evidence/C.html">C 级预印本</a>\n<a href="/search.html">站内搜索</a>\n</div>\n'
 
-SUB_TEXT = '<p class="sub-text" style="text-align:center;margin-top:1rem">共 380 篇 — <a href="/news-2.html">查看第 2 页 →</a></p>\n'
+SUB_TEXT = '<p class="sub-text" style="text-align:center;margin-top:1rem">共 {total} 篇 — <a href="/news-2.html">查看第 2 页 →</a></p>\n'
 
 FEED_ITEM = """<div class="feed-item">
 <div class="item-meta">
@@ -124,12 +128,36 @@ def render_page(articles, page, total_pages):
     return out
 
 
+ARCHIVE_RE = re.compile(r"^news-(\d+)\.html$")
+
+
+def prune_stale_archives(root, total_pages):
+    """删除超出当前总页数的旧分页页（幂等）。
+
+    为什么必须删：文章数下降（如 10-13 去重 391→380）后，旧的 news-N.html
+    不会被覆盖，成为孤儿页——内容是过期的「共 391 篇」，还会被
+    rebuild-sitemap.py 的 os.listdir 扫进 sitemap，等于主动向搜索引擎
+    提交一个计数矛盾且内容重复的页面。实测 news-14.html 长期 200 且在
+    sitemap 中，是本缺陷的活样本。
+    """
+    removed = []
+    for name in os.listdir(root):
+        m = ARCHIVE_RE.match(name)
+        if m and int(m.group(1)) > total_pages:
+            os.remove(os.path.join(root, name))
+            removed.append(name)
+    return sorted(removed, key=lambda s: int(ARCHIVE_RE.match(s).group(1)))
+
+
 def main():
     root = sys.argv[1] if len(sys.argv) > 1 else "."
     with open(os.path.join(root, "data/articles.json"), encoding="utf-8") as f:
         articles = json.load(f)
     total = len(articles)
     total_pages = max(1, math.ceil(total / PER_PAGE))
+
+    for name in prune_stale_archives(root, total_pages):
+        print(f"  [prune] 删除过期分页页 {name}")
 
     for page in range(1, total_pages + 1):
         out = os.path.join(root, "news/index.html" if page == 1 else f"news-{page}.html")

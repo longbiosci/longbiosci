@@ -37,11 +37,21 @@ rebuild-sitemap.py —— sitemap.xml 重建器（逆向重写版 v1.0）
   原版 URL 顺序为 glob 目录序（ext4 readdir 序，跨机器不可复现）；
   本版采用确定性顺序：组间固定、组内有序。URL 集合与逐条属性保持一致。
 """
+import importlib.util
 import json
+import math
 import os
 import re
 import sys
 from datetime import datetime
+
+# 与生成器共用 PER_PAGE，杜绝「两处各写一个 30、日后漂移」的隐患。
+# 文件名含连字符，不能直接 import，用 importlib 按路径加载。
+_spec = importlib.util.spec_from_file_location(
+    "gen_news_index", os.path.join(os.path.dirname(os.path.abspath(__file__)), "gen-news-index.py"))
+_mod = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(_mod)
+NEWS_PER_PAGE = _mod.PER_PAGE
 
 BASE = "https://longbiosci.com"
 
@@ -101,7 +111,7 @@ INDEX_PAGES = [
     ("daily/index.html",      "daily",   "0.8"),
 ]
 
-ARCHIVE_RE = re.compile(r"^news-\d+\.html$")
+ARCHIVE_RE = re.compile(r"^news-(\d+)\.html$")  # 带捕获组，便于取页号
 
 
 def mtime_date(path):
@@ -138,9 +148,17 @@ def collect(root="."):
         entries.append((f"news/{a['slug']}", a.get("date", ""), "monthly", "0.7"))
 
     # 3) 新闻归档分页 news-N.html
+    #    双重防护：既按 ARCHIVE_RE 过滤，也按 articles.json 算出的真实总页数截断。
+    #    理由：os.listdir 会把任何残留的 news-N.html 都当成合法分页收进 sitemap。
+    #    实测 news-14.html（391 篇时代的孤儿页）曾因此长期被提交给搜索引擎，
+    #    与首页「全站 380 篇」直接矛盾。sitemap 是给搜索引擎看的契约，
+    #    只允许收录当前真实存在的分页。
+    with open(os.path.join(root, "data/articles.json"), encoding="utf-8") as f:
+        max_archive_page = max(1, math.ceil(len(json.load(f)) / NEWS_PER_PAGE))
     for name in sorted(
-        (n for n in os.listdir(root) if ARCHIVE_RE.match(n)),
-        key=lambda n: int(re.search(r"\d+", n).group()),
+        (n for n in os.listdir(root)
+         if ARCHIVE_RE.match(n) and int(ARCHIVE_RE.match(n).group(1)) <= max_archive_page),
+        key=lambda n: int(ARCHIVE_RE.match(n).group(1)),
     ):
         entries.append((name, None, "daily", "0.6"))
 
