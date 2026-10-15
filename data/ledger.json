@@ -1,7 +1,7 @@
 {
  "site": {
-  "articles": 417,
-  "dois": 420
+  "articles": 418,
+  "dois": 421
  },
  "outputs": {
   "cards_2026-09-25.md": {
@@ -31,8 +31,8 @@
   }
  },
  "output_entries": 187,
- "covered": 37,
- "missing_count": 150,
+ "covered": 38,
+ "missing_count": 149,
  "missing": [
   {
    "fingerprint": "doi:10.1038/s43587-026-01209-9",
@@ -442,17 +442,6 @@
    "basis": "四路均未命中（DOI=10.1016/j.cell.2026.07.015，标题相似 0.00，词元重叠 0.33）"
   },
   {
-   "fingerprint": "doi:10.1038/s43587-026-01227-7",
-   "title": "Mitochondrial membrane lipid cardiolipin controls fiber-type adaptations in aging muscle via estrogen-related receptor γ",
-   "doi": "10.1038/s43587-026-01227-7",
-   "code": "N2",
-   "seen_in": [
-    "cards_2026-10-02.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1038/s43587-026-01227-7，标题相似 0.00，词元重叠 0.50）"
-  },
-  {
    "fingerprint": "doi:10.1038/s43587-026-01221-z",
    "title": "A cross-species single-cell kidney epigenome atlas reveals epithelial-dominant aging-like states in disease",
    "doi": "10.1038/s43587-026-01221-z",
@@ -811,6 +800,17 @@
    "basis": "四路均未命中（DOI=10.1007/s11357-025-02017-6，标题相似 0.00，词元重叠 0.33）"
   },
   {
+   "fingerprint": "doi:10.1007/s11357-025-02022-9",
+   "title": "Intervertebral disc degeneration is accelerated by GH overexpression but attenuated by GH antagonism",
+   "doi": "10.1007/s11357-025-02022-9",
+   "code": "G10",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1007/s11357-025-02022-9，标题相似 0.00，词元重叠 0.50）"
+  },
+  {
    "fingerprint": "doi:10.1007/s11357-026-02550-y",
    "title": "Dietary pattern and epigenetic aging: a longitudinal twin study",
    "doi": "10.1007/s11357-026-02550-y",
@@ -1040,17 +1040,6 @@
    ],
    "status": "漏收",
    "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.60）；★中文摘要条目，必须人工核对站内中文关键词"
-  },
-  {
-   "fingerprint": "doi:10.1002/mco2.70899",
-   "title": "一个月等热量纯素 vs 高肉饮食；PhenoAge −1.7 岁",
-   "doi": "10.1002/mco2.70899",
-   "code": "12",
-   "seen_in": [
-    "meta_2026-10.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1002/mco2.70899，标题相似 0.00，词元重叠 0.60）；★中文摘要条目，必须人工核对站内中文关键词"
   },
   {
    "fingerprint": "t:efd4e05fc7f33f00",
@@ -1691,7 +1680,7 @@
    "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
   }
  ],
- "orphan_count": 417,
+ "orphan_count": 418,
  "orphan_sample": [
   "7-Ketocholesterol-Derivatives-Pathophysiology.html",
   "AAV-FGF21-Gene-Therapy-Healthspan-Lifespan-2026.html",

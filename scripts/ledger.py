@@ -99,9 +99,25 @@ def scan_site(root):
     return slugs, titles, dois, out
 
 
-def audit(root, outputs):
+def audit(root, outputs, entries=None, per_file=None):
+    """双向对账
+
+    entries / per_file 传入 build 阶段的持久化清单；
+    不传则现场扫 outputs 文件。两者都不为空时合并。
+    """
     slugs, titles, dois, site_fp = scan_site(root)
-    items, per_file = scan_outputs(outputs)
+    items, scanned = scan_outputs(outputs) if outputs else ({}, {})
+    if entries:
+        for e in entries:                # 持久化清单优先，保留其 seen_in
+            fp = e["fingerprint"]
+            if fp not in items:
+                items[fp] = e
+            else:
+                items[fp]["seen_in"] = sorted(set(
+                    items[fp]["seen_in"]) | set(e.get("seen_in", [])))
+    merged_files = dict(per_file or {})
+    merged_files.update(scanned)
+    per_file = merged_files
 
     missing, covered = [], 0
     for fp, it in items.items():
@@ -181,11 +197,25 @@ def main():
             print(f"  {fn}: {meta['rows']} 行 / {meta['bytes']} B {flag}")
 
     elif cmd == "audit":
-        files = []
-        for p in sorted(glob.glob(os.path.join(root, ".intake/raw/*.md"))):
-            files.append(p)
-        files += sys.argv[3:]
-        rep = audit(root, files)
+        # 产出侧清单优先读 data/ledger-outputs.json（build 阶段的持久化结果）。
+        # 为什么不能只扫 .intake/raw：.intake/ 已gitignore（网盘产出副本不入库），
+        # 清空暂存后 audit 会误报「产出条目 0」——那是对账能力的静默失效，
+        # 比报错更危险。找不到持久化清单时明确告警而不是返回空结果。
+        outfile = os.path.join(root, "data/ledger-outputs.json")
+        files = sorted(glob.glob(os.path.join(root, ".intake/raw/*.md")))
+        entries, per_file = [], {}
+        if os.path.exists(outfile):
+            saved = json.load(open(outfile, encoding="utf-8"))
+            entries = saved.get("entries", [])
+            per_file = saved.get("files", {})
+            print(f"产出清单读自 {outfile}（{len(entries)} 条，"
+                  f"{len(per_file)} 个文件）")
+        else:
+            print(f"⚠️ 未找到 {outfile} —— 产出侧清单缺失，对账结果不可信。\n"
+                  f"   请先跑：python3 scripts/ledger.py build <repo> <产出文件...>\n")
+        if files:
+            print(f"另发现 {len(files)} 个 .intake/raw 产出文件（未 build 进台账）")
+        rep = audit(root, files, entries=entries, per_file=per_file)
         out = os.path.join(root, "data/ledger.json")
         json.dump(rep, open(out, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         print(f"站内 {rep['site']['articles']} 篇 / DOI {rep['site']['dois']} 个")
