@@ -29,5 +29,23 @@
     "verified_at": "2026-10-16T07:52:00+08:00",
     "by": "摄入巡检 12409847",
     "note": "网站层《运营待办清单》。dir_list 缓存 31351 B（陈旧），实测 42341 B。"
+  },
+  "dcstQIgaFtPO": {
+    "bytes": 967092,
+    "verified_at": "2026-10-17T07:52:00+08:00",
+    "by": "摄入巡检 12409847",
+    "note": "文献层 全文PDF/G09_frailty_mortality_UKB_PMID41351715.pdf。实测 967092 B（13 页），PDF 头正常。据全文升级了 news/Frailty-Mortality-Link-In-People-GeroScience-2026.html。"
+  },
+  "dNzUHbVFQTBa": {
+    "bytes": 1553065,
+    "verified_at": "2026-10-17T07:52:00+08:00",
+    "by": "摄入巡检 12409847",
+    "note": "文献层 全文PDF/G21_PROMETHEUS_protocol_PMID42393428.pdf。实测 1553065 B（34 页），PDF 头正常。据全文升级了 PROMETHEUS 文章并更正证据分级 C→A。"
+  },
+  "dNSmHwfzNMrn": {
+    "bytes": 24,
+    "verified_at": "2026-10-17T07:52:00+08:00",
+    "by": "摄入巡检 12409847",
+    "note": "文献层 upload_test.txt。实测 24 B，内容为 upload_probe_2026-10-16，系上传链路测试探针，非产出。"
   }
 }

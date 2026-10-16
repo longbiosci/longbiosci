@@ -169,6 +169,16 @@
    "bytes": 33644,
    "suspicious_empty": false
   },
+  "运营待办清单.md": {
+   "rows": 0,
+   "bytes": 44614,
+   "suspicious_empty": false
+  },
+  "运营日志.md": {
+   "rows": 0,
+   "bytes": 101368,
+   "suspicious_empty": false
+  },
   "预印本速递_2026-09-13.md": {
    "rows": 0,
    "bytes": 3809,
@@ -181,8 +191,8 @@
   }
  },
  "output_entries": 339,
- "covered": 168,
- "missing_count": 171,
+ "covered": 169,
+ "missing_count": 170,
  "missing": [
   {
    "fingerprint": "t:90bec65f27ced9a5",
@@ -1439,17 +1449,6 @@
    "basis": "四路均未命中（DOI=10.1007/s11357-026-02498-z，标题相似 0.00，词元重叠 0.33）"
   },
   {
-   "fingerprint": "doi:10.1038/s43587-026-01227-7",
-   "title": "Mitochondrial membrane lipid cardiolipin controls fiber-type adaptations in aging muscle via estrogen-related receptor γ",
-   "doi": "10.1038/s43587-026-01227-7",
-   "code": "N2",
-   "seen_in": [
-    "cards_2026-10-02.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1038/s43587-026-01227-7，标题相似 0.00，词元重叠 0.50）"
-  },
-  {
    "fingerprint": "doi:10.1038/s43587-026-01221-z",
    "title": "A cross-species single-cell kidney epigenome atlas reveals epithelial-dominant aging-like states in disease",
    "doi": "10.1038/s43587-026-01221-z",
@@ -1637,6 +1636,17 @@
    "basis": "四路均未命中（DOI=10.1111/acel.70706，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
   },
   {
+   "fingerprint": "doi:10.1007/s11357-026-02362-0",
+   "title": "Study protocol for FAXAge: a randomized, controlled clinical trial of fasting and exercise to slow aging in humans",
+   "doi": "10.1007/s11357-026-02362-0",
+   "code": "G1",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1007/s11357-026-02362-0，标题相似 0.00，词元重叠 0.50）"
+  },
+  {
    "fingerprint": "doi:10.1007/s11357-026-02554-8",
    "title": "Autologous cytokine-induced NK cells as candidate cellular senolytics: evidence, obstacles…",
    "doi": "10.1007/s11357-026-02554-8",
@@ -1723,17 +1733,6 @@
    ],
    "status": "漏收",
    "basis": "四路均未命中（DOI=10.1007/s11357-025-02017-6，标题相似 0.00，词元重叠 0.33）"
-  },
-  {
-   "fingerprint": "doi:10.1007/s11357-025-02022-9",
-   "title": "Intervertebral disc degeneration is accelerated by GH overexpression but attenuated by GH antagonism",
-   "doi": "10.1007/s11357-025-02022-9",
-   "code": "G10",
-   "seen_in": [
-    "cards_2026-10-02.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1007/s11357-025-02022-9，标题相似 0.00，词元重叠 0.50）"
   },
   {
    "fingerprint": "doi:10.1007/s11357-026-02550-y",

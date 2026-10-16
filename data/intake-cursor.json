@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-16T07:43:45+08:00",
+ "updated_at": "2026-10-17T07:43:12+08:00",
  "entries": {
   "dkwSBCCuiNrB": {
    "name": "文献层_五刊监控_深度文献卡片_2026-10-02",
@@ -681,6 +681,40 @@
     "ZNF865-BLST-Novel-Regulator-Of-AgingCell-2026.html"
    ],
    "note": "10-16 期 67 张卡片（Nat Aging 17/Cell Metab 1/Aging Cell 22/GeroScience 22/Cell 5）；四路查重+关键词硬核验：N02/N10 DOI 精确命中、N04 站内文无 DOI 靠 AdipoRon/卵巢衰老硬核验确认为同篇，3 条已在站跳过；其余 64 条真漏收已全部入站（482→546）。本轮修复 harvest.normalize_doi：Markdown 链接型 DOI 被吞成空串，导致 67 个 DOI 全部失效、判定退化成 confidence=none。"
+  },
+  "dcstQIgaFtPO": {
+   "name": "全文PDF/G09_frailty_mortality_UKB_PMID41351715",
+   "layer": "文献层",
+   "size": 967092,
+   "mtime": "1792179119000",
+   "status": "done",
+   "done_at": "2026-10-17T07:43:12+08:00",
+   "slugs": [
+    "Frailty-Mortality-Link-In-People-GeroScience-2026.html"
+   ],
+   "note": "全文PDF归档（G09）。已下载核验 967092B/13页，据此将对应站内文章从摘要级升级为全文级：补齐各疾病组样本量(循环89,239/肌肉骨骼88,663/呼吸49,822)、完整校正变量清单、Cox+Miettinen PAF 统计细节、样本形成链路(502,206→303,154→230,960)、基线衰弱构成与随访死亡数。"
+  },
+  "dNzUHbVFQTBa": {
+   "name": "全文PDF/G21_PROMETHEUS_protocol_PMID42393428",
+   "layer": "文献层",
+   "size": 1553065,
+   "mtime": "1792179024000",
+   "status": "done",
+   "done_at": "2026-10-17T07:43:12+08:00",
+   "slugs": [
+    "PROMETHEUS-Clinical-Trial-Protocol-Tailoring-GeroScience-2026.html"
+   ],
+   "note": "全文PDF归档（G21）。已下载核验 1553065B/34页，据此升级为全文级：补齐 Table 3 全部补充剂剂量与第4周升级规则、gerotype 判定阈值与常模来源、入排、运动处方、六项可行性参数、统计方案；并更正证据分级 C→A（原标「预印本/观点评论」与事实不符，实为同行评议 Methods Paper，已注册 NCT07451496）。"
+  },
+  "dNSmHwfzNMrn": {
+   "name": "upload_test",
+   "layer": "文献层",
+   "size": 24,
+   "mtime": "1792137562000",
+   "status": "done",
+   "done_at": "2026-10-17T07:43:12+08:00",
+   "slugs": [],
+   "note": "非产出：upload_test.txt 24B（内容 upload_probe_2026-10-16），系上游做网盘上传链路连通性测试后遗留的探针文件，无内容价值，不入站。已在巡检报告中建议清理。"
   }
  }
 }
