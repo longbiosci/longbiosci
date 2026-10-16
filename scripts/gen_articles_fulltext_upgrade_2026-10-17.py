@@ -34,6 +34,7 @@ gen_articles_fulltext_upgrade_2026-10-17.py —— 全文级升级批（内容�
 · 证据分级：依 /evidence/ 公开定义（A=同行评议人体研究 / B=临床前 / C=预印本）。
 · 不新增文章条目，只升级既有条目；slug 不变，故内部链接与 sitemap 无需改动。
 """
+import html
 import json
 import os
 import re
@@ -259,6 +260,11 @@ DESC_NEW_F = (
 )
 
 
+RE_META_DESC = re.compile(r'<meta name="description" content="([^"]*)">')
+RE_DATA_TIER = re.compile(r'data-tier="([A-D])"')
+RE_TIER_SPAN = re.compile(r'<span class="tier tier-([a-d])">')
+
+
 def sync_index(pairs):
     """把升级同步回 data/articles.json。
 
@@ -269,34 +275,73 @@ def sync_index(pairs):
     **仍是旧值**——evidence 改了却不同步，等于改了个寂寞，
     而且会让 articles.json 与文章页自相矛盾。
 
-    同步只覆盖本批动过的两个字段（evidence / desc），其余字段原样保留，
+    ⚠️ 为什么以 HTML 为事实源、而不是对 JSON 做字符串替换
+    合并远端分支后发现：同一篇文章在两边 articles.json 里的 desc 写法不一致
+    （远端保留了 HTML 实体 `&quot;`，本地是转义后的 `"`）。按固定片段去
+    replace 会直接失配。**HTML 是本批唯一被真正编辑过的文件**，
+    所以反过来以它为源重新提取——既不会失配，也顺手把这类历史不一致抹平
+    （提取时统一 unescape）。
+
+    只覆盖本批动过的两个字段（evidence / desc），其余字段原样保留，
     序列化沿用 build-index 的口径（CRLF + indent=1）。
     """
     p = os.path.join(ROOT, "data", "articles.json")
     with open(p, encoding="utf-8") as f:
         recs = json.load(f)
     by = {r["slug"]: r for r in recs}
-    for slug, evi, old_desc, new_desc in pairs:
+
+    for slug, want_evi, _old, _new in pairs:
         r = by.get(slug)
         if r is None:
             print(f"✗ articles.json 中无此 slug：{slug}")
             sys.exit(1)
-        if old_desc and old_desc not in r.get("desc", ""):
-            print(f"✗ desc 锚点未命中（articles.json）：{slug}")
+        # 局部变量不能叫 html —— 会遮蔽模块级的 import html，unescape 就废了
+        with open(os.path.join(NEWS, slug), encoding="utf-8") as f:
+            doc = f.read()
+        md = RE_META_DESC.search(doc)
+        if not md:
+            print(f"✗ HTML 中无 meta description：{slug}")
             sys.exit(1)
-        if old_desc:
-            r["desc"] = r["desc"].replace(old_desc, new_desc)
-        if evi:
-            old_evi = r.get("evidence")
+        desc = html.unescape(md.group(1))
+        mt = RE_DATA_TIER.search(doc) or RE_TIER_SPAN.search(doc)
+        evi = mt.group(1).upper() if mt else ""
+
+        changed = []
+        if evi and r.get("evidence") != evi:
+            changed.append(f"evidence {r.get('evidence')} → {evi}")
             r["evidence"] = evi
-            print(f"   evidence {old_evi} → {evi}")
+        if r.get("desc") != desc:
+            changed.append("desc 刷新")
+            r["desc"] = desc
+        if want_evi and evi != want_evi:
+            print(f"✗ HTML 的证据分级是 {evi}，与预期 {want_evi} 不符：{slug}")
+            sys.exit(1)
+        print(f"   {slug[:52]}：{' · '.join(changed) or '无变化'}")
+
     text = json.dumps(recs, ensure_ascii=False, indent=1).replace("\n", "\r\n")
     with open(p, "w", encoding="utf-8", newline="") as f:
         f.write(text)
     print(f"   articles.json 同步完成（{len(recs)} 条）")
 
 
+SYNC_PAIRS = [
+    # (slug, evidence, 旧 desc 片段, 新 desc 片段)
+    (SLUG_P, "A", DESC_OLD_P.replace("&quot;", '"'),
+     DESC_NEW_P.replace("&quot;", '"')),
+    (SLUG_F, None, DESC_OLD_F.replace("&quot;", '"'),
+     DESC_NEW_F.replace("&quot;", '"')),
+]
+
+
 def main():
+    if "--sync-only" in sys.argv:
+        # 合并远端分支后，data/articles.json 被对方版本覆盖，内容侧的
+        # evidence / desc 改动需要重新贴回去（HTML 侧的改动不冲突，已保留）。
+        # 单独提供入口，避免为了同步而重跑整批替换（那时锚点已不存在）。
+        print("仅同步 data/articles.json（--sync-only）：")
+        sync_index(SYNC_PAIRS)
+        return 0
+
     done = []
 
     # ── PROMETHEUS ──
@@ -347,12 +392,7 @@ def main():
 
     # ── 同步回 articles.json（build-index 对已登记条目不覆盖，必须显式同步）──
     print("\n同步 data/articles.json：")
-    sync_index([
-        (SLUG_P, "A",
-         DESC_OLD_P.replace("&quot;", '"'), DESC_NEW_P.replace("&quot;", '"')),
-        (SLUG_F, None,
-         DESC_OLD_F.replace("&quot;", '"'), DESC_NEW_F.replace("&quot;", '"')),
-    ])
+    sync_index(SYNC_PAIRS)
 
     print(f"\n升级完成 {len(done)} 篇（均为既有条目升级，无新增 slug）：")
     for s in done:

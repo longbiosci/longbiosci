@@ -104,18 +104,43 @@ def item_slug(item):
     return m.group(1) if m else None
 
 
+def new_item_sep(items):
+    """从既有 item 的尾部推断「item 之间的间隔符」（如 "\\r\\n"），
+    供新建 item 复用，避免新条目与后一条粘在同一行。
+    推断不出时回退到 "\\n"——至少不会粘连。"""
+    for it in items:
+        m = re.search(r"</item>(\s*)\Z", it)
+        if m and m.group(1):
+            return m.group(1)
+    return "\n"
+
+
 def split_rss(raw):
-    """拆成 (head, items, tail)；items 为原始字符串列表，原样保留。"""
-    m = ITEM_RE.search(raw)
-    if not m:
+    """拆成 (head, items, tail)；items 为原始字符串列表，原样保留。
+
+    2026-10-17 修复：items 必须**连同其后的间隔符**一起切出。
+    原实现用 findall 只取 `<item>…</item>` 本身，item 之间的换行/缩进
+    （本仓库 75 个 item 共 21 处）会被静默丢弃；main() 里
+    `head + "".join(items) + tail` 再拼回去时，整个文件就被压成少数几行——
+    即便当日一篇新文章都没有，跑一次管线也会产生一次覆盖全文件的 diff，
+    把真正的「新增/挤出 item」淹没在上百行 churn 里。
+    故改为按 span 切分，每个元素 = item 原文 + 其后到下一个 item 前的原文，
+    保证 join 结果与输入逐字节相等。
+    """
+    spans = [(m.start(), m.end()) for m in ITEM_RE.finditer(raw)]
+    if not spans:
         # 无 item：按 </channel> 拆分，保持文件其余部分原样
         idx = raw.find("  </channel>")
         if idx != -1:
             return raw[:idx], [], raw[idx:]
         return raw, [], DEFAULT_TAIL
-    items = ITEM_RE.findall(raw)
-    last_end = raw.rfind("</item>") + len("</item>")
-    return raw[:m.start()], items, raw[last_end:]
+    items = []
+    for i, (start, _end) in enumerate(spans):
+        # 到下一 item 起点为止（末个 item 取到它自己的结尾）
+        stop = spans[i + 1][0] if i + 1 < len(spans) else spans[i][1]
+        items.append(raw[start:stop])
+    last_end = spans[-1][1]
+    return raw[:spans[0][0]], items, raw[last_end:]
 
 
 def main():
@@ -156,8 +181,11 @@ def main():
                 if r.get("date") == date_str and r["slug"] not in existing]
 
     # 按 articles.json 顺序逐個 insert(0) → 当日块呈 JSON 逆序（与 10-14 实证一致）
+    # 新建的 item 是单行，须补上与其它 item 相同的间隔符，否则拼回去时会
+    # 与后一个 item 粘在同一行（split_rss 现在保留间隔符，新建的也得跟上）。
+    sep = new_item_sep(items)
     for rec in new_recs:
-        items.insert(0, item_xml(rec))
+        items.insert(0, item_xml(rec) + sep)
 
     if new_recs:
         evicted = items[MAX_ITEMS:]          # 上限之外的被静默丢弃，必须点名
@@ -175,6 +203,22 @@ def main():
         print(f"  rss.xml: {date_str} 无新文章，未变动")
 
     out = head + "".join(items) + tail
+
+    # 换行符风格保真：仓库 rss.xml 是 CRLF，而本脚本的模板常量是 LF。
+    # 若不做此转换，即便当日没有新文章，每次跑管线也会把整个文件从 CRLF 刷成 LF，
+    # 产生一次覆盖全文件的无意义 diff —— 它既污染 git 历史，也会把真正的
+    # 内容变更（新增/挤出 item）淹没在上百行 churn 里，让验收看不到重点。
+    #
+    # 坑（2026-10-17 实测踩到）：检测必须用二进制读。上面的 raw 是用文本模式
+    # 读的，Python 的 universal newlines 早把 CRLF 规整成了 LF，拿 raw 判断
+    # 永远得到 LF，转换形同虚设。故此处单独二进制读一次。
+    try:
+        with open(rss_path, "rb") as f:
+            newline = "\r\n" if b"\r\n" in f.read() else "\n"
+    except OSError:
+        newline = "\n"
+    out = re.sub(r"\r?\n", newline, out)
+
     with open(rss_path, "w", encoding="utf-8", newline="") as f:
         f.write(out)
     print(f"RSS 更新完成: {len(items)} 个 item（上限 {MAX_ITEMS}）")

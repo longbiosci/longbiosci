@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-verify-pipeline.py —— LongBiosci 本地管线（7 环节）整体验收脚本 v1.0
+verify-pipeline.py —— LongBiosci 本地管线（11 环节）整体验收脚本 v1.0
 
 做法：把仓库整体复制到临时目录（cp -a 保留 mtime）→ 在副本上按
-run-pipeline.sh 的顺序跑完 7 个脚本 → 与仓库线上基线逐件比对。
+run-pipeline.sh 的顺序跑完 11 个脚本 → 与仓库线上基线逐件比对。
 
 验收口径：
   · data/articles.json / index.html / topics/*.html / news/*.html /
@@ -120,7 +120,7 @@ def main():
 
         gold = snapshot(case)
 
-        print("[1] 执行 run-pipeline.sh（7 环节）")
+        print("[1] 执行 run-pipeline.sh（11 环节）")
         r = subprocess.run(["bash", os.path.join(PIPE, "run-pipeline.sh"), case],
                            capture_output=True, text=True)
         print(r.stdout.rstrip())
