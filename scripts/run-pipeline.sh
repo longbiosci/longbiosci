@@ -9,7 +9,7 @@
 #   --date / --now  透传给 add-rss-today-run.py（仅用于确定性复现；
 #                   日常运行不要传，脚本会自动取当天 UTC 日期与当前时刻）
 #
-# 依次执行 10 个环节（顺序与 .github/workflows/regen-index.yml 注释记载一致）：
+# 依次执行 11 个环节（顺序与 .github/workflows/regen-index.yml 注释记载一致）：
 #   1 build-index.py        从 news/*.html 重建 data/articles.json（追加式）
 #   2 gen-home.py           生成 index.html
 #   3 gen-topic-pages.py    生成 topics/ 8 个专题页 + 12 个分页页 + 索引页
@@ -19,19 +19,28 @@
 #   7 inject-poster.py      给文章页注入 /poster.js（已有则跳过）
 #   8 sync-search-index.py  重建 data/search-index.json 并刷新 search.html 计数
 #   9 refresh_counts.py     把各处「N 篇」计数回写为事实源（幂等；本环节自愈）
-#  10 check-links.py        全站死链 + 计数一致性检查（不通过则本管线失败）
+#  10 audit-traceability.py 溯源完整性审计（只报告不阻断，产出 data/traceability-audit.json）
+#  11 check-links.py        全站死链 + 计数一致性检查（末位硬校验，不通过则本管线失败）
 #
-# 环节 9 为什么放在 10 之前（2026-10-16 新增）
+# 环节 9 为什么放在校验之前（2026-10-16 新增）
 # ------------------------------------------
 # 概念页页标 / research/index.html / 首页概念卡片的计数此前**不归任何生成器管**，
 # 只能靠人手跑 refresh_counts.py，于是每次内容摄入重建站点后都漂一次
 # （第一次 380→482 漂、第二次 546 篇时又漂，两次都是人工发现人工修）。
-# 接入管线后由环节 9 自动回写，环节 10 再校验——分工是：
+# 接入管线后由环节 9 自动回写，末位再校验——分工是：
 #   · 环节 9 负责「自愈」：把计数改成事实源值，并在 stdout 打印改了哪些
-#   · 环节 10 负责「兜底」：死链仍会硬失败；若环节 9 之后计数还不一致，
+#   · 末位负责「兜底」：死链仍会硬失败；若环节 9 之后计数还不一致，
 #     说明出现了刷新器覆盖不到的新计数点，必须人工介入而不是静默放过
-# 顺序不可颠倒：先刷新后校验。若先校验，漂移会让管线在第 10 环节直接红，
+# 顺序不可颠倒：先刷新后校验。若先校验，漂移会让管线在末位直接红，
 # 内容摄入被卡住，而漂移本身又没人修——这正是此前两周的实际状态。
+#
+# 环节 10 为什么只报告不阻断（2026-10-16 新增）
+# -------------------------------------------
+# 溯源审计量的是「每篇有没有 DOI / 有没有可点来源」，对照 /about/ 的溯源承诺。
+# 现状有缺口（约 138 篇无 DOI、十余篇彻底无来源），但缺口是**历史存量**，
+# 不是本次管线跑出来的新伤——让它硬失败等于拿历史问题卡住今天的内容摄入。
+# 故只报告、退出码恒 0，把数字固化成 data/traceability-audit.json 供趋势对比；
+# 等缺口收敛到可接受水平后再考虑升级为硬校验。
 #
 # ⚠️ 不要在 GitHub Actions 里跑：checkout 会重置全部文件 mtime，
 #    导致环节 5 的非文章页 lastmod 全量漂移到 checkout 当天。
@@ -55,7 +64,7 @@ PYTHON="${PYTHON:-python3}"
 step() {
   local n="$1" script="$2" desc="$3"
   shift 3
-  printf '\n[%s/10] %-22s %s\n' "$n" "$script" "$desc"
+  printf '\n[%s/11] %-22s %s\n' "$n" "$script" "$desc"
   if [[ "$script" == "add-rss-today-run.py" ]]; then
     "$PYTHON" "$HERE/$script" "$ROOT" "$@"
   else
@@ -73,7 +82,8 @@ step 5 rebuild-sitemap.py    "重建 sitemap.xml"
 step 6 add-rss-today-run.py  "追加当日新文章到 rss.xml"
 step 7 inject-poster.py      "注入海报脚本 /poster.js"
 step 8 sync-search-index.py  "重建站内搜索索引与计数"
-step 9 refresh_counts.py     "各处「N 篇」计数回写事实源（幂等）"
-step 10 check-links.py       "全站死链与计数一致性检查"
+step 9 refresh_counts.py        "各处「N 篇」计数回写事实源（幂等）"
+step 10 audit-traceability.py   "溯源完整性审计（只报告，不阻断）"
+step 11 check-links.py          "全站死链与计数一致性检查（末位硬校验）"
 
-printf '\n✅ 管线执行完成（10/10）\n'
+printf '\n✅ 管线执行完成（11/11）\n'
