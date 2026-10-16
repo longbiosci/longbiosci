@@ -11,6 +11,17 @@
   "source": "arxiv.org"
  },
  {
+  "slug": "Multiverse-Brain-Age-Pipeline-Sensitivity-2026.html",
+  "title": "脑龄预测的「多宇宙」：84 条流水线告诉你，方法和图谱选择能把误差从 5.26 岁推到 18.30 岁",
+  "desc": "荷兰 Tilburg 大学团队用 84 种流水线组合（4 模态 × 3 图谱 × 7 校正）在 CamCAN 560 名健康成人上预测脑龄，MAE 从 5.26 到 18.30 岁。模态与偏倚校正显著影响精度，图谱选择不影响精度但决定「哪些连接最重要」——后者跨图谱几乎不重叠。预印本，未同行评审。",
+  "tag": "方法学",
+  "date": "2026-10-17",
+  "topic": "方法与工具",
+  "type": "综述解读",
+  "evidence": "C",
+  "source": "www.biorxiv.org"
+ },
+ {
   "slug": "Regeneration-Transient-Transcriptomic-Rejuvenation-Gut-Liver-2026.html",
   "title": "再生让小鼠肠与肝「变年轻」了？Gladyshev 组 63 页预印本给出一个带边界的答案",
   "desc": "Gladyshev 组为小鼠肠道与上皮构建了跨研究验证的转录组衰老时钟，发现再生状态下上皮被预测为更年轻：11 类再生模型无一例外，但衰老分数只被部分逆转，且在肠中高度可逆、在肝中可持续到术后第 10 天。空间转录组进一步显示「年轻」与「修复」并非同义词。",
