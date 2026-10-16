@@ -74,7 +74,7 @@ python3 scripts/cursor.py empty  --repo . --file-id <id> --note "size=0，需重
 news/*.html + articles.json
    │ ⑤ backfill-doi.py 补DOI 索引   ← 必须在写稿后跑，否则新文查不到
    ▼
-   │ ⑥ run-pipeline.sh（9 阶段，末位为死链+计数硬校验）
+   │ ⑥ run-pipeline.sh（10 阶段，末位为死链+计数硬校验）
    ▼
 线上
    │ ⑦ ledger.py audit 对账 ── 产出 vs 上站双向核对
@@ -236,14 +236,15 @@ python3 scripts/harvest.py <repo> <files...> --mech /path/to/mech.json
 | `scripts/gen_missing_2026-09-25.py` | ④ 写稿范例（台账核定漏收的处置记录） |
 | `scripts/fetch.py` | 从 JSON 读 download_url 原样下载（防手抄 URL 出错） |
 | `scripts/check-links.py` | ⑥末位：死链 + 计数一致性硬校验（不通过则管线失败） |
-| `scripts/run-pipeline.sh` | ⑥ 上线：9 阶段管线 |
+| `scripts/refresh_counts.py` | ⑥倒数第二：各处「N 篇」计数回写事实源（幂等自愈） |
+| `scripts/run-pipeline.sh` | ⑥ 上线：10 阶段管线 |
 
 ## 每日自检清单（跑一遍才算完成一轮）
 
 ```bash
 python3 scripts/backfill-doi.py .        # 索引与文章库一致
 python3 scripts/ledger.py audit .        # 读 data/ledger-outputs.json 对账，漏收数与上轮对比
-bash scripts/run-pipeline.sh             # 9/9，末位必须打印「检查通过」
+bash scripts/run-pipeline.sh             # 10/10，末位必须打印「检查通过」
 python3 -c "import json;print(len(json.load(open('data/articles.json'))))"  # 与首页/sitemap/search-index 一致
 ```
 
