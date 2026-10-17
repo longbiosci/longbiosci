@@ -1,13 +1,17 @@
 /* ==========================================================================
    LongBiosci 海报生成器
    在文章页挂载「生成海报」按钮，运行时读取页面 DOM 元数据，
-   用 Canvas 绘制分享长图并提供 PNG 下载。
+   用 Canvas 绘制分享长图，支持下载 PNG / 分享 / 复制链接。
 
    设计要点：
-   1. 不注入任何 HTML 结构，自身在运行时挂载 → 对存量 377 篇零侵入
+   1. 不注入任何 HTML 结构，自身在运行时挂载 → 对存量文章页零侵入
    2. 数据来自页面已有的 h1 / description / time / data-tier，避免重复维护
    3. 纯前端 Canvas 绘制，无第三方依赖（与全站零追踪方针一致）
    4. 幂等：重复执行只会覆盖同一挂载点，不会产生第二个按钮
+   5. 分享为渐进增强：navigator.share 存在才渲染「分享」按钮（优先分享
+      PNG 文件，平台不支持时退化到分享链接）；「复制链接」始终可用
+      （clipboard API + execCommand 双兜底）。操作反馈走弹层内 tip 文本，
+      不用 alert()——不打断、不阻塞、移动端不弹难看系统框
    ========================================================================== */
 (function () {
   'use strict';
@@ -471,34 +475,123 @@
     }
   }
 
-  /* ---------- 下载 ---------- */
-  function download(canvas, m) {
-    var name = 'longbiosci-' + (document.title || 'poster')
+  /* ---------- 导出 ---------- */
+  function posterName() {
+    return 'longbiosci-' + (document.title || 'poster')
       .replace(/[\\/:*?"<>|\s]+/g, '-')
       .slice(0, 60) + '.png';
-    // 优先 toBlob，回退 toDataURL
+  }
+
+  function save(href, fname) {
+    var a = document.createElement('a');
+    a.href = href;
+    a.download = fname;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  }
+
+  // 统一取 PNG Blob：优先 toBlob；老浏览器走 dataURL → Blob 手动转换。
+  // 下载与「分享文件」共用这一条路径，避免两套导出逻辑各写各的。
+  function posterBlob(canvas, cb) {
     if (canvas.toBlob) {
-      canvas.toBlob(function (blob) {
-        var url = URL.createObjectURL(blob);
+      canvas.toBlob(function (blob) { cb(blob || null); }, 'image/png');
+      return;
+    }
+    try {
+      var du = canvas.toDataURL('image/png');
+      var bin = atob(du.split(',')[1]);
+      var buf = new Uint8Array(bin.length);
+      for (var i = 0; i < bin.length; i++) buf[i] = bin.charCodeAt(i);
+      cb(new Blob([buf], { type: 'image/png' }));
+    } catch (e) {
+      cb(null);
+    }
+  }
+
+  function download(canvas, blob) {
+    var name = posterName();
+    var go = function (b) {
+      if (b) {
+        var url = URL.createObjectURL(b);
         save(url, name);
         setTimeout(function () { URL.revokeObjectURL(url); }, 2000);
-      }, 'image/png');
-    } else {
-      save(canvas.toDataURL('image/png'), name);
+      } else {
+        save(canvas.toDataURL('image/png'), name);   // 兜底：直接给 dataURL
+      }
+    };
+    if (blob) { go(blob); return; }
+    posterBlob(canvas, go);
+  }
+
+  /* ---------- 分享与复制链接 ---------- */
+  // 渐进增强：navigator.share 存在才显示「分享」按钮。
+  // 优先分享 PNG 文件（Web Share Level 2，移动端原生分享面板可直接发给
+  // 微信/朋友圈/短信）；平台不支持文件分享时退化到分享链接。
+  // 分享文件时刻意不带 url：原文链接已编码在海报右下角二维码里，
+  // 且部分平台对 files + url 混投的处理不一致。
+  function sharePoster(canvas, m, blob, feedback) {
+    var url = m.url || (location.origin + location.pathname);
+    var nav = navigator;
+
+    function doShare(file) {
+      if (!nav.share) { copyLink(url, feedback); return; }
+      var data = file
+        ? { files: [file], title: 'LongBiosci', text: m.title }
+        : { title: document.title, text: m.title, url: url };
+      var p = nav.share(data);
+      if (p && p.then) {
+        p.then(function () { /* 用户完成分享，无需额外提示 */ },
+          function (err) {
+            if (err && err.name === 'AbortError') return;   // 用户主动取消
+            feedback('分享未完成，可下载 PNG 后手动发送');
+          });
+      }
     }
 
-    function save(href, fname) {
-      var a = document.createElement('a');
-      a.href = href;
-      a.download = fname;
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
+    if (blob && window.File && nav.canShare) {
+      try {
+        var f = new File([blob], posterName(), { type: 'image/png' });
+        if (nav.canShare({ files: [f] })) { doShare(f); return; }
+      } catch (e) { /* 构造/探测失败，落到下面的链接分享 */ }
+    }
+    doShare(null);
+  }
+
+  function copyLink(url, feedback) {
+    function ok() { feedback('链接已复制，去粘贴给朋友吧', true); }
+    function fail() { feedback('复制失败，请手动复制地址栏链接'); }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(url).then(ok, function () {
+        legacyCopy(url) ? ok() : fail();
+      });
+    } else {
+      legacyCopy(url) ? ok() : fail();
+    }
+  }
+
+  function legacyCopy(text) {
+    try {
+      var ta = document.createElement('textarea');
+      ta.value = text;
+      ta.setAttribute('readonly', '');
+      ta.style.position = 'fixed';
+      ta.style.top = '0';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      ta.setSelectionRange(0, ta.value.length);
+      var ok = document.execCommand('copy');
+      document.body.removeChild(ta);
+      return ok;
+    } catch (e) {
+      return false;
     }
   }
 
   /* ---------- UI ---------- */
   function buildUI(m) {
+    var hasShare = !!navigator.share;    // 渐进增强：不能分享的平台不渲染「分享」
     var wrap = document.createElement('div');
     wrap.className = 'lb-poster';
     wrap.innerHTML =
@@ -522,14 +615,37 @@
       '<div class="lb-poster-canvas-box"><canvas id="lbPosterCanvas"></canvas></div>' +
       '<div class="lb-poster-actions">' +
       '<button class="lb-poster-dl" type="button">下载 PNG</button>' +
+      '<div class="lb-poster-sub">' +
+      (hasShare ? '<button class="lb-poster-share" type="button">分享</button>' : '') +
+      '<button class="lb-poster-copy" type="button">复制链接</button>' +
+      '</div>' +
       '<p class="lb-poster-tip">长按图片也可保存到相册</p>' +
       '</div></div>';
     document.body.appendChild(overlay);
 
     var canvas = overlay.querySelector('#lbPosterCanvas');
+    var blobCache = null;                // 打开弹层时预生成的 PNG，下载/分享共用
+    var tip = overlay.querySelector('.lb-poster-tip');
+    var tipText = tip.textContent;
+    var tipTimer = null;
+
+    // 反馈走 tip 文本：不打断、不阻塞、移动端不弹难看系统框
+    function feedback(msg, ok) {
+      tip.textContent = msg;
+      tip.classList.toggle('ok', !!ok);
+      if (tipTimer) clearTimeout(tipTimer);
+      tipTimer = setTimeout(function () {
+        tip.textContent = tipText;
+        tip.classList.remove('ok');
+      }, 2400);
+    }
 
     function open() {
       draw(canvas, m);
+      blobCache = null;
+      // 预生成 PNG：navigator.share 要求处在用户手势的激活窗口内，
+      // 打开弹层时就算好，点「分享」即可同步触发，不吃激活窗口的亏。
+      posterBlob(canvas, function (blob) { blobCache = blob; });
       overlay.classList.add('on');
       overlay.setAttribute('aria-hidden', 'false');
       document.body.style.overflow = 'hidden';
@@ -538,13 +654,23 @@
       overlay.classList.remove('on');
       overlay.setAttribute('aria-hidden', 'true');
       document.body.style.overflow = '';
+      blobCache = null;
     }
 
     wrap.querySelector('.lb-poster-btn').addEventListener('click', open);
     overlay.querySelector('.lb-poster-x').addEventListener('click', close);
     overlay.querySelector('.lb-poster-dl').addEventListener('click', function () {
-      download(canvas, m);
+      download(canvas, blobCache);
     });
+    overlay.querySelector('.lb-poster-copy').addEventListener('click', function () {
+      copyLink(m.url || (location.origin + location.pathname), feedback);
+    });
+    var shareBtn = overlay.querySelector('.lb-poster-share');
+    if (shareBtn) {
+      shareBtn.addEventListener('click', function () {
+        sharePoster(canvas, m, blobCache, feedback);
+      });
+    }
     overlay.addEventListener('click', function (e) {
       if (e.target === overlay) close();
     });
