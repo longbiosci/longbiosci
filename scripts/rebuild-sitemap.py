@@ -45,13 +45,21 @@ import re
 import sys
 from datetime import datetime
 
-# 与生成器共用 PER_PAGE，杜绝「两处各写一个 30、日后漂移」的隐患。
+# 与各生成器共用 PER_PAGE，杜绝「两处各写一个 30、日后漂移」的隐患。
 # 文件名含连字符，不能直接 import，用 importlib 按路径加载。
 _spec = importlib.util.spec_from_file_location(
     "gen_news_index", os.path.join(os.path.dirname(os.path.abspath(__file__)), "gen-news-index.py"))
 _mod = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(_mod)
 NEWS_PER_PAGE = _mod.PER_PAGE
+
+_ev_spec = importlib.util.spec_from_file_location(
+    "gen_evidence_pages", os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                       "gen-evidence-pages.py"))
+_ev_mod = importlib.util.module_from_spec(_ev_spec)
+_ev_spec.loader.exec_module(_ev_mod)
+EV_PER_PAGE = _ev_mod.PER_PAGE
+EV_TIERS = [c for c, _t, _d, _n in _ev_mod.TIER_CONFIG]
 
 BASE = "https://longbiosci.com"
 
@@ -99,10 +107,21 @@ GROUPS = [
 GUIDE_INDEX = ("guide/index.html", "weekly", "0.8")
 GUIDE_GROUP = ("guide/*.html", "weekly", "0.7")
 
-# 每日简报页受控清单（golden 基线收录范围）。
-# 注意：daily/2026-10-09/10 两篇 AI 简报页与 index-2026-03-11.html 未被收录，
-# 属原管线遗留疏漏（文件存在但无登记入口），已在运营待办跟踪，复刻版保持现状。
-DAILY_PAGES = ["index.html", "2026-03-28.html"]
+# 每日简报页：改为**扫描目录、数据驱动**，不再用冻结清单。
+#
+# 为什么必须改（2026-10-17 实锤）
+# --------------------------------
+# 原先这里是一份抄自旧基线的受控清单 DAILY_PAGES = ["index.html", "2026-03-28.html"]。
+# 那时 daily/ 下确实只有 2 个简报页，清单不算错；此后《预印本速递》每天出一期，
+# 目录已长到 20+ 期，清单却从不更新。
+#
+# 后果是**静默的**：本脚本重建 sitemap 时只吐清单里的 2 条，
+# 于是 19 个真实存在、线上本已收录的简报页被一次性踢出 sitemap。
+# 可怕之处在于——脚本输出「664 条 URL，重建完成」看着一切正常，
+# 只有拿新旧 sitemap 做一次集合差集才会暴露。故改为扫描，并留此注。
+DAILY_RE = re.compile(r"^\d{4}-\d{2}-\d{2}.*\.html$")
+# 明确排除：与正式索引页重复的历史遗留页，以及同一期的移动版镜像（避免重复内容入 sitemap）
+DAILY_EXCLUDE = {"index-2026-03-11.html", "2026-10-10-mobile.html"}
 
 # 目录索引页（各组第一个输出）
 INDEX_PAGES = [
@@ -167,14 +186,27 @@ def collect(root="."):
     entries.append(("index.html", None, "daily", "1.0"))
 
     # 5) evidence 组
+    #    由 articles.json 推导真实分页数量，而不是 glob 目录。
+    #    理由同 news-N：glob 会把任何残留的 A-9.html 都当合法分页提交给搜索引擎，
+    #    哪怕该级文章已经减少到只有 4 页。sitemap 是对搜索引擎的契约，
+    #    只收录当前真实存在的分页；孤儿分页由 gen-evidence-pages.py 负责清理。
     entries.append(("evidence/index.html", None, *INDEX_PAGES[2][1:]))
-    for p in sorted(glob_group(root, "evidence/*.html")):
-        entries.append((p, None, *GROUPS[1][1:]))
+    with open(os.path.join(root, "data/articles.json"), encoding="utf-8") as f:
+        _arts = json.load(f)
+    for code in EV_TIERS:
+        n = sum(1 for a in _arts if (a.get("evidence") or "").upper() == code)
+        if n == 0:
+            continue
+        entries.append((f"evidence/{code}.html", None, "weekly", "0.7"))
+        for page in range(2, math.ceil(n / EV_PER_PAGE) + 1):
+            entries.append((f"evidence/{code}-{page}.html", None, "weekly", "0.6"))
 
-    # 6) daily 组（受控清单）
+    # 6) daily 组（扫描目录，按文件名排序，确定性顺序）
     entries.append(("daily/index.html", None, *INDEX_PAGES[3][1:]))
-    for name in DAILY_PAGES:
-        if name != "index.html":
+    daily_dir = os.path.join(root, "daily")
+    if os.path.isdir(daily_dir):
+        for name in sorted(n for n in os.listdir(daily_dir)
+                           if DAILY_RE.match(n) and n not in DAILY_EXCLUDE):
             entries.append((f"daily/{name}", None, "monthly", "0.6"))
 
     # 7) 单页配置表（保持原顺序）

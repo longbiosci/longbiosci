@@ -125,7 +125,7 @@ PROMETHEUS 的 A 就是这样被回退成 C 的。
 | `news/index.html` / `sitemap.xml` | 200 / 200 | ✅ 2026-10-17 |
 | 抽验新稿页面（SRSF1 / Akkermansia / PROMETHEUS） | 均 HTTP 200，标题正确 | ✅ |
 | 抽验升级页（PROMETHEUS / 衰弱-死亡 UKB） | HTTP 200，PROMETHEUS 线上分级已为 **A** | ✅ 2026-10-17 |
-| 管线环节数 | **11 环节**（9 refresh_counts / 10 audit-traceability / 11 check-links） | ⚠️ 纪律文档仍写 9 阶段，待同步 |
+| 管线环节数 | **13 环节**（2 sync-evidence / 6 gen-evidence-pages / 11 refresh_counts / 12 audit-traceability / 13 check-links） | ✅ 纪律文档已同步 13 环节 |
 | 溯源完整性（第 10 环节审计） | 强 410 / 中 123 / **断链 16**；页面内无 DOI 139 篇 | ⚠️ 已列待办 |
 | Git 同步状态 | 本地与 `origin/main` **0 / 0**（已推送 `078bf9a..a87291b`） | ✅ 2026-10-17 |
 

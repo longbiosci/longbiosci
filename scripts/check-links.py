@@ -18,11 +18,23 @@ check-links.py —— 全站死链与计数一致性检查（管线第 9 步）
 2. 内部资源：/style.css /poster.js /logo-mark.svg 等必须存在
 3. 计数一致：articles.json / search-index.json / sitemap.xml / 首页 / 搜索页
 4. 产出纪律：news/ 下 HTML 文件数与 articles.json 条目数必须相等
+5. 证据分级：evidence/index.html 三个分级计数 == articles.json 分级分布，
+   且磁盘上的分级分页数量与数据量推导的一致（不多不少）
+
+扫描范围（2026-10-17 扩）
+────────────────────
+此前只扫根目录 / news/ / topics/，evidence/ guide/ 等栏目页**从未被扫过**。
+
+后果是真实且昂贵的：evidence/index.html 长期写着「A 94 / B 269 / C 17」，
+而事实是「A 131 / B 311 / C 109」——整整 425 篇的差异在站内躺了数日无人发现，
+原因是「死链扫描」与「计数校验」都绕开了这个目录。
+扫描范围自此覆盖全部栏目目录，栏目页漂移与栏目页死链一并纳入。
 
 退出码：0 = 全通过；1 = 有问题（清单打印到stdout）
 """
 import glob
 import json
+import math
 import os
 import re
 import sys
@@ -31,12 +43,20 @@ from collections import Counter
 ROOT = sys.argv[1] if len(sys.argv) > 1 else "."
 
 
+# 全站栏目目录。改这里等于改「哪些页面会被扫到」——
+# 新增栏目目录务必登记，否则该目录的死链与计数漂移会再次隐身。
+SCAN_DIRS = ["", "news", "topics", "evidence", "guide", "research",
+             "companies", "events", "daily", "about", "privacy",
+             "investors", "papers"]
+
+
 def rel_targets():
     """站内绝对路径（/xxx.html）→ 对应磁盘文件"""
     t = set()
-    for p in (glob.glob(os.path.join(ROOT, "*.html"))
-              + glob.glob(os.path.join(ROOT, "news", "*.html"))
-              + glob.glob(os.path.join(ROOT, "topics", "*.html"))):
+    paths = []
+    for d in SCAN_DIRS:
+        paths += glob.glob(os.path.join(ROOT, d, "*.html"))
+    for p in paths:
         h = open(p, encoding="utf-8", errors="ignore").read()
         for m in re.findall(r'(?:href|src)="(/[^"#?]+)"', h):
             t.add(m)
@@ -110,13 +130,21 @@ def main():
     home = os.path.join(ROOT, "index.html")
     if os.path.exists(home):
         h = open(home, encoding="utf-8").read()
-        m = re.search(r"共\s*([\d,]+)\s*篇", h)
+        # ⚠️ 两个口径都要认：本站首页实际写的是「全站 N 篇」。
+        # 此前只匹配「共 N 篇」，而首页根本没有这个字样 ——
+        # 于是这个校验**从来没真正执行过**（正则失配时静默跳过，不报错）。
+        # 找到了不等于校对了，这类「写了检查但检查没生效」的坑必须留注。
+        m = (re.search(r"共\s*([\d,]+)\s*篇", h)
+             or re.search(r"全站\s*([\d,]+)\s*篇", h))
         if m:
             n_home = int(m.group(1).replace(",", ""))
             print(f"[计数] 首页声明 {n_home} 篇")
             if n_home != len(arts):
                 problems["首页计数不一致"] += 1
                 details.append(f"首页 {n_home} != articles {len(arts)}")
+        else:
+            problems["首页无计数标记"] += 1
+            details.append("首页未找到「共 N 篇」或「全站 N 篇」计数标记")
 
     search = os.path.join(ROOT, "search.html")
     if os.path.exists(search):
@@ -128,6 +156,60 @@ def main():
             if n != len(arts):
                 problems["搜索页计数不一致"] += 1
                 details.append(f"搜索页 {n} != articles {len(arts)}")
+
+    # ---- 4) 证据分级页与事实源一致 ----
+    # 三件事一起查，缺一件都会让 /evidence/ 与 articles.json 分叉：
+    #   ① 索引页三个分级的计数
+    #   ② 磁盘上各分级的分页数量（多 = 孤儿页会被搜录；少 = 读者看不到后半部分）
+    #   ③ 分级页里列出的文章数 == 该分级的文章总数
+    ev_index = os.path.join(ROOT, "evidence", "index.html")
+    if os.path.exists(ev_index):
+        h = open(ev_index, encoding="utf-8").read()
+        tier_counts = Counter((a.get("evidence") or "").upper() for a in arts)
+        # 卡片在页面上的顺序由 gen-evidence-pages.py 的 TIER_CONFIG 固定为 A/B/C，
+        # 故按文档顺序取到的计数序列可与 ["A","B","C"] 一一对应。
+        # 注意：单捕获组的 findall 返回字符串列表，不是二元组 —— 别再写成 for code, n in ...
+        ev_counts = [int(n.replace(",", "")) for n in
+                     re.findall(r'class="ev-n">([\d,]+)\s*篇</span>', h)]
+        shown = dict(zip(("A", "B", "C"), ev_counts))
+        print(f"[证据] articles 分布 {dict(sorted(tier_counts.items()))}"
+              f" / 索引页显示 {sorted(shown.items())}")
+        if not shown:
+            problems["证据索引无计数"] += 1
+            details.append("evidence/index.html 未找到分级计数标记")
+        else:
+            for code in sorted(tier_counts):
+                if code not in ("A", "B", "C"):
+                    continue
+                if shown.get(code) != tier_counts[code]:
+                    problems["证据索引计数不一致"] += 1
+                    details.append(f"evidence 索引 {code} 级 {shown.get(code)}"
+                                    f" != articles {tier_counts[code]}")
+        # 分页数量：按 PER_PAGE 推导，与 gen-evidence-pages.py 保持同一常量
+        ev_per_page = 24
+        for code in ("A", "B", "C"):
+            n = tier_counts.get(code, 0)
+            want = max(1, math.ceil(n / ev_per_page))
+            have = sorted(
+                int(x) for x in re.findall(
+                    rf"^{code}-(\d+)\.html$",
+                    "\n".join(os.listdir(os.path.join(ROOT, "evidence"))),
+                    re.M)
+            )
+            # 真实存在的分页号集合应为 {2..want}
+            want_set = set(range(2, want + 1))
+            extra = sorted(set(have) - want_set)
+            missing = sorted(want_set - set(have))
+            page1 = os.path.join(ROOT, "evidence", f"{code}.html")
+            if n > 0 and not os.path.exists(page1):
+                problems["证据分级页缺失"] += 1
+                details.append(f"evidence/{code}.html 不存在（该级 {n} 篇）")
+            if extra:
+                problems["证据孤儿分页"] += 1
+                details.append(f"evidence/{code} 多余分页 {extra}（应到 {want}）")
+            if missing:
+                problems["证据分页缺失"] += 1
+                details.append(f"evidence/{code} 缺失分页 {missing}（应到 {want}）")
 
     # ---- 汇总 ----
     print()
