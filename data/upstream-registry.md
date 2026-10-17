@@ -143,3 +143,35 @@ PROMETHEUS 的 A 就是这样被回退成 C 的。
    本地很容易落后多个提交。2026-10-17 实测落后 **9 个**（含管线从 9 环节扩到 11 环节）。
    冲突文件若是 `articles.json` / `search-index` / `topics/` / `sitemap` 这类**生成产物**，
    一律取远端版本后重跑管线；正文类（`news/*.html`）通常不冲突。
+
+---
+
+## 六、IMA 知识库通道（2026-10-18 建立）
+
+**通道**：官方 `ima-skill` v1.1.10（app-dl.ima.qq.com 官方包，已装 `/root/.codebuddy/skills/ima-skill/`），
+凭证走 `~/.config/ima/{client_id,api_key}`（600 权限，只作为 HTTP 头发往 ima.qq.com）。
+Client ID = 32 位 hex；API Key = 76 位 base64 串。调用：`node <skill>/ima_api.cjs "openapi/wiki/v1/<接口>" '<json>'`。
+
+### 库空间实测（本账号 12 个库）
+
+| 库 | OpenAPI kb_id | 内容数 | 说明 |
+|---|---|---|---|
+| **岁见衰老科学文献**（共享库） | `vvv0PSKt0_A4XCEifRqTR6lpPYaHsna-D8PMi7V9hCU=` | 386 | 内部 ID `7505141192201969`；380 PDF + 2 xlsx + 4 md，**无文件夹全平铺根目录** |
+| **王学刚的知识库**（个人库） | `jx-quL7Na0bpWMz-wMbWo70V0DVq6TpY6Kv9AZDG--0=` | 71 | 内部 ID `0019eb4e65002c9f`；**《衰老与长寿相关临床试验登记清单.md》在此**（media_id 尾号即库 ID） |
+| 中国顶刊生命科学家 | `9Bfi2cgjMnbeXg2y2I3e1CESYbmt5DVhreZHOrcQzWw=` | 5303 | 同一创建者 |
+| AI4Bio / 全景中国生命科学家史 | 见上表 | 84 / 224 | 同一创建者 |
+| 衰老长寿文献 / 衰老标志物 / EvisionAI顾问 / PrimK4Bio / 谱系书人物介绍V2 | — | 121 / 9 / 3 / 40 / 6580 | 王学刚 |
+| 医学文献资料库 / 最全研报知识库 | — | 1988 / 1365410 | 订阅加入 |
+
+### 陷阱 7 · 库号两套编号 + 登记清单不在共享库
+
+- 项目说明里的 `0019eb4e65002c9f` 是**个人库内部 ID**（王学刚的知识库），OpenAPI 要用不透明的 kb_id（`jx-quL7…`）。
+  共享库内部 ID `7505141192201969` ↔ OpenAPI `vvv0PSKt0_…`。**两套 ID 不能互推**，只能靠 `search_knowledge_base` 空查映射。
+- **《临床试验登记清单》从来不在岁见共享库**——7660605 周更任务反复空产的根因：它经 `library_search`（space-library）做语义检索，
+  而该通道①绑定的 space 与项目库号不是一套、②只回片段不回调档案本体。**取具名文件必须走 OpenAPI：
+  `search_knowledge` → `get_media_info` → 带 `X-IMA-Sign`/`X-IMA-Create-URL-Time` 头 curl 签名 URL**。
+- `get_knowledge_list` 返回字段是 `knowledge_list`（不是搜索口的 `info_list`）；游标分页，386 条 = 8 页。
+
+### 已落地资产
+
+`/workspace/ima-knowledge-base/`：临床试验登记清单.md（27 项试验，2026-09 检索）、协同建设方案、定期任务描述、建构规范 v2、进度报告（R4）、岁见库全量清单_386条.csv

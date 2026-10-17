@@ -1,16 +1,16 @@
 {
  "summary": {
-  "total": 550,
+  "total": 552,
   "level_counts": {
-   "中": 123,
-   "强": 411,
+   "中": 124,
+   "强": 412,
    "断链": 16
   },
   "by_tier": {
    "A": {
-    "强": 105,
-    "断链": 5,
-    "中": 22
+    "中": 23,
+    "强": 106,
+    "断链": 5
    },
    "B": {
     "强": 214,
@@ -24,6 +24,11 @@
    }
   },
   "missing_doi": [
+   {
+    "slug": "Cross-Weekly-Clinical-Literature-2026-10-18.html",
+    "title": "交叉周报 2026-10-18：NAD⁺ 三期倒向安慰剂，而登记表减 96 项里混着「口径」与「真相」",
+    "evidence": "A"
+   },
    {
     "slug": "DKO-Virtual-Perturbation-Aging-Regulatory-Robustness-2026.html",
     "title": "深度学习虚拟敲除 DKO：衰老不是「表达变乱」，而是「同一个基因扰动在不同细胞里后果越来越不一样」",
@@ -805,6 +810,30 @@
  },
  "articles": [
   {
+   "slug": "Cross-Weekly-Clinical-Literature-2026-10-18.html",
+   "title": "交叉周报 2026-10-18：NAD⁺ 三期倒向安慰剂，而登记表减 96 项里混着「口径」与「真相」",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://clinicaltrials.gov/"
+   ],
+   "level": "中"
+  },
+  {
+   "slug": "NOPARK-NR-Early-Parkinson-Phase3-JAMA-2026.html",
+   "title": "NOPARK 三期揭盲：410 人每日 1000 mg NAD⁺ 前体一年，主要终点显著劣于安慰剂",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1001/jama.2026.18828",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1001/jama.2026.18828"
+   ],
+   "level": "强"
+  },
+  {
    "slug": "DKO-Virtual-Perturbation-Aging-Regulatory-Robustness-2026.html",
    "title": "深度学习虚拟敲除 DKO：衰老不是「表达变乱」，而是「同一个基因扰动在不同细胞里后果越来越不一样」",
    "evidence": "C",
@@ -822,7 +851,7 @@
    "title": "一辈子「有配偶」会让鳉鱼的肝脏变年轻：Brunet 组 77 页预印本与人类蛋白组时钟的交叉验证",
    "evidence": "C",
    "page_exists": true,
-   "doi": "10.64898/2026.10.08.757363",
+   "doi": "10.64898/2026.10.08.757363v1",
    "doi_in_page": true,
    "source_links": [
     "https://www.biorxiv.org/content/10.64898/2026.10.08.757363v1"
@@ -834,7 +863,7 @@
    "title": "脑龄预测的「多宇宙」：84 条流水线告诉你，方法和图谱选择能把误差从 5.26 岁推到 18.30 岁",
    "evidence": "C",
    "page_exists": true,
-   "doi": "10.64898/2026.10.12.758514",
+   "doi": "10.64898/2026.10.12.758514v1",
    "doi_in_page": true,
    "source_links": [
     "https://www.biorxiv.org/content/10.64898/2026.10.12.758514v1"
@@ -846,7 +875,7 @@
    "title": "再生让小鼠肠与肝「变年轻」了？Gladyshev 组 63 页预印本给出一个带边界的答案",
    "evidence": "C",
    "page_exists": true,
-   "doi": "10.64898/2026.10.11.758291",
+   "doi": "10.64898/2026.10.11.758291v1",
    "doi_in_page": true,
    "source_links": [
     "https://www.biorxiv.org/content/10.64898/2026.10.11.758291v1"
@@ -1014,7 +1043,7 @@
    "title": "交叉周报创刊号：senolytics 首次逆转人体器官纤维化，而登记库里「部分重编程」仍是 0 项",
    "evidence": "A",
    "page_exists": true,
-   "doi": "10.1038/s43587-026-01222-y",
+   "doi": "10.1111/acel.70364",
    "doi_in_page": true,
    "source_links": [
     "https://clinicaltrials.gov/"
@@ -3428,7 +3457,7 @@
    "title": "SENESCENCE2030 路线图：迈向精准衰老医学的共识框架",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1038/s43587-026-01222-y",
+   "doi": "10.1038/s43587-026-01222-y</span",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1038/s43587-026-01222-y"
@@ -3466,7 +3495,7 @@
    "title": "Nano-ERASER：穿越血脑屏障递送抗体，星形胶质细胞重编程为神经元逆转阿尔茨海默病",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1016/j.celbio.2026.100575",
+   "doi": "10.1016/j.celbio.2026.100575</span",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1016/j.celbio.2026.100575",
@@ -3517,7 +3546,7 @@
    "title": "Nature 封面研究：晚年司美格鲁肽治疗显著延长小鼠寿命——或为热量限制模拟物",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1038/d41586-026-02468-7",
+   "doi": "10.1038/s41586-026-10940-7</span",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1038/s41586-026-10940-7"
@@ -3675,7 +3704,7 @@
    "title": "力量训练延寿\"最佳剂量\"：30年近15万人队列研究揭示 90-120 分钟/周最优",
    "evidence": "A",
    "page_exists": true,
-   "doi": "10.1136/bjsports-2025-110503</span>",
+   "doi": "10.1136/bjsports-2025-110503</span",
    "doi_in_page": true,
    "source_links": [],
    "level": "强"
@@ -3685,7 +3714,7 @@
    "title": "恢复自噬可保护青光眼视网膜神经节细胞：mTOR 抑制剂新机制研究",
    "evidence": "A",
    "page_exists": true,
-   "doi": "10.1186/s13024-026-00950-4",
+   "doi": "10.1186/s13024-026-00950-4</span",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1186/s13024-026-00950-4",
@@ -3698,7 +3727,7 @@
    "title": "细胞毒性CD4+ T细胞：免疫系统中被低估的衰老调节者",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1093/intimm/dxag037</p>",
+   "doi": "10.1093/intimm/dxag037</span",
    "doi_in_page": true,
    "source_links": [
     "https://en.wikipedia.org/wiki/CD4",
@@ -3760,7 +3789,7 @@
    "title": "L-BAIBA：运动介导肌肉适应的关键代谢因子——PGC1α-BAIBA-PPARδ 轴新机制",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1038/s41467-026-76307-8",
+   "doi": "10.1038/s41467-026-76307-8</span",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1038/s41467-026-76307-8",
@@ -3876,7 +3905,7 @@
    "title": "CK2α-LMNA-STING Axis: New Mechanism of Systemic Aging",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1038/s41467-026-76351-4<br>",
+   "doi": "10.1038/s41467-026-76351-4<br",
    "doi_in_page": true,
    "source_links": [
     "https://www.nature.com/articles/s41467-026-76351-4"
@@ -3900,7 +3929,7 @@
    "title": "台湾13,423名老年人研究：综合体能测试指数最高五分位全因死亡风险降低61%",
    "evidence": "A",
    "page_exists": true,
-   "doi": "10.1001/jamanetworkopen.2026.28227",
+   "doi": "10.1001/jamanetworkopen.2026.28227)</p",
    "doi_in_page": true,
    "source_links": [
     "https://www.fightaging.org/archives/2026/08/",
@@ -3913,7 +3942,7 @@
    "title": "肺干细胞衰老驱动特发性肺纤维化——过渡细胞状态的致命角色",
    "evidence": "A",
    "page_exists": true,
-   "doi": "10.1183/16000617.0278-2025</p>",
+   "doi": "10.1183/16000617.0278-2025</p",
    "doi_in_page": true,
    "source_links": [
     "https://en.wikipedia.org/wiki/Idiopathic_pulmonary_fibrosis",
@@ -3939,7 +3968,7 @@
    "title": "衰老细胞生物标志物综述：追踪衰老、衰老细胞与炎症老化在年龄相关疾病中的复杂关联",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.3390/biomedicines14071486",
+   "doi": "10.3390/biomedicines14071486)</p",
    "doi_in_page": true,
    "source_links": [
     "https://www.fightaging.org/archives/2026/08/",
@@ -3952,7 +3981,7 @@
    "title": "Nature Medicine：40种组织病理学图像构建组织特异衰老时钟，血液转录组辅助推断器官层面生理 Fitness",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1038/s41591-026-04566-5",
+   "doi": "10.1038/s41591-026-04566-5)</p",
    "doi_in_page": true,
    "source_links": [
     "https://www.nature.com/articles/s41591-026-04566-5",
@@ -3965,7 +3994,7 @@
    "title": "山中因子重编程增强神经可塑性：中风后运动功能恢复新策略",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1016/j.gendis.2025.102000",
+   "doi": "10.1016/j.gendis.2025.102000</span",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1016/j.gendis.2025.102000",
@@ -4003,7 +4032,7 @@
    "title": "意外的长寿信号：重症肌无力患者比普通人多活约5年",
    "evidence": "A",
    "page_exists": true,
-   "doi": "10.1177/17562864261472638",
+   "doi": "10.1177/17562864261472638)</span",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1177/17562864261472638",
@@ -4029,7 +4058,7 @@
    "title": "衰老细胞清除：慢性肺病与代谢疾病共治新策略",
    "evidence": "A",
    "page_exists": true,
-   "doi": "10.3389/fragi.2026.1812724",
+   "doi": "10.3389/fragi.2026.1812724/full",
    "doi_in_page": true,
    "source_links": [
     "https://www.frontiersin.org/journals/aging/articles/10.3389/fragi.2026.1812724/full"
@@ -4041,7 +4070,7 @@
    "title": "Nature Medicine：短效抗PD-L1抗体IBC-Ab002用于阿尔茨海默病Phase 1b安全性良好，30mg/kg组脑脊液神经退行性标志物改善",
    "evidence": "A",
    "page_exists": true,
-   "doi": "10.1038/s41591-026-04547-8",
+   "doi": "10.1038/s41591-026-04547-8)</p",
    "doi_in_page": true,
    "source_links": [
     "https://www.fightaging.org/archives/2026/08/11/",
@@ -4221,7 +4250,7 @@
    "title": "Science重磅：EP2受体拮抗恢复巨噬细胞清除衰老细胞能力，多器官衰老大幅逆转",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1126/science.aea3075",
+   "doi": "10.1126/science.aea3075)</p",
    "doi_in_page": true,
    "source_links": [
     "https://www.fightaging.org/archives/2026/07/",
@@ -4335,7 +4364,7 @@
    "title": "司美格鲁肽（Ozempic）可延缓表观遗传衰老：首个随机对照试验证据",
    "evidence": "A",
    "page_exists": true,
-   "doi": "10.1038/s41467-026-72861-3</li>",
+   "doi": "10.1038/s41467-026-72861-3</li",
    "doi_in_page": true,
    "source_links": [
     "https://www.sciencedaily.com/releases/2026/07/260713084907.htm"
@@ -4423,7 +4452,7 @@
    "title": "肠道微生物组预测表观遗传衰老速度：EpiBiome模型揭示关键菌种",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1038/s41598-020-70986-x",
+   "doi": "10.7554/elife.73420",
    "doi_in_page": true,
    "source_links": [
     "https://www.fightaging.org/",
@@ -4620,7 +4649,7 @@
    "title": "Sirt3激活剂2-APQC逆转椎间盘退化：线粒体-衰老细胞双重靶点",
    "evidence": "A",
    "page_exists": true,
-   "doi": "10.1016/j.exger.2026.113228</p>",
+   "doi": "10.1016/j.exger.2026.113228</p",
    "doi_in_page": true,
    "source_links": [],
    "level": "强"
@@ -4654,7 +4683,7 @@
    "title": "脑脊液引流功能障碍：iRBD 或成为突触核蛋白病早期生物标志物",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1038/s41531-026-01444-2",
+   "doi": "10.1038/s41531-026-01444-2</span",
    "doi_in_page": true,
    "source_links": [
     "https://en.wikipedia.org/wiki/Cerebrospinal_fluid",
@@ -4668,7 +4697,7 @@
    "title": "训练免疫：疫苗或可成为降低衰老慢性炎症的新策略",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1126/science.aaf1098</p>",
+   "doi": "10.1126/science.aaf1098</span",
    "doi_in_page": true,
    "source_links": [
     "https://en.wikipedia.org/wiki/Innate_immune_system",
@@ -4681,7 +4710,7 @@
    "title": "BCG免疫治疗重编程中枢神经免疫并改变阿尔茨海默病生物标志物",
    "evidence": "A",
    "page_exists": true,
-   "doi": "10.1038/s43856-026-01691-7",
+   "doi": "10.1038/s43856-026-01691-7</span",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1038/s43856-026-01691-7"
@@ -4693,7 +4722,7 @@
    "title": "铁积累如何导致神经退行性疾病？Salk研究所发现\"时间性铁死亡\"新机制",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1038/s41420-026-03208-6",
+   "doi": "10.1038/s41420-026-03208-6</span",
    "doi_in_page": true,
    "source_links": [],
    "level": "强"
@@ -4715,7 +4744,7 @@
    "title": "达沙替尼+槲皮素多组学分析：衰老肾脏的系统性回春机制",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1038/s41536-026-00490-x",
+   "doi": "10.1038/s41536-026-00490-x</span",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1038/s41536-026-00490-x"
@@ -4794,7 +4823,7 @@
    "title": "长寿医学的伦理困境：知识鸿沟比财富差距更难跨越",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.2196/104414)</p>",
+   "doi": "10.2196/104414)</p",
    "doi_in_page": true,
    "source_links": [
     "https://www.fightaging.org/"
@@ -4872,7 +4901,7 @@
    "title": "运动训练延缓人类骨骼肌分子衰老：多组学揭示\"可预防\"与\"不可避免\"衰老模式",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1038/s43587-026-01150-x",
+   "doi": "10.1038/s43587-026-01150-x</p",
    "doi_in_page": true,
    "source_links": [
     "https://www.nature.com/articles/s43587-026-01150-x",
@@ -5120,7 +5149,7 @@
    "title": "空间转录组学揭示卵巢衰老新机制：时间空间协调性崩溃",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1038/s43587-026-01140-z",
+   "doi": "10.1038/s43587-026-01140-z</div",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1038/s43587-026-01140-z",
@@ -5146,7 +5175,7 @@
    "title": "Science封面研究：早期逆境塑造跨组织表观基因组——不加速衰老，而是\"重塑\"",
    "evidence": "A",
    "page_exists": true,
-   "doi": "10.1126/science.aea4922<br>",
+   "doi": "10.1126/science.aea4922<br",
    "doi_in_page": true,
    "source_links": [
     "https://www.genengnews.com/topics/omics/impact-of-early-life-adversity-on-epigenome-at-molecular-level-mapped-in-macaques/"
@@ -5170,7 +5199,7 @@
    "title": "衰老细胞清除与干细胞联合疗法显著延长健康寿命 — 突破性协同效应验证",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1038/s43587-021-00151-2",
+   "doi": "10.1186/s12967-026-08221-y",
    "doi_in_page": true,
    "source_links": [
     "https://www.fightaging.org/archives/2026/06/",
@@ -5183,7 +5212,7 @@
    "title": "衰老细胞清除与再生医学协同：延长健康寿命新范式",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1038/s43587-021-00151-2",
+   "doi": "10.1186/s12967-026-08221-y</div",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1186/s12967-026-08221-y",
@@ -5223,7 +5252,7 @@
    "title": "DNA甲基化时钟：被拆解的早衰密码",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1038/s41588-026-02632-9</div>",
+   "doi": "10.1038/s41588-026-02632-9</div",
    "doi_in_page": true,
    "source_links": [],
    "level": "强"
@@ -5233,7 +5262,7 @@
    "title": "DNA甲基化时钟揭示社会健康不平等的生物学机制",
    "evidence": "A",
    "page_exists": true,
-   "doi": "10.18632/aging.206377<br>",
+   "doi": "10.18632/aging.206377<br",
    "doi_in_page": true,
    "source_links": [
     "https://www.fightaging.org/"
@@ -5257,7 +5286,7 @@
    "title": "体内 circRNA 工程化巨噬细胞：靶向 MMP9 中和以逆转骨骼衰老",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1016/j.bioactmat.2026.05.030",
+   "doi": "10.1016/j.bioactmat.2026.05.030</span",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1016/j.bioactmat.2026.05.030"
@@ -5528,7 +5557,7 @@
    "title": "肠道菌群调控谷氨酸恢复老龄卵母细胞质量：Nature Aging 新研究",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1038/s44321-026-00443-3",
+   "doi": "10.1038/s44321-026-00443-3</span",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1038/s44321-026-00443-3"
@@ -5554,7 +5583,7 @@
    "title": "鼻喷剂逆转大脑衰老：细胞外囊泡双靶向神经炎症与线粒体",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1002/jev2.70232",
+   "doi": "10.1002/jev2.70232</span",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1002/jev2.70232",
@@ -5567,7 +5596,7 @@
    "title": "衰老T细胞分泌Granzyme K驱动认知衰退——可被逆转",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1016/j.immuni.2026.04.014",
+   "doi": "10.1016/j.immuni.2026.04.014</div",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1016/j.immuni.2026.04.014",
@@ -5580,7 +5609,7 @@
    "title": "运动调控HMGB1：心血管衰老的双刃剑",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1016/j.cstres.2026.100161",
+   "doi": "10.1016/j.cstres.2026.100161</div",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1016/j.cstres.2026.100161",
@@ -5632,7 +5661,7 @@
    "title": "外周表观遗传衰老预测认知健康百岁老人生存期",
    "evidence": "C",
    "page_exists": true,
-   "doi": "10.64898/2026.05.01.26352140",
+   "doi": "10.64898/2026.05.01.26352140</div",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.64898/2026.05.01.26352140"
@@ -5644,7 +5673,7 @@
    "title": "裸盖菇素延长寿命50%：临床前研究揭示迷幻蘑菇成分的抗衰老潜力",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1038/s41514-025-00244-x",
+   "doi": "10.1038/s41514-025-00244-x</div",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1038/s41514-025-00244-x",
@@ -5758,7 +5787,7 @@
    "title": "衰老的\" Hallmarks \"框架：一场科学范式的考古学分析",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1007/s11357-025-01964-4",
+   "doi": "10.1016/j.arr.2026.103181",
    "doi_in_page": true,
    "source_links": [
     "https://www.fightaging.org/",
@@ -5810,7 +5839,7 @@
    "title": "过氧化物酶体功能障碍：代谢灵活性丧失与寿命缩短的始动因子",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1038/s43587-026-01122-1",
+   "doi": "10.1038/s43587-026-01122-1</span",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1038/s43587-026-01122-1"
@@ -5822,7 +5851,7 @@
    "title": "小鼠连续克隆58代：克隆不缩短寿命，性繁殖天然纠错",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1038/s41467-026-69765-7",
+   "doi": "10.1038/s41467-026-69765-7</span",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1038/s41467-026-69765-7"
@@ -5909,7 +5938,7 @@
    "title": "衰老细胞清除的隐忧：精准干预还是\"一网打尽\"？",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.18632/aging.206375",
+   "doi": "10.18632/aging.206375</div",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.18632/aging.206375"
@@ -5948,7 +5977,7 @@
    "title": "细菌外膜囊泡与阿尔茨海默病：积累性囊泡负荷假说",
    "evidence": "A",
    "page_exists": true,
-   "doi": "10.3390/cells15080690",
+   "doi": "10.3390/cells15080690</span",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.3390/cells15080690"
@@ -5960,7 +5989,7 @@
    "title": "中国海南百岁老人研究：生活方式比基因更重要",
    "evidence": "A",
    "page_exists": true,
-   "doi": "10.1038/s41514-026-00393-7",
+   "doi": "10.1038/s41514-026-00393-7</span",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1038/s41514-026-00393-7"
@@ -5972,7 +6001,7 @@
    "title": "Integrator复合体降解延长线虫寿命：RNA加工缺陷诱导轻度线粒体应激",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.64898/2026.04.18.719358",
+   "doi": "10.64898/2026.04.18.719358</div",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.64898/2026.04.18.719358"
@@ -5984,7 +6013,7 @@
    "title": "肥胖与阿尔茨海默病：为何生化机制与流行病学数据\"唱反调\"？",
    "evidence": "A",
    "page_exists": true,
-   "doi": "10.3390/cells15080672",
+   "doi": "10.3390/cells15080672</span",
    "doi_in_page": true,
    "source_links": [
     "https://www.fightaging.org/archives/2026/05/",
@@ -5997,7 +6026,7 @@
    "title": "雷公藤红素：天然化合物作为运动模拟物，在线虫中延长寿命27.6%",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1016/j.jare.2026.01.079",
+   "doi": "10.1016/j.jare.2026.01.079</div",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1016/j.jare.2026.01.079",
@@ -6010,7 +6039,7 @@
    "title": "细胞外基质：衰老细胞积累与持续存在中被忽视的关键环节",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1038/s43587-026-01127-w</p>",
+   "doi": "10.1038/s43587-026-01127-w</p",
    "doi_in_page": true,
    "source_links": [],
    "level": "强"
@@ -6020,7 +6049,7 @@
    "title": "电磁场诱导细胞重编程：韩国团队让老年小鼠寿命延长，研究登 Cell",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1016/j.cell.2026.03.030",
+   "doi": "10.1016/j.cell.2026.03.030</div",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1016/j.cell.2026.03.030"
@@ -6032,7 +6061,7 @@
    "title": "光生物调节：逆转老年肌肉神经肌肉接头退化的新证据",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.3390/cells15080710",
+   "doi": "10.3390/cells15080710</div",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.3390/cells15080710",
@@ -6045,7 +6074,7 @@
    "title": "小分子IGF-1R抑制剂可延长小鼠健康寿命",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.64898/2026.04.13.718278",
+   "doi": "10.64898/2026.04.13.718278</div",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.64898/2026.04.13.718278",
@@ -6096,7 +6125,7 @@
    "title": "年轻供体血浆置换：认知障碍患者的间质液回春 pilot 研究",
    "evidence": "C",
    "page_exists": true,
-   "doi": "10.64898/2026.04.29.26351809",
+   "doi": "10.64898/2026.04.29.26351809</span",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.64898/2026.04.29.26351809"
@@ -6108,7 +6137,7 @@
    "title": "Nature Aging：细胞外基质老化——衰老细胞积累的\"自强化回路\"",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1038/s43587-026-01127-w",
+   "doi": "10.1038/s43587-026-01127-w</div",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1038/s43587-026-01127-w"
@@ -6145,7 +6174,7 @@
    "title": "磷脂酰胆碱合成下降：驱动天然线粒体衰老的关键机制",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1038/s41467-026-71508-7",
+   "doi": "10.1038/s41467-026-71508-7</div",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1038/s41467-026-71508-7"
@@ -6170,7 +6199,7 @@
    "title": "Bimagrumab + Semaglutide 联合疗法：破解GLP-1减肥肌肉流失难题",
    "evidence": "A",
    "page_exists": true,
-   "doi": "10.1038/s41574-026-01254-9",
+   "doi": "10.1038/s41591-026-04204-0",
    "doi_in_page": true,
    "source_links": [
     "https://www.nature.com/articles/s41591-026-04204-0"
@@ -6208,7 +6237,7 @@
    "title": "蝾螈 SP 基因打开哺乳动物再生之门：三大物种研究通向人类肢体再生",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1073/pnas.2532804123",
+   "doi": "10.1073/pnas.2532804123</div",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1073/pnas.2532804123",
@@ -6249,7 +6278,7 @@
    "title": "代谢性酸中毒：衰老与衰弱之间被忽视的纽带",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1111/acel.70466",
+   "doi": "10.1111/acel.70466</div",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1111/acel.70466"
@@ -6261,7 +6290,7 @@
    "title": "Nature Reviews 综述：重新审视细胞衰老",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1038/s41580-026-00973-1",
+   "doi": "10.1038/s41580-026-00973-1</div",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1038/s41580-026-00973-1"
@@ -6273,7 +6302,7 @@
    "title": "Science里程碑：3dA恢复下丘脑节律显著延长小鼠寿命",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1016/j.cell.2026.01.016",
+   "doi": "10.1016/j.cell.2026.01.016</div",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1016/j.cell.2026.01.016"
@@ -6307,7 +6336,7 @@
    "title": "基因疗法重建DNA间隙：非人灵长类动物中逆转衰老生物标志物",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1038/s41598-026-46747-9</li>",
+   "doi": "10.1038/s41598-026-46747-9</li",
    "doi_in_page": true,
    "source_links": [
     "https://www.fightaging.org/archives/2026/04/reversing-some-age-related-changes-via-creation-of-dna-gaps-with-the-box-a-domain-of-hmgb1/"
@@ -6319,7 +6348,7 @@
    "title": "高三尖杉酯碱（HHT）：老牌抗白血病药物的抗衰老新发现",
    "evidence": "A",
    "page_exists": true,
-   "doi": "10.1038/s41467-026-70475-3</li>",
+   "doi": "10.1038/s41467-026-70475-3</li",
    "doi_in_page": true,
    "source_links": [
     "https://www.fightaging.org/archives/2026/04/homoharringtonine-as-a-senotherapeutic-drug/"
@@ -6392,7 +6421,7 @@
    "title": "11种抗衰老化合物全部失败：NIA ITP大规模研究再泼冷水",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1007/s11357-026-02201-2",
+   "doi": "10.1007/s11357-026-02201-2</p",
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1007/s11357-026-02201-2",
@@ -6609,7 +6638,7 @@
    "title": "Nature子刊：BCL-2抑制剂Venetoclax可逆转肺纤维化",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1038/s41467-026-69865-4</p>",
+   "doi": "10.1038/s41467-026-69865-4</p",
    "doi_in_page": true,
    "source_links": [
     "https://www.fightaging.org/archives/2026/04/bcl-2-and-cellular-senescence-in-pulmonary-fibrosis/"
@@ -6820,7 +6849,7 @@
    "title": "CRISPRi单核多组学筛选鉴定HOTAIRM1：长链非编码RNA调控衰老新机制",
    "evidence": "B",
    "page_exists": true,
-   "doi": "10.1038/s43587-026-01100-7</p>",
+   "doi": "10.1038/s43587-026-01100-7</p",
    "doi_in_page": true,
    "source_links": [
     "https://www.nature.com/articles/s43587-026-01100-7",
@@ -7218,7 +7247,7 @@
    "title": "MIT/哈佛/Buck研究所联合发布多模态器官衰老与长寿干预发现框架",
    "evidence": "C",
    "page_exists": true,
-   "doi": "10.64898/2026.05.08.26352759</a></p>",
+   "doi": "10.64898/2026.05.08.26352759v1",
    "doi_in_page": true,
    "source_links": [
     "https://www.medrxiv.org/content/10.64898/2026.05.08.26352759v1"
@@ -7230,7 +7259,7 @@
    "title": "神经外胚层衰老编码灵长类健康与长寿——中山大学/约翰霍普金斯大学新发现",
    "evidence": "C",
    "page_exists": true,
-   "doi": "10.64898/2026.05.05.26352498</a></p>",
+   "doi": "10.64898/2026.05.05.26352498v1",
    "doi_in_page": true,
    "source_links": [
     "https://www.medrxiv.org/content/10.64898/2026.05.05.26352498v1"
@@ -7448,7 +7477,7 @@
    "title": "Nature Communications：长寿家族四代追踪——非凡健康的早期生命起源",
    "evidence": "C",
    "page_exists": true,
-   "doi": "10.1038/s41467-026-72433-5</li>",
+   "doi": "10.1038/s41467-026-72433-5</li",
    "doi_in_page": true,
    "source_links": [
     "https://www.nature.com/natcomms"
@@ -7460,7 +7489,7 @@
    "title": "Nature Aging：如何识别衰老化研究中的\"霍桑效应\"干扰",
    "evidence": "A",
    "page_exists": true,
-   "doi": "10.1038/s43587-026-01126-x</li>",
+   "doi": "10.1038/s43587-026-01126-x</li",
    "doi_in_page": true,
    "source_links": [
     "https://www.nature.com/nataging"
@@ -7472,7 +7501,7 @@
    "title": "表观遗传时钟的纵向变化预测存活率",
    "evidence": "A",
    "page_exists": true,
-   "doi": "10.1038/s43587-026-01066-6</p>",
+   "doi": "10.1038/s43587-026-01066-6</p",
    "doi_in_page": true,
    "source_links": [],
    "level": "强"
