@@ -104,7 +104,7 @@ dqzkwoBeVXDM → dQpzABLkRxLu(项目根/元层) → dntPxtImVdXC → { dsuxMCSCw
 |---|---|---|
 | 公网地址 | `https://longbiosci.com`（CNAME → GitHub Pages） | 2026-10-17 07:5x |
 | 首页 | HTTP 200 / title `LongBiosci - 衰老生物学与长寿科技` | ✅ |
-| 线上 `data/articles.json` | **549 篇**（A 132 / B 311 / C 103） | ✅ 2026-10-17 |
+| 线上 `data/articles.json` | **549 篇**（A 132 / B 311 / C 106） | ✅ 2026-10-17 |
 | `news/index.html` / `sitemap.xml` | 200 / 200 | ✅ 2026-10-17 |
 | 抽验新稿页面（SRSF1 / Akkermansia / PROMETHEUS） | 均 HTTP 200，标题正确 | ✅ |
 | 抽验升级页（PROMETHEUS / 衰弱-死亡 UKB） | HTTP 200，PROMETHEUS 线上分级已为 **A** | ✅ 2026-10-17 |
