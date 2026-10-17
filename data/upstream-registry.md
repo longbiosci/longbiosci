@@ -98,13 +98,30 @@ dqzkwoBeVXDM → dQpzABLkRxLu(项目根/元层) → dntPxtImVdXC → { dsuxMCSCw
 
 ---
 
+### 3.5 证据分级「回退」陷阱（2026-10-17 新增，当日复现 2 次）
+
+**现象**：文章页 HTML 里更正了证据分级，但 `data/articles.json` 仍是旧值，
+站内出现「同一篇文章两个分级」。
+
+**根因**：`build-index.py` 的 `main()` 把已登记记录当**权威基线整体保留**
+（注释原文：「1) 现有登记（权威基线）」），HTML 侧改动不回写 JSON。
+而 articles.json 又是首页 / 话题页 / 搜索索引的数据源。
+
+**触发场景**：只要远端带回一份**旧的 articles.json 快照**并合并进来，
+本地已更正的分级就会被那个旧值覆盖 —— 2026-10-17 合并远端 2 个新稿提交时
+PROMETHEUS 的 A 就是这样被回退成 C 的。
+
+**解法**：`python3 scripts/sync-evidence.py . --write`
+（幂等，只同步 evidence、**不碰 desc** —— 已知约 57 篇的 desc 只存在于 JSON 侧，
+一并覆盖会静默丢数据）。建议在每次合并远端分支后例行跑一次。
+
 ## 四、本站（交付侧）核验基线
 
 | 项 | 值 | 最近核验 |
 |---|---|---|
 | 公网地址 | `https://longbiosci.com`（CNAME → GitHub Pages） | 2026-10-17 07:5x |
 | 首页 | HTTP 200 / title `LongBiosci - 衰老生物学与长寿科技` | ✅ |
-| 线上 `data/articles.json` | **549 篇**（A 132 / B 311 / C 106） | ✅ 2026-10-17 |
+| 线上 `data/articles.json` | **550 篇**（A 132 / B 311 / C 107） | ✅ 2026-10-17 |
 | `news/index.html` / `sitemap.xml` | 200 / 200 | ✅ 2026-10-17 |
 | 抽验新稿页面（SRSF1 / Akkermansia / PROMETHEUS） | 均 HTTP 200，标题正确 | ✅ |
 | 抽验升级页（PROMETHEUS / 衰弱-死亡 UKB） | HTTP 200，PROMETHEUS 线上分级已为 **A** | ✅ 2026-10-17 |
