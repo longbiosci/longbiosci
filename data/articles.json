@@ -11,6 +11,17 @@
   "source": "arxiv.org"
  },
  {
+  "slug": "Lifelong-Mating-Rejuvenates-Liver-Killifish-Sexual-Reproduction-Aging-2026.html",
+  "title": "一辈子「有配偶」会让鳉鱼的肝脏变年轻：Brunet 组 77 页预印本与人类蛋白组时钟的交叉验证",
+  "desc": "斯坦福 Brunet 组用非洲绿松石鳉（寿命 4-6 个月）建立终身交配范式，发现交配在老年雌鱼的肝细胞、胆管细胞、内皮细胞中造成转录组年轻化，降低炎症与髓系细胞，降低肝脂质类，并提高对乙酰氨基酚的解毒韧性；配套 CRISPR 突变体证明部分机制依赖雌性生育力。人类 UK Biobank 血浆蛋白组时钟显示有性生活史的女性肝细胞更年轻。预印本，未经同行评议。",
+  "tag": "生殖与衰老",
+  "date": "2026-10-17",
+  "topic": "免疫与炎症",
+  "type": "研究进展",
+  "evidence": "C",
+  "source": "www.biorxiv.org"
+ },
+ {
   "slug": "Multiverse-Brain-Age-Pipeline-Sensitivity-2026.html",
   "title": "脑龄预测的「多宇宙」：84 条流水线告诉你，方法和图谱选择能把误差从 5.26 岁推到 18.30 岁",
   "desc": "荷兰 Tilburg 大学团队用 84 种流水线组合（4 模态 × 3 图谱 × 7 校正）在 CamCAN 560 名健康成人上预测脑龄，MAE 从 5.26 到 18.30 岁。模态与偏倚校正显著影响精度，图谱选择不影响精度但决定「哪些连接最重要」——后者跨图谱几乎不重叠。预印本，未同行评审。",
@@ -321,7 +332,7 @@
  {
   "slug": "Frailty-Mortality-Link-In-People-GeroScience-2026.html",
   "title": "UK Biobank 23 万人 × 13 年：衰弱在全部 13 个器官系统的慢性病中都翻倍风险的死亡率",
-  "desc": "在 230,960 名（均龄 57.8 岁，范围 38–72 岁；随访 13.3 年，23,198 人死亡）UK Biobank 参与者中，衰弱（HR 2.32，95% CI 2.21–2.43）与前衰弱（HR 1.35，1.31–1.39）在罹患任一器官系统慢性病的人群中均与更高死亡风险相关，且在全部 13 个器官系统疾病组中无一例外（效",
+  "desc": "在 230,960 名（均龄 57.8 岁，范围 38–72 岁）UK Biobank 参与者中，衰弱（HR 2.32，95% CI 2.21–2.43）与前衰弱（HR 1.35，1.31–1.39）在罹患任一器官系统慢性病的人群中均与更高死亡风险相关，且在全部 13 个器官系统疾病组中无一例外（效",
   "tag": "研究进展",
   "date": "2026-10-16",
   "topic": "生命历程",
@@ -662,12 +673,12 @@
  {
   "slug": "PROMETHEUS-Clinical-Trial-Protocol-Tailoring-GeroScience-2026.html",
   "title": "PROMETHEUS 方案：XPRIZE Healthspan 把&quot;精准老年医学&quot;压进 8 周、20 个人",
-  "desc": "PROMETHEUS 是 XPRIZE Healthspan 半决赛参赛方案（已注册 NCT07451496）——一项 8 周、20 名 50–80 岁受试者的单臂可行性研究，采用\"基础干预（所有人）+ 按个体 gerotype 个性化的增强干预\"两层设计；全文级解读含 Table 3 完整剂量表：乳清蛋白按体重给、尿石素 A 500→1000 mg、NMN 300→600 mg、麦角硫因 25 mg 每周 3 次的升级规则。",
+  "desc": "PROMETHEUS 是 XPRIZE Healthspan 半决赛参赛方案——一项 8 周、20 名中老年受试者的可行性/探索性研究，采用&quot;基础干预（所有人）+ 按个体 gerotype 个性化的增强干预&quot;两层设计：基础部分包括睡眠与饮食建议、乳清蛋白 + 肌酸 + 褐藻糖胶补充、带 exerga",
   "tag": "临床试验",
   "date": "2026-10-16",
   "topic": "代谢与营养",
   "type": "临床进展",
-  "evidence": "A",
+  "evidence": "C",
   "source": "doi.org"
  },
  {
