@@ -1,9 +1,9 @@
 {
  "summary": {
-  "total": 555,
+  "total": 557,
   "level_counts": {
-   "中": 131,
-   "强": 424
+   "强": 426,
+   "中": 131
   },
   "by_tier": {
    "A": {
@@ -11,7 +11,7 @@
     "强": 107
    },
    "B": {
-    "强": 224,
+    "强": 226,
     "中": 89
    },
    "C": {
@@ -680,6 +680,30 @@
  },
  "articles": [
   {
+   "slug": "Alpha-Klotho-Deficient-Rats-Phosphorus-Restriction-Breeding-2026.html",
+   "title": "α-Klotho 缺陷大鼠终于能养到第五代了：靠的是母体低磷饮食，不是基因改造",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.17.759802",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.17.759802"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Skin-Ageing-Senomorphic-Natural-Extracts-bioRxiv-2026.html",
+   "title": "啤酒花＋银杏提取物组合让老化皮肤细胞衰老负荷下降 45%，且不诱导增殖",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.13.758751",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.13.758751"
+   ],
+   "level": "强"
+  },
+  {
    "slug": "Cross-Weekly-Clinical-Literature-2026-10-18.html",
    "title": "交叉周报 2026-10-18：NAD⁺ 三期倒向安慰剂，而登记表减 96 项里混着「口径」与「真相」",
    "evidence": "A",
@@ -749,7 +773,7 @@
    "title": "不是所有记忆都随龄衰退：内隐联结记忆在老年保持完好，海马与内嗅皮层共同支撑",
    "evidence": "C",
    "page_exists": true,
-   "doi": "10.64898/2026.10.05.756834",
+   "doi": "10.64898/2026.10.05.756834v1",
    "doi_in_page": true,
    "source_links": [
     "https://www.biorxiv.org/content/10.64898/2026.10.05.756834v1"

@@ -1,7 +1,7 @@
 {
  "site": {
-  "articles": 556,
-  "dois": 426
+  "articles": 560,
+  "dois": 437
  },
  "outputs": {
   "cards_2026-09-25.md": {
@@ -109,6 +109,11 @@
    "bytes": 42341,
    "suspicious_empty": false
   },
+  "pipeline-summary-2026-10-18.md": {
+   "rows": 11,
+   "bytes": 6918,
+   "suspicious_empty": false
+  },
   "preprint-2026-09-13.md": {
    "rows": 0,
    "bytes": 3809,
@@ -152,6 +157,11 @@
   "preprint-2026-09-24.md": {
    "rows": 6,
    "bytes": 25948,
+   "suspicious_empty": false
+  },
+  "preprint-2026-10-19.md": {
+   "rows": 0,
+   "bytes": 19505,
    "suspicious_empty": false
   },
   "site-assessment-2026-10-14.md": {
@@ -200,9 +210,9 @@
    "suspicious_empty": false
   }
  },
- "output_entries": 339,
- "covered": 168,
- "missing_count": 171,
+ "output_entries": 350,
+ "covered": 172,
+ "missing_count": 178,
  "missing": [
   {
    "fingerprint": "t:90bec65f27ced9a5",
@@ -1063,6 +1073,105 @@
    "basis": "四路均未命中（DOI=无，标题相似 0.06，词元重叠 0.50）"
   },
   {
+   "fingerprint": "doi:10.64898/2026.10.12.758495",
+   "title": "Sex shapes capillary flows and oxygen extraction in the middle-aged mouse brain",
+   "doi": "10.64898/2026.10.12.758495",
+   "code": "3",
+   "seen_in": [
+    "pipeline-summary-2026-10-18.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.64898/2026.10.12.758495，标题相似 0.00，词元重叠 0.25）"
+  },
+  {
+   "fingerprint": "doi:10.64898/2026.10.16.759405",
+   "title": "Determining cellular phylogeny and migration at high resolution",
+   "doi": "10.64898/2026.10.16.759405",
+   "code": "4",
+   "seen_in": [
+    "pipeline-summary-2026-10-18.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.64898/2026.10.16.759405，标题相似 0.00，词元重叠 0.25）"
+  },
+  {
+   "fingerprint": "doi:10.64898/2026.10.15.759313",
+   "title": "Multi-parametric spectral modeling disentangles synaptic kinetics",
+   "doi": "10.64898/2026.10.15.759313",
+   "code": "5",
+   "seen_in": [
+    "pipeline-summary-2026-10-18.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.64898/2026.10.15.759313，标题相似 0.00，词元重叠 0.20）"
+  },
+  {
+   "fingerprint": "doi:10.64898/2026.10.11.758328",
+   "title": "Action-related brain dynamics during leader-follower coordination",
+   "doi": "10.64898/2026.10.11.758328",
+   "code": "6",
+   "seen_in": [
+    "pipeline-summary-2026-10-18.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.64898/2026.10.11.758328，标题相似 0.00，词元重叠 0.33）"
+  },
+  {
+   "fingerprint": "doi:10.64898/2026.10.12.758428",
+   "title": "Cooperative processing of visual threat across collicular pathways",
+   "doi": "10.64898/2026.10.12.758428",
+   "code": "7",
+   "seen_in": [
+    "pipeline-summary-2026-10-18.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.64898/2026.10.12.758428，标题相似 0.00，词元重叠 0.20）"
+  },
+  {
+   "fingerprint": "doi:10.64898/2026.10.12.758429",
+   "title": "Exposure to childhood adversity and adult alcohol/nicotine use",
+   "doi": "10.64898/2026.10.12.758429",
+   "code": "8",
+   "seen_in": [
+    "pipeline-summary-2026-10-18.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.64898/2026.10.12.758429，标题相似 0.00，词元重叠 0.33）"
+  },
+  {
+   "fingerprint": "doi:10.64898/2026.10.12.758476",
+   "title": "LIF is a pro-algesic mediator in human and mouse models",
+   "doi": "10.64898/2026.10.12.758476",
+   "code": "9",
+   "seen_in": [
+    "pipeline-summary-2026-10-18.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.64898/2026.10.12.758476，标题相似 0.00，词元重叠 0.25）"
+  },
+  {
+   "fingerprint": "doi:10.64898/2026.10.12.758423",
+   "title": "DNA-Encoded Library-Guided Discovery of a First-in-Class Molecule",
+   "doi": "10.64898/2026.10.12.758423",
+   "code": "10",
+   "seen_in": [
+    "pipeline-summary-2026-10-18.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.64898/2026.10.12.758423，标题相似 0.00，词元重叠 0.50）"
+  },
+  {
+   "fingerprint": "doi:10.64898/2026.10.12.758406",
+   "title": "CAPO: Compute-Aware Automated Protein-Model Optimization（词表噪声）",
+   "doi": "10.64898/2026.10.12.758406",
+   "code": "11",
+   "seen_in": [
+    "pipeline-summary-2026-10-18.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.64898/2026.10.12.758406，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
    "fingerprint": "t:012a55f80422dedb",
    "title": "`arXiv:2609.13322`（SenSASP）",
    "doi": "",
@@ -1371,17 +1480,6 @@
    "basis": "四路均未命中（DOI=10.1111/acel.70674，标题相似 0.00，词元重叠 0.33）"
   },
   {
-   "fingerprint": "doi:10.1007/s11357-026-02489-0",
-   "title": "High-intensity interval training in aged female mice preserves physical, cognitive, and cardiovascular function",
-   "doi": "10.1007/s11357-026-02489-0",
-   "code": "G1",
-   "seen_in": [
-    "cards_2026-09-25.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1007/s11357-026-02489-0，标题相似 0.00，词元重叠 0.50）"
-  },
-  {
    "fingerprint": "doi:10.1007/s11357-026-02546-8",
    "title": "Ketone ester supplementation in aged mice produces sex-specific cognitive and metabolic effects",
    "doi": "10.1007/s11357-026-02546-8",
@@ -1600,17 +1698,6 @@
    ],
    "status": "漏收",
    "basis": "四路均未命中（DOI=10.1111/acel.70733，标题相似 0.00，词元重叠 0.50）"
-  },
-  {
-   "fingerprint": "doi:10.1111/acel.70697",
-   "title": "GHA 转基因鼠首次证明 GH 拮抗延长寿命：雌雄中位与最大寿命均显著延长（最大寿命分别 +186 天 / +265 天），2 岁鼠更不易衰弱、握力更强（尽管肥胖增加）",
-   "doi": "10.1111/acel.70697",
-   "code": "A13",
-   "seen_in": [
-    "cards_2026-10-02.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1111/acel.70697，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
   },
   {
    "fingerprint": "doi:10.1111/acel.70700",
@@ -2130,7 +2217,7 @@
    "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
   }
  ],
- "orphan_count": 556,
+ "orphan_count": 560,
  "orphan_sample": [
   "3D-Culture-Reverses-Limbal-Niche-AgingCell-2026.html",
   "7-Ketocholesterol-Derivatives-Pathophysiology.html",

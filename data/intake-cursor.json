@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-18T08:03:27+08:00",
+ "updated_at": "2026-10-19T07:37:43+08:00",
  "entries": {
   "dkwSBCCuiNrB": {
    "name": "文献层_五刊监控_深度文献卡片_2026-10-02",
@@ -748,6 +748,29 @@
    "done_at": "2026-10-18T08:03:27+08:00",
    "slugs": [],
    "note": "本 snapshot 每条仅 5 字段（nct/status/brief/categories/last_update），缺 trials-full.html 渲染所需 6 列；且旧全量快照 dXnPTXlfISVq 已被上游删除（file_download 报 11510 文件不存在），无法据此补齐。故改用同名 md 清单重建，本件作为交叉核对用，不单独立稿"
+  },
+  "dMaxwACLTlaq": {
+   "name": "预印本速递_2026-10-19",
+   "layer": "文献层",
+   "size": 19505,
+   "mtime": "1792361258000",
+   "status": "done",
+   "done_at": "2026-10-19T07:37:43+08:00",
+   "slugs": [
+    "Skin-Ageing-Senomorphic-Natural-Extracts-bioRxiv-2026.html",
+    "Alpha-Klotho-Deficient-Rats-Phosphorus-Restriction-Breeding-2026.html"
+   ],
+   "note": "《预印本速递_2026-10-19》实测19505B；四路查重16条候选全confidence=none，DOI尾号+高特异词硬核验后4条入榜条目均未收录；主榜2条独立成篇(证据分级B/预印本)，观察哨2条无可引用定量按上游建议不成篇"
+  },
+  "dQpERrkBggNI": {
+   "name": "预印本全文级流水线_运行摘要_2026-10-18",
+   "layer": "文献层",
+   "size": 6918,
+   "mtime": "1792366102000",
+   "status": "done",
+   "done_at": "2026-10-19T07:37:43+08:00",
+   "slugs": [],
+   "note": "《预印本全文级流水线_运行摘要_2026-10-18》实测6918B；系同一流水线运行摘要，medRxiv当日0发布、bioRxiv 403封锁，未生成新页面，无可成篇条目，仅作链路留痕"
   }
  }
 }

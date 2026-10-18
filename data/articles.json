@@ -1,5 +1,29 @@
 [
  {
+  "slug": "Alpha-Klotho-Deficient-Rats-Phosphorus-Restriction-Breeding-2026.html",
+  "title": "α-Klotho 缺陷大鼠终于能养到第五代了：靠的是母体低磷饮食，不是基因改造",
+  "desc": "用母体低磷饮食这一「非基因」手段，绕过 α-Klotho 缺陷大鼠的早期死亡与繁殖障碍，把断奶存活率从 85.8% 提到 92.6%，并把该经典早老模型维持到至少第五代。",
+  "tag": "预印本",
+  "date": "2026-10-19",
+  "topic": "方法与工具",
+  "type": "预印本",
+  "evidence": "B",
+  "source": "doi.org",
+  "doi": "10.64898/2026.10.17.759802"
+ },
+ {
+  "slug": "Skin-Ageing-Senomorphic-Natural-Extracts-bioRxiv-2026.html",
+  "title": "啤酒花＋银杏提取物组合让老化皮肤细胞衰老负荷下降 45%，且不诱导增殖",
+  "desc": "用 H. lupulus 与 G. biloba 提取物组合处理自然老化的人真皮成纤维细胞，衰老表型负荷最高下降 45%，同时不诱导细胞增殖——但只看摘要，读全文前别急着归类。",
+  "tag": "预印本",
+  "date": "2026-10-19",
+  "topic": "细胞衰老",
+  "type": "预印本",
+  "evidence": "B",
+  "source": "doi.org",
+  "doi": "10.64898/2026.10.13.758751"
+ },
+ {
   "slug": "Cross-Weekly-Clinical-Literature-2026-10-18.html",
   "title": "交叉周报 2026-10-18：NAD⁺ 三期倒向安慰剂，而登记表减 96 项里混着「口径」与「真相」",
   "desc": "本期以 NAD⁺ 方向迄今最大的三期为轴，串起四条在同一周出现的反向证据：NOPARK 主要终点劣于安慰剂、表观遗传时钟作为试验终点的可靠性被三条独立证据质疑、NR 在增殖组织中伤害性为先、以及 ER-100 首批人体数据读的是功能终点而非标志物。登记侧同时发生口径重建：活跃试验从 558 降至 462 项。",
@@ -66,7 +90,8 @@
   "topic": "神经退行",
   "type": "研究进展",
   "evidence": "C",
-  "source": "www.biorxiv.org"
+  "source": "www.biorxiv.org",
+  "doi": "10.64898/2026.10.05.756834v1"
  },
  {
   "slug": "Lifelong-Mating-Rejuvenates-Liver-Killifish-Sexual-Reproduction-Aging-2026.html",
@@ -1105,7 +1130,8 @@
   "topic": "代谢与营养",
   "type": "研究进展",
   "evidence": "B",
-  "source": "umami.is"
+  "source": "umami.is",
+  "doi": "10.1111/acel.70725"
  },
  {
   "slug": "Aging-vs-Biological-Age-Conceptual-Considerations-2026.html",
@@ -1243,7 +1269,8 @@
   "topic": "代谢与营养",
   "type": "临床进展",
   "evidence": "B",
-  "source": "umami.is"
+  "source": "umami.is",
+  "doi": "10.1111/acel.12880"
  },
  {
   "slug": "Microbiome-Age-Clock-Bifidobacterium-5-AVAB-Healthspan-2026.html",
@@ -1278,7 +1305,8 @@
   "topic": "代谢与营养",
   "type": "临床进展",
   "evidence": "A",
-  "source": "umami.is"
+  "source": "umami.is",
+  "doi": "10.1038/s42255-025-01421-8"
  },
  {
   "slug": "NAD-Precursor-Systematic-Review-Meta-Analysis-2026.html",
@@ -1312,7 +1340,8 @@
   "topic": "表观遗传",
   "type": "研究进展",
   "evidence": "B",
-  "source": "umami.is"
+  "source": "umami.is",
+  "doi": "10.1016/j.cell.2016.11.052"
  },
  {
   "slug": "Protein-Restriction-Coordinated-Adaptive-Response-2026.html",
@@ -1335,7 +1364,8 @@
   "topic": "免疫与炎症",
   "type": "研究进展",
   "evidence": "B",
-  "source": "umami.is"
+  "source": "umami.is",
+  "doi": "10.1111/acel.70364"
  },
  {
   "slug": "Rapamycin-APOE4-Cerebral-Blood-Flow-Trial-2026.html",
@@ -1346,7 +1376,8 @@
   "topic": "神经退行",
   "type": "临床进展",
   "evidence": "B",
-  "source": "umami.is"
+  "source": "umami.is",
+  "doi": "10.1177/0271678X261490342"
  },
  {
   "slug": "Rapamycin-HFpEF-Frailty-Functional-Endpoint-Failure-2026.html",
@@ -1472,7 +1503,8 @@
   "topic": "免疫与炎症",
   "type": "研究进展",
   "evidence": "B",
-  "source": "umami.is"
+  "source": "umami.is",
+  "doi": "10.1038/s41586-026-10242-y"
  },
  {
   "slug": "Undecimal-Bio-siRNA-Non-Hepatic-Delivery-Seed-18M.html",
@@ -4154,7 +4186,8 @@
   "topic": "神经退行",
   "type": "研究进展",
   "evidence": "B",
-  "source": "umami.is"
+  "source": "umami.is",
+  "doi": "10.3390/biology15110854"
  },
  {
   "slug": "NextGen-Epigenetic-Clock-Interventions-41-Human-Studies-2026.html",
@@ -5531,7 +5564,8 @@
   "topic": "神经退行",
   "type": "研究进展",
   "evidence": "B",
-  "source": ""
+  "source": "",
+  "doi": "10.1038/s41586-026-10295-z"
  },
  {
   "slug": "FTL1-Protein-Brain-Aging-UCSF-Nature-Aging.html",

@@ -1,0 +1,680 @@
+{
+ "文献层": {
+  "dir_id": "dsuxMCSCwEVB",
+  "items": [
+   {
+    "file_id": "dNzUHbVFQTBa",
+    "name": "全文PDF/G21_PROMETHEUS_protocol_PMID42393428",
+    "ext": "pdf",
+    "size": "1553065",
+    "modify_time": "1792179024000"
+   },
+   {
+    "file_id": "dcstQIgaFtPO",
+    "name": "全文PDF/G09_frailty_mortality_UKB_PMID41351715",
+    "ext": "pdf",
+    "size": "967092",
+    "modify_time": "1792179119000"
+   },
+   {
+    "file_id": "dNUpfzWjaLlA",
+    "name": "预印本速递_总表",
+    "ext": "xlsx",
+    "size": "50162",
+    "modify_time": "1790223724000"
+   },
+   {
+    "file_id": "dMaxwACLTlaq",
+    "name": "预印本速递_2026-10-19",
+    "ext": "md",
+    "size": "19505",
+    "modify_time": "1792361258000"
+   },
+   {
+    "file_id": "drNIhDcoxTCw",
+    "name": "预印本速递_2026-09-24",
+    "ext": "md",
+    "size": "25948",
+    "modify_time": "1790223788000"
+   },
+   {
+    "file_id": "dCnGdkgCfSvh",
+    "name": "预印本速递_2026-09-23",
+    "ext": "md",
+    "size": "27393",
+    "modify_time": "1790126423000"
+   },
+   {
+    "file_id": "dplqCwZFOLzx",
+    "name": "预印本速递_2026-09-23_文献库",
+    "ext": "csv",
+    "size": "8119",
+    "modify_time": "1790126424000"
+   },
+   {
+    "file_id": "dVqGTgbKResH",
+    "name": "预印本速递_2026-09-22",
+    "ext": "md",
+    "size": "22122",
+    "modify_time": "1790040058000"
+   },
+   {
+    "file_id": "dwxBgFSequrA",
+    "name": "预印本速递_2026-09-17",
+    "ext": "md",
+    "size": "15349",
+    "modify_time": "1789609004000"
+   },
+   {
+    "file_id": "djDYwIKGTXEV",
+    "name": "预印本速递_2026-09-15",
+    "ext": "md",
+    "size": "15032",
+    "modify_time": "1789445617000"
+   },
+   {
+    "file_id": "dNPXwSvxykXH",
+    "name": "预印本速递_2026-09-15_空跑说明_1209",
+    "ext": "md",
+    "size": "12464",
+    "modify_time": "1789445516000"
+   },
+   {
+    "file_id": "dZimRRbWuwmI",
+    "name": "预印本速递_2026-09-15_独立复核与增量",
+    "ext": "md",
+    "size": "12750",
+    "modify_time": "1789446249000"
+   },
+   {
+    "file_id": "dShTfNfgfUJy",
+    "name": "预印本速递_2026-09-15_1147",
+    "ext": "md",
+    "size": "9245",
+    "modify_time": "1789445190000"
+   },
+   {
+    "file_id": "dBBZqfrAlUWW",
+    "name": "预印本速递_2026-09-13",
+    "ext": "md",
+    "size": "3809",
+    "modify_time": "1789261772000"
+   },
+   {
+    "file_id": "dQpERrkBggNI",
+    "name": "预印本全文级流水线_运行摘要_2026-10-18",
+    "ext": "md",
+    "size": "6918",
+    "modify_time": "1792366102000"
+   },
+   {
+    "file_id": "dUGQuZejNsUm",
+    "name": "衰老文献库_总索引",
+    "ext": "xlsx",
+    "size": "69279",
+    "modify_time": "1790252008000"
+   },
+   {
+    "file_id": "dHQVvLfIkFGi",
+    "name": "文献层_五刊监控_深度文献卡片_2026-10-16",
+    "ext": "md",
+    "size": "249984",
+    "modify_time": "1792100943000"
+   },
+   {
+    "file_id": "dNTCoBPwiOnt",
+    "name": "文献层_五刊监控_深度文献卡片_2026-10-09",
+    "ext": "md",
+    "size": "0",
+    "modify_time": "1791508691000"
+   },
+   {
+    "file_id": "dkwSBCCuiNrB",
+    "name": "文献层_五刊监控_深度文献卡片_2026-10-02",
+    "ext": "md",
+    "size": "215865",
+    "modify_time": "1790905079000"
+   },
+   {
+    "file_id": "dmhWJyyMYhzk",
+    "name": "文献层_五刊监控_深度文献卡片_2026-09-25",
+    "ext": "md",
+    "size": "118088",
+    "modify_time": "1790299536000"
+   }
+  ]
+ },
+ "行业层": {
+  "dir_id": "dVEYJcsAbUdK",
+  "items": [
+   {
+    "file_id": "dxGTKRYApbJO",
+    "name": "行业情报周报_2026-10-14",
+    "ext": "xlsx",
+    "size": "17361",
+    "modify_time": "1791943080000"
+   },
+   {
+    "file_id": "dtiCDKUMUdrG",
+    "name": "行业情报周报_2026-10-14",
+    "ext": "md",
+    "size": "23365",
+    "modify_time": "1791942978000"
+   },
+   {
+    "file_id": "dVKsSOJcCMjU",
+    "name": "行业情报周报_2026-09-16",
+    "ext": "xlsx",
+    "size": "18880",
+    "modify_time": "1792083815000"
+   },
+   {
+    "file_id": "dOnhQdjKdwmw",
+    "name": "行业情报周报_2026-09-16",
+    "ext": "md",
+    "size": "30237",
+    "modify_time": "1789522187000"
+   }
+  ]
+ },
+ "元层": {
+  "dir_id": "dQpzABLkRxLu",
+  "items": [
+   {
+    "file_id": "dxGTKRYApbJO",
+    "name": "IMA知识库_0019eb4e65002c9f/行业层/行业情报周报_2026-10-14",
+    "ext": "xlsx",
+    "size": "17361",
+    "modify_time": "1791943080000"
+   },
+   {
+    "file_id": "dtiCDKUMUdrG",
+    "name": "IMA知识库_0019eb4e65002c9f/行业层/行业情报周报_2026-10-14",
+    "ext": "md",
+    "size": "23365",
+    "modify_time": "1791942978000"
+   },
+   {
+    "file_id": "dVKsSOJcCMjU",
+    "name": "IMA知识库_0019eb4e65002c9f/行业层/行业情报周报_2026-09-16",
+    "ext": "xlsx",
+    "size": "18880",
+    "modify_time": "1792083815000"
+   },
+   {
+    "file_id": "dOnhQdjKdwmw",
+    "name": "IMA知识库_0019eb4e65002c9f/行业层/行业情报周报_2026-09-16",
+    "ext": "md",
+    "size": "30237",
+    "modify_time": "1789522187000"
+   },
+   {
+    "file_id": "dequNRtQngAz",
+    "name": "IMA知识库_0019eb4e65002c9f/网站层/网站喂料_2026-10-13/运营日志",
+    "ext": "md",
+    "size": "55081",
+    "modify_time": "1792035261000"
+   },
+   {
+    "file_id": "dDgSRfxdSmVQ",
+    "name": "IMA知识库_0019eb4e65002c9f/网站层/网站喂料_2026-10-13/运营待办清单",
+    "ext": "md",
+    "size": "29623",
+    "modify_time": "1792035278000"
+   },
+   {
+    "file_id": "dliXZnQOaEFF",
+    "name": "IMA知识库_0019eb4e65002c9f/网站层/网站喂料_2026-10-13/衰老和长寿情报_网站喂料池_2026-10-13",
+    "ext": "xlsx",
+    "size": "104516",
+    "modify_time": "1791919306000"
+   },
+   {
+    "file_id": "dJGebiPuCHBd",
+    "name": "IMA知识库_0019eb4e65002c9f/网站层/网站喂料_2026-10-13/网站喂料_已发布条目_2026-10-13",
+    "ext": "json",
+    "size": "10961",
+    "modify_time": "1791917597000"
+   },
+   {
+    "file_id": "dBYxXrMjpuhD",
+    "name": "IMA知识库_0019eb4e65002c9f/网站层/网站喂料_2026-10-13/站点重复清理记录_2026-10-14",
+    "ext": "md",
+    "size": "1755",
+    "modify_time": "1791922109000"
+   },
+   {
+    "file_id": "defHKzOPPJJY",
+    "name": "IMA知识库_0019eb4e65002c9f/网站层/网站喂料_2026-10-13/热词专题页方案_2026-10-14",
+    "ext": "md",
+    "size": "5130",
+    "modify_time": "1791936255000"
+   },
+   {
+    "file_id": "dxcXooRabATN",
+    "name": "IMA知识库_0019eb4e65002c9f/网站层/网站喂料_2026-10-13/全库查重报告_2026-10-14",
+    "ext": "json",
+    "size": "11776",
+    "modify_time": "1791919313000"
+   },
+   {
+    "file_id": "duudOrKOCNbX",
+    "name": "IMA知识库_0019eb4e65002c9f/网站层/网站喂料_2026-10-13/README_补丁说明_2026-10-14",
+    "ext": "md",
+    "size": "5197",
+    "modify_time": "1791936256000"
+   },
+   {
+    "file_id": "dCIAdswPqsVy",
+    "name": "IMA知识库_0019eb4e65002c9f/网站层/网站喂料_2026-10-13/README_批次说明_2026-10-13",
+    "ext": "md",
+    "size": "1919",
+    "modify_time": "1791917597000"
+   },
+   {
+    "file_id": "dwAsnFbzSWnn",
+    "name": "IMA知识库_0019eb4e65002c9f/网站层/网站喂料_2026-10-13/README_安全补丁包_2026-10-14_1955",
+    "ext": "md",
+    "size": "6917",
+    "modify_time": "1791981566000"
+   },
+   {
+    "file_id": "dUDkmXVAgpQv",
+    "name": "IMA知识库_0019eb4e65002c9f/网站层/网站喂料_2026-10-13/LongBiosci_补丁包_2026-10-14_0730.tar",
+    "ext": "gz",
+    "size": "1381973",
+    "modify_time": "1791936255000"
+   },
+   {
+    "file_id": "ddHirmpCGcaw",
+    "name": "IMA知识库_0019eb4e65002c9f/网站层/网站喂料_2026-10-13/LongBiosci_网站评估报告_2026-10-14",
+    "ext": "md",
+    "size": "12308",
+    "modify_time": "1791986232000"
+   },
+   {
+    "file_id": "dPbPpYebDMnu",
+    "name": "IMA知识库_0019eb4e65002c9f/网站层/网站喂料_2026-10-13/LongBiosci_本地管线脚本_2026-10-15.tar",
+    "ext": "gz",
+    "size": "35086",
+    "modify_time": "1792008760000"
+   },
+   {
+    "file_id": "dPLAZybFWVvu",
+    "name": "IMA知识库_0019eb4e65002c9f/网站层/网站喂料_2026-10-13/LongBiosci_安全补丁包_2026-10-14_1955.tar",
+    "ext": "gz",
+    "size": "893597",
+    "modify_time": "1791981566000"
+   },
+   {
+    "file_id": "dCbmTQRxOmJF",
+    "name": "IMA知识库_0019eb4e65002c9f/网站层/网站喂料_2026-10-13/IMA_文献著录_2026-10-13",
+    "ext": "md",
+    "size": "50022",
+    "modify_time": "1791917597000"
+   },
+   {
+    "file_id": "dAmfKoTdTtqN",
+    "name": "IMA知识库_0019eb4e65002c9f/网站层/网站喂料_2026-10-13/IMA_喂料池总表_2026-10-13",
+    "ext": "md",
+    "size": "24622",
+    "modify_time": "1791917597000"
+   },
+   {
+    "file_id": "daJgfFSWiYwo",
+    "name": "IMA知识库_0019eb4e65002c9f/网站层/网站喂料_2026-10-13/check_dup_发布前查重",
+    "ext": "py",
+    "size": "1197",
+    "modify_time": "1791919310000"
+   },
+   {
+    "file_id": "dRlRAPWevRku",
+    "name": "IMA知识库_0019eb4e65002c9f/网站层/运营日志",
+    "ext": "md",
+    "size": "64212",
+    "modify_time": "1792283205000"
+   },
+   {
+    "file_id": "dVisoPwrcwVm",
+    "name": "IMA知识库_0019eb4e65002c9f/网站层/运营待办清单",
+    "ext": "md",
+    "size": "31351",
+    "modify_time": "1792283208000"
+   },
+   {
+    "file_id": "dNzUHbVFQTBa",
+    "name": "IMA知识库_0019eb4e65002c9f/文献层/全文PDF/G21_PROMETHEUS_protocol_PMID42393428",
+    "ext": "pdf",
+    "size": "1553065",
+    "modify_time": "1792179024000"
+   },
+   {
+    "file_id": "dcstQIgaFtPO",
+    "name": "IMA知识库_0019eb4e65002c9f/文献层/全文PDF/G09_frailty_mortality_UKB_PMID41351715",
+    "ext": "pdf",
+    "size": "967092",
+    "modify_time": "1792179119000"
+   },
+   {
+    "file_id": "dNUpfzWjaLlA",
+    "name": "IMA知识库_0019eb4e65002c9f/文献层/预印本速递_总表",
+    "ext": "xlsx",
+    "size": "50162",
+    "modify_time": "1790223724000"
+   },
+   {
+    "file_id": "dMaxwACLTlaq",
+    "name": "IMA知识库_0019eb4e65002c9f/文献层/预印本速递_2026-10-19",
+    "ext": "md",
+    "size": "19505",
+    "modify_time": "1792361258000"
+   },
+   {
+    "file_id": "drNIhDcoxTCw",
+    "name": "IMA知识库_0019eb4e65002c9f/文献层/预印本速递_2026-09-24",
+    "ext": "md",
+    "size": "25948",
+    "modify_time": "1790223788000"
+   },
+   {
+    "file_id": "dCnGdkgCfSvh",
+    "name": "IMA知识库_0019eb4e65002c9f/文献层/预印本速递_2026-09-23",
+    "ext": "md",
+    "size": "27393",
+    "modify_time": "1790126423000"
+   },
+   {
+    "file_id": "dplqCwZFOLzx",
+    "name": "IMA知识库_0019eb4e65002c9f/文献层/预印本速递_2026-09-23_文献库",
+    "ext": "csv",
+    "size": "8119",
+    "modify_time": "1790126424000"
+   },
+   {
+    "file_id": "dVqGTgbKResH",
+    "name": "IMA知识库_0019eb4e65002c9f/文献层/预印本速递_2026-09-22",
+    "ext": "md",
+    "size": "22122",
+    "modify_time": "1790040058000"
+   },
+   {
+    "file_id": "dwxBgFSequrA",
+    "name": "IMA知识库_0019eb4e65002c9f/文献层/预印本速递_2026-09-17",
+    "ext": "md",
+    "size": "15349",
+    "modify_time": "1789609004000"
+   },
+   {
+    "file_id": "djDYwIKGTXEV",
+    "name": "IMA知识库_0019eb4e65002c9f/文献层/预印本速递_2026-09-15",
+    "ext": "md",
+    "size": "15032",
+    "modify_time": "1789445617000"
+   },
+   {
+    "file_id": "dNPXwSvxykXH",
+    "name": "IMA知识库_0019eb4e65002c9f/文献层/预印本速递_2026-09-15_空跑说明_1209",
+    "ext": "md",
+    "size": "12464",
+    "modify_time": "1789445516000"
+   },
+   {
+    "file_id": "dZimRRbWuwmI",
+    "name": "IMA知识库_0019eb4e65002c9f/文献层/预印本速递_2026-09-15_独立复核与增量",
+    "ext": "md",
+    "size": "12750",
+    "modify_time": "1789446249000"
+   },
+   {
+    "file_id": "dShTfNfgfUJy",
+    "name": "IMA知识库_0019eb4e65002c9f/文献层/预印本速递_2026-09-15_1147",
+    "ext": "md",
+    "size": "9245",
+    "modify_time": "1789445190000"
+   },
+   {
+    "file_id": "dBBZqfrAlUWW",
+    "name": "IMA知识库_0019eb4e65002c9f/文献层/预印本速递_2026-09-13",
+    "ext": "md",
+    "size": "3809",
+    "modify_time": "1789261772000"
+   },
+   {
+    "file_id": "dQpERrkBggNI",
+    "name": "IMA知识库_0019eb4e65002c9f/文献层/预印本全文级流水线_运行摘要_2026-10-18",
+    "ext": "md",
+    "size": "6918",
+    "modify_time": "1792366102000"
+   },
+   {
+    "file_id": "dUGQuZejNsUm",
+    "name": "IMA知识库_0019eb4e65002c9f/文献层/衰老文献库_总索引",
+    "ext": "xlsx",
+    "size": "69279",
+    "modify_time": "1790252008000"
+   },
+   {
+    "file_id": "dHQVvLfIkFGi",
+    "name": "IMA知识库_0019eb4e65002c9f/文献层/文献层_五刊监控_深度文献卡片_2026-10-16",
+    "ext": "md",
+    "size": "249984",
+    "modify_time": "1792100943000"
+   },
+   {
+    "file_id": "dNTCoBPwiOnt",
+    "name": "IMA知识库_0019eb4e65002c9f/文献层/文献层_五刊监控_深度文献卡片_2026-10-09",
+    "ext": "md",
+    "size": "0",
+    "modify_time": "1791508691000"
+   },
+   {
+    "file_id": "dkwSBCCuiNrB",
+    "name": "IMA知识库_0019eb4e65002c9f/文献层/文献层_五刊监控_深度文献卡片_2026-10-02",
+    "ext": "md",
+    "size": "215865",
+    "modify_time": "1790905079000"
+   },
+   {
+    "file_id": "dmhWJyyMYhzk",
+    "name": "IMA知识库_0019eb4e65002c9f/文献层/文献层_五刊监控_深度文献卡片_2026-09-25",
+    "ext": "md",
+    "size": "118088",
+    "modify_time": "1790299536000"
+   },
+   {
+    "file_id": "dhnlTAyanHao",
+    "name": "IMA知识库_0019eb4e65002c9f/衰老与长寿相关临床试验登记清单",
+    "ext": "md",
+    "size": "227731",
+    "modify_time": "1792267417000"
+   },
+   {
+    "file_id": "dgUBJEBhGZjZ",
+    "name": "IMA知识库_0019eb4e65002c9f/衰老与长寿相关临床试验登记清单_snapshot",
+    "ext": "json",
+    "size": "121430",
+    "modify_time": "1792267420000"
+   },
+   {
+    "file_id": "dcRhMjctGcjp",
+    "name": "运营日志",
+    "ext": "md",
+    "size": "42803",
+    "modify_time": "1792021773000"
+   },
+   {
+    "file_id": "duLHFqzcdVBY",
+    "name": "运营待办清单",
+    "ext": "md",
+    "size": "25062",
+    "modify_time": "1792021602000"
+   },
+   {
+    "file_id": "dkmvnmTBYaqu",
+    "name": "资产库使用指南",
+    "ext": "pdf",
+    "size": "898312",
+    "modify_time": "1789099878000"
+   },
+   {
+    "file_id": "dXzxgtkeYPXT",
+    "name": "月度研究热点综述_2026-10",
+    "ext": "md",
+    "size": "20322",
+    "modify_time": "1792028699000"
+   },
+   {
+    "file_id": "dwyAwojtLOeF",
+    "name": "临床×文献交叉周报_2026-10-18",
+    "ext": "md",
+    "size": "26952",
+    "modify_time": "1792262507000"
+   },
+   {
+    "file_id": "dsMQHIJKCTLS",
+    "name": "临床×文献交叉周报_2026-10-12",
+    "ext": "md",
+    "size": "0",
+    "modify_time": "1791767865000"
+   }
+  ]
+ },
+ "网站层": {
+  "dir_id": "drGisxAlABJK",
+  "items": [
+   {
+    "file_id": "dequNRtQngAz",
+    "name": "网站喂料_2026-10-13/运营日志",
+    "ext": "md",
+    "size": "55081",
+    "modify_time": "1792035261000"
+   },
+   {
+    "file_id": "dDgSRfxdSmVQ",
+    "name": "网站喂料_2026-10-13/运营待办清单",
+    "ext": "md",
+    "size": "29623",
+    "modify_time": "1792035278000"
+   },
+   {
+    "file_id": "dliXZnQOaEFF",
+    "name": "网站喂料_2026-10-13/衰老和长寿情报_网站喂料池_2026-10-13",
+    "ext": "xlsx",
+    "size": "104516",
+    "modify_time": "1791919306000"
+   },
+   {
+    "file_id": "dJGebiPuCHBd",
+    "name": "网站喂料_2026-10-13/网站喂料_已发布条目_2026-10-13",
+    "ext": "json",
+    "size": "10961",
+    "modify_time": "1791917597000"
+   },
+   {
+    "file_id": "dBYxXrMjpuhD",
+    "name": "网站喂料_2026-10-13/站点重复清理记录_2026-10-14",
+    "ext": "md",
+    "size": "1755",
+    "modify_time": "1791922109000"
+   },
+   {
+    "file_id": "defHKzOPPJJY",
+    "name": "网站喂料_2026-10-13/热词专题页方案_2026-10-14",
+    "ext": "md",
+    "size": "5130",
+    "modify_time": "1791936255000"
+   },
+   {
+    "file_id": "dxcXooRabATN",
+    "name": "网站喂料_2026-10-13/全库查重报告_2026-10-14",
+    "ext": "json",
+    "size": "11776",
+    "modify_time": "1791919313000"
+   },
+   {
+    "file_id": "duudOrKOCNbX",
+    "name": "网站喂料_2026-10-13/README_补丁说明_2026-10-14",
+    "ext": "md",
+    "size": "5197",
+    "modify_time": "1791936256000"
+   },
+   {
+    "file_id": "dCIAdswPqsVy",
+    "name": "网站喂料_2026-10-13/README_批次说明_2026-10-13",
+    "ext": "md",
+    "size": "1919",
+    "modify_time": "1791917597000"
+   },
+   {
+    "file_id": "dwAsnFbzSWnn",
+    "name": "网站喂料_2026-10-13/README_安全补丁包_2026-10-14_1955",
+    "ext": "md",
+    "size": "6917",
+    "modify_time": "1791981566000"
+   },
+   {
+    "file_id": "dUDkmXVAgpQv",
+    "name": "网站喂料_2026-10-13/LongBiosci_补丁包_2026-10-14_0730.tar",
+    "ext": "gz",
+    "size": "1381973",
+    "modify_time": "1791936255000"
+   },
+   {
+    "file_id": "ddHirmpCGcaw",
+    "name": "网站喂料_2026-10-13/LongBiosci_网站评估报告_2026-10-14",
+    "ext": "md",
+    "size": "12308",
+    "modify_time": "1791986232000"
+   },
+   {
+    "file_id": "dPbPpYebDMnu",
+    "name": "网站喂料_2026-10-13/LongBiosci_本地管线脚本_2026-10-15.tar",
+    "ext": "gz",
+    "size": "35086",
+    "modify_time": "1792008760000"
+   },
+   {
+    "file_id": "dPLAZybFWVvu",
+    "name": "网站喂料_2026-10-13/LongBiosci_安全补丁包_2026-10-14_1955.tar",
+    "ext": "gz",
+    "size": "893597",
+    "modify_time": "1791981566000"
+   },
+   {
+    "file_id": "dCbmTQRxOmJF",
+    "name": "网站喂料_2026-10-13/IMA_文献著录_2026-10-13",
+    "ext": "md",
+    "size": "50022",
+    "modify_time": "1791917597000"
+   },
+   {
+    "file_id": "dAmfKoTdTtqN",
+    "name": "网站喂料_2026-10-13/IMA_喂料池总表_2026-10-13",
+    "ext": "md",
+    "size": "24622",
+    "modify_time": "1791917597000"
+   },
+   {
+    "file_id": "daJgfFSWiYwo",
+    "name": "网站喂料_2026-10-13/check_dup_发布前查重",
+    "ext": "py",
+    "size": "1197",
+    "modify_time": "1791919310000"
+   },
+   {
+    "file_id": "dRlRAPWevRku",
+    "name": "运营日志",
+    "ext": "md",
+    "size": "64212",
+    "modify_time": "1792283205000"
+   },
+   {
+    "file_id": "dVisoPwrcwVm",
+    "name": "运营待办清单",
+    "ext": "md",
+    "size": "31351",
+    "modify_time": "1792283208000"
+   }
+  ]
+ }
+}
