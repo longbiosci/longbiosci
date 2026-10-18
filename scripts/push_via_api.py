@@ -149,13 +149,22 @@ def main():
     #   这里用「按本地 tree 内容递归重建」的方式：先算每个 tree 的直接子项，
     #   子 tree 先建；子项若为 blob 且已在远端，直接复用 sha。
     def tree_entries(sha):
-        out = sh("git", "ls-tree", sha).decode()
+        # 必须用 -z（NUL 分隔，且不做任何转义）。
+        # 踩过的坑：默认 `ls-tree` 对非 ASCII 路径会按 core.quotepath 转义成
+        #   "\350\277\220\350\220\245\345\276\205\346\227\245\345\277\227.md"
+        # 这种八进制加引号的形式。把转义串当真实路径传给 Git Data API，
+        # 建出来的 tree sha 与本地不一致 —— 于是中文文件名目录下的 tree 永远重建失败，
+        # 触发下面的 assert 并中止推送（docs/ 就是这么卡住的）。
+        out = sh("git", "ls-tree", "-z", sha).decode()
         res = []
-        for line in out.strip().split("\n"):
-            if not line:
+        for rec in out.split("\0"):
+            if not rec:
                 continue
-            meta, name = line.split("\t", 1)
+            meta, name = rec.split("\t", 1)
             mode, typ, osha = meta.split()
+            # 双保险：绝不接受被引号包裹（即被转义）的路径
+            assert not (name.startswith('"') and name.endswith('"')), \
+                f"路径被转义，拒绝推送：{name}"
             res.append({"path": name, "mode": mode, "type": typ, "sha": osha})
         return res
 
