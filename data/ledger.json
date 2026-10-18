@@ -1,7 +1,7 @@
 {
  "site": {
-  "articles": 553,
-  "dois": 423
+  "articles": 556,
+  "dois": 426
  },
  "outputs": {
   "cards_2026-09-25.md": {
@@ -42,6 +42,11 @@
   "README-security-patch-2026-10-14.md": {
    "rows": 0,
    "bytes": 6917,
+   "suspicious_empty": false
+  },
+  "cross-2026-10-18.md": {
+   "rows": 0,
+   "bytes": 29189,
    "suspicious_empty": false
   },
   "dedup-record-2026-10-14.md": {
@@ -162,6 +167,11 @@
   "site-ops-todo.md": {
    "rows": 0,
    "bytes": 41017,
+   "suspicious_empty": false
+  },
+  "trials-list-2026-10-18.md": {
+   "rows": 0,
+   "bytes": 227731,
    "suspicious_empty": false
   },
   "交叉周报_2026-10-12.md": {
@@ -1449,6 +1459,17 @@
    "basis": "四路均未命中（DOI=10.1007/s11357-026-02498-z，标题相似 0.00，词元重叠 0.33）"
   },
   {
+   "fingerprint": "doi:10.1038/s43587-026-01227-7",
+   "title": "Mitochondrial membrane lipid cardiolipin controls fiber-type adaptations in aging muscle via estrogen-related receptor γ",
+   "doi": "10.1038/s43587-026-01227-7",
+   "code": "N2",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1038/s43587-026-01227-7，标题相似 0.00，词元重叠 0.50）"
+  },
+  {
    "fingerprint": "doi:10.1038/s43587-026-01221-z",
    "title": "A cross-species single-cell kidney epigenome atlas reveals epithelial-dominant aging-like states in disease",
    "doi": "10.1038/s43587-026-01221-z",
@@ -1634,17 +1655,6 @@
    ],
    "status": "漏收",
    "basis": "四路均未命中（DOI=10.1111/acel.70706，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
-  },
-  {
-   "fingerprint": "doi:10.1007/s11357-026-02362-0",
-   "title": "Study protocol for FAXAge: a randomized, controlled clinical trial of fasting and exercise to slow aging in humans",
-   "doi": "10.1007/s11357-026-02362-0",
-   "code": "G1",
-   "seen_in": [
-    "cards_2026-10-02.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1007/s11357-026-02362-0，标题相似 0.00，词元重叠 0.50）"
   },
   {
    "fingerprint": "doi:10.1007/s11357-026-02554-8",
@@ -2120,7 +2130,7 @@
    "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
   }
  ],
- "orphan_count": 553,
+ "orphan_count": 556,
  "orphan_sample": [
   "3D-Culture-Reverses-Limbal-Niche-AgingCell-2026.html",
   "7-Ketocholesterol-Derivatives-Pathophysiology.html",

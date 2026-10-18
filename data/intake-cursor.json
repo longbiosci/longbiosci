@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-17T07:43:12+08:00",
+ "updated_at": "2026-10-18T08:03:27+08:00",
  "entries": {
   "dkwSBCCuiNrB": {
    "name": "文献层_五刊监控_深度文献卡片_2026-10-02",
@@ -715,6 +715,39 @@
    "done_at": "2026-10-17T07:43:12+08:00",
    "slugs": [],
    "note": "非产出：upload_test.txt 24B（内容 upload_probe_2026-10-16），系上游做网盘上传链路连通性测试后遗留的探针文件，无内容价值，不入站。已在巡检报告中建议清理。"
+  },
+  "dwyAwojtLOeF": {
+   "name": "临床×文献交叉周报_2026-10-18",
+   "layer": "元层",
+   "size": 26952,
+   "mtime": "1792262507000",
+   "status": "done",
+   "done_at": "2026-10-18T08:03:13+08:00",
+   "slugs": [
+    "NOPARK-NR-Early-Parkinson-Phase3-JAMA-2026.html",
+    "Cross-Weekly-Clinical-Literature-2026-10-18.html"
+   ],
+   "note": "实下载 29189 B（非 0）。四路查重命中 3 项已收、1 项无DOI但内容重合；仅 JAMA NOPARK 三期阴性（PMID 42848371 / NCT03568968）属真实未收， PubMed 官方摘要逐项核验后成文，证据 A。同期 TAME/ER-100/D+Q MASH 等已由既有稿覆盖，不重复立稿"
+  },
+  "dhnlTAyanHao": {
+   "name": "IMA知识库_0019eb4e65002c9f/衰老与长寿相关临床试验登记清单",
+   "layer": "元层",
+   "size": 227731,
+   "mtime": "1792267417000",
+   "status": "done",
+   "done_at": "2026-10-18T08:03:20+08:00",
+   "slugs": [],
+   "note": "采用本 md 清单（解析出全部 10 列）重建 data/trials-full.json：558 → 462 项（新增 27 / 退出 123 / 净 −96），与上游文档口径自洽；trials-full.html 已同步计数与口径变更提示；退出的 123 项入 data/trials-full-retired.json 备查、不物理删除"
+  },
+  "dgUBJEBhGZjZ": {
+   "name": "IMA知识库_0019eb4e65002c9f/衰老与长寿相关临床试验登记清单_snapshot",
+   "layer": "元层",
+   "size": 121430,
+   "mtime": "1792267420000",
+   "status": "done",
+   "done_at": "2026-10-18T08:03:27+08:00",
+   "slugs": [],
+   "note": "本 snapshot 每条仅 5 字段（nct/status/brief/categories/last_update），缺 trials-full.html 渲染所需 6 列；且旧全量快照 dXnPTXlfISVq 已被上游删除（file_download 报 11510 文件不存在），无法据此补齐。故改用同名 md 清单重建，本件作为交叉核对用，不单独立稿"
   }
  }
 }

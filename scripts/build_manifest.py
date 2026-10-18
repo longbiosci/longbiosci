@@ -27,9 +27,13 @@ import sys
 from datetime import datetime, timedelta, timezone
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-DEFAULT_RAW = "/root/.codebuddy/artifact/2f8a7d30-9c21-4f0b-1d4a-ef836f1a8000/nd_raw.json"
 REPO = os.path.dirname(HERE)
 OUT = os.path.join(REPO, "data", "intake-manifest.tsv")
+# （2026-10-18 修正）原先默认路径硬编码成另一个会话的 artifact 目录
+# （…/2f8a7d30-…-1d4a-ef836f1a8000/nd_raw.json），不传参数时会静默读到一份
+# 陈旧抓包：联锁结果是清单里凭空多出已删除的旧文件、本轮新产出又缺字段。
+# 改为默认只读仓库内的 data/nd_raw.json，找不到就明确报错要求先跑 nd_dirlist.py。
+DEFAULT_RAW = os.path.join(REPO, "data", "nd_raw.json")
 VERIFIED = os.path.join(REPO, "data", "verified-sizes.json")
 TZ = timezone(timedelta(hours=8))
 ORDER = ["文献层", "行业层", "网站层", "元层"]      # 元层垫底：其镜像条目让位
@@ -41,8 +45,12 @@ def mdate(ms):
 
 
 def main():
-    raw = json.load(open(sys.argv[1] if len(sys.argv) > 1 else DEFAULT_RAW,
-                         encoding="utf-8"))
+    src = sys.argv[1] if len(sys.argv) > 1 else DEFAULT_RAW
+    if not os.path.exists(src):
+        sys.exit(f"✗ 找不到抓包文件 {src}\n"
+                 f"  先跑 python3 scripts/nd_dirlist.py <输出路径>，"
+                 f"再把该路径作为参数传给本脚本。")
+    raw = json.load(open(src, encoding="utf-8"))
     old = {}
     if os.path.exists(OUT):
         with open(OUT, encoding="utf-8") as f:
@@ -80,11 +88,18 @@ def main():
             if str(it["size"]) != str(got):
                 overriden.append((it["name"], it["size"], got))
             it["size"] = str(got)
-        # 缓存里根本没有的条目（极少见）也要补进清单
-        for fid, got in vsize.items():
-            if fid not in best:
-                best[fid] = ({"file_id": fid, "name": fid, "ext": "",
-                              "size": str(got), "modify_time": "0"}, "元层")
+        # （2026-10-18 修正）原先把「实测表里有、哪层列表里都没有」的 file_id 补成一行
+        # 合成记录。实测表明这是有害的：文件被上游删除后，它会以 name=file_id、
+        # ext 空、modify_time=0 的幽灵行长期留在事实源里，cursor 会把一条早已不存在的
+        # 文件当成「待处理产出」。已删除文件的正确归宿是**从清单里消失**，
+        # 而不是留一条残缺记录。改为显式告警，由人判断是不是抓漏了。
+        phantoms = [(fid, got) for fid, got in vsize.items()
+                    if fid not in best and not fid.startswith("_")]
+    if phantoms:
+        print(f"  ⚠️ 实测表里有 {len(phantoms)} 个 file_id 已不在任何层目录中"
+              f"（疑似被上游删除/移动），未写入清单：")
+        for fid, got in phantoms:
+            print(f"      {fid}  （登记实测 {got} B）")
 
     rows = []
     for fid, (it, layer) in best.items():
