@@ -669,3 +669,118 @@ bioRxiv 的 TDM 条款写明：该仓库**不得用于再分发或 re-host**，
 | `c0d04f6` | 待推 | 「没有来源」缺口定性 + S3 通道 + 合规红线 |
 
 > 每次推送远端 SHA 与本地不同（脚本把 HEAD tree 打成新提交挂到远端 head 上），**属正常，不是没推上去**。
+
+### 9.11 七改（2026-10-19 凌晨）：降级方案实测 —— medRxiv 全文通道 41/41 全通
+
+用户拍板「降级跑一遍试试」。此前把退路定为「medRxiv+PMC OA（覆盖 ~18%）」，
+实测证明**低估了 medRxiv**：根本不需要 PMC OA，medRxiv 自身通道就能 100% 覆盖自己的命中。
+
+#### 9.11.1 本轮实测数据（窗口 2026-10-10 ~ 10-19）
+
+| 项 | 数值 |
+|---|---|
+| 区间总投稿 | bioRxiv 1,878 + medRxiv 477 |
+| 宽口径命中 | bioRxiv 146 + medRxiv 41 = **187** |
+| medRxiv 全文 | **41/41 拿到**（36 full + 5 partial） |
+| bioRxiv 全文 | **0/146**（IP 封禁实证，见 9.8） |
+| 总覆盖 | **21.9%**（区间维度） |
+| 单日覆盖 | **可能为 0**——10-18 命中 5 条全是 bioRxiv（周末 medRxiv 无新稿） |
+
+#### 9.11.2 medRxiv JATS 通道要点（别再重新踩）
+
+1. **API 给的 jatsxml 链接要 `-L` 跟随 301**：`/content/early/...` → `/content/medrxiv/early/...`，
+   不跟重定向会当失败。
+2. **探测必须用真实 DOI**。假 DOI（如 2024.01.01.000000）吃 Cloudflare **403**，
+   会误判成「medRxiv 也封了」——本轮就差点栽在这。（9.8 的 429↔200 测试用的是真实路径才成立。）
+3. **429 是锯齿模式**：连续成功 3-4 条 → 429 2-3 条 → 恢复。20s/30s 间隔都会中招，
+   但**冷却后必恢复**。补救用 30/60/120s 退避，本轮 13 条补抓 **13/13 全成功**（最顽强的一条退满 210s）。
+4. **HTTP 200 ≠ 全文到手**：5 篇 source.xml 的 `<body>` 里只有 supplementary-material 引用
+   （10.14/10.15 那两天疑似源文件转换缺陷）。判据必须是**正文文本长度**，不是状态码。
+   补救：medRxiv **内容页 HTML 可达**（200，108-145 KB），从 `<p>` 提取正文 3,668-7,902 字符，
+   定级 partial 可用。→ 教训：XML 通道残缺时，内容页是第二通道。
+5. medRxiv details API 会收录少量 **10.1101 DOI**（bioRxiv 稿，2 篇），其 jatsxml 在
+   medrxiv.org 域下且可下载——按 medRxiv 条目正常处理即可，不用管它为什么在这。
+
+#### 9.11.3 本轮新增资产
+
+| 文件 | 作用 |
+|---|---|
+| `scripts/fetch_medrxiv_fulltext.py` | medRxiv JATS 批量抓取（串行+限速） |
+| `scripts/fetch_medrxiv_retry.py` | 补抓（30/60/120s 退避；以磁盘 .xml 为准，跳过已抓） |
+| `scripts/jats_to_text.py` | JATS→正文文本 + 完整性定级（full ≥4000 字符 / partial ≥500 / empty） |
+| `data/fulltext/medrxiv/` | 41 篇 `.xml`+`.meta.json`+`.full.txt`/`.page.txt` + `_final_summary.json` |
+
+**踩过的坑（写下来防再犯）**：
+- `fetch_medrxiv_fulltext.py` 的 `--limit` 截断发生在「跳过已有」筛选**之前**，
+  导致补抓时只看排序后前 N 条、漏掉后面 11 条。已在 retry 版修正（limit 后移）。
+- HTML 补救时命名规则不一致：抓取用 `safe_name`（仅 `/`→`_`），curl 阶段用 `tr`（`.`/`/`全→`_`），
+  meta 更新静默跳过。**文件命名必须单一来源**。
+- `head -25` 接管道会把 preprint_daily.py SIGPIPE 崩掉、JSON 不落盘。重定向到文件再看。
+
+#### 9.11.4 bioRxiv 的窟窿仍在（凭证也非全解）
+
+- 真实 DOI 三连测内容页/JATS 恒定 403 → 封禁实证依旧。
+- openRxiv S3：映射 API **不覆盖 2026 年新 DOI**（`10.64898/2026.10.*` 返回 404，
+  脚本退出码 3）。即便 AWS 凭证到位，**最新稿**还需实现「列举桶内当月目录」——
+  而 MECA 文件名是 uuid、DOI 在包内，列举无法按 DOI 定位，除非逐包下载解包（成本失控）。
+  → 凭证能救的是映射 API 覆盖的**存量**稿，救不了每日新增。
+
+### 9.12 八改（2026-10-19 清晨）：流水线自动化固化 —— 抓取→全文→解读→上网站全跑通
+
+用户指令：「把流水线自动化搞起来……最终我要到网站上去看到解读」。
+
+#### 9.12.1 端到端验证（真实日期 2026-10-15 全流程实跑，20 秒完成）
+
+```
+run_preprint_pipeline.sh 2026-10-15
+  1/7 抓取当日命中        24 条（bioRxiv 12 + medRxiv 12）
+  2/7 medRxiv 全文抓取    0/0（幂等跳过——池里已有）
+  3/7 退避补抓            0/0（同上）
+  4/7 完整性定级          41 篇全量重校
+  5/7 汇总池重建          41 篇（38 full + 3 partial）
+  6/7 生成当日页+发布     daily/2026-10-15-fulltext-batch.html（主榜 7 + 观察哨 5）
+  7/7 sitemap             692 条
+```
+
+#### 9.12.2 流水线资产（scripts/ 新增 5 个）
+
+| 脚本 | 职责 |
+|---|---|
+| `run_preprint_pipeline.sh` | 每日总控：7 步串联，日志 `/tmp/preprint_<date>.log`，默认跑昨天 |
+| `fetch_medrxiv_fulltext.py` | medRxiv JATS 批量抓取；**默认跳过已抓**（`--force` 重下），防每日重跑惹 429 |
+| `fetch_medrxiv_retry.py` | 退避补抓 30/60/120s；limit 已后移到跳过筛选之后 |
+| `jats_to_text.py` | 定级；**`.page.txt` 补救优先**（曾把 5 篇 html_page 稿错打回 empty，已修） |
+| `build_fulltext_summary.py` | 累积池 `_final_summary.json` 重建（扫描 meta，幂等） |
+| `gen_daily_fulltext.py` | 当日页生成 + **自动发布**（daily/index.html 锚点 + rss.xml，均幂等） |
+
+#### 9.12.3 定级判据统一（按长度，不按来源）
+
+| 级 | 判据 | 篇数 |
+|---|---|---|
+| full | 正文 ≥4000 字符 | 38（其中 2 篇源为内容页补救，7902/4246 字符，超线故 full） |
+| partial | 500–4000 字符 | 3（内容页补救 3668–3872） |
+| empty | <500 字符 | 0 |
+
+→ 「内容页补救」不是降级理由，**长度才是判据**；`fulltext_source` 字段保留来源痕迹。
+
+#### 9.12.4 解读页质量纪律（写进 gen 脚本 docstring）
+
+- 贡献句：优先 JATS 结构化 `<abstract>`（API 的 abstract 有 5 条回退成正文首段，弃用）；
+  剥离开头 `Abstract/INTRODUCTION/BACKGROUND` 前缀。
+- 核心要点：**只从 Results/Discussion/Conclusions 顶层节**挑含数字句（HighWire 稿的 Methods 里嵌图注、
+  图注节标题不带 Figure 字样，靠节名过滤不准）；图注特征句过滤。
+- 所有摘录句原样呈现，不转写不补全；价值星级标「自动评估」。
+- 产物与人工精读档在页面顶部明确区分（本页为「全文级自动摘编」）。
+
+#### 9.12.5 已上线页面
+
+| 页面 | 内容 |
+|---|---|
+| `daily/2026-10-19-fulltext-batch.html` | 区间专页：41 篇（主榜 17 + 观察哨 24）+ bioRxiv 缺席说明 |
+| `daily/2026-10-15-fulltext-batch.html` | 流水线实跑产物：当日 12 篇（主榜 7 + 观察哨 5） |
+| `daily/index.html` | 两条目已插入（锚点机制，幂等） |
+| `rss.xml` | 两条目（流水线自动插入） |
+| `sitemap.xml` | 692 条，两页收录 |
+
+**下一步（ nightly 全自动）**：每日定时跑 `run_preprint_pipeline.sh <昨天>`；当日 medRxiv 0 命中时
+（如周末 bioRxiv 独大）gen 步骤自动跳过、不产空页。人工精读升级档另行安排。

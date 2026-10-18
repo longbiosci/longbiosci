@@ -6,3 +6,6 @@ node_modules/
 
 # Python 字节码缓存
 __pycache__/
+
+# 预印本全文数据（TDM 合规：禁止 re-host 到公开仓库，仅本地/Ima 使用）
+data/fulltext/
