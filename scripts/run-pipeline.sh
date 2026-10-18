@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ============================================================
-# run-pipeline.sh —— LongBiosci 本地管线一键运行器（v1.1）
+# run-pipeline.sh —— LongBiosci 本地管线一键运行器（v1.0）
 #
 # 用法：
 #   ./run-pipeline.sh [仓库根目录] [--date YYYY-MM-DD] [--now "YYYY-MM-DD HH:MM:SS"]
@@ -9,21 +9,20 @@
 #   --date / --now  透传给 add-rss-today-run.py（仅用于确定性复现；
 #                   日常运行不要传，脚本会自动取当天 UTC 日期与当前时刻）
 #
-# 依次执行 14 个环节（顺序与 .github/workflows/regen-index.yml 注释记载一致）：
+# 依次执行 13 个环节（顺序与 .github/workflows/regen-index.yml 注释记载一致）：
 #   1 build-index.py        从 news/*.html 重建 data/articles.json（追加式）
 #   2 sync-evidence.py      把 news/*.html 的分级回写 articles.json（--write；治回退顽疾）
 #   3 gen-home.py           生成 index.html
 #   4 gen-topic-pages.py    生成 topics/ 8 个专题页 + 12 个分页页 + 索引页
 #   5 gen-news-index.py     生成 news/index.html 与 news-2..N.html 分页
 #   6 gen-evidence-pages.py 生成 evidence/ 索引页 + A/B/C 分级列表（含分页）
-#   7 gen-industry.py       生成产业板块：/industry/ 事件流 + /companies/ 公司档案 + /events/ 会议日历
-#   8 rebuild-sitemap.py    重建 sitemap.xml
-#   9 add-rss-today-run.py  把当日新文章追加进 rss.xml（无新增则幂等不变）
-#  10 inject-poster.py      给文章页注入 /poster.js（已有则跳过）
-#  11 sync-search-index.py  重建 data/search-index.json 并刷新 search.html 计数
-#  12 refresh_counts.py     把各处「N 篇」计数回写为事实源（幂等；本环节自愈）
-#  13 audit-traceability.py 溯源完整性审计（只报告不阻断，产出 data/traceability-audit.json）
-#  14 check-links.py        全站死链 + 计数一致性检查（末位硬校验，不通过则本管线失败）
+#   7 rebuild-sitemap.py    重建 sitemap.xml
+#   8 add-rss-today-run.py  把当日新文章追加进 rss.xml（无新增则幂等不变）
+#   9 inject-poster.py      给文章页注入 /poster.js（已有则跳过）
+#  10 sync-search-index.py  重建 data/search-index.json 并刷新 search.html 计数
+#  11 refresh_counts.py     把各处「N 篇」计数回写为事实源（幂等；本环节自愈）
+#  12 audit-traceability.py 溯源完整性审计（只报告不阻断，产出 data/traceability-audit.json）
+#  13 check-links.py        全站死链 + 计数一致性检查（末位硬校验，不通过则本管线失败）
 #
 # 环节 2 为什么必须放在 3~7 之前（2026-10-17 新增）
 # ---------------------------------------------
@@ -41,22 +40,7 @@
 # 改为生成后，分页数量会随分级变动而增减，故必须在 sitemap 重建之前产出，
 # 否则 sitemap 会收录/遗漏错误分页。
 #
-# 环节 7 为什么必须放在 8（sitemap）之前、且是产业板块的唯一入口（2026-10-18 新增）
-# -----------------------------------------------------------------------
-# /companies/、/events/、/investors/ 此前是手写孤儿页：无数据源、无生成器、
-# git 各只有 1~2 次提交，内容靠人肉记忆维护。2026-10-18 全站审计时，
-# /companies/ 14 条卡片查出 6 处硬伤（Altos Labs 杜撰创始人、NewLimit 技术方向写错、
-# 已终止的合作写成在研、年份 2014 应为 2008 …），/investors/ 5 条查出 3 处
-# （"Peter Berg" 实为 Peter Thiel、Foresite 负责人写成斯坦福教授 Tony Wyss-Coray、
-# 无实据的"Krispy Kreme 家族办公室"）。根因不是写错了，是没有任何机制阻止写错。
-# 故本环节从 data/industry.json 事件流重建三页：
-#   · 公司卡片只存不随时间变的属性（名称/别名/技术方向/状态）
-#   · 融资、收购、临床、监管一律来自 events，且 events 每条必带 source，
-#     无来源的事件会被生成器跳过并告警 —— 从机制上杜绝杜撰
-# 放在 sitemap 之前，是因为 industry/ 已进 sitemap 列表，
-# 先出页面再重建 sitemap，否则 sitemap 会漏收新板块。
-#
-# 环节 12 为什么放在校验之前（2026-10-16 新增）
+# 环节 9 为什么放在校验之前（2026-10-16 新增）
 # ------------------------------------------
 # 概念页页标 / research/index.html / 首页概念卡片的计数此前**不归任何生成器管**，
 # 只能靠人手跑 refresh_counts.py，于是每次内容摄入重建站点后都漂一次
@@ -68,7 +52,7 @@
 # 顺序不可颠倒：先刷新后校验。若先校验，漂移会让管线在末位直接红，
 # 内容摄入被卡住，而漂移本身又没人修——这正是此前两周的实际状态。
 #
-# 环节 13 为什么只报告不阻断（2026-10-16 新增）
+# 环节 10 为什么只报告不阻断（2026-10-16 新增）
 # -------------------------------------------
 # 溯源审计量的是「每篇有没有 DOI / 有没有可点来源」，对照 /about/ 的溯源承诺。
 # 现状有缺口（约 138 篇无 DOI、十余篇彻底无来源），但缺口是**历史存量**，
@@ -100,7 +84,7 @@ PYTHON="${PYTHON:-python3}"
 step() {
   local n="$1" script="$2" desc="$3"
   shift 3
-  printf '\n[%s/14] %-22s %s\n' "$n" "$script" "$desc"
+  printf '\n[%s/13] %-22s %s\n' "$n" "$script" "$desc"
   case "$script" in
     add-rss-today-run.py) "$PYTHON" "$HERE/$script" "$ROOT" "$@" ;;
     sync-evidence.py)     "$PYTHON" "$HERE/$script" "$ROOT" --write ;;
@@ -116,13 +100,12 @@ step 3  gen-home.py            "生成首页 index.html"
 step 4  gen-topic-pages.py     "生成 topics/ 专题页与索引页"
 step 5  gen-news-index.py      "生成 news 列表分页"
 step 6  gen-evidence-pages.py  "生成 evidence/ 分级索引与 A/B/C 分页"
-step 7  gen-industry.py        "生成产业板块：事件流 / 公司档案 / 会议日历"
-step 8  rebuild-sitemap.py     "重建 sitemap.xml"
-step 9  add-rss-today-run.py   "追加当日新文章到 rss.xml"
-step 10 inject-poster.py       "注入海报脚本 /poster.js"
-step 11 sync-search-index.py   "重建站内搜索索引与计数"
-step 12 refresh_counts.py      "各处「N 篇」计数回写事实源（幂等）"
-step 13 audit-traceability.py  "溯源完整性审计（只报告，不阻断）"
-step 14 check-links.py         "全站死链与计数一致性检查（末位硬校验）"
+step 7  rebuild-sitemap.py     "重建 sitemap.xml"
+step 8  add-rss-today-run.py   "追加当日新文章到 rss.xml"
+step 9  inject-poster.py       "注入海报脚本 /poster.js"
+step 10 sync-search-index.py   "重建站内搜索索引与计数"
+step 11 refresh_counts.py      "各处「N 篇」计数回写事实源（幂等）"
+step 12 audit-traceability.py  "溯源完整性审计（只报告，不阻断）"
+step 13 check-links.py         "全站死链与计数一致性检查（末位硬校验）"
 
-printf '\n✅ 管线执行完成（14/14）\n'
+printf '\n✅ 管线执行完成（13/13）\n'

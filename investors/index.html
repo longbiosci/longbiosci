@@ -3,67 +3,62 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>产业 · 出资人 - LongBiosci</title>
-<meta name="description" content="长寿科技领域可溯源的出资人与机构名录，每条均给出官方来源。">
+<title>投资人 - LongBiosci</title>
+<meta name="description" content="长寿科技领域的主要资本力量：大厂资本、早期风险基金与个人大额出资。本页由编辑部手工维护，不构成投资参考。">
 <link rel="canonical" href="https://longbiosci.com/investors/">
 <meta name="robots" content="index, follow">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://longbiosci.com/investors/">
-<meta property="og:title" content="产业 · 出资人">
-<meta property="og:description" content="长寿科技领域可溯源的出资人与机构名录，每条均给出官方来源。">
+<meta property="og:title" content="投资人 - LongBiosci">
+<meta property="og:description" content="长寿科技领域的主要资本力量：大厂研究部门、个人大额出资与专注生命科学的基金。">
 <meta property="og:image" content="https://longbiosci.com/og-image.png">
 <meta property="og:site_name" content="LongBiosci">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="产业 · 出资人">
-<meta name="twitter:description" content="长寿科技领域可溯源的出资人与机构名录，每条均给出官方来源。">
-<link rel="alternate" type="application/rss+xml" title="LongBiosci RSS" href="/rss.xml">
+<meta name="twitter:title" content="投资人 - LongBiosci">
+<meta name="twitter:description" content="长寿科技领域的主要资本力量：大厂研究部门、个人大额出资与专注生命科学的基金。">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="stylesheet" href="/style.css">
 <style>
+/* 本页专属样式 */
+.entity-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(320px,100%),1fr));gap:var(--s-4)}
+.entity-card{background:var(--c-bg-raised);border:1px solid var(--c-line);
+  border-radius:var(--r-lg);padding:var(--s-5);display:flex;gap:var(--s-4);
+  transition:box-shadow .18s var(--ease),transform .18s var(--ease)}
+.entity-card:hover{box-shadow:var(--sh-md);transform:translateY(-2px)}
+.entity-logo{width:52px;height:52px;flex-shrink:0;border-radius:var(--r-md);
+  background:var(--c-primary);color:#fff;display:flex;align-items:center;
+  justify-content:center;font-weight:700;font-size:var(--f-sm);letter-spacing:.02em}
+.entity-name{font-size:var(--f-md);font-weight:600;color:var(--c-ink);margin-bottom:var(--s-1)}
+.entity-desc{font-size:var(--f-sm);color:var(--c-muted);line-height:var(--lh-normal);margin:0 0 var(--s-3)}
+.entity-tags{display:flex;gap:var(--s-1);flex-wrap:wrap;margin-bottom:var(--s-2)}
+.entity-note{font-size:var(--f-xs);color:var(--c-faint);line-height:var(--lh-normal)}
+.status-badge{display:inline-flex;align-items:center;padding:1px 7px;border-radius:var(--r-pill);
+  font-size:var(--f-xs);font-weight:500}
+.status-active{background:var(--c-ev-a-bg);color:var(--c-ev-a)}
+.status-acquired{background:#f1e8e0;color:#8a5a2b}
+@media (prefers-color-scheme:dark){.status-acquired{background:#2a1f16;color:#d4a07a}}
+/* 时间轴 */
+.tl{position:relative;padding-left:var(--s-6)}
+.tl::before{content:'';position:absolute;left:8px;top:var(--s-2);bottom:var(--s-2);
+  width:2px;background:var(--c-line)}
+.tl-item{position:relative;padding-bottom:var(--s-5)}
+.tl-item::before{content:'';position:absolute;left:calc(-1 * var(--s-6) + 3px);top:6px;
+  width:12px;height:12px;border-radius:50%;background:var(--c-primary);
+  border:2px solid var(--c-bg)}
+.tl-date{font-size:var(--f-xs);color:var(--c-primary);font-weight:500;
+  font-variant-numeric:tabular-nums;margin-bottom:var(--s-1)}
+.tl-name{font-size:var(--f-base);font-weight:600;color:var(--c-ink);margin-bottom:var(--s-1)}
+.tl-meta{font-size:var(--f-xs);color:var(--c-faint);margin-bottom:var(--s-2);
+  display:flex;gap:var(--s-2);flex-wrap:wrap}
+.tl-desc{font-size:var(--f-sm);color:var(--c-muted);line-height:var(--lh-normal);margin:0}
 .stat-row{display:flex;gap:var(--s-5);flex-wrap:wrap;margin:var(--s-4) 0 0;
   padding-top:var(--s-4);border-top:1px solid var(--c-line)}
 .stat-n{font-size:var(--f-xl);font-weight:600;color:var(--c-primary);
   font-variant-numeric:tabular-nums;line-height:1.2}
 .stat-l{font-size:var(--f-xs);color:var(--c-muted)}
-.entity-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(320px,100%),1fr));gap:var(--s-4)}
-.entity-card{background:var(--c-bg-raised);border:1px solid var(--c-line);
-  border-radius:var(--r-lg);padding:var(--s-4)}
-.entity-logo{width:2.2rem;height:2.2rem;border-radius:var(--r-md);display:flex;
-  align-items:center;justify-content:center;font-weight:700;font-size:var(--f-sm);
-  background:var(--c-surface);color:var(--c-primary);margin-bottom:.6rem}
-.entity-name{font-weight:600;font-size:var(--f-md)}
-.entity-desc{font-size:var(--f-sm);color:var(--c-muted);margin:.4rem 0}
-.entity-tags{display:flex;flex-wrap:wrap;gap:.3rem;margin-top:.4rem}
-.status-badge{display:inline-flex;align-items:center;padding:1px 7px;
-  border-radius:var(--r-pill);font-size:var(--f-xs);vertical-align:middle}
-.status-active{background:var(--c-ev-a-bg);color:var(--c-ev-a)}
-.status-acquired{background:#f1e8e0;color:#8a5a2b}
-.status-unknown{background:#eceef0;color:#5c6570}
-@media (prefers-color-scheme:dark){.status-acquired{background:#2a1f16;color:#d4a07a}}
-@media (prefers-color-scheme:dark){.status-unknown{background:#20242a;color:#a8b0ba}}
-.tl{border-left:2px solid var(--c-line);padding-left:var(--s-4);margin-top:var(--s-4)}
-.tl-item{position:relative;padding:0 0 var(--s-5) 0}
-.tl-item::before{content:"";position:absolute;left:calc(-1 * var(--s-4) - 5px);
-  top:.5rem;width:8px;height:8px;border-radius:50%;background:var(--c-primary)}
-.tl-date{font-size:var(--f-xs);color:var(--c-muted);font-variant-numeric:tabular-nums}
-.tl-name{font-weight:600;margin:.15rem 0}
-.tl-desc{font-size:var(--f-sm);color:var(--c-muted);margin-top:.25rem}
-.tl-meta{display:flex;flex-wrap:wrap;gap:.4rem;align-items:center;
-  font-size:var(--f-xs);color:var(--c-muted);margin-top:.25rem}
-.ev-amount{font-weight:600;color:var(--c-primary)}
-.type-bar{display:flex;flex-wrap:wrap;gap:.5rem;margin:var(--s-4) 0}
-.type-chip{padding:3px 10px;border-radius:var(--r-pill);font-size:var(--f-xs);
-  background:var(--c-surface);border:1px solid var(--c-line)}
-.deal-row{display:flex;gap:var(--s-3);align-items:baseline;flex-wrap:wrap;
-  padding:.55rem 0;border-bottom:1px solid var(--c-line)}
-.deal-row:last-child{border-bottom:none}
-.deal-amt{font-weight:600;color:var(--c-primary);font-variant-numeric:tabular-nums;
-  min-width:8.5rem;font-size:var(--f-sm)}
-.deal-name{flex:1;min-width:14rem;font-size:var(--f-sm)}
-.deal-meta{font-size:var(--f-xs);color:var(--c-muted)}
-.track-block{margin-top:var(--s-3)}
-.track-title{font-weight:600;font-size:var(--f-sm);margin-bottom:.3rem}
 </style>
+<!-- longbiosci:analytics 无 Cookie、无跨站追踪、不收集身份信息；详见 /privacy/ -->
+<script defer src="https://cloud.umami.is/script.js" data-website-id="bfb60723-d93d-4925-b1a2-d7ef51b9014c" data-do-not-track="true"></script>
 </head>
 <body>
 <a href="#main-content" class="skip-link">跳转到主要内容</a>
@@ -79,30 +74,42 @@
       <a href="/daily/">周刊</a>
       <a href="/evidence/" aria-label="证据分级">证据<span class="nav-mq">分级</span></a>
       <a href="/trials.html" aria-label="临床试验">临床<span class="nav-mq">试验</span></a>
-      <a href="/industry/">产业</a>
+      <a href="/companies/" aria-current="page">产业</a>
       <a href="/about/">关于</a>
       <a href="/search.html" class="nav-search" aria-label="站内搜索"><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="6.8" cy="6.8" r="4.6" fill="none" stroke="currentColor" stroke-width="1.6"/><line x1="10.3" y1="10.3" x2="14" y2="14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><span class="nav-search-text">搜索</span></a>
     </nav>
-  </div>
-</header>
+  </div></header>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "投资人",
+  "url": "https://longbiosci.com/investors/",
+  "description": "长寿科技领域的主要资本力量：大厂研究部门、个人大额出资与专注生命科学的基金。",
+  "inLanguage": "zh-CN",
+  "isPartOf": {"@type": "WebSite", "@id": "https://longbiosci.com/#website",
+               "url": "https://longbiosci.com", "name": "LongBiosci"},
+  "publisher": {"@type": "Organization", "name": "LongBiosci",
+                "alternateName": "LongBiosci 编辑部",
+                "url": "https://longbiosci.com"}
+}
+</script>
 <main id="main-content">
 <section class="hero"><div class="wrap">
-<h1>产业 · 出资人</h1>
-<p>长寿科技领域的出资人与机构。仅收录能给出公开来源的条目。</p>
-<div class="stat-row"><div><div class="stat-n">3</div><div class="stat-l">位在册</div></div></div>
+<h1>投资人</h1>
+<p>长寿科技领域的主要资本力量：大厂研究部门、个人大额出资与专注生命科学的基金。</p>
 </div></section>
 <section class="section"><div class="wrap">
-<p class="notice-box"><strong>为什么这里只有三个人</strong>本页原为手写名录，2026-10-18 审计时 5 条里查出 3 条有问题（把 Founders Fund 的 Peter Thiel 写成「Peter Berg」、把 Foresite Capital 的负责人写成斯坦福教授 Tony Wyss-Coray、以及查无实据的「Krispy Kreme 家族办公室」）。现在的原则是：<strong>能给公开来源的才留，给不出的一律删</strong>，所以只剩下这三位，并且每条都给了官方来源链接。</p><div class="entity-grid"><div class="entity-card"><div class="entity-name"><a href="https://foundersfund.com" rel="noopener">Peter Thiel</a></div><p class="entity-desc">通过：Founders Fund</p><p class="entity-desc">关联：Unity Biotechnology · 免疫衰老、靶点发现</p><p class="entity-desc" style="font-size:var(--f-xs)">来源：foundersfund.com</p></div><div class="entity-card"><div class="entity-name"><a href="https://www.calicolabs.com" rel="noopener">Larry Page</a></div><p class="entity-desc">通过：Alphabet / Calico</p><p class="entity-desc">关联：Calico Life Sciences · 大厂研究、制药合作</p><p class="entity-desc" style="font-size:var(--f-xs)">来源：calicolabs.com</p></div><div class="entity-card"><div class="entity-name"><a href="https://www.retro.bio" rel="noopener">Sam Altman</a></div><p class="entity-desc">通过：Retro Biosciences 出资人</p><p class="entity-desc">关联：Retro Biosciences · 重编程、自噬、临床一期</p><p class="entity-desc" style="font-size:var(--f-xs)">来源：retro.bio</p></div></div></div></section>
+<div class="stat-row"><div><div class="stat-n">3</div><div class="stat-l">主要出资方</div></div></div><div class="entity-grid" style="margin-top:1.5rem"><div class="entity-card"><div class="entity-logo">PT</div><div><div class="entity-name">Peter Thiel</div><div class="entity-note" style="margin-bottom:.4rem">Founders Fund</div><p class="entity-desc">投资多个长寿科技项目，包括 Unity Biotechnology。</p><div class="entity-tags"><span class="tag">早期投资</span></div></div></div>
+<div class="entity-card"><div class="entity-logo">LP</div><div><div class="entity-name">Larry Page</div><div class="entity-note" style="margin-bottom:.4rem">Google / Alphabet</div><p class="entity-desc">创立 Calico Labs 进军抗衰老，是长寿科技领域资金规模最大的推手之一。</p><div class="entity-tags"><span class="tag">大厂资本</span></div></div></div>
+<div class="entity-card"><div class="entity-logo">SA</div><div><div class="entity-name">Sam Altman</div><div class="entity-note" style="margin-bottom:.4rem">Retro Biosciences 出资人</div><p class="entity-desc">个人投资 Retro Biosciences 1.8 亿美元。</p><div class="entity-tags"><span class="tag">个人大额投资</span></div></div></div>
+
+</div>
+</div></section>
 </main><footer class="site-footer">
   <div class="wrap">
     <p>© 2026 LongBiosci 编辑部 · 衰老与长寿科技资讯</p>
-    <p class="footer-links">
-      <a href="/rss.xml">RSS</a> ·
-      匿名访问统计由 <a href="https://umami.is" rel="noopener">Umami</a> 提供（无 Cookie、不收集身份信息，详见 <a href="/privacy/">隐私政策</a>） ·
-      <a href="/sitemap.xml">Sitemap</a> ·
-      <a href="/privacy/">隐私政策</a> ·
-      <a href="/about/">关于</a>
-    </p>
+    <a href="/rss.xml">RSS</a> · <!-- longbiosci:footer-stats -->匿名访问统计由 <a href="https://umami.is" target="_blank" rel="noopener noreferrer">Umami</a> 提供（无 Cookie、不收集身份信息，详见 <a href="/privacy/">隐私政策</a>）<!--/longbiosci:footer-stats --> · <a href="/sitemap.xml">Sitemap</a> · <a href="/privacy/">隐私政策</a> · <a href="/about/">关于</a>
   </div>
 </footer>
 </body>

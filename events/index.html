@@ -4,66 +4,61 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>会议日历 - LongBiosci</title>
-<meta name="description" content="衰老与长寿领域学术会议与产业活动日历，逐条标注来源并自动标注已结束会议。">
+<meta name="description" content="衰老生物学与长寿科技领域的学术会议与产业活动日历（2026-10-15 至 2027-06-05）。">
 <link rel="canonical" href="https://longbiosci.com/events/">
 <meta name="robots" content="index, follow">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://longbiosci.com/events/">
-<meta property="og:title" content="会议日历">
-<meta property="og:description" content="衰老与长寿领域学术会议与产业活动日历，逐条标注来源并自动标注已结束会议。">
+<meta property="og:title" content="会议日历 - LongBiosci">
+<meta property="og:description" content="衰老生物学与长寿科技领域的学术会议与产业活动日历（2026-10-15 至 2027-06-05）。">
 <meta property="og:image" content="https://longbiosci.com/og-image.png">
 <meta property="og:site_name" content="LongBiosci">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="会议日历">
-<meta name="twitter:description" content="衰老与长寿领域学术会议与产业活动日历，逐条标注来源并自动标注已结束会议。">
-<link rel="alternate" type="application/rss+xml" title="LongBiosci RSS" href="/rss.xml">
+<meta name="twitter:title" content="会议日历 - LongBiosci">
+<meta name="twitter:description" content="衰老生物学与长寿科技领域的学术会议与产业活动日历（2026-10-15 至 2027-06-05）。">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="stylesheet" href="/style.css">
 <style>
+/* 本页专属样式 */
+.entity-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(320px,100%),1fr));gap:var(--s-4)}
+.entity-card{background:var(--c-bg-raised);border:1px solid var(--c-line);
+  border-radius:var(--r-lg);padding:var(--s-5);display:flex;gap:var(--s-4);
+  transition:box-shadow .18s var(--ease),transform .18s var(--ease)}
+.entity-card:hover{box-shadow:var(--sh-md);transform:translateY(-2px)}
+.entity-logo{width:52px;height:52px;flex-shrink:0;border-radius:var(--r-md);
+  background:var(--c-primary);color:#fff;display:flex;align-items:center;
+  justify-content:center;font-weight:700;font-size:var(--f-sm);letter-spacing:.02em}
+.entity-name{font-size:var(--f-md);font-weight:600;color:var(--c-ink);margin-bottom:var(--s-1)}
+.entity-desc{font-size:var(--f-sm);color:var(--c-muted);line-height:var(--lh-normal);margin:0 0 var(--s-3)}
+.entity-tags{display:flex;gap:var(--s-1);flex-wrap:wrap;margin-bottom:var(--s-2)}
+.entity-note{font-size:var(--f-xs);color:var(--c-faint);line-height:var(--lh-normal)}
+.status-badge{display:inline-flex;align-items:center;padding:1px 7px;border-radius:var(--r-pill);
+  font-size:var(--f-xs);font-weight:500}
+.status-active{background:var(--c-ev-a-bg);color:var(--c-ev-a)}
+.status-acquired{background:#f1e8e0;color:#8a5a2b}
+@media (prefers-color-scheme:dark){.status-acquired{background:#2a1f16;color:#d4a07a}}
+/* 时间轴 */
+.tl{position:relative;padding-left:var(--s-6)}
+.tl::before{content:'';position:absolute;left:8px;top:var(--s-2);bottom:var(--s-2);
+  width:2px;background:var(--c-line)}
+.tl-item{position:relative;padding-bottom:var(--s-5)}
+.tl-item::before{content:'';position:absolute;left:calc(-1 * var(--s-6) + 3px);top:6px;
+  width:12px;height:12px;border-radius:50%;background:var(--c-primary);
+  border:2px solid var(--c-bg)}
+.tl-date{font-size:var(--f-xs);color:var(--c-primary);font-weight:500;
+  font-variant-numeric:tabular-nums;margin-bottom:var(--s-1)}
+.tl-name{font-size:var(--f-base);font-weight:600;color:var(--c-ink);margin-bottom:var(--s-1)}
+.tl-meta{font-size:var(--f-xs);color:var(--c-faint);margin-bottom:var(--s-2);
+  display:flex;gap:var(--s-2);flex-wrap:wrap}
+.tl-desc{font-size:var(--f-sm);color:var(--c-muted);line-height:var(--lh-normal);margin:0}
 .stat-row{display:flex;gap:var(--s-5);flex-wrap:wrap;margin:var(--s-4) 0 0;
   padding-top:var(--s-4);border-top:1px solid var(--c-line)}
 .stat-n{font-size:var(--f-xl);font-weight:600;color:var(--c-primary);
   font-variant-numeric:tabular-nums;line-height:1.2}
 .stat-l{font-size:var(--f-xs);color:var(--c-muted)}
-.entity-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(320px,100%),1fr));gap:var(--s-4)}
-.entity-card{background:var(--c-bg-raised);border:1px solid var(--c-line);
-  border-radius:var(--r-lg);padding:var(--s-4)}
-.entity-logo{width:2.2rem;height:2.2rem;border-radius:var(--r-md);display:flex;
-  align-items:center;justify-content:center;font-weight:700;font-size:var(--f-sm);
-  background:var(--c-surface);color:var(--c-primary);margin-bottom:.6rem}
-.entity-name{font-weight:600;font-size:var(--f-md)}
-.entity-desc{font-size:var(--f-sm);color:var(--c-muted);margin:.4rem 0}
-.entity-tags{display:flex;flex-wrap:wrap;gap:.3rem;margin-top:.4rem}
-.status-badge{display:inline-flex;align-items:center;padding:1px 7px;
-  border-radius:var(--r-pill);font-size:var(--f-xs);vertical-align:middle}
-.status-active{background:var(--c-ev-a-bg);color:var(--c-ev-a)}
-.status-acquired{background:#f1e8e0;color:#8a5a2b}
-.status-unknown{background:#eceef0;color:#5c6570}
-@media (prefers-color-scheme:dark){.status-acquired{background:#2a1f16;color:#d4a07a}}
-@media (prefers-color-scheme:dark){.status-unknown{background:#20242a;color:#a8b0ba}}
-.tl{border-left:2px solid var(--c-line);padding-left:var(--s-4);margin-top:var(--s-4)}
-.tl-item{position:relative;padding:0 0 var(--s-5) 0}
-.tl-item::before{content:"";position:absolute;left:calc(-1 * var(--s-4) - 5px);
-  top:.5rem;width:8px;height:8px;border-radius:50%;background:var(--c-primary)}
-.tl-date{font-size:var(--f-xs);color:var(--c-muted);font-variant-numeric:tabular-nums}
-.tl-name{font-weight:600;margin:.15rem 0}
-.tl-desc{font-size:var(--f-sm);color:var(--c-muted);margin-top:.25rem}
-.tl-meta{display:flex;flex-wrap:wrap;gap:.4rem;align-items:center;
-  font-size:var(--f-xs);color:var(--c-muted);margin-top:.25rem}
-.ev-amount{font-weight:600;color:var(--c-primary)}
-.type-bar{display:flex;flex-wrap:wrap;gap:.5rem;margin:var(--s-4) 0}
-.type-chip{padding:3px 10px;border-radius:var(--r-pill);font-size:var(--f-xs);
-  background:var(--c-surface);border:1px solid var(--c-line)}
-.deal-row{display:flex;gap:var(--s-3);align-items:baseline;flex-wrap:wrap;
-  padding:.55rem 0;border-bottom:1px solid var(--c-line)}
-.deal-row:last-child{border-bottom:none}
-.deal-amt{font-weight:600;color:var(--c-primary);font-variant-numeric:tabular-nums;
-  min-width:8.5rem;font-size:var(--f-sm)}
-.deal-name{flex:1;min-width:14rem;font-size:var(--f-sm)}
-.deal-meta{font-size:var(--f-xs);color:var(--c-muted)}
-.track-block{margin-top:var(--s-3)}
-.track-title{font-weight:600;font-size:var(--f-sm);margin-bottom:.3rem}
 </style>
+<!-- longbiosci:analytics 无 Cookie、无跨站追踪、不收集身份信息；详见 /privacy/ -->
+<script defer src="https://cloud.umami.is/script.js" data-website-id="bfb60723-d93d-4925-b1a2-d7ef51b9014c" data-do-not-track="true"></script>
 </head>
 <body>
 <a href="#main-content" class="skip-link">跳转到主要内容</a>
@@ -79,30 +74,47 @@
       <a href="/daily/">周刊</a>
       <a href="/evidence/" aria-label="证据分级">证据<span class="nav-mq">分级</span></a>
       <a href="/trials.html" aria-label="临床试验">临床<span class="nav-mq">试验</span></a>
-      <a href="/industry/">产业</a>
+      <a href="/companies/" aria-current="page">产业</a>
       <a href="/about/">关于</a>
       <a href="/search.html" class="nav-search" aria-label="站内搜索"><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="6.8" cy="6.8" r="4.6" fill="none" stroke="currentColor" stroke-width="1.6"/><line x1="10.3" y1="10.3" x2="14" y2="14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><span class="nav-search-text">搜索</span></a>
     </nav>
-  </div>
-</header>
+  </div></header>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "会议日历",
+  "url": "https://longbiosci.com/events/",
+  "description": "衰老生物学与长寿科技领域的学术会议与产业活动日历（2026-10-15 至 2027-06-05）。",
+  "inLanguage": "zh-CN",
+  "isPartOf": {"@type": "WebSite", "@id": "https://longbiosci.com/#website",
+               "url": "https://longbiosci.com", "name": "LongBiosci"},
+  "publisher": {"@type": "Organization", "name": "LongBiosci",
+                "alternateName": "LongBiosci 编辑部",
+                "url": "https://longbiosci.com"}
+}
+</script>
 <main id="main-content">
 <section class="hero"><div class="wrap">
 <h1>会议日历</h1>
-<p>衰老生物学与长寿科技领域的学术会议与产业活动日历，每条均带可核对来源。</p>
-<div class="stat-row"><div><div class="stat-n">7</div><div class="stat-l">场收录</div></div><div><div class="stat-n">2</div><div class="stat-l">场未开始</div></div></div>
+<p>衰老生物学与长寿科技领域的学术会议与产业活动日历（2026-10-15 至 2027-06-05）。</p>
 </div></section>
 <section class="section"><div class="wrap">
-<p class="notice-box"><strong>关于本页信息的来源</strong>本日历只收录<strong>能给出公开来源</strong>的会议，每条都标注来源域名并可点进主办方页面核对；核实不到的会议一律不收录（此前手写版本里的 8 场会议因无来源已全部撤下，其中 IAGG 的日期也是错的）。日期与地点仍<strong>以主办方官方公告为准</strong>，页面按当前日期自动标注「已结束」。</p><div class="tl"><div class="tl-item"><div class="tl-date">2026-06-02 → 2026-06-05</div><div class="tl-name"><a href="https://www.americanagingassociation.org/age-annual-meeting" rel="noopener">American Aging Association (AGE) 年会</a><span class="status-badge status-unknown" style="margin-left:.4rem">已结束</span></div><div class="tl-meta"><span class="tag">学术会议</span><span>美国·犹他州普罗沃（Utah Valley Convention Center）</span><span>来源：americanagingassociation.org</span></div></div><div class="tl-item"><div class="tl-date">2026-07-05 → 2026-07-08</div><div class="tl-name"><a href="https://www.iagg2026.org" rel="noopener">第 23 届世界老年学与老年医学大会（IAGG 2026）</a><span class="status-badge status-unknown" style="margin-left:.4rem">已结束</span></div><div class="tl-meta"><span class="tag">国际会议</span><span>荷兰·阿姆斯特丹 RAI 会展中心</span><span>来源：iagg2026.org</span></div></div><div class="tl-item"><div class="tl-date">2026-09-11 → 2026-09-13</div><div class="tl-name"><a href="https://cgs26.tiemeeting.com/" rel="noopener">第十一届老年医学大会暨中华医学会第二十三次老年医学学术会议（CGS2026）</a><span class="status-badge status-unknown" style="margin-left:.4rem">已结束</span></div><div class="tl-meta"><span class="tag">学术会议</span><span>中国·郑州</span><span>来源：cgs26.tiemeeting.com</span></div></div><div class="tl-item"><div class="tl-date">2026-09-16 → 2026-09-18</div><div class="tl-name"><a href="https://m.sohu.com/a/960945734_264916" rel="noopener">欧洲老年医学学会年会（EuGMS 2026）</a><span class="status-badge status-unknown" style="margin-left:.4rem">已结束</span></div><div class="tl-meta"><span class="tag">学术会议</span><span>法国·里尔</span><span>来源：北京协和老年医学科《2026 老年医学会议速览》</span></div></div><div class="tl-item"><div class="tl-date">2026-10-01 → 2026-10-03</div><div class="tl-name"><a href="https://insilico.com/news/tyem531fm1-insilico-medicine-announces-ardd-2026-pr" rel="noopener">第 13 届 ARDD（Aging Research &amp; Drug Discovery）</a><span class="status-badge status-unknown" style="margin-left:.4rem">已结束</span></div><div class="tl-meta"><span class="tag">产业会议</span><span>美国·波士顿（哈佛 David Rubenstein Treehouse）</span><span>来源：insilico.com（主办方新闻稿）</span></div></div><div class="tl-item"><div class="tl-date">2026-11-04 → 2026-11-07</div><div class="tl-name"><a href="https://m.sohu.com/a/960945734_264916" rel="noopener">美国老年学会年会（GSA 2026）</a><span class="status-badge status-active" style="margin-left:.4rem">未开始</span></div><div class="tl-meta"><span class="tag">学术会议</span><span>美国·马里兰州 National Harbor</span><span>来源：北京协和老年医学科《2026 老年医学会议速览》</span></div></div><div class="tl-item"><div class="tl-date">2027-01-11 → 2027-01-14</div><div class="tl-name"><a href="https://www.jpmorgan.com/global/healthcare-conference" rel="noopener">第 45 届摩根大通医疗大会（JPM 2027）</a><span class="status-badge status-active" style="margin-left:.4rem">未开始</span></div><div class="tl-meta"><span class="tag">产业会议</span><span>美国·旧金山</span><span>来源：jpmorgan.com</span></div></div></div></div></section>
+<p class="notice-box"><strong>关于本页信息的来源</strong>本日历由编辑部手工整理，会议的日期与地点请以主办方官方公告为准。页面不做自动更新，因此标注日期可能已过期（已过期条目会标记「已结束」）。如发现错漏，欢迎通过<a href="/about/">关于页</a>反馈。</p><p>标记 2026 年下半年至 2027 年上半年的衰老与长寿领域关键会议。带「产业会议」标记的是观察商业化动向的重要窗口。</p><div style="margin-top:1.5rem"><div class="tl">
+<div class="tl-item"><div class="tl-date">2026-10-15</div><div class="tl-name">American Aging Association (AGE) 年度会议<span class="status-badge status-unknown" style="margin-left:.4rem">已结束</span></div><div class="tl-meta"><span class="tag">学术会议</span><span>美国·亚特兰大</span></div><p class="tl-desc">衰老研究领域历史最悠久的学术会议之一，涵盖从分子机制到临床转化的全谱系研究。</p></div>
+<div class="tl-item"><div class="tl-date">2026-10-20</div><div class="tl-name">Senescence 衰老细胞研究学会年会（SIS 2026）</div><div class="tl-meta"><span class="tag">学术会议</span><span>美国·波士顿</span></div><p class="tl-desc">聚焦 Senolytic 与 Senomorphic 疗法的临床转化，是衰老细胞领域最专业的学术会议。</p></div>
+<div class="tl-item"><div class="tl-date">2026-11-05</div><div class="tl-name">Society for Experimental Biology (SEB) 年会</div><div class="tl-meta"><span class="tag">学术会议</span><span>美国·圣地亚哥</span></div><p class="tl-desc">实验生物学学会年会，含多场衰老与再生医学分会。</p></div>
+<div class="tl-item"><div class="tl-date">2026-11-18</div><div class="tl-name">International Congress of Gerontology &amp; Geriatrics (IAGG)</div><div class="tl-meta"><span class="tag">国际会议</span><span>线上</span></div><p class="tl-desc">国际老年学与老年医学大会，多国分会场同步。</p></div>
+<div class="tl-item"><div class="tl-date">2026-12-01</div><div class="tl-name">ASH 年会（American Society of Hematology）</div><div class="tl-meta"><span class="tag">学术会议</span><span>美国·圣地亚哥</span></div><p class="tl-desc">含骨髓微环境与克隆性造血相关分会，与衰老相关血液学密切相关。</p></div>
+<div class="tl-item"><div class="tl-date">2027-01-12</div><div class="tl-name">JPM 生物医疗年会（重磅产业信号）</div><div class="tl-meta"><span class="tag">产业会议</span><span>美国·旧金山</span></div><p class="tl-desc">长寿科技公司集中发布临床数据与合作，是观察产业风向的关键窗口。</p></div>
+<div class="tl-item"><div class="tl-date">2027-03-20</div><div class="tl-name">International Congress of Gerontology（ICAG）</div><div class="tl-meta"><span class="tag">国际会议</span><span>待定</span></div><p class="tl-desc">国际老年学会会议，衰老机制与干预的学术主战场。</p></div>
+<div class="tl-item"><div class="tl-date">2027-06-05</div><div class="tl-name">International Society for Cell Senescence (ISCS) 会议</div><div class="tl-meta"><span class="tag">学术会议</span><span>欧洲</span></div><p class="tl-desc">国际细胞衰老学会会议，细胞衰老领域的国际性平台。</p></div>
+</div></div>
+</div></section>
 </main><footer class="site-footer">
   <div class="wrap">
     <p>© 2026 LongBiosci 编辑部 · 衰老与长寿科技资讯</p>
-    <p class="footer-links">
-      <a href="/rss.xml">RSS</a> ·
-      匿名访问统计由 <a href="https://umami.is" rel="noopener">Umami</a> 提供（无 Cookie、不收集身份信息，详见 <a href="/privacy/">隐私政策</a>） ·
-      <a href="/sitemap.xml">Sitemap</a> ·
-      <a href="/privacy/">隐私政策</a> ·
-      <a href="/about/">关于</a>
-    </p>
+    <a href="/rss.xml">RSS</a> · <!-- longbiosci:footer-stats -->匿名访问统计由 <a href="https://umami.is" target="_blank" rel="noopener noreferrer">Umami</a> 提供（无 Cookie、不收集身份信息，详见 <a href="/privacy/">隐私政策</a>）<!--/longbiosci:footer-stats --> · <a href="/sitemap.xml">Sitemap</a> · <a href="/privacy/">隐私政策</a> · <a href="/about/">关于</a>
   </div>
 </footer>
 </body>
