@@ -389,3 +389,35 @@ details API 每页**恒定返回 30 条**，`messages[0].total` 才是真实总�
 
 配套脚本：`scripts/preprint_daily.py`（取数 + 翻页 + 定量计数 + 排序，产出结构化 JSON 便于查重）。
 两个坑（分页、403）已写进脚本 docstring 与任务 prompt，避免后人重复踩。
+
+### 9.5 二改（2026-10-18 晚）：加入 PDF 下载 + 上传「岁见」IMA 共享库
+
+用户追加两项要求：① 每日预印本文献要**下载 PDF**；② 要**上传到岁见衰老科学文献 IMA 数据库**。
+
+**目标库确认**：「岁见衰老科学文献」= IMA 共享库 **`7505141192201969`**（126 篇，平铺根目录）。
+（区别于 IMA 个人库 `0019eb4e65002c9f`，后者放 AI 结构化成果。两者不是同一个库。）
+
+**PDF 下载实测结论：medRxiv 可行，bioRxiv 不可行。**
+
+| 源 | 结果 | 证据 |
+|---|---|---|
+| **medRxiv** | ✅ **可行** | `https://www.medrxiv.org/content/<DOI>v1.full.pdf` → 200 / 680,807 B / **28 页真 PDF**（`%PDF-1.7`，pdfinfo 可读，标题正确） |
+| **bioRxiv** | ❌ **不可行** | 全站 Cloudflare **403**：主页 403、`v1.full.pdf` 403、`.full` 403、`jatsxml` 403 |
+
+bioRxiv 被封的四条佐证（说明是 **IP 级封锁，不是 UA 问题**）：
+1. curl 带浏览器 UA → 403
+2. Playwright 真实 Chromium → 403（拿到 "Sorry, you have been blocked"）
+3. WebFetch（不同出口）→ 同样是 Cloudflare 拦截页，附 Ray ID
+4. 第三方 OA 镜像全无：Semantic Scholar 404 / OpenAlex 404 / Unpaywall 404（预印本太新未索引）；Europe PMC 对预印本（src=PPR）无 fullTextXML，返回 500
+
+→ **影响面**：bioRxiv 占单日总量约 82%（603 / 737），PDF 下载实际只覆盖 medRxiv 那部分（134 条，核心衰老命中更少）。
+→ 处置：任务对 bioRxiv **每篇最多试 1 次**，失败即标注「PDF 不可得（源站封锁）」并保留 jatsxml 链接；**不因此判定任务失败**，也不反复耗轮次。若日后恢复可达，正常下载并记录。
+→ 只对**主榜**条目下载 PDF（控制数量与成本），命名 `PP_<日期>_<主题>_<DOI末段>.pdf`，下载后 `file` + `stat -c%s` 校验，拿到 HTML 拦截页立即丢弃。
+
+**IMA 上传流程（PDF = media_type 1，上限 200 MB）**：
+预检 `preflight-check.cjs` → `check_repeated_names` → `create_media` → COS 上传原始文件 → `add_knowledge`（校验 code=0）。
+注意：**重名不支持覆盖**，只能保留副本或取消；COS 上传失败不得调用 add_knowledge。
+
+⚠️ **当前阻塞：IMA 凭证未配置。** `~/.config/ima/client_id` 与 `api_key` 均不存在，环境变量也未设置。
+任务已写入前置检查：**凭证缺失时不发起任何 API 调用**，而是在产出与 description 写明「PDF 已下载但未能上传 + 文件保留路径」，不静默失败。
+凭证获取入口：https://ima.qq.com/agent-interface
