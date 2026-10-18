@@ -3,8 +3,9 @@ name: Regen rss/sitemap index
 # ⚠️ 2026-10-14 起改为**仅手动触发**。
 # 原因：本工作流用的 scripts/gen_index.py + scripts/gen_site.py 是
 # 「栏目重建前的旧版生成器」，产物严格劣于现行本地管线
-# （build-index.py → gen-home.py → gen-topic-pages.py → gen-news-index.py →
-#   rebuild-sitemap.py → add-rss-today-run.py → inject-poster.py）。
+# （build-index.py → sync-evidence.py → gen-home.py → gen-topic-pages.py →
+#   gen-news-index.py → gen-evidence-pages.py → rebuild-sitemap.py →
+#   add-rss-today-run.py → inject-poster.py），且缺少 sync-search-index 等后半段。
 # 实测被覆盖的差异：
 #   sitemap.xml        460 loc → 385 loc（丢失 topics/ evidence/ daily/
 #                      research/ privacy/ trials.html 与全部概念单页）

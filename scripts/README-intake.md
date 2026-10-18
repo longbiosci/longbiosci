@@ -74,7 +74,7 @@ python3 scripts/cursor.py empty  --repo . --file-id <id> --note "size=0，需重
 news/*.html + articles.json
    │ ⑤ backfill-doi.py 补DOI 索引   ← 必须在写稿后跑，否则新文查不到
    ▼
-   │ ⑥ run-pipeline.sh（11 阶段，末位为死链+计数硬校验）
+   │ ⑥ run-pipeline.sh（13 环节，末位为死链+计数硬校验）
    ▼
 线上
    │ ⑦ ledger.py audit 对账 ── 产出 vs 上站双向核对
@@ -242,7 +242,7 @@ python3 scripts/harvest.py <repo> <files...> --mech /path/to/mech.json
 | `scripts/check-links.py` | ⑥末位：死链 + 计数一致性硬校验（不通过则管线失败） |
 | `scripts/refresh_counts.py` | ⑥第 9 环：各处「N 篇」计数回写事实源（幂等自愈） |
 | `scripts/audit-traceability.py` | ⑥第 10 环：溯源完整性审计（只报告不阻断） |
-| `scripts/run-pipeline.sh` | ⑥ 上线：11 阶段管线 |
+| `scripts/run-pipeline.sh` | ⑥ 上线：13 环节管线 |
 
 ## 每日自检清单（跑一遍才算完成一轮）
 

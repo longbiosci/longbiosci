@@ -9,18 +9,36 @@
 #   --date / --now  透传给 add-rss-today-run.py（仅用于确定性复现；
 #                   日常运行不要传，脚本会自动取当天 UTC 日期与当前时刻）
 #
-# 依次执行 11 个环节（顺序与 .github/workflows/regen-index.yml 注释记载一致）：
+# 依次执行 13 个环节（顺序与 .github/workflows/regen-index.yml 注释记载一致）：
 #   1 build-index.py        从 news/*.html 重建 data/articles.json（追加式）
-#   2 gen-home.py           生成 index.html
-#   3 gen-topic-pages.py    生成 topics/ 8 个专题页 + 12 个分页页 + 索引页
-#   4 gen-news-index.py     生成 news/index.html 与 news-2..N.html 分页
-#   5 rebuild-sitemap.py    重建 sitemap.xml
-#   6 add-rss-today-run.py  把当日新文章追加进 rss.xml（无新增则幂等不变）
-#   7 inject-poster.py      给文章页注入 /poster.js（已有则跳过）
-#   8 sync-search-index.py  重建 data/search-index.json 并刷新 search.html 计数
-#   9 refresh_counts.py     把各处「N 篇」计数回写为事实源（幂等；本环节自愈）
-#  10 audit-traceability.py 溯源完整性审计（只报告不阻断，产出 data/traceability-audit.json）
-#  11 check-links.py        全站死链 + 计数一致性检查（末位硬校验，不通过则本管线失败）
+#   2 sync-evidence.py      把 news/*.html 的分级回写 articles.json（--write；治回退顽疾）
+#   3 gen-home.py           生成 index.html
+#   4 gen-topic-pages.py    生成 topics/ 8 个专题页 + 12 个分页页 + 索引页
+#   5 gen-news-index.py     生成 news/index.html 与 news-2..N.html 分页
+#   6 gen-evidence-pages.py 生成 evidence/ 索引页 + A/B/C 分级列表（含分页）
+#   7 rebuild-sitemap.py    重建 sitemap.xml
+#   8 add-rss-today-run.py  把当日新文章追加进 rss.xml（无新增则幂等不变）
+#   9 inject-poster.py      给文章页注入 /poster.js（已有则跳过）
+#  10 sync-search-index.py  重建 data/search-index.json 并刷新 search.html 计数
+#  11 refresh_counts.py     把各处「N 篇」计数回写为事实源（幂等；本环节自愈）
+#  12 audit-traceability.py 溯源完整性审计（只报告不阻断，产出 data/traceability-audit.json）
+#  13 check-links.py        全站死链 + 计数一致性检查（末位硬校验，不通过则本管线失败）
+#
+# 环节 2 为什么必须放在 3~7 之前（2026-10-17 新增）
+# ---------------------------------------------
+# build-index.py 把「已登记记录」当权威基线整体保留，HTML 侧的分级更正不回写。
+# 于是只要远端带回一份旧 articles.json 快照，分级就会回退 —— 页面显示 A、
+# 数据源是 C，站内出现「同一篇文章两个分级」。此坑已复现 3 次
+# （2026-10-17 当日 2 次 + 本轮 1 次），靠人工跑一次补丁挡不住。
+# 放在环节 2 = 每次构建都以 HTML 为事实源自愈一次，从机制上关掉这条路径。
+#
+# 环节 6 为什么必须放在 7 之前（2026-10-17 新增）
+# ----------------------------------------
+# evidence/ 的分级列表页此前是纯静态遗留页，无任何生成器管辖：
+# 索引页长期写 A 94 / B 269 / C 17，而事实是 A 131 / B 311 / C 109，
+# 三个分页各只列 25 / 25 / 18 条 —— 读者在 /evidence/ 上看不到 B 级其余 286 篇。
+# 改为生成后，分页数量会随分级变动而增减，故必须在 sitemap 重建之前产出，
+# 否则 sitemap 会收录/遗漏错误分页。
 #
 # 环节 9 为什么放在校验之前（2026-10-16 新增）
 # ------------------------------------------
@@ -61,29 +79,33 @@ fi
 
 PYTHON="${PYTHON:-python3}"
 
+# 少数脚本需要额外命令行开关，集中在这里显式声明，别藏在通用逻辑里
+# （sync-evidence 必须带 --write，否则只预览不落盘；add-rss 接受透传参数）
 step() {
   local n="$1" script="$2" desc="$3"
   shift 3
-  printf '\n[%s/11] %-22s %s\n' "$n" "$script" "$desc"
-  if [[ "$script" == "add-rss-today-run.py" ]]; then
-    "$PYTHON" "$HERE/$script" "$ROOT" "$@"
-  else
-    "$PYTHON" "$HERE/$script" "$ROOT"
-  fi
+  printf '\n[%s/13] %-22s %s\n' "$n" "$script" "$desc"
+  case "$script" in
+    add-rss-today-run.py) "$PYTHON" "$HERE/$script" "$ROOT" "$@" ;;
+    sync-evidence.py)     "$PYTHON" "$HERE/$script" "$ROOT" --write ;;
+    *)                    "$PYTHON" "$HERE/$script" "$ROOT" ;;
+  esac
 }
 
 echo "管线根目录: $(cd "$ROOT" && pwd)"
 
-step 1 build-index.py        "重建 data/articles.json"
-step 2 gen-home.py           "生成首页 index.html"
-step 3 gen-topic-pages.py    "生成 topics/ 专题页与索引页"
-step 4 gen-news-index.py     "生成 news 列表分页"
-step 5 rebuild-sitemap.py    "重建 sitemap.xml"
-step 6 add-rss-today-run.py  "追加当日新文章到 rss.xml"
-step 7 inject-poster.py      "注入海报脚本 /poster.js"
-step 8 sync-search-index.py  "重建站内搜索索引与计数"
-step 9 refresh_counts.py        "各处「N 篇」计数回写事实源（幂等）"
-step 10 audit-traceability.py   "溯源完整性审计（只报告，不阻断）"
-step 11 check-links.py          "全站死链与计数一致性检查（末位硬校验）"
+step 1  build-index.py         "重建 data/articles.json"
+step 2  sync-evidence.py       "证据分级以 HTML 为事实源回写（自愈回退）"
+step 3  gen-home.py            "生成首页 index.html"
+step 4  gen-topic-pages.py     "生成 topics/ 专题页与索引页"
+step 5  gen-news-index.py      "生成 news 列表分页"
+step 6  gen-evidence-pages.py  "生成 evidence/ 分级索引与 A/B/C 分页"
+step 7  rebuild-sitemap.py     "重建 sitemap.xml"
+step 8  add-rss-today-run.py   "追加当日新文章到 rss.xml"
+step 9  inject-poster.py       "注入海报脚本 /poster.js"
+step 10 sync-search-index.py   "重建站内搜索索引与计数"
+step 11 refresh_counts.py      "各处「N 篇」计数回写事实源（幂等）"
+step 12 audit-traceability.py  "溯源完整性审计（只报告，不阻断）"
+step 13 check-links.py         "全站死链与计数一致性检查（末位硬校验）"
 
-printf '\n✅ 管线执行完成（11/11）\n'
+printf '\n✅ 管线执行完成（13/13）\n'

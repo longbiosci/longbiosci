@@ -1,9 +1,9 @@
 {
  "summary": {
-  "total": 552,
+  "total": 553,
   "level_counts": {
    "中": 124,
-   "强": 412,
+   "强": 413,
    "断链": 16
   },
   "by_tier": {
@@ -19,7 +19,7 @@
    },
    "C": {
     "中": 14,
-    "强": 92,
+    "强": 93,
     "断链": 1
    }
   },
@@ -845,6 +845,18 @@
     "https://github.com/yongjian66/DKO_keystone_genes"
    ],
    "level": "中"
+  },
+  {
+   "slug": "Implicit-Associative-Memory-Aging-Hippocampus-Perirhinal-2026.html",
+   "title": "不是所有记忆都随龄衰退：内隐联结记忆在老年保持完好，海马与内嗅皮层共同支撑",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.05.756834",
+   "doi_in_page": true,
+   "source_links": [
+    "https://www.biorxiv.org/content/10.64898/2026.10.05.756834v1"
+   ],
+   "level": "强"
   },
   {
    "slug": "Lifelong-Mating-Rejuvenates-Liver-Killifish-Sexual-Reproduction-Aging-2026.html",

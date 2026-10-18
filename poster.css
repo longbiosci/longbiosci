@@ -92,6 +92,36 @@
   margin:0;text-align:center;
   font-size:var(--f-xs);color:var(--c-faint);
 }
+/* 操作反馈（复制成功等）临时染主色，2.4s 后由 JS 还原 */
+.lb-poster-tip.ok{color:var(--c-primary)}
+
+/* ---------- 次级操作行：分享 / 复制链接 ----------
+   「分享」按钮由 poster.js 按 navigator.share 支持度渐进渲染，
+   此处只定样式；两个按钮等宽同行，与主按钮「下载 PNG」形成主次层级。 */
+.lb-poster-sub{
+  display:flex;gap:var(--s-2);
+}
+.lb-poster-sub button{
+  flex:1;
+  padding:.6em 1em;
+  background:transparent;
+  border:1px solid var(--c-line-strong);
+  border-radius:var(--r-md);
+  color:var(--c-primary);
+  font:inherit;font-size:var(--f-sm);font-weight:600;
+  cursor:pointer;
+  transition:background .16s var(--ease),border-color .16s var(--ease),
+             color .16s var(--ease),transform .16s var(--ease);
+}
+.lb-poster-sub button:hover{
+  background:var(--c-primary-soft);
+  border-color:var(--c-primary);
+}
+.lb-poster-sub button:active{transform:translateY(1px)}
+.lb-poster-sub button:focus-visible{
+  outline:2px solid var(--c-primary);
+  outline-offset:2px;
+}
 
 /* 移动端：面板贴近全屏，避免海报被压缩得看不清 */
 @media (max-width:520px){
