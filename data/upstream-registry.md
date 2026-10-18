@@ -127,8 +127,16 @@ PROMETHEUS 的 A 就是这样被回退成 C 的。
 | 抽验升级页（PROMETHEUS / 衰弱-死亡 UKB） | HTTP 200，PROMETHEUS 线上分级已为 **A** | ✅ 2026-10-17 |
 | 管线环节数 | **13 环节**（2 sync-evidence / 6 gen-evidence-pages / 11 refresh_counts / 12 audit-traceability / 13 check-links） | ✅ 纪律文档已同步 13 环节 |
 | 溯源完整性（第 10 环节审计） | 强 410 / 中 123 / **断链 16**；页面内无 DOI 139 篇 | ⚠️ 已列待办 |
-| Git 同步状态 | 已推送 `015019d..5ce5e93`（**github.com:443 不通，改走 Git Data API**） | ✅ 2026-10-18 12:20 |
+| Git 同步状态 | 已推送 `565f4b2..80ca306`（**github.com:443 不通，改走 Git Data API**） | ✅ 2026-10-18 19:5x |
 | 远端回落 / 落后情况 | 本轮推送前本地落后 **6 个提交**（含管线 11 → 13 环节、`sync-evidence.py`、`gen-evidence-pages.py`） | ✅ 已合并 |
+
+> **陷阱 · 本地 `git status` 的 ahead/behind 数字不可信。** 本仓库是**浅克隆**
+> （`.git/shallow` 根提交 = `5937ec8`，本地仅 4 个提交），而 `origin/main` 这一 ref 停在
+> `e7e8848`，与本地 HEAD **无共同祖先** —— 于是会报出「领先 4 / 落后 976」这种荒谬数字。
+> 判断同步状态一律以 **API 查远端真实 main** 为准：
+> `curl -s https://api.github.com/repos/longbiosci/longbiosci/git/refs/heads/main`。
+> 另：`push_via_api.py` 把本地 HEAD 的 tree 打包成**一个新提交**挂在远端 head 上，
+> 故远端 SHA 与本地 SHA 必然不同（同内容不同父提交），**不要以为没推上去**。
 
 ---
 
