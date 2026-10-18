@@ -58,6 +58,29 @@ def esc(s):
     return html.escape(str(s or ""), quote=True)
 
 
+def amount_val(a):
+    """把「27.5 亿美元 / 3600 万美元」折算成亿美元，仅用于排序；原文字照样展示。"""
+    if not a:
+        return 0.0
+    m = re.search(r"([\d.]+)\s*亿美元", str(a))
+    if m:
+        return float(m.group(1))
+    m = re.search(r"([\d.]+)\s*万美元", str(a))
+    if m:
+        return float(m.group(1)) / 10000.0
+    return 0.0
+
+
+def amount_kind(a):
+    """金额口径：里程碑/合作总额是协议上限，估值是定价，都不是已到手的钱。"""
+    s = str(a or "")
+    if "估值" in s:
+        return "估值"
+    if any(k in s for k in ("最高", "里程碑", "总额", "超")):
+        return "协议上限"
+    return "披露金额"
+
+
 HEAD = '''<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -114,6 +137,15 @@ HEAD = '''<!DOCTYPE html>
 .type-bar{{display:flex;flex-wrap:wrap;gap:.5rem;margin:var(--s-4) 0}}
 .type-chip{{padding:3px 10px;border-radius:var(--r-pill);font-size:var(--f-xs);
   background:var(--c-surface);border:1px solid var(--c-line)}}
+.deal-row{{display:flex;gap:var(--s-3);align-items:baseline;flex-wrap:wrap;
+  padding:.55rem 0;border-bottom:1px solid var(--c-line)}}
+.deal-row:last-child{{border-bottom:none}}
+.deal-amt{{font-weight:600;color:var(--c-primary);font-variant-numeric:tabular-nums;
+  min-width:8.5rem;font-size:var(--f-sm)}}
+.deal-name{{flex:1;min-width:14rem;font-size:var(--f-sm)}}
+.deal-meta{{font-size:var(--f-xs);color:var(--c-muted)}}
+.track-block{{margin-top:var(--s-3)}}
+.track-title{{font-weight:600;font-size:var(--f-sm);margin-bottom:.3rem}}
 </style>
 </head>
 '''
@@ -246,18 +278,50 @@ def render_industry(evs, comps, invs, cons):
         f'<p class="entity-desc">{esc("、".join(c.get("focus", [])) or "—")}'
         f' · 收录 {by_ent.get(c["name"], 0)} 条事件</p></div>' for c in top)
 
+    # 交易与融资榜：只收披露了金额的事件，按金额倒序
+    deals = [e for e in evs if amount_val(e.get("amount")) > 0]
+    deals.sort(key=lambda e: -amount_val(e["amount"]))
+    deal_rows = "".join(
+        f'<div class="deal-row"><span class="deal-amt">{esc(e["amount"])}</span>'
+        f'<span class="deal-name"><a href="{esc(e.get("source_url","#"))}">'
+        f'{esc(e.get("headline") or e["id"])}</a></span>'
+        f'<span class="deal-meta">{esc(e["date"])} · {esc(e["type"])}'
+        f' · {esc(e.get("entity") or "")} · {esc(amount_kind(e["amount"]))}'
+        f' · 来源 {esc(e.get("source") or "—")}</span></div>'
+        for e in deals)
+    deal_html = ('<div class="section-head" style="margin-top:2rem">'
+                 '<h2>交易与融资榜</h2></div>'
+                 + '<div>' + deal_rows + '</div>'
+                 + '<p style="font-size:var(--f-xs);color:var(--c-muted);margin-top:.6rem">'
+                   '金额栏为公开披露原文，未做换算或加总；标注「协议上限」的是里程碑或'
+                   '合作总额的最高值，标注「估值」的是定价，两者都不等于已支付金额。</p>')
+
+    # 赛道分布：按公司技术方向聚合
+    tracks = Counter(t for c in comps for t in c.get("focus", []))
+    track_chips = "".join(
+        f'<span class="type-chip">{esc(t)} {n}</span>'
+        for t, n in tracks.most_common())
+    track_html = ('<div class="section-head" style="margin-top:2rem"><h2>赛道分布</h2>'
+                  '<a href="/companies/" class="section-more">按公司查看 →</a></div>'
+                  '<div class="type-bar">' + track_chips + '</div>'
+                  '<p style="font-size:var(--f-xs);color:var(--c-muted)">'
+                  '按公司档案里的技术方向统计，一家公司可属于多个赛道。</p>')
+
     notice = ('<p class="notice-box"><strong>关于本页信息的来源</strong>'
               '本页每条事件都关联到站内已发布文章或原始来源，'
               '<strong>没有来源的条目不会进入本页</strong>。'
               '公司档案页只保留不随时间变化的属性，'
               '融资额、收购与管线进展一律由事件流生成。</p>')
 
+    recent = sum(1 for e in evs if (date.today() - date.fromisoformat(e["date"])).days <= 30)
     h = hero("产业",
              "长寿产业事件流：融资、收购、合作、监管与临床进展。"
              "每条事件都带来源，可回溯到原始报道或站内文章。",
-             [(len(evs), "条事件"), (len(comps), "家公司"),
+             [(len(evs), "条事件"), (recent, "条近 30 天"),
+              (len(comps), "家公司"), (len(deals), "笔披露金额"),
               (len(invs), "位可溯源出资人"), (len(cons), "场已核实会议")])
-    body = (notice + '<div class="type-bar">' + chips + '</div>' + timeline
+    body = (notice + '<div class="type-bar">' + chips + '</div>'
+            + deal_html + track_html + timeline
             + '<div class="section-head" style="margin-top:2rem"><h2>公司档案</h2>'
               '<a href="/companies/" class="section-more">查看全部 →</a></div>'
             + '<div class="entity-grid">' + grid + '</div>' + conf)
@@ -301,6 +365,21 @@ def render_companies(comps, evs, invs):
             f'<div style="margin-bottom:.4rem"><span class="status-badge {cls}">{esc(label)}</span></div>'
             f'{latest}<div class="entity-tags">{tags}</div></div>')
 
+    # 按赛道分组浏览（公司暂无独立详情页，这里用 chips 列出名字）
+    tracks = defaultdict(list)
+    for c in comps:
+        for t in c.get("focus", []):
+            tracks[t].append(c["name"])
+    blocks = []
+    for t in sorted(tracks, key=lambda x: (-len(tracks[x]), x)):
+        names = "".join(f'<span class="type-chip">{esc(n)}</span>'
+                        for n in sorted(tracks[t]))
+        blocks.append(f'<div class="track-block"><div class="track-title">'
+                      f'{esc(t)} · {len(tracks[t])} 家</div>'
+                      f'<div class="type-bar">{names}</div></div>')
+    track_html = ('<div class="section-head" style="margin-top:2rem">'
+                  '<h2>按赛道浏览</h2></div>' + "".join(blocks))
+
     inv_html = ""
     if invs:
         lis = "".join(
@@ -327,7 +406,8 @@ def render_companies(comps, evs, invs):
     return page("产业 · 公司档案",
                 "长寿科技公司档案，动态信息由产业事件流聚合生成，每条均带来源。",
                 "/companies/", '', h,
-                notice + '<div class="entity-grid">' + "".join(cards) + '</div>' + inv_html)
+                notice + '<div class="entity-grid">' + "".join(cards) + '</div>'
+                + track_html + inv_html)
 
 
 # ───────────────────────── 3. /events/ 会议日历 ─────────────────────────

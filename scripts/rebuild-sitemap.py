@@ -77,7 +77,6 @@ PAGES = [
     ("research/index.html",   "weekly",  "0.8"),
     ("rapamycin.html",        "monthly", "0.7"),
     ("privacy/index.html",    "monthly", "0.5"),
-    ("papers/index.html",     "weekly",  "0.7"),
     ("nmn.html",              "monthly", "0.7"),
     ("mobile.html",           "yearly",  "0.4"),
     ("metformin.html",        "monthly", "0.7"),

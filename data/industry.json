@@ -17,6 +17,20 @@
    "article_slug": "Lilly-2.75B-Insilico-Deal.html"
   },
   {
+   "id": "ev-2026-040",
+   "date": "2026-04-01",
+   "type": "临床",
+   "entity": "Rubedo Life Sciences",
+   "headline": "Rubedo RLS-1496 I期临床结果：GPX4调节剂首个人体数据",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "A",
+   "source": "lifespan.io",
+   "source_url": "/news/Rubedo-RLS-1496-GPX4-Phase1.html",
+   "article_slug": "Rubedo-RLS-1496-GPX4-Phase1.html"
+  },
+  {
    "id": "ev-2026-002",
    "date": "2026-04-05",
    "type": "会议",
@@ -59,11 +73,25 @@
    "article_slug": "Noom-Buys-Pharmacy-Healthy-Aging.html"
   },
   {
+   "id": "ev-2026-039",
+   "date": "2026-04-07",
+   "type": "临床",
+   "entity": "雷帕霉素",
+   "headline": "大规模雷帕霉素临床试验启动：从\"民间神药\"到循证医学的第一步",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "A",
+   "source": "news.uthscsa.edu",
+   "source_url": "/news/Rapamycin-Large-Clinical-Trial-UTHealth-2026.html",
+   "article_slug": "Rapamycin-Large-Clinical-Trial-UTHealth-2026.html"
+  },
+  {
    "id": "ev-2026-026",
    "date": "2026-05-22",
    "type": "临床",
    "entity": "Cyclarity",
-   "headline": "UDP-003：首个靶向 7-酮胆固醇的人体临床数据发布，动脉粥样硬化或迎根本性治疗新路径",
+   "headline": "Cyclarity公司UDP-003：首个靶向7-酮胆固醇的人体临床数据发布，动脉粥样硬化或迎根本性治疗新路径",
    "amount": null,
    "round": null,
    "counterparty": null,
@@ -73,11 +101,25 @@
    "article_slug": "Cyclarity-UDP003-7KC-Phase1-2026.html"
   },
   {
+   "id": "ev-2026-038",
+   "date": "2026-05-22",
+   "type": "行业观察",
+   "entity": "KHL Foundation",
+   "headline": "KHL Foundation：创始人年过八旬 Launch 基因疗法\"回春鸡尾酒\"医疗旅游",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "A",
+   "source": "fightaging.org",
+   "source_url": "/news/KHL-Foundation-Rejuvenation-Cocktail-2026.html",
+   "article_slug": "KHL-Foundation-Rejuvenation-Cocktail-2026.html"
+  },
+  {
    "id": "ev-2026-028",
    "date": "2026-06-12",
    "type": "融资",
    "entity": "Retro Biosciences",
-   "headline": "Retro Biosciences 估值达 18 亿美元：3 年从实验室推进到首次人体给药",
+   "headline": "Retro Biosciences 估值达18亿美元：3年从实验室到临床候选药物",
    "amount": "估值 18 亿美元",
    "round": null,
    "counterparty": null,
@@ -91,7 +133,7 @@
    "date": "2026-06-25",
    "type": "监管",
    "entity": "Calico Life Sciences",
-   "headline": "Calico 旗下 eIF2B 激活剂 Fosigotifator 获 FDA 突破性疗法认定——剑指白质消融病",
+   "headline": "Calico旗下eIF2B激活剂Fosigotifator获FDA突破性疗法认定——剑指白质消融病",
    "amount": null,
    "round": null,
    "counterparty": "FDA",
@@ -129,6 +171,20 @@
    "article_slug": "Partial-Reprogramming-Funding-Boom-2026.html"
   },
   {
+   "id": "ev-2026-037",
+   "date": "2026-06-28",
+   "type": "监管",
+   "entity": "监管科学",
+   "headline": "老年医学试验新方法：分层终点与胜率统计或可突破延寿药物临床困局",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "A",
+   "source": "nature.com",
+   "source_url": "/news/Geromedicine-Trial-Hierarchical-Endpoints-Win-Statistics-2026.html",
+   "article_slug": "Geromedicine-Trial-Hierarchical-Endpoints-Win-Statistics-2026.html"
+  },
+  {
    "id": "ev-2026-007",
    "date": "2026-07-01",
    "type": "行业观察",
@@ -147,7 +203,7 @@
    "date": "2026-07-09",
    "type": "监管",
    "entity": "Repair Biotechnologies",
-   "headline": "REP-0003 获 FDA RDEP 资格：mRNA 疗法瞄准细胞内游离胆固醇清除",
+   "headline": "Repair Bio 旗下 REP-0003 获 FDA RDEP 资格：mRNA 疗法瞄准细胞内游离胆固醇清除",
    "amount": null,
    "round": null,
    "counterparty": "FDA",
@@ -155,6 +211,20 @@
    "source": "longevity.technology",
    "source_url": "/news/Repair-Biotechnologies-REP-0003-FDA-RDEP-2026.html",
    "article_slug": "Repair-Biotechnologies-REP-0003-FDA-RDEP-2026.html"
+  },
+  {
+   "id": "ev-2026-036",
+   "date": "2026-07-09",
+   "type": "临床",
+   "entity": "BioAge Labs",
+   "headline": "BioAge 炎症衰老抑制剂进入 2 期临床：NLRP3 靶点的人体长寿数据驱动发现",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "B",
+   "source": "longevity.technology",
+   "source_url": "/news/BioAge-BGE-102-NLRP3-Quell-CV-Phase2-2026.html",
+   "article_slug": "BioAge-BGE-102-NLRP3-Quell-CV-Phase2-2026.html"
   },
   {
    "id": "ev-2026-008",
@@ -169,6 +239,20 @@
    "source": "doi.org",
    "source_url": "/news/Longevity-Industry-Matures-Bibliometric-Review-2026.html",
    "article_slug": "Longevity-Industry-Matures-Bibliometric-Review-2026.html"
+  },
+  {
+   "id": "ev-2026-035",
+   "date": "2026-08-05",
+   "type": "商业化",
+   "entity": "生物年龄时钟",
+   "headline": "生物年龄加速增加手术后死亡风险：43万人大型国际研究验证",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "A",
+   "source": "doi.org",
+   "source_url": "/news/PhenoAge-Surgery-Mortality-Biological-Aging-2026.html",
+   "article_slug": "PhenoAge-Surgery-Mortality-Biological-Aging-2026.html"
   },
   {
    "id": "ev-2026-009",
@@ -199,6 +283,20 @@
    "article_slug": "XPRIZE-Healthspan-Finalist-Teams-2026.html"
   },
   {
+   "id": "ev-2026-034",
+   "date": "2026-09-09",
+   "type": "监管",
+   "entity": "SENESCENCE2030",
+   "headline": "SENESCENCE2030 路线图：迈向精准衰老医学的共识框架",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "B",
+   "source": "doi.org",
+   "source_url": "/news/SENESCENCE2030-Roadmap-Precision-Senescence-Medicine-2026.html",
+   "article_slug": "SENESCENCE2030-Roadmap-Precision-Senescence-Medicine-2026.html"
+  },
+  {
    "id": "ev-2026-023",
    "date": "2026-10-09",
    "type": "临床",
@@ -225,6 +323,20 @@
    "source": "peptidenewsdigest.org",
    "source_url": "/news/GLP1-Aging-Clocks-ARDD-2026-Interpretation.html",
    "article_slug": "GLP1-Aging-Clocks-ARDD-2026-Interpretation.html"
+  },
+  {
+   "id": "ev-2026-032",
+   "date": "2026-10-13",
+   "type": "行业观察",
+   "entity": "细胞衰老干预",
+   "headline": "细胞衰老干预人体临床试验系统评价：6 项研究提示可行，但远未「established」",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "A",
+   "source": "doi.org",
+   "source_url": "/news/Senolytics-Senomorphics-Human-Trials-Systematic-Review-BJCP-2026.html",
+   "article_slug": "Senolytics-Senomorphics-Human-Trials-Systematic-Review-BJCP-2026.html"
   },
   {
    "id": "ev-2026-011",
@@ -315,7 +427,7 @@
    "date": "2026-10-15",
    "type": "临床",
    "entity": "TAME",
-   "headline": "TAME 至今仍未入组任何受试者：这个用 FDA 背书的抗衰旗舰试验，卡在了哪里",
+   "headline": "TAME 的大规模试验至今未启动：这个用 FDA 背书的抗衰旗舰，卡在了哪里",
    "amount": null,
    "round": null,
    "counterparty": null,
@@ -367,6 +479,34 @@
    "article_slug": "Immorta-SenoMune-AI-Designed-Senolytic-Immune-Therapy-2026.html"
   },
   {
+   "id": "ev-2026-031",
+   "date": "2026-10-15",
+   "type": "行业观察",
+   "entity": "NAD⁺ 前体",
+   "headline": "NAD⁺ 前体系统评价：15 项 RCT 确认代谢指标改善，但「延寿」仍无人体证据",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "A",
+   "source": "pubmed.ncbi.nlm.nih.gov",
+   "source_url": "/news/NAD-Precursor-Systematic-Review-Meta-Analysis-2026.html",
+   "article_slug": "NAD-Precursor-Systematic-Review-Meta-Analysis-2026.html"
+  },
+  {
+   "id": "ev-2026-033",
+   "date": "2026-10-15",
+   "type": "商业化",
+   "entity": "C2N Diagnostics",
+   "headline": "阿尔茨海默病诊断的两条捷径：血检 + 数字认知在英国全科诊所做到了 90% 准确率",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "C",
+   "source": "longevity.technology",
+   "source_url": "/news/C2N-PrecivityAD2-Cambridge-Cognition-UK-Alzheimer-Diagnosis.html",
+   "article_slug": "C2N-PrecivityAD2-Cambridge-Cognition-UK-Alzheimer-Diagnosis.html"
+  },
+  {
    "id": "ev-2026-020",
    "date": "2026-10-16",
    "type": "融资",
@@ -407,6 +547,20 @@
    "source": "IMA 行业情报周报（2026-09-16）·原始出处：人民日报健康客户端 / Endpoints News / Longevity Technology / CDA",
    "source_url": "/news/Longevity-Regulatory-Payment-Boundaries-2026.html",
    "article_slug": "Longevity-Regulatory-Payment-Boundaries-2026.html"
+  },
+  {
+   "id": "ev-2026-030",
+   "date": "2026-10-18",
+   "type": "临床",
+   "entity": "NOPARK / NR",
+   "headline": "NOPARK 三期揭盲：410 人每日 1000 mg NAD⁺ 前体一年，主要终点显著劣于安慰剂",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "A",
+   "source": "doi.org",
+   "source_url": "/news/NOPARK-NR-Early-Parkinson-Phase3-JAMA-2026.html",
+   "article_slug": "NOPARK-NR-Early-Parkinson-Phase3-JAMA-2026.html"
   }
  ],
  "companies": [
@@ -648,6 +802,26 @@
     "Senolytic",
     "免疫疗法",
     "AI 设计"
+   ],
+   "status": "active"
+  },
+  {
+   "name": "BioAge Labs",
+   "aliases": [],
+   "focus": [
+    "炎症衰老",
+    "NLRP3",
+    "临床二期"
+   ],
+   "status": "active"
+  },
+  {
+   "name": "C2N Diagnostics",
+   "aliases": [],
+   "focus": [
+    "诊断",
+    "血检",
+    "神经退行"
    ],
    "status": "active"
   }
