@@ -394,8 +394,13 @@ details API 每页**恒定返回 30 条**，`messages[0].total` 才是真实总�
 
 用户追加两项要求：① 每日预印本文献要**下载 PDF**；② 要**上传到岁见衰老科学文献 IMA 数据库**。
 
-**目标库确认**：「岁见衰老科学文献」= IMA 共享库 **`7505141192201969`**（126 篇，平铺根目录）。
-（区别于 IMA 个人库 `0019eb4e65002c9f`，后者放 AI 结构化成果。两者不是同一个库。）
+**目标库确认（2026-10-18 晚实测更正）**：「岁见衰老科学文献」OpenAPI kb_id = **`vvv0PSKt0_A4XCEifRqTR6lpPYaHsna-D8PMi7V9hCU=`**（386 条，平铺根目录）。
+
+⚠️ **踩过的坑：两套 ID 不是一回事。** 我最初把 `7505141192201969` 当成 kb_id 写进了任务，实测它是
+`get_knowledge_list` 每条记录的 `parent_folder_id`，即**共享库根文件夹 ID**——同名数字段，含义完全不同。
+`add_knowledge` 传 kb_id 时**必须**用 `vvv0PSKt0_…`，传 `7505141192201969` 属于传错参数；
+`folder_id` 才是 `7505141192201969`（根目录可省略）。
+（区别于 IMA 个人库 `0019eb4e65002c9f`／kb_id `jx-quL7Na0bpWMz-wMbWo70V0DVq6TpY6Kv9AZDG--0=`，后者放 AI 结构化成果。两者不是同一个库。）
 
 **PDF 下载实测结论：medRxiv 可行，bioRxiv 不可行。**
 
@@ -418,6 +423,31 @@ bioRxiv 被封的四条佐证（说明是 **IP 级封锁，不是 UA 问题**）
 预检 `preflight-check.cjs` → `check_repeated_names` → `create_media` → COS 上传原始文件 → `add_knowledge`（校验 code=0）。
 注意：**重名不支持覆盖**，只能保留副本或取消；COS 上传失败不得调用 add_knowledge。
 
-⚠️ **当前阻塞：IMA 凭证未配置。** `~/.config/ima/client_id` 与 `api_key` 均不存在，环境变量也未设置。
-任务已写入前置检查：**凭证缺失时不发起任何 API 调用**，而是在产出与 description 写明「PDF 已下载但未能上传 + 文件保留路径」，不静默失败。
-凭证获取入口：https://ima.qq.com/agent-interface
+### 9.6 三改（2026-10-18 晚）：凭证到位 + 端到端上传实测通过
+
+用户提供了 API Key / Client ID，已写入 `~/.config/ima/{api_key,client_id}`（600 权限）。
+**上每日任务前先手动跑了一篇完整验证**（不验证就上每日任务，出问题就是天天出问题）。
+
+**验证样本**：medRxiv 预印本 `10.64898/2026.10.09.26365178`（老年心衰再入院）
+
+| 环节 | 结果 |
+|---|---|
+| 源站下载 | `https://www.medrxiv.org/content/<DOI>v1.full.pdf` → 200，**1,813,786 B**，`PDF v1.4 / 33 页` |
+| `preflight-check` | `pass=true`，`file_size=1813786`，`media_type=1`，`content_type=application/pdf` |
+| `check_repeated_names` | `is_repeated=false` |
+| `create_media` | `code:0`，media_id `pdf_cls1_24cbc007…`，bucket `ima-share-kb-1258344701`，region `ap-shanghai` |
+| COS 上传 | `Upload successful (HTTP 200)`，exit 0 |
+| `add_knowledge` | `{"code":0,"msg":"success"}` |
+
+**回读闭环（`get_knowledge_list` + `get_media_info` + 回链下载）**：
+
+- `get_knowledge_list(kb_id=vvv0PSKt0_…, limit=50)` 返回**第一条**即
+  `PP_2026-10-18_hf-readmission-elderly_26365178.pdf`，`media_type=1`，`parent_folder_id=7505141192201969`。
+- `get_media_info` 取到签名 URL；带 `X-IMA-Sign` / `X-IMA-Create-URL-Time` 头 curl 回链 → **200 / 1,813,786 B**，
+  与源站字节数**完全一致**，`file` 仍判为 `PDF v1.4 / 33 页`。
+
+> **判定：上传通路全通。** 「已入库」的判据是 `get_knowledge_list` 能列出 + 回链下载字节一致，
+> **不是** `search_knowledge`——后者有索引延迟，上传后立即搜会命中 0，据此判失败会误判。
+
+**凭证前置检查保留**：任务仍在开跑前自检 `~/.config/ima/`；缺失时不发起 API 调用，
+而在产出写明「PDF 已下载但未能上传 + 文件保留路径」，不静默失败。凭证入口 https://ima.qq.com/agent-interface
