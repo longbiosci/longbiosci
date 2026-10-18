@@ -60,7 +60,7 @@ ITEMS = [
     ("/daily/", "周刊", None),
     ("/evidence/", "证据分级", "证据"),
     ("/trials.html", "临床试验", "临床"),
-    ("/companies/", "产业", None),
+    ("/industry/", "产业", None),
     ("/about/", "关于", None),
 ]
 
@@ -140,7 +140,9 @@ def current_for(rel):
         return "/daily/"
     if top == "evidence":
         return "/evidence/"
-    if top in ("companies", "events", "investors"):
+    if top == "industry":
+        return "/industry/"
+    if top in ("companies", "investors"):
         return "/companies/"
     if top == "papers":
         return "/research/"   # /research/ 把它列在「研究工具」区

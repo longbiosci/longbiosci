@@ -47,7 +47,7 @@ ROOT = sys.argv[1] if len(sys.argv) > 1 else "."
 # 新增栏目目录务必登记，否则该目录的死链与计数漂移会再次隐身。
 SCAN_DIRS = ["", "news", "topics", "evidence", "guide", "research",
              "companies", "events", "daily", "about", "privacy",
-             "investors", "papers"]
+             "investors", "papers", "industry"]
 
 
 def rel_targets():

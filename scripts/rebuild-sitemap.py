@@ -88,6 +88,7 @@ PAGES = [
     ("en/index.html",         "weekly",  "0.7"),
     ("cover-generator.html",  "yearly",  "0.4"),
     ("contact/index.html",    "yearly",  "0.5"),
+    ("industry/index.html",   "weekly",  "0.8"),
     ("companies/index.html",  "weekly",  "0.7"),
     ("article.html",          "monthly", "0.5"),
     ("about/index.html",      "monthly", "0.6"),
