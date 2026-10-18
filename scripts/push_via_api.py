@@ -88,6 +88,7 @@ def main():
     # 远端已有对象集合（避免重复上传）
     print("拉取远端现有对象清单…")
     have = set()
+    missing_fetch = 0
     stack = [remote_tree]
     while stack:
         t = stack.pop()
@@ -97,13 +98,23 @@ def main():
         try:
             tree = api(f"/git/trees/{t}", token=token)
         except SystemExit:
+            # 不能静默跳过：have 不完整会让脚本误判「哪些 tree 远端已有」，
+            # 把原本一致的 tree 也拿去重建 —— 一旦重建出错就会触发下面的 sha 断言。
+            # 2026-10-18 正是这样把 docs/（中文文件名）误判为需重建而卡住推送的。
+            missing_fetch += 1
             continue
+        if tree.get("truncated"):
+            raise SystemExit(
+                f"远端 tree {t[:7]} 返回 truncated=true，对象清单不完整，已中止（不会推送）")
         for e in tree.get("tree", []):
             if e["type"] == "tree":
                 stack.append(e["sha"])
             else:
                 have.add(e["sha"])
     print(f"远端已有对象 {len(have)} 个")
+    if missing_fetch:
+        raise SystemExit(
+            f"有 {missing_fetch} 个远端 tree 拉取失败，have 清单不完整，已中止（不会推送）")
 
     # 本地可达对象
     listing = sh("git", "rev-list", "--objects", head).decode().strip().split("\n")
