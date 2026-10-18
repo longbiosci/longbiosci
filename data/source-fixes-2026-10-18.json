@@ -1,0 +1,214 @@
+{
+ "generated_at": "2026-10-18T11:40:00+08:00",
+ "fixes": [
+  {
+   "slug": "AHR-Inhibition-Axon-Regeneration-Nature-2026.html",
+   "kind": "matched",
+   "inserted_after": "来源行之后",
+   "doi": "10.1038/s41586-026-10295-z",
+   "pmid": "41922778",
+   "nct": null,
+   "query": "aryl hydrocarbon receptor axon regeneration",
+   "note": "",
+   "verified_at": "2026-10-18T11:40:00+08:00",
+   "verified_by": "eutils.ncbi.nlm.nih.gov / clinicaltrials.gov API v2"
+  },
+  {
+   "slug": "Aged-Microbiota-Fecal-Transplant-Bama-Pig-2026.html",
+   "kind": "matched",
+   "inserted_after": "来源行之后",
+   "doi": "10.1111/acel.70725",
+   "pmid": "42775698",
+   "nct": null,
+   "query": "gut microbiota transplantation aging pig Bama",
+   "note": "",
+   "verified_at": "2026-10-18T11:40:00+08:00",
+   "verified_by": "eutils.ncbi.nlm.nih.gov / clinicaltrials.gov API v2"
+  },
+  {
+   "slug": "Metformin-Blunts-Exercise-Adaptation-AgingCell-2019-RCT.html",
+   "kind": "matched",
+   "inserted_after": "来源行之后",
+   "doi": "10.1111/acel.12880",
+   "pmid": "30548390",
+   "nct": null,
+   "query": "metformin blunts exercise insulin sensitivity VO2max",
+   "note": "",
+   "verified_at": "2026-10-18T11:40:00+08:00",
+   "verified_by": "eutils.ncbi.nlm.nih.gov / clinicaltrials.gov API v2"
+  },
+  {
+   "slug": "Rapa-Small-Dose-DNA-Damage-Repair-p21-Immune-Cells-2026.html",
+   "kind": "matched",
+   "inserted_after": "来源行之后",
+   "doi": "10.1111/acel.70364",
+   "pmid": "41524558",
+   "nct": null,
+   "query": "rapamycin aged immune cells p21 DNA damage",
+   "note": "",
+   "verified_at": "2026-10-18T11:40:00+08:00",
+   "verified_by": "eutils.ncbi.nlm.nih.gov / clinicaltrials.gov API v2"
+  },
+  {
+   "slug": "Rapamycin-APOE4-Cerebral-Blood-Flow-Trial-2026.html",
+   "kind": "matched",
+   "inserted_after": "来源行之后",
+   "doi": "10.1177/0271678X261490342",
+   "pmid": "42723264",
+   "nct": null,
+   "query": "rapamycin APOE4 cerebral blood flow",
+   "note": "",
+   "verified_at": "2026-10-18T11:40:00+08:00",
+   "verified_by": "eutils.ncbi.nlm.nih.gov / clinicaltrials.gov API v2"
+  },
+  {
+   "slug": "Thymic-Health-Immune-Senescence-Nature-2026-Bernatz.html",
+   "kind": "matched",
+   "inserted_after": "来源行之后",
+   "doi": "10.1038/s41586-026-10242-y",
+   "pmid": "41851466",
+   "nct": null,
+   "query": "thymus health immune aging",
+   "note": "",
+   "verified_at": "2026-10-18T11:40:00+08:00",
+   "verified_by": "eutils.ncbi.nlm.nih.gov / clinicaltrials.gov API v2"
+  },
+  {
+   "slug": "NAD-Precursor-Head-to-Head-RCT-NR-NMN-2026.html",
+   "kind": "matched",
+   "inserted_after": "来源行之后",
+   "doi": "10.1038/s42255-025-01421-8",
+   "pmid": "41540253",
+   "nct": null,
+   "query": "nicotinamide riboside nicotinamide mononucleotide 14 days blood NAD",
+   "note": "",
+   "verified_at": "2026-10-18T11:40:00+08:00",
+   "verified_by": "eutils.ncbi.nlm.nih.gov / clinicaltrials.gov API v2"
+  },
+  {
+   "slug": "Exercise-Mitochondrial-Quality-Control-Brain-Aging-2026.html",
+   "kind": "matched",
+   "inserted_after": "来源行之后",
+   "doi": "10.3390/biology15110854",
+   "pmid": "42274505",
+   "nct": null,
+   "query": "mitochondrial quality control exercise brain aging",
+   "note": "",
+   "verified_at": "2026-10-18T11:40:00+08:00",
+   "verified_by": "eutils.ncbi.nlm.nih.gov / clinicaltrials.gov API v2"
+  },
+  {
+   "slug": "TAME-Still-Zero-Participants-2026-Midyear-Status.html",
+   "kind": "registry",
+   "inserted_after": "来源行之后",
+   "doi": null,
+   "pmid": null,
+   "nct": "NCT02570672",
+   "query": null,
+   "note": "",
+   "verified_at": "2026-10-18T11:40:00+08:00",
+   "verified_by": "eutils.ncbi.nlm.nih.gov / clinicaltrials.gov API v2"
+  },
+  {
+   "slug": "NAD-Precursor-Systematic-Review-Meta-Analysis-2026.html",
+   "kind": "unmatched",
+   "inserted_after": "来源行之后",
+   "doi": null,
+   "pmid": null,
+   "nct": null,
+   "query": [
+    "NAD precursor systematic review meta-analysis randomized",
+    "NR NMN supplementation NAD metabolome randomized controlled"
+   ],
+   "note": "PubMed 未检索到与「15 项 RCT、250–2000 mg/d、14 天–24 周」完全对应的系统评价/荟萃分析；命中的最接近文献与本文描述不一致，故不引用。",
+   "verified_at": "2026-10-18T11:40:00+08:00",
+   "verified_by": "eutils.ncbi.nlm.nih.gov / clinicaltrials.gov API v2"
+  },
+  {
+   "slug": "Rapamycin-HFpEF-Frailty-Functional-Endpoint-Failure-2026.html",
+   "kind": "unmatched",
+   "inserted_after": "来源行之后",
+   "doi": null,
+   "pmid": null,
+   "nct": null,
+   "query": [
+    "rapamycin HFpEF",
+    "sirolimus heart failure preserved ejection fraction randomized",
+    "rapamycin frailty clinical trial functional",
+    "rapamycin exercise capacity older adults randomized trial"
+   ],
+   "note": "PubMed 与 ClinicalTrials.gov 均未定位到「HFpEF 合并衰弱、雷帕霉素 0.5 mg/d × 6 个月、功能终点未达」这一具体试验的登记或论文。该结论目前只有上游交叉追踪记录的单一来源，无法独立验证。",
+   "verified_at": "2026-10-18T11:40:00+08:00",
+   "verified_by": "eutils.ncbi.nlm.nih.gov / clinicaltrials.gov API v2"
+  },
+  {
+   "slug": "TRIIM-Original-Study-MRI-Multiorgan-2026.html",
+   "kind": "unmatched",
+   "inserted_after": "来源行之后",
+   "doi": null,
+   "pmid": null,
+   "nct": null,
+   "query": [
+    "TRIIM growth hormone DHEA metformin thymus MRI"
+   ],
+   "note": "「TRIIM 原始研究 + MRI 多器官年轻化」在 PubMed 未定位到对应原文；TRIIM 试验本体（rhGH+DHEA+二甲双胍，n=9–10）为 2019 年 Aging Cell 研究，但「MRI 证实多器官年轻化」这一结果未能核实到出处。",
+   "verified_at": "2026-10-18T11:40:00+08:00",
+   "verified_by": "eutils.ncbi.nlm.nih.gov / clinicaltrials.gov API v2"
+  },
+  {
+   "slug": "Partial-Reprogramming-OSK-Human-Neurons-Glia-Epigenetic-Rejuvenation-2026.html",
+   "kind": "unmatched",
+   "inserted_after": "来源行之后",
+   "doi": null,
+   "pmid": null,
+   "nct": null,
+   "query": [
+    "partial reprogramming human neurons epigenetic aging OSK",
+    "Oct4 Sox2 Klf4 human glia rejuvenation epigenetic clock",
+    "epigenetic age reversal human neurons partial reprogramming",
+    "OSK transient expression ameliorates cellular aging"
+   ],
+   "note": "「Salk/Buck 联合、人神经元与胶质细胞瞬时 OSK、表观年龄逆转 10–15 年」未在 PubMed 检索到对应原文。相关但不同的既有工作是小鼠体内部分重编程（Ocampo 2016, Cell, 10.1016/j.cell.2016.11.052），不能作为本文出处替代。",
+   "verified_at": "2026-10-18T11:40:00+08:00",
+   "verified_by": "eutils.ncbi.nlm.nih.gov / clinicaltrials.gov API v2"
+  },
+  {
+   "slug": "WHO-Intrinsic-Capacity-Health-Measurement-2026.html",
+   "kind": "media",
+   "inserted_after": "来源行之后",
+   "doi": null,
+   "pmid": null,
+   "nct": null,
+   "query": [
+    "intrinsic capacity older adults WHO ICOPE cohort"
+   ],
+   "note": "原文为 Fight Aging! 对 WHO「内在能力」框架的报道，属机构框架/政策解读，不是单篇论文。WHO 内在能力框架的原始文件见 WHO《World report on ageing and health》(2015) 与其 ICOPE 指南。",
+   "verified_at": "2026-10-18T11:40:00+08:00",
+   "verified_by": "eutils.ncbi.nlm.nih.gov / clinicaltrials.gov API v2"
+  },
+  {
+   "slug": "KHL-Foundation-Rejuvenation-Cocktail-2026.html",
+   "kind": "media",
+   "inserted_after": "来源行之后",
+   "doi": null,
+   "pmid": null,
+   "nct": null,
+   "query": null,
+   "note": "原文为 Fight Aging! 对 KHL Foundation 医疗旅游项目的报道，属产业/机构动态，无同行评议文献。",
+   "verified_at": "2026-10-18T11:40:00+08:00",
+   "verified_by": "eutils.ncbi.nlm.nih.gov / clinicaltrials.gov API v2"
+  },
+  {
+   "slug": "Longevity-Regulatory-Payment-Boundaries-2026.html",
+   "kind": "media",
+   "inserted_after": "来源行之后",
+   "doi": null,
+   "pmid": null,
+   "nct": null,
+   "query": null,
+   "note": "本文为监管/支付政策综述（中国「衰老非疾病」定位、FDA 终点标准、加拿大 CDA-AMC 报销、FDA bulks list），来源为监管机构与媒体报道，非单篇论文。",
+   "verified_at": "2026-10-18T11:40:00+08:00",
+   "verified_by": "eutils.ncbi.nlm.nih.gov / clinicaltrials.gov API v2"
+  }
+ ]
+}
