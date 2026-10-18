@@ -1,26 +1,22 @@
 {
  "summary": {
-  "total": 553,
+  "total": 555,
   "level_counts": {
-   "中": 124,
-   "强": 413,
-   "断链": 16
+   "中": 131,
+   "强": 424
   },
   "by_tier": {
    "A": {
-    "中": 23,
-    "强": 106,
-    "断链": 5
+    "中": 27,
+    "强": 107
    },
    "B": {
-    "强": 214,
-    "断链": 10,
-    "中": 87
+    "强": 224,
+    "中": 89
    },
    "C": {
-    "中": 14,
-    "强": 93,
-    "断链": 1
+    "中": 15,
+    "强": 93
    }
   },
   "missing_doi": [
@@ -55,11 +51,6 @@
     "evidence": "C"
    },
    {
-    "slug": "Aged-Microbiota-Fecal-Transplant-Bama-Pig-2026.html",
-    "title": "把老人的菌群移植给年轻猪：肠屏障受损、菌群失衡被逆转的机制证据",
-    "evidence": "B"
-   },
-   {
     "slug": "Alector-Genentech-AL050-Parkinson-Brain-Carrier-1.17B.html",
     "title": "Genentech 豪掷 11.7 亿美元里程碑接手 Alector 的帕金森项目：为什么是 GCase 而不是抗体",
     "evidence": "C"
@@ -85,34 +76,9 @@
     "evidence": "C"
    },
    {
-    "slug": "Metformin-Blunts-Exercise-Adaptation-AgingCell-2019-RCT.html",
-    "title": "二甲双胍会钝化运动适应：把这两个「抗衰支柱」放在一起，可能互相抵消",
-    "evidence": "B"
-   },
-   {
-    "slug": "NAD-Precursor-Head-to-Head-RCT-NR-NMN-2026.html",
-    "title": "NR 与 NMN 头对头：两者都能把全血 NAD⁺ 翻倍，但「标志物翻倍」不等于「人变年轻」",
-    "evidence": "A"
-   },
-   {
     "slug": "NAD-Precursor-Systematic-Review-Meta-Analysis-2026.html",
     "title": "NAD⁺ 前体系统评价：15 项 RCT 确认代谢指标改善，但「延寿」仍无人体证据",
     "evidence": "A"
-   },
-   {
-    "slug": "Partial-Reprogramming-OSK-Human-Neurons-Glia-Epigenetic-Rejuvenation-2026.html",
-    "title": "瞬时 OSK 重编程：人神经元与胶质细胞「表观年龄」逆转约 10–15 年，且保住身份不丢",
-    "evidence": "B"
-   },
-   {
-    "slug": "Rapa-Small-Dose-DNA-Damage-Repair-p21-Immune-Cells-2026.html",
-    "title": "低剂量雷帕霉素的意外机制：不是自噬，而是让免疫细胞更能扛 DNA 损伤",
-    "evidence": "B"
-   },
-   {
-    "slug": "Rapamycin-APOE4-Cerebral-Blood-Flow-Trial-2026.html",
-    "title": "雷帕霉素在 APOE4 携带者身上改善脑血流，普通人却没有——亚型分层比总效应更重要",
-    "evidence": "B"
    },
    {
     "slug": "Rapamycin-HFpEF-Frailty-Functional-Endpoint-Failure-2026.html",
@@ -131,17 +97,12 @@
    },
    {
     "slug": "TAME-Still-Zero-Participants-2026-Midyear-Status.html",
-    "title": "TAME 至今仍未入组任何受试者：这个用 FDA 背书的抗衰旗舰试验，卡在了哪里",
+    "title": "TAME 的大规模试验至今未启动：这个用 FDA 背书的抗衰旗舰，卡在了哪里",
     "evidence": "A"
    },
    {
     "slug": "TRIIM-Original-Study-MRI-Multiorgan-2026.html",
     "title": "TRIIM 原始研究：三种「长寿药」联用一年，MRI 证实多个器官年轻化",
-    "evidence": "B"
-   },
-   {
-    "slug": "Thymic-Health-Immune-Senescence-Nature-2026-Bernatz.html",
-    "title": "胸腺健康度决定免疫衰老进程：Nature 研究揭示胸腺与免疫衰老的关联及运动的可塑性",
     "evidence": "B"
    },
    {
@@ -350,11 +311,6 @@
     "evidence": "B"
    },
    {
-    "slug": "Exercise-Mitochondrial-Quality-Control-Brain-Aging-2026.html",
-    "title": "运动通过线粒体质量控制机制对抗大脑衰老",
-    "evidence": "B"
-   },
-   {
     "slug": "Calico-Fosigotifator-FDA-BTD-VWM-2026.html",
     "title": "Calico旗下eIF2B激活剂Fosigotifator获FDA突破性疗法认定——剑指白质消融病",
     "evidence": "A"
@@ -482,11 +438,6 @@
    {
     "slug": "ENDO12-Targeted-Autoimmune-Munc13-4-2026.html",
     "title": "ENDO12：精准阻断Munc13-4/syntaxin7互作——不抑制免疫的自身免疫病新疗法",
-    "evidence": "B"
-   },
-   {
-    "slug": "AHR-Inhibition-Axon-Regeneration-Nature-2026.html",
-    "title": "AHR抑制解锁神经再生：Nature发表揭示\"神经刹车\"机制",
     "evidence": "B"
    },
    {
@@ -725,88 +676,7 @@
     "evidence": "B"
    }
   ],
-  "no_source": [
-   {
-    "slug": "Longevity-Regulatory-Payment-Boundaries-2026.html",
-    "title": "四道边界：中国明确「衰老非疾病」、FDA 收紧终点标准、加拿大卡在支付、长寿肽仍在灰色地带",
-    "evidence": "C"
-   },
-   {
-    "slug": "Aged-Microbiota-Fecal-Transplant-Bama-Pig-2026.html",
-    "title": "把老人的菌群移植给年轻猪：肠屏障受损、菌群失衡被逆转的机制证据",
-    "evidence": "B"
-   },
-   {
-    "slug": "Metformin-Blunts-Exercise-Adaptation-AgingCell-2019-RCT.html",
-    "title": "二甲双胍会钝化运动适应：把这两个「抗衰支柱」放在一起，可能互相抵消",
-    "evidence": "B"
-   },
-   {
-    "slug": "NAD-Precursor-Head-to-Head-RCT-NR-NMN-2026.html",
-    "title": "NR 与 NMN 头对头：两者都能把全血 NAD⁺ 翻倍，但「标志物翻倍」不等于「人变年轻」",
-    "evidence": "A"
-   },
-   {
-    "slug": "NAD-Precursor-Systematic-Review-Meta-Analysis-2026.html",
-    "title": "NAD⁺ 前体系统评价：15 项 RCT 确认代谢指标改善，但「延寿」仍无人体证据",
-    "evidence": "A"
-   },
-   {
-    "slug": "Partial-Reprogramming-OSK-Human-Neurons-Glia-Epigenetic-Rejuvenation-2026.html",
-    "title": "瞬时 OSK 重编程：人神经元与胶质细胞「表观年龄」逆转约 10–15 年，且保住身份不丢",
-    "evidence": "B"
-   },
-   {
-    "slug": "Rapa-Small-Dose-DNA-Damage-Repair-p21-Immune-Cells-2026.html",
-    "title": "低剂量雷帕霉素的意外机制：不是自噬，而是让免疫细胞更能扛 DNA 损伤",
-    "evidence": "B"
-   },
-   {
-    "slug": "Rapamycin-APOE4-Cerebral-Blood-Flow-Trial-2026.html",
-    "title": "雷帕霉素在 APOE4 携带者身上改善脑血流，普通人却没有——亚型分层比总效应更重要",
-    "evidence": "B"
-   },
-   {
-    "slug": "Rapamycin-HFpEF-Frailty-Functional-Endpoint-Failure-2026.html",
-    "title": "雷帕霉素又一次在人身上失灵：HFpEF 合并衰弱患者 6 个月，功能终点全部没动",
-    "evidence": "B"
-   },
-   {
-    "slug": "TAME-Still-Zero-Participants-2026-Midyear-Status.html",
-    "title": "TAME 至今仍未入组任何受试者：这个用 FDA 背书的抗衰旗舰试验，卡在了哪里",
-    "evidence": "A"
-   },
-   {
-    "slug": "TRIIM-Original-Study-MRI-Multiorgan-2026.html",
-    "title": "TRIIM 原始研究：三种「长寿药」联用一年，MRI 证实多个器官年轻化",
-    "evidence": "B"
-   },
-   {
-    "slug": "Thymic-Health-Immune-Senescence-Nature-2026-Bernatz.html",
-    "title": "胸腺健康度决定免疫衰老进程：Nature 研究揭示胸腺与免疫衰老的关联及运动的可塑性",
-    "evidence": "B"
-   },
-   {
-    "slug": "WHO-Intrinsic-Capacity-Health-Measurement-2026.html",
-    "title": "WHO\"内在能力\"框架：首次可能直接测量健康而非疾病",
-    "evidence": "A"
-   },
-   {
-    "slug": "Exercise-Mitochondrial-Quality-Control-Brain-Aging-2026.html",
-    "title": "运动通过线粒体质量控制机制对抗大脑衰老",
-    "evidence": "B"
-   },
-   {
-    "slug": "KHL-Foundation-Rejuvenation-Cocktail-2026.html",
-    "title": "KHL Foundation：创始人年过八旬 Launch 基因疗法\"回春鸡尾酒\"医疗旅游",
-    "evidence": "A"
-   },
-   {
-    "slug": "AHR-Inhibition-Axon-Regeneration-Nature-2026.html",
-    "title": "AHR抑制解锁神经再生：Nature发表揭示\"神经刹车\"机制",
-    "evidence": "B"
-   }
-  ]
+  "no_source": []
  },
  "articles": [
   {
@@ -820,6 +690,34 @@
     "https://clinicaltrials.gov/"
    ],
    "level": "中"
+  },
+  {
+   "slug": "GHR-Antagonist-Pegvisomant-Lineage-Extends-Lifespan-AgingCell-2026.html",
+   "title": "同一个靶点，两种做法：GHR 拮抗让小鼠活得更久，而在肝脏里敲掉它却加速衰老",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1111/acel.70697",
+   "doi_in_page": true,
+   "source_links": [
+    "https://onlinelibrary.wiley.com/journal/14749728",
+    "https://doi.org/10.1111/acel.70697",
+    "https://pubmed.ncbi.nlm.nih.gov/42701998/"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "HIIT-Aged-Female-Mice-Multi-Endpoint-GeroScience-2026.html",
+   "title": "14 周 HIIT 让 24 月龄雌鼠的有氧能力涨 71%，而对照组掉了 67% 的四股力量",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1007/s11357-026-02489-0",
+   "doi_in_page": true,
+   "source_links": [
+    "https://link.springer.com/journal/11357",
+    "https://doi.org/10.1007/s11357-026-02489-0",
+    "https://pubmed.ncbi.nlm.nih.gov/42720846/"
+   ],
+   "level": "强"
   },
   {
    "slug": "NOPARK-NR-Early-Parkinson-Phase3-JAMA-2026.html",
@@ -1384,8 +1282,11 @@
    "page_exists": true,
    "doi": null,
    "doi_in_page": false,
-   "source_links": [],
-   "level": "断链"
+   "source_links": [
+    "https://www.fda.gov/drugs/human-drug-compounding/bulk-drug-substances-under-section-503a-fdc-act",
+    "https://www.cda-amc.ca/"
+   ],
+   "level": "中"
   },
   {
    "slug": "Longitudinal-Associations-Of-One-carbon-Metabolism-GeroScience-2026.html",
@@ -1896,10 +1797,13 @@
    "title": "把老人的菌群移植给年轻猪：肠屏障受损、菌群失衡被逆转的机制证据",
    "evidence": "B",
    "page_exists": true,
-   "doi": null,
-   "doi_in_page": false,
-   "source_links": [],
-   "level": "断链"
+   "doi": "10.1111/acel.70725",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1111/acel.70725",
+    "https://pubmed.ncbi.nlm.nih.gov/42775698/"
+   ],
+   "level": "强"
   },
   {
    "slug": "Aging-vs-Biological-Age-Conceptual-Considerations-2026.html",
@@ -2048,10 +1952,13 @@
    "title": "二甲双胍会钝化运动适应：把这两个「抗衰支柱」放在一起，可能互相抵消",
    "evidence": "B",
    "page_exists": true,
-   "doi": null,
-   "doi_in_page": false,
-   "source_links": [],
-   "level": "断链"
+   "doi": "10.1111/acel.12880",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1111/acel.12880",
+    "https://pubmed.ncbi.nlm.nih.gov/30548390/"
+   ],
+   "level": "强"
   },
   {
    "slug": "Microbiome-Age-Clock-Bifidobacterium-5-AVAB-Healthspan-2026.html",
@@ -2083,10 +1990,13 @@
    "title": "NR 与 NMN 头对头：两者都能把全血 NAD⁺ 翻倍，但「标志物翻倍」不等于「人变年轻」",
    "evidence": "A",
    "page_exists": true,
-   "doi": null,
-   "doi_in_page": false,
-   "source_links": [],
-   "level": "断链"
+   "doi": "10.1038/s42255-025-01421-8",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1038/s42255-025-01421-8",
+    "https://pubmed.ncbi.nlm.nih.gov/41540253/"
+   ],
+   "level": "强"
   },
   {
    "slug": "NAD-Precursor-Systematic-Review-Meta-Analysis-2026.html",
@@ -2095,8 +2005,10 @@
    "page_exists": true,
    "doi": null,
    "doi_in_page": false,
-   "source_links": [],
-   "level": "断链"
+   "source_links": [
+    "https://pubmed.ncbi.nlm.nih.gov/?term=NAD+precursor+systematic+review+meta-analysis+randomized"
+   ],
+   "level": "中"
   },
   {
    "slug": "PD-L2-Immune-Checkpoint-Senescent-Cells-CellMetab-2026.html",
@@ -2116,10 +2028,12 @@
    "title": "瞬时 OSK 重编程：人神经元与胶质细胞「表观年龄」逆转约 10–15 年，且保住身份不丢",
    "evidence": "B",
    "page_exists": true,
-   "doi": null,
-   "doi_in_page": false,
-   "source_links": [],
-   "level": "断链"
+   "doi": "10.1016/j.cell.2016.11.052",
+   "doi_in_page": true,
+   "source_links": [
+    "https://pubmed.ncbi.nlm.nih.gov/?term=partial+reprogramming+human+neurons+epigenetic+aging+OSK"
+   ],
+   "level": "强"
   },
   {
    "slug": "Protein-Restriction-Coordinated-Adaptive-Response-2026.html",
@@ -2139,20 +2053,26 @@
    "title": "低剂量雷帕霉素的意外机制：不是自噬，而是让免疫细胞更能扛 DNA 损伤",
    "evidence": "B",
    "page_exists": true,
-   "doi": null,
-   "doi_in_page": false,
-   "source_links": [],
-   "level": "断链"
+   "doi": "10.1111/acel.70364",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1111/acel.70364",
+    "https://pubmed.ncbi.nlm.nih.gov/41524558/"
+   ],
+   "level": "强"
   },
   {
    "slug": "Rapamycin-APOE4-Cerebral-Blood-Flow-Trial-2026.html",
    "title": "雷帕霉素在 APOE4 携带者身上改善脑血流，普通人却没有——亚型分层比总效应更重要",
    "evidence": "B",
    "page_exists": true,
-   "doi": null,
-   "doi_in_page": false,
-   "source_links": [],
-   "level": "断链"
+   "doi": "10.1177/0271678X261490342",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1177/0271678X261490342",
+    "https://pubmed.ncbi.nlm.nih.gov/42723264/"
+   ],
+   "level": "强"
   },
   {
    "slug": "Rapamycin-HFpEF-Frailty-Functional-Endpoint-Failure-2026.html",
@@ -2161,8 +2081,10 @@
    "page_exists": true,
    "doi": null,
    "doi_in_page": false,
-   "source_links": [],
-   "level": "断链"
+   "source_links": [
+    "https://pubmed.ncbi.nlm.nih.gov/?term=rapamycin+HFpEF"
+   ],
+   "level": "中"
   },
   {
    "slug": "Rentosertib-Proteomic-Aging-Clocks-IPF-Nature-Biotech-2026.html",
@@ -2255,13 +2177,15 @@
   },
   {
    "slug": "TAME-Still-Zero-Participants-2026-Midyear-Status.html",
-   "title": "TAME 至今仍未入组任何受试者：这个用 FDA 背书的抗衰旗舰试验，卡在了哪里",
+   "title": "TAME 的大规模试验至今未启动：这个用 FDA 背书的抗衰旗舰，卡在了哪里",
    "evidence": "A",
    "page_exists": true,
    "doi": null,
    "doi_in_page": false,
-   "source_links": [],
-   "level": "断链"
+   "source_links": [
+    "https://clinicaltrials.gov/study/NCT02570672"
+   ],
+   "level": "中"
   },
   {
    "slug": "TRIIM-Original-Study-MRI-Multiorgan-2026.html",
@@ -2270,18 +2194,23 @@
    "page_exists": true,
    "doi": null,
    "doi_in_page": false,
-   "source_links": [],
-   "level": "断链"
+   "source_links": [
+    "https://pubmed.ncbi.nlm.nih.gov/?term=TRIIM+growth+hormone+DHEA+metformin+thymus+MRI"
+   ],
+   "level": "中"
   },
   {
    "slug": "Thymic-Health-Immune-Senescence-Nature-2026-Bernatz.html",
    "title": "胸腺健康度决定免疫衰老进程：Nature 研究揭示胸腺与免疫衰老的关联及运动的可塑性",
    "evidence": "B",
    "page_exists": true,
-   "doi": null,
-   "doi_in_page": false,
-   "source_links": [],
-   "level": "断链"
+   "doi": "10.1038/s41586-026-10242-y",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1038/s41586-026-10242-y",
+    "https://pubmed.ncbi.nlm.nih.gov/41851466/"
+   ],
+   "level": "强"
   },
   {
    "slug": "Undecimal-Bio-siRNA-Non-Hepatic-Delivery-Seed-18M.html",
@@ -4528,8 +4457,10 @@
    "page_exists": true,
    "doi": null,
    "doi_in_page": false,
-   "source_links": [],
-   "level": "断链"
+   "source_links": [
+    "https://www.who.int/publications/i/item/9789241565042"
+   ],
+   "level": "中"
   },
   {
    "slug": "NMJ-Failure-Sarcopenia-ClC-1-Inhibition-2026.html",
@@ -5089,10 +5020,13 @@
    "title": "运动通过线粒体质量控制机制对抗大脑衰老",
    "evidence": "B",
    "page_exists": true,
-   "doi": null,
-   "doi_in_page": false,
-   "source_links": [],
-   "level": "断链"
+   "doi": "10.3390/biology15110854",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/biology15110854",
+    "https://pubmed.ncbi.nlm.nih.gov/42274505/"
+   ],
+   "level": "强"
   },
   {
    "slug": "NextGen-Epigenetic-Clock-Interventions-41-Human-Studies-2026.html",
@@ -5903,8 +5837,10 @@
    "page_exists": true,
    "doi": null,
    "doi_in_page": false,
-   "source_links": [],
-   "level": "断链"
+   "source_links": [
+    "https://www.fightaging.org/"
+   ],
+   "level": "中"
   },
   {
    "slug": "Metabolomic-Aging-Clock-Dementia-Risk-UK-Biobank-2026.html",
@@ -6564,10 +6500,13 @@
    "title": "AHR抑制解锁神经再生：Nature发表揭示\"神经刹车\"机制",
    "evidence": "B",
    "page_exists": true,
-   "doi": null,
-   "doi_in_page": false,
-   "source_links": [],
-   "level": "断链"
+   "doi": "10.1038/s41586-026-10295-z",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1038/s41586-026-10295-z",
+    "https://pubmed.ncbi.nlm.nih.gov/41922778/"
+   ],
+   "level": "强"
   },
   {
    "slug": "FTL1-Protein-Brain-Aging-UCSF-Nature-Aging.html",

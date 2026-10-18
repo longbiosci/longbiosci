@@ -1303,6 +1303,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://longbiosci.com/news/GHR-Antagonist-Pegvisomant-Lineage-Extends-Lifespan-AgingCell-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://longbiosci.com/news/GIA-AlphaGenome-Germline-Regulated-CpG-Clock-2026.html</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
@@ -1425,6 +1431,12 @@
   <url>
     <loc>https://longbiosci.com/news/Gut-Microbiota-Glutamic-Acid-Oocyte-Rejuvenation-2026.html</loc>
     <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/HIIT-Aged-Female-Mice-Multi-Endpoint-GeroScience-2026.html</loc>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3799,6 +3811,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://longbiosci.com/evidence/B-14.html</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://longbiosci.com/evidence/C.html</loc>
     <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -3974,7 +3992,7 @@
   </url>
   <url>
     <loc>https://longbiosci.com/trials.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4112,7 +4130,7 @@
   </url>
   <url>
     <loc>https://longbiosci.com/about/index.html</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
