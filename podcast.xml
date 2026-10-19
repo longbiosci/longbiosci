@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<channel>
+  <title>长寿证据链</title>
+  <link>https://longbiosci.com/podcast/</link>
+  <language>zh-cn</language>
+  <copyright>© 2026 LongBiosci 编辑部</copyright>
+  <description><![CDATA[只讲有来源的长寿科学——每期节目，都能顺着一张来源清单回查原文。 本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。]]></description>
+  <itunes:author>LongBiosci 编辑部</itunes:author>
+  <itunes:summary><![CDATA[只讲有来源的长寿科学——每期节目，都能顺着一张来源清单回查原文。]]></itunes:summary>
+  <itunes:owner>
+    <itunes:name>LongBiosci 编辑部</itunes:name>
+    <itunes:email>ops@longbiosci.com</itunes:email>
+  </itunes:owner>
+  <itunes:image href="https://longbiosci.com/podcast-cover.png"/>
+  <image>
+    <url>https://longbiosci.com/podcast-cover.png</url>
+    <title>长寿证据链</title>
+    <link>https://longbiosci.com/podcast/</link>
+  </image>
+  <itunes:category text="Science"/>
+  <itunes:explicit>no</itunes:explicit>
+  <item>
+    <title>NAD⁺ 前体之争：标志物翻倍之后，发生了什么</title>
+    <link>https://longbiosci.com/podcast/#ep001</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep001</guid>
+    <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+    <category>论文精读</category>
+    <description><![CDATA[NR 与 NMN 都能把全血 NAD⁺ 约翻倍；同一周，NOPARK 三期在 393 人身上读出不利于 NR 的临床评分。标志物翻倍之后，到底发生了什么？
+
+来源：
+· Nature Metabolism（2026）：三种 NAD⁺ 前体对人体循环 NAD⁺ 与微生物代谢的差异影响（DOI 10.1038/s42255-025-01421-8；PubMed 41540253）
+· JAMA（2026-10-08）：NOPARK 随机临床试验——烟酰胺核糖用于早期帕金森病（DOI 10.1001/jama.2026.18828；PubMed 42848371）
+  注：临床试验注册号 NCT03568968；全文为在线预发表，本站仅依据官方摘要撰写
+· NAD⁺ 前体系统评价与荟萃分析（15 项 RCT）
+  注：⚠️ 来源待补：PubMed 未检索到完全对应文献，本站结论照登但明示单一来源、未能独立核实
+
+站内延伸阅读：
+· NR 与 NMN 头对头：两者都能把全血 NAD⁺ 翻倍，但「标志物翻倍」不等于「人变年轻」 https://longbiosci.com/news/NAD-Precursor-Head-to-Head-RCT-NR-NMN-2026.html
+· NOPARK 三期揭盲：410 人每日 1000 mg NAD⁺ 前体一年，主要终点显著劣于安慰剂 https://longbiosci.com/news/NOPARK-NR-Early-Parkinson-Phase3-JAMA-2026.html
+· NAD⁺ 前体系统评价：15 项 RCT 确认代谢指标改善，但「延寿」仍无人体证据 https://longbiosci.com/news/NAD-Precursor-Systematic-Review-Meta-Analysis-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep001]]></description>
+    <enclosure url="https://longbiosci.com/audio/nad-precursor-nr-nmn-headtohead.mp3" length="3568701" type="audio/mpeg"/>
+    <itunes:duration>595</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[NR 与 NMN 都能把全血 NAD⁺ 约翻倍；同一周，NOPARK 三期在 393 人身上读出不利于 NR 的临床评分。标志物翻倍之后，到底发生了什么？]]></itunes:summary>
+  </item>
+</channel>
+</rss>

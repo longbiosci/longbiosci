@@ -12,7 +12,7 @@
 
 本脚本把导航统一为一份标准结构：
   首页 / 最新 / 主题专辑 / 热词专题 / 概念与工具 / 周刊 /
-  证据分级 / 临床试验 / 产业 / 关于 + 搜索（独立 button 位）
+  证据分级 / 临床试验 / 产业 / 播客 / 关于 + 搜索（独立 button 位）
 
 三处一并修好：
   1. `/guide/` 9 个页面此前 aria-current 错标在「主题专辑」上；
@@ -60,7 +60,8 @@ ITEMS = [
     ("/daily/", "周刊", None),
     ("/evidence/", "证据分级", "证据"),
     ("/trials.html", "临床试验", "临床"),
-    ("/companies/", "产业", None),
+    ("/industry/", "产业", None),
+    ("/podcast/", "播客", "播"),
     ("/about/", "关于", None),
 ]
 
@@ -140,10 +141,10 @@ def current_for(rel):
         return "/daily/"
     if top == "evidence":
         return "/evidence/"
-    if top in ("companies", "events", "investors"):
-        return "/companies/"
-    if top == "papers":
-        return "/research/"   # /research/ 把它列在「研究工具」区
+    if top in ("companies", "events", "investors", "industry"):
+        return "/industry/"   # 三个子页归属「产业」板块，入口是 /industry/
+    if top == "podcast":
+        return "/podcast/"
     if top == "deep-dive":
         return "/news/"
     if top == "glossary.html" or rel == "glossary.html":

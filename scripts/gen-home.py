@@ -145,7 +145,8 @@ HOME_HEADER = '''<body>
       <a href="/daily/">周刊</a>
       <a href="/evidence/" aria-label="证据分级">证据<span class="nav-mq">分级</span></a>
       <a href="/trials.html" aria-label="临床试验">临床<span class="nav-mq">试验</span></a>
-      <a href="/companies/">产业</a>
+      <a href="/industry/">产业</a>
+      <a href="/podcast/" aria-label="播客">播<span class="nav-mq">客</span></a>
       <a href="/about/">关于</a>
       <a href="/search.html" class="nav-search" aria-label="站内搜索"><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="6.8" cy="6.8" r="4.6" fill="none" stroke="currentColor" stroke-width="1.6"/><line x1="10.3" y1="10.3" x2="14" y2="14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><span class="nav-search-text">搜索</span></a>
     </nav>
@@ -220,6 +221,18 @@ CONCEPT_CARD = '''        <a href="{href}" class="topic-card">
           <span class="t-name">{name}</span>
           <span class="t-count">{count}</span>
         </a>'''
+
+PODCAST_SECTION = '''  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>播客 · 长寿证据链</h2>
+        <span class="section-note">只讲有来源的长寿科学 —— 每期节目附完整来源清单，可回查原文</span>
+        <a href="/podcast/" class="section-more">全部节目 →</a>
+      </div>
+      {banner}
+    </div>
+  </section>
+'''
 
 EVIDENCE_SECTION = '''  <section class="section">
     <div class="wrap">
@@ -327,6 +340,33 @@ def render_feed_item(a):
     )
 
 
+def render_podcast_banner(root):
+    """首页播客横幅卡。读 data/podcast.json；没有期目时返回空串（板块自动隐藏）。"""
+    import json as _json
+    path = os.path.join(root, "data", "podcast.json")
+    try:
+        data = _json.load(open(path, encoding="utf-8"))
+    except (FileNotFoundError, ValueError):
+        return ""
+    eps = sorted(data.get("episodes", []),
+                 key=lambda e: e.get("date", ""), reverse=True)
+    if not eps:
+        return ""
+    latest = eps[0]
+    return (
+        '<a href="/podcast/" class="pod-banner">'
+        '<img src="/podcast-cover.png" alt="长寿证据链 封面" width="96" height="96">'
+        '<span class="pb-body">'
+        '<span class="pb-kicker">PODCAST</span><br>'
+        '<span class="pb-title">长寿证据链 · 已播 %d 期</span>'
+        '<span class="pb-latest">最新：%s（%s，%s）</span>'
+        '</span>'
+        '<span class="pb-cta">收听 →</span>'
+        '</a>' % (len(eps), esc(latest.get("title", "")),
+                  esc(latest.get("series", "")), esc(latest.get("date", "")))
+    )
+
+
 def main():
     root = sys.argv[1] if len(sys.argv) > 1 else "."
     with open(os.path.join(root, "data/articles.json"), encoding="utf-8") as f:
@@ -354,6 +394,7 @@ def main():
                             count=f"{concept_count(root, href)} 篇 · {desc}")
         for href, name, desc in CONCEPTS) + "\n"
     out += SECTION_CLOSE
+    out += PODCAST_SECTION.format(banner=render_podcast_banner(root))
     out += EVIDENCE_SECTION
     out += "\n".join(
         EV_CARD.format(tier=t, cls=cls, name=name, desc=desc,

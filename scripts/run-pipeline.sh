@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ============================================================
-# run-pipeline.sh —— LongBiosci 本地管线一键运行器（v1.0）
+# run-pipeline.sh —— LongBiosci 本地管线一键运行器（v1.3）
 #
 # 用法：
 #   ./run-pipeline.sh [仓库根目录] [--date YYYY-MM-DD] [--now "YYYY-MM-DD HH:MM:SS"]
@@ -39,6 +39,21 @@
 # 三个分页各只列 25 / 25 / 18 条 —— 读者在 /evidence/ 上看不到 B 级其余 286 篇。
 # 改为生成后，分页数量会随分级变动而增减，故必须在 sitemap 重建之前产出，
 # 否则 sitemap 会收录/遗漏错误分页。
+#
+# 环节 7/8 为什么必须放在 9（sitemap）之前（2026-10-19 产业 + 2026-10-19 播客）
+# ----------------------------------------------------------------
+# 产业板块四页此前是纯静态遗留页，无数据源、无生成器，各页面各写各的
+# （companies 曾写 14 家、investors 3 位、events 7 场会议无来源），
+# 2026-10-18 重建为 data/industry.json 事件流驱动；播客同理——
+# podcast/index.html 与 podcast.xml 必须先生成，sitemap 才能收录 /podcast/。
+# 且并行批次合并（远端 4b09568）曾整段丢掉产业文件，接入管线后每次构建
+# 都会重新产出四页，从机制上防止「板块悄悄消失」。
+#
+# 环节 8 为什么不合成音频
+# ----------------------
+# 音频是发布物不是构建物：文稿定稿后由 scripts/synth_podcast_audio.py
+# 手动合成一次入 git（TTS 走外部端点，无 SLA，进管线会被网络波动阻断）。
+# gen-podcast.py 只生成页面与 RSS，并硬校验音频文件存在。
 #
 # 环节 9 为什么放在校验之前（2026-10-16 新增）
 # ------------------------------------------
@@ -84,10 +99,11 @@ PYTHON="${PYTHON:-python3}"
 step() {
   local n="$1" script="$2" desc="$3"
   shift 3
-  printf '\n[%s/13] %-22s %s\n' "$n" "$script" "$desc"
+  printf '\n[%s/16] %-22s %s\n' "$n" "$script" "$desc"
   case "$script" in
     add-rss-today-run.py) "$PYTHON" "$HERE/$script" "$ROOT" "$@" ;;
     sync-evidence.py)     "$PYTHON" "$HERE/$script" "$ROOT" --write ;;
+    normalize_nav.py)     "$PYTHON" "$HERE/$script" "$ROOT" --apply ;;
     *)                    "$PYTHON" "$HERE/$script" "$ROOT" ;;
   esac
 }
@@ -100,12 +116,15 @@ step 3  gen-home.py            "生成首页 index.html"
 step 4  gen-topic-pages.py     "生成 topics/ 专题页与索引页"
 step 5  gen-news-index.py      "生成 news 列表分页"
 step 6  gen-evidence-pages.py  "生成 evidence/ 分级索引与 A/B/C 分页"
-step 7  rebuild-sitemap.py     "重建 sitemap.xml"
-step 8  add-rss-today-run.py   "追加当日新文章到 rss.xml"
-step 9  inject-poster.py       "注入海报脚本 /poster.js"
-step 10 sync-search-index.py   "重建站内搜索索引与计数"
-step 11 refresh_counts.py      "各处「N 篇」计数回写事实源（幂等）"
-step 12 audit-traceability.py  "溯源完整性审计（只报告，不阻断）"
-step 13 check-links.py         "全站死链与计数一致性检查（末位硬校验）"
+step 7  gen-industry.py        "生成产业板块：事件流 / 公司档案 / 会议日历"
+step 8  gen-podcast.py         "生成播客：节目列表页 + podcast.xml RSS"
+step 9  rebuild-sitemap.py     "重建 sitemap.xml"
+step 10 add-rss-today-run.py   "追加当日新文章到 rss.xml"
+step 11 inject-poster.py       "注入海报脚本 /poster.js"
+step 12 normalize_nav.py       "全站主导航归一化（--apply）"
+step 13 sync-search-index.py   "重建站内搜索索引与计数"
+step 14 refresh_counts.py      "各处「N 篇」计数回写事实源（幂等）"
+step 15 audit-traceability.py  "溯源完整性审计（只报告，不阻断）"
+step 16 check-links.py         "全站死链与计数一致性检查（末位硬校验）"
 
-printf '\n✅ 管线执行完成（13/13）\n'
+printf '\n✅ 管线执行完成（16/16）\n'

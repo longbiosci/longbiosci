@@ -1,0 +1,917 @@
+{
+ "schema": 1,
+ "note": "产业板块事实源。events 每条必带 source；companies/investors 只存不随时间变的属性，融资额与收购等一律来自 events。",
+ "events": [
+  {
+   "id": "ev-2026-001",
+   "date": "2026-03-30",
+   "type": "合作",
+   "entity": "Insilico Medicine",
+   "headline": "礼来27.5亿美元押注Insilico：首款\"长寿\"大药厂竞赛开启",
+   "amount": "27.5 亿美元",
+   "round": null,
+   "counterparty": "Eli Lilly",
+   "evidence": "B",
+   "source": "longevity.technology",
+   "source_url": "/news/Lilly-2.75B-Insilico-Deal.html",
+   "article_slug": "Lilly-2.75B-Insilico-Deal.html"
+  },
+  {
+   "id": "ev-2026-040",
+   "date": "2026-04-01",
+   "type": "临床",
+   "entity": "Rubedo Life Sciences",
+   "headline": "Rubedo RLS-1496 I期临床结果：GPX4调节剂首个人体数据",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "A",
+   "source": "lifespan.io",
+   "source_url": "/news/Rubedo-RLS-1496-GPX4-Phase1.html",
+   "article_slug": "Rubedo-RLS-1496-GPX4-Phase1.html"
+  },
+  {
+   "id": "ev-2026-002",
+   "date": "2026-04-05",
+   "type": "会议",
+   "entity": "ARDD 2026",
+   "headline": "ARDD 2026 to relocate to Boston",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "B",
+   "source": "longevity.technology",
+   "source_url": "/news/ARDD-2026-to-relocate-to-Boston.html",
+   "article_slug": "ARDD-2026-to-relocate-to-Boston.html"
+  },
+  {
+   "id": "ev-2026-003",
+   "date": "2026-04-06",
+   "type": "产品",
+   "entity": "Catalyst Precision Health",
+   "headline": "Catalyst Precision Health推出居家男性长寿护理服务",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "B",
+   "source": "longevity.technology",
+   "source_url": "/news/Catalyst-Precision-Health-Mens-Longevity.html",
+   "article_slug": "Catalyst-Precision-Health-Mens-Longevity.html"
+  },
+  {
+   "id": "ev-2026-004",
+   "date": "2026-04-06",
+   "type": "收购",
+   "entity": "Noom",
+   "headline": "Noom收购连锁药房大举进军健康老龄化市场",
+   "amount": null,
+   "round": null,
+   "counterparty": "Tailor Made Compounding",
+   "evidence": "B",
+   "source": "longevity.technology",
+   "source_url": "/news/Noom-Buys-Pharmacy-Healthy-Aging.html",
+   "article_slug": "Noom-Buys-Pharmacy-Healthy-Aging.html"
+  },
+  {
+   "id": "ev-2026-039",
+   "date": "2026-04-07",
+   "type": "临床",
+   "entity": "雷帕霉素",
+   "headline": "大规模雷帕霉素临床试验启动：从\"民间神药\"到循证医学的第一步",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "A",
+   "source": "news.uthscsa.edu",
+   "source_url": "/news/Rapamycin-Large-Clinical-Trial-UTHealth-2026.html",
+   "article_slug": "Rapamycin-Large-Clinical-Trial-UTHealth-2026.html"
+  },
+  {
+   "id": "ev-2026-026",
+   "date": "2026-05-22",
+   "type": "临床",
+   "entity": "Cyclarity",
+   "headline": "Cyclarity公司UDP-003：首个靶向7-酮胆固醇的人体临床数据发布，动脉粥样硬化或迎根本性治疗新路径",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "B",
+   "source": "fightaging.org",
+   "source_url": "/news/Cyclarity-UDP003-7KC-Phase1-2026.html",
+   "article_slug": "Cyclarity-UDP003-7KC-Phase1-2026.html"
+  },
+  {
+   "id": "ev-2026-038",
+   "date": "2026-05-22",
+   "type": "行业观察",
+   "entity": "KHL Foundation",
+   "headline": "KHL Foundation：创始人年过八旬 Launch 基因疗法\"回春鸡尾酒\"医疗旅游",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "A",
+   "source": "fightaging.org",
+   "source_url": "/news/KHL-Foundation-Rejuvenation-Cocktail-2026.html",
+   "article_slug": "KHL-Foundation-Rejuvenation-Cocktail-2026.html"
+  },
+  {
+   "id": "ev-2026-028",
+   "date": "2026-06-12",
+   "type": "融资",
+   "entity": "Retro Biosciences",
+   "headline": "Retro Biosciences 估值达18亿美元：3年从实验室到临床候选药物",
+   "amount": "估值 18 亿美元",
+   "round": null,
+   "counterparty": null,
+   "evidence": "B",
+   "source": "retro.bio",
+   "source_url": "/news/Retro-Biosciences-1.8B-Valuation-2026.html",
+   "article_slug": "Retro-Biosciences-1.8B-Valuation-2026.html"
+  },
+  {
+   "id": "ev-2026-025",
+   "date": "2026-06-25",
+   "type": "监管",
+   "entity": "Calico Life Sciences",
+   "headline": "Calico旗下eIF2B激活剂Fosigotifator获FDA突破性疗法认定——剑指白质消融病",
+   "amount": null,
+   "round": null,
+   "counterparty": "FDA",
+   "evidence": "A",
+   "source": "calicolabs.com",
+   "source_url": "/news/Calico-Fosigotifator-FDA-BTD-VWM-2026.html",
+   "article_slug": "Calico-Fosigotifator-FDA-BTD-VWM-2026.html"
+  },
+  {
+   "id": "ev-2026-005",
+   "date": "2026-06-26",
+   "type": "商业化",
+   "entity": "人寿保险业",
+   "headline": "生物衰老时钟：人寿保险准备好了吗？",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "B",
+   "source": "doi.org",
+   "source_url": "/news/Biological-Clocks-Life-Insurance-Underwriting-2026.html",
+   "article_slug": "Biological-Clocks-Life-Insurance-Underwriting-2026.html"
+  },
+  {
+   "id": "ev-2026-006",
+   "date": "2026-06-28",
+   "type": "融资",
+   "entity": "NewLimit",
+   "headline": "部分重编程疗法融资热潮：NewLimit融资4.35亿美元推进人体试验",
+   "amount": "4.35 亿美元",
+   "round": null,
+   "counterparty": null,
+   "evidence": "B",
+   "source": "longevity.technology",
+   "source_url": "/news/Partial-Reprogramming-Funding-Boom-2026.html",
+   "article_slug": "Partial-Reprogramming-Funding-Boom-2026.html"
+  },
+  {
+   "id": "ev-2026-037",
+   "date": "2026-06-28",
+   "type": "监管",
+   "entity": "监管科学",
+   "headline": "老年医学试验新方法：分层终点与胜率统计或可突破延寿药物临床困局",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "A",
+   "source": "nature.com",
+   "source_url": "/news/Geromedicine-Trial-Hierarchical-Endpoints-Win-Statistics-2026.html",
+   "article_slug": "Geromedicine-Trial-Hierarchical-Endpoints-Win-Statistics-2026.html"
+  },
+  {
+   "id": "ev-2026-007",
+   "date": "2026-07-01",
+   "type": "行业观察",
+   "entity": "Nira Data",
+   "headline": "全球长寿态度大调查：51% 支持延寿，25% 仍在观望——你怎么看？",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "B",
+   "source": "www.niradata.com",
+   "source_url": "/news/Global-Survey-Longevity-Attitudes-Nira-2026.html",
+   "article_slug": "Global-Survey-Longevity-Attitudes-Nira-2026.html"
+  },
+  {
+   "id": "ev-2026-027",
+   "date": "2026-07-09",
+   "type": "监管",
+   "entity": "Repair Biotechnologies",
+   "headline": "Repair Bio 旗下 REP-0003 获 FDA RDEP 资格：mRNA 疗法瞄准细胞内游离胆固醇清除",
+   "amount": null,
+   "round": null,
+   "counterparty": "FDA",
+   "evidence": "B",
+   "source": "longevity.technology",
+   "source_url": "/news/Repair-Biotechnologies-REP-0003-FDA-RDEP-2026.html",
+   "article_slug": "Repair-Biotechnologies-REP-0003-FDA-RDEP-2026.html"
+  },
+  {
+   "id": "ev-2026-036",
+   "date": "2026-07-09",
+   "type": "临床",
+   "entity": "BioAge Labs",
+   "headline": "BioAge 炎症衰老抑制剂进入 2 期临床：NLRP3 靶点的人体长寿数据驱动发现",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "B",
+   "source": "longevity.technology",
+   "source_url": "/news/BioAge-BGE-102-NLRP3-Quell-CV-Phase2-2026.html",
+   "article_slug": "BioAge-BGE-102-NLRP3-Quell-CV-Phase2-2026.html"
+  },
+  {
+   "id": "ev-2026-008",
+   "date": "2026-07-16",
+   "type": "行业观察",
+   "entity": "长寿产业",
+   "headline": "长寿产业成熟阶段：从\"炒作周期\"到\"机制驱动\"",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "B",
+   "source": "doi.org",
+   "source_url": "/news/Longevity-Industry-Matures-Bibliometric-Review-2026.html",
+   "article_slug": "Longevity-Industry-Matures-Bibliometric-Review-2026.html"
+  },
+  {
+   "id": "ev-2026-035",
+   "date": "2026-08-05",
+   "type": "商业化",
+   "entity": "生物年龄时钟",
+   "headline": "生物年龄加速增加手术后死亡风险：43万人大型国际研究验证",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "A",
+   "source": "doi.org",
+   "source_url": "/news/PhenoAge-Surgery-Mortality-Biological-Aging-2026.html",
+   "article_slug": "PhenoAge-Surgery-Mortality-Biological-Aging-2026.html"
+  },
+  {
+   "id": "ev-2026-009",
+   "date": "2026-08-07",
+   "type": "监管",
+   "entity": "意大利卫生体系",
+   "headline": "意大利发布长寿医学整合路线图：面向全球最老龄化国家的系统性变革",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "B",
+   "source": "doi.org",
+   "source_url": "/news/Italy-Longevity-Medicine-Health-Service-2026.html",
+   "article_slug": "Italy-Longevity-Medicine-Health-Service-2026.html"
+  },
+  {
+   "id": "ev-2026-010",
+   "date": "2026-08-25",
+   "type": "奖项",
+   "entity": "XPRIZE Healthspan",
+   "headline": "XPRIZE Healthspan公布20强决赛团队：中美日韩角逐延缓衰老新疗法",
+   "amount": "1000 万美元",
+   "round": null,
+   "counterparty": null,
+   "evidence": "B",
+   "source": "www.fightaging.org",
+   "source_url": "/news/XPRIZE-Healthspan-Finalist-Teams-2026.html",
+   "article_slug": "XPRIZE-Healthspan-Finalist-Teams-2026.html"
+  },
+  {
+   "id": "ev-2026-034",
+   "date": "2026-09-09",
+   "type": "监管",
+   "entity": "SENESCENCE2030",
+   "headline": "SENESCENCE2030 路线图：迈向精准衰老医学的共识框架",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "B",
+   "source": "doi.org",
+   "source_url": "/news/SENESCENCE2030-Roadmap-Precision-Senescence-Medicine-2026.html",
+   "article_slug": "SENESCENCE2030-Roadmap-Precision-Senescence-Medicine-2026.html"
+  },
+  {
+   "id": "ev-2026-023",
+   "date": "2026-10-09",
+   "type": "临床",
+   "entity": "Life Biosciences",
+   "headline": "全球首个细胞重编程人体试验公布早期数据：3 名青光眼患者 2 例视野改善，剂量将升至 3 倍",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "A",
+   "source": "lifebiosciences.com",
+   "source_url": "/news/Life-Biosciences-ER-100-First-Human-Data-AAO-2026.html",
+   "article_slug": "Life-Biosciences-ER-100-First-Human-Data-AAO-2026.html"
+  },
+  {
+   "id": "ev-2026-029",
+   "date": "2026-10-11",
+   "type": "行业观察",
+   "entity": "诺和诺德 / 礼来",
+   "headline": "GLP-1 药物能让「衰老时钟」变慢吗？ARDD 2026 上诺和与礼来的数据解读",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "C",
+   "source": "peptidenewsdigest.org",
+   "source_url": "/news/GLP1-Aging-Clocks-ARDD-2026-Interpretation.html",
+   "article_slug": "GLP1-Aging-Clocks-ARDD-2026-Interpretation.html"
+  },
+  {
+   "id": "ev-2026-032",
+   "date": "2026-10-13",
+   "type": "行业观察",
+   "entity": "细胞衰老干预",
+   "headline": "细胞衰老干预人体临床试验系统评价：6 项研究提示可行，但远未「established」",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "A",
+   "source": "doi.org",
+   "source_url": "/news/Senolytics-Senomorphics-Human-Trials-Systematic-Review-BJCP-2026.html",
+   "article_slug": "Senolytics-Senomorphics-Human-Trials-Systematic-Review-BJCP-2026.html"
+  },
+  {
+   "id": "ev-2026-011",
+   "date": "2026-10-15",
+   "type": "合作",
+   "entity": "Ultrahuman",
+   "headline": "生物年龄进入公共卫生系统：阿布扎比与 Ultrahuman 的两年合作，难度远高于消费级体检",
+   "amount": null,
+   "round": null,
+   "counterparty": "ADPHC（阿布扎比公共卫生中心）",
+   "evidence": "C",
+   "source": "longevity.technology",
+   "source_url": "/news/ADPHC-Ultrahuman-Biological-Health-Age-Public-Health-MOU.html",
+   "article_slug": "ADPHC-Ultrahuman-Biological-Health-Age-Public-Health-MOU.html"
+  },
+  {
+   "id": "ev-2026-012",
+   "date": "2026-10-15",
+   "type": "合作",
+   "entity": "Alector",
+   "headline": "Genentech 豪掷 11.7 亿美元里程碑接手 Alector 的帕金森项目：为什么是 GCase 而不是抗体",
+   "amount": "最高 11.7 亿美元里程碑",
+   "round": null,
+   "counterparty": "Genentech",
+   "evidence": "C",
+   "source": "longevity.technology",
+   "source_url": "/news/Alector-Genentech-AL050-Parkinson-Brain-Carrier-1.17B.html",
+   "article_slug": "Alector-Genentech-AL050-Parkinson-Brain-Carrier-1.17B.html"
+  },
+  {
+   "id": "ev-2026-013",
+   "date": "2026-10-15",
+   "type": "监管",
+   "entity": "FDA",
+   "headline": "FDA 把「衰老与长寿」写进监管科学议程：ARDD 2026 释放的信号与仍未解决的问题",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "C",
+   "source": "longevity.technology",
+   "source_url": "/news/FDA-Aging-Regulatory-Science-Priority-ARDD-2026.html",
+   "article_slug": "FDA-Aging-Regulatory-Science-Priority-ARDD-2026.html"
+  },
+  {
+   "id": "ev-2026-014",
+   "date": "2026-10-15",
+   "type": "合作",
+   "entity": "Function Health",
+   "headline": "160 项实验室检测接入 Google Health：功能医学数据从「单独看」变成「和可穿戴数据一起看」",
+   "amount": null,
+   "round": null,
+   "counterparty": "Google Health",
+   "evidence": "C",
+   "source": "www.prnewswire.com",
+   "source_url": "/news/Function-Health-Google-Health-Integration-Lab-Data.html",
+   "article_slug": "Function-Health-Google-Health-Integration-Lab-Data.html"
+  },
+  {
+   "id": "ev-2026-015",
+   "date": "2026-10-15",
+   "type": "融资",
+   "entity": "Sava Technologies",
+   "headline": "测糖这件事终于拿到产业级押注：Sava Technologies B轮 3600 万美元，Ascensia 拿到欧洲分销权",
+   "amount": "3600 万美元",
+   "round": "B",
+   "counterparty": "Ascensia（欧洲分销）",
+   "evidence": "C",
+   "source": "longevity.technology",
+   "source_url": "/news/Sava-Technologies-Sensor-SeriesB-36M-Continuous-Monitoring.html",
+   "article_slug": "Sava-Technologies-Sensor-SeriesB-36M-Continuous-Monitoring.html"
+  },
+  {
+   "id": "ev-2026-016",
+   "date": "2026-10-15",
+   "type": "融资",
+   "entity": "Sensible Biotechnologies",
+   "headline": "把 mRNA 工厂搬进活细胞：Sensible Biotechnologies 4700 万美元推进 VECTOR 平台",
+   "amount": "4700 万美元",
+   "round": null,
+   "counterparty": null,
+   "evidence": "C",
+   "source": "longevity.technology",
+   "source_url": "/news/Sensible-Biotechnologies-VECTOR-mRNA-47M-In-Cell-Production.html",
+   "article_slug": "Sensible-Biotechnologies-VECTOR-mRNA-47M-In-Cell-Production.html"
+  },
+  {
+   "id": "ev-2026-017",
+   "date": "2026-10-15",
+   "type": "临床",
+   "entity": "TAME",
+   "headline": "TAME 的大规模试验至今未启动：这个用 FDA 背书的抗衰旗舰，卡在了哪里",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "A",
+   "source": "IMA 知识库·临床×科学文献交叉周更（2026-10-13 批次）",
+   "source_url": "/news/TAME-Still-Zero-Participants-2026-Midyear-Status.html",
+   "article_slug": "TAME-Still-Zero-Participants-2026-Midyear-Status.html"
+  },
+  {
+   "id": "ev-2026-018",
+   "date": "2026-10-15",
+   "type": "融资",
+   "entity": "Undecimal Bio",
+   "headline": "把 siRNA 送到肝脏以外：Undecimal Bio 1800 万美元种子轮押注非肝递送",
+   "amount": "1800 万美元",
+   "round": "种子轮",
+   "counterparty": null,
+   "evidence": "C",
+   "source": "runtimewire.com",
+   "source_url": "/news/Undecimal-Bio-siRNA-Non-Hepatic-Delivery-Seed-18M.html",
+   "article_slug": "Undecimal-Bio-siRNA-Non-Hepatic-Delivery-Seed-18M.html"
+  },
+  {
+   "id": "ev-2026-019",
+   "date": "2026-10-15",
+   "type": "合作",
+   "entity": "Variant Bio",
+   "headline": "用人类遗传学找心血管靶点：勃林格殷格翰把与 Variant Bio 的合作扩展到心脏，总额超 2.5 亿美元",
+   "amount": "总额超 2.5 亿美元",
+   "round": null,
+   "counterparty": "勃林格殷格翰",
+   "evidence": "C",
+   "source": "longevity.technology",
+   "source_url": "/news/Variant-Bio-Boehringer-Cardiovascular-Target-Discovery-250M.html",
+   "article_slug": "Variant-Bio-Boehringer-Cardiovascular-Target-Discovery-250M.html"
+  },
+  {
+   "id": "ev-2026-024",
+   "date": "2026-10-15",
+   "type": "管线",
+   "entity": "Immorta Bio",
+   "headline": "AI 设计的多肽 senolytic 免疫疗法：让免疫系统重新学会「认人」，而不是直接去毒杀衰老细胞",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "C",
+   "source": "longevity.technology",
+   "source_url": "/news/Immorta-SenoMune-AI-Designed-Senolytic-Immune-Therapy-2026.html",
+   "article_slug": "Immorta-SenoMune-AI-Designed-Senolytic-Immune-Therapy-2026.html"
+  },
+  {
+   "id": "ev-2026-031",
+   "date": "2026-10-15",
+   "type": "行业观察",
+   "entity": "NAD⁺ 前体",
+   "headline": "NAD⁺ 前体系统评价：15 项 RCT 确认代谢指标改善，但「延寿」仍无人体证据",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "A",
+   "source": "pubmed.ncbi.nlm.nih.gov",
+   "source_url": "/news/NAD-Precursor-Systematic-Review-Meta-Analysis-2026.html",
+   "article_slug": "NAD-Precursor-Systematic-Review-Meta-Analysis-2026.html"
+  },
+  {
+   "id": "ev-2026-033",
+   "date": "2026-10-15",
+   "type": "商业化",
+   "entity": "C2N Diagnostics",
+   "headline": "阿尔茨海默病诊断的两条捷径：血检 + 数字认知在英国全科诊所做到了 90% 准确率",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "C",
+   "source": "longevity.technology",
+   "source_url": "/news/C2N-PrecivityAD2-Cambridge-Cognition-UK-Alzheimer-Diagnosis.html",
+   "article_slug": "C2N-PrecivityAD2-Cambridge-Cognition-UK-Alzheimer-Diagnosis.html"
+  },
+  {
+   "id": "ev-2026-020",
+   "date": "2026-10-16",
+   "type": "融资",
+   "entity": "长寿产业",
+   "headline": "六笔钱流向了哪里：2026 年 9–10 月长寿产业融资盘点，以及「 therapeutics 之外」的钱在变多",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "C",
+   "source": "longevity.technology",
+   "source_url": "/news/Longevity-Funding-Roundup-Sep-Oct-2026.html",
+   "article_slug": "Longevity-Funding-Roundup-Sep-Oct-2026.html"
+  },
+  {
+   "id": "ev-2026-021",
+   "date": "2026-10-16",
+   "type": "管线",
+   "entity": "长寿产业",
+   "headline": "从比格犬的甲基化时钟到纽约的长寿诊所：2026 年 9–10 月管线与商业化八则",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "C",
+   "source": "longevity.technology",
+   "source_url": "/news/Longevity-Pipeline-Commercialization-Sep-Oct-2026.html",
+   "article_slug": "Longevity-Pipeline-Commercialization-Sep-Oct-2026.html"
+  },
+  {
+   "id": "ev-2026-022",
+   "date": "2026-10-16",
+   "type": "监管",
+   "entity": "监管动态",
+   "headline": "四道边界：中国明确「衰老非疾病」、FDA 收紧终点标准、加拿大卡在支付、长寿肽仍在灰色地带",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "C",
+   "source": "IMA 行业情报周报（2026-09-16）·原始出处：人民日报健康客户端 / Endpoints News / Longevity Technology / CDA",
+   "source_url": "/news/Longevity-Regulatory-Payment-Boundaries-2026.html",
+   "article_slug": "Longevity-Regulatory-Payment-Boundaries-2026.html"
+  },
+  {
+   "id": "ev-2026-030",
+   "date": "2026-10-18",
+   "type": "临床",
+   "entity": "NOPARK / NR",
+   "headline": "NOPARK 三期揭盲：410 人每日 1000 mg NAD⁺ 前体一年，主要终点显著劣于安慰剂",
+   "amount": null,
+   "round": null,
+   "counterparty": null,
+   "evidence": "A",
+   "source": "doi.org",
+   "source_url": "/news/NOPARK-NR-Early-Parkinson-Phase3-JAMA-2026.html",
+   "article_slug": "NOPARK-NR-Early-Parkinson-Phase3-JAMA-2026.html"
+  }
+ ],
+ "companies": [
+  {
+   "name": "Altos Labs",
+   "aliases": [],
+   "focus": [
+    "重编程"
+   ],
+   "status": "active"
+  },
+  {
+   "name": "Life Biosciences",
+   "aliases": [],
+   "focus": [
+    "表观遗传",
+    "AAV 基因疗法",
+    "临床一期"
+   ],
+   "status": "active"
+  },
+  {
+   "name": "Retro Biosciences",
+   "aliases": [],
+   "focus": [
+    "重编程",
+    "自噬",
+    "临床一期"
+   ],
+   "status": "active"
+  },
+  {
+   "name": "Calico Life Sciences",
+   "aliases": [],
+   "focus": [
+    "大厂研究",
+    "制药合作"
+   ],
+   "status": "active"
+  },
+  {
+   "name": "Unity Biotechnology",
+   "aliases": [],
+   "focus": [
+    "免疫衰老",
+    "靶点发现"
+   ],
+   "status": "active"
+  },
+  {
+   "name": "NewLimit",
+   "aliases": [],
+   "focus": [
+    "重编程",
+    "表观遗传"
+   ],
+   "status": "active"
+  },
+  {
+   "name": "Cambrian Bio",
+   "aliases": [],
+   "focus": [
+    "通路药物",
+    "哺乳动物衰老"
+   ],
+   "status": "active"
+  },
+  {
+   "name": "Mitrix",
+   "aliases": [],
+   "focus": [
+    "线粒体"
+   ],
+   "status": "active"
+  },
+  {
+   "name": "YouthBio",
+   "aliases": [],
+   "focus": [
+    "端粒",
+    "细胞重编程"
+   ],
+   "status": "active"
+  },
+  {
+   "name": "Rubedo Life Sciences",
+   "aliases": [],
+   "focus": [
+    "Senolytic",
+    "临床一期"
+   ],
+   "status": "active"
+  },
+  {
+   "name": "Amino",
+   "aliases": [],
+   "focus": [
+    "蛋白质稳态"
+   ],
+   "status": "unknown"
+  },
+  {
+   "name": "Sirtris Pharmaceuticals",
+   "aliases": [],
+   "focus": [
+    "NAD+",
+    "SIRT1"
+   ],
+   "status": "archived"
+  },
+  {
+   "name": "CohBar",
+   "aliases": [],
+   "focus": [
+    "线粒体"
+   ],
+   "status": "unknown"
+  },
+  {
+   "name": "Sana Biotechnology",
+   "aliases": [],
+   "focus": [
+    "细胞治疗",
+    "工程化细胞"
+   ],
+   "status": "active"
+  },
+  {
+   "name": "Insilico Medicine",
+   "aliases": [],
+   "focus": [
+    "AI 制药"
+   ],
+   "status": "active"
+  },
+  {
+   "name": "Noom",
+   "aliases": [],
+   "focus": [
+    "行为改变",
+    "健康老龄化"
+   ],
+   "status": "active"
+  },
+  {
+   "name": "Catalyst Precision Health",
+   "aliases": [],
+   "focus": [
+    "长寿诊所",
+    "居家检测"
+   ],
+   "status": "active"
+  },
+  {
+   "name": "Alector",
+   "aliases": [],
+   "focus": [
+    "神经退行",
+    "酶替代"
+   ],
+   "status": "active"
+  },
+  {
+   "name": "Sava Technologies",
+   "aliases": [],
+   "focus": [
+    "连续监测"
+   ],
+   "status": "active"
+  },
+  {
+   "name": "Sensible Biotechnologies",
+   "aliases": [],
+   "focus": [
+    "mRNA",
+    "体内生产"
+   ],
+   "status": "active"
+  },
+  {
+   "name": "Undecimal Bio",
+   "aliases": [],
+   "focus": [
+    "siRNA",
+    "递送"
+   ],
+   "status": "active"
+  },
+  {
+   "name": "Variant Bio",
+   "aliases": [],
+   "focus": [
+    "人类遗传学",
+    "靶点发现"
+   ],
+   "status": "active"
+  },
+  {
+   "name": "Ultrahuman",
+   "aliases": [],
+   "focus": [
+    "生物年龄",
+    "可穿戴"
+   ],
+   "status": "active"
+  },
+  {
+   "name": "Function Health",
+   "aliases": [],
+   "focus": [
+    "功能医学",
+    "实验室检测"
+   ],
+   "status": "active"
+  },
+  {
+   "name": "Cyclarity",
+   "aliases": [],
+   "focus": [
+    "7-酮胆固醇",
+    "临床一期"
+   ],
+   "status": "active"
+  },
+  {
+   "name": "Repair Biotechnologies",
+   "aliases": [],
+   "focus": [
+    "mRNA",
+    "胆固醇清除",
+    "临床前"
+   ],
+   "status": "active"
+  },
+  {
+   "name": "Immorta Bio",
+   "aliases": [],
+   "focus": [
+    "Senolytic",
+    "免疫疗法",
+    "AI 设计"
+   ],
+   "status": "active"
+  },
+  {
+   "name": "BioAge Labs",
+   "aliases": [],
+   "focus": [
+    "炎症衰老",
+    "NLRP3",
+    "临床二期"
+   ],
+   "status": "active"
+  },
+  {
+   "name": "C2N Diagnostics",
+   "aliases": [],
+   "focus": [
+    "诊断",
+    "血检",
+    "神经退行"
+   ],
+   "status": "active"
+  }
+ ],
+ "investors": [
+  {
+   "name": "Peter Thiel",
+   "via": "Founders Fund",
+   "entity": "Unity Biotechnology",
+   "source": "foundersfund.com",
+   "source_url": "https://foundersfund.com"
+  },
+  {
+   "name": "Larry Page",
+   "via": "Alphabet / Calico",
+   "entity": "Calico Life Sciences",
+   "source": "calicolabs.com",
+   "source_url": "https://www.calicolabs.com"
+  },
+  {
+   "name": "Sam Altman",
+   "via": "Retro Biosciences 出资人",
+   "entity": "Retro Biosciences",
+   "source": "retro.bio",
+   "source_url": "https://www.retro.bio"
+  }
+ ],
+ "conferences": [
+  {
+   "name": "American Aging Association (AGE) 年会",
+   "start": "2026-06-02",
+   "end": "2026-06-05",
+   "kind": "学术会议",
+   "place": "美国·犹他州普罗沃（Utah Valley Convention Center）",
+   "source": "americanagingassociation.org",
+   "source_url": "https://www.americanagingassociation.org/age-annual-meeting"
+  },
+  {
+   "name": "第 23 届世界老年学与老年医学大会（IAGG 2026）",
+   "start": "2026-07-05",
+   "end": "2026-07-08",
+   "kind": "国际会议",
+   "place": "荷兰·阿姆斯特丹 RAI 会展中心",
+   "source": "iagg2026.org",
+   "source_url": "https://www.iagg2026.org"
+  },
+  {
+   "name": "第十一届老年医学大会暨中华医学会第二十三次老年医学学术会议（CGS2026）",
+   "start": "2026-09-11",
+   "end": "2026-09-13",
+   "kind": "学术会议",
+   "place": "中国·郑州",
+   "source": "cgs26.tiemeeting.com",
+   "source_url": "https://cgs26.tiemeeting.com/"
+  },
+  {
+   "name": "欧洲老年医学学会年会（EuGMS 2026）",
+   "start": "2026-09-16",
+   "end": "2026-09-18",
+   "kind": "学术会议",
+   "place": "法国·里尔",
+   "source": "北京协和老年医学科《2026 老年医学会议速览》",
+   "source_url": "https://m.sohu.com/a/960945734_264916"
+  },
+  {
+   "name": "第 13 届 ARDD（Aging Research & Drug Discovery）",
+   "start": "2026-10-01",
+   "end": "2026-10-03",
+   "kind": "产业会议",
+   "place": "美国·波士顿（哈佛 David Rubenstein Treehouse）",
+   "source": "insilico.com（主办方新闻稿）",
+   "source_url": "https://insilico.com/news/tyem531fm1-insilico-medicine-announces-ardd-2026-pr"
+  },
+  {
+   "name": "美国老年学会年会（GSA 2026）",
+   "start": "2026-11-04",
+   "end": "2026-11-07",
+   "kind": "学术会议",
+   "place": "美国·马里兰州 National Harbor",
+   "source": "北京协和老年医学科《2026 老年医学会议速览》",
+   "source_url": "https://m.sohu.com/a/960945734_264916"
+  },
+  {
+   "name": "第 45 届摩根大通医疗大会（JPM 2027）",
+   "start": "2027-01-11",
+   "end": "2027-01-14",
+   "kind": "产业会议",
+   "place": "美国·旧金山",
+   "source": "jpmorgan.com",
+   "source_url": "https://www.jpmorgan.com/global/healthcare-conference"
+  }
+ ]
+}

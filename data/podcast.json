@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "show": {
+    "title": "长寿证据链",
+    "tagline": "只讲有来源的长寿科学——每期节目，都能顺着一张来源清单回查原文。",
+    "author": "LongBiosci 编辑部",
+    "email": "ops@longbiosci.com",
+    "language": "zh-cn",
+    "explicit": false,
+    "category": "Science",
+    "site_url": "https://longbiosci.com/podcast/",
+    "rss_url": "https://longbiosci.com/podcast.xml",
+    "cover": "https://longbiosci.com/podcast-cover.png",
+    "copyright": "© 2026 LongBiosci 编辑部",
+    "disclaimer": "本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。",
+    "transcript_dir": "podcast/transcripts"
+  },
+  "episodes": [
+    {
+      "id": "ep001",
+      "slug": "nad-precursor-nr-nmn-headtohead",
+      "series": "论文精读",
+      "title": "NAD⁺ 前体之争：标志物翻倍之后，发生了什么",
+      "date": "2026-10-19",
+      "duration_sec": 595,
+      "audio": "audio/nad-precursor-nr-nmn-headtohead.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "NR 与 NMN 都能把全血 NAD⁺ 约翻倍；同一周，NOPARK 三期在 393 人身上读出不利于 NR 的临床评分。标志物翻倍之后，到底发生了什么？",
+      "article_slugs": [
+        "news/NAD-Precursor-Head-to-Head-RCT-NR-NMN-2026.html",
+        "news/NOPARK-NR-Early-Parkinson-Phase3-JAMA-2026.html",
+        "news/NAD-Precursor-Systematic-Review-Meta-Analysis-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Nature Metabolism（2026）：三种 NAD⁺ 前体对人体循环 NAD⁺ 与微生物代谢的差异影响",
+          "doi": "10.1038/s42255-025-01421-8",
+          "pmid": "41540253",
+          "url": "https://doi.org/10.1038/s42255-025-01421-8"
+        },
+        {
+          "label": "JAMA（2026-10-08）：NOPARK 随机临床试验——烟酰胺核糖用于早期帕金森病",
+          "doi": "10.1001/jama.2026.18828",
+          "pmid": "42848371",
+          "url": "https://doi.org/10.1001/jama.2026.18828",
+          "note": "临床试验注册号 NCT03568968；全文为在线预发表，本站仅依据官方摘要撰写"
+        },
+        {
+          "label": "NAD⁺ 前体系统评价与荟萃分析（15 项 RCT）",
+          "doi": "",
+          "pmid": "",
+          "url": "",
+          "note": "⚠️ 来源待补：PubMed 未检索到完全对应文献，本站结论照登但明示单一来源、未能独立核实"
+        }
+      ]
+    }
+  ]
+}

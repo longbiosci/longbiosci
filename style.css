@@ -253,6 +253,23 @@ code{
   color:var(--c-ink);margin-bottom:var(--s-1)}
 .topic-card .t-count{font-size:var(--f-xs);color:var(--c-faint)}
 
+/* 5.2b 播客横幅（首页板块卡）*/
+.pod-banner{display:flex;gap:var(--s-5);align-items:center;padding:var(--s-4) var(--s-5);
+  background:var(--c-surface);border:1px solid var(--c-line);border-radius:var(--r-lg);
+  transition:border-color .16s var(--ease),transform .18s var(--ease)}
+.pod-banner:hover{border-color:var(--c-primary-line);transform:translateY(-1px);text-decoration:none}
+.pod-banner img{width:96px;height:96px;border-radius:var(--r-md);flex-shrink:0;
+  border:1px solid var(--c-line)}
+.pod-banner .pb-body{flex:1;min-width:0}
+.pod-banner .pb-kicker{font-size:var(--f-xs);color:var(--c-primary);font-weight:600;
+  letter-spacing:.06em;margin-bottom:var(--s-1)}
+.pod-banner .pb-title{font-size:var(--f-md);font-weight:600;color:var(--c-ink)}
+.pod-banner .pb-latest{font-size:var(--f-sm);color:var(--c-muted);margin-top:var(--s-1);
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pod-banner .pb-cta{font-size:var(--f-sm);color:var(--c-primary);font-weight:600;
+  white-space:nowrap}
+@media (max-width:560px){.pod-banner{flex-wrap:wrap}.pod-banner .pb-cta{width:100%}}
+
 /* 5.3 证据分层 */
 .ev-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:var(--s-4)}
 .ev-card{
