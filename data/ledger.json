@@ -1,7 +1,7 @@
 {
  "site": {
-  "articles": 564,
-  "dois": 441
+  "articles": 569,
+  "dois": 446
  },
  "outputs": {
   "preprint_2026-10-20.md": {
@@ -2243,7 +2243,7 @@
    "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
   }
  ],
- "orphan_count": 564,
+ "orphan_count": 569,
  "orphan_sample": [
   "3D-Culture-Reverses-Limbal-Niche-AgingCell-2026.html",
   "7-Ketocholesterol-Derivatives-Pathophysiology.html",
