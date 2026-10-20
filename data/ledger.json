@@ -1,2266 +1,2270 @@
 {
-  "site": {
-    "articles": 557,
-    "news_files": 557
+ "site": {
+  "articles": 564,
+  "dois": 441
+ },
+ "outputs": {
+  "preprint_2026-10-20.md": {
+   "rows": 0,
+   "bytes": 50017,
+   "suspicious_empty": false
   },
-  "outputs": {
-    "cards_2026-09-25.md": {
-      "rows": 50,
-      "bytes": 118088,
-      "suspicious_empty": false
-    },
-    "cards_2026-10-02.md": {
-      "rows": 56,
-      "bytes": 215865,
-      "suspicious_empty": false
-    },
-    "ind_2026-10-14.md": {
-      "rows": 10,
-      "bytes": 23365,
-      "suspicious_empty": false
-    },
-    "meta_2026-10.md": {
-      "rows": 18,
-      "bytes": 20322,
-      "suspicious_empty": false
-    },
-    "pool_2026-10-13.md": {
-      "rows": 71,
-      "bytes": 24622,
-      "suspicious_empty": false
-    },
-    "README-batch-2026-10-13.md": {
-      "rows": 0,
-      "bytes": 1919,
-      "suspicious_empty": false
-    },
-    "README-patch-2026-10-14.md": {
-      "rows": 0,
-      "bytes": 5197,
-      "suspicious_empty": false
-    },
-    "README-security-patch-2026-10-14.md": {
-      "rows": 0,
-      "bytes": 6917,
-      "suspicious_empty": false
-    },
-    "cross-2026-10-18.md": {
-      "rows": 0,
-      "bytes": 29189,
-      "suspicious_empty": false
-    },
-    "dedup-record-2026-10-14.md": {
-      "rows": 0,
-      "bytes": 3130,
-      "suspicious_empty": false
-    },
-    "hotword-topic-plan-2026-10-14.md": {
-      "rows": 0,
-      "bytes": 5130,
-      "suspicious_empty": false
-    },
-    "ima-lit-2026-10-13.md": {
-      "rows": 26,
-      "bytes": 50022,
-      "suspicious_empty": false
-    },
-    "ima-pool-2026-10-13.md": {
-      "rows": 73,
-      "bytes": 24622,
-      "suspicious_empty": false
-    },
-    "industry-2026-09-16.md": {
-      "rows": 25,
-      "bytes": 30237,
-      "suspicious_empty": false
-    },
-    "lit-2026-10-16.cards.md": {
-      "rows": 0,
-      "bytes": 48338,
-      "suspicious_empty": false
-    },
-    "lit-2026-10-16.md": {
-      "rows": 67,
-      "bytes": 249984,
-      "suspicious_empty": false
-    },
-    "lit-cards-2026-10-09.md": {
-      "rows": 25,
-      "bytes": 89241,
-      "suspicious_empty": false
-    },
-    "meta-ops-log.md": {
-      "rows": 0,
-      "bytes": 44015,
-      "suspicious_empty": false
-    },
-    "meta-ops-todo.md": {
-      "rows": 0,
-      "bytes": 25062,
-      "suspicious_empty": false
-    },
-    "ops-log-latest.md": {
-      "rows": 0,
-      "bytes": 96773,
-      "suspicious_empty": false
-    },
-    "ops-todo-latest.md": {
-      "rows": 0,
-      "bytes": 42341,
-      "suspicious_empty": false
-    },
-    "preprint-2026-09-13.md": {
-      "rows": 0,
-      "bytes": 3809,
-      "suspicious_empty": false
-    },
-    "preprint-2026-09-15.md": {
-      "rows": 13,
-      "bytes": 20450,
-      "suspicious_empty": false
-    },
-    "preprint-2026-09-15_1147.md": {
-      "rows": 2,
-      "bytes": 9245,
-      "suspicious_empty": false
-    },
-    "preprint-2026-09-15_empty-note.md": {
-      "rows": 0,
-      "bytes": 12464,
-      "suspicious_empty": false
-    },
-    "preprint-2026-09-15_recheck.md": {
-      "rows": 2,
-      "bytes": 12750,
-      "suspicious_empty": false
-    },
-    "preprint-2026-09-17.md": {
-      "rows": 6,
-      "bytes": 15349,
-      "suspicious_empty": false
-    },
-    "preprint-2026-09-22.md": {
-      "rows": 14,
-      "bytes": 22122,
-      "suspicious_empty": false
-    },
-    "preprint-2026-09-23.md": {
-      "rows": 8,
-      "bytes": 27393,
-      "suspicious_empty": false
-    },
-    "preprint-2026-09-24.md": {
-      "rows": 6,
-      "bytes": 25948,
-      "suspicious_empty": false
-    },
-    "site-assessment-2026-10-14.md": {
-      "rows": 5,
-      "bytes": 12308,
-      "suspicious_empty": false
-    },
-    "site-ops-log.md": {
-      "rows": 0,
-      "bytes": 92856,
-      "suspicious_empty": false
-    },
-    "site-ops-todo.md": {
-      "rows": 0,
-      "bytes": 41017,
-      "suspicious_empty": false
-    },
-    "trials-list-2026-10-18.md": {
-      "rows": 0,
-      "bytes": 227731,
-      "suspicious_empty": false
-    },
-    "交叉周报_2026-10-12.md": {
-      "rows": 0,
-      "bytes": 33644,
-      "suspicious_empty": false
-    },
-    "运营待办清单.md": {
-      "rows": 0,
-      "bytes": 44614,
-      "suspicious_empty": false
-    },
-    "运营日志.md": {
-      "rows": 0,
-      "bytes": 101368,
-      "suspicious_empty": false
-    },
-    "预印本速递_2026-09-13.md": {
-      "rows": 0,
-      "bytes": 3809,
-      "suspicious_empty": false
-    },
-    "预印本速递_2026-09-24.md": {
-      "rows": 6,
-      "bytes": 25948,
-      "suspicious_empty": false
-    },
-    "pipeline-summary-2026-10-18.md": {
-      "rows": 11,
-      "bytes": 6918,
-      "suspicious_empty": false
-    },
-    "preprint-2026-10-19.md": {
-      "rows": 0,
-      "bytes": 19505,
-      "suspicious_empty": false
-    }
+  "meta_2026-10_v2.md": {
+   "rows": 16,
+   "bytes": 41249,
+   "suspicious_empty": false
   },
-  "output_entries": 350,
-  "covered": 172,
-  "missing_count": 180,
-  "missing": [
-    {
-      "fingerprint": "doi:10.1007/s11357-026-02557-5",
-      "title": "A two-step model of age-associated autoreactivity: B cell-intrinsic aging meets inflammaging（Review）",
-      "doi": "10.1007/s11357-026-02557-5",
-      "code": "G11",
-      "seen_in": [
-        "cards_2026-09-25.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1007/s11357-026-02557-5，标题相似 0.00，词元重叠 0.33）"
-    },
-    {
-      "fingerprint": "doi:10.1007/s11357-026-02543-x",
-      "title": "Accelerated aging as a key mechanism linking diet quality to cardiovascular disease（UK Biobank）",
-      "doi": "10.1007/s11357-026-02543-x",
-      "code": "G10",
-      "seen_in": [
-        "cards_2026-09-25.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1007/s11357-026-02543-x，标题相似 0.00，词元重叠 0.33）"
-    },
-    {
-      "fingerprint": "doi:10.1007/s11357-026-02523-1",
-      "title": "Apolipoprotein-rich electronegative HDL accelerates vascular aging and atherosclerosis by inducing endothelial senescence",
-      "doi": "10.1007/s11357-026-02523-1",
-      "code": "G4",
-      "seen_in": [
-        "cards_2026-09-25.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1007/s11357-026-02523-1，标题相似 0.00，词元重叠 0.50）"
-    },
-    {
-      "fingerprint": "doi:10.1007/s11357-026-02489-0",
-      "title": "High-intensity interval training in aged female mice preserves physical, cognitive, and cardiovascular function",
-      "doi": "10.1007/s11357-026-02489-0",
-      "code": "G1",
-      "seen_in": [
-        "cards_2026-09-25.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1007/s11357-026-02489-0，标题相似 0.00，词元重叠 0.50）"
-    },
-    {
-      "fingerprint": "doi:10.1007/s11357-026-02464-9",
-      "title": "Hyaluronan deficiency disrupts endothelial glycocalyx integrity and contributes to age-related arterial dysfunction",
-      "doi": "10.1007/s11357-026-02464-9",
-      "code": "G12",
-      "seen_in": [
-        "cards_2026-09-25.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1007/s11357-026-02464-9，标题相似 0.00，词元重叠 0.25）"
-    },
-    {
-      "fingerprint": "doi:10.1007/s11357-026-02546-8",
-      "title": "Ketone ester supplementation in aged mice produces sex-specific cognitive and metabolic effects",
-      "doi": "10.1007/s11357-026-02546-8",
-      "code": "G2",
-      "seen_in": [
-        "cards_2026-09-25.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1007/s11357-026-02546-8，标题相似 0.00，词元重叠 0.50）"
-    },
-    {
-      "fingerprint": "doi:10.1111/acel.70710",
-      "title": "Mitochondrial Haplotype Shapes the Trajectory of Ovarian Aging in Genetically Heterogeneous Rats",
-      "doi": "10.1111/acel.70710",
-      "code": "A6",
-      "seen_in": [
-        "cards_2026-09-25.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1111/acel.70710，标题相似 0.00，词元重叠 0.50）"
-    },
-    {
-      "fingerprint": "doi:10.1111/acel.70674",
-      "title": "Molecular Mechanisms of Age-Related Taste Dysfunction Deciphered by Spatiotemporal Transcriptomics",
-      "doi": "10.1111/acel.70674",
-      "code": "A15",
-      "seen_in": [
-        "cards_2026-09-25.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1111/acel.70674，标题相似 0.00，词元重叠 0.33）"
-    },
-    {
-      "fingerprint": "doi:10.1111/acel.70683",
-      "title": "Network Model to Predict Age-Related Transcriptional Reprogramming",
-      "doi": "10.1111/acel.70683",
-      "code": "A9",
-      "seen_in": [
-        "cards_2026-09-25.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1111/acel.70683，标题相似 0.00，词元重叠 0.50）"
-    },
-    {
-      "fingerprint": "doi:10.1111/acel.70664",
-      "title": "Oxygenaging: A Physiological Framework for Geroscience（Review）",
-      "doi": "10.1111/acel.70664",
-      "code": "A8",
-      "seen_in": [
-        "cards_2026-09-25.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1111/acel.70664，标题相似 0.00，词元重叠 0.33）"
-    },
-    {
-      "fingerprint": "doi:10.1038/s43587-026-01177-0",
-      "title": "Physical activity delays ovarian aging in part through adiponectin-related signaling pathways",
-      "doi": "10.1038/s43587-026-01177-0",
-      "code": "N5",
-      "seen_in": [
-        "cards_2026-09-25.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1038/s43587-026-01177-0，标题相似 0.00，词元重叠 0.33）"
-    },
-    {
-      "fingerprint": "doi:10.1111/acel.70716",
-      "title": "Synaptic Mitochondrial Oxidative Stress Contributes to Individual Variability in Age-Related Cognitive Inflexibility in Mice",
-      "doi": "10.1111/acel.70716",
-      "code": "A2",
-      "seen_in": [
-        "cards_2026-09-25.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1111/acel.70716，标题相似 0.00，词元重叠 0.50）"
-    },
-    {
-      "fingerprint": "doi:10.1007/s11357-026-02498-z",
-      "title": "The Arlington study of healthy aging（ASHA）cohort profile",
-      "doi": "10.1007/s11357-026-02498-z",
-      "code": "G14",
-      "seen_in": [
-        "cards_2026-09-25.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1007/s11357-026-02498-z，标题相似 0.00，词元重叠 0.33）"
-    },
-    {
-      "fingerprint": "doi:10.1111/acel.70675",
-      "title": "The Thymic Microenvironment Shapes Age-Related Qualitative Changes in the TCR Repertoire",
-      "doi": "10.1111/acel.70675",
-      "code": "A13",
-      "seen_in": [
-        "cards_2026-09-25.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1111/acel.70675，标题相似 0.00，词元重叠 0.25）"
-    },
-    {
-      "fingerprint": "doi:10.1007/s11357-026-02532-0",
-      "title": "The TyrRS cascade: circadian gating of neuronal DNA repair and its collapse in aging（Review）",
-      "doi": "10.1007/s11357-026-02532-0",
-      "code": "G5",
-      "seen_in": [
-        "cards_2026-09-25.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1007/s11357-026-02532-0，标题相似 0.00，词元重叠 0.67）"
-    },
-    {
-      "fingerprint": "doi:10.1038/s43587-026-01230-y",
-      "title": "The chemical fingerprint of cellular senescence",
-      "doi": "10.1038/s43587-026-01230-y",
-      "code": "N11",
-      "seen_in": [
-        "cards_2026-09-25.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1038/s43587-026-01230-y，标题相似 0.00，词元重叠 0.50）"
-    },
-    {
-      "fingerprint": "doi:10.1111/acel.70696",
-      "title": "Tissue-Level Transcriptomic Entropy Reveals Organ-Specific Aging Patterns and Predicts Cancer Progression",
-      "doi": "10.1111/acel.70696",
-      "code": "A10",
-      "seen_in": [
-        "cards_2026-09-25.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1111/acel.70696，标题相似 0.00，词元重叠 0.33）"
-    },
-    {
-      "fingerprint": "doi:10.1038/s43587-026-01189-w",
-      "title": "Turning CDK4/6 inhibitors against the dark side of senescence（News & Views，评述 N3）",
-      "doi": "10.1038/s43587-026-01189-w",
-      "code": "N13",
-      "seen_in": [
-        "cards_2026-09-25.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1038/s43587-026-01189-w，标题相似 0.00，词元重叠 1.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "doi:10.1111/acel.70701",
-      "title": "hUC-MSC Secretome Improves Skin Photoaging by Enhancing Mitophagy to Inhibit the cGAS-STING Pathway",
-      "doi": "10.1111/acel.70701",
-      "code": "A11",
-      "seen_in": [
-        "cards_2026-09-25.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1111/acel.70701，标题相似 0.00，词元重叠 0.40）"
-    },
-    {
-      "fingerprint": "doi:10.1111/acel.70737",
-      "title": "A Deep-Learning Based Biomarker of Systemic Cellular Senescence Burden to Predict Mortality and Health Outcomes",
-      "doi": "10.1111/acel.70737",
-      "code": "A3",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1111/acel.70737，标题相似 0.00，词元重叠 0.67）"
-    },
-    {
-      "fingerprint": "doi:10.1038/s43587-026-01221-z",
-      "title": "A cross-species single-cell kidney epigenome atlas reveals epithelial-dominant aging-like states in disease",
-      "doi": "10.1038/s43587-026-01221-z",
-      "code": "N4",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1038/s43587-026-01221-z，标题相似 0.00，词元重叠 0.50）"
-    },
-    {
-      "fingerprint": "doi:10.1111/acel.70700",
-      "title": "AAV9 递送腺嘌呤碱基编辑器体内修正 LMNA c.1824C>T：体外近 40% 校正，体内 P3/P14/1 月/4 月给药 6 月龄骨组织校正率约 14%/22%/10%/<1%，P14 组骨结构与转录程序部分挽救",
-      "doi": "10.1111/acel.70700",
-      "code": "A15",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1111/acel.70700，标题相似 0.00，词元重叠 0.33）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "doi:10.1016/j.cmet.2026.08.009",
-      "title": "Aging microenvironment induces CD8⁺ T cell exhaustion by suppressing hepatic β-hydroxybutyrylate synthesis",
-      "doi": "10.1016/j.cmet.2026.08.009",
-      "code": "M2",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1016/j.cmet.2026.08.009，标题相似 0.00，词元重叠 0.50）"
-    },
-    {
-      "fingerprint": "doi:10.1007/s11357-026-02554-8",
-      "title": "Autologous cytokine-induced NK cells as candidate cellular senolytics: evidence, obstacles…",
-      "doi": "10.1007/s11357-026-02554-8",
-      "code": "G2",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1007/s11357-026-02554-8，标题相似 0.00，词元重叠 0.33）"
-    },
-    {
-      "fingerprint": "doi:10.1111/acel.70734",
-      "title": "Autophagy Flux Is Remodeled Sex- and Cell Type-Specifically During Human Aging…",
-      "doi": "10.1111/acel.70734",
-      "code": "A4",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1111/acel.70734，标题相似 0.00，词元重叠 0.33）"
-    },
-    {
-      "fingerprint": "doi:10.1016/j.cell.2026.06.035",
-      "title": "CSF clearance through arachnoid fenestrations to olfactory meningeal lymphatics",
-      "doi": "10.1016/j.cell.2026.06.035",
-      "code": "C4",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1016/j.cell.2026.06.035，标题相似 0.00，词元重叠 0.25）"
-    },
-    {
-      "fingerprint": "doi:10.1007/s11357-026-02425-2",
-      "title": "Circulating factors induced by time-restricted eating drive metabolic reprogramming in endothelial cells",
-      "doi": "10.1007/s11357-026-02425-2",
-      "code": "G14",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1007/s11357-026-02425-2，标题相似 0.00，词元重叠 0.50）"
-    },
-    {
-      "fingerprint": "doi:10.1007/s11357-026-02550-y",
-      "title": "Dietary pattern and epigenetic aging: a longitudinal twin study",
-      "doi": "10.1007/s11357-026-02550-y",
-      "code": "G12",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1007/s11357-026-02550-y，标题相似 0.00，词元重叠 0.40）"
-    },
-    {
-      "fingerprint": "doi:10.1007/s11357-025-02028-3",
-      "title": "Discrimination of normal from slow-aging mice by plasma metabolomic and proteomic features",
-      "doi": "10.1007/s11357-025-02028-3",
-      "code": "G6",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1007/s11357-025-02028-3，标题相似 0.00，词元重叠 0.33）"
-    },
-    {
-      "fingerprint": "doi:10.1007/s11357-025-02035-4",
-      "title": "Effect of fasting-mimicking diet on markers of autophagy and metabolic health in human subjects",
-      "doi": "10.1007/s11357-025-02035-4",
-      "code": "G13",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1007/s11357-025-02035-4，标题相似 0.00，词元重叠 0.33）"
-    },
-    {
-      "fingerprint": "doi:10.1007/s11357-026-02443-0",
-      "title": "Epigenetic aging biomarkers in dietary geroscience: feasibility, participant perceptions, and trial design considerations",
-      "doi": "10.1007/s11357-026-02443-0",
-      "code": "G15",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1007/s11357-026-02443-0，标题相似 0.00，词元重叠 0.40）"
-    },
-    {
-      "fingerprint": "doi:10.1111/acel.70733",
-      "title": "From Regenerative to Degenerative Niche: Multicellular Crosstalk and Population Dynamics in Skeletal Muscle Aging",
-      "doi": "10.1111/acel.70733",
-      "code": "A10",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1111/acel.70733，标题相似 0.00，词元重叠 0.50）"
-    },
-    {
-      "fingerprint": "doi:10.1111/acel.70697",
-      "title": "GHA 转基因鼠首次证明 GH 拮抗延长寿命：雌雄中位与最大寿命均显著延长（最大寿命分别 +186 天 / +265 天），2 岁鼠更不易衰弱、握力更强（尽管肥胖增加）",
-      "doi": "10.1111/acel.70697",
-      "code": "A13",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1111/acel.70697，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "doi:10.1038/s43587-026-01224-w",
-      "title": "GLP-1 receptor agonism extends median lifespan in mice（研究亮点）",
-      "doi": "10.1038/s43587-026-01224-w",
-      "code": "N5",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1038/s43587-026-01224-w，标题相似 0.00，词元重叠 0.67）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "doi:10.1007/s11357-025-02022-9",
-      "title": "Intervertebral disc degeneration is accelerated by GH overexpression but attenuated by GH antagonism",
-      "doi": "10.1007/s11357-025-02022-9",
-      "code": "G10",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1007/s11357-025-02022-9，标题相似 0.00，词元重叠 0.50）"
-    },
-    {
-      "fingerprint": "doi:10.1007/s11357-026-02429-y",
-      "title": "LINE-1 CpG methylation in canine blood and cortical DNA tracks epigenetic changes with age",
-      "doi": "10.1007/s11357-026-02429-y",
-      "code": "G5",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1007/s11357-026-02429-y，标题相似 0.00，词元重叠 0.50）"
-    },
-    {
-      "fingerprint": "doi:10.1007/s11357-025-02017-6",
-      "title": "Longevity-driven hepatic transcriptional programs mediate resilience to diet-induced liver injury in Ames dwarf mice",
-      "doi": "10.1007/s11357-025-02017-6",
-      "code": "G9",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1007/s11357-025-02017-6，标题相似 0.00，词元重叠 0.33）"
-    },
-    {
-      "fingerprint": "doi:10.1016/j.cmet.2026.09.003",
-      "title": "Microbial aldehyde-alcohol dehydrogenase degrades metformin to limit therapeutic response in type 2 diabetes",
-      "doi": "10.1016/j.cmet.2026.09.003",
-      "code": "M5",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1016/j.cmet.2026.09.003，标题相似 0.00，词元重叠 0.33）"
-    },
-    {
-      "fingerprint": "doi:10.1111/acel.70720",
-      "title": "Mitochondrial Transplantation Rejuvenates Aging Heart by Restoring Mitophagy Flux via the HIF-3α-BNIP3 Axis",
-      "doi": "10.1111/acel.70720",
-      "code": "A7",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1111/acel.70720，标题相似 0.00，词元重叠 0.50）"
-    },
-    {
-      "fingerprint": "doi:10.1038/s43587-026-01227-7",
-      "title": "Mitochondrial membrane lipid cardiolipin controls fiber-type adaptations in aging muscle via estrogen-related receptor γ",
-      "doi": "10.1038/s43587-026-01227-7",
-      "code": "N2",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1038/s43587-026-01227-7，标题相似 0.00，词元重叠 0.50）"
-    },
-    {
-      "fingerprint": "doi:10.1007/s11357-025-02029-2",
-      "title": "Multi-omic analysis of canine aging uncovers conserved aging pathways",
-      "doi": "10.1007/s11357-025-02029-2",
-      "code": "G4",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1007/s11357-025-02029-2，标题相似 0.00，词元重叠 0.25）"
-    },
-    {
-      "fingerprint": "doi:10.1007/s11357-025-01959-1",
-      "title": "Nicotinamide riboside supplementation restores microglial health and improves cognition in aged male mice",
-      "doi": "10.1007/s11357-025-01959-1",
-      "code": "G3",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1007/s11357-025-01959-1，标题相似 0.00，词元重叠 0.33）"
-    },
-    {
-      "fingerprint": "doi:10.1111/acel.70743",
-      "title": "Organ-Specific Proteomic Aging Clocks Reveal Complexities Underlying the Healthy Drinking Paradox",
-      "doi": "10.1111/acel.70743",
-      "code": "A5",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1111/acel.70743，标题相似 0.00，词元重叠 0.40）"
-    },
-    {
-      "fingerprint": "doi:10.1007/s11357-025-02019-4",
-      "title": "Ovarian somatic tissue rejuvenates circulating apolipoproteins and promotes cognitive health in postreproductive female mice",
-      "doi": "10.1007/s11357-025-02019-4",
-      "code": "G8",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1007/s11357-025-02019-4，标题相似 0.00，词元重叠 0.50）"
-    },
-    {
-      "fingerprint": "doi:10.1111/acel.70718",
-      "title": "Review：论证mtDNA 异质性克隆嵌合构成可量化的组织特异分子时钟，梳理中性漂变 vs 细胞选择之争、双相累积特征及与炎症老化/细胞衰老的下游连接",
-      "doi": "10.1111/acel.70718",
-      "code": "A17",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1111/acel.70718，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "doi:10.1007/s11357-026-02421-6",
-      "title": "Senescent cardiac cells promote thrombus formation and impair fibrinolysis",
-      "doi": "10.1007/s11357-026-02421-6",
-      "code": "G17",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1007/s11357-026-02421-6，标题相似 0.00，词元重叠 0.50）"
-    },
-    {
-      "fingerprint": "doi:10.1038/s43587-026-01180-5",
-      "title": "Sex-specific aging clocks from a large-scale human phenome reveal distinct aging transitions and circulating signatures",
-      "doi": "10.1038/s43587-026-01180-5",
-      "code": "N10",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1038/s43587-026-01180-5，标题相似 0.00，词元重叠 0.40）"
-    },
-    {
-      "fingerprint": "doi:10.1111/acel.70735",
-      "title": "Single-Cell Mapping Identifies Aging-Associated Neutrophil Remodeling Across Multiple Organs",
-      "doi": "10.1111/acel.70735",
-      "code": "A9",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1111/acel.70735，标题相似 0.00，词元重叠 0.33）"
-    },
-    {
-      "fingerprint": "doi:10.1016/j.cell.2026.08.010",
-      "title": "Tabula Sapiens 2.0: A comprehensive transcriptomic atlas of human cell types",
-      "doi": "10.1016/j.cell.2026.08.010",
-      "code": "C3",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1016/j.cell.2026.08.010，标题相似 0.00，词元重叠 0.33）"
-    },
-    {
-      "fingerprint": "doi:10.1111/acel.70730",
-      "title": "Therapeutic Immune Reprogramming by Rapamycin Attenuates Plaque Inflammation…",
-      "doi": "10.1111/acel.70730",
-      "code": "A8",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1111/acel.70730，标题相似 0.00，词元重叠 0.50）"
-    },
-    {
-      "fingerprint": "doi:10.1007/s11357-026-02515-1",
-      "title": "Therapeutic potential of MitoQ, a mitochondria-targeted antioxidant, in age-related physiological dysfunction",
-      "doi": "10.1007/s11357-026-02515-1",
-      "code": "G16",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1007/s11357-026-02515-1，标题相似 0.00，词元重叠 0.40）"
-    },
-    {
-      "fingerprint": "doi:10.1111/acel.70706",
-      "title": "UC 中 NAD⁺ 代谢失调→线粒体功能障碍→mtDNA 泄漏→cGAS-STING→CD8⁺ T 细胞衰老；该\"衰老-代谢\"特征预示重症与生物制剂无应答，senolytic 显著减轻病情",
-      "doi": "10.1111/acel.70706",
-      "code": "A18",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1111/acel.70706，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "doi:10.1007/s11357-025-02043-4",
-      "title": "Western Hunter-Gatherer genetic ancestry contributes to human longevity in the Italian population",
-      "doi": "10.1007/s11357-025-02043-4",
-      "code": "G7",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1007/s11357-025-02043-4，标题相似 0.00，词元重叠 0.20）"
-    },
-    {
-      "fingerprint": "doi:10.1111/acel.70693",
-      "title": "放化疗后清除 p16⁺ 细胞的时机决定疗效：照射后 1 月清除无效，4 月清除显著减轻衰弱、改善神经肌肉/认知、恢复血脑屏障与肝代谢、提高中位生存（雌鼠获益最大）",
-      "doi": "10.1111/acel.70693",
-      "code": "A16",
-      "seen_in": [
-        "cards_2026-10-02.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1111/acel.70693，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:228ac6b5551121f7",
-      "title": "交叉#16 长寿 / 微生物组：老年菌群移植至巴马小型猪：紧密连接蛋白（ZO-1/claudin-1/occludin）↓，富集 Blautia obe",
-      "doi": "",
-      "code": "16",
-      "seen_in": [
-        "ima-pool-2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:fc030fe7f401393d",
-      "title": "交叉#17 长寿 / 免疫：Nature 2026（Bernatz 等，652:986–994）：胸腺健康与免疫衰老、运动可改善免疫衰老指标",
-      "doi": "",
-      "code": "17",
-      "seen_in": [
-        "ima-pool-2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 1.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:6e7acc76f83c9a59",
-      "title": "交叉#18 长寿 / 时钟验证：犬表观时钟（Science 2026-10-08，Mariner 等，894 犬/1640 甲基化组）：大型犬与雄性",
-      "doi": "",
-      "code": "18",
-      "seen_in": [
-        "ima-pool-2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:90bec65f27ced9a5",
-      "title": "交叉#1 部分重编程：ER-100 Phase 1 首批 3 例：Day 56 无 DLT/SAE；2/3 例视野改善（≥28% 点位 >4",
-      "doi": "",
-      "code": "1",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:af30785228c5af20",
-      "title": "交叉#10 雷帕霉素/mTOR：HFpEF+衰弱（中位 71.3 岁）0.5 mg/d × 6 个月：功能终点失败（峰值 VO2、6 分钟步行未改善）；",
-      "doi": "",
-      "code": "10",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:67d0f8ddbc56f1be",
-      "title": "交叉#11 二甲双胍/TAME：TAME 至 2026 年中仍未入组任何受试者：FDA 2015 已同意复合终点（CVD+癌症+痴呆+死亡），但约 45",
-      "doi": "",
-      "code": "11",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:2cb6d4170b3d1dc8",
-      "title": "交叉#12 二甲双胍/TAME：直接 AMPK 激活剂 991 在裂殖酵母、C. elegans（≈18–20%）、Drosophila（≈9%",
-      "doi": "",
-      "code": "12",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.33）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:bebe5e1fd38d33e1",
-      "title": "交叉#13 二甲双胍/TAME：两项 Aging Cell 2019 RCT：二甲双胍钝化运动适应（有氧：胰岛素敏感性/VO₂max 增益减弱；抗阻",
-      "doi": "",
-      "code": "13",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:4730eefcf05a9ae2",
-      "title": "交叉#14 长寿 / 表观时钟：Nature Medicine 2026：51 项干预、>110 个 DNAm 标志物分析显示二甲双胍、司美格鲁肽、",
-      "doi": "",
-      "code": "14",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.07，词元重叠 0.67）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:0826e4de759da858",
-      "title": "交叉#15 长寿 / 表观时钟：原始 TRIIM（n=9–10，51–65 岁男性，rhGH+DHEA+metformin × 12 月）：MRI 证实",
-      "doi": "",
-      "code": "15",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.33）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:b49ad81198dc1a9f",
-      "title": "交叉#2 部分重编程：Salk/Buck：人神经元与胶质细胞瞬时 OSK（去 MYC）使表观年龄逆转约 10–15 年，恢复线粒体功能且维持细",
-      "doi": "",
-      "code": "2",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.05，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:cdd159bb03a9c0e9",
-      "title": "交叉#3 Senolytics：NCT05506488 Phase 2 读出：纤维化改善 47% vs 7%（P=0.02），MASH 缓解 53% v",
-      "doi": "",
-      "code": "3",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.25）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:4689f197d7e136de",
-      "title": "交叉#4 细胞衰老：CMA 随龄下降→巨噬细胞清除衰老细胞能力减弱；CA77.1 激活 CMA 使老年鼠多组织衰老负荷/炎症/纤维化下降；I",
-      "doi": "",
-      "code": "4",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:3fef14411dbd2598",
-      "title": "交叉#5 细胞衰老：SENESCENCE2030 路线图：要求衰老细胞内型分类、标准化生物标志物、精准 senolytic/senomorp",
-      "doi": "",
-      "code": "5",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.33）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:3190dbda614393d5",
-      "title": "交叉#6 NAD+前体：头对头 RCT（n=65）：NR 1000 mg / NMN 1000 mg × 14 天均使全血 NAD+ 约翻倍（安",
-      "doi": "",
-      "code": "6",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:4e17fe9237878074",
-      "title": "交叉#7 NAD+前体：系统评价/荟萃（15 项 RCT，250–2000 mg/d，14 天–24 周）：体重、BMI、空腹血糖、HbA1c、",
-      "doi": "",
-      "code": "7",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.04，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:b33db5705d0f1f04",
-      "title": "交叉#8 雷帕霉素/mTOR：低剂量雷帕霉素通过增强 DNA 损伤韧性降低老年人免疫细胞 p21（非自噬/蛋白合成依赖），提出 \"genoprotec",
-      "doi": "",
-      "code": "8",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:1725aefc139c3023",
-      "title": "交叉#9 雷帕霉素/mTOR：n=23（45–65 岁，9 名 APOE4 携带者），1 mg/d × 4 周：仅 APOE4 携带者局部脑血流增加",
-      "doi": "",
-      "code": "9",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:5ea5dc0a97212eaf",
-      "title": "投融资 Axo Longevity（英国/欧洲） Seed（超额认购） $5M",
-      "doi": "",
-      "code": "2",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:7fd1171193878ac3",
-      "title": "投融资 Biophytis（法国/美国，Euronext Growth: ALBPS） 增资（配股 + 认股权证，面向机构投资者，剔除原股东优先认购权） €5.3M（其中现金 €4.75M + Hexagon 债务转股 €0.55M）",
-      "doi": "",
-      "code": "4",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:47906bd713d7573d",
-      "title": "投融资 Clene Inc.（Nasdaq: CLNN） Registered Direct Offering（按 Nasdaq 市价规则） $4M（1,219,513 股 @ $3.28）",
-      "doi": "",
-      "code": "7",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.33）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:81679905a6ad9fb8",
-      "title": "投融资 FibroBiologics, Inc.（Nasdaq: FBLG） 私募配售（PIPE 性质） 约 $0.5M（298,508 股 @ $1.675 + 等额认股权证，行权价 $1.55，5 年期）",
-      "doi": "",
-      "code": "8",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:f5358b04fc61c380",
-      "title": "投融资 HexemBio（美国，旧金山/伯克利） 新一轮（本轮金额未单独披露） 累计总融资 1550 万美元（$15.5M total funding）",
-      "doi": "",
-      "code": "1",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:2db7e20c3f8487ec",
-      "title": "投融资 Moonwalk Biosciences（美国） Series B（超额认购） $70M",
-      "doi": "",
-      "code": "3",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.33）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:3f0c9d5ac7c35c91",
-      "title": "投融资 Temple 收购 Longevous（印度/英国） 并购，金额未披露 未披露",
-      "doi": "",
-      "code": "6",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:15b6039bfbe68881",
-      "title": "投融资 Vincere Biosciences（美国） NIH SBIR Phase II 资助（非股权，2 年） $2.7M",
-      "doi": "",
-      "code": "5",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.33）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:45fc961c17fe6f91",
-      "title": "投融资 （待核实） Magnitude Biosciences Seed £1.3M（+ £217k Innovate UK 配套资助）",
-      "doi": "",
-      "code": "10",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.33）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:bdbe7a96b820f270",
-      "title": "投融资 （邻近赛道·老年照护科技） Inspiren Series C $70M",
-      "doi": "",
-      "code": "9",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:921c9389460c1e06",
-      "title": "监管 中国 CDE — Rentosertib 拟纳入/获突破性治疗品种认定",
-      "doi": "",
-      "code": "25",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:8bd8e71c34e3e7f1",
-      "title": "监管 中国（国家药监局/卫健委监管逻辑；人民日报健康客户端报道，央视采访佐证） — 明确\"衰老非疾病范畴，我国从未批准任何'抗衰老'适应证药品\"",
-      "doi": "",
-      "code": "23",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:d5c2e2de2cf0b0cb",
-      "title": "监管 加拿大（Canada's Drug Agency / CDA-AMC） — lecanemab（LEQEMBI）最终正面报销推荐",
-      "doi": "",
-      "code": "26",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.20）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:c90395803700cae7",
-      "title": "监管 美国 FDA（503A/503B 散装物质清单） — \"长寿肽\"灰色市场监管状态",
-      "doi": "",
-      "code": "28",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:1940fb63e65880f9",
-      "title": "监管 美国 FDA（孤儿药资格，背景项） — Rentosertib 获 IPF 孤儿药资格",
-      "doi": "",
-      "code": "29",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:afdb3eae0cacef18",
-      "title": "监管 美国 FDA（罕见病终点政策） — 重新评估罕见病试验标准与终点选择",
-      "doi": "",
-      "code": "27",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:69c6d6bad8325dea",
-      "title": "监管 美国 FDA（首席科学家表态，经中国媒体转述） — 暂无任何药物获批衰老适应证；不认可\"逆转生物年龄\"的药效评价标准",
-      "doi": "",
-      "code": "24",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:14d3701c5d15196d",
-      "title": "管线 BioViva USA Inc. 专利授权",
-      "doi": "",
-      "code": "18",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:c9d5fee3aeebe160",
-      "title": "管线 Celularity × MuseCell Innovations（MCI） 生产合作（非临床进展）",
-      "doi": "",
-      "code": "19",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:1c2efcc91d804c09",
-      "title": "管线 Elysium Health 服务落地（非疗法）",
-      "doi": "",
-      "code": "22",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:0896e99053e4ed94",
-      "title": "管线 Genflow Biosciences（英国，LSE 附属） 达到主要终点",
-      "doi": "",
-      "code": "14",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:44e0a2c905d6cb2b",
-      "title": "管线 GlycanAge × ExoEarth Corporation MOU 签署（商业化 + 联合研究）",
-      "doi": "",
-      "code": "21",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:4092c27f1fe0d9e9",
-      "title": "管线 HexemBio 管线扩展 + 融资",
-      "doi": "",
-      "code": "15",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:2f658a70231736eb",
-      "title": "管线 Insilico Medicine 新计划发布（非临床数据）",
-      "doi": "",
-      "code": "12",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:6602584a6332ced6",
-      "title": "管线 Insilico Medicine 论文发表（Nature Biotechnology）",
-      "doi": "",
-      "code": "13",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:6d100245a4080ec5",
-      "title": "管线 Insilico Medicine（HKEX: 3696） III 期首例受试者入组并给药",
-      "doi": "",
-      "code": "11",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.33）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:2902f4dddae9157b",
-      "title": "管线 Moonwalk Biosciences B 轮资金 + 开发推进",
-      "doi": "",
-      "code": "16",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:5fadf90eacb5ec9a",
-      "title": "管线 Retro Biosciences I 期剂量与入组调整",
-      "doi": "",
-      "code": "20",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 1.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:55562cbd4ee126d5",
-      "title": "管线 Vincere Biosciences 资助 + 适应症扩展",
-      "doi": "",
-      "code": "17",
-      "seen_in": [
-        "ima-pool-2026-10-13.md",
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:cff2c2103d460c59",
-      "title": "2026-10-12（LT 报道；原始公告称于世界阿尔茨海默病日发布，具体日期待核实）",
-      "doi": "",
-      "code": "4",
-      "seen_in": [
-        "ind_2026-10-14.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:0b876ab0a448531a",
-      "title": "Undecimal Bio",
-      "doi": "",
-      "code": "1",
-      "seen_in": [
-        "ind_2026-10-14.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）"
-    },
-    {
-      "fingerprint": "t:ff964fad2f8e2488",
-      "title": "与衰老研究间接相关：涉及\"抗衰\"化妆品原料与功效宣称的合规边界，国内抗衰原料（如重组胶原蛋白、稀有人参皂苷等合成生物学原料）商业化需同步跟踪",
-      "doi": "",
-      "code": "4",
-      "seen_in": [
-        "ind_2026-10-14.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:312ebe15946771b9",
-      "title": "临床 AI：持续分析 EHR 识别住院患者未诊断疾病（营养不良、心衰、院内感染等）",
-      "doi": "",
-      "code": "7",
-      "seen_in": [
-        "ind_2026-10-14.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:8ded011535bf9eeb",
-      "title": "作者的措辞是\"半开\"而非\"打开\"——所述路径全部处于提议/提交/资助阶段而非已生效。新监管类别通常以此为起点：先有人在同一年就\"缺什么\"达成一致",
-      "doi": "",
-      "code": "3",
-      "seen_in": [
-        "ind_2026-10-14.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:b31b0ce79dd0cc04",
-      "title": "合成生物学抗衰原料：重组胶原蛋白、稀有人参皂苷 CK、维生素 K2、胞苷酸",
-      "doi": "",
-      "code": "5",
-      "seen_in": [
-        "ind_2026-10-14.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:79bcc57a386a5ac7",
-      "title": "皮下微传感器连续多分子监测（葡萄糖首发，长期指向代谢健康）",
-      "doi": "",
-      "code": "3",
-      "seen_in": [
-        "ind_2026-10-14.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:87c071b666572b57",
-      "title": "细胞内生产 mRNA（VECTOR 平台：AI 序列设计 + 工程化活细胞生产），面向需高剂量/重复给药的疗法",
-      "doi": "",
-      "code": "4",
-      "seen_in": [
-        "ind_2026-10-14.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 1.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:de1cf4fcf0b264f6",
-      "title": "试验做对了仍可能因终点口径分歧而不获批；本次对齐结果将成为\"以症状为终点\"的神经退行性病路径样本，对衰老领域设计终点有直接借鉴价值",
-      "doi": "",
-      "code": "2",
-      "seen_in": [
-        "ind_2026-10-14.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:1506fb915fcfbc59",
-      "title": "Axo Longevity（英国/欧洲）",
-      "doi": "",
-      "code": "2",
-      "seen_in": [
-        "industry-2026-09-16.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:3b214a278b42d2a6",
-      "title": "BioViva USA Inc.",
-      "doi": "",
-      "code": "8",
-      "seen_in": [
-        "industry-2026-09-16.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）"
-    },
-    {
-      "fingerprint": "t:5fdde07e618f6e39",
-      "title": "Biophytis（法国/美国，Euronext Growth: ALBPS）",
-      "doi": "",
-      "code": "4",
-      "seen_in": [
-        "industry-2026-09-16.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:835c557c3159310f",
-      "title": "Celularity × MuseCell Innovations（MCI）",
-      "doi": "",
-      "code": "9",
-      "seen_in": [
-        "industry-2026-09-16.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）"
-    },
-    {
-      "fingerprint": "t:1f380066d55bcb8f",
-      "title": "Clene Inc.（Nasdaq: CLNN）",
-      "doi": "",
-      "code": "7",
-      "seen_in": [
-        "industry-2026-09-16.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）"
-    },
-    {
-      "fingerprint": "t:bd95ba51a41879dc",
-      "title": "Elysium Health",
-      "doi": "",
-      "code": "12",
-      "seen_in": [
-        "industry-2026-09-16.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）"
-    },
-    {
-      "fingerprint": "t:827749f0d0dffb15",
-      "title": "FibroBiologics, Inc.（Nasdaq: FBLG）",
-      "doi": "",
-      "code": "8",
-      "seen_in": [
-        "industry-2026-09-16.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）"
-    },
-    {
-      "fingerprint": "t:488b018be360e0c0",
-      "title": "Genflow Biosciences（英国，LSE 附属）",
-      "doi": "",
-      "code": "4",
-      "seen_in": [
-        "industry-2026-09-16.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:03d5ed8aa21d9c50",
-      "title": "GlycanAge × ExoEarth Corporation",
-      "doi": "",
-      "code": "11",
-      "seen_in": [
-        "industry-2026-09-16.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）"
-    },
-    {
-      "fingerprint": "t:94a046566166af3e",
-      "title": "HexemBio（美国，旧金山/伯克利）",
-      "doi": "",
-      "code": "1",
-      "seen_in": [
-        "industry-2026-09-16.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:522e435667c993df",
-      "title": "Insilico Medicine",
-      "doi": "",
-      "code": "2",
-      "seen_in": [
-        "industry-2026-09-16.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）"
-    },
-    {
-      "fingerprint": "t:a0e2224f8904c457",
-      "title": "Insilico Medicine（HKEX: 3696）",
-      "doi": "",
-      "code": "1",
-      "seen_in": [
-        "industry-2026-09-16.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.33）"
-    },
-    {
-      "fingerprint": "t:234395140c3d319e",
-      "title": "Moonwalk Biosciences",
-      "doi": "",
-      "code": "6",
-      "seen_in": [
-        "industry-2026-09-16.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）"
-    },
-    {
-      "fingerprint": "t:77894b7209200d75",
-      "title": "Moonwalk Biosciences（美国）",
-      "doi": "",
-      "code": "3",
-      "seen_in": [
-        "industry-2026-09-16.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:3d3a3d99637287db",
-      "title": "Retro Biosciences",
-      "doi": "",
-      "code": "10",
-      "seen_in": [
-        "industry-2026-09-16.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 1.00）"
-    },
-    {
-      "fingerprint": "t:8fe228bea087b714",
-      "title": "Temple 收购 Longevous（印度/英国）",
-      "doi": "",
-      "code": "6",
-      "seen_in": [
-        "industry-2026-09-16.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:133c80d5993ca6e3",
-      "title": "Vincere Biosciences",
-      "doi": "",
-      "code": "7",
-      "seen_in": [
-        "industry-2026-09-16.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）"
-    },
-    {
-      "fingerprint": "t:062696e12942468d",
-      "title": "Vincere Biosciences（美国）",
-      "doi": "",
-      "code": "5",
-      "seen_in": [
-        "industry-2026-09-16.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:3940fbf54a7b9d0f",
-      "title": "中国（国家药监局/卫健委监管逻辑；人民日报健康客户端报道，央视采访佐证）",
-      "doi": "",
-      "code": "1",
-      "seen_in": [
-        "industry-2026-09-16.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:e32f806633759728",
-      "title": "加拿大（Canada's Drug Agency / CDA-AMC）",
-      "doi": "",
-      "code": "4",
-      "seen_in": [
-        "industry-2026-09-16.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.33）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:a6a1b0a06d4b46f0",
-      "title": "美国 FDA（503A/503B 散装物质清单）",
-      "doi": "",
-      "code": "6",
-      "seen_in": [
-        "industry-2026-09-16.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:4b5d3cbb72095a60",
-      "title": "美国 FDA（孤儿药资格，背景项）",
-      "doi": "",
-      "code": "7",
-      "seen_in": [
-        "industry-2026-09-16.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:572509a98abbbd5b",
-      "title": "美国 FDA（罕见病终点政策）",
-      "doi": "",
-      "code": "5",
-      "seen_in": [
-        "industry-2026-09-16.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:9401dc8576f7739b",
-      "title": "美国 FDA（首席科学家表态，经中国媒体转述）",
-      "doi": "",
-      "code": "2",
-      "seen_in": [
-        "industry-2026-09-16.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:9428dff452ec2fb4",
-      "title": "Physical activity delays ovarian aging in part through adiponectin-related signaling pathways",
-      "doi": "",
-      "code": "N04",
-      "seen_in": [
-        "lit-2026-10-16.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.33）"
-    },
-    {
-      "fingerprint": "t:54731732bbc6257b",
-      "title": "RamanOmics decodes the spatial vibrational-molecular architecture of senescence in aging and repair",
-      "doi": "",
-      "code": "N02",
-      "seen_in": [
-        "lit-2026-10-16.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）"
-    },
-    {
-      "fingerprint": "t:e3918da0ea79df34",
-      "title": "The Role of EVs in the Aging Hematopoietic System",
-      "doi": "",
-      "code": "A13",
-      "seen_in": [
-        "lit-2026-10-16.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.06，词元重叠 0.50）"
-    },
-    {
-      "fingerprint": "t:28634514d749f90f",
-      "title": "AI 驱动的干预发现范式；口腔微生物组新轴线",
-      "doi": "",
-      "code": "9",
-      "seen_in": [
-        "meta_2026-10.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:ceedad2ef07d2646",
-      "title": "AMPK 直接激活剂 991 的小鼠数据",
-      "doi": "",
-      "code": "",
-      "seen_in": [
-        "meta_2026-10.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:eacc7e33c4cd2e39",
-      "title": "D+Q 治疗 MASH 的大型确证试验是否启动、终点如何选择",
-      "doi": "",
-      "code": "",
-      "seen_in": [
-        "meta_2026-10.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:efd4e05fc7f33f00",
-      "title": "ER-100 剂量水平 2（6×10¹¹ vg）安全性与疗效数据",
-      "doi": "",
-      "code": "",
-      "seen_in": [
-        "meta_2026-10.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:ae7c0d46e2473607",
-      "title": "FDA《监管科学重点领域》（FARS）正式文本",
-      "doi": "",
-      "code": "",
-      "seen_in": [
-        "meta_2026-10.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:fdc98fa9d59b4328",
-      "title": "Lsp2 哺乳动物功能同源因子的搜索进展",
-      "doi": "",
-      "code": "",
-      "seen_in": [
-        "meta_2026-10.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:d470d4ad47775e61",
-      "title": "N. flavescens 是否进入人体概念验证",
-      "doi": "",
-      "code": "",
-      "seen_in": [
-        "meta_2026-10.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:1581c57f239e9d6d",
-      "title": "NAD+ 跨器官信号；Serpina3n 新分泌因子",
-      "doi": "",
-      "code": "10",
-      "seen_in": [
-        "meta_2026-10.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:328ceeb08f10e344",
-      "title": "TAME 试验融资是否出现实质性进展",
-      "doi": "",
-      "code": "",
-      "seen_in": [
-        "meta_2026-10.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:22db6767114a7bb5",
-      "title": "TranslAGE 后续：DunedinPACE / PCGrimAge 是否被确立为试验首选终点",
-      "doi": "",
-      "code": "",
-      "seen_in": [
-        "meta_2026-10.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.33）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:dbe3594fb9fa5f9c",
-      "title": "UBE3C/CKAP4 预印本是否正式发表、有无独立验证",
-      "doi": "",
-      "code": "",
-      "seen_in": [
-        "meta_2026-10.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "doi:10.1111/acel.70751",
-      "title": "可时序追踪的去衰老模型；化合物筛选平台",
-      "doi": "10.1111/acel.70751",
-      "code": "7",
-      "seen_in": [
-        "meta_2026-10.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.1111/acel.70751，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:3458455d5b3253a9",
-      "title": "心磷脂方向：elamipretide 用于年龄相关肌少症的再定位信号",
-      "doi": "",
-      "code": "",
-      "seen_in": [
-        "meta_2026-10.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:c55906cf64289d33",
-      "title": "权威领域复盘；对 senolytics 的冷静评估",
-      "doi": "",
-      "code": "11",
-      "seen_in": [
-        "meta_2026-10.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:c0e28a1a4021d69a",
-      "title": "跨物种表观时钟（犬）向人类体型–衰老权衡的迁移研究",
-      "doi": "",
-      "code": "",
-      "seen_in": [
-        "meta_2026-10.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "doi:10.64898/2026.10.11.758328",
-      "title": "Action-related brain dynamics during leader-follower coordination",
-      "doi": "10.64898/2026.10.11.758328",
-      "code": "6",
-      "seen_in": [
-        "pipeline-summary-2026-10-18.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.64898/2026.10.11.758328，标题相似 0.00，词元重叠 0.33）"
-    },
-    {
-      "fingerprint": "doi:10.64898/2026.10.12.758406",
-      "title": "CAPO: Compute-Aware Automated Protein-Model Optimization（词表噪声）",
-      "doi": "10.64898/2026.10.12.758406",
-      "code": "11",
-      "seen_in": [
-        "pipeline-summary-2026-10-18.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.64898/2026.10.12.758406，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "doi:10.64898/2026.10.12.758428",
-      "title": "Cooperative processing of visual threat across collicular pathways",
-      "doi": "10.64898/2026.10.12.758428",
-      "code": "7",
-      "seen_in": [
-        "pipeline-summary-2026-10-18.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.64898/2026.10.12.758428，标题相似 0.00，词元重叠 0.20）"
-    },
-    {
-      "fingerprint": "doi:10.64898/2026.10.12.758423",
-      "title": "DNA-Encoded Library-Guided Discovery of a First-in-Class Molecule",
-      "doi": "10.64898/2026.10.12.758423",
-      "code": "10",
-      "seen_in": [
-        "pipeline-summary-2026-10-18.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.64898/2026.10.12.758423，标题相似 0.00，词元重叠 0.50）"
-    },
-    {
-      "fingerprint": "doi:10.64898/2026.10.16.759405",
-      "title": "Determining cellular phylogeny and migration at high resolution",
-      "doi": "10.64898/2026.10.16.759405",
-      "code": "4",
-      "seen_in": [
-        "pipeline-summary-2026-10-18.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.64898/2026.10.16.759405，标题相似 0.00，词元重叠 0.25）"
-    },
-    {
-      "fingerprint": "doi:10.64898/2026.10.12.758429",
-      "title": "Exposure to childhood adversity and adult alcohol/nicotine use",
-      "doi": "10.64898/2026.10.12.758429",
-      "code": "8",
-      "seen_in": [
-        "pipeline-summary-2026-10-18.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.64898/2026.10.12.758429，标题相似 0.00，词元重叠 0.33）"
-    },
-    {
-      "fingerprint": "doi:10.64898/2026.10.12.758476",
-      "title": "LIF is a pro-algesic mediator in human and mouse models",
-      "doi": "10.64898/2026.10.12.758476",
-      "code": "9",
-      "seen_in": [
-        "pipeline-summary-2026-10-18.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.64898/2026.10.12.758476，标题相似 0.00，词元重叠 0.25）"
-    },
-    {
-      "fingerprint": "doi:10.64898/2026.10.15.759313",
-      "title": "Multi-parametric spectral modeling disentangles synaptic kinetics",
-      "doi": "10.64898/2026.10.15.759313",
-      "code": "5",
-      "seen_in": [
-        "pipeline-summary-2026-10-18.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.64898/2026.10.15.759313，标题相似 0.00，词元重叠 0.20）"
-    },
-    {
-      "fingerprint": "doi:10.64898/2026.10.12.758495",
-      "title": "Sex shapes capillary flows and oxygen extraction in the middle-aged mouse brain",
-      "doi": "10.64898/2026.10.12.758495",
-      "code": "3",
-      "seen_in": [
-        "pipeline-summary-2026-10-18.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.64898/2026.10.12.758495，标题相似 0.00，词元重叠 0.25）"
-    },
-    {
-      "fingerprint": "t:0aa5f42df2b68ddf",
-      "title": "交叉判定=A（时钟外部验证）；置信度=中高",
-      "doi": "",
-      "code": "18",
-      "seen_in": [
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:6e5d6dca460cc7ab",
-      "title": "交叉判定=A；置信度=中",
-      "doi": "",
-      "code": "17",
-      "seen_in": [
-        "pool_2026-10-13.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:e10f42ed8d989e0c",
-      "title": "01:29 轮报告 bioRxiv 当日 175 篇；本轮三源去重 159 篇",
-      "doi": "",
-      "code": "C10",
-      "seen_in": [
-        "preprint-2026-09-15.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "doi:10.64898/2026.09.02.748817",
-      "title": "`10.64898/2026.09.02.748817`（Tower, Selectively Advantageous Instability…）",
-      "doi": "10.64898/2026.09.02.748817",
-      "code": "C3",
-      "seen_in": [
-        "preprint-2026-09-15.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.64898/2026.09.02.748817，标题相似 0.00，词元重叠 0.00）"
-    },
-    {
-      "fingerprint": "t:012a55f80422dedb",
-      "title": "`arXiv:2609.13322`（SenSASP）",
-      "doi": "",
-      "code": "C2",
-      "seen_in": [
-        "preprint-2026-09-15.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）"
-    },
-    {
-      "fingerprint": "t:6016a03d0defadb5",
-      "title": "arXiv q-bio「本期空跑 0 条」结论",
-      "doi": "",
-      "code": "C4",
-      "seen_in": [
-        "preprint-2026-09-15.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "doi:10.64898/2026.09.11.26362881",
-      "title": "与同日并发版本 `预印本速递_2026-09-15_1147`（存于同一文献层）的口径核对",
-      "doi": "10.64898/2026.09.11.26362881",
-      "code": "C11",
-      "seen_in": [
-        "preprint-2026-09-15.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.64898/2026.09.11.26362881，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "doi:10.64898/2026.09.10.26362802",
-      "title": "假阳性：Estimated cardiorespiratory fitness… `10.64898/2026.09.10.26362802`",
-      "doi": "10.64898/2026.09.10.26362802",
-      "code": "C6",
-      "seen_in": [
-        "preprint-2026-09-15.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.64898/2026.09.10.26362802，标题相似 0.00，词元重叠 0.33）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "doi:10.64898/2026.09.07.749759",
-      "title": "假阳性：VEXAS 综合征髓系模型 `10.64898/2026.09.07.749759`",
-      "doi": "10.64898/2026.09.07.749759",
-      "code": "C5",
-      "seen_in": [
-        "preprint-2026-09-15.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.64898/2026.09.07.749759，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:0ab828feae211520",
-      "title": "假阳性：`arXiv:2609.14147`、`arXiv:2609.13249`",
-      "doi": "",
-      "code": "C9",
-      "seen_in": [
-        "preprint-2026-09-15.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "doi:10.64898/2026.09.08.750017",
-      "title": "假阳性：iPSC 多克隆感觉神经元 `10.64898/2026.09.08.750017`",
-      "doi": "10.64898/2026.09.08.750017",
-      "code": "C8",
-      "seen_in": [
-        "preprint-2026-09-15.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.64898/2026.09.08.750017，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "doi:10.64898/2026.09.13.751330",
-      "title": "假阳性：酵母低氧染色质 `10.64898/2026.09.13.751330`",
-      "doi": "10.64898/2026.09.13.751330",
-      "code": "C7",
-      "seen_in": [
-        "preprint-2026-09-15.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.64898/2026.09.13.751330，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "doi:10.64898/2026.09.08.750089",
-      "title": "Ion modulation restores local synaptic function in APOE4 neuronal networks despite persistent impairments in global network organization",
-      "doi": "10.64898/2026.09.08.750089",
-      "code": "S4",
-      "seen_in": [
-        "preprint-2026-09-15_recheck.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.64898/2026.09.08.750089，标题相似 0.00，词元重叠 0.33）"
-    },
-    {
-      "fingerprint": "doi:10.64898/2026.09.07.749850",
-      "title": "The protein and lipid compositions of brain apolipoprotein E particles are cell type-specific",
-      "doi": "10.64898/2026.09.07.749850",
-      "code": "S3",
-      "seen_in": [
-        "preprint-2026-09-15_recheck.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=10.64898/2026.09.07.749850，标题相似 0.00，词元重叠 0.50）"
-    },
-    {
-      "fingerprint": "t:826d183e9b6d1053",
-      "title": "21 条已删文章处理策略",
-      "doi": "",
-      "code": "4",
-      "seen_in": [
-        "site-assessment-2026-10-14.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:221f16a36c74b2ab",
-      "title": "`/contact/` 定位",
-      "doi": "",
-      "code": "6",
-      "seen_in": [
-        "site-assessment-2026-10-14.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:5ff26db09ed28544",
-      "title": "`/zh/`、`/en/` 去留决策",
-      "doi": "",
-      "code": "3",
-      "seen_in": [
-        "site-assessment-2026-10-14.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:964ad1c966954d7f",
-      "title": "更新 GitHub 写 Token",
-      "doi": "",
-      "code": "1",
-      "seen_in": [
-        "site-assessment-2026-10-14.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    },
-    {
-      "fingerprint": "t:f66a629b0a5f3965",
-      "title": "本地管线模板改动（5 项）",
-      "doi": "",
-      "code": "2",
-      "seen_in": [
-        "site-assessment-2026-10-14.md"
-      ],
-      "status": "漏收",
-      "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
-    }
-  ],
-  "orphan_count": 560,
-  "orphan_sample": [
-    "3D-Culture-Reverses-Limbal-Niche-AgingCell-2026.html",
-    "7-Ketocholesterol-Derivatives-Pathophysiology.html",
-    "AAV-FGF21-Gene-Therapy-Healthspan-Lifespan-2026.html",
-    "ADPHC-Ultrahuman-Biological-Health-Age-Public-Health-MOU.html",
-    "AGEs-Glycation-Tissue-Stiffness-2026.html",
-    "AHR-Inhibition-Axon-Regeneration-Nature-2026.html",
-    "AMPK-Direct-Activation-991-Lifespan-AgingCell-2026.html",
-    "ANP-Gene-Therapy-Heart-Regeneration.html",
-    "AP1-Lung-Fibrosis-ECM-Program-2026.html",
-    "APOE2-DNA-Repair-Neuronal-Aging-2026.html",
-    "APOE2-Pericytes-Blood-Brain-Barrier-Resilience-Brain-2026.html",
-    "APOE4-Drosophila-Cognitive-Decline-2026.html",
-    "AQP4-TGN073-Glymphatic-Tau-Pathology-MolNeurodegener-2026.html",
-    "ARDD-2026-to-relocate-to-Bosto.html",
-    "ARDD-2026-to-relocate-to-Boston.html",
-    "ATF5-Muscle-Mass-Quality-Aging-2026.html",
-    "Acid-Base-Dysregulation-Aging-Metabolism-Frailty-2026.html",
-    "Adaptive-Cost-Hypothesis-NCDs-Evolvable-Lifespan-2026.html",
-    "Age-Associated-Gut-Microbiota-Dysbiosis-Impairs-AgingCell-2026.html",
-    "Aged-Microbiota-Fecal-Transplant-Bama-Pig-2026.html"
-  ],
-  "note": "missing 必须逐条人工核对后再写稿。判定为「漏收」只代表三路均未命中，不是结论——中文摘要条目尤其需要用中文关键词直接搜站内。"
+  "preprint-2026-09-13.md": {
+   "rows": 0,
+   "bytes": 3809,
+   "suspicious_empty": false
+  },
+  "preprint-2026-09-15.md": {
+   "rows": 13,
+   "bytes": 20450,
+   "suspicious_empty": false
+  },
+  "preprint-2026-09-15_1147.md": {
+   "rows": 2,
+   "bytes": 9245,
+   "suspicious_empty": false
+  },
+  "preprint-2026-09-15_recheck.md": {
+   "rows": 2,
+   "bytes": 12750,
+   "suspicious_empty": false
+  },
+  "preprint-2026-09-17.md": {
+   "rows": 6,
+   "bytes": 15349,
+   "suspicious_empty": false
+  },
+  "preprint-2026-09-22.md": {
+   "rows": 14,
+   "bytes": 22122,
+   "suspicious_empty": false
+  },
+  "preprint-2026-09-23.md": {
+   "rows": 8,
+   "bytes": 27393,
+   "suspicious_empty": false
+  },
+  "preprint-2026-09-24.md": {
+   "rows": 6,
+   "bytes": 25948,
+   "suspicious_empty": false
+  },
+  "preprint-2026-10-19.md": {
+   "rows": 0,
+   "bytes": 19505,
+   "suspicious_empty": false
+  },
+  "预印本速递_2026-09-13.md": {
+   "rows": 0,
+   "bytes": 3809,
+   "suspicious_empty": false
+  },
+  "预印本速递_2026-09-24.md": {
+   "rows": 6,
+   "bytes": 25948,
+   "suspicious_empty": false
+  },
+  "lit-2026-10-16.md": {
+   "rows": 67,
+   "bytes": 249984,
+   "suspicious_empty": false
+  },
+  "lit-2026-10-16.cards.md": {
+   "rows": 0,
+   "bytes": 48338,
+   "suspicious_empty": false
+  },
+  "lit-cards-2026-10-09.md": {
+   "rows": 25,
+   "bytes": 89241,
+   "suspicious_empty": false
+  },
+  "cross-2026-10-18.md": {
+   "rows": 0,
+   "bytes": 29189,
+   "suspicious_empty": false
+  },
+  "交叉周报_2026-10-12.md": {
+   "rows": 0,
+   "bytes": 33644,
+   "suspicious_empty": false
+  },
+  "industry-2026-09-16.md": {
+   "rows": 25,
+   "bytes": 30237,
+   "suspicious_empty": false
+  },
+  "ima-lit-2026-10-13.md": {
+   "rows": 26,
+   "bytes": 50022,
+   "suspicious_empty": false
+  },
+  "ima-pool-2026-10-13.md": {
+   "rows": 73,
+   "bytes": 24622,
+   "suspicious_empty": false
+  },
+  "trials-list-2026-10-18.md": {
+   "rows": 0,
+   "bytes": 227731,
+   "suspicious_empty": false
+  },
+  "pipeline-summary-2026-10-18.md": {
+   "rows": 11,
+   "bytes": 6918,
+   "suspicious_empty": false
+  },
+  "cards_2026-09-25.md": {
+   "rows": 50,
+   "bytes": 118088,
+   "suspicious_empty": false
+  },
+  "cards_2026-10-02.md": {
+   "rows": 56,
+   "bytes": 215865,
+   "suspicious_empty": false
+  },
+  "ind_2026-10-14.md": {
+   "rows": 10,
+   "bytes": 23365,
+   "suspicious_empty": false
+  },
+  "meta_2026-10.md": {
+   "rows": 18,
+   "bytes": 20322,
+   "suspicious_empty": false
+  },
+  "pool_2026-10-13.md": {
+   "rows": 71,
+   "bytes": 24622,
+   "suspicious_empty": false
+  }
+ },
+ "output_entries": 358,
+ "covered": 172,
+ "missing_count": 186,
+ "missing": [
+  {
+   "fingerprint": "t:a62d6ee4711ea558",
+   "title": "体细胞突变轴线：SMaHT 配套主论文是否已全部上线？是否有\"降低人体体细胞突变率\"的药物/干预进入临床前或 IND",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10_v2.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:d5061e89ac489f6d",
+   "title": "ER-100 剂量水平 2（6×10¹¹ vg）安全性与疗效；NCT07290244 登记信息何时更新至反映 DL2",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10_v2.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:ae7c0d46e2473607",
+   "title": "FDA《监管科学重点领域》（FARS）正式文本",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10.md",
+    "meta_2026-10_v2.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:bff7f4abe4515f1f",
+   "title": "PROSPR 首个里程碑节点；VITAL-H 是否正式登记（Phase 3 hybrid，SGLT2i + 雷帕霉素 + 司美格鲁肽）",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10_v2.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:3a888ab507e0b670",
+   "title": "D+Q 治疗 MASH 的大型确证试验是否启动、终点如何选择（活检 vs 无创）",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10_v2.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:dbe3594fb9fa5f9c",
+   "title": "UBE3C/CKAP4 预印本是否正式发表、有无独立验证",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10.md",
+    "meta_2026-10_v2.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:5f340e2ea0bcfbc2",
+   "title": "CMA 激活剂是否有公司或 IND 动作；uPAR BiTE 是否申报 IND",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10_v2.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 1.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:81ee6ad7bb80078e",
+   "title": "SRSF1 转化路径：是否有公司成立/融资/申报 IND",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10_v2.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:74e090d35cc5c71d",
+   "title": "NOPARK 后续：JAMA 同期评论；NR 相关在研神经适应症试验是否调整终点或提前终止",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10_v2.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 1.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:3d0b5658cc9e300c",
+   "title": "梅奥雷帕霉素 HFpEF 试验的原文全文数字核实（本轮仅有二手转述）",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10_v2.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:b23493d83f71c732",
+   "title": "TAME 试验融资是否出现实质性进展（不依赖 CT.gov 检索，人工跟踪 AFAR 公告）",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10_v2.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:8712719042ff56bb",
+   "title": "PEARL 主要结果论文是否在 PubMed 出现；若出现立即核实 DunedinPACE / GrimAge2 / 疫苗应答等\"待核实\"数字",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10_v2.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.33）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:30edb0bee100c494",
+   "title": "内在能力（Intrinsic Capacity）评分能否被 FDA 接受为替代终点",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10_v2.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 1.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:914a82f22d6fdee9",
+   "title": "Cambrian（mTORC1 选择性抑制剂）/ Linnaeus（GPER 激动剂）的 PROSPR 进展",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10_v2.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.20）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:fdc98fa9d59b4328",
+   "title": "Lsp2 哺乳动物功能同源因子的搜索进展",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10.md",
+    "meta_2026-10_v2.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:c8fbec94919de74b",
+   "title": "克隆造血→衰弱（medRxiv）是否正式发表",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10_v2.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:012a55f80422dedb",
+   "title": "`arXiv:2609.13322`（SenSASP）",
+   "doi": "",
+   "code": "C2",
+   "seen_in": [
+    "preprint-2026-09-15.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）"
+  },
+  {
+   "fingerprint": "doi:10.64898/2026.09.02.748817",
+   "title": "`10.64898/2026.09.02.748817`（Tower, Selectively Advantageous Instability…）",
+   "doi": "10.64898/2026.09.02.748817",
+   "code": "C3",
+   "seen_in": [
+    "preprint-2026-09-15.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.64898/2026.09.02.748817，标题相似 0.00，词元重叠 0.00）"
+  },
+  {
+   "fingerprint": "t:6016a03d0defadb5",
+   "title": "arXiv q-bio「本期空跑 0 条」结论",
+   "doi": "",
+   "code": "C4",
+   "seen_in": [
+    "preprint-2026-09-15.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "doi:10.64898/2026.09.07.749759",
+   "title": "假阳性：VEXAS 综合征髓系模型 `10.64898/2026.09.07.749759`",
+   "doi": "10.64898/2026.09.07.749759",
+   "code": "C5",
+   "seen_in": [
+    "preprint-2026-09-15.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.64898/2026.09.07.749759，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "doi:10.64898/2026.09.10.26362802",
+   "title": "假阳性：Estimated cardiorespiratory fitness… `10.64898/2026.09.10.26362802`",
+   "doi": "10.64898/2026.09.10.26362802",
+   "code": "C6",
+   "seen_in": [
+    "preprint-2026-09-15.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.64898/2026.09.10.26362802，标题相似 0.00，词元重叠 0.33）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "doi:10.64898/2026.09.13.751330",
+   "title": "假阳性：酵母低氧染色质 `10.64898/2026.09.13.751330`",
+   "doi": "10.64898/2026.09.13.751330",
+   "code": "C7",
+   "seen_in": [
+    "preprint-2026-09-15.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.64898/2026.09.13.751330，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "doi:10.64898/2026.09.08.750017",
+   "title": "假阳性：iPSC 多克隆感觉神经元 `10.64898/2026.09.08.750017`",
+   "doi": "10.64898/2026.09.08.750017",
+   "code": "C8",
+   "seen_in": [
+    "preprint-2026-09-15.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.64898/2026.09.08.750017，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:0ab828feae211520",
+   "title": "假阳性：`arXiv:2609.14147`、`arXiv:2609.13249`",
+   "doi": "",
+   "code": "C9",
+   "seen_in": [
+    "preprint-2026-09-15.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:e10f42ed8d989e0c",
+   "title": "01:29 轮报告 bioRxiv 当日 175 篇；本轮三源去重 159 篇",
+   "doi": "",
+   "code": "C10",
+   "seen_in": [
+    "preprint-2026-09-15.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "doi:10.64898/2026.09.11.26362881",
+   "title": "与同日并发版本 `预印本速递_2026-09-15_1147`（存于同一文献层）的口径核对",
+   "doi": "10.64898/2026.09.11.26362881",
+   "code": "C11",
+   "seen_in": [
+    "preprint-2026-09-15.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.64898/2026.09.11.26362881，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "doi:10.64898/2026.09.07.749850",
+   "title": "The protein and lipid compositions of brain apolipoprotein E particles are cell type-specific",
+   "doi": "10.64898/2026.09.07.749850",
+   "code": "S3",
+   "seen_in": [
+    "preprint-2026-09-15_recheck.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.64898/2026.09.07.749850，标题相似 0.00，词元重叠 0.50）"
+  },
+  {
+   "fingerprint": "doi:10.64898/2026.09.08.750089",
+   "title": "Ion modulation restores local synaptic function in APOE4 neuronal networks despite persistent impairments in global network organization",
+   "doi": "10.64898/2026.09.08.750089",
+   "code": "S4",
+   "seen_in": [
+    "preprint-2026-09-15_recheck.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.64898/2026.09.08.750089，标题相似 0.00，词元重叠 0.33）"
+  },
+  {
+   "fingerprint": "t:54731732bbc6257b",
+   "title": "RamanOmics decodes the spatial vibrational-molecular architecture of senescence in aging and repair",
+   "doi": "",
+   "code": "N02",
+   "seen_in": [
+    "lit-2026-10-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）"
+  },
+  {
+   "fingerprint": "t:9428dff452ec2fb4",
+   "title": "Physical activity delays ovarian aging in part through adiponectin-related signaling pathways",
+   "doi": "",
+   "code": "N04",
+   "seen_in": [
+    "lit-2026-10-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.33）"
+  },
+  {
+   "fingerprint": "t:e3918da0ea79df34",
+   "title": "The Role of EVs in the Aging Hematopoietic System",
+   "doi": "",
+   "code": "A13",
+   "seen_in": [
+    "lit-2026-10-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.06，词元重叠 0.50）"
+  },
+  {
+   "fingerprint": "t:94a046566166af3e",
+   "title": "HexemBio（美国，旧金山/伯克利）",
+   "doi": "",
+   "code": "1",
+   "seen_in": [
+    "industry-2026-09-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:1506fb915fcfbc59",
+   "title": "Axo Longevity（英国/欧洲）",
+   "doi": "",
+   "code": "2",
+   "seen_in": [
+    "industry-2026-09-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:77894b7209200d75",
+   "title": "Moonwalk Biosciences（美国）",
+   "doi": "",
+   "code": "3",
+   "seen_in": [
+    "industry-2026-09-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:5fdde07e618f6e39",
+   "title": "Biophytis（法国/美国，Euronext Growth: ALBPS）",
+   "doi": "",
+   "code": "4",
+   "seen_in": [
+    "industry-2026-09-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:062696e12942468d",
+   "title": "Vincere Biosciences（美国）",
+   "doi": "",
+   "code": "5",
+   "seen_in": [
+    "industry-2026-09-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:8fe228bea087b714",
+   "title": "Temple 收购 Longevous（印度/英国）",
+   "doi": "",
+   "code": "6",
+   "seen_in": [
+    "industry-2026-09-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:1f380066d55bcb8f",
+   "title": "Clene Inc.（Nasdaq: CLNN）",
+   "doi": "",
+   "code": "7",
+   "seen_in": [
+    "industry-2026-09-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）"
+  },
+  {
+   "fingerprint": "t:827749f0d0dffb15",
+   "title": "FibroBiologics, Inc.（Nasdaq: FBLG）",
+   "doi": "",
+   "code": "8",
+   "seen_in": [
+    "industry-2026-09-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）"
+  },
+  {
+   "fingerprint": "t:a0e2224f8904c457",
+   "title": "Insilico Medicine（HKEX: 3696）",
+   "doi": "",
+   "code": "1",
+   "seen_in": [
+    "industry-2026-09-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.33）"
+  },
+  {
+   "fingerprint": "t:522e435667c993df",
+   "title": "Insilico Medicine",
+   "doi": "",
+   "code": "2",
+   "seen_in": [
+    "industry-2026-09-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）"
+  },
+  {
+   "fingerprint": "t:488b018be360e0c0",
+   "title": "Genflow Biosciences（英国，LSE 附属）",
+   "doi": "",
+   "code": "4",
+   "seen_in": [
+    "industry-2026-09-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:234395140c3d319e",
+   "title": "Moonwalk Biosciences",
+   "doi": "",
+   "code": "6",
+   "seen_in": [
+    "industry-2026-09-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）"
+  },
+  {
+   "fingerprint": "t:133c80d5993ca6e3",
+   "title": "Vincere Biosciences",
+   "doi": "",
+   "code": "7",
+   "seen_in": [
+    "industry-2026-09-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）"
+  },
+  {
+   "fingerprint": "t:3b214a278b42d2a6",
+   "title": "BioViva USA Inc.",
+   "doi": "",
+   "code": "8",
+   "seen_in": [
+    "industry-2026-09-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）"
+  },
+  {
+   "fingerprint": "t:835c557c3159310f",
+   "title": "Celularity × MuseCell Innovations（MCI）",
+   "doi": "",
+   "code": "9",
+   "seen_in": [
+    "industry-2026-09-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）"
+  },
+  {
+   "fingerprint": "t:3d3a3d99637287db",
+   "title": "Retro Biosciences",
+   "doi": "",
+   "code": "10",
+   "seen_in": [
+    "industry-2026-09-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 1.00）"
+  },
+  {
+   "fingerprint": "t:03d5ed8aa21d9c50",
+   "title": "GlycanAge × ExoEarth Corporation",
+   "doi": "",
+   "code": "11",
+   "seen_in": [
+    "industry-2026-09-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）"
+  },
+  {
+   "fingerprint": "t:bd95ba51a41879dc",
+   "title": "Elysium Health",
+   "doi": "",
+   "code": "12",
+   "seen_in": [
+    "industry-2026-09-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）"
+  },
+  {
+   "fingerprint": "t:3940fbf54a7b9d0f",
+   "title": "中国（国家药监局/卫健委监管逻辑；人民日报健康客户端报道，央视采访佐证）",
+   "doi": "",
+   "code": "1",
+   "seen_in": [
+    "industry-2026-09-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:9401dc8576f7739b",
+   "title": "美国 FDA（首席科学家表态，经中国媒体转述）",
+   "doi": "",
+   "code": "2",
+   "seen_in": [
+    "industry-2026-09-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:e32f806633759728",
+   "title": "加拿大（Canada's Drug Agency / CDA-AMC）",
+   "doi": "",
+   "code": "4",
+   "seen_in": [
+    "industry-2026-09-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.33）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:572509a98abbbd5b",
+   "title": "美国 FDA（罕见病终点政策）",
+   "doi": "",
+   "code": "5",
+   "seen_in": [
+    "industry-2026-09-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:a6a1b0a06d4b46f0",
+   "title": "美国 FDA（503A/503B 散装物质清单）",
+   "doi": "",
+   "code": "6",
+   "seen_in": [
+    "industry-2026-09-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:4b5d3cbb72095a60",
+   "title": "美国 FDA（孤儿药资格，背景项）",
+   "doi": "",
+   "code": "7",
+   "seen_in": [
+    "industry-2026-09-16.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:90bec65f27ced9a5",
+   "title": "交叉#1 部分重编程：ER-100 Phase 1 首批 3 例：Day 56 无 DLT/SAE；2/3 例视野改善（≥28% 点位 >4",
+   "doi": "",
+   "code": "1",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:b49ad81198dc1a9f",
+   "title": "交叉#2 部分重编程：Salk/Buck：人神经元与胶质细胞瞬时 OSK（去 MYC）使表观年龄逆转约 10–15 年，恢复线粒体功能且维持细",
+   "doi": "",
+   "code": "2",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.05，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:cdd159bb03a9c0e9",
+   "title": "交叉#3 Senolytics：NCT05506488 Phase 2 读出：纤维化改善 47% vs 7%（P=0.02），MASH 缓解 53% v",
+   "doi": "",
+   "code": "3",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.25）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:4689f197d7e136de",
+   "title": "交叉#4 细胞衰老：CMA 随龄下降→巨噬细胞清除衰老细胞能力减弱；CA77.1 激活 CMA 使老年鼠多组织衰老负荷/炎症/纤维化下降；I",
+   "doi": "",
+   "code": "4",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:3fef14411dbd2598",
+   "title": "交叉#5 细胞衰老：SENESCENCE2030 路线图：要求衰老细胞内型分类、标准化生物标志物、精准 senolytic/senomorp",
+   "doi": "",
+   "code": "5",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.33）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:3190dbda614393d5",
+   "title": "交叉#6 NAD+前体：头对头 RCT（n=65）：NR 1000 mg / NMN 1000 mg × 14 天均使全血 NAD+ 约翻倍（安",
+   "doi": "",
+   "code": "6",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:4e17fe9237878074",
+   "title": "交叉#7 NAD+前体：系统评价/荟萃（15 项 RCT，250–2000 mg/d，14 天–24 周）：体重、BMI、空腹血糖、HbA1c、",
+   "doi": "",
+   "code": "7",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.04，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:b33db5705d0f1f04",
+   "title": "交叉#8 雷帕霉素/mTOR：低剂量雷帕霉素通过增强 DNA 损伤韧性降低老年人免疫细胞 p21（非自噬/蛋白合成依赖），提出 \"genoprotec",
+   "doi": "",
+   "code": "8",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:1725aefc139c3023",
+   "title": "交叉#9 雷帕霉素/mTOR：n=23（45–65 岁，9 名 APOE4 携带者），1 mg/d × 4 周：仅 APOE4 携带者局部脑血流增加",
+   "doi": "",
+   "code": "9",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:af30785228c5af20",
+   "title": "交叉#10 雷帕霉素/mTOR：HFpEF+衰弱（中位 71.3 岁）0.5 mg/d × 6 个月：功能终点失败（峰值 VO2、6 分钟步行未改善）；",
+   "doi": "",
+   "code": "10",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:67d0f8ddbc56f1be",
+   "title": "交叉#11 二甲双胍/TAME：TAME 至 2026 年中仍未入组任何受试者：FDA 2015 已同意复合终点（CVD+癌症+痴呆+死亡），但约 45",
+   "doi": "",
+   "code": "11",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:2cb6d4170b3d1dc8",
+   "title": "交叉#12 二甲双胍/TAME：直接 AMPK 激活剂 991 在裂殖酵母、C. elegans（≈18–20%）、Drosophila（≈9%",
+   "doi": "",
+   "code": "12",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.33）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:bebe5e1fd38d33e1",
+   "title": "交叉#13 二甲双胍/TAME：两项 Aging Cell 2019 RCT：二甲双胍钝化运动适应（有氧：胰岛素敏感性/VO₂max 增益减弱；抗阻",
+   "doi": "",
+   "code": "13",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:4730eefcf05a9ae2",
+   "title": "交叉#14 长寿 / 表观时钟：Nature Medicine 2026：51 项干预、>110 个 DNAm 标志物分析显示二甲双胍、司美格鲁肽、",
+   "doi": "",
+   "code": "14",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.07，词元重叠 0.67）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:0826e4de759da858",
+   "title": "交叉#15 长寿 / 表观时钟：原始 TRIIM（n=9–10，51–65 岁男性，rhGH+DHEA+metformin × 12 月）：MRI 证实",
+   "doi": "",
+   "code": "15",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.33）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:228ac6b5551121f7",
+   "title": "交叉#16 长寿 / 微生物组：老年菌群移植至巴马小型猪：紧密连接蛋白（ZO-1/claudin-1/occludin）↓，富集 Blautia obe",
+   "doi": "",
+   "code": "16",
+   "seen_in": [
+    "ima-pool-2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:fc030fe7f401393d",
+   "title": "交叉#17 长寿 / 免疫：Nature 2026（Bernatz 等，652:986–994）：胸腺健康与免疫衰老、运动可改善免疫衰老指标",
+   "doi": "",
+   "code": "17",
+   "seen_in": [
+    "ima-pool-2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 1.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:6e7acc76f83c9a59",
+   "title": "交叉#18 长寿 / 时钟验证：犬表观时钟（Science 2026-10-08，Mariner 等，894 犬/1640 甲基化组）：大型犬与雄性",
+   "doi": "",
+   "code": "18",
+   "seen_in": [
+    "ima-pool-2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:f5358b04fc61c380",
+   "title": "投融资 HexemBio（美国，旧金山/伯克利） 新一轮（本轮金额未单独披露） 累计总融资 1550 万美元（$15.5M total funding）",
+   "doi": "",
+   "code": "1",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:5ea5dc0a97212eaf",
+   "title": "投融资 Axo Longevity（英国/欧洲） Seed（超额认购） $5M",
+   "doi": "",
+   "code": "2",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:2db7e20c3f8487ec",
+   "title": "投融资 Moonwalk Biosciences（美国） Series B（超额认购） $70M",
+   "doi": "",
+   "code": "3",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.33）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:7fd1171193878ac3",
+   "title": "投融资 Biophytis（法国/美国，Euronext Growth: ALBPS） 增资（配股 + 认股权证，面向机构投资者，剔除原股东优先认购权） €5.3M（其中现金 €4.75M + Hexagon 债务转股 €0.55M）",
+   "doi": "",
+   "code": "4",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:15b6039bfbe68881",
+   "title": "投融资 Vincere Biosciences（美国） NIH SBIR Phase II 资助（非股权，2 年） $2.7M",
+   "doi": "",
+   "code": "5",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.33）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:3f0c9d5ac7c35c91",
+   "title": "投融资 Temple 收购 Longevous（印度/英国） 并购，金额未披露 未披露",
+   "doi": "",
+   "code": "6",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:47906bd713d7573d",
+   "title": "投融资 Clene Inc.（Nasdaq: CLNN） Registered Direct Offering（按 Nasdaq 市价规则） $4M（1,219,513 股 @ $3.28）",
+   "doi": "",
+   "code": "7",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.33）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:81679905a6ad9fb8",
+   "title": "投融资 FibroBiologics, Inc.（Nasdaq: FBLG） 私募配售（PIPE 性质） 约 $0.5M（298,508 股 @ $1.675 + 等额认股权证，行权价 $1.55，5 年期）",
+   "doi": "",
+   "code": "8",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:bdbe7a96b820f270",
+   "title": "投融资 （邻近赛道·老年照护科技） Inspiren Series C $70M",
+   "doi": "",
+   "code": "9",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:45fc961c17fe6f91",
+   "title": "投融资 （待核实） Magnitude Biosciences Seed £1.3M（+ £217k Innovate UK 配套资助）",
+   "doi": "",
+   "code": "10",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.33）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:6d100245a4080ec5",
+   "title": "管线 Insilico Medicine（HKEX: 3696） III 期首例受试者入组并给药",
+   "doi": "",
+   "code": "11",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.33）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:2f658a70231736eb",
+   "title": "管线 Insilico Medicine 新计划发布（非临床数据）",
+   "doi": "",
+   "code": "12",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:6602584a6332ced6",
+   "title": "管线 Insilico Medicine 论文发表（Nature Biotechnology）",
+   "doi": "",
+   "code": "13",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:0896e99053e4ed94",
+   "title": "管线 Genflow Biosciences（英国，LSE 附属） 达到主要终点",
+   "doi": "",
+   "code": "14",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:4092c27f1fe0d9e9",
+   "title": "管线 HexemBio 管线扩展 + 融资",
+   "doi": "",
+   "code": "15",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:2902f4dddae9157b",
+   "title": "管线 Moonwalk Biosciences B 轮资金 + 开发推进",
+   "doi": "",
+   "code": "16",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:55562cbd4ee126d5",
+   "title": "管线 Vincere Biosciences 资助 + 适应症扩展",
+   "doi": "",
+   "code": "17",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:14d3701c5d15196d",
+   "title": "管线 BioViva USA Inc. 专利授权",
+   "doi": "",
+   "code": "18",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:c9d5fee3aeebe160",
+   "title": "管线 Celularity × MuseCell Innovations（MCI） 生产合作（非临床进展）",
+   "doi": "",
+   "code": "19",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:5fadf90eacb5ec9a",
+   "title": "管线 Retro Biosciences I 期剂量与入组调整",
+   "doi": "",
+   "code": "20",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 1.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:44e0a2c905d6cb2b",
+   "title": "管线 GlycanAge × ExoEarth Corporation MOU 签署（商业化 + 联合研究）",
+   "doi": "",
+   "code": "21",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:1c2efcc91d804c09",
+   "title": "管线 Elysium Health 服务落地（非疗法）",
+   "doi": "",
+   "code": "22",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:8bd8e71c34e3e7f1",
+   "title": "监管 中国（国家药监局/卫健委监管逻辑；人民日报健康客户端报道，央视采访佐证） — 明确\"衰老非疾病范畴，我国从未批准任何'抗衰老'适应证药品\"",
+   "doi": "",
+   "code": "23",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:69c6d6bad8325dea",
+   "title": "监管 美国 FDA（首席科学家表态，经中国媒体转述） — 暂无任何药物获批衰老适应证；不认可\"逆转生物年龄\"的药效评价标准",
+   "doi": "",
+   "code": "24",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:921c9389460c1e06",
+   "title": "监管 中国 CDE — Rentosertib 拟纳入/获突破性治疗品种认定",
+   "doi": "",
+   "code": "25",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:d5c2e2de2cf0b0cb",
+   "title": "监管 加拿大（Canada's Drug Agency / CDA-AMC） — lecanemab（LEQEMBI）最终正面报销推荐",
+   "doi": "",
+   "code": "26",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.20）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:afdb3eae0cacef18",
+   "title": "监管 美国 FDA（罕见病终点政策） — 重新评估罕见病试验标准与终点选择",
+   "doi": "",
+   "code": "27",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:c90395803700cae7",
+   "title": "监管 美国 FDA（503A/503B 散装物质清单） — \"长寿肽\"灰色市场监管状态",
+   "doi": "",
+   "code": "28",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:1940fb63e65880f9",
+   "title": "监管 美国 FDA（孤儿药资格，背景项） — Rentosertib 获 IPF 孤儿药资格",
+   "doi": "",
+   "code": "29",
+   "seen_in": [
+    "ima-pool-2026-10-13.md",
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "doi:10.64898/2026.10.12.758495",
+   "title": "Sex shapes capillary flows and oxygen extraction in the middle-aged mouse brain",
+   "doi": "10.64898/2026.10.12.758495",
+   "code": "3",
+   "seen_in": [
+    "pipeline-summary-2026-10-18.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.64898/2026.10.12.758495，标题相似 0.00，词元重叠 0.25）"
+  },
+  {
+   "fingerprint": "doi:10.64898/2026.10.16.759405",
+   "title": "Determining cellular phylogeny and migration at high resolution",
+   "doi": "10.64898/2026.10.16.759405",
+   "code": "4",
+   "seen_in": [
+    "pipeline-summary-2026-10-18.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.64898/2026.10.16.759405，标题相似 0.00，词元重叠 0.25）"
+  },
+  {
+   "fingerprint": "doi:10.64898/2026.10.15.759313",
+   "title": "Multi-parametric spectral modeling disentangles synaptic kinetics",
+   "doi": "10.64898/2026.10.15.759313",
+   "code": "5",
+   "seen_in": [
+    "pipeline-summary-2026-10-18.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.64898/2026.10.15.759313，标题相似 0.00，词元重叠 0.20）"
+  },
+  {
+   "fingerprint": "doi:10.64898/2026.10.11.758328",
+   "title": "Action-related brain dynamics during leader-follower coordination",
+   "doi": "10.64898/2026.10.11.758328",
+   "code": "6",
+   "seen_in": [
+    "pipeline-summary-2026-10-18.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.64898/2026.10.11.758328，标题相似 0.00，词元重叠 0.33）"
+  },
+  {
+   "fingerprint": "doi:10.64898/2026.10.12.758428",
+   "title": "Cooperative processing of visual threat across collicular pathways",
+   "doi": "10.64898/2026.10.12.758428",
+   "code": "7",
+   "seen_in": [
+    "pipeline-summary-2026-10-18.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.64898/2026.10.12.758428，标题相似 0.00，词元重叠 0.20）"
+  },
+  {
+   "fingerprint": "doi:10.64898/2026.10.12.758429",
+   "title": "Exposure to childhood adversity and adult alcohol/nicotine use",
+   "doi": "10.64898/2026.10.12.758429",
+   "code": "8",
+   "seen_in": [
+    "pipeline-summary-2026-10-18.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.64898/2026.10.12.758429，标题相似 0.00，词元重叠 0.33）"
+  },
+  {
+   "fingerprint": "doi:10.64898/2026.10.12.758476",
+   "title": "LIF is a pro-algesic mediator in human and mouse models",
+   "doi": "10.64898/2026.10.12.758476",
+   "code": "9",
+   "seen_in": [
+    "pipeline-summary-2026-10-18.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.64898/2026.10.12.758476，标题相似 0.00，词元重叠 0.25）"
+  },
+  {
+   "fingerprint": "doi:10.64898/2026.10.12.758423",
+   "title": "DNA-Encoded Library-Guided Discovery of a First-in-Class Molecule",
+   "doi": "10.64898/2026.10.12.758423",
+   "code": "10",
+   "seen_in": [
+    "pipeline-summary-2026-10-18.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.64898/2026.10.12.758423，标题相似 0.00，词元重叠 0.50）"
+  },
+  {
+   "fingerprint": "doi:10.64898/2026.10.12.758406",
+   "title": "CAPO: Compute-Aware Automated Protein-Model Optimization（词表噪声）",
+   "doi": "10.64898/2026.10.12.758406",
+   "code": "11",
+   "seen_in": [
+    "pipeline-summary-2026-10-18.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.64898/2026.10.12.758406，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01177-0",
+   "title": "Physical activity delays ovarian aging in part through adiponectin-related signaling pathways",
+   "doi": "10.1038/s43587-026-01177-0",
+   "code": "N5",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1038/s43587-026-01177-0，标题相似 0.00，词元重叠 0.33）"
+  },
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01230-y",
+   "title": "The chemical fingerprint of cellular senescence",
+   "doi": "10.1038/s43587-026-01230-y",
+   "code": "N11",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1038/s43587-026-01230-y，标题相似 0.00，词元重叠 0.50）"
+  },
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01189-w",
+   "title": "Turning CDK4/6 inhibitors against the dark side of senescence（News & Views，评述 N3）",
+   "doi": "10.1038/s43587-026-01189-w",
+   "code": "N13",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1038/s43587-026-01189-w，标题相似 0.00，词元重叠 1.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70716",
+   "title": "Synaptic Mitochondrial Oxidative Stress Contributes to Individual Variability in Age-Related Cognitive Inflexibility in Mice",
+   "doi": "10.1111/acel.70716",
+   "code": "A2",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1111/acel.70716，标题相似 0.00，词元重叠 0.50）"
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70710",
+   "title": "Mitochondrial Haplotype Shapes the Trajectory of Ovarian Aging in Genetically Heterogeneous Rats",
+   "doi": "10.1111/acel.70710",
+   "code": "A6",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1111/acel.70710，标题相似 0.00，词元重叠 0.50）"
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70664",
+   "title": "Oxygenaging: A Physiological Framework for Geroscience（Review）",
+   "doi": "10.1111/acel.70664",
+   "code": "A8",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1111/acel.70664，标题相似 0.00，词元重叠 0.33）"
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70683",
+   "title": "Network Model to Predict Age-Related Transcriptional Reprogramming",
+   "doi": "10.1111/acel.70683",
+   "code": "A9",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1111/acel.70683，标题相似 0.00，词元重叠 0.50）"
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70696",
+   "title": "Tissue-Level Transcriptomic Entropy Reveals Organ-Specific Aging Patterns and Predicts Cancer Progression",
+   "doi": "10.1111/acel.70696",
+   "code": "A10",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1111/acel.70696，标题相似 0.00，词元重叠 0.33）"
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70701",
+   "title": "hUC-MSC Secretome Improves Skin Photoaging by Enhancing Mitophagy to Inhibit the cGAS-STING Pathway",
+   "doi": "10.1111/acel.70701",
+   "code": "A11",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1111/acel.70701，标题相似 0.00，词元重叠 0.40）"
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70675",
+   "title": "The Thymic Microenvironment Shapes Age-Related Qualitative Changes in the TCR Repertoire",
+   "doi": "10.1111/acel.70675",
+   "code": "A13",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1111/acel.70675，标题相似 0.00，词元重叠 0.25）"
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70674",
+   "title": "Molecular Mechanisms of Age-Related Taste Dysfunction Deciphered by Spatiotemporal Transcriptomics",
+   "doi": "10.1111/acel.70674",
+   "code": "A15",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1111/acel.70674，标题相似 0.00，词元重叠 0.33）"
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02546-8",
+   "title": "Ketone ester supplementation in aged mice produces sex-specific cognitive and metabolic effects",
+   "doi": "10.1007/s11357-026-02546-8",
+   "code": "G2",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1007/s11357-026-02546-8，标题相似 0.00，词元重叠 0.50）"
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02523-1",
+   "title": "Apolipoprotein-rich electronegative HDL accelerates vascular aging and atherosclerosis by inducing endothelial senescence",
+   "doi": "10.1007/s11357-026-02523-1",
+   "code": "G4",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1007/s11357-026-02523-1，标题相似 0.00，词元重叠 0.50）"
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02532-0",
+   "title": "The TyrRS cascade: circadian gating of neuronal DNA repair and its collapse in aging（Review）",
+   "doi": "10.1007/s11357-026-02532-0",
+   "code": "G5",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1007/s11357-026-02532-0，标题相似 0.00，词元重叠 0.67）"
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02543-x",
+   "title": "Accelerated aging as a key mechanism linking diet quality to cardiovascular disease（UK Biobank）",
+   "doi": "10.1007/s11357-026-02543-x",
+   "code": "G10",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1007/s11357-026-02543-x，标题相似 0.00，词元重叠 0.33）"
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02557-5",
+   "title": "A two-step model of age-associated autoreactivity: B cell-intrinsic aging meets inflammaging（Review）",
+   "doi": "10.1007/s11357-026-02557-5",
+   "code": "G11",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1007/s11357-026-02557-5，标题相似 0.00，词元重叠 0.33）"
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02464-9",
+   "title": "Hyaluronan deficiency disrupts endothelial glycocalyx integrity and contributes to age-related arterial dysfunction",
+   "doi": "10.1007/s11357-026-02464-9",
+   "code": "G12",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1007/s11357-026-02464-9，标题相似 0.00，词元重叠 0.25）"
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02498-z",
+   "title": "The Arlington study of healthy aging（ASHA）cohort profile",
+   "doi": "10.1007/s11357-026-02498-z",
+   "code": "G14",
+   "seen_in": [
+    "cards_2026-09-25.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1007/s11357-026-02498-z，标题相似 0.00，词元重叠 0.33）"
+  },
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01221-z",
+   "title": "A cross-species single-cell kidney epigenome atlas reveals epithelial-dominant aging-like states in disease",
+   "doi": "10.1038/s43587-026-01221-z",
+   "code": "N4",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1038/s43587-026-01221-z，标题相似 0.00，词元重叠 0.50）"
+  },
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01224-w",
+   "title": "GLP-1 receptor agonism extends median lifespan in mice（研究亮点）",
+   "doi": "10.1038/s43587-026-01224-w",
+   "code": "N5",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1038/s43587-026-01224-w，标题相似 0.00，词元重叠 0.67）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01180-5",
+   "title": "Sex-specific aging clocks from a large-scale human phenome reveal distinct aging transitions and circulating signatures",
+   "doi": "10.1038/s43587-026-01180-5",
+   "code": "N10",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1038/s43587-026-01180-5，标题相似 0.00，词元重叠 0.40）"
+  },
+  {
+   "fingerprint": "doi:10.1016/j.cmet.2026.08.009",
+   "title": "Aging microenvironment induces CD8⁺ T cell exhaustion by suppressing hepatic β-hydroxybutyrylate synthesis",
+   "doi": "10.1016/j.cmet.2026.08.009",
+   "code": "M2",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1016/j.cmet.2026.08.009，标题相似 0.00，词元重叠 0.50）"
+  },
+  {
+   "fingerprint": "doi:10.1016/j.cmet.2026.09.003",
+   "title": "Microbial aldehyde-alcohol dehydrogenase degrades metformin to limit therapeutic response in type 2 diabetes",
+   "doi": "10.1016/j.cmet.2026.09.003",
+   "code": "M5",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1016/j.cmet.2026.09.003，标题相似 0.00，词元重叠 0.33）"
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70737",
+   "title": "A Deep-Learning Based Biomarker of Systemic Cellular Senescence Burden to Predict Mortality and Health Outcomes",
+   "doi": "10.1111/acel.70737",
+   "code": "A3",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1111/acel.70737，标题相似 0.00，词元重叠 0.67）"
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70734",
+   "title": "Autophagy Flux Is Remodeled Sex- and Cell Type-Specifically During Human Aging…",
+   "doi": "10.1111/acel.70734",
+   "code": "A4",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1111/acel.70734，标题相似 0.00，词元重叠 0.33）"
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70743",
+   "title": "Organ-Specific Proteomic Aging Clocks Reveal Complexities Underlying the Healthy Drinking Paradox",
+   "doi": "10.1111/acel.70743",
+   "code": "A5",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1111/acel.70743，标题相似 0.00，词元重叠 0.40）"
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70720",
+   "title": "Mitochondrial Transplantation Rejuvenates Aging Heart by Restoring Mitophagy Flux via the HIF-3α-BNIP3 Axis",
+   "doi": "10.1111/acel.70720",
+   "code": "A7",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1111/acel.70720，标题相似 0.00，词元重叠 0.50）"
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70730",
+   "title": "Therapeutic Immune Reprogramming by Rapamycin Attenuates Plaque Inflammation…",
+   "doi": "10.1111/acel.70730",
+   "code": "A8",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1111/acel.70730，标题相似 0.00，词元重叠 0.50）"
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70735",
+   "title": "Single-Cell Mapping Identifies Aging-Associated Neutrophil Remodeling Across Multiple Organs",
+   "doi": "10.1111/acel.70735",
+   "code": "A9",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1111/acel.70735，标题相似 0.00，词元重叠 0.33）"
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70733",
+   "title": "From Regenerative to Degenerative Niche: Multicellular Crosstalk and Population Dynamics in Skeletal Muscle Aging",
+   "doi": "10.1111/acel.70733",
+   "code": "A10",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1111/acel.70733，标题相似 0.00，词元重叠 0.50）"
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70700",
+   "title": "AAV9 递送腺嘌呤碱基编辑器体内修正 LMNA c.1824C>T：体外近 40% 校正，体内 P3/P14/1 月/4 月给药 6 月龄骨组织校正率约 14%/22%/10%/<1%，P14 组骨结构与转录程序部分挽救",
+   "doi": "10.1111/acel.70700",
+   "code": "A15",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1111/acel.70700，标题相似 0.00，词元重叠 0.33）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70693",
+   "title": "放化疗后清除 p16⁺ 细胞的时机决定疗效：照射后 1 月清除无效，4 月清除显著减轻衰弱、改善神经肌肉/认知、恢复血脑屏障与肝代谢、提高中位生存（雌鼠获益最大）",
+   "doi": "10.1111/acel.70693",
+   "code": "A16",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1111/acel.70693，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70718",
+   "title": "Review：论证mtDNA 异质性克隆嵌合构成可量化的组织特异分子时钟，梳理中性漂变 vs 细胞选择之争、双相累积特征及与炎症老化/细胞衰老的下游连接",
+   "doi": "10.1111/acel.70718",
+   "code": "A17",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1111/acel.70718，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70706",
+   "title": "UC 中 NAD⁺ 代谢失调→线粒体功能障碍→mtDNA 泄漏→cGAS-STING→CD8⁺ T 细胞衰老；该\"衰老-代谢\"特征预示重症与生物制剂无应答，senolytic 显著减轻病情",
+   "doi": "10.1111/acel.70706",
+   "code": "A18",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1111/acel.70706，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02362-0",
+   "title": "Study protocol for FAXAge: a randomized, controlled clinical trial of fasting and exercise to slow aging in humans",
+   "doi": "10.1007/s11357-026-02362-0",
+   "code": "G1",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1007/s11357-026-02362-0，标题相似 0.00，词元重叠 0.50）"
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02554-8",
+   "title": "Autologous cytokine-induced NK cells as candidate cellular senolytics: evidence, obstacles…",
+   "doi": "10.1007/s11357-026-02554-8",
+   "code": "G2",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1007/s11357-026-02554-8，标题相似 0.00，词元重叠 0.33）"
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-025-01959-1",
+   "title": "Nicotinamide riboside supplementation restores microglial health and improves cognition in aged male mice",
+   "doi": "10.1007/s11357-025-01959-1",
+   "code": "G3",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1007/s11357-025-01959-1，标题相似 0.00，词元重叠 0.33）"
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-025-02029-2",
+   "title": "Multi-omic analysis of canine aging uncovers conserved aging pathways",
+   "doi": "10.1007/s11357-025-02029-2",
+   "code": "G4",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1007/s11357-025-02029-2，标题相似 0.00，词元重叠 0.25）"
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02429-y",
+   "title": "LINE-1 CpG methylation in canine blood and cortical DNA tracks epigenetic changes with age",
+   "doi": "10.1007/s11357-026-02429-y",
+   "code": "G5",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1007/s11357-026-02429-y，标题相似 0.00，词元重叠 0.50）"
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-025-02028-3",
+   "title": "Discrimination of normal from slow-aging mice by plasma metabolomic and proteomic features",
+   "doi": "10.1007/s11357-025-02028-3",
+   "code": "G6",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1007/s11357-025-02028-3，标题相似 0.00，词元重叠 0.33）"
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-025-02043-4",
+   "title": "Western Hunter-Gatherer genetic ancestry contributes to human longevity in the Italian population",
+   "doi": "10.1007/s11357-025-02043-4",
+   "code": "G7",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1007/s11357-025-02043-4，标题相似 0.00，词元重叠 0.20）"
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-025-02019-4",
+   "title": "Ovarian somatic tissue rejuvenates circulating apolipoproteins and promotes cognitive health in postreproductive female mice",
+   "doi": "10.1007/s11357-025-02019-4",
+   "code": "G8",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1007/s11357-025-02019-4，标题相似 0.00，词元重叠 0.50）"
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-025-02017-6",
+   "title": "Longevity-driven hepatic transcriptional programs mediate resilience to diet-induced liver injury in Ames dwarf mice",
+   "doi": "10.1007/s11357-025-02017-6",
+   "code": "G9",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1007/s11357-025-02017-6，标题相似 0.00，词元重叠 0.33）"
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-025-02022-9",
+   "title": "Intervertebral disc degeneration is accelerated by GH overexpression but attenuated by GH antagonism",
+   "doi": "10.1007/s11357-025-02022-9",
+   "code": "G10",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1007/s11357-025-02022-9，标题相似 0.00，词元重叠 0.50）"
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02550-y",
+   "title": "Dietary pattern and epigenetic aging: a longitudinal twin study",
+   "doi": "10.1007/s11357-026-02550-y",
+   "code": "G12",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1007/s11357-026-02550-y，标题相似 0.00，词元重叠 0.40）"
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-025-02035-4",
+   "title": "Effect of fasting-mimicking diet on markers of autophagy and metabolic health in human subjects",
+   "doi": "10.1007/s11357-025-02035-4",
+   "code": "G13",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1007/s11357-025-02035-4，标题相似 0.00，词元重叠 0.33）"
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02425-2",
+   "title": "Circulating factors induced by time-restricted eating drive metabolic reprogramming in endothelial cells",
+   "doi": "10.1007/s11357-026-02425-2",
+   "code": "G14",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1007/s11357-026-02425-2，标题相似 0.00，词元重叠 0.50）"
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02443-0",
+   "title": "Epigenetic aging biomarkers in dietary geroscience: feasibility, participant perceptions, and trial design considerations",
+   "doi": "10.1007/s11357-026-02443-0",
+   "code": "G15",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1007/s11357-026-02443-0，标题相似 0.00，词元重叠 0.40）"
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02515-1",
+   "title": "Therapeutic potential of MitoQ, a mitochondria-targeted antioxidant, in age-related physiological dysfunction",
+   "doi": "10.1007/s11357-026-02515-1",
+   "code": "G16",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1007/s11357-026-02515-1，标题相似 0.00，词元重叠 0.40）"
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02421-6",
+   "title": "Senescent cardiac cells promote thrombus formation and impair fibrinolysis",
+   "doi": "10.1007/s11357-026-02421-6",
+   "code": "G17",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1007/s11357-026-02421-6，标题相似 0.00，词元重叠 0.50）"
+  },
+  {
+   "fingerprint": "doi:10.1016/j.cell.2026.08.010",
+   "title": "Tabula Sapiens 2.0: A comprehensive transcriptomic atlas of human cell types",
+   "doi": "10.1016/j.cell.2026.08.010",
+   "code": "C3",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1016/j.cell.2026.08.010，标题相似 0.00，词元重叠 0.33）"
+  },
+  {
+   "fingerprint": "doi:10.1016/j.cell.2026.06.035",
+   "title": "CSF clearance through arachnoid fenestrations to olfactory meningeal lymphatics",
+   "doi": "10.1016/j.cell.2026.06.035",
+   "code": "C4",
+   "seen_in": [
+    "cards_2026-10-02.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1016/j.cell.2026.06.035，标题相似 0.00，词元重叠 0.25）"
+  },
+  {
+   "fingerprint": "t:0b876ab0a448531a",
+   "title": "Undecimal Bio",
+   "doi": "",
+   "code": "1",
+   "seen_in": [
+    "ind_2026-10-14.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）"
+  },
+  {
+   "fingerprint": "t:79bcc57a386a5ac7",
+   "title": "皮下微传感器连续多分子监测（葡萄糖首发，长期指向代谢健康）",
+   "doi": "",
+   "code": "3",
+   "seen_in": [
+    "ind_2026-10-14.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:87c071b666572b57",
+   "title": "细胞内生产 mRNA（VECTOR 平台：AI 序列设计 + 工程化活细胞生产），面向需高剂量/重复给药的疗法",
+   "doi": "",
+   "code": "4",
+   "seen_in": [
+    "ind_2026-10-14.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 1.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:b31b0ce79dd0cc04",
+   "title": "合成生物学抗衰原料：重组胶原蛋白、稀有人参皂苷 CK、维生素 K2、胞苷酸",
+   "doi": "",
+   "code": "5",
+   "seen_in": [
+    "ind_2026-10-14.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:312ebe15946771b9",
+   "title": "临床 AI：持续分析 EHR 识别住院患者未诊断疾病（营养不良、心衰、院内感染等）",
+   "doi": "",
+   "code": "7",
+   "seen_in": [
+    "ind_2026-10-14.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:cff2c2103d460c59",
+   "title": "2026-10-12（LT 报道；原始公告称于世界阿尔茨海默病日发布，具体日期待核实）",
+   "doi": "",
+   "code": "4",
+   "seen_in": [
+    "ind_2026-10-14.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:de1cf4fcf0b264f6",
+   "title": "试验做对了仍可能因终点口径分歧而不获批；本次对齐结果将成为\"以症状为终点\"的神经退行性病路径样本，对衰老领域设计终点有直接借鉴价值",
+   "doi": "",
+   "code": "2",
+   "seen_in": [
+    "ind_2026-10-14.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:8ded011535bf9eeb",
+   "title": "作者的措辞是\"半开\"而非\"打开\"——所述路径全部处于提议/提交/资助阶段而非已生效。新监管类别通常以此为起点：先有人在同一年就\"缺什么\"达成一致",
+   "doi": "",
+   "code": "3",
+   "seen_in": [
+    "ind_2026-10-14.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:ff964fad2f8e2488",
+   "title": "与衰老研究间接相关：涉及\"抗衰\"化妆品原料与功效宣称的合规边界，国内抗衰原料（如重组胶原蛋白、稀有人参皂苷等合成生物学原料）商业化需同步跟踪",
+   "doi": "",
+   "code": "4",
+   "seen_in": [
+    "ind_2026-10-14.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70751",
+   "title": "可时序追踪的去衰老模型；化合物筛选平台",
+   "doi": "10.1111/acel.70751",
+   "code": "7",
+   "seen_in": [
+    "meta_2026-10.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=10.1111/acel.70751，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:28634514d749f90f",
+   "title": "AI 驱动的干预发现范式；口腔微生物组新轴线",
+   "doi": "",
+   "code": "9",
+   "seen_in": [
+    "meta_2026-10.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:1581c57f239e9d6d",
+   "title": "NAD+ 跨器官信号；Serpina3n 新分泌因子",
+   "doi": "",
+   "code": "10",
+   "seen_in": [
+    "meta_2026-10.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:c55906cf64289d33",
+   "title": "权威领域复盘；对 senolytics 的冷静评估",
+   "doi": "",
+   "code": "11",
+   "seen_in": [
+    "meta_2026-10.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:efd4e05fc7f33f00",
+   "title": "ER-100 剂量水平 2（6×10¹¹ vg）安全性与疗效数据",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:eacc7e33c4cd2e39",
+   "title": "D+Q 治疗 MASH 的大型确证试验是否启动、终点如何选择",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:ceedad2ef07d2646",
+   "title": "AMPK 直接激活剂 991 的小鼠数据",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:328ceeb08f10e344",
+   "title": "TAME 试验融资是否出现实质性进展",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:22db6767114a7bb5",
+   "title": "TranslAGE 后续：DunedinPACE / PCGrimAge 是否被确立为试验首选终点",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.33）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:d470d4ad47775e61",
+   "title": "N. flavescens 是否进入人体概念验证",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:3458455d5b3253a9",
+   "title": "心磷脂方向：elamipretide 用于年龄相关肌少症的再定位信号",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:c0e28a1a4021d69a",
+   "title": "跨物种表观时钟（犬）向人类体型–衰老权衡的迁移研究",
+   "doi": "",
+   "code": "",
+   "seen_in": [
+    "meta_2026-10.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:6e5d6dca460cc7ab",
+   "title": "交叉判定=A；置信度=中",
+   "doi": "",
+   "code": "17",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  },
+  {
+   "fingerprint": "t:0aa5f42df2b68ddf",
+   "title": "交叉判定=A（时钟外部验证）；置信度=中高",
+   "doi": "",
+   "code": "18",
+   "seen_in": [
+    "pool_2026-10-13.md"
+   ],
+   "status": "漏收",
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+  }
+ ],
+ "orphan_count": 564,
+ "orphan_sample": [
+  "3D-Culture-Reverses-Limbal-Niche-AgingCell-2026.html",
+  "7-Ketocholesterol-Derivatives-Pathophysiology.html",
+  "AAV-FGF21-Gene-Therapy-Healthspan-Lifespan-2026.html",
+  "ADPHC-Ultrahuman-Biological-Health-Age-Public-Health-MOU.html",
+  "AGEs-Glycation-Tissue-Stiffness-2026.html",
+  "AHR-Inhibition-Axon-Regeneration-Nature-2026.html",
+  "AMPK-Direct-Activation-991-Lifespan-AgingCell-2026.html",
+  "ANP-Gene-Therapy-Heart-Regeneration.html",
+  "AP1-Lung-Fibrosis-ECM-Program-2026.html",
+  "APOE2-DNA-Repair-Neuronal-Aging-2026.html",
+  "APOE2-Pericytes-Blood-Brain-Barrier-Resilience-Brain-2026.html",
+  "APOE4-Drosophila-Cognitive-Decline-2026.html",
+  "AQP4-TGN073-Glymphatic-Tau-Pathology-MolNeurodegener-2026.html",
+  "ARDD-2026-to-relocate-to-Bosto.html",
+  "ARDD-2026-to-relocate-to-Boston.html",
+  "ATF5-Muscle-Mass-Quality-Aging-2026.html",
+  "Acid-Base-Dysregulation-Aging-Metabolism-Frailty-2026.html",
+  "Adaptive-Cost-Hypothesis-NCDs-Evolvable-Lifespan-2026.html",
+  "Age-Associated-Gut-Microbiota-Dysbiosis-Impairs-AgingCell-2026.html",
+  "Aged-Microbiota-Fecal-Transplant-Bama-Pig-2026.html"
+ ],
+ "note": "missing 必须逐条人工核对后再写稿。判定为「漏收」只代表三路均未命中，不是结论——中文摘要条目尤其需要用中文关键词直接搜站内。"
 }

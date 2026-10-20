@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>血浆 p-tau217 不是万能的：AUROC 从 0.95 掉到 0.79，取决于你问哪个轴 — LongBiosci</title>
+    <meta name="description" content="曼彻斯特大学团队在 ADNI 上把 AT(N) 拆成五类任务分别评估：血浆 p-tau217 对 A 轴和 T 轴表现优异（AUROC 0.94 量级），但在 A+ 人群内部判别 T 阳性（0.8852）与 MRI 定义的神经变性 N 轴（0.7865）明显下滑。90% 灵敏度下，特异度从 87.5% 掉到 60.7%。">
+    <link rel="canonical" href="https://longbiosci.com/news/Plasma-PTau217-ATN-Axis-Performance-Boundaries-ADNI-medRxiv-2026.html">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://longbiosci.com/news/Plasma-PTau217-ATN-Axis-Performance-Boundaries-ADNI-medRxiv-2026.html">
+    <meta property="og:title" content="血浆 p-tau217 不是万能的：AUROC 从 0.95 掉到 0.79，取决于你问哪个轴">
+    <meta property="og:description" content="曼彻斯特大学团队在 ADNI 上把 AT(N) 拆成五类任务分别评估：血浆 p-tau217 对 A 轴和 T 轴表现优异（AUROC 0.94 量级），但在 A+ 人群内部判别 T 阳性（0.8852）与 MRI 定义的神经变性 N 轴（0.7865）明显下滑。90% 灵敏度下，特异度从 87.5% 掉到 60.7%。">
+    <meta property="og:image" content="https://longbiosci.com/og-image.png">
+    <meta property="og:site_name" content="LongBiosci">
+    <meta property="article:published_time" content="2026-10-20T00:00:00Z">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="血浆 p-tau217 不是万能的：AUROC 从 0.95 掉到 0.79，取决于你问哪个轴">
+    <meta name="twitter:description" content="曼彻斯特大学团队在 ADNI 上把 AT(N) 拆成五类任务分别评估：血浆 p-tau217 对 A 轴和 T 轴表现优异（AUROC 0.94 量级），但在 A+ 人群内部判别 T 阳性（0.8852）与 MRI 定义的神经变性 N 轴（0.7865）明显下滑。90% 灵敏度下，特异度从 87.5% 掉到 60.7%。">
+    <meta name="twitter:image" content="https://longbiosci.com/og-image.png">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/svg+xml" href="/favicon-dark.svg" media="(prefers-color-scheme: dark)">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="stylesheet" href="/style.css">
+    <script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "url": "https://longbiosci.com/news/Plasma-PTau217-ATN-Axis-Performance-Boundaries-ADNI-medRxiv-2026.html",
+  "headline": "血浆 p-tau217 不是万能的：AUROC 从 0.95 掉到 0.79，取决于你问哪个轴",
+  "description": "曼彻斯特大学团队在 ADNI 上把 AT(N) 拆成五类任务分别评估：血浆 p-tau217 对 A 轴和 T 轴表现优异（AUROC 0.94 量级），但在 A+ 人群内部判别 T 阳性（0.8852）与 MRI 定义的神经变性 N 轴（0.7865）明显下滑。90% 灵敏度下，特异度从 87.5% 掉到 60.7%。",
+  "image": "https://longbiosci.com/og-image.png",
+  "author": {
+    "@type": "Organization",
+    "name": "LongBiosci 编辑部"
+  },
+  "datePublished": "2026-10-20",
+  "publisher": {
+    "@type": "Organization",
+    "name": "LongBiosci",
+    "url": "https://longbiosci.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://longbiosci.com/og-image.png",
+      "width": 836,
+      "height": 257
+    }
+  },
+  "inLanguage": "zh-CN"
+}
+    </script>
+    <script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "首页",
+      "item": "https://longbiosci.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "新闻",
+      "item": "https://longbiosci.com/news/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "ADNI 分轴评估：A 0.9425 / T 0.9495 / T-within-A+ 0.8852 / N 0.7865",
+      "item": "https://longbiosci.com/news/Plasma-PTau217-ATN-Axis-Performance-Boundaries-ADNI-medRxiv-2026.html"
+    }
+  ]
+}
+    </script>
+<link rel="stylesheet" href="/poster.css">
+<script src="/qr.js" defer></script>
+<script src="/poster.js" defer data-tier="c" data-topic="方法与工具"></script>
+<!-- longbiosci:analytics 无 Cookie、无跨站追踪、不收集身份信息；详见 /privacy/ -->
+<script defer src="https://cloud.umami.is/script.js" data-website-id="bfb60723-d93d-4925-b1a2-d7ef51b9014c" data-do-not-track="true"></script>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">跳转到主要内容</a>
+<header class="site-header">
+    <nav class="wrap" aria-label="主导航">
+        <a href="/" class="brand"><img src="/logo-mark.svg" alt="" class="brand-mark" width="28" height="28"><span class="brand-name">LongBiosci</span></a>
+        <div class="main-nav">
+      <a href="/">首页</a>
+      <a href="/news/" aria-current="page">最新</a>
+      <a href="/topics/" aria-label="主题专辑"><span class="nav-mq">主题</span>专辑</a>
+      <a href="/guide/" aria-label="热词专题">热词<span class="nav-mq">专题</span></a>
+      <a href="/research/" aria-label="概念与工具">概念<span class="nav-mq">与工具</span></a>
+      <a href="/daily/">周刊</a>
+      <a href="/evidence/" aria-label="证据分级">证据<span class="nav-mq">分级</span></a>
+      <a href="/trials.html" aria-label="临床试验">临床<span class="nav-mq">试验</span></a>
+      <a href="/industry/">产业</a>
+      <a href="/podcast/" aria-label="播客">播<span class="nav-mq">客</span></a>
+      <a href="/about/">关于</a>
+      <a href="/search.html" class="nav-search" aria-label="站内搜索"><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="6.8" cy="6.8" r="4.6" fill="none" stroke="currentColor" stroke-width="1.6"/><line x1="10.3" y1="10.3" x2="14" y2="14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><span class="nav-search-text">搜索</span></a>
+    </div>
+    </nav>
+</header>
+
+    <main class="article-container" id="main-content">
+        <nav class="breadcrumb" aria-label="面包屑导航">
+            <a href="/">首页</a> &gt; <a href="/news/">新闻</a> &gt; <span aria-current="page">ADNI 分轴评估：A 0.9425 / T 0.9495 / T-within-A+ 0.8852 / N 0.7865</span>
+        </nav>
+
+        <article>
+            <header class="article-header">
+                <span class="tag">预印本</span>
+                <span class="date"><time datetime="2026-10-20">Tue, 20 Oct</time></span>
+                <h1>血浆 p-tau217 不是万能的：AUROC 从 0.95 掉到 0.79，取决于你问哪个轴</h1>
+                <p class="source">来源：<em>medRxiv</em>（neurology）· 预印本：Performance boundaries of plasma-centred prediction across PET- and MRI-defined AT(N): QC-first internal validation in ADNI with separate axis-specific assessments · DOI <a href="https://doi.org/10.64898/2026.10.15.26365631" target="_blank" rel="noopener noreferrer">10.64898/2026.10.15.26365631</a> · 通讯 Fumie Costen（曼彻斯特大学） · 来源：IMA 知识库《预印本速递》2026-10-20 期 + <b>medRxiv 官方摘要原文一手拉取核验</b>（摘要 2,264 字符，未获取全文）</p>
+            </header>
+
+            <div class="article-content">
+<p>血浆 p-tau217 是当下 AD 血液标志物里风头最劲的一个，头条常常是「可以替代 PET 了」。
+但绝大多数验证是在<strong>混合队列</strong>里做的：把 A+ 的病人和 A− 的健康人放在一起对比，
+AUC 自然好看。这篇 medRxiv 预印本做了一件不太讨喜但必要的事——
+<strong>把 AT(N) 拆成五个子任务逐个考</strong>，看它在每个轴上到底能到什么水平。</p>
+
+<h2>任务与样本（ADNI）</h2>
+<table>
+<tr><th>轴 / 任务</th><th>总人数</th><th>阳性数</th></tr>
+<tr><td>A（淀粉样蛋白阳性，PET）</td><td>1,097</td><td>496</td></tr>
+<tr><td>T（tau 阳性，PET）</td><td>929</td><td>195</td></tr>
+<tr><td><strong>T within A+</strong>（A+ 内部判别 T）</td><td>361</td><td>161</td></tr>
+<tr><td>N（研究定义的海马神经变性，MRI）</td><td>1,303</td><td>248</td></tr>
+<tr><td>joint A+T+</td><td>852</td><td>161</td></tr>
+</table>
+<p>方法上值得点赞的一点：<strong>重复嵌套交叉验证，且预处理与校准都在折内进行</strong>
+（所谓 QC-first），避免了信息泄漏——这正是很多血浆标志物 AUC 虚高的常见原因。</p>
+
+<h2>核心结果：性能边界在哪</h2>
+<table>
+<tr><th>任务</th><th>AUROC（95% CI）</th></tr>
+<tr><td>A</td><td><strong>0.9425</strong>（0.9271–0.9562）</td></tr>
+<tr><td>T</td><td><strong>0.9495</strong>（0.9325–0.9645）</td></tr>
+<tr><td>T within A+</td><td>0.8852（0.8485–0.9163）</td></tr>
+<tr><td><strong>N（MRI 神经变性）</strong></td><td><strong>0.7865</strong>（0.7553–0.8151）</td></tr>
+<tr><td>joint A+T+</td><td>0.9614（0.9484–0.9726）</td></tr>
+</table>
+<p>更有临床冲击力的是<strong>固定高灵敏度</strong>时的表现：把灵敏度设定为 90%，
+T 轴整体特异度 <strong>87.5%</strong>，但<strong>局限在 A+ 人群内部</strong>时特异度仅 <strong>60.7%</strong>。</p>
+
+<h2>两个外部队列的补充证据</h2>
+<ul>
+<li><strong>Bio-Hermes（908 人；328 / 324 阳性）</strong>：在 p-tau217 之上加入血浆 Aβ40 与 Aβ42，
+AUROC 从 <strong>0.894 提升到 0.916</strong>（配对差 0.022，95% 条件区间 0.010–0.035），
+Brier 分数改善 −0.011（−0.017 至 −0.005）。<strong>改善是真的，但很小。</strong></li>
+<li><strong>A4 试验队列</strong>：序数化 p-tau217 对 A4 特异的内侧颞叶 tau-PET 终点，
+AUROC <strong>0.7356</strong>（0.6775–0.7907），平均精度 0.5657（0.4732–0.6677），
+Spearman ρ = 0.4718（0.3824–0.5528）。<strong>这是「单标志物判别条件性 T 阳性」的真实水平。</strong></li>
+</ul>
+
+<h2>边界：五条</h2>
+<ol>
+<li><strong>全部是内部验证。</strong>ADNI 的嵌套交叉验证再严格，也只是「同一批数据内部」；
+A4 与 Bio-Hermes 虽是独立队列，但其结果在各自<strong>特定轴、特定检测实现</strong>下才成立，
+作者自己在结论里就划了这个范围。</li>
+<li><strong>p-tau217 有多种检测试剂</strong>（摘要提到 Lilly 的检测试剂），
+不同检测之间的数值不可互换，本文结论不能平移到另一种 assay。</li>
+<li><strong>T-within-A+ 与 N 轴存在类别不平衡</strong>（161/361、248/1,303），
+AUROC 在不平衡场景下偏乐观，平均精度（仅 A4 给了 0.5657）才是更诚实的指标。</li>
+<li><strong>ADNI 本身不是临床代表性人群</strong>：参与者多为自愿入组、白人比例高，
+初级保健场景的性能会更低。</li>
+<li><strong>未经同行评议</strong>，且N 轴的「研究定义的海马神经变性」具体定义需待补全文。</li>
+</ol>
+
+<h2>为什么这篇值得占据一整个位置</h2>
+<p>它提供的是<strong>反驳弹药</strong>，而不是又一个「血液检测替代 PET」的好消息。
+具体可引用的两句是：<strong>「血浆 p-tau217 在 A+ 内部判别 tau 阳性时，90% 灵敏度下特异度只有 60.7%」</strong>，
+以及<strong>「对 MRI 定义的神经变性，AUROC 仅 0.7865」</strong>。
+今后在看到「血浆标志物已可替代影像」这类表述时，这两句是可以直接拿来校准的定量边界。</p>
+
+<div class="notice-box">
+    <p><span class="tier tier-c">C 级</span><strong>证据分级：C 级（预印本：未经同行评议，结论可能随审稿改变）</strong></p>
+    <p><strong>关于转载与本证据分级的说明：</strong>本篇由 LongBiosci 编辑部依据<strong>medRxiv / bioRxiv 官方摘要原文</strong>（本轮经 API 一手拉取并留存）整理，定量一律照抄原文，<strong>未做任何数值推算补全</strong>；凡摘要未给出的信息一律标注「待补全文」。</p>
+    <p><strong>为什么这篇人体数据也是 C 级：</strong>它是<strong>未经同行评议的预印本</strong>，按 <a href="/about/" target="_blank" rel="noopener noreferrer">本站公开的分级约定</a>只能标 C——数据来自人体不会抬高预印本的证据等级。</p>
+</div>
+
+            </div>
+
+            <div class="related-block"><h3>延伸阅读</h3><ul class="related-list"><li><a href="/news/P-Tau217-Cognitive-Impairment-Prediction-2026.html">血液 p-tau217 可预测 5 年内认知障碍风险</a></li><li><a href="/news/C2N-PrecivityAD2-Cambridge-Cognition-UK-Alzheimer-Diagnosis.html">血检 + 数字认知在英国全科诊所的阿尔茨海默诊断路径</a></li><li><a href="/news/Mnemonic-Discrimination-Aging-Alzheimer-Blood-Biomarker-2026.html">记忆辨别缺陷与 AD 血液标志物的关联</a></li></ul></div>
+<footer class="article-footer">
+                <a href="/news/" class="back-link">← 返回新闻列表</a>
+            </footer>
+        </article>
+    </main>
+
+    <footer class="site-footer">
+    <div class="wrap">
+        <p>© 2026 LongBiosci 编辑部 · 衰老与长寿科技资讯</p>
+        <a href="/rss.xml">RSS</a> · <!-- longbiosci:footer-stats -->匿名访问统计由 <a href="https://umami.is" target="_blank" rel="noopener">Umami</a> 提供（无 Cookie、不收集身份信息，详见 <a href="/privacy/">隐私政策</a>）<!--/longbiosci:footer-stats --> · <a href="/sitemap.xml">Sitemap</a> · <a href="/privacy/">隐私政策</a> · <a href="/about/">关于</a>
+    </div>
+</footer>
+
+<div class="read-progress" aria-hidden="true"><div class="read-progress-bar" id="readBar"></div></div>
+<button class="to-top" id="toTop" type="button" aria-label="回到顶部" title="回到顶部">↑</button>
+</body>
+</html>

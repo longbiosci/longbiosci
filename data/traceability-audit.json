@@ -1,22 +1,22 @@
 {
  "summary": {
-  "total": 557,
+  "total": 566,
   "level_counts": {
-   "强": 426,
+   "强": 435,
    "中": 131
   },
   "by_tier": {
    "A": {
-    "中": 27,
-    "强": 107
+    "强": 108,
+    "中": 27
    },
    "B": {
     "强": 226,
     "中": 89
    },
    "C": {
-    "中": 15,
-    "强": 93
+    "强": 101,
+    "中": 15
    }
   },
   "missing_doi": [
@@ -679,6 +679,115 @@
   "no_source": []
  },
  "articles": [
+  {
+   "slug": "Gut-Microbiome-Precedes-Symptomatic-Alzheimer-Amyloid-medRxiv-2026.html",
+   "title": "无症状人群的肠道菌群随脑内 Aβ 变化，但「先于」二字要先打折扣",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.15.26365677",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.15.26365677"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "LOSS-of-Chromosome-Y-AMD-UKBiobank-MultiOmic-2026.html",
+   "title": "Y 染色体丢失提前 12 年发出信号：22.3 万男性追踪出的「克隆嵌合—免疫—视网膜轴」",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1111/acel.70775",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1111/acel.70775",
+    "https://pubmed.ncbi.nlm.nih.gov/42894102/"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "MCI-Neuropsychiatric-Symptoms-MRI-Structure-Perfusion-medRxiv-2026.html",
+   "title": "MCI 的行为心理症状落在具体的脑结构与血流改变上，但样本只剩 18 人",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.15.26364284",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.15.26364284"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "ML-Lifespan-Extending-Compounds-Prediction-bioRxiv-2026.html",
+   "title": "用 XGBoost 筛延寿化合物：准确率 80.36% 好看，但 AUPRC 只有 0.52",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.16.759743",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.16.759743"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Memory-Intraindividual-Variability-Hippocampal-White-Matter-Latino-medRxiv-2026.html",
+   "title": "记性忽好忽坏这件事，指向白质而不是海马体积",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.15.26365658",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.15.26365658"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "PPTC7-Import-Arrest-Mitophagy-Pathway-Switch-bioRxiv-2026.html",
+   "title": "一个 phosphatase 的输入受阻，同时按下线粒体自噬两条通路的开关",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.16.759620",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.16.759620"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "PhenoAge-Cancer-Disease-Burden-Not-Biological-Aging-medRxiv-2026.html",
+   "title": "PhenoAge 在癌症患者身上读到的可能不是「衰老」，而是肿瘤负荷",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.15.26365671",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.15.26365671"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Plasma-PTau217-ATN-Axis-Performance-Boundaries-ADNI-medRxiv-2026.html",
+   "title": "血浆 p-tau217 不是万能的：AUROC 从 0.95 掉到 0.79，取决于你问哪个轴",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.15.26365631",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.15.26365631"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "STING-Deficiency-Extends-Median-Lifespan-Mice-bioRxiv-2026.html",
+   "title": "STING 缺失延长小鼠中位寿命并缓解肝脏老化，但定量全部待补",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.16.759663",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.16.759663"
+   ],
+   "level": "强"
+  },
   {
    "slug": "Alpha-Klotho-Deficient-Rats-Phosphorus-Restriction-Breeding-2026.html",
    "title": "α-Klotho 缺陷大鼠终于能养到第五代了：靠的是母体低磷饮食，不是基因改造",

@@ -387,7 +387,10 @@ def judge(item, slugs, titles, dois, mech):
     # 让整批产出的查重直接崩掉（实测 2026-10-15 预印本 65 条全部报废）。
     tob, ts = 0.0, ("", [])
     if len(tt) >= 2:
-        for slug in slugs:
+        # 必须 sorted()：slugs 是 set，迭代顺序受 PYTHONHASHSEED 影响。
+        # 得分并列时赢家不唯一，而判据含 len(ts[1]) >= 3 —— 不排序会让查重结论
+        # 在同一批输入上反复横跳（与 ledger.py:150 是同一个缺陷的两处副本）。
+        for slug in sorted(slugs):
             r, inter = token_overlap(tt, slug_tokens(slug))
             if r > tob:
                 tob, ts = r, (slug, inter)

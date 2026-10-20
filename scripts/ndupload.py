@@ -81,7 +81,14 @@ def main():
     if r.returncode != 0 or r.stderr.strip():
         print(f"✗ PUT 失败 exit={r.returncode}\n{r.stderr[:400]}")
         return 1
-    print("✓ PUT 完成")
+    # 关键：COS 出错时返回的是 exit=0 + 空 stderr + XML <Error> 正文。
+    # 只看 returncode/stderr 会把「签名错 → 内容根本没传上去」判成成功，
+    # 于是后面照常落库，网盘里存的还是旧内容——比直接报错更危险。
+    body = (r.stdout or "").lstrip()
+    if body.startswith("<?xml") or "<Error>" in body[:200]:
+        print(f"✗ PUT 被服务端拒绝（exit=0 但返回 XML 错误体）：\n{body[:400]}")
+        return 1
+    print("✓ PUT 完成（响应体无错误）")
 
     done = _call(sid, "tdrive.file_upload_complete", {
         "dir_id": dir_id, "file_name": name, "file_size": size,

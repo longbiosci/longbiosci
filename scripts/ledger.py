@@ -147,7 +147,12 @@ def audit(root, outputs, entries=None, per_file=None):
         if len(tt) >= 2:
             r, inter = 0.0, []
             bslug = ""
-            for slug in slugs:
+            # 必须 sorted()：slugs 是 set，直接迭代其顺序受 PYTHONHASHSEED 影响。
+            # 多个 slug 得分并列时（r > tob 只留第一个赢家），赢家不同则 inter 不同，
+            # 而下面的判据含 len(inter) >= 3 —— 于是同一份数据两次 audit 会给出
+            # 不同的「已收录/漏收」计数（实测 173/177 ↔ 171/179）。
+            # 审计工具自己不确定，就没资格当收尾自检。
+            for slug in sorted(slugs):
                 rr, ii = token_overlap(tt, slug_tokens(slug))
                 if rr > r:
                     r, inter, bslug = rr, ii, slug
@@ -196,9 +201,28 @@ def main():
     sys.argv = [sys.argv[0]] + argv
 
     if cmd == "build":
-        files = sys.argv[3:]
+        files = [f for f in sys.argv[3:] if f != "--merge"]
+        merge = "--merge" in sys.argv
         items, per_file = scan_outputs(files)
         out = os.path.join(root, "data/ledger-outputs.json")
+        # --merge：与既有台账合并，而不是整体覆盖。
+        # 为什么必须有：.intake/raw/ 是 gitignore 的暂存目录，换一个沙箱就空了，
+        # 历史产出文件的原件再也拿不回来；而 build 原本是整文件覆写，
+        # 拿当前目录下的文件 build 一次，就把前几轮 build 进去的历史记录静默抹掉了
+        # （实测：已入库 5 个历史产出文件，原件均不在本沙箱）。
+        # 产出台账是累积账，不是快照 —— 覆盖式写入等于让历史凭空消失。
+        if merge and os.path.exists(out):
+            saved = json.load(open(out, encoding="utf-8"))
+            for e in saved.get("entries", []):
+                fp = e["fingerprint"]
+                if fp not in items:
+                    items[fp] = e
+                else:
+                    items[fp]["seen_in"] = sorted(
+                        set(items[fp]["seen_in"]) | set(e.get("seen_in", [])))
+            for fn, meta in saved.get("files", {}).items():
+                per_file.setdefault(fn, meta)
+            print(f"--merge：已并入既有台账（原 {len(saved.get('files', {}))} 个文件）")
         json.dump({"entries": list(items.values()), "files": per_file},
                   open(out, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         print(f"产出条目 {len(items)} 条（跨期去重后）→ {out}")
@@ -223,8 +247,22 @@ def main():
         else:
             print(f"⚠️ 未找到 {outfile} —— 产出侧清单缺失，对账结果不可信。\n"
                   f"   请先跑：python3 scripts/ledger.py build <repo> <产出文件...>\n")
+        # 未 build 的文件默认「只告警、不入账」。
+        # 为什么改：.intake/raw/ 里不只是产出副本——运营日志、待办清单（132 KB，
+        # 满是 markdown 表格）、README、站点评估都在里面。它们一旦被 scan_outputs
+        # 当成产出入口解析，对账数字就取决于「这个沙箱里恰好躺着什么文件」，
+        # 而 .intake/ 是 gitignore 的、不进版本库——等于对账结果不可复现
+        # （与 set 迭代顺序是同一类病：工具自己不确定，就不能当收尾自检）。
+        # 安全网的价值在「提醒有文件没 build」，不在「替你把它算进去」。
         if files:
-            print(f"另发现 {len(files)} 个 .intake/raw 产出文件（未 build 进台账）")
+            print(f"另发现 {len(files)} 个 .intake/raw/*.md（未 build 进台账）")
+            if "--include-unbuilt" in sys.argv:
+                print("  --include-unbuilt 已指定 → 纳入本次对账")
+            else:
+                print("  默认不纳入：该目录混有运营日志/待办清单/README 等非产出文档，"
+                      "静默并入会让对账随暂存目录漂移。")
+                print("  确认它们均为产出文件时，追加 --include-unbuilt。")
+                files = []
         rep = audit(root, files, entries=entries, per_file=per_file)
         out = os.path.join(root, "data/ledger.json")
         json.dump(rep, open(out, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
