@@ -9,20 +9,23 @@
 #   --date / --now  透传给 add-rss-today-run.py（仅用于确定性复现；
 #                   日常运行不要传，脚本会自动取当天 UTC 日期与当前时刻）
 #
-# 依次执行 13 个环节（顺序与 .github/workflows/regen-index.yml 注释记载一致）：
+# 依次执行 16 个环节（顺序与 .github/workflows/regen-index.yml 注释记载一致）：
 #   1 build-index.py        从 news/*.html 重建 data/articles.json（追加式）
 #   2 sync-evidence.py      把 news/*.html 的分级回写 articles.json（--write；治回退顽疾）
 #   3 gen-home.py           生成 index.html
 #   4 gen-topic-pages.py    生成 topics/ 8 个专题页 + 12 个分页页 + 索引页
 #   5 gen-news-index.py     生成 news/index.html 与 news-2..N.html 分页
 #   6 gen-evidence-pages.py 生成 evidence/ 索引页 + A/B/C 分级列表（含分页）
-#   7 rebuild-sitemap.py    重建 sitemap.xml
-#   8 add-rss-today-run.py  把当日新文章追加进 rss.xml（无新增则幂等不变）
-#   9 inject-poster.py      给文章页注入 /poster.js（已有则跳过）
-#  10 sync-search-index.py  重建 data/search-index.json 并刷新 search.html 计数
-#  11 refresh_counts.py     把各处「N 篇」计数回写为事实源（幂等；本环节自愈）
-#  12 audit-traceability.py 溯源完整性审计（只报告不阻断，产出 data/traceability-audit.json）
-#  13 check-links.py        全站死链 + 计数一致性检查（末位硬校验，不通过则本管线失败）
+#   7 gen-industry.py       生成产业板块：事件流 / 公司档案 / 会议日历
+#   8 gen-podcast.py        生成播客列表页 + podcast.xml RSS
+#   9 rebuild-sitemap.py    重建 sitemap.xml
+#  10 add-rss-today-run.py  把当日新文章追加进 rss.xml（无新增则幂等不变）
+#  11 inject-poster.py      给文章页注入 /poster.js（已有则跳过）
+#  12 normalize_nav.py      全站主导航归一化（--apply）
+#  13 sync-search-index.py  重建 data/search-index.json 并刷新 search.html 计数
+#  14 refresh_counts.py     把各处「N 篇」计数回写为事实源（幂等；本环节自愈）
+#  15 audit-traceability.py 溯源完整性审计（只报告不阻断，产出 data/traceability-audit.json）
+#  16 check-links.py        全站死链 + 计数一致性检查（末位硬校验，不通过则本管线失败）
 #
 # 环节 2 为什么必须放在 3~7 之前（2026-10-17 新增）
 # ---------------------------------------------

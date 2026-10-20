@@ -26,16 +26,32 @@ python3 scripts/cursor.py empty  --repo . --file-id <id> --note "size=0，需重
 
 ## 这个通道解决什么问题
 
-项目里有 **6 个自动化任务**在持续产出内容，产出全部落在网盘 IMA 知识库：
+项目里有 **8 个自动化任务**在持续产出内容，产出全部落在网盘 IMA 知识库。
+⚠️ 下表时间为 **2026-10-20 核对的真实 cron**，不是计划书上的时间——两者曾长期不符（详见 `docs/SOP修正清单_2026-10-20.md`）：
 
-| 任务 | 频率 | 产出层 | 文件形态 |
+| 任务 | 真实时刻 | 产出层 | 文件形态 |
 |---|---|---|---|
-| 重点期刊监控·每周五（`7762989`） | 每周五 | 文献层 | `深度文献卡片_YYYY-MM-DD.md`（SOP §4.2，50+ 张卡，**`\| N1 \|` 编号表格**） |
-| 行业情报周报·每周三（`7762986`） | 每周三 | 行业层 | `行业情报周报_YYYY-MM-DD.md` + `.xlsx`（三表结构） |
-| 临床×科学文献交叉追踪·周更（`7660605`） | 每周一 | 文献层 + 元层 | 喂料池条目 + `临床×文献交叉周报_*.md` |
-| 衰老与长寿临床试验清单·月度刷新（`7660599`） | 每月1日 | 清单 | `临床试验清单.md` / `.json` |
-| 月度研究热点综述·每月15日（`7762988`） | 每月15日 | **元层** | 综述 md。⚠️ 元层**无独立目录**，写在 `dQpzABLkRxLu`（网站层父目录） |
-| 网站运营与优化（每日两次，`12179175`） | 每天 | 网站层 | 运营日志 / 待办清单 |
+| 重点期刊监控·每周五（`7762989`） | 周五 **05:00**（`0 0 5 * * 5`） | 文献层 | `深度文献卡片_YYYY-MM-DD.md`（SOP §4.2，50+ 张卡，**`\| N1 \|` 编号表格**） |
+| 行业情报周报·每周三（`7762986`） | 周三 **03:00**（`0 0 3 * * 3`） | 行业层 | `行业情报周报_YYYY-MM-DD.md` + `.xlsx`（三表结构） |
+| 临床×科学文献交叉追踪·周更（`7660605`） | 周日 **02:30**（`0 30 2 * * 0`） | 文献层 + 元层 | 喂料池条目 + `临床×文献交叉周报_*.md` |
+| 衰老与长寿临床试验清单·月度刷新（`7660599`） | 每月 1 日 **02:00** | 清单 | `临床试验清单.md` / `.json` |
+| 月度研究热点综述（`7762988`） | ⚠️ **每 14 天且须逢周二 04:34**（`0 34 4 */14 * 2`），2026 年落 1/15/29、2/16/30… | **元层** | 综述 md。元层**无独立目录**，写在 `dQpzABLkRxLu` |
+| 预印本速递·每日（`12784209`） | 每天 **06:00** | 文献层 | `预印本速递_YYYY-MM-DD.md`（`### 标题 + 字段表`） |
+| 预印本全文级流水线（`12819187`） | 每天 **07:00** | 元层 | `预印本全文级流水线_运行摘要_YYYY-MM-DD.md` |
+| 网站运营与优化（`12179175`） | 每天（**当前 PAUSED**） | 网站层 | 运营日志 / 待办清单 |
+
+**判交付不要按日历日期猜，按 `next_run_at`**：7762988 名称写「每月15日」而 cron 是 `*/14`，10-15 根本不触发，
+真触发日 10-20 的产出是靠次日巡检偶然捞到的。交货期望窗口一律取「cron 时刻 + 3h」。
+
+### 元层目录里哪些不该读
+
+`dQpzABLkRxLu` 实测 8 个条目，只有 2 个是当轮该消化的产出：
+
+| 条目 | 处置 |
+|---|---|
+| `IMA知识库_0019eb4e65002c9f/` | 镜像子树，file_id 与各层相同 → 按 file_id 去重让位；其中 2 份临床试验登记清单是独立产出 |
+| `资产库使用指南.pdf` / `系统文件/` | 非产出，读也不读 |
+| `运营日志 dcRhMjctGcjp`、`运营待办清单 duLHFqzcdVBY` | ⚠️ **10-15 旧版**，与网站层 `dRlRAPWevRku` / `dVisoPwrcwVm` 同名不同物。**以网站层为准，元层这两份不读不写不覆盖**，否则会拿 4 天前的旧版盖掉别人的更新 |
 
 ###⚠️ 产出格式不止一种，这是实测踩出来的坑
 
@@ -56,7 +72,7 @@ python3 scripts/cursor.py empty  --repo . --file-id <id> --note "size=0，需重
 `publish_status=待成稿` / `fed_to_daily=false`，即**一次都没被网站消化过**。
 本通道就是为了补上这个断点。
 
-## 全链路流程（七段）
+## 全链路流程（八段）
 
 ```
 网盘产出（6 个自动化任务）
@@ -74,13 +90,32 @@ python3 scripts/cursor.py empty  --repo . --file-id <id> --note "size=0，需重
 news/*.html + articles.json
    │ ⑤ backfill-doi.py 补DOI 索引   ← 必须在写稿后跑，否则新文查不到
    ▼
-   │ ⑥ run-pipeline.sh（13 环节，末位为死链+计数硬校验）
+   │ ⑥ run-pipeline.sh（16 环节，末位为死链+计数硬校验）
+   ▼
+本地全绿
+   │ ⑦ 推送 + 线上核验 ── ★绿色≠上线（见下）
    ▼
 线上
-   │ ⑦ ledger.py audit 对账 ── 产出 vs 上站双向核对
+   │ ⑧ ledger.py audit 对账 ── 产出 vs 上站双向核对
    ▼
 「已收录 N · 漏收 M」→ M 回到第③ 步
 ```
+
+**第⑦步为什么必须单列**：2026-10-20 实测 `github.com:443` 的 git 协议**连续第 4 次阻断**
+（超时 132 秒），管线全绿但站点一份没收到。这条路要固化成流程，而不是每次临场想办法：
+
+| 项 | 规定 |
+|---|---|
+| 通道 | 先试 `git push`（60 秒超时）；不通即 `python3 scripts/push_via_api2.py <pat文件> [--base <tree>]` |
+| 禁止 | **任何情况不得 force push**；脚本内硬编码 `force: false` |
+| 前置断言 | 本地快照 tree 必须 == 远端 tree，不等即中止 |
+| 后置断言 | API 建出的 tree sha 必须 == `HEAD^{tree}`，不等即中止、**不创建提交** |
+| 验收 | 线上 `articles.json` 条数 == 本地；抽查新页 HTTP 200 |
+| 远端领先时 | 下载 tarball → 重建为本地提交 → **git 真三方合并**，严禁覆盖 |
+
+`push_via_api2.py` 的关键是 `POST /git/trees` 收 `base_tree`、嵌套路径自动展开，
+请求数从「每目录一次」降到 **4 次 + N 个 blob**；串行版实测 17 分钟只发出 31 个请求即卡死，勿再用。
+连续推送时用 `--base <上一个 tree sha>`，可省掉重新下载快照。
 
 **为什么第③段刻意不自动化**：证据分级（A/B/C）与定量口径必须逐条按 SOP §4.2 处理，
 付费墙未获取处标「待补全文」，定量一律不臆测。这件事交给脚本必然出错。
@@ -149,6 +184,23 @@ bash scripts/run-pipeline.sh
 ```
 
 ## 判定口径（务必理解，否则会误信结论）
+
+### 判空：三道闸，缺一不可
+
+「空产」不等于「size=0」。2026-10-20 核出两类**字节数完全正常**的故障，只看大小永远发现不了：
+
+| 闸 | 检查什么 | 怎么查 | 不通过的判词 |
+|---|---|---|---|
+| **① 真有字节** | 下载后 `stat -c%s > 0` | `tdrive.file_download` → `fetch.py`。**禁止**用 `dir_list` 的 size 判（陈旧缓存，已 3 次实测说谎） | 空产 → 告警并指明重跑哪个任务 |
+| **② 内容与身份一致** | 文件名日期 == 正文自述的检索窗口/运行日期 | 读正文**头 30 行** | **错位交付** |
+| **③ 交付载体正确** | 产出落在指定层目录；正文/页面文件真实存在 | 读正文；正文自述出现「沙箱里没有仓库」「脚本按规格重建」「GitHub 不可达」等字样即判失败 | **落地失败**（比空产更隐蔽：它交付了一份「我跑不了」的摘要） |
+
+实测两例（都曾被判「正常交付」）：
+
+- `dQpERrkBggNI` 6,918 B —— 摘要自述在**新建空沙箱**里重建脚本跑空转，站点一份没收到
+- `dEbLgGGlcwOG` 8,297 B —— 文件名 10-19，正文是 **10-18 窗口**；10-19 那轮真实产出下落不明
+
+### 查重：四路匹配，每条带 confidence
 
 `harvest.py` 用**四路**匹配，**每条结论带 confidence**：
 
@@ -239,27 +291,43 @@ python3 scripts/harvest.py <repo> <files...> --mech /path/to/mech.json
 | `scripts/gen_industry_2026-10-15.py` | ④ 写稿范例（产业/监管类） |
 | `scripts/gen_missing_2026-09-25.py` | ④ 写稿范例（台账核定漏收的处置记录） |
 | `scripts/fetch.py` | 从 JSON 读 download_url 原样下载（防手抄 URL 出错） |
-| `scripts/check-links.py` | ⑥末位：死链 + 计数一致性硬校验（不通过则管线失败） |
-| `scripts/refresh_counts.py` | ⑥第 9 环：各处「N 篇」计数回写事实源（幂等自愈） |
-| `scripts/audit-traceability.py` | ⑥第 10 环：溯源完整性审计（只报告不阻断） |
-| `scripts/run-pipeline.sh` | ⑥ 上线：13 环节管线 |
+| `scripts/check-links.py` | ⑥末位（第 16 环）：死链 + 计数一致性硬校验（不通过则管线失败） |
+| `scripts/refresh_counts.py` | ⑥第 14 环：各处「N 篇」计数回写事实源（幂等自愈） |
+| `scripts/audit-traceability.py` | ⑥第 15 环：溯源完整性审计（只报告不阻断） |
+| `scripts/run-pipeline.sh` | ⑥ 本地全绿：16 环节管线 |
+| `scripts/push_via_api2.py` | ⑦ 推送：Git Data API 快通道（`force:false`，tree sha 强校验） |
+| `scripts/cursor.py` | 游标：增量判定（`verify` / `next` / `done` / `empty` / `stat`） |
+| `scripts/nd_dirlist.py` | 抓取网盘四层清单 → `data/nd_raw.json`（不经人手） |
+| `scripts/build_manifest.py` | `nd_raw.json` → `data/intake-manifest.tsv`（事实源，实测字节覆盖缓存） |
+| `scripts/ndupload.py` | 上传：三步链（file_upload → PUT → complete），签名不经人手 |
+| `docs/SOP修正清单_2026-10-20.md` | 本手册的修订依据与实测证据 |
 
 ## 每日自检清单（跑一遍才算完成一轮）
 
 ```bash
-python3 scripts/backfill-doi.py .        # 索引与文章库一致
-python3 scripts/ledger.py audit .        # 读 data/ledger-outputs.json 对账，漏收数与上轮对比
-bash scripts/run-pipeline.sh             # 11/11，末位必须打印「检查通过」
-python3 -c "import json;print(len(json.load(open('data/articles.json'))))"  # 与首页/sitemap/search-index 一致
+python3 scripts/cursor.py verify --repo .   # 清单与游标对齐（唯一允许判「有没有增量」的依据）
+python3 scripts/backfill-doi.py .           # 索引与文章库一致
+python3 scripts/ledger.py audit .           # 读 data/ledger-outputs.json 对账，漏收数与上轮对比
+bash scripts/run-pipeline.sh                # 16/16，末位必须打印「检查通过」
+python3 scripts/push_via_api2.py <pat> --dry-run   # 变更集预演
+python3 scripts/push_via_api2.py <pat>             # 推送（force=false）
+# 线上核验：articles.json 条数 == 本地；抽查 1~2 篇新页返回 200
 ```
+
+五项全绿才算一轮完成。**`run-pipeline.sh` 通过 ≠ 上线**，推送与线上核验是独立的一步。
 
 `ledger.py audit` 的「漏收数」应**逐期收敛**。若突然从 20 涨到 150，
 几乎一定是 DOI 索引失效或正则被污染——先查这两个，不要先怀疑产出。
+另注：台账里长期存在一批「产出提及但站内未配对」的历史条目（多为中文观察哨与行业公司名），
+属正常噪音，逐条核看后无需上站；但台账没有「已判定」态，会逐轮重报，勿据此写稿。
 
 ## 排障
 
 | 现象 | 原因 | 处理 |
 |---|---|---|
+| `git push` 超时 132 秒 / `Failed to connect to github.com port 443` | 沙箱到 github.com 的 git 协议被阻断（已连续 4 次） | `api.github.com` 正常，改用 `push_via_api2.py` |
+| `push_via_api2.py` 报「路径被转义，拒绝推送」 | `git ls-tree` 默认对中文路径做 `core.quotepath` 转义 | 已在脚本内加 `-z` + `core.quotepath=false`，勿手动传路径 |
+| `cursor.py verify` 报「基准校验失败」 | 未复现过（2026-10-20 用干净检出复现失败） | 先看 `data/nd_raw.json` 的 mtime 是否落后于网盘，重跑 `nd_dirlist.py` 再 `build_manifest.py` |
 | 新写的文章被重新报成「漏收」 | 没跑 `backfill-doi.py`，DOI 索引缺新条目 | 写稿后、管线前跑一次 `backfill-doi.py .` |
 | 站内某文的 DOI 在索引里带中文尾巴 | 旧版贪婪正则写的脏索引 | 重跑 `backfill-doi.py .`（幂等，只增字段） |
 | 产出条目 DOI 带 `](https://doi.org/...)` | Markdown 链接未剥离 | 已修`normalize_doi()`；若仍有请贴样本 |
