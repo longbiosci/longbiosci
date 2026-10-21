@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-20T08:17:38+08:00",
+ "updated_at": "2026-10-21T09:07:44+08:00",
  "entries": {
   "dkwSBCCuiNrB": {
    "name": "文献层_五刊监控_深度文献卡片_2026-10-02",
@@ -800,6 +800,52 @@
    "done_at": "2026-10-20T08:03:53+08:00",
    "slugs": [],
    "note": "2026-10-20 核销：实测 5313 B，为《预印本流水线_升级与运行纪要_2026-10-18_B方案》工程技术纪要（B方案改造说明/排障），非内容产出，不入文章库；已通读并确认无需成篇。"
+  },
+  "dNacOPpqOpKF": {
+   "name": "预印本速递_2026-10-21",
+   "layer": "文献层",
+   "size": 39189,
+   "mtime": "1792534650000",
+   "status": "done",
+   "done_at": "2026-10-21T09:07:40+08:00",
+   "slugs": [
+    "HGPS-Adipogenic-Lineage-Consolidation-Failure-HiC-bioRxiv-2026.html",
+    "CARM1-Ser572-Muscle-Stem-Cell-Exhaustion-bioRxiv-2026.html",
+    "BNIP3L-NIX-Mitophagy-Alzheimer-Tau-Amyloid-bioRxiv-2026.html"
+   ],
+   "note": "2026-10-21 速递：主榜0/观察哨4/补遗5。观察哨#1 HGSP 成脂谱系巩固失败、#2 CARM1 Ser572、#4 BNIP3L/NIX 三篇成稿（均C级，摘要零定量已标待补全文）；观察哨#2(MEMR 听觉反射)为否定性方法学证据、#3未成篇见下。补遗5条不入站：Semaglutide睡眠心率/肾性高血压脑白质/SIRT1-METTL3筛选/ORIGIN-PD分层/MagLOV2传感器——均为弱相关，与该站文献定位不符，留观察哨。"
+  },
+  "dmJkBUnnRwKd": {
+   "name": "行业情报周报_2026-10-21",
+   "layer": "行业层",
+   "size": 47589,
+   "mtime": "1792523754000",
+   "status": "done",
+   "done_at": "2026-10-21T09:07:40+08:00",
+   "slugs": [
+    "Mission-Therapeutics-MTX325-USP30-Parkinson-Phase1b-2026.html"
+   ],
+   "note": "行业周报 W43：投融资9/管线15/监管6。只提取与衰老机制直接相关的1条成篇（Mission MTX325 USP30 1b期首例给药，线粒体自噬=线粒体功能障碍标志的可药化节点）。其余条目已在网盘存档，不在本站逐条铺开。⚠本期缺【来源自检】行，已在运营日志记录。"
+  },
+  "dEbLgGGlcwOG": {
+   "name": "预印本全文级流水线_运行摘要_2026-10-19",
+   "layer": "文献层",
+   "size": 8297,
+   "mtime": "1792454436000",
+   "status": "empty",
+   "done_at": "2026-10-21T09:07:44+08:00",
+   "slugs": [],
+   "note": "摘要型过程文档，非研究产出：文件名 2026-10-19，正文自述检索日期 2026-10-19，但执行时间 2026-10-20 07:00–07:56（窗口错位，已在运营日志记为『错位交付』）。内容为全文级流水线运行摘要：medRxiv 33 命中 full 32/partial 1/none 0，bioRxiv 70 条 403 缺席，分层为机器初筛（脚本自述『非专家判读，严禁直接引用』）。不含可成篇研究条目 → 不入站。"
+  },
+  "dxCnKBUCoQXK": {
+   "name": "行业情报周报_2026-10-21",
+   "layer": "行业层",
+   "size": 30825,
+   "mtime": "1792523782000",
+   "status": "done",
+   "done_at": "2026-10-21T09:07:44+08:00",
+   "slugs": [],
+   "note": "行业周报配套 xlsx（30,825 B），三表数据源与 md 同源；md 已消化，xlsx 作为结构化底稿不入站。⚠ 下载时签名 URL 已过期返回 403，未能核验内容；与 md 的条目数（9/15/6）一致性待下次核验。"
   }
  }
 }

@@ -1,6 +1,232 @@
 {
  "entries": [
   {
+   "fingerprint": "t:dd4f5e95b50345e2",
+   "title": "翰森制药（Hansoh Pharma, 03692.HK） × Roche",
+   "doi": "",
+   "code": "1",
+   "seen_in": [
+    "industry_2026-10-21.md"
+   ]
+  },
+  {
+   "fingerprint": "t:da955d200fe780cd",
+   "title": "Acta Pharmaceuticals",
+   "doi": "",
+   "code": "2",
+   "seen_in": [
+    "industry_2026-10-21.md"
+   ]
+  },
+  {
+   "fingerprint": "t:fb8f9b92c0dd3b0d",
+   "title": "Alector, Inc.（Nasdaq: ALEC）",
+   "doi": "",
+   "code": "3",
+   "seen_in": [
+    "industry_2026-10-21.md"
+   ]
+  },
+  {
+   "fingerprint": "t:a3b4f602c1ce8f74",
+   "title": "ScionxBio（Eleven Therapeutics 分拆品牌）× Sanofi",
+   "doi": "",
+   "code": "4",
+   "seen_in": [
+    "industry_2026-10-21.md"
+   ]
+  },
+  {
+   "fingerprint": "t:d58b9131d3cd6536",
+   "title": "Tivenix SA × CellCarta Biosciences",
+   "doi": "",
+   "code": "5",
+   "seen_in": [
+    "industry_2026-10-21.md"
+   ]
+  },
+  {
+   "fingerprint": "t:e02288ba0570a9f4",
+   "title": "Milken Institute",
+   "doi": "",
+   "code": "6",
+   "seen_in": [
+    "industry_2026-10-21.md"
+   ]
+  },
+  {
+   "fingerprint": "t:78e5dee063492236",
+   "title": "Rejuvenate Bio",
+   "doi": "",
+   "code": "7",
+   "seen_in": [
+    "industry_2026-10-21.md"
+   ]
+  },
+  {
+   "fingerprint": "t:c7f63862f047c805",
+   "title": "北京恩泽康泰（Echo Biotech）",
+   "doi": "",
+   "code": "8",
+   "seen_in": [
+    "industry_2026-10-21.md"
+   ]
+  },
+  {
+   "fingerprint": "t:bb16ab052784fbeb",
+   "title": "Alma VC（以色列基金）",
+   "doi": "",
+   "code": "9",
+   "seen_in": [
+    "industry_2026-10-21.md"
+   ]
+  },
+  {
+   "fingerprint": "t:1391af77c877e981",
+   "title": "Mission Therapeutics",
+   "doi": "",
+   "code": "1",
+   "seen_in": [
+    "industry_2026-10-21.md"
+   ]
+  },
+  {
+   "fingerprint": "t:d5abcbf2a4de0ecc",
+   "title": "Monte Rosa Therapeutics",
+   "doi": "",
+   "code": "3",
+   "seen_in": [
+    "industry_2026-10-21.md"
+   ]
+  },
+  {
+   "fingerprint": "t:46d9fda85599bec7",
+   "title": "VectorY Therapeutics",
+   "doi": "",
+   "code": "5",
+   "seen_in": [
+    "industry_2026-10-21.md"
+   ]
+  },
+  {
+   "fingerprint": "t:f9e7132c965ae067",
+   "title": "Alterity Therapeutics",
+   "doi": "",
+   "code": "6",
+   "seen_in": [
+    "industry_2026-10-21.md"
+   ]
+  },
+  {
+   "fingerprint": "t:ba0b0c0809d15b04",
+   "title": "Fractyl Health",
+   "doi": "",
+   "code": "7",
+   "seen_in": [
+    "industry_2026-10-21.md"
+   ]
+  },
+  {
+   "fingerprint": "t:1a9d192cfad97e2e",
+   "title": "Jupiter Neurosciences",
+   "doi": "",
+   "code": "9",
+   "seen_in": [
+    "industry_2026-10-21.md"
+   ]
+  },
+  {
+   "fingerprint": "t:951f336323a08189",
+   "title": "Amprion × Prema Cognition",
+   "doi": "",
+   "code": "10",
+   "seen_in": [
+    "industry_2026-10-21.md"
+   ]
+  },
+  {
+   "fingerprint": "t:0ab2dad46768b80a",
+   "title": "Kailera Therapeutics",
+   "doi": "",
+   "code": "11",
+   "seen_in": [
+    "industry_2026-10-21.md"
+   ]
+  },
+  {
+   "fingerprint": "t:bd95ba51a41879dc",
+   "title": "Elysium Health",
+   "doi": "",
+   "code": "14",
+   "seen_in": [
+    "industry-2026-09-16.md",
+    "industry_2026-10-21.md"
+   ]
+  },
+  {
+   "fingerprint": "t:7dcc58bea1aa35e4",
+   "title": "Renue by Science",
+   "doi": "",
+   "code": "15",
+   "seen_in": [
+    "industry_2026-10-21.md"
+   ]
+  },
+  {
+   "fingerprint": "t:5d681a9af43e0339",
+   "title": "FDA（器械与放射健康中心路径，510），美国",
+   "doi": "",
+   "code": "1",
+   "seen_in": [
+    "industry_2026-10-21.md"
+   ]
+  },
+  {
+   "fingerprint": "t:170d264979580eba",
+   "title": "FDA（De Novo 路径 + 突破性器械），美国",
+   "doi": "",
+   "code": "2",
+   "seen_in": [
+    "industry_2026-10-21.md"
+   ]
+  },
+  {
+   "fingerprint": "t:e9d83475061b335c",
+   "title": "ARPA-H（美国健康高级研究计划局），美国",
+   "doi": "",
+   "code": "3",
+   "seen_in": [
+    "industry_2026-10-21.md"
+   ]
+  },
+  {
+   "fingerprint": "t:c60bfce2c6dc81b3",
+   "title": "FDA（CDER / 首席科学家办公室 / OCHEN），美国",
+   "doi": "",
+   "code": "4",
+   "seen_in": [
+    "industry_2026-10-21.md"
+   ]
+  },
+  {
+   "fingerprint": "t:7eccdc99a033c0c4",
+   "title": "Milken Institute（政策机构，非监管方），美国",
+   "doi": "",
+   "code": "5",
+   "seen_in": [
+    "industry_2026-10-21.md"
+   ]
+  },
+  {
+   "fingerprint": "t:836f85b4508f4be0",
+   "title": "WHO「内在能力」框架 → 终点标准化争论（经 LT 播客），国际",
+   "doi": "",
+   "code": "6",
+   "seen_in": [
+    "industry_2026-10-21.md"
+   ]
+  },
+  {
    "fingerprint": "t:a62d6ee4711ea558",
    "title": "体细胞突变轴线：SMaHT 配套主论文是否已全部上线？是否有\"降低人体体细胞突变率\"的药物/干预进入临床前或 IND",
    "doi": "",
@@ -1693,15 +1919,6 @@
    ]
   },
   {
-   "fingerprint": "t:bd95ba51a41879dc",
-   "title": "Elysium Health",
-   "doi": "",
-   "code": "12",
-   "seen_in": [
-    "industry-2026-09-16.md"
-   ]
-  },
-  {
    "fingerprint": "t:3940fbf54a7b9d0f",
    "title": "中国（国家药监局/卫健委监管逻辑；人民日报健康客户端报道，央视采访佐证）",
    "doi": "",
@@ -3371,6 +3588,16 @@
   }
  ],
  "files": {
+  "preprint_2026-10-21.md": {
+   "rows": 0,
+   "bytes": 39189,
+   "suspicious_empty": false
+  },
+  "industry_2026-10-21.md": {
+   "rows": 25,
+   "bytes": 47589,
+   "suspicious_empty": false
+  },
   "preprint_2026-10-20.md": {
    "rows": 0,
    "bytes": 50017,

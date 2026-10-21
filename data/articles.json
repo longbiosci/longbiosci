@@ -1,5 +1,52 @@
 [
  {
+  "slug": "BNIP3L-NIX-Mitophagy-Alzheimer-Tau-Amyloid-bioRxiv-2026.html",
+  "title": "BNIP3L/NIX 线粒体自噬：从人到线虫双双验证，能压住 Tau 与 Aβ 病理",
+  "desc": "缺失 BNIP3L/NIX（或线虫同源物 DCT-1）会同时恶化 Tau 与 Aβ 病理、损害神经元网络与行为；回补其活性则降低 Tau 磷酸化并显著抑制 seeding 诱导的 Tau 聚集。摘要无任何定量。",
+  "tag": "预印本",
+  "date": "2026-10-21",
+  "topic": "线粒体",
+  "type": "预印本",
+  "evidence": "C",
+  "source": "doi.org",
+  "doi": "10.64898/2026.10.18.759942"
+ },
+ {
+  "slug": "CARM1-Ser572-Muscle-Stem-Cell-Exhaustion-bioRxiv-2026.html",
+  "title": "肌肉干细胞里的一个「刹车」：单次损伤扛得住，反复损伤就崩",
+  "desc": "麦吉尔大学团队做出磷酸化缺失型 CARM1 SA 敲入小鼠，发现肌肉发育与单次损伤后的再生基本正常，但反复再生挑战会让卫星细胞池进行性耗竭——转录上是 TGFβ-SMAD 受损、Tgfbr3 下降、MYC 活性上升。",
+  "tag": "预印本",
+  "date": "2026-10-21",
+  "topic": "干细胞",
+  "type": "预印本",
+  "evidence": "C",
+  "source": "doi.org",
+  "doi": "10.64898/2026.10.17.759715"
+ },
+ {
+  "slug": "HGPS-Adipogenic-Lineage-Consolidation-Failure-HiC-bioRxiv-2026.html",
+  "title": "早老症的脂肪流失，坏在「巩固」不在「启动」：Hi-C 第一次把 3D 基因组接上脂肪谱系失败",
+  "desc": "在年龄匹配的健康人与早老症（HGPS）患者来源的成纤维细胞里诱导成脂分化，田纳西大学团队发现 HGPS 细胞的谱系「定向」速率与健康人相当，分歧发生在其后：脂滴形态异常、转录响应延迟紊乱，并且始终没有关掉向骨软骨与血管分支的分化潜能。",
+  "tag": "预印本",
+  "date": "2026-10-21",
+  "topic": "细胞衰老",
+  "type": "预印本",
+  "evidence": "C",
+  "source": "doi.org",
+  "doi": "10.64898/2026.10.19.760205"
+ },
+ {
+  "slug": "Mission-Therapeutics-MTX325-USP30-Parkinson-Phase1b-2026.html",
+  "title": "线粒体自噬第一次走进帕金森患者：USP30 抑制剂 MTX325 完成 1b 期首例给药",
+  "desc": "Mission Therapeutics 的 USP30 抑制剂 MTX325 在英国皇家利物浦大学医院完成 1b 期首例给药，计划入组 36 例轻中度帕金森患者。USP30 是线粒体自噬的负调控去泛素化酶——这是衰老标志「线粒体功能障碍」少有的直接成药尝试。",
+  "tag": "临床进展",
+  "date": "2026-10-21",
+  "topic": "产业",
+  "type": "临床进展",
+  "evidence": "B",
+  "source": "IMA 交叉追踪"
+ },
+ {
   "slug": "Gut-Microbiome-Precedes-Symptomatic-Alzheimer-Amyloid-medRxiv-2026.html",
   "title": "无症状人群的肠道菌群随脑内 Aβ 变化，但「先于」二字要先打折扣",
   "desc": "101 名无症状个体（中位年龄 70 岁）的粪便宏基因组与脑内 Aβ 定量显示：菌群组成随 Aβ 水平变化，Aβ 相关菌群特征对应 GABA 合成能力与免疫/自噬调控因子的降低。但这是横断面研究，标题里的 precedes 指「临床前期」而非「时间在前」。",

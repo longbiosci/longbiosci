@@ -1,9 +1,9 @@
 {
  "summary": {
-  "total": 566,
+  "total": 570,
   "level_counts": {
-   "强": 435,
-   "中": 131
+   "强": 438,
+   "中": 132
   },
   "by_tier": {
    "A": {
@@ -11,15 +11,20 @@
     "中": 27
    },
    "B": {
-    "强": 226,
-    "中": 89
+    "中": 90,
+    "强": 226
    },
    "C": {
-    "强": 101,
+    "强": 104,
     "中": 15
    }
   },
   "missing_doi": [
+   {
+    "slug": "Mission-Therapeutics-MTX325-USP30-Parkinson-Phase1b-2026.html",
+    "title": "线粒体自噬第一次走进帕金森患者：USP30 抑制剂 MTX325 完成 1b 期首例给药",
+    "evidence": "B"
+   },
    {
     "slug": "Cross-Weekly-Clinical-Literature-2026-10-18.html",
     "title": "交叉周报 2026-10-18：NAD⁺ 三期倒向安慰剂，而登记表减 96 项里混着「口径」与「真相」",
@@ -679,6 +684,54 @@
   "no_source": []
  },
  "articles": [
+  {
+   "slug": "BNIP3L-NIX-Mitophagy-Alzheimer-Tau-Amyloid-bioRxiv-2026.html",
+   "title": "BNIP3L/NIX 线粒体自噬：从人到线虫双双验证，能压住 Tau 与 Aβ 病理",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.18.759942",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.18.759942"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "CARM1-Ser572-Muscle-Stem-Cell-Exhaustion-bioRxiv-2026.html",
+   "title": "肌肉干细胞里的一个「刹车」：单次损伤扛得住，反复损伤就崩",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.17.759715",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.17.759715"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "HGPS-Adipogenic-Lineage-Consolidation-Failure-HiC-bioRxiv-2026.html",
+   "title": "早老症的脂肪流失，坏在「巩固」不在「启动」：Hi-C 第一次把 3D 基因组接上脂肪谱系失败",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.19.760205",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.19.760205"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Mission-Therapeutics-MTX325-USP30-Parkinson-Phase1b-2026.html",
+   "title": "线粒体自噬第一次走进帕金森患者：USP30 抑制剂 MTX325 完成 1b 期首例给药",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://www.globenewswire.com/news-release/2026/10/15/3381299/0/en/mission-therapeutics-doses-first-parkinson-s-patient-in-phase-1b-study-of-potential-disease-modifying-treatment-mtx325.html"
+   ],
+   "level": "中"
+  },
   {
    "slug": "Gut-Microbiome-Precedes-Symptomatic-Alzheimer-Amyloid-medRxiv-2026.html",
    "title": "无症状人群的肠道菌群随脑内 Aβ 变化，但「先于」二字要先打折扣",
