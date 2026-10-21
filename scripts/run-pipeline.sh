@@ -9,7 +9,7 @@
 #   --date / --now  透传给 add-rss-today-run.py（仅用于确定性复现；
 #                   日常运行不要传，脚本会自动取当天 UTC 日期与当前时刻）
 #
-# 依次执行 16 个环节（顺序与 .github/workflows/regen-index.yml 注释记载一致）：
+# 依次执行 17 个环节（顺序与 .github/workflows/regen-index.yml 注释记载一致）：
 #   1 build-index.py        从 news/*.html 重建 data/articles.json（追加式）
 #   2 sync-evidence.py      把 news/*.html 的分级回写 articles.json（--write；治回退顽疾）
 #   3 gen-home.py           生成 index.html
@@ -25,7 +25,8 @@
 #  13 sync-search-index.py  重建 data/search-index.json 并刷新 search.html 计数
 #  14 refresh_counts.py     把各处「N 篇」计数回写为事实源（幂等；本环节自愈）
 #  15 audit-traceability.py 溯源完整性审计（只报告不阻断，产出 data/traceability-audit.json）
-#  16 check-links.py        全站死链 + 计数一致性检查（末位硬校验，不通过则本管线失败）
+#  16 fix_related.py死链修复：按 data/redirects.json 重定向 + 去重 + 补位（幂等）
+#  17 check-links.py        全站死链 + 计数一致性 + canonical 硬校验（末位，不通过则失败）
 #
 # 环节 2 为什么必须放在 3~7 之前（2026-10-17 新增）
 # ---------------------------------------------
@@ -102,11 +103,13 @@ PYTHON="${PYTHON:-python3}"
 step() {
   local n="$1" script="$2" desc="$3"
   shift 3
-  printf '\n[%s/16] %-22s %s\n' "$n" "$script" "$desc"
+  printf '\n[%s/17] %-22s %s\n' "$n" "$script" "$desc"
   case "$script" in
     add-rss-today-run.py) "$PYTHON" "$HERE/$script" "$ROOT" "$@" ;;
     sync-evidence.py)     "$PYTHON" "$HERE/$script" "$ROOT" --write ;;
     normalize_nav.py)     "$PYTHON" "$HERE/$script" "$ROOT" --apply ;;
+    # fix_related.py 自己按 __file__ 推导仓库根，不接受位置参数
+    fix_related.py)       "$PYTHON" "$HERE/$script" "$@" ;;
     *)                    "$PYTHON" "$HERE/$script" "$ROOT" ;;
   esac
 }
@@ -128,6 +131,7 @@ step 12 normalize_nav.py       "全站主导航归一化（--apply）"
 step 13 sync-search-index.py   "重建站内搜索索引与计数"
 step 14 refresh_counts.py      "各处「N 篇」计数回写事实源（幂等）"
 step 15 audit-traceability.py  "溯源完整性审计（只报告，不阻断）"
-step 16 check-links.py         "全站死链与计数一致性检查（末位硬校验）"
+step 16 fix_related.py        "死链修复（重定向 / 去重 / 补位，幂等）"
+step 17 check-links.py         "全站死链 + 计数一致性 + canonical 硬校验（末位）"
 
-printf '\n✅ 管线执行完成（16/16）\n'
+printf "\n✅ 管线执行完成（17/17）\n"

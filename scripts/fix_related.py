@@ -32,13 +32,27 @@ TARGET_RELATED = 3  # 延伸阅读保留条数
 REL_BLOCK_RE = re.compile(
     r'<div class="related-block">\s*<h3>延伸阅读</h3>\s*'
     r'<ul class="related-list">(.*?)</ul>\s*</div>', re.S)
+# 条目有两种格式，必须**同时**兼容：
+#   新格式 <li><a href="/news/X">标题</a> <span class="tag-date">日期</span></li>
+#   旧格式 <li><a href="/news/X">标题</a></li>              ← 无日期跨度
+# 2026-10-21 修复：原正则强制要求 tag-date，于是旧格式条目**一条都匹配不上**，
+# findall 返回空 → 整块被判为「无有效条目」→ 走补位逻辑把原有条目全换掉。
+# 后果实测：84 篇文章（2026-10-13 批次等老模板）的延伸阅读被换成
+# 「同主题最新 3 篇」，其中像「1996 年那篇确立干细胞老化 = 数量与功能解耦的论文」
+# 这类**策展式关联**（老文章之间的历史脉络引用）被无声丢弃 —— 且脚本退出码仍为 0。
+# 也就是说：修死链的工具本身在制造内容损失，且没有任何告警。
 REL_ITEM_RE = re.compile(
-    r'<li><a href="/news/([^"]+)">(.*?)</a>\s*<span class="tag-date">([^<]*)</span></li>')
+    r'<li><a href="/news/([^"]+)">(.*?)</a>'
+    r'(?:\s*<span class="tag-date">([^<]*)</span>)?</li>')
 ABS_LINK_RE = re.compile(r'href="https://longbiosci\.com/news/([^"]+)"')
 # 注意：必须同时覆盖「相对 /news/x.html」与「绝对 https://longbiosci.com/news/x.html」
 # 两种写法。2026-10-15 巡检发现：正文「与已有研究的关系」「相关阅读」小节用的是绝对
 # 写法，而本脚本原先只认相对写法，导致 2 条正文死链躲过了「死链复扫 0」的自检。
 NEWS_LINK_RE = re.compile(r'href="(?:https://longbiosci\.com)?/news/([^"]+)"')
+# canonical 标签不是「链接」，是「本页的规范地址声明」——它的目标应当**自指**，
+# 绝不能被当成普通链接重定向到别篇。故整块挖出保护，处理完原样放回。
+CANON_TAG_RE = re.compile(r'<link[^>]*rel="canonical"[^>]*>', re.I)
+CANON_PLACEHOLDER = "\x00CANON{}\x00"
 
 
 def load():
@@ -133,10 +147,21 @@ def fill_candidates(by_topic, topic, exclude, limit):
 
 
 def render_items(items):
+    """items: [(slug, title, date)] —— 保留调用方给定的标题原文与日期格式。
+
+    2026-10-21 修复：此前签名是 items=[article_dict]，直接取 a["title"] 渲染，
+    于是修复器会**用 articles.json 的标题覆盖页面上原有的策展式标题**。
+    旧格式延伸阅读里的标题是人工写的一句话导读（如「1996 年那篇确立
+    「干细胞老化 = 数量与功能解耦」的论文」），与 articles.json 的标题不同，
+    覆盖后这些导读全部消失。修复器的职责是**修链接**，不是改文案。
+    date 为空表示原条目本就没有日期跨度（旧格式），此时不额外补一个出来，
+    避免产生纯格式噪音 diff。
+    """
     lis = "".join(
-        f'<li><a href="/news/{a["slug"]}">{escape(str(a["title"]))}</a> '
-        f'<span class="tag-date">{a.get("date", "")}</span></li>'
-        for a in items)
+        f'<li><a href="/news/{slug}">{title}</a>'
+        + (f' <span class="tag-date">{date}</span>' if date else '')
+        + '</li>'
+        for slug, title, date in items)
     return (f'<div class="related-block"><h3>延伸阅读</h3>'
             f'<ul class="related-list">{lis}</ul></div>')
 
@@ -154,6 +179,17 @@ def main():
         rel = str(path.relative_to(ROOT)).replace("\\", "/")
         orig = html
 
+        # ---------- 0b. 保护 canonical ----------
+        # canonical 必须自指，它不是链接，不参与重定向。先挖成占位符，
+        # 全流程结束后原样放回（2026-10-21 新增）。
+        canons = []
+
+        def stash_canon(m):
+            canons.append(m.group(0))
+            return CANON_PLACEHOLDER.format(len(canons) - 1)
+
+        html = CANON_TAG_RE.sub(stash_canon, html)
+
         # ---------- 0. 概念页/列表页：整块剔除无法映射的 feed-item ----------
         if 'class="feed-item"' in html:
             html = drop_dead_feed_items(html, valid, redirects, stats, unmapped, rel)
@@ -165,13 +201,14 @@ def main():
         def repl_block(m):
             items = []
             used = {self_slug} if self_slug else set()
-            for slug, _title, _date in REL_ITEM_RE.findall(m.group(1)):
+            for slug, title, date in REL_ITEM_RE.findall(m.group(1)):
                 if slug in valid:
                     if slug in used:
                         stats["dropped"] += 1
                         continue
                     used.add(slug)
-                    items.append(by_slug[slug])
+                    # 保留页面上的标题原文与原有格式：修复器只改链接，不改文案
+                    items.append((slug, title, date))
                     continue
                 tgt = redirects.get(slug)
                 if tgt and tgt in valid:
@@ -180,7 +217,7 @@ def main():
                         stats["dropped"] += 1
                         continue
                     used.add(tgt)
-                    items.append(by_slug[tgt])
+                    items.append((tgt, title or by_slug[tgt]["title"], date))
                 else:
                     stats["dropped"] += 1
                     unmapped.setdefault(slug, []).append(rel)
@@ -188,7 +225,8 @@ def main():
                 for a in fill_candidates(by_topic, self_art.get("topic", ""),
                                          used, TARGET_RELATED - len(items)):
                     used.add(a["slug"])
-                    items.append(a)
+                    items.append((a["slug"], escape(str(a["title"])),
+                                  a.get("date", "")))
                     stats["filled"] += 1
             return render_items(items) if items else ""
 
@@ -215,7 +253,11 @@ def main():
         parts.append(NEWS_LINK_RE.sub(repl_link, html[last:]))
         html = "".join(parts)
 
-        # ---------- 3. 重定向后去重（多个已删 slug 指向同一保留篇）----------
+        # ---------- 3. 还原 canonical（占位符 → 原标签）----------
+        for i, tag in enumerate(canons):
+            html = html.replace(CANON_PLACEHOLDER.format(i), tag)
+
+        # ---------- 4. 重定向后去重（多个已删 slug 指向同一保留篇）----------
         if 'class="feed-item"' in html:
             html = dedupe_feed_items(html)
 

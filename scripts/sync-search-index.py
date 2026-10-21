@@ -24,6 +24,29 @@ import sys
 ROOT = sys.argv[1] if len(sys.argv) > 1 else "."
 
 
+def refresh_other_descs(other, total):
+    """把栏目页条目描述里写死的旧篇数刷新为当前 total。
+
+    2026-10-21 修复：/search.html 的描述「374 篇解读的全文检索」是历史硬编码，
+    rebuild_index 原样保留旧条目的 desc，于是 articles.json 涨到 570 篇后，
+    搜索页面上**搜索框下方那句**仍写着 374 篇——而同一页的 total-count 已是 570，
+    同一页面自相矛盾。此处按「数字 + 篇」的模式统一回写，使其可自愈。
+    """
+    fixed = 0
+    pat = re.compile(r"(\d+)(\s*篇)")
+    out = []
+    for r in other:
+        if isinstance(r, list) and len(r) >= 7 and isinstance(r[6], str) \
+                and re.search(r"\d+\s*篇", r[6]):
+            new = pat.sub(f"{total}\\g<2>", r[6])
+            if new != r[6]:
+                r = list(r)
+                r[6] = new
+                fixed += 1
+        out.append(r)
+    return out, fixed
+
+
 def rebuild_index(articles, si_path):
     """保留旧的非 news 条目（栏目页），news 条目按 articles.json 顺序重建"""
     other = []
@@ -41,10 +64,11 @@ def rebuild_index(articles, si_path):
          str(a.get("evidence", "")), str(a.get("desc", ""))]
         for a in articles
     ]
+    other, n_desc = refresh_other_descs(other, len(news))
     merged = news + other
     with open(si_path, "w", encoding="utf-8") as f:
         json.dump(merged, f, ensure_ascii=False)
-    return len(news), len(other)
+    return len(news), len(other), n_desc
 
 
 def refresh_search_html(root, total):
@@ -71,9 +95,10 @@ def main():
     sp = os.path.join(ROOT, "data/search-index.json")
     articles = json.load(open(ap, encoding="utf-8"))
 
-    n_news, n_other = rebuild_index(articles, sp)
+    n_news, n_other, n_desc = rebuild_index(articles, sp)
     changed = refresh_search_html(ROOT, len(articles))
-    print(f"search-index.json: news {n_news} 条 + 栏目页 {n_other} 条 = {n_news + n_other} 条")
+    print(f"search-index.json: news {n_news} 条 + 栏目页 {n_other} 条 = {n_news + n_other} 条"
+          + (f"（已刷新 {n_desc} 条栏目描述里的过期篇数）" if n_desc else ""))
     print(f"search.html: {'已刷新计数' if changed else '计数已是最新'}（{len(articles)} 篇）")
 
 

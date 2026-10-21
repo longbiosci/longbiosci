@@ -20,6 +20,21 @@ check-links.py —— 全站死链与计数一致性检查（管线第 9 步）
 4. 产出纪律：news/ 下 HTML 文件数与 articles.json 条目数必须相等
 5. 证据分级：evidence/index.html 三个分级计数 == articles.json 分级分布，
    且磁盘上的分级分页数量与数据量推导的一致（不多不少）
+6. 绝对 URL 与 canonical（2026-10-21 新增）：
+   - 所有指向本站的绝对 URL（https://longbiosci.com/...）必须对应存在的文件
+   - 每个页面必须有 canonical，且必须**自指**（指向本页自身）
+   - canonical 指向的目标必须真实存在
+
+为什么加这一项
+──────────────
+原检查项 1 只匹配 `href|src="(/[^"#?]+)"`，即**只查以 / 开头的相对路径**。
+于是两类缺陷长期无人发现：
+- canonical / og:url 写错（404.html → /404/、mobile.html → /mobile/、
+  news/Multiverse-Brain-Age-Pipeline-Sensitivity-2026.html → 一个不存在的
+  -Prediction- 变体，共3 处，线上全部 404）
+- 3 个 daily 周刊页完全没有 canonical（其中 2 个在 sitemap 内）
+它们都「不影响页面渲染」，所以管线一路绿灯。SEO 上这是硬伤：
+canonical 指向 404 等于主动告诉搜索引擎「这个页面已废弃」。
 
 扫描范围（2026-10-17 扩）
 ────────────────────
@@ -48,6 +63,82 @@ ROOT = sys.argv[1] if len(sys.argv) > 1 else "."
 SCAN_DIRS = ["", "news", "topics", "evidence", "guide", "research",
              "companies", "events", "daily", "about", "privacy",
              "investors", "industry", "podcast"]
+
+
+def iter_pages():
+    for d in SCAN_DIRS:
+        for p in sorted(glob.glob(os.path.join(ROOT, d, "*.html"))):
+            yield p, open(p, encoding="utf-8", errors="ignore").read()
+
+
+def url_to_disk(url):
+    """站内 URL(/x/y.html) → 磁盘路径；None 表示不是本站路径。"""
+    u = url.split("#")[0].split("?")[0]
+    if not u.startswith("/"):
+        return None
+    disk = os.path.join(ROOT, u.lstrip("/"))
+    if u.endswith("/") or u == "":
+        disk = os.path.join(disk, "index.html")
+    return disk
+
+
+def page_self_url(path):
+    """页面自身的规范 URL（仓库相对），用于 canonical 自指判定。"""
+    rel = os.path.relpath(path, ROOT).replace("\\", "/")
+    if rel == "index.html":
+        return "/"
+    if rel.startswith("index.html"):        # 形如 topics/index.html
+        rel = rel[len("index.html"):]
+    return "/" + rel
+
+
+ABS_URL_RE = re.compile(r'https?://longbiosci\.com(/[^\s"\'<>]*)')
+CANON_RE = re.compile(r'<link[^>]*rel="canonical"[^>]*href="([^"]+)"', re.I)
+
+
+def check_canonical_and_abs(problems, details):
+    """检查 6：canonical 存在性、自指性、目标存在性 + 站内绝对 URL 有效性"""
+    n_pages = n_canon = 0
+    seen_abs = set()
+    for path, h in iter_pages():
+        rel = os.path.relpath(path, ROOT).replace("\\", "/")
+        n_pages += 1
+
+        # canonical 存在性
+        m = CANON_RE.search(h)
+        if not m:
+            problems["缺 canonical"] += 1
+            details.append(f"缺 canonical  {rel}")
+        else:
+            n_canon += 1
+            target = m.group(1).strip()
+            disk = url_to_disk(target.split("#")[0])
+            if disk is None:
+                # 指向站外：只要求是合法绝对 URL
+                if not target.startswith(("http://", "https://")):
+                    problems["canonical 非绝对 URL"] += 1
+                    details.append(f"canonical 非绝对URL  {rel} -> {target}")
+            else:
+                if not os.path.exists(disk):
+                    problems["canonical 指向失效"] += 1
+                    details.append(f"canonical 指向失效  {rel} -> {target}")
+                # 自指判定：站内 URL 必须等于本页自身 URL
+                elif tpath.rstrip("/") != page_self_url(rel).rstrip("/"):
+                    problems["canonical 非自指"] += 1
+                    details.append(f"canonical 非自指  {rel} -> {target}")
+
+        # 站内绝对 URL 一律校验（含 og:url、JSON-LD、正文绝对链接）
+        for u in ABS_URL_RE.findall(h):
+            if (u, rel) in seen_abs:
+                continue
+            seen_abs.add((u, rel))
+            disk = url_to_disk(u)
+            if disk and not os.path.exists(disk):
+                problems["绝对 URL 失效"] += 1
+                details.append(f"绝对URL 失效  {rel} -> {u}")
+
+    print(f"[SEO] {n_pages} 个页面 / {n_canon} 个有 canonical"
+          f" / 站内绝对 URL 去重后 {len({u for u, _ in seen_abs})} 个")
 
 
 def rel_targets():
@@ -80,6 +171,9 @@ def main():
             problems["死链"] += 1
             details.append(f"死链  {t}")
     print(f"[链接] 检查 {checked} 个站内绝对路径引用")
+
+    # ---- 1b) canonical 与站内绝对 URL ----
+    check_canonical_and_abs(problems, details)
 
     # ---- 2) articles.json 与 news/ 文件数一致 ----
     # news/ 下有一批刻意的「页面已迁移」占位页（旧 URL 保留以防外链失效），
