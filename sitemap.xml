@@ -961,6 +961,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://longbiosci.com/news/DNAm-Clock-EAA-Dementia-Meta-Analysis-37-Studies-2026.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://longbiosci.com/news/DNMT1-Regulates-Testosterone-Synthesis-In-AgingCell-2026.html</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
@@ -1179,6 +1185,12 @@
   <url>
     <loc>https://longbiosci.com/news/Engineered-Nanosponge-Neuroinflammation-Cognition-2026.html</loc>
     <lastmod>2026-09-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Entorhinal-Grid-Coding-Temporal-Instability-Aging-bioRxiv-2026.html</loc>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1557,6 +1569,12 @@
   <url>
     <loc>https://longbiosci.com/news/High-Dose-Flu-Vaccine-Reduce-Alzheimer-Risk-2026.html</loc>
     <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news/Hippocampal-Perfusion-mvPI-Spatial-Aging-bioRxiv-2026.html</loc>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3553,6 +3571,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://longbiosci.com/news/Young-BM-Microglia-BDNF-TrkB-Aged-Cognition-bioRxiv-2026.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://longbiosci.com/news/Young-Plasma-Exchange-Cognitive-Impairment-Pilot-2026.html</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
@@ -3770,6 +3794,12 @@
   </url>
   <url>
     <loc>https://longbiosci.com/news-19.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/news-20.html</loc>
     <lastmod>2026-10-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -4130,13 +4160,13 @@
   </url>
   <url>
     <loc>https://longbiosci.com/search.html</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://longbiosci.com/research/index.html</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

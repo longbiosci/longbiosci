@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-21T09:07:44+08:00",
+ "updated_at": "2026-10-22T18:28:32+08:00",
  "entries": {
   "dkwSBCCuiNrB": {
    "name": "文献层_五刊监控_深度文献卡片_2026-10-02",
@@ -846,6 +846,21 @@
    "done_at": "2026-10-21T09:07:44+08:00",
    "slugs": [],
    "note": "行业周报配套 xlsx（30,825 B），三表数据源与 md 同源；md 已消化，xlsx 作为结构化底稿不入站。⚠ 下载时签名 URL 已过期返回 403，未能核验内容；与 md 的条目数（9/15/6）一致性待下次核验。"
+  },
+  "dhKUzsPPYJNA": {
+   "name": "",
+   "layer": "",
+   "size": 0,
+   "mtime": "",
+   "status": "done",
+   "done_at": "2026-10-22T18:28:32+08:00",
+   "slugs": [
+    "DNAm-Clock-EAA-Dementia-Meta-Analysis-37-Studies-2026.html",
+    "Entorhinal-Grid-Coding-Temporal-Instability-Aging-bioRxiv-2026.html",
+    "Young-BM-Microglia-BDNF-TrkB-Aged-Cognition-bioRxiv-2026.html",
+    "Hippocampal-Perfusion-mvPI-Spatial-Aging-bioRxiv-2026.html"
+   ],
+   "note": "2026-10-22 补消化（当日07:30巡检漏处理）：主榜4成篇；观察哨2（脑老化5mC/5hmC框架无定量、MCFT平台资源类）+补遗3（相关性弱）不成篇入档"
   }
  }
 }

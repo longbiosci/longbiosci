@@ -63,14 +63,18 @@ def main():
         if d:
             from_cursor += 1
         else:
+            # 取最新一次入库（A）提交的日期：基线后新收录 / 或被删后重新收录的
+            # 文章，其收录日应反映最近一次入库，而非最早的基线
             gd = _git("log", "--diff-filter=A", "--format=%ad", "--date=short",
                       "--", "news/" + slug).splitlines()
-            gd = gd[-1] if gd else ""
+            gd = gd[0] if gd else ""  # head = 最新一次 A 提交
             if gd and gd != baseline:
                 d = gd
                 from_git += 1
             else:
-                d = baseline or a.get("date", "")
+                # 无 git 记录 = 尚未提交的新文章，收录日即今天
+                import datetime as _dt
+                d = (gd if gd else _dt.date.today().isoformat()) or baseline
                 fallback += 1
         a["added"] = d
         filled += 1

@@ -93,10 +93,13 @@ def render_page(articles, page, total_pages):
         desc = a["desc"]
         if len(desc) > DESC_MAX:
             desc = desc[:DESC_MAX] + "…"
+        added = a.get("added", "")
+        date_disp = ("%s 收录 · %s" % (added, a["date"])
+                     if added and added != a["date"] else a["date"])
         items.append(FEED_ITEM.format(
             tag=esc(a["tag"] or a["topic"]),
             tier=esc(a["evidence"]),
-            date=esc(a["date"]),
+            date=esc(date_disp),
             topic=esc(a["topic"]),
             slug=a["slug"],
             title=esc(a["title"]),
@@ -153,6 +156,10 @@ def main():
     root = sys.argv[1] if len(sys.argv) > 1 else "."
     with open(os.path.join(root, "data/articles.json"), encoding="utf-8") as f:
         articles = json.load(f)
+    # 「最新收录」页按收录日倒序（新上站的旧论文不再沉底）；无 added 回退 date
+    articles = sorted(articles,
+                      key=lambda a: (a.get("added") or a.get("date", "")),
+                      reverse=True)
     total = len(articles)
     total_pages = max(1, math.ceil(total / PER_PAGE))
 

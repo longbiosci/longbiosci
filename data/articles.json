@@ -1,5 +1,57 @@
 [
   {
+    "slug": "DNAm-Clock-EAA-Dementia-Meta-Analysis-37-Studies-2026.html",
+    "title": "37 项研究 4.6 万人的证伪性检验：五种表观遗传时钟里只有 GrimAge 预测痴呆",
+    "desc": "n=46,365 的 meta 分析显示，GrimAge 年龄加速每 +1 SD，痴呆风险 HR 1.11；Horvath1 / Hannum / PhenoAge / DunedinPACE 均不显著——「时钟即生物标志物」的默认假设需要重新审视。",
+    "tag": "预印本",
+    "date": "2026-10-22",
+    "topic": "表观遗传",
+    "type": "预印本",
+    "evidence": "B",
+    "source": "doi.org",
+    "doi": "10.64898/2026.10.21.26365867",
+    "added": "2026-10-22"
+  },
+  {
+    "slug": "Entorhinal-Grid-Coding-Temporal-Instability-Aging-bioRxiv-2026.html",
+    "title": "老年人内嗅皮层的「网格信号」变弱，是表征不稳了，不是没了",
+    "desc": "85 名老年人的 VR+fMRI 显示：内嗅六向信号变弱对应网格表征的跨 run 不稳定，而非表征缺失；左 pmEC 稳定性还能预测物体位置记忆——年龄本身反而解释力不足。",
+    "tag": "预印本",
+    "date": "2026-10-22",
+    "topic": "神经退行",
+    "type": "预印本",
+    "evidence": "B",
+    "source": "doi.org",
+    "doi": "10.64898/2026.10.15.759328",
+    "added": "2026-10-22"
+  },
+  {
+    "slug": "Hippocampal-Perfusion-mvPI-Spatial-Aging-bioRxiv-2026.html",
+    "title": "海马的「供水」与「搏动」是两条独立的老化轴线：7T MRI 的空间图谱",
+    "desc": "35 名青年与老年人的 7T MRI 显示，海马灌注与微血管搏动指数（mvPI）空间组织不同、各有年龄差异；青年组中前者对应 PV 中间神经元密度，后者对应 theta 频段。",
+    "tag": "预印本",
+    "date": "2026-10-22",
+    "topic": "神经退行",
+    "type": "预印本",
+    "evidence": "B",
+    "source": "doi.org",
+    "doi": "10.64898/2026.10.15.759438",
+    "added": "2026-10-22"
+  },
+  {
+    "slug": "Young-BM-Microglia-BDNF-TrkB-Aged-Cognition-bioRxiv-2026.html",
+    "title": "年轻骨髓小胶质细胞改善老年脑认知，靠的是早期归巢期的 BDNF-TrkB，不需要永久嵌合",
+    "desc": "可诱导清除体系显示：年轻供体骨髓来源小胶质样细胞的认知获益在移植后 1 个月起效、依赖 BDNF-TrkB 通路，且清除后仍维持——不必永久嵌合，TrkB 激动剂或可模拟。",
+    "tag": "预印本",
+    "date": "2026-10-22",
+    "topic": "免疫与炎症",
+    "type": "预印本",
+    "evidence": "B",
+    "source": "doi.org",
+    "doi": "10.64898/2026.10.15.759429",
+    "added": "2026-10-22"
+  },
+  {
     "slug": "BNIP3L-NIX-Mitophagy-Alzheimer-Tau-Amyloid-bioRxiv-2026.html",
     "title": "BNIP3L/NIX 线粒体自噬：从人到线虫双双验证，能压住 Tau 与 Aβ 病理",
     "desc": "缺失 BNIP3L/NIX（或线虫同源物 DCT-1）会同时恶化 Tau 与 Aβ 病理、损害神经元网络与行为；回补其活性则降低 Tau 磷酸化并显著抑制 seeding 诱导的 Tau 聚集。摘要无任何定量。",

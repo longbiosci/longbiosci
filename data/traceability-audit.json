@@ -1,8 +1,8 @@
 {
  "summary": {
-  "total": 570,
+  "total": 574,
   "level_counts": {
-   "强": 438,
+   "强": 442,
    "中": 132
   },
   "by_tier": {
@@ -11,8 +11,8 @@
     "中": 27
    },
    "B": {
-    "中": 90,
-    "强": 226
+    "强": 230,
+    "中": 90
    },
    "C": {
     "强": 104,
@@ -684,6 +684,54 @@
   "no_source": []
  },
  "articles": [
+  {
+   "slug": "DNAm-Clock-EAA-Dementia-Meta-Analysis-37-Studies-2026.html",
+   "title": "37 项研究 4.6 万人的证伪性检验：五种表观遗传时钟里只有 GrimAge 预测痴呆",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.21.26365867",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.21.26365867"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Entorhinal-Grid-Coding-Temporal-Instability-Aging-bioRxiv-2026.html",
+   "title": "老年人内嗅皮层的「网格信号」变弱，是表征不稳了，不是没了",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.15.759328",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.15.759328"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Hippocampal-Perfusion-mvPI-Spatial-Aging-bioRxiv-2026.html",
+   "title": "海马的「供水」与「搏动」是两条独立的老化轴线：7T MRI 的空间图谱",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.15.759438",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.15.759438"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Young-BM-Microglia-BDNF-TrkB-Aged-Cognition-bioRxiv-2026.html",
+   "title": "年轻骨髓小胶质细胞改善老年脑认知，靠的是早期归巢期的 BDNF-TrkB，不需要永久嵌合",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.15.759429",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.15.759429"
+   ],
+   "level": "强"
+  },
   {
    "slug": "BNIP3L-NIX-Mitophagy-Alzheimer-Tau-Amyloid-bioRxiv-2026.html",
    "title": "BNIP3L/NIX 线粒体自噬：从人到线虫双双验证，能压住 Tau 与 Aβ 病理",
