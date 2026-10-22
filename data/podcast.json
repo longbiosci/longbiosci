@@ -53,6 +53,28 @@
           "note": "⚠️ 来源待补：PubMed 未检索到完全对应文献，本站结论照登但明示单一来源、未能独立核实"
         }
       ]
+    },
+    {
+      "id": "ep002",
+      "slug": "senolytic-human-evidence-map-2026",
+      "series": "机制十分钟",
+      "title": "Senolytic：清除衰老细胞的人体证据，到哪一步了",
+      "date": "2026-10-22",
+      "duration_sec": 409,
+      "audio": "audio/senolytic-human-evidence-map-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "「清除衰老细胞能抗衰」是过去十年最出圈的抗衰叙事之一。一份 2026 年的系统评价梳理了已完成的人体试验：D+Q 的初步改善、轻度的副作用、以及它至今仍是「研究性」治疗的原因。",
+      "article_slugs": [
+        "news/Senolytics-Senomorphics-Human-Trials-Systematic-Review-BJCP-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "British Journal of Clinical Pharmacology（2026）：Senolytics 与 Senomorphics 人体试验系统评价",
+          "doi": "10.1002/bcp.70871",
+          "pmid": "42834340",
+          "url": "https://doi.org/10.1002/bcp.70871"
+        }
+      ]
     }
   ]
 }
