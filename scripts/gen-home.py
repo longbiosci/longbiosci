@@ -167,7 +167,7 @@ LEAD_SECTION = '''  <section class="section">
     <div class="wrap">
       <div class="section-head">
         <h2>今日必读</h2>
-        <span class="section-note">最新 {lead} 篇 · 更新至 {maxdate}</span>
+        <span class="section-note">最新收录 {lead} 篇 · 文章更新至 {maxdate}</span>
         <a href="/news/" class="section-more">查看全部 →</a>
       </div>
       <div class="lead-grid">
@@ -329,10 +329,15 @@ def concept_count(root, href):
 
 
 def render_feed_item(a):
+    added = a.get("added", "")
+    if added and added != a["date"]:
+        date_disp = "%s 收录 · %s" % (added, a["date"])
+    else:
+        date_disp = a["date"]
     return HOME_FEED_ITEM.format(
         tag=esc(a["tag"] or a["topic"]),
         tier=esc(a["evidence"]),
-        date=esc(a["date"]),
+        date=esc(date_disp),
         topic=esc(a["topic"]),
         slug=a["slug"],
         title=esc(a["title"]),
@@ -378,9 +383,14 @@ def main():
 
     out = HOME_HEAD + HOME_HEADER
     out += HERO.replace("{total}", str(total))
+    # 头条区按「收录日」倒序（新消化上站的旧论文也能浮上来）；无 added 回退 date
+    lead_articles = sorted(
+        articles,
+        key=lambda a: (a.get("added") or a.get("date", "")),
+        reverse=True)
     out += LEAD_SECTION.replace("{lead}", str(LEAD_COUNT)).replace(
         "{maxdate}", maxdate)
-    out += "\n".join(render_lead_card(a) for a in articles[:LEAD_COUNT]) + "\n"
+    out += "\n".join(render_lead_card(a) for a in lead_articles[:LEAD_COUNT]) + "\n"
     out += SECTION_CLOSE
     out += TOPIC_SECTION
     out += "\n".join(
@@ -403,7 +413,8 @@ def main():
     out += SECTION_CLOSE
     out += FEED_SECTION
     out += "\n".join(
-        render_feed_item(a) for a in articles[FEED_SKIP:FEED_SKIP + FEED_COUNT]
+        render_feed_item(a)
+        for a in lead_articles[FEED_SKIP:FEED_SKIP + FEED_COUNT]
     ) + "\n"
     out += SECTION_CLOSE
     out += FOOTER.replace("{total}", str(total))

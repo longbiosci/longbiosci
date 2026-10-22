@@ -135,6 +135,8 @@ step() {
   case "$script" in
     add-rss-today-run.py) "$PYTHON" "$HERE/$script" "$ROOT" "$@" ;;
     sync-evidence.py)     "$PYTHON" "$HERE/$script" "$ROOT" --write ;;
+    # gen-home 前先补「收录日」字段（build-index 重建 articles.json 不保留新增字段）
+    gen-home.py)          "$PYTHON" "$HERE/backfill-added.py" "$ROOT" && "$PYTHON" "$HERE/$script" "$ROOT" ;;
     normalize_nav.py)     "$PYTHON" "$HERE/$script" "$ROOT" --apply ;;
     # fix_related.py 自己按 __file__ 推导仓库根，不接受位置参数
     fix_related.py)       "$PYTHON" "$HERE/$script" "$@" ;;
