@@ -230,29 +230,6 @@ def extract_article(root, slug, topic_idx):
     }
 
 
-# 「页面已迁移」守卫页的自证标记，与 scripts/gen-redirects.py 保持一致
-STUB_MARK = "lb-redirect-stub"
-MIGRATED_TEXT = "页面已迁移"
-
-
-def is_redirect_stub(path):
-    """迁移守卫页不是文章——它是旧 URL 的守门页，由 gen-redirects.py 产出。
-
-    为什么不靠 extract_article 自己返回 None：
-    2026-10-22 实测 38 个守卫页确实全被跳过了，但那是「它们恰好缺
-    标题/摘要等字段」的副产品，不是防线。哪天有人为了美观给守卫页
-    补上标题或摘要，extract_article 就会成功解析，articles.json
-    立刻从 570 条涨到 605 条，且首页/搜索/sitemap 三处计数同步失真。
-    「正好没解析出来」是运气，「显式排除」才是规则。
-    """
-    try:
-        with open(path, encoding="utf-8", errors="ignore") as f:
-            head = f.read(2000)
-    except OSError:
-        return False
-    return STUB_MARK in head or MIGRATED_TEXT in head
-
-
 def main():
     root = sys.argv[1] if len(sys.argv) > 1 else "."
     index_path = os.path.join(root, "data", "articles.json")
@@ -273,10 +250,6 @@ def main():
             if not fn.endswith(".html") or fn == "index.html":
                 continue
             if fn in registered:
-                continue
-            # 迁移守卫页显式排除，不交给 extract_article 碰运气
-            if is_redirect_stub(os.path.join(news_dir, fn)):
-                skipped.append(fn)
                 continue
             rec = extract_article(root, fn, topic_idx)
             if rec is None:

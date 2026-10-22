@@ -69,18 +69,8 @@ def api(path, method="GET", payload=None, token=None, raw=False):
         raise SystemExit(f"HTTP {e.code} on {method} {path}\n{detail}")
 
 
-def _token_from_env_or_file(argv):
-    """凭证优先取环境变量（定时任务一次配置长期可用），其次才读文件。"""
-    tok = (os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN") or "").strip()
-    if tok:
-        return tok
-    if argv and os.path.isfile(argv[0]):
-        return open(argv[0]).read().strip()
-    raise SystemExit("缺少凭证：请设置 GH_TOKEN / GITHUB_TOKEN 环境变量，或传入 token 文件路径。")
-
-
 def main():
-    token = _token_from_env_or_file(sys.argv[1:])
+    token = open(sys.argv[1]).read().strip()
     head = sh("git", "rev-parse", "HEAD").decode().strip()
     msg_file = sh("git", "log", "-1", "--format=%B").decode()
 

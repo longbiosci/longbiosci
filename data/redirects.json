@@ -1,5 +1,5 @@
 {
- "_comment": "已删除文章 -> 保留文章 的 slug 映射。来源：网盘「网站层/网站喂料_2026-10-13/站点重复清理记录_2026-10-14.md」（两轮语义去重，398→377）。scripts/fix_related.py 据此自动修复站内死链；新增删除条目时只需在此追加一行。 2026-10-16 追加：DOI 索引提纯发现的 14 组同 DOI 重复报道（495→481），证据等级优先保留。 2026-10-22 追加：3 条历史截断 URL 守卫页（ARDD/Alchemab/Autophagy），此前是人工手写的迁移页，本次纳入 scripts/gen-redirects.py 统一管辖（范式统一为 canonical 指向保留版本，去掉 noindex 以传导外链权重）。",
+ "_comment": "已删除文章 -> 保留文章 的 slug 映射。来源：网盘「网站层/网站喂料_2026-10-13/站点重复清理记录_2026-10-14.md」（两轮语义去重，398→377）。scripts/fix_related.py 据此自动修复站内死链；新增删除条目时只需在此追加一行。 2026-10-16 追加：DOI 索引提纯发现的 14 组同 DOI 重复报道（495→481），证据等级优先保留。",
  "IGF1R-Inhibitors-Healthspan-Mouse-2026.html": "IGF1R-Inhibitors-Extend-Healthspan-Mouse-2026.html",
  "IDOL-Enzyme-Alzheimers-Target-2026.html": "IDOL-Enzyme-Alzheimer-IU-2026.html",
  "Nano-ERASER-Astrocyte-Neuron-Alzheimer-2026.html": "Nano-ERASER-Astrocyte-Neuron-AD-2026.html",
@@ -35,8 +35,7 @@
  "Senotherapeutics-Fisetin-Derivatives-Phenotypic-Screening-AgingCell-2026.html": "Novel-Flavonoid-Senotherapeutics-Identified-Phenotypic-Drug-Discovery-Reduce-Senescence-Improve-Multiple.html",
  "Epigenetic-Aging-Clock-Interventions-Systematic-Review-2026.html": "NextGen-Epigenetic-Clock-Interventions-41-Human-Studies-2026.html",
  "Immunosenescence-Inflammaging-Neurodegeneration-2026.html": "Immune-System-Aging-Neurodegeneration-2026.html",
- "ARDD-2026-to-relocate-to-Bosto.html": "ARDD-2026-to-relocate-to-Boston.html",
- "Alchemab-Therapeutics-names-Ul.html": "Alchemab-Therapeutics-names-Ulrich-Wendt-CBO.html",
- "Autophagy-as-a-Double-Edged-Sw.html": "Autophagy-as-a-Double-Edged-Sword-in-Aging.html",
- "about.html": "/about/"
+ "BNIP3L-NIX-Mitophagy-Alzheimer-Tau-Amyloid-bioRxiv-2026.html": "BNIP3L-NIX-Mitophagy-Alzheimer-Pathology-2026.html",
+ "CARM1-Ser572-Muscle-Stem-Cell-Exhaustion-bioRxiv-2026.html": "CARM1-Ser572-Muscle-Stem-Cell-Exhaustion-2026.html",
+ "HGPS-Adipogenic-Lineage-Consolidation-Failure-HiC-bioRxiv-2026.html": "HGPS-Adipogenic-Lineage-HiC-Chromatin-2026.html"
 }

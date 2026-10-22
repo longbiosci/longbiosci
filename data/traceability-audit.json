@@ -1,9 +1,9 @@
 {
  "summary": {
-  "total": 570,
+  "total": 575,
   "level_counts": {
-   "强": 438,
-   "中": 132
+   "强": 441,
+   "中": 134
   },
   "by_tier": {
    "A": {
@@ -11,19 +11,29 @@
     "中": 27
    },
    "B": {
-    "中": 90,
-    "强": 226
+    "强": 232,
+    "中": 89
    },
    "C": {
-    "强": 104,
-    "中": 15
+    "中": 18,
+    "强": 101
    }
   },
   "missing_doi": [
    {
+    "slug": "Acta-Pharmaceuticals-Alzheimer-Prevention-Seed-2026.html",
+    "title": "2400 万美元种子轮押注「大脑的他汀」：Acta 要把阿尔茨海默病拦在症状出现之前",
+    "evidence": "C"
+   },
+   {
+    "slug": "Intrinsic-Capacity-Endpoint-Standardization-Debate-2026.html",
+    "title": "内在能力有了「收件地址」，但还没有一把尺子：Beard 的警告与 FDA 的 OCHEN 落在同一周",
+    "evidence": "C"
+   },
+   {
     "slug": "Mission-Therapeutics-MTX325-USP30-Parkinson-Phase1b-2026.html",
-    "title": "线粒体自噬第一次走进帕金森患者：USP30 抑制剂 MTX325 完成 1b 期首例给药",
-    "evidence": "B"
+    "title": "线粒体自噬第一次进帕金森临床给药：Mission 的 USP30 抑制剂 MTX325 完成 1b 期首例",
+    "evidence": "C"
    },
    {
     "slug": "Cross-Weekly-Clinical-Literature-2026-10-18.html",
@@ -685,9 +695,57 @@
  },
  "articles": [
   {
-   "slug": "BNIP3L-NIX-Mitophagy-Alzheimer-Tau-Amyloid-bioRxiv-2026.html",
-   "title": "BNIP3L/NIX 线粒体自噬：从人到线虫双双验证，能压住 Tau 与 Aβ 病理",
+   "slug": "Aged-Brain-Vascular-Neural-Coupling-Entorhinal-Perfusion-2026.html",
+   "title": "老化脑的两条独立轴线：内嗅「网格编码」只是不稳了，海马灌注与血管搏动各走各的",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.15.759328",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.15.759328"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "DNAm-Clocks-Dementia-Risk-Meta-Analysis-2026.html",
+   "title": "46,365 人的系统性证伪：五种主流甲基化时钟里，只有 GrimAge 能预测痴呆",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.21.26365867",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.21.26365867"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Young-BM-Microglia-Like-Cells-BDNF-TrkB-Aged-Brain-2026.html",
+   "title": "异体年轻细胞的认知获益不必「永久嵌合」：早期归巢期的一个 BDNF-TrkB 窗口",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.15.759429",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.15.759429"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Acta-Pharmaceuticals-Alzheimer-Prevention-Seed-2026.html",
+   "title": "2400 万美元种子轮押注「大脑的他汀」：Acta 要把阿尔茨海默病拦在症状出现之前",
    "evidence": "C",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://www.timesargus.com/news/business/acta-pharmaceuticals-closes-24-million-in-seed-financing-for-alzheimer-s-disease-pipeline-targeting-early/article_7c53a760-deda-5dc6-92f3-929bca7e4e1d.html"
+   ],
+   "level": "中"
+  },
+  {
+   "slug": "BNIP3L-NIX-Mitophagy-Alzheimer-Pathology-2026.html",
+   "title": "BNIP3L/NIX 线粒体自噬：人神经元到线虫的双向验证，缺失加剧 Tau 与 Aβ，回补则压住两者",
+   "evidence": "B",
    "page_exists": true,
    "doi": "10.64898/2026.10.18.759942",
    "doi_in_page": true,
@@ -697,9 +755,9 @@
    "level": "强"
   },
   {
-   "slug": "CARM1-Ser572-Muscle-Stem-Cell-Exhaustion-bioRxiv-2026.html",
-   "title": "肌肉干细胞里的一个「刹车」：单次损伤扛得住，反复损伤就崩",
-   "evidence": "C",
+   "slug": "CARM1-Ser572-Muscle-Stem-Cell-Exhaustion-2026.html",
+   "title": "肌肉干细胞「不该这么快决定命运」：CARM1 Ser572 是防耗竭的刹车，只有反复损伤才试得出来",
+   "evidence": "B",
    "page_exists": true,
    "doi": "10.64898/2026.10.17.759715",
    "doi_in_page": true,
@@ -709,9 +767,9 @@
    "level": "强"
   },
   {
-   "slug": "HGPS-Adipogenic-Lineage-Consolidation-Failure-HiC-bioRxiv-2026.html",
-   "title": "早老症的脂肪流失，坏在「巩固」不在「启动」：Hi-C 第一次把 3D 基因组接上脂肪谱系失败",
-   "evidence": "C",
+   "slug": "HGPS-Adipogenic-Lineage-HiC-Chromatin-2026.html",
+   "title": "早老症的脂肪流失，问题不在「启动」而在「巩固」：Hi-C 把 3D 基因组和脂肪谱系失败接上了",
+   "evidence": "B",
    "page_exists": true,
    "doi": "10.64898/2026.10.19.760205",
    "doi_in_page": true,
@@ -721,9 +779,21 @@
    "level": "强"
   },
   {
+   "slug": "Intrinsic-Capacity-Endpoint-Standardization-Debate-2026.html",
+   "title": "内在能力有了「收件地址」，但还没有一把尺子：Beard 的警告与 FDA 的 OCHEN 落在同一周",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://longevity.technology/news/intrinsic-capacity-a-new-way-to-measure-healthy-aging/"
+   ],
+   "level": "中"
+  },
+  {
    "slug": "Mission-Therapeutics-MTX325-USP30-Parkinson-Phase1b-2026.html",
-   "title": "线粒体自噬第一次走进帕金森患者：USP30 抑制剂 MTX325 完成 1b 期首例给药",
-   "evidence": "B",
+   "title": "线粒体自噬第一次进帕金森临床给药：Mission 的 USP30 抑制剂 MTX325 完成 1b 期首例",
+   "evidence": "C",
    "page_exists": true,
    "doi": null,
    "doi_in_page": false,

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-21T09:07:44+08:00",
+ "updated_at": "2026-10-22T07:46:33+08:00",
  "entries": {
   "dkwSBCCuiNrB": {
    "name": "文献层_五刊监控_深度文献卡片_2026-10-02",
@@ -587,26 +587,6 @@
    "slugs": [],
    "note": "已发布条目留档（10961 B）：10-13 批次 publish_status 核对表，与喂料池同源，无新条目。"
   },
-  "duBgXYxWoSQW": {
-   "name": "IMA知识库_0019eb4e65002c9f/衰老与长寿相关临床试验登记清单",
-   "layer": "元层",
-   "size": 218833,
-   "mtime": "1790818489000",
-   "status": "done",
-   "done_at": "2026-10-16T01:10:27+08:00",
-   "slugs": [],
-   "note": "558 条试验登记库已消化：解析为 data/trials-full.json（558 唯一 NCT），新建 /trials-full.html 全量登记库页（宽口径检索视图），与 /trials.html（82 项机制口径主表）互链，进 sitemap。82 窄口径 + 558 宽口径双库并存，用户已授权执行。"
-  },
-  "dXnPTXlfISVq": {
-   "name": "IMA知识库_0019eb4e65002c9f/衰老与长寿相关临床试验登记清单_snapshot",
-   "layer": "元层",
-   "size": 145445,
-   "mtime": "1790818492000",
-   "status": "done",
-   "done_at": "2026-10-16T01:10:27+08:00",
-   "slugs": [],
-   "note": "同上：trials-snapshot（JSON, total_unique=558）与登记库 md 已双源核对（状态分布 368/155/35 一致），落地为 /trials-full.html。"
-  },
   "dHQVvLfIkFGi": {
    "name": "文献层_五刊监控_深度文献卡片_2026-10-16",
    "layer": "文献层",
@@ -706,16 +686,6 @@
    ],
    "note": "全文PDF归档（G21）。已下载核验 1553065B/34页，据此升级为全文级：补齐 Table 3 全部补充剂剂量与第4周升级规则、gerotype 判定阈值与常模来源、入排、运动处方、六项可行性参数、统计方案；并更正证据分级 C→A（原标「预印本/观点评论」与事实不符，实为同行评议 Methods Paper，已注册 NCT07451496）。"
   },
-  "dNSmHwfzNMrn": {
-   "name": "upload_test",
-   "layer": "文献层",
-   "size": 24,
-   "mtime": "1792137562000",
-   "status": "done",
-   "done_at": "2026-10-17T07:43:12+08:00",
-   "slugs": [],
-   "note": "非产出：upload_test.txt 24B（内容 upload_probe_2026-10-16），系上游做网盘上传链路连通性测试后遗留的探针文件，无内容价值，不入站。已在巡检报告中建议清理。"
-  },
   "dwyAwojtLOeF": {
    "name": "临床×文献交叉周报_2026-10-18",
    "layer": "元层",
@@ -807,13 +777,13 @@
    "size": 39189,
    "mtime": "1792534650000",
    "status": "done",
-   "done_at": "2026-10-21T09:07:40+08:00",
+   "done_at": "2026-10-21T07:46:00+08:00",
    "slugs": [
-    "HGPS-Adipogenic-Lineage-Consolidation-Failure-HiC-bioRxiv-2026.html",
-    "CARM1-Ser572-Muscle-Stem-Cell-Exhaustion-bioRxiv-2026.html",
-    "BNIP3L-NIX-Mitophagy-Alzheimer-Tau-Amyloid-bioRxiv-2026.html"
+    "HGPS-Adipogenic-Lineage-HiC-Chromatin-2026.html",
+    "CARM1-Ser572-Muscle-Stem-Cell-Exhaustion-2026.html",
+    "BNIP3L-NIX-Mitophagy-Alzheimer-Pathology-2026.html"
    ],
-   "note": "2026-10-21 速递：主榜0/观察哨4/补遗5。观察哨#1 HGSP 成脂谱系巩固失败、#2 CARM1 Ser572、#4 BNIP3L/NIX 三篇成稿（均C级，摘要零定量已标待补全文）；观察哨#2(MEMR 听觉反射)为否定性方法学证据、#3未成篇见下。补遗5条不入站：Semaglutide睡眠心率/肾性高血压脑白质/SIRT1-METTL3筛选/ORIGIN-PD分层/MagLOV2传感器——均为弱相关，与该站文献定位不符，留观察哨。"
+   "note": "预印本速递_2026-10-21（实测39189B）：入榜9条（主榜0/观察哨4/补遗5），DOI尾号站内硬核验0命中。成篇3篇：观察哨#1 HGPS×Hi-C×成脂谱系巩固失败、#3 CARM1 Ser572 肌肉干细胞反复损伤耗竭、#4 BNIP3L/NIX 线粒体自噬压 Tau/Aβ。观察哨#2(MEMR听觉，否定性结果+零定量)、补遗#1(Semaglutide睡眠心率)按上游交接建议入档不成篇"
   },
   "dmJkBUnnRwKd": {
    "name": "行业情报周报_2026-10-21",
@@ -821,21 +791,13 @@
    "size": 47589,
    "mtime": "1792523754000",
    "status": "done",
-   "done_at": "2026-10-21T09:07:40+08:00",
+   "done_at": "2026-10-21T07:46:05+08:00",
    "slugs": [
-    "Mission-Therapeutics-MTX325-USP30-Parkinson-Phase1b-2026.html"
+    "Mission-Therapeutics-MTX325-USP30-Parkinson-Phase1b-2026.html",
+    "Acta-Pharmaceuticals-Alzheimer-Prevention-Seed-2026.html",
+    "Intrinsic-Capacity-Endpoint-Standardization-Debate-2026.html"
    ],
-   "note": "行业周报 W43：投融资9/管线15/监管6。只提取与衰老机制直接相关的1条成篇（Mission MTX325 USP30 1b期首例给药，线粒体自噬=线粒体功能障碍标志的可药化节点）。其余条目已在网盘存档，不在本站逐条铺开。⚠本期缺【来源自检】行，已在运营日志记录。"
-  },
-  "dEbLgGGlcwOG": {
-   "name": "预印本全文级流水线_运行摘要_2026-10-19",
-   "layer": "文献层",
-   "size": 8297,
-   "mtime": "1792454436000",
-   "status": "empty",
-   "done_at": "2026-10-21T09:07:44+08:00",
-   "slugs": [],
-   "note": "摘要型过程文档，非研究产出：文件名 2026-10-19，正文自述检索日期 2026-10-19，但执行时间 2026-10-20 07:00–07:56（窗口错位，已在运营日志记为『错位交付』）。内容为全文级流水线运行摘要：medRxiv 33 命中 full 32/partial 1/none 0，bioRxiv 70 条 403 缺席，分层为机器初筛（脚本自述『非专家判读，严禁直接引用』）。不含可成篇研究条目 → 不入站。"
+   "note": "行业情报周报_2026-W43(md,实测47589B)：投融资9/管线15/监管6条，全部带来源URL。成篇3篇：Mission MTX325 USP30 1b期首例给药(线粒体自噬进临床)、Acta 2400万美元种子轮(AD预防)、内在能力终点标准化之争(Beard警告+FDA OCHEN收件地址)。其余条目(翰森×罗氏肿瘤ADC、Alector增发、Monte Rosa NEK7、NeuroXT 510k等)入档待后续消化"
   },
   "dxCnKBUCoQXK": {
    "name": "行业情报周报_2026-10-21",
@@ -843,9 +805,81 @@
    "size": 30825,
    "mtime": "1792523782000",
    "status": "done",
-   "done_at": "2026-10-21T09:07:44+08:00",
+   "done_at": "2026-10-21T07:46:10+08:00",
    "slugs": [],
-   "note": "行业周报配套 xlsx（30,825 B），三表数据源与 md 同源；md 已消化，xlsx 作为结构化底稿不入站。⚠ 下载时签名 URL 已过期返回 403，未能核验内容；与 md 的条目数（9/15/6）一致性待下次核验。"
+   "note": "行业情报周报_2026-W43(xlsx,实测30825B)：与同名md为同一周三表的表格版，无额外条目，随md一并消化，不单独成篇"
+  },
+  "dEbLgGGlcwOG": {
+   "name": "预印本全文级流水线_运行摘要_2026-10-19",
+   "layer": "文献层",
+   "size": 8297,
+   "mtime": "1792454436000",
+   "status": "done",
+   "done_at": "2026-10-21T07:46:11+08:00",
+   "slugs": [],
+   "note": "预印本全文级流水线_运行摘要_2026-10-19(实测8297B)：运行摘要类产出，无可成篇条目，仅作链路留痕。其主榜12条中6条查重判漏收，DOI尾号站内硬核验26365756等均0命中；EHR生物年龄与心胸外科术后恢复等条目摘要无定量，按口径入档不成篇。记录要点：medRxiv 33/33全文取得率100%，bioRxiv 70条因403零全文，tiers字段为跨期累计口径(114)与当日(103)不一致的统计瑕疵待修"
+  },
+  "dhKUzsPPYJNA": {
+   "name": "预印本速递_2026-10-22",
+   "layer": "文献层",
+   "size": 31347,
+   "mtime": "1792620450000",
+   "status": "done",
+   "done_at": "2026-10-22T07:42:52+08:00",
+   "slugs": [
+    "DNAm-Clocks-Dementia-Risk-Meta-Analysis-2026.html",
+    "Aged-Brain-Vascular-Neural-Coupling-Entorhinal-Perfusion-2026.html",
+    "Young-BM-Microglia-Like-Cells-BDNF-TrkB-Aged-Brain-2026.html"
+   ],
+   "note": "实测 31347 B 非空。harvest 9 条候选全 confidence=none，DOI 尾号站内硬核验 0 命中（DNA methylation clocks 命中的 1 篇为 10.18632/aging.206377，非同一研究）。成篇 3 篇（主榜1 DNAm 时钟 meta；主榜2+4 合并为老化脑血管-神经耦合；主榜3 年轻骨髓小胶质样细胞 BDNF-TrkB），均 B 级预印本、全文未获取（bioRxiv 403），定量缺口标待补全文。观察哨1-2、补遗1-3 按上游建议入档不成篇。articles.json 572→575。"
+  },
+  "dbhxURufXOPt": {
+   "name": "LongBiosci_待写补丁_2026-10-21.tar",
+   "layer": "元层",
+   "size": 215304,
+   "mtime": "1792556521000",
+   "status": "done",
+   "done_at": "2026-10-22T07:42:52+08:00",
+   "slugs": [],
+   "note": "实测 215304 B 非空（dir_list 缓存同值）。解压为 3 个 git patch（非内容产出，属工程/SEO 修复）：fix_related 正则兼容 84 篇旧模板、check-links 新增 canonical 与绝对 URL 校验、SEO 修复 3 处失效 canonical/og:url + 3 页缺失 canonical。已 git apply 前两个完整应用；第三个排除 sitemap.xml 与 data/search-index.json（由管线环节9/13 重建）后应用。管线 17/17 全绿。"
+  }
+ },
+ "retired": {
+  "duBgXYxWoSQW": {
+   "name": "IMA知识库_0019eb4e65002c9f/衰老与长寿相关临床试验登记清单",
+   "layer": "元层",
+   "size": 218833,
+   "mtime": "1790818489000",
+   "status": "done",
+   "done_at": "2026-10-16T01:10:27+08:00",
+   "slugs": [],
+   "note": "558 条试验登记库已消化：解析为 data/trials-full.json（558 唯一 NCT），新建 /trials-full.html 全量登记库页（宽口径检索视图），与 /trials.html（82 项机制口径主表）互链，进 sitemap。82 窄口径 + 558 宽口径双库并存，用户已授权执行。",
+   "retired_at": "2026-10-22T07:46:33+08:00",
+   "retired_reason": "上游已删除/替换：本轮重建清单（2026-10-22 nd_dirlist 抓包）四个层目录中已无此 file_id。《衰老与长寿相关临床试验登记清单》现以新 file_id dhnlTAyanHao / dgUBJEBhGZjZ 存在于元层且游标已 done；upload_test 为历史测试数据。"
+  },
+  "dXnPTXlfISVq": {
+   "name": "IMA知识库_0019eb4e65002c9f/衰老与长寿相关临床试验登记清单_snapshot",
+   "layer": "元层",
+   "size": 145445,
+   "mtime": "1790818492000",
+   "status": "done",
+   "done_at": "2026-10-16T01:10:27+08:00",
+   "slugs": [],
+   "note": "同上：trials-snapshot（JSON, total_unique=558）与登记库 md 已双源核对（状态分布 368/155/35 一致），落地为 /trials-full.html。",
+   "retired_at": "2026-10-22T07:46:33+08:00",
+   "retired_reason": "上游已删除/替换：本轮重建清单（2026-10-22 nd_dirlist 抓包）四个层目录中已无此 file_id。《衰老与长寿相关临床试验登记清单》现以新 file_id dhnlTAyanHao / dgUBJEBhGZjZ 存在于元层且游标已 done；upload_test 为历史测试数据。"
+  },
+  "dNSmHwfzNMrn": {
+   "name": "upload_test",
+   "layer": "文献层",
+   "size": 24,
+   "mtime": "1792137562000",
+   "status": "done",
+   "done_at": "2026-10-17T07:43:12+08:00",
+   "slugs": [],
+   "note": "非产出：upload_test.txt 24B（内容 upload_probe_2026-10-16），系上游做网盘上传链路连通性测试后遗留的探针文件，无内容价值，不入站。已在巡检报告中建议清理。",
+   "retired_at": "2026-10-22T07:46:33+08:00",
+   "retired_reason": "历史测试数据，网盘四层已无此文件"
   }
  }
 }

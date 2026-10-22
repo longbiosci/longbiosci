@@ -9,7 +9,7 @@
 #   --date / --now  透传给 add-rss-today-run.py（仅用于确定性复现；
 #                   日常运行不要传，脚本会自动取当天 UTC 日期与当前时刻）
 #
-# 依次执行 19 个环节（顺序与 .github/workflows/regen-index.yml 注释记载一致）：
+# 依次执行 17 个环节（顺序与 .github/workflows/regen-index.yml 注释记载一致）：
 #   1 build-index.py        从 news/*.html 重建 data/articles.json（追加式）
 #   2 sync-evidence.py      把 news/*.html 的分级回写 articles.json（--write；治回退顽疾）
 #   3 gen-home.py           生成 index.html
@@ -26,22 +26,7 @@
 #  14 refresh_counts.py     把各处「N 篇」计数回写为事实源（幂等；本环节自愈）
 #  15 audit-traceability.py 溯源完整性审计（只报告不阻断，产出 data/traceability-audit.json）
 #  16 fix_related.py死链修复：按 data/redirects.json 重定向 + 去重 + 补位（幂等）
-#  17 gen-redirects.py     为已删/更名 URL 生成「页面已迁移」守卫页（外链不再 404）
-#  18 check-links.py --self-test  检查器自检：用反例页证明各判定真的会报错
-#  19 check-links.py       全站死链 + 计数一致性 + canonical 硬校验（末位，不通过则失败）
-#
-# 环节 18 为什么必须存在（2026-10-22 新增）
-# ----------------------------------------
-# 「输出里没有红色」从来不等于「检查被执行了」。本仓库已四次栽在这件事上：
-#   ① 首页计数只认「共 N 篇」，而首页写的是「全站 N 篇」→ 正则失配静默跳过
-#   ② canonical 自指判定把绝对 URL 塞给只接受 / 开头的 url_to_disk → 恒 None，
-#      整个分支从未进入（分支内还藏着一个未定义变量 tpath，两者互相掩护）
-#   ③ 迁移页三条约束沿用了 ② 的失效路径
-#   ④ page_self_url() 对已相对的路径再做一次 relpath → cwd != ROOT 时算垃圾
-# 四次都是「绿色的、但没在工作的检查」。环节 18 在真正检查之前，
-# 先造 8 个已知好坏的页面，断言「该报的必须报、不该报的必须不报」，
-# 任一条不符就 exit 1 —— 检查器自己先被检查，它的输出才可信。
-# 放在 19 之前而非之后：自检失败时不必再跑一遍全量扫描，直接停。
+#  17 check-links.py        全站死链 + 计数一致性 + canonical 硬校验（末位，不通过则失败）
 #
 # 环节 2 为什么必须放在 3~7 之前（2026-10-17 新增）
 # ---------------------------------------------
@@ -99,19 +84,6 @@
 #    本管线只在文件真实所在的机器（本地）运行。
 #
 # 管线只管「站内一致性」，不管「产出消化」——后者由 cursor.py + 内容摄入巡检任务负责。
-#
-# 环节 17 为什么必须排在 16 之后、18 之前（2026-10-22 新增）
-# ---------------------------------------------------
-# 三个环节读的都是同一份 data/redirects.json，但服务对象不同：
-#   16 fix_related    —— 把**站内**链接从旧 slug 改指保留版本，读者不必绕跳转页
-#   17 gen-redirects  —— 为**站外**流量生成守卫页，旧 URL 不再 404 且传导外链权重
-#   18/19 check-links —— 18 自检（先证明检查器活着），19 才是全量硬校验，
-#                        含守卫页的 canonical/refresh 一致性
-# 顺序反了会出两件事：守卫页先进 sitemap 前却没被校验（sitemap 只收
-# articles.json 登记项，故守卫页不进 sitemap，这里无妨）；更关键的是
-# 守卫页必须先存在，check-links 才能验证它——否则 39 条守卫页的
-# 「canonical 指向保留版本 + refresh 一致」约束无人把关，
-# 而这段约束恰恰最容易被后来者改坏（见 check-links 的 STUB_MARK 说明）。
 # ============================================================
 set -euo pipefail
 
@@ -131,15 +103,13 @@ PYTHON="${PYTHON:-python3}"
 step() {
   local n="$1" script="$2" desc="$3"
   shift 3
-  printf '\n[%s/19] %-22s %s\n' "$n" "$script" "$desc"
+  printf '\n[%s/17] %-22s %s\n' "$n" "$script" "$desc"
   case "$script" in
     add-rss-today-run.py) "$PYTHON" "$HERE/$script" "$ROOT" "$@" ;;
     sync-evidence.py)     "$PYTHON" "$HERE/$script" "$ROOT" --write ;;
     normalize_nav.py)     "$PYTHON" "$HERE/$script" "$ROOT" --apply ;;
     # fix_related.py 自己按 __file__ 推导仓库根，不接受位置参数
     fix_related.py)       "$PYTHON" "$HERE/$script" "$@" ;;
-    # check-links 有两种模式：带 --self-test 是自检，不带是全量校验
-    check-links.py)       "$PYTHON" "$HERE/$script" "$ROOT" "$@" ;;
     *)                    "$PYTHON" "$HERE/$script" "$ROOT" ;;
   esac
 }
@@ -162,8 +132,6 @@ step 13 sync-search-index.py   "重建站内搜索索引与计数"
 step 14 refresh_counts.py      "各处「N 篇」计数回写事实源（幂等）"
 step 15 audit-traceability.py  "溯源完整性审计（只报告，不阻断）"
 step 16 fix_related.py        "死链修复（重定向 / 去重 / 补位，幂等）"
-step 17 gen-redirects.py      "已删 URL 的迁移守卫页（外链不再 404，传导权重）"
-step 18 check-links.py         "检查器自检：反例探针证明各判定真的会报错" --self-test
-step 19 check-links.py         "全站死链 + 计数一致性 + canonical 硬校验（末位）"
+step 17 check-links.py         "全站死链 + 计数一致性 + canonical 硬校验（末位）"
 
-printf "\n✅ 管线执行完成（19/19）\n"
+printf "\n✅ 管线执行完成（17/17）\n"

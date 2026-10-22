@@ -89,22 +89,15 @@ def api(path, method="GET", payload=None, token=None, timeout=60):
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     dry = "--dry-run" in sys.argv
-    # 凭证优先取环境变量（定时任务一次配置长期可用），其次才读文件
-    token = (os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN") or "").strip()
-    if not token:
-        if not args:
-            raise SystemExit("缺少凭证：请设置 GH_TOKEN 环境变量，或传入 token 文件路径。")
-        token = open(args[0]).read().strip()
-        args = args[1:]
+    token = open(args[0]).read().strip()
 
     # --base <tree-ish>：差异的一端。默认用重建的远端快照提交；
     # 连续推送时可传 --base <远端 tree sha>，省去重新下载快照。
     base = SNAPSHOT_COMMIT
     if "--base" in sys.argv:
         base = sys.argv[sys.argv.index("--base") + 1]
-    # 用环境变量取凭证时不能再要求位置参数，否则等于没改成「免传文件」
-    if len(args) < 1 and not token:
-        raise SystemExit("用法：push_via_api2.py [token文件] [--base <tree-ish>] [--dry-run]")
+    if len(args) < 1:
+        raise SystemExit("用法：push_via_api2.py <token文件> [--base <tree-ish>] [--dry-run]")
 
     head = sh("git", "rev-parse", "HEAD").decode().strip()
     head_tree = sh("git", "rev-parse", "HEAD^{tree}").decode().strip()
