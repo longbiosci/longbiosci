@@ -89,6 +89,8 @@ HEAD = '''<!DOCTYPE html>
 .pod-rel{{display:flex;flex-direction:column;gap:.4rem}}
 .pod-rel a{{font-size:var(--f-sm)}}
 .pod-rel .rel-date{{color:var(--c-muted);font-size:var(--f-xs);margin-left:.5rem}}
+.ep-card:target{{animation:epFlash 1.6s ease;box-shadow:0 0 0 3px var(--c-primary-light,rgba(15,52,96,.18));border-color:var(--c-primary,#0f3460)}}
+@keyframes epFlash{{from{{background:var(--c-surface,#f1f5fb)}}to{{background:var(--c-bg-raised,#fff)}}}}
 </style>
 </head>
 <body>
@@ -128,6 +130,8 @@ FOOTER = '''</main><footer class="site-footer">
     </p>
   </div>
 </footer>
+<script src="/qrcode.min.js"></script>
+<script src="/share.js" defer></script>
 </body>
 </html>
 '''
@@ -274,6 +278,17 @@ def render_episode(ep, articles):
   <div class="pod-rel">{''.join(rel_items) or '<span style="font-size:var(--f-sm);color:var(--c-muted)">暂无</span>'}</div>
   <div class="ep-block-title">完整文字稿</div>
   {transcript_html}
+  <section class="share-bar" data-share-url="{BASE}/podcast/#{esc(ep.get('id', slug))}" aria-label="分享这期给好友">
+    <span class="share-bar-title">分享这期给好友</span>
+    <div class="share-bar-actions">
+      <button type="button" class="share-copy-btn">复制链接</button>
+      <span class="share-tip" hidden>已复制 &#10003;</span>
+    </div>
+    <div class="share-qr">
+      <div class="share-qr-code" aria-hidden="true"></div>
+      <span class="share-qr-note">微信扫码，手机直接听</span>
+    </div>
+  </section>
 </article>'''
 
 

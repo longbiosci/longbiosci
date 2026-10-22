@@ -31,11 +31,14 @@
   function initBar(bar) {
     if (bar.dataset.init === "1") return;
     bar.dataset.init = "1";
+    // 每期播客卡片可带 data-share-url 指向锚点链接（如 /podcast/#ep002），
+    // 无则回退整页 URL —— 文章页兼容不变。
+    var url = bar.dataset.shareUrl || window.location.href;
     var qrBox = bar.querySelector(".share-qr-code");
     if (qrBox && typeof qrcode === "function") {
       try {
         var qr = qrcode(0, "M");
-        qr.addData(window.location.href);
+        qr.addData(url);
         qr.make();
         qrBox.innerHTML = qr.createImgTag(4, 8);
       } catch (e) {
@@ -45,7 +48,6 @@
     var btn = bar.querySelector(".share-copy-btn");
     if (btn) {
       btn.addEventListener("click", function () {
-        var url = window.location.href;
         if (navigator.clipboard && navigator.clipboard.writeText) {
           navigator.clipboard
             .writeText(url)
