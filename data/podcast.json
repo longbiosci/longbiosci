@@ -75,6 +75,29 @@
           "url": "https://doi.org/10.1002/bcp.70871"
         }
       ]
+    },
+    {
+      "id": "ep003",
+      "slug": "cosmos-multivitamin-epigenetic-clocks-2026",
+      "series": "打假与证伪",
+      "title": "复合维生素让表观遗传时钟慢了四个月——然后呢？",
+      "date": "2026-10-23",
+      "duration_sec": 531,
+      "audio": "audio/cosmos-multivitamin-epigenetic-clocks-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "COSMOS 试验 958 人两年随机对照：每日复合维生素让第二代表观遗传时钟走得慢一点，两年约差 4 个月；同试验的可可黄烷醇什么都没发生。这支持「时钟动了一点」，不支持「吃维生素能延寿」。",
+      "article_slugs": [
+        "news/COSMOS-Multivitamin-Epigenetic-Aging-Clocks-Nature-Medicine-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Nature Medicine（2026）：COSMOS 随机临床试验——每日复合维生素-矿物质与可可提取物对表观遗传衰老时钟的影响（2 年结果）",
+          "doi": "10.1038/s41591-026-04239-3",
+          "pmid": "",
+          "url": "https://doi.org/10.1038/s41591-026-04239-3",
+          "note": "主文献为 COSMOS 试验的辅助分析，衰老时钟为次要探索性指标；站内文章未列 PMID"
+        }
+      ]
     }
   ]
 }
