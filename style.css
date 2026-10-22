@@ -905,3 +905,22 @@ body:has(.bottom-nav){padding-bottom:64px}
 .notice-line strong{color:var(--c-ink)}
 .guide .filter-bar a span{color:var(--c-faint);margin-left:6px;
   font-variant-numeric:tabular-nums}
+
+/* ===== 文章页转发分享条（2026-10-22 追加：复制链接 + 二维码）===== */
+.share-bar{display:flex;flex-wrap:wrap;align-items:center;gap:16px;
+  margin:28px 0 0;padding:14px 18px;
+  background:#f8f9fc;border:1px solid #e6e8ef;border-radius:12px}
+.share-bar-title{font-weight:600;color:#111;font-size:15px}
+.share-bar-actions{display:flex;align-items:center;gap:12px}
+.share-copy-btn{border:0;cursor:pointer;background:#0f3460;color:#fff;
+  font-size:14px;padding:9px 18px;border-radius:8px;min-height:40px;transition:background .15s}
+.share-copy-btn:hover{background:#16213e}
+.share-tip{color:#00A86B;font-size:13px;font-weight:600}
+.share-qr{display:flex;align-items:center;gap:12px;margin-left:auto}
+.share-qr-code img{display:block;width:92px;height:92px;border-radius:8px;
+  background:#fff;padding:4px;border:1px solid #e6e8ef}
+.share-qr-note{font-size:12px;color:#666;max-width:9em;line-height:1.6}
+@media (max-width:600px){
+  .share-bar{flex-direction:column;align-items:flex-start;gap:12px}
+  .share-qr{margin-left:0}
+}

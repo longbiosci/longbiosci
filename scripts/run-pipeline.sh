@@ -168,4 +168,8 @@ step 17 gen-redirects.py      "已删 URL 的迁移守卫页（外链不再 404�
 step 18 check-links.py         "检查器自检：反例探针证明各判定真的会报错" --self-test
 step 19 check-links.py         "全站死链 + 计数一致性 + canonical 硬校验（末位）"
 
-printf "\n✅ 管线执行完成（19/19）\n"
+# 末位守卫：补转发分享条（防 step16 fix_related 等重写 news 冲掉；幂等，已含 share-bar 跳过）
+echo "[末尾守卫] inject-share-bar      补文章页转发分享条（复制链接 + 二维码）"
+"$PYTHON" "$HERE/inject-share-bar.py" "$ROOT"
+
+printf "\n✅ 管线执行完成（19/19）· 末位分享条守卫已补\n"
