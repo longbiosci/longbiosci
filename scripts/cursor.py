@@ -12,21 +12,42 @@ cursor.py —— 摄入游标：让「处理过没有」变成机器可判定的
 做法
 ────
 维护 data/intake-cursor.json，每个产出文件一条记录：
-    {file_id, name, layer, size, mtime, status, done_at, slugs}
+    {file_id, name, layer, size, mtime, status, done_at, slugs, hash}
   status ∈ pending / done / empty / skipped
 
 配合 data/intake-manifest.tsv（网盘全量清单，事实源）使用：
     cursor next   列出待处理的产出（pending + size>0）
-    cursor done   把条目标记为已处理，可带本次产出的 slug
+    cursor done   把条目标记为已处理，可带本次产出的 slug 与内容哈希
+    cursor seen   按（文件名, 内容哈希）判重：这份内容以前消化过吗
     cursor stat   看消化进度（哪几期还没动、哪几期是空的）
     cursor verify 与 manifest 交叉核对：清单里有但游标里没有的 = 新产出
 
 幂等：同一个 file_id 重复 done 只更新记录，不会重复处理。
 
+滚动文件判重（2026-10-24 新增，实测教训）
+────────────────────────────────────
+网盘对同名文件有两种行为且都会发生：原地更新（file_id 不变、mtime 变，
+实测 10-23 待办清单 dDgSRfxdSmVQ）与同名新建（file_id 变，vlog 记载的
+overwrite 不生效案例；实测 10-24 运行摘要 dsGXxdlopHqF/dGSADrtEEHrK
+同名同大小两份）。只按 file_id 判新，这两种都发现不了——要么整篇日志
+被反复重消化，要么更新被永久跳过。故规则改为：
+
+  1) next  —— 提示层：列出「已 done 但 size/mtime 变了」（原地更新）与
+             「新 file_id 但 basename 与已 done 记录相同」（同名新副本）。
+             只提示不判定，因为 size 可能是陈旧缓存，mtime 也可能被
+             非内容性操作（如 IMA 同步）触及。
+  2) seen —— 终裁层：下载后算内容 md5，由本命令按（basename, hash）
+             对已 done 记录判重。UNCHANGED / DUPLICATE / NEW 三态，
+             哈希相同才是重复；同名不同哈希 = 滚动更新，只消化增量。
+  3) done —— 留痕层：--hash 把内容哈希写进游标，下一轮 seen 才有基准。
+             2026-10-24 之前 done 的历史记录没有哈希，这些条目 seen
+             只能判 NEW（安全侧：宁可重消化，不可漏消化）。
+
 用法
 ────
   python3 scripts/cursor.py next  --repo .
-  python3 scripts/cursor.py done  --repo . --file-id dXzxgtkeYPXT --slugs a.html b.html
+  python3 scripts/cursor.py done  --repo . --file-id dXzxgtkeYPXT --slugs a.html b.html --hash <md5>
+  python3 scripts/cursor.py seen  --repo . --file-id dGSADrtEEHrK --hash <md5>
   python3 scripts/cursor.py empty --repo . --file-id dNTCoBPwiOnt
   python3 scripts/cursor.py stat  --repo .
   python3 scripts/cursor.py verify --repo .
@@ -77,18 +98,60 @@ def load_manifest(repo):
 # ────────────────────────────── 命令 ──────────────────────────────
 
 def cmd_next(repo, layer=None, include_empty=False):
-    """列出待处理产出：游标里没有该 file_id，或状态仍是 pending"""
+    """列出待处理的产出。
+
+    三类注意力对象：
+    1) 待处理：游标无记录 / 状态非 done / 空文件（原有逻辑）
+    2) 滚动更新：已 done，但清单里的 size/mtime 与游标记录不一致——
+       同名文件被覆盖更新而 file_id 未变（原地更新），按 file_id 判新
+       完全看不见。mtime 是可靠信号；size 可能是陈旧缓存，只作辅助。
+    3) 同名新副本：新 file_id，但 basename 与已 done 记录或本轮已排队记录
+       相同——疑似同一文档的重复交付（实测 10-24 运行摘要在元层根目录与
+       子目录各一份，同名同哈希）。是否重复由 seen 按内容哈希终裁。
+    """
     cur, man = load(repo), load_manifest(repo)
     ent = cur["entries"]
-    out = []
+    out, updated, samename = [], [], []
+    # 已 done 记录的 basename 索引（判「同名」用：含历史已消化 + 本轮已排队）
+    done_names, pending_names = {}, {}
+    for fid, v in ent.items():
+        if v.get("status") == "done":
+            done_names.setdefault(os.path.basename(v.get("name", "")), []).append(fid)
+
     for m in man:
         if layer and m["layer"] != layer:
             continue
         size = int(m["size"] or 0)
         rec = ent.get(m["file_id"])
+        if rec and rec.get("status") == "done":
+            # ── 第 2 类：已消化但清单显示它变了 ──
+            size_changed = str(rec.get("size", "")) != m["size"]
+            mtime_changed = str(rec.get("mtime", "")) != m["mtime"]
+            if size_changed or mtime_changed:
+                # mtime 变 = 网盘侧真写过（可靠信号）；仅 size 变而 mtime 不变
+                # 多是陈旧缓存被实测值修正（build_manifest 的 override），
+                # 不一定是内容更新——分开标注，避免狼来了。
+                signal = ("mtime 变化（可能真更新）" if mtime_changed
+                          else "仅 size 缓存修正（mtime 未变，大概率非内容更新）")
+                updated.append({
+                    "file_id": m["file_id"], "name": m["name"],
+                    "layer": m["layer"], "size": size,
+                    "was": (rec.get("size"), rec.get("mtime")),
+                    "now": (m["size"], m["mtime"]),
+                    "hash": rec.get("hash", ""), "signal": signal,
+                })
+            continue
         if size == 0 and not include_empty:
             continue
-        if rec and rec.get("status") == "done":
+        # ── 第 3 类：新 file_id，但 basename 与已消化/本轮已排队的记录同名 ──
+        base = os.path.basename(m["name"])
+        known = done_names.get(base, []) + pending_names.get(base, [])
+        if rec is None and known:
+            samename.append({
+                "file_id": m["file_id"], "name": m["name"],
+                "layer": m["layer"], "size": size,
+                "seen_as": known,
+            })
             continue
         out.append({
             "file_id": m["file_id"], "name": m["name"], "layer": m["layer"],
@@ -97,16 +160,29 @@ def cmd_next(repo, layer=None, include_empty=False):
                     else "游标无记录" if not rec
                     else f"上次状态={rec.get('status')}"),
         })
+        pending_names.setdefault(base, []).append(m["file_id"])
     if not out:
         print("✅ 没有待处理的产出（游标与清单一致）")
     else:
         print(f"待处理 {len(out)} 个产出：")
         for o in out:
             print(f"  [{o['layer']}] {o['name'][:52]}  ({o['size']} B) — {o['why']}")
+    if updated:
+        print(f"\n🔄 已消化但清单显示有更新（{len(updated)} 个）—— 下载后用 seen 判重：")
+        for u in updated:
+            hint = "有哈希基准" if u["hash"] else "⚠️ 历史无哈希，只能按内容人工比对"
+            print(f"  [{u['layer']}] {u['name'][:46]}  ({u['size']} B) — {u['signal']} · {hint}")
+            print(f"      size/mtime {u['was']} → {u['now']}")
+    if samename:
+        print(f"\n👥 新 file_id 但与已消化/本轮已排队记录同名（{len(samename)} 个）—— "
+              f"疑似重复交付，下载后 seen 终裁：")
+        for s in samename:
+            print(f"  [{s['layer']}] {s['name'][:46]}  ({s['size']} B) — "
+                  f"同名已知：{' '.join(s['seen_as'])}")
     return 0
 
 
-def _mark(repo, file_id, status, slugs=None, note=""):
+def _mark(repo, file_id, status, slugs=None, note="", content_hash=""):
     cur = load(repo)
     man = {m["file_id"]: m for m in load_manifest(repo)}
     m = man.get(file_id, {})
@@ -116,15 +192,65 @@ def _mark(repo, file_id, status, slugs=None, note=""):
         "status": status, "done_at": now(),
         "slugs": slugs or [],
         "note": note,
+        "hash": content_hash,
     }
     save(repo, cur)
     print(f"✔ {m.get('name', file_id)} → {status}"
-          + (f"（{len(slugs)} 篇）" if slugs else "") + (f"  {note}" if note else ""))
+          + (f"（{len(slugs)} 篇）" if slugs else "") + (f"  {note}" if note else "")
+          + (f"  hash={content_hash[:12]}…" if content_hash else ""))
     return 0
 
 
-def cmd_done(repo, file_id, slugs, note=""):
-    return _mark(repo, file_id, "done", slugs, note)
+def cmd_done(repo, file_id, slugs, note="", content_hash=""):
+    return _mark(repo, file_id, "done", slugs, note, content_hash)
+
+
+def cmd_seen(repo, file_id, content_hash):
+    """按（文件名, 内容哈希）判重：这份内容以前消化过吗？
+
+    下载文件后先算 md5 再调本命令。三种结论：
+      UNCHANGED  本 file_id 已 done 且哈希一致 —— mtime 变了但内容没变
+      DUPLICATE  另一条已 done 记录（同名）哈希一致 —— 重复交付，勿再消化
+      NEW        无任何匹配 —— 新内容（同名不同哈希 = 滚动更新，消化增量）
+    退出码：0 = 无需再消化（UNCHANGED/DUPLICATE）；1 = 需要消化（NEW）；
+            2 = 参数缺失。
+    """
+    if not file_id or not content_hash:
+        print("用法：cursor.py seen --repo . --file-id <id> --hash <md5>")
+        return 2
+    cur = load(repo)
+    ent = cur["entries"]
+    rec = ent.get(file_id)
+    if rec and rec.get("status") == "done" and rec.get("hash") == content_hash:
+        print(f"UNCHANGED {file_id}：本文件已消化且内容一致"
+              f"（消化于 {rec.get('done_at', '?')}）—— mtime 变化非内容性，"
+              f"重新 done 一次刷新记录即可")
+        return 0
+    base = os.path.basename(rec.get("name", "")) if rec else ""
+    if not base:
+        man = {m["file_id"]: m for m in load_manifest(repo)}
+        base = os.path.basename(man.get(file_id, {}).get("name", ""))
+    dups = [(fid, v) for fid, v in ent.items()
+            if v.get("status") == "done" and v.get("hash") == content_hash
+            and os.path.basename(v.get("name", "")) == base and fid != file_id]
+    if dups:
+        fid, v = dups[0]
+        print(f"DUPLICATE {file_id}：与已消化的 {fid} 内容完全相同"
+              f"（同名「{base}」，消化于 {v.get('done_at', '?')}）—— 跳过消化，"
+              f"done 时带 --note 注明重复来源")
+        return 0
+    same_name = [fid for fid, v in ent.items()
+                 if v.get("status") == "done" and fid != file_id
+                 and os.path.basename(v.get("name", "")) == base]
+    if same_name:
+        print(f"NEW {file_id}：同名「{base}」已有消化记录"
+              f"（{' '.join(same_name)}）但哈希不匹配 —— 这是滚动更新，只消化增量部分")
+    elif rec and rec.get("status") == "done" and not rec.get("hash"):
+        print(f"NEW {file_id}：本文件已消化但历史无哈希基准 —— 若确认内容已消化过，"
+              f"用 done --hash 补记基准；若有实质更新，只消化增量")
+    else:
+        print(f"NEW {file_id}：无同名已消化记录 —— 全新内容，正常消化")
+    return 1
 
 
 def cmd_empty(repo, file_id, note=""):
@@ -179,21 +305,23 @@ def cmd_verify(repo):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("cmd", choices=["next", "done", "empty", "stat", "verify"])
+    ap.add_argument("cmd", choices=["next", "done", "empty", "stat", "verify", "seen"])
     ap.add_argument("--repo", default=".")
     ap.add_argument("--file-id", default="")
     ap.add_argument("--layer", default=None)
     ap.add_argument("--slugs", nargs="*", default=[])
     ap.add_argument("--note", default="")
+    ap.add_argument("--hash", default="", help="内容 md5（done 记录 / seen 判重用）")
     ap.add_argument("--include-empty", action="store_true")
     a = ap.parse_args()
-    return {"next": cmd_next, "done": cmd_done, "empty": cmd_empty,
-            "stat": cmd_stat, "verify": cmd_verify}[a.cmd](
-        a.repo, a.layer, a.include_empty) if a.cmd == "next" else \
-        {"next": cmd_next, "done": cmd_done, "empty": cmd_empty,
-         "stat": cmd_stat, "verify": cmd_verify}[a.cmd](a.repo) if a.cmd in ("stat", "verify") else \
-        {"done": lambda r: cmd_done(r, a.file_id, a.slugs, a.note),
-         "empty": lambda r: cmd_empty(r, a.file_id, a.note)}[a.cmd](a.repo)
+    if a.cmd == "next":
+        return cmd_next(a.repo, a.layer, a.include_empty)
+    if a.cmd in ("stat", "verify"):
+        return {"stat": cmd_stat, "verify": cmd_verify}[a.cmd](a.repo)
+    if a.cmd == "seen":
+        return cmd_seen(a.repo, a.file_id, a.hash)
+    return {"done": lambda r: cmd_done(r, a.file_id, a.slugs, a.note, a.hash),
+            "empty": lambda r: cmd_empty(r, a.file_id, a.note)}[a.cmd](a.repo)
 
 
 if __name__ == "__main__":
