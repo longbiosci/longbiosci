@@ -13,7 +13,9 @@ gen-podcast.py —— 播客板块生成器（管线第 8 环节，2026-10-19 �
   2. 每期的 audio 文件必须存在——音频是发布物不是构建物（见 synth_podcast_audio.py），
      文件缺失说明合成漏跑，同样跳过；
   3. article_slugs 指向的站内文章必须存在——缺失则丢弃该链接并告警（不静默）；
-  4. duration_sec 以合成时 ffprobe 实测值回填，本脚本只展示、不推算。
+  4. duration_sec 以合成时 ffprobe 实测值回填，本脚本只展示、不推算；
+  5. 每期与页面必须带 data_datetime / generated_at，格式 YYYY-MM-DD HH:MM；
+  6. slug / title / article_slugs / DOI 与历史期目重复时，重复期目跳过并告警。
 
 页面不重新合成音频：本环节可在任何网络状况下确定性重跑。
 author: LongBiosci 网站运营自动化
@@ -23,7 +25,7 @@ import json
 import os
 import re
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from email.utils import format_datetime
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -33,6 +35,7 @@ TRANSCRIPT_DIR = "podcast/transcripts"
 OUT_DIR = os.path.join(REPO, "podcast")
 RSS_PATH = os.path.join(REPO, "podcast.xml")
 BASE = "https://longbiosci.com"
+CN_TZ = timezone(timedelta(hours=8))
 
 SERIES_ORDER = ["论文精读", "机制十分钟", "打假与证伪", "产业脉搏"]
 
@@ -78,6 +81,10 @@ HEAD = '''<!DOCTYPE html>
 .ep-title{{font-weight:600;font-size:var(--f-md);flex:1;min-width:16rem}}
 .ep-date{{font-size:var(--f-xs);color:var(--c-muted);font-variant-numeric:tabular-nums}}
 .ep-dur{{font-size:var(--f-xs);color:var(--c-muted);font-variant-numeric:tabular-nums}}
+.ep-time{{display:flex;gap:var(--s-3);flex-wrap:wrap;margin:var(--s-2) 0 0;
+  font-size:var(--f-xs);color:var(--c-muted);font-variant-numeric:tabular-nums}}
+.pod-page-time{{margin:var(--s-3) auto 0;text-align:center;font-size:var(--f-xs);
+  color:var(--c-muted);font-variant-numeric:tabular-nums}}
 .ep-desc{{font-size:var(--f-sm);color:var(--c-muted);margin:var(--s-3) 0}}
 .ep-card audio{{width:100%;margin:var(--s-2) 0 var(--s-4)}}
 .ep-block-title{{font-weight:600;font-size:var(--f-sm);margin:var(--s-4) 0 var(--s-2)}}
@@ -149,6 +156,34 @@ def fmt_dur(sec):
     return "%d 分 %02d 秒" % (m, s) if m else "%d 秒" % s
 
 
+def valid_datetime(value):
+    """严格校验 YYYY-MM-DD HH:MM，既查格式也查真实日历时间。"""
+    s = str(value or "")
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2} \d{2}:\d{2}", s):
+        return False
+    try:
+        datetime.strptime(s, "%Y-%m-%d %H:%M")
+        return True
+    except ValueError:
+        return False
+
+
+def norm_doi(value):
+    """DOI 去重规范化：兼容裸 DOI 与 doi.org URL。"""
+    s = str(value or "").strip().lower()
+    s = re.sub(r"^https?://(?:dx\.)?doi\.org/", "", s)
+    return s.rstrip("/")
+
+
+def norm_title(value):
+    return re.sub(r"\s+", " ", str(value or "").strip())
+
+
+def norm_article_slug(value):
+    s = str(value or "").strip().lstrip("/")
+    return s[len("news/"):] if s.startswith("news/") else s
+
+
 def load_articles():
     """文章标题索引：slug → (title, date)。延伸阅读链接用。"""
     path = os.path.join(REPO, "data", "articles.json")
@@ -192,18 +227,50 @@ def read_transcript(slug):
 # ---------------------------------------------------------------- 校验
 
 def validate(show, episodes, articles):
-    """返回 (可用期目列表, 错误列表)。缺来源/缺音频 → 跳过并记录。"""
+    """返回 (可用期目列表, 错误列表)。硬校验来源、音频、时间标签与历史选题去重。"""
     ok, errs = [], []
+    seen_slugs, seen_titles, seen_articles, seen_dois = set(), set(), set(), set()
     for ep in episodes:
-        slug = ep.get("slug", "?")
+        slug = str(ep.get("slug") or "?").strip()
+        title = norm_title(ep.get("title"))
+
+        duplicate_reasons = []
+        if slug in seen_slugs:
+            duplicate_reasons.append("slug")
+        if title and title in seen_titles:
+            duplicate_reasons.append("title")
+        episode_articles = {norm_article_slug(s) for s in ep.get("article_slugs", []) if s}
+        episode_dois = {norm_doi(s.get("doi")) for s in ep.get("sources", [])
+                        if norm_doi(s.get("doi"))}
+        repeated_articles = sorted(episode_articles & seen_articles)
+        repeated_dois = sorted(episode_dois & seen_dois)
+        if repeated_articles:
+            duplicate_reasons.append("article_slugs=" + ",".join(repeated_articles))
+        if repeated_dois:
+            duplicate_reasons.append("DOI=" + ",".join(repeated_dois))
+        if duplicate_reasons:
+            errs.append("期目 %s：与历史选题重复（%s），跳过" %
+                        (slug, "；".join(duplicate_reasons)))
+            continue
+
         if not ep.get("sources"):
             errs.append("期目 %s：无 sources，跳过（播客内容必须带来源）" % slug)
+            continue
+        untraceable = [str(s.get("label") or "未命名来源") for s in ep.get("sources", [])
+                       if not (str(s.get("doi") or "").strip() or
+                               str(s.get("pmid") or "").strip())]
+        if untraceable:
+            errs.append("期目 %s：来源缺 DOI/PMID（%s），跳过" %
+                        (slug, "；".join(untraceable)))
+            continue
+        if not all(valid_datetime(ep.get(k)) for k in ("data_datetime", "generated_at")):
+            errs.append("期目 %s：缺少或时间标签格式错误（须为 YYYY-MM-DD HH:MM），跳过" % slug)
             continue
         audio_rel = ep.get("audio", "")
         if not audio_rel or not os.path.exists(os.path.join(REPO, audio_rel)):
             errs.append("期目 %s：音频文件缺失（%s），跳过" % (slug, audio_rel))
             continue
-        if not ep.get("title") or not ep.get("date"):
+        if not title or not ep.get("date"):
             errs.append("期目 %s：缺 title/date，跳过" % slug)
             continue
         # 站内文章链接：缺失则丢弃并告警（不静默）
@@ -216,6 +283,11 @@ def validate(show, episodes, articles):
         ep["article_slugs"] = kept
         if not ep.get("duration_sec"):
             errs.append("期目 %s：duration_sec 未回填（ffprobe 实测值），展示将显示 0" % slug)
+
+        seen_slugs.add(slug)
+        seen_titles.add(title)
+        seen_articles.update(norm_article_slug(s) for s in kept)
+        seen_dois.update(episode_dois)
         ok.append(ep)
     return ok, errs
 
@@ -268,6 +340,10 @@ def render_episode(ep, articles):
     <span class="ep-title">{esc(ep['title'])}</span>
     <span class="ep-date">{esc(date_cn)}</span>
     <span class="ep-dur">时长 {esc(fmt_dur(dur))}</span>
+  </div>
+  <div class="ep-time">
+    <span>数据日期 {esc(ep.get('data_datetime', ''))}</span>
+    <span>生成时间 {esc(ep.get('generated_at', ''))}</span>
   </div>
   <p class="ep-desc">{esc(ep.get('desc', ''))}</p>
   <audio controls preload="none" src="{audio_url}">
@@ -326,6 +402,8 @@ def render_page(show, episodes, articles):
             f'<span>·</span><a href="https://podcasts.apple.com/" rel="noopener">Apple Podcasts</a>'
             f'<span>·</span><a href="https://open.spotify.com/" rel="noopener">Spotify</a>'
             f'</div>\n'
+            f'<div class="pod-page-time">数据日期 {esc(show.get("data_datetime", ""))}'
+            f' · 页面生成时间 {esc(show.get("generated_at", ""))}</div>\n'
             f'<div class="pod-disclaimer">{esc(show.get("disclaimer", ""))}</div>\n')
     return (HEAD.format(title=esc(title), desc=esc(desc), canonical=BASE + "/podcast/")
             + NAV
@@ -344,6 +422,12 @@ def cdata(s):
 
 
 def render_rss(show, episodes, articles):
+    try:
+        build_dt = datetime.strptime(show["generated_at"], "%Y-%m-%d %H:%M").replace(tzinfo=CN_TZ)
+        last_build = format_datetime(build_dt)
+    except (KeyError, ValueError):
+        last_build = format_datetime(datetime.now(timezone.utc))
+
     items = []
     for ep in sorted(episodes, key=lambda e: e.get("date", ""), reverse=True):
         slug = ep["slug"]
@@ -353,14 +437,20 @@ def render_rss(show, episodes, articles):
         except OSError:
             size = 0
         try:
-            dt = datetime.strptime(ep["date"] + " 00:00:00", "%Y-%m-%d %H:%M:%S").replace(
-                tzinfo=timezone.utc)
+            dt = datetime.strptime(ep["generated_at"], "%Y-%m-%d %H:%M").replace(tzinfo=CN_TZ)
             pub = format_datetime(dt)
-        except ValueError:
-            pub = format_datetime(datetime.now(timezone.utc))
+        except (KeyError, ValueError):
+            try:
+                dt = datetime.strptime(ep["date"] + " 00:00:00", "%Y-%m-%d %H:%M:%S").replace(
+                    tzinfo=CN_TZ)
+                pub = format_datetime(dt)
+            except ValueError:
+                pub = format_datetime(datetime.now(timezone.utc))
 
-        # RSS description：摘要 + 来源 + 站内文章（纯文本，平台兼容性最好）
-        lines = [ep.get("desc", ""), "", "来源："]
+        # RSS description：时间标签 + 摘要 + 来源 + 站内文章（纯文本，平台兼容性最好）
+        lines = ["数据日期：" + ep.get("data_datetime", ""),
+                 "生成时间：" + ep.get("generated_at", ""),
+                 "", ep.get("desc", ""), "", "来源："]
         for s in ep.get("sources", []):
             extra = []
             if s.get("doi"):
@@ -403,6 +493,7 @@ def render_rss(show, episodes, articles):
   <language>{esc(show.get("language", "zh-cn"))}</language>
   <copyright>{esc(show.get("copyright", ""))}</copyright>
   <description>{cdata(show.get("tagline", "") + " " + show.get("disclaimer", ""))}</description>
+  <lastBuildDate>{last_build}</lastBuildDate>
   <itunes:author>{esc(show.get("author", ""))}</itunes:author>
   <itunes:summary>{cdata(show.get("tagline", ""))}</itunes:summary>
   <itunes:owner>
@@ -426,11 +517,23 @@ def render_rss(show, episodes, articles):
 # ---------------------------------------------------------------- main
 
 def main():
-    root = sys.argv[1] if len(sys.argv) > 1 else REPO
+    global REPO, DATA, TRANSCRIPT_DIR, OUT_DIR, RSS_PATH
+    root = os.path.abspath(sys.argv[1]) if len(sys.argv) > 1 else REPO
+    REPO = root
+    DATA = os.path.join(REPO, "data", "podcast.json")
+    OUT_DIR = os.path.join(REPO, "podcast")
+    RSS_PATH = os.path.join(REPO, "podcast.xml")
+
     data = json.load(open(DATA, encoding="utf-8"))
     show = data.get("show", {})
+    TRANSCRIPT_DIR = show.get("transcript_dir", "podcast/transcripts")
     episodes = data.get("episodes", [])
     articles = load_articles()
+
+    for field in ("data_datetime", "generated_at"):
+        if not valid_datetime(show.get(field)):
+            print("  ❌ 播客页面缺少或时间标签格式错误：show.%s（须为 YYYY-MM-DD HH:MM）" % field)
+            sys.exit(1)
 
     ok, errs = validate(show, episodes, articles)
     for e in errs:

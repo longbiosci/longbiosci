@@ -8,6 +8,7 @@
   <language>zh-cn</language>
   <copyright>© 2026 LongBiosci 编辑部</copyright>
   <description><![CDATA[只讲有来源的长寿科学——每期节目，都能顺着一张来源清单回查原文。 本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。]]></description>
+  <lastBuildDate>Sat, 24 Oct 2026 03:31:00 +0800</lastBuildDate>
   <itunes:author>LongBiosci 编辑部</itunes:author>
   <itunes:summary><![CDATA[只讲有来源的长寿科学——每期节目，都能顺着一张来源清单回查原文。]]></itunes:summary>
   <itunes:owner>
@@ -23,12 +24,123 @@
   <itunes:category text="Science"/>
   <itunes:explicit>no</itunes:explicit>
   <item>
+    <title>DNAm 时钟与痴呆：五种时钟为何只剩 GrimAge</title>
+    <link>https://longbiosci.com/podcast/#ep004</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep004</guid>
+    <pubDate>Sat, 24 Oct 2026 03:31:00 +0800</pubDate>
+    <category>打假与证伪</category>
+    <description><![CDATA[数据日期：2026-10-22 18:32
+生成时间：2026-10-24 03:31
+
+37 项观察研究、46,365 人的 meta 分析中，只有 GrimAge 年龄加速稳定预测全因痴呆；其余四种主流时钟均无显著关联。结果约束了把“时钟变慢”直接翻译成临床获益的做法。
+
+来源：
+· medRxiv（2026）：DNA 甲基化时钟与神经退行性疾病的系统评价和荟萃分析（DOI 10.64898/2026.10.21.26365867）
+  注：未经同行评审；本站依据官方摘要撰写，结论可能在正式发表时变更
+
+站内延伸阅读：
+· 37 项研究 4.6 万人的证伪性检验：五种表观遗传时钟里只有 GrimAge 预测痴呆 https://longbiosci.com/news/DNAm-Clock-EAA-Dementia-Meta-Analysis-37-Studies-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep004]]></description>
+    <enclosure url="https://longbiosci.com/audio/dnam-clocks-dementia-meta-analysis-2026.mp3" length="1849053" type="audio/mpeg"/>
+    <itunes:duration>308</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[37 项观察研究、46,365 人的 meta 分析中，只有 GrimAge 年龄加速稳定预测全因痴呆；其余四种主流时钟均无显著关联。结果约束了把“时钟变慢”直接翻译成临床获益的做法。]]></itunes:summary>
+  </item>
+  <item>
+    <title>内嗅网格信号变弱：消失了，还是不稳定？</title>
+    <link>https://longbiosci.com/podcast/#ep005</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep005</guid>
+    <pubDate>Sat, 24 Oct 2026 03:31:00 +0800</pubDate>
+    <category>论文精读</category>
+    <description><![CDATA[数据日期：2026-10-22 18:32
+生成时间：2026-10-24 03:31
+
+85 名老年人的虚拟现实导航与 fMRI 研究提示：内嗅皮层六向信号变弱，更像是跨时间表征不稳定，而非表征消失；稳定性越高，物体-位置记忆越好。
+
+来源：
+· bioRxiv（2026）：时间不稳定性削弱老年人的内嗅网格样编码（DOI 10.64898/2026.10.15.759328）
+  注：未经同行评审；本站依据官方摘要撰写，源站全文未获取
+
+站内延伸阅读：
+· 老年人内嗅皮层的「网格信号」变弱，是表征不稳了，不是没了 https://longbiosci.com/news/Entorhinal-Grid-Coding-Temporal-Instability-Aging-bioRxiv-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep005]]></description>
+    <enclosure url="https://longbiosci.com/audio/entorhinal-grid-temporal-instability-aging-2026.mp3" length="1690797" type="audio/mpeg"/>
+    <itunes:duration>282</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[85 名老年人的虚拟现实导航与 fMRI 研究提示：内嗅皮层六向信号变弱，更像是跨时间表征不稳定，而非表征消失；稳定性越高，物体-位置记忆越好。]]></itunes:summary>
+  </item>
+  <item>
+    <title>老化海马的两条血管轴线：供血与搏动不能混为一谈</title>
+    <link>https://longbiosci.com/podcast/#ep006</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep006</guid>
+    <pubDate>Sat, 24 Oct 2026 03:31:00 +0800</pubDate>
+    <category>论文精读</category>
+    <description><![CDATA[数据日期：2026-10-22 18:32
+生成时间：2026-10-24 03:31
+
+35 名青年与老年成人的 7T MRI 显示，海马灌注与微血管容积搏动指数具有不同空间组织和年龄差异；老化脑血管不能只用“脑血流下降”一个维度概括。
+
+来源：
+· bioRxiv（2026）：跨年龄人类海马灌注与微血管搏动的不同空间组织（DOI 10.64898/2026.10.15.759438）
+  注：未经同行评审；本站依据官方摘要撰写，源站全文未获取
+
+站内延伸阅读：
+· 海马的「供水」与「搏动」是两条独立的老化轴线：7T MRI 的空间图谱 https://longbiosci.com/news/Hippocampal-Perfusion-mvPI-Spatial-Aging-bioRxiv-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep006]]></description>
+    <enclosure url="https://longbiosci.com/audio/hippocampal-perfusion-mvpi-aging-2026.mp3" length="1707789" type="audio/mpeg"/>
+    <itunes:duration>285</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[35 名青年与老年成人的 7T MRI 显示，海马灌注与微血管容积搏动指数具有不同空间组织和年龄差异；老化脑血管不能只用“脑血流下降”一个维度概括。]]></itunes:summary>
+  </item>
+  <item>
+    <title>年轻骨髓细胞改善老年认知：关键不在永久驻留</title>
+    <link>https://longbiosci.com/podcast/#ep007</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep007</guid>
+    <pubDate>Sat, 24 Oct 2026 03:31:00 +0800</pubDate>
+    <category>论文精读</category>
+    <description><![CDATA[数据日期：2026-10-22 18:32
+生成时间：2026-10-24 03:31
+
+小鼠可诱导清除实验把年轻骨髓来源小胶质样细胞的认知获益定位到早期归巢窗口，并指向 BDNF-TrkB 必要信号；三个月后维持获益不再需要细胞长期驻留。
+
+来源：
+· bioRxiv（2026）：年轻骨髓来源小胶质样细胞经 BDNF-TrkB 信号改善老年脑认知（DOI 10.64898/2026.10.15.759429）
+  注：未经同行评审；本站依据官方摘要撰写，源站全文未获取
+
+站内延伸阅读：
+· 年轻骨髓小胶质细胞改善老年脑认知，靠的是早期归巢期的 BDNF-TrkB，不需要永久嵌合 https://longbiosci.com/news/Young-BM-Microglia-BDNF-TrkB-Aged-Cognition-bioRxiv-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep007]]></description>
+    <enclosure url="https://longbiosci.com/audio/young-bm-microglia-bdnf-trkb-aging-2026.mp3" length="1777485" type="audio/mpeg"/>
+    <itunes:duration>296</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[小鼠可诱导清除实验把年轻骨髓来源小胶质样细胞的认知获益定位到早期归巢窗口，并指向 BDNF-TrkB 必要信号；三个月后维持获益不再需要细胞长期驻留。]]></itunes:summary>
+  </item>
+  <item>
     <title>复合维生素让表观遗传时钟慢了四个月——然后呢？</title>
     <link>https://longbiosci.com/podcast/#ep003</link>
     <guid isPermaLink="false">longbiosci-podcast-ep003</guid>
-    <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 23 Oct 2026 04:06:00 +0800</pubDate>
     <category>打假与证伪</category>
-    <description><![CDATA[COSMOS 试验 958 人两年随机对照：每日复合维生素让第二代表观遗传时钟走得慢一点，两年约差 4 个月；同试验的可可黄烷醇什么都没发生。这支持「时钟动了一点」，不支持「吃维生素能延寿」。
+    <description><![CDATA[数据日期：2026-10-23 04:06
+生成时间：2026-10-23 04:06
+
+COSMOS 试验 958 人两年随机对照：每日复合维生素让第二代表观遗传时钟走得慢一点，两年约差 4 个月；同试验的可可黄烷醇什么都没发生。这支持「时钟动了一点」，不支持「吃维生素能延寿」。
 
 来源：
 · Nature Medicine（2026）：COSMOS 随机临床试验——每日复合维生素-矿物质与可可提取物对表观遗传衰老时钟的影响（2 年结果）（DOI 10.1038/s41591-026-04239-3）
@@ -50,9 +162,12 @@
     <title>Senolytic：清除衰老细胞的人体证据，到哪一步了</title>
     <link>https://longbiosci.com/podcast/#ep002</link>
     <guid isPermaLink="false">longbiosci-podcast-ep002</guid>
-    <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 22 Oct 2026 16:20:00 +0800</pubDate>
     <category>机制十分钟</category>
-    <description><![CDATA[「清除衰老细胞能抗衰」是过去十年最出圈的抗衰叙事之一。一份 2026 年的系统评价梳理了已完成的人体试验：D+Q 的初步改善、轻度的副作用、以及它至今仍是「研究性」治疗的原因。
+    <description><![CDATA[数据日期：2026-10-22 16:20
+生成时间：2026-10-22 16:20
+
+「清除衰老细胞能抗衰」是过去十年最出圈的抗衰叙事之一。一份 2026 年的系统评价梳理了已完成的人体试验：D+Q 的初步改善、轻度的副作用、以及它至今仍是「研究性」治疗的原因。
 
 来源：
 · British Journal of Clinical Pharmacology（2026）：Senolytics 与 Senomorphics 人体试验系统评价（DOI 10.1002/bcp.70871；PubMed 42834340）
@@ -64,7 +179,7 @@
 
 完整文字稿：https://longbiosci.com/podcast/#ep002]]></description>
     <enclosure url="https://longbiosci.com/audio/senolytic-human-evidence-map-2026.mp3" length="2458656" type="audio/mpeg"/>
-    <itunes:duration>409</itunes:duration>
+    <itunes:duration>410</itunes:duration>
     <itunes:episodeType>full</itunes:episodeType>
     <itunes:author>LongBiosci 编辑部</itunes:author>
     <itunes:summary><![CDATA[「清除衰老细胞能抗衰」是过去十年最出圈的抗衰叙事之一。一份 2026 年的系统评价梳理了已完成的人体试验：D+Q 的初步改善、轻度的副作用、以及它至今仍是「研究性」治疗的原因。]]></itunes:summary>
@@ -73,27 +188,27 @@
     <title>NAD⁺ 前体之争：标志物翻倍之后，发生了什么</title>
     <link>https://longbiosci.com/podcast/#ep001</link>
     <guid isPermaLink="false">longbiosci-podcast-ep001</guid>
-    <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+    <pubDate>Sat, 24 Oct 2026 03:31:00 +0800</pubDate>
     <category>论文精读</category>
-    <description><![CDATA[NR 与 NMN 都能把全血 NAD⁺ 约翻倍；同一周，NOPARK 三期在 393 人身上读出不利于 NR 的临床评分。标志物翻倍之后，到底发生了什么？
+    <description><![CDATA[数据日期：2026-10-19 18:51
+生成时间：2026-10-24 03:31
+
+NR 与 NMN 都能把全血 NAD⁺ 约翻倍；同一周，NOPARK 三期在 393 人身上读出不利于 NR 的临床评分。标志物翻倍之后，到底发生了什么？
 
 来源：
 · Nature Metabolism（2026）：三种 NAD⁺ 前体对人体循环 NAD⁺ 与微生物代谢的差异影响（DOI 10.1038/s42255-025-01421-8；PubMed 41540253）
 · JAMA（2026-10-08）：NOPARK 随机临床试验——烟酰胺核糖用于早期帕金森病（DOI 10.1001/jama.2026.18828；PubMed 42848371）
   注：临床试验注册号 NCT03568968；全文为在线预发表，本站仅依据官方摘要撰写
-· NAD⁺ 前体系统评价与荟萃分析（15 项 RCT）
-  注：⚠️ 来源待补：PubMed 未检索到完全对应文献，本站结论照登但明示单一来源、未能独立核实
 
 站内延伸阅读：
 · NR 与 NMN 头对头：两者都能把全血 NAD⁺ 翻倍，但「标志物翻倍」不等于「人变年轻」 https://longbiosci.com/news/NAD-Precursor-Head-to-Head-RCT-NR-NMN-2026.html
 · NOPARK 三期揭盲：410 人每日 1000 mg NAD⁺ 前体一年，主要终点显著劣于安慰剂 https://longbiosci.com/news/NOPARK-NR-Early-Parkinson-Phase3-JAMA-2026.html
-· NAD⁺ 前体系统评价：15 项 RCT 确认代谢指标改善，但「延寿」仍无人体证据 https://longbiosci.com/news/NAD-Precursor-Systematic-Review-Meta-Analysis-2026.html
 
 本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
 
 完整文字稿：https://longbiosci.com/podcast/#ep001]]></description>
-    <enclosure url="https://longbiosci.com/audio/nad-precursor-nr-nmn-headtohead.mp3" length="3568701" type="audio/mpeg"/>
-    <itunes:duration>595</itunes:duration>
+    <enclosure url="https://longbiosci.com/audio/nad-precursor-nr-nmn-headtohead.mp3" length="3057213" type="audio/mpeg"/>
+    <itunes:duration>509</itunes:duration>
     <itunes:episodeType>full</itunes:episodeType>
     <itunes:author>LongBiosci 编辑部</itunes:author>
     <itunes:summary><![CDATA[NR 与 NMN 都能把全血 NAD⁺ 约翻倍；同一周，NOPARK 三期在 393 人身上读出不利于 NR 的临床评分。标志物翻倍之后，到底发生了什么？]]></itunes:summary>
