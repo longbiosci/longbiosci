@@ -37,6 +37,7 @@ rebuild-sitemap.py —— sitemap.xml 重建器（逆向重写版 v1.0）
   原版 URL 顺序为 glob 目录序（ext4 readdir 序，跨机器不可复现）；
   本版采用确定性顺序：组间固定、组内有序。URL 集合与逐条属性保持一致。
 """
+import hashlib
 import importlib.util
 import json
 import math
@@ -75,6 +76,9 @@ PAGES = [
     ("senolytic.html",        "monthly", "0.8"),
     ("search.html",           "weekly",  "0.8"),
     ("research/index.html",   "weekly",  "0.8"),
+    # /papers/ 论文索引：2026-10-23 新建（此前 search-index 里挂着一句承诺，
+    # 但页面从不存在，搜到了点进去是 404）。归入「概念与工具」下，日更 0.7。
+    ("papers/index.html",     "daily",   "0.7"),
     ("rapamycin.html",        "monthly", "0.7"),
     ("privacy/index.html",    "monthly", "0.5"),
     ("industry/index.html",   "daily",   "0.8"),
@@ -141,6 +145,105 @@ def mtime_date(path):
         return datetime.fromtimestamp(os.path.getmtime(path)).strftime("%Y-%m-%d")
     except OSError:
         return datetime.now().strftime("%Y-%m-%d")
+
+
+# ---- lastmod 状态：内容指纹 ----
+# 为什么不能对非文章页直接用 mtime（2026-10-23 修）
+# ------------------------------------------------
+# 本脚本此前对非文章页取文件 mtime。本地看着没问题（文件是逐日重写的），
+# 但在 CI 里 actions/checkout 会把**整棵树的 mtime 刷成 checkout 时刻**，
+# 于是每次部署 sitemap 里几十个非文章页的 lastmod 全变成当天——
+# 哪怕内容一个字都没动。后果有两层：
+#   1) 搜索引擎读到的信号是「这些页面天天更新」，lastmod 的信噪比被自己的
+#      构建流程毁掉（Google 明确说过 lastmod 不可信时会直接忽略）；
+#   2) 每次提交都夹带几十行纯日期 diff，真正的变更被噪音淹没，
+#      也让人不敢用 diff 判断「这次到底改了什么」。
+# 改为内容指纹判定：data/page-lastmod.json 记 path → [日期, sha1 前 12 位]，
+# 指纹没变就沿用上次日期，变了才写今天。
+# 首次运行时以**现有 sitemap.xml 的 lastmod** 作基线（配当前指纹），
+# 因此这次改造本身不会造成一次全站日期跳变。
+STATE_FILE = "data/page-lastmod.json"
+
+
+def file_hash(path):
+    """文件内容 sha1 前 12 位；读不到返回空串（当作「已变化」处理）。"""
+    h = hashlib.sha1()
+    try:
+        with open(path, "rb") as f:
+            for chunk in iter(lambda: f.read(65536), b""):
+                h.update(chunk)
+    except OSError:
+        return ""
+    return h.hexdigest()[:12]
+
+
+def load_state(root):
+    try:
+        with open(os.path.join(root, STATE_FILE), encoding="utf-8") as f:
+            raw = json.load(f)
+    except (OSError, ValueError):
+        return {}
+    return {k: (v[0], v[1]) for k, v in raw.items()
+            if isinstance(v, list) and len(v) == 2}
+
+
+def seed_from_sitemap(root):
+    """旧 sitemap.xml 的 path → lastmod，用于首次建立指纹基线。"""
+    try:
+        with open(os.path.join(root, "sitemap.xml"), encoding="utf-8") as f:
+            txt = f.read()
+    except OSError:
+        return {}
+    seed = {}
+    for block in txt.split("<url>")[1:]:
+        m_loc = re.search(r"<loc>([^<]+)</loc>", block)
+        m_lm = re.search(r"<lastmod>([^<]+)</lastmod>", block)
+        if m_loc and m_lm and m_loc.group(1).strip().startswith(BASE + "/"):
+            seed[m_loc.group(1).strip()[len(BASE) + 1:]] = m_lm.group(1).strip()
+    return seed
+
+
+def resolve_lastmod(root, entries):
+    """给非文章页补 lastmod。返回 (entries, 新状态, 沿用数, 变更数, 是否首次建基线)。"""
+    today = datetime.now().strftime("%Y-%m-%d")
+    old = load_state(root)
+    seeded = False
+    if not old:
+        old = {p: (d, "") for p, d in seed_from_sitemap(root).items()}
+        seeded = True
+    new_state, out, moved = {}, [], []
+    kept = changed = 0
+    for path, own, cf, pr in entries:
+        if own:                      # 文章页：lastmod 就是发布日，不参与指纹判定
+            out.append((path, own, cf, pr))
+            continue
+        h = file_hash(os.path.join(root, path))
+        prev_date, prev_hash = old.get(path, ("", ""))
+        if prev_date and (prev_hash == h or seeded):
+            date, kept = prev_date, kept + 1
+        else:
+            date, changed = today, changed + 1
+            moved.append(path)
+        new_state[path] = (date, h)
+        out.append((path, date, cf, pr))
+    return out, new_state, kept, changed, seeded, moved
+
+
+def save_state(root, state):
+    """逐行写，便于 git diff 直读；内容无变化则不落盘（保持幂等）。"""
+    txt = "{\n" + ",\n".join(
+        '  %s: ["%s", "%s"]' % (json.dumps(k, ensure_ascii=False), v[0], v[1])
+        for k, v in sorted(state.items())) + "\n}\n"
+    path = os.path.join(root, STATE_FILE)
+    try:
+        with open(path, encoding="utf-8") as f:
+            if f.read() == txt:
+                return False
+    except OSError:
+        pass
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(txt)
+    return True
 
 
 def collect(root="."):
@@ -214,7 +317,8 @@ def collect(root="."):
     for path, cf, pr in PAGES:
         entries.append((path, None, cf, pr))
 
-    # 附上 lastmod：条目已带日期（articles.json date）则用之，否则取文件 mtime
+    # lastmod 在此只定文章页（articles.json 的 date）；
+    # 非文章页留 None，交由 resolve_lastmod() 按内容指纹判定（见上方长注释）。
     out = []
     seen = set()
     for path, own, cf, pr in entries:
@@ -225,8 +329,7 @@ def collect(root="."):
         if path in seen:
             continue
         seen.add(path)
-        lastmod = own if own else mtime_date(full)
-        out.append((path, lastmod, cf, pr))
+        out.append((path, own, cf, pr))
     return out
 
 
@@ -263,11 +366,17 @@ def render(entries):
 def main():
     root = sys.argv[1] if len(sys.argv) > 1 else "."
     entries = collect(root)
+    entries, state, kept, changed, seeded, moved = resolve_lastmod(root, entries)
     xml = render(entries)
     out = os.path.join(root, "sitemap.xml")
     with open(out, "w", encoding="utf-8") as f:
         f.write(xml)
-    print(f"sitemap.xml 重建完成: {len(entries)} 条 URL")
+    wrote_state = save_state(root, state)
+    print(f"sitemap.xml 重建完成: {len(entries)} 条 URL · "
+          f"lastmod 沿用 {kept} 条 / 内容有变 {changed} 条"
+          + ("（" + "、".join(moved[:8]) + ("…" if len(moved) > 8 else "") + "）" if moved else "")
+          + ("（首次建立指纹基线）" if seeded else "")
+          + ("" if wrote_state else " · 指纹状态无变化"))
 
 
 if __name__ == "__main__":

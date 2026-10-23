@@ -47,6 +47,34 @@ def refresh_other_descs(other, total):
     return out, fixed
 
 
+def entry_exists(root, url):
+    """站点 URL → 磁盘路径并判断是否存在。
+
+    2026-10-23 新增。非 news 的栏目页条目是**从旧基线整体继承**的，
+    此前无条件保留，于是 "/papers/" 这种「承诺过但从未建过」的条目
+    会一直留在索引里，读者搜到点进去就是 404。这里让条目必须对得上真实文件。
+    """
+    u = str(url).split("#")[0].split("?")[0]
+    if not u.startswith("/"):
+        return True                       # 站外条目不在本判据范围
+    disk = os.path.join(root, u.lstrip("/"))
+    if u.endswith("/") or u in ("", "/"):
+        disk = os.path.join(disk, "index.html")
+    return os.path.exists(disk)
+
+
+def prune_other(other, root):
+    """剔除指向不存在页面的栏目页条目，返回 (保留项, 被剔除 URL 列表)。"""
+    kept, dropped = [], []
+    for r in other:
+        if isinstance(r, list) and len(r) > 1 and isinstance(r[1], str) \
+                and not entry_exists(root, r[1]):
+            dropped.append(r[1])
+            continue
+        kept.append(r)
+    return kept, dropped
+
+
 def rebuild_index(articles, si_path):
     """保留旧的非 news 条目（栏目页），news 条目按 articles.json 顺序重建"""
     other = []
@@ -58,6 +86,9 @@ def rebuild_index(articles, si_path):
         except Exception:
             other = []
 
+    root = os.path.dirname(os.path.dirname(os.path.abspath(si_path)))
+    other, dropped = prune_other(other, root)
+
     news = [
         [a.get("title", ""), f"/news/{a['slug']}", a.get("date", ""),
          str(a.get("tag", "")), str(a.get("topic", "")),
@@ -68,7 +99,7 @@ def rebuild_index(articles, si_path):
     merged = news + other
     with open(si_path, "w", encoding="utf-8") as f:
         json.dump(merged, f, ensure_ascii=False)
-    return len(news), len(other), n_desc
+    return len(news), len(other), n_desc, dropped
 
 
 def refresh_search_html(root, total):
@@ -95,10 +126,14 @@ def main():
     sp = os.path.join(ROOT, "data/search-index.json")
     articles = json.load(open(ap, encoding="utf-8"))
 
-    n_news, n_other, n_desc = rebuild_index(articles, sp)
+    n_news, n_other, n_desc, dropped = rebuild_index(articles, sp)
     changed = refresh_search_html(ROOT, len(articles))
     print(f"search-index.json: news {n_news} 条 + 栏目页 {n_other} 条 = {n_news + n_other} 条"
           + (f"（已刷新 {n_desc} 条栏目描述里的过期篇数）" if n_desc else ""))
+    if dropped:
+        # 剔除必须吼一声：这些条目背后是「曾被承诺、现已没有页面」的 URL，
+        # 静默删掉等于把「页面没了」这个事实藏起来。
+        print("  ⚠️ 剔除指向不存在页面的栏目页条目：" + "、".join(dropped))
     print(f"search.html: {'已刷新计数' if changed else '计数已是最新'}（{len(articles)} 篇）")
 
 

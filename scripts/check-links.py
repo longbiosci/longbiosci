@@ -89,7 +89,7 @@ ROOT = sys.argv[1] if len(sys.argv) > 1 else "."
 # 新增栏目目录务必登记，否则该目录的死链与计数漂移会再次隐身。
 SCAN_DIRS = ["", "news", "topics", "evidence", "guide", "research",
              "companies", "events", "daily", "about", "privacy",
-             "investors", "industry", "podcast"]
+             "investors", "industry", "podcast", "papers", "search"]
 
 
 def iter_pages():
@@ -423,6 +423,28 @@ def main():
         if n_index != len(arts):
             problems["搜索索引不一致"] += 1
             details.append(f"search-index {n_index} != articles {len(arts)}")
+
+        # ---- 3b) 搜索索引的「栏目页」条目必须真的有页面 ----
+        # 2026-10-23 新增。此前的盲区：本脚本只校验 HTML 里的链接，
+        # 而 search-index.json 的 15 条栏目页条目是**旧基线继承下来、无人校验**的。
+        # 其中 "/papers/" 一直指向一个不存在的目录 —— 读者在站内搜索里点
+        # 「论文索引」，落地就是 404。这条死链由我们自己的搜索结果产出，
+        # 却因为「不是 HTML 里的 href」整整一周没被发现。
+        # 判据：非 /news/ 的条目（栏目页 / 工具页）必须能在磁盘上找到对应文件。
+        dead_entries = []
+        for r in si:
+            if not (isinstance(r, list) and len(r) > 1 and isinstance(r[1], str)):
+                continue
+            u = r[1]
+            if u.startswith("/news/"):
+                continue
+            disk = url_to_disk(u)
+            if disk is None or not os.path.exists(disk):
+                dead_entries.append(u)
+        if dead_entries:
+            problems["搜索索引死条目"] += 1
+            details.append("搜索索引死条目（点进去 404）: "
+                           + ", ".join(sorted(set(dead_entries))[:8]))
 
     sm = os.path.join(ROOT, "sitemap.xml")
     if os.path.exists(sm):

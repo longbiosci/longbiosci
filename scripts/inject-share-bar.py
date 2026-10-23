@@ -6,6 +6,20 @@
 样式兜底：未引用 /style.css 的页，分享条自带内联 <style>。
 幂等：已含 share-bar 的页面跳过。
 
+只处理**文章页**，三类文件必须排除（2026-10-23 修）
+-----------------------------------------------
+glob 的是 news/*.html，可这目录里还住着两种非文章页：
+  · news/index.html      文章列表页。「分享给好友」分享一份列表、二维码指向列表，
+                         语义就不对；更麻烦的是 gen-news-index 每轮重写它，
+                         本脚本每轮再注入一次 —— 两个生成器对同一个文件来回拉锯，
+                         该页内容每轮都变，sitemap 的 lastmod 永远停在当天。
+                         （这正是在 rebuild-sitemap 改内容指纹后暴露出来的：
+                          每轮都有一条「内容有变」，追下去才发现是自家脚本互踩。）
+  · news/<slug>.html 的迁移守卫页（带 lb-redirect-stub）
+                         页面本身在说「这篇文章已迁移」，底下一个按钮让人
+                         分享这个已失效的地址 —— 帮读者把死链传播出去。
+故：basename == index.html 跳过；含 STUB_MARK 跳过。
+
 用法：python3 inject-share-bar.py [repo_root]
 """
 import glob
@@ -48,6 +62,9 @@ SCRIPTS = (
     '<script src="/share.js" defer></script>'
 )
 
+# 迁移守卫页的自证标记（与 gen-redirects.py / check-links.py 同名同义）
+STUB_MARK = "lb-redirect-stub"
+
 ANCHORS = [
     '<footer class="article-footer">',
     "</article>",
@@ -72,9 +89,15 @@ def inject(html):
 
 def main():
     paths = sorted(glob.glob(os.path.join(ROOT, "news", "*.html")))
-    done = skipped = noanchor = 0
+    done = skipped = noanchor = notarticle = 0
     for p in paths:
+        if os.path.basename(p) == "index.html":
+            notarticle += 1
+            continue
         html = open(p, encoding="utf-8").read()
+        if STUB_MARK in html:
+            notarticle += 1
+            continue
         if "share-bar" in html:
             skipped += 1
             continue
@@ -86,7 +109,8 @@ def main():
         open(p, "w", encoding="utf-8").write(out)
         done += 1
     print(
-        f"[share-bar] 本轮注入 {done} 篇，已存在跳过 {skipped} 篇，无锚点 {noanchor} 篇，共 {len(paths)} 篇"
+        f"[share-bar] 本轮注入 {done} 篇，已存在跳过 {skipped} 篇，无锚点 {noanchor} 篇，"
+        f"非文章页跳过 {notarticle} 个（列表页 / 迁移守卫页），共 {len(paths)} 个文件"
     )
 
 
