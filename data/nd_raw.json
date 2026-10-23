@@ -229,7 +229,7 @@
     "name": "行业情报周报_2026-09-16",
     "ext": "xlsx",
     "size": "18880",
-    "modify_time": "1792785138000"
+    "modify_time": "1792791273000"
    },
    {
     "file_id": "dOnhQdjKdwmw",
@@ -535,7 +535,7 @@
     "name": "IMA知识库_0019eb4e65002c9f/行业层/行业情报周报_2026-09-16",
     "ext": "xlsx",
     "size": "18880",
-    "modify_time": "1792791052000"
+    "modify_time": "1792791748000"
    },
    {
     "file_id": "dOnhQdjKdwmw",
@@ -935,6 +935,13 @@
     "ext": "gz",
     "size": "6010188",
     "modify_time": "1792699706000"
+   },
+   {
+    "file_id": "dxJBcXhtNGcc",
+    "name": "摄入巡检_0530班_运行摘要_2026-10-24",
+    "ext": "md",
+    "size": "5176",
+    "modify_time": "1792791733000"
    },
    {
     "file_id": "dwyAwojtLOeF",

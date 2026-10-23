@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-24T05:36:20+08:00",
+ "updated_at": "2026-10-24T05:42:48+08:00",
  "entries": {
   "dkwSBCCuiNrB": {
    "name": "文献层_五刊监控_深度文献卡片_2026-10-02",
@@ -1430,6 +1430,17 @@
    "slugs": [],
    "note": "与 dszhNWfbIizM 同一批交付的裸文件包（未压缩 tar），内容已由前者消化；仅登记留痕",
    "hash": "3c6f65c6d521653622ec7b9b8d8ac2ee"
+  },
+  "dxJBcXhtNGcc": {
+   "name": "摄入巡检_0530班_运行摘要_2026-10-24",
+   "layer": "元层",
+   "size": 5176,
+   "mtime": "1792791733000",
+   "status": "done",
+   "done_at": "2026-10-24T05:42:48+08:00",
+   "slugs": [],
+   "note": "本轮留痕自产出（本流程上传，非上游交付）；登记为 done 避免下轮误判增量",
+   "hash": "ff4b0970745dc3be4f09391c4ea20fab"
   }
  },
  "retired": [
