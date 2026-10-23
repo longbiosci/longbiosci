@@ -51,7 +51,14 @@ def clean(d):
     m = DOI_RE.match(d.strip())
     if not m:
         return ""
-    return m.group(0).rstrip(".,;:</")
+    d = m.group(0)
+    # 三修（2026-10-23 晚）：Crossref 字符集本身含 `()`，于是页面里
+    # 「(doi:10.3390/…486)」的收尾括号会被吃进 DOI——Crossref 对带
+    # 尾括号的形式返回 404（实测两条），而DOI 真正含括号的极少。
+    # 规则：尾部 `.,;:</]` 一律剥；尾 `)` 仅在没有配对 `(` 时剥。
+    while d and (d[-1] in ".,;:</]" or (d[-1] == ")" and d.count(")") > d.count("("))):
+        d = d[:-1]
+    return d
 
 
 def main():
@@ -87,9 +94,14 @@ def main():
         if not a.get("doi"):
             a["doi"] = found
             added += 1
-        elif clean(a["doi"]) != found:
-            # json 值脏 → 以页面为准覆盖，并单独计数报告
-            repaired.append((slug, clean(a["doi"]), found))
+        elif a["doi"] != found:
+            # json 值与页面提取值不一致 → 一律以页面为准覆盖。
+            # 2026-10-23 二修：原条件写的是 `clean(a["doi"]) != found`，
+            # 于是「json 脏值清洗后恰好等于 found」时判定为无需修复——
+            # 实测 64 篇的 doi 带着 `</span` / `)</p>` / `</li` 尾巴原样留在
+            # articles.json 里（索引是干净的，json 是脏的，两边不一致）。
+            # 正确做法：只比较原始值，脏就覆盖。
+            repaired.append((slug, a["doi"], found))
             a["doi"] = found
         index[slug] = found
 

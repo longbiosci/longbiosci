@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-22T18:28:32+08:00",
+ "updated_at": "2026-10-23T09:55:41+08:00",
  "entries": {
   "dkwSBCCuiNrB": {
    "name": "文献层_五刊监控_深度文献卡片_2026-10-02",
@@ -587,26 +587,6 @@
    "slugs": [],
    "note": "已发布条目留档（10961 B）：10-13 批次 publish_status 核对表，与喂料池同源，无新条目。"
   },
-  "duBgXYxWoSQW": {
-   "name": "IMA知识库_0019eb4e65002c9f/衰老与长寿相关临床试验登记清单",
-   "layer": "元层",
-   "size": 218833,
-   "mtime": "1790818489000",
-   "status": "done",
-   "done_at": "2026-10-16T01:10:27+08:00",
-   "slugs": [],
-   "note": "558 条试验登记库已消化：解析为 data/trials-full.json（558 唯一 NCT），新建 /trials-full.html 全量登记库页（宽口径检索视图），与 /trials.html（82 项机制口径主表）互链，进 sitemap。82 窄口径 + 558 宽口径双库并存，用户已授权执行。"
-  },
-  "dXnPTXlfISVq": {
-   "name": "IMA知识库_0019eb4e65002c9f/衰老与长寿相关临床试验登记清单_snapshot",
-   "layer": "元层",
-   "size": 145445,
-   "mtime": "1790818492000",
-   "status": "done",
-   "done_at": "2026-10-16T01:10:27+08:00",
-   "slugs": [],
-   "note": "同上：trials-snapshot（JSON, total_unique=558）与登记库 md 已双源核对（状态分布 368/155/35 一致），落地为 /trials-full.html。"
-  },
   "dHQVvLfIkFGi": {
    "name": "文献层_五刊监控_深度文献卡片_2026-10-16",
    "layer": "文献层",
@@ -705,16 +685,6 @@
     "PROMETHEUS-Clinical-Trial-Protocol-Tailoring-GeroScience-2026.html"
    ],
    "note": "全文PDF归档（G21）。已下载核验 1553065B/34页，据此升级为全文级：补齐 Table 3 全部补充剂剂量与第4周升级规则、gerotype 判定阈值与常模来源、入排、运动处方、六项可行性参数、统计方案；并更正证据分级 C→A（原标「预印本/观点评论」与事实不符，实为同行评议 Methods Paper，已注册 NCT07451496）。"
-  },
-  "dNSmHwfzNMrn": {
-   "name": "upload_test",
-   "layer": "文献层",
-   "size": 24,
-   "mtime": "1792137562000",
-   "status": "done",
-   "done_at": "2026-10-17T07:43:12+08:00",
-   "slugs": [],
-   "note": "非产出：upload_test.txt 24B（内容 upload_probe_2026-10-16），系上游做网盘上传链路连通性测试后遗留的探针文件，无内容价值，不入站。已在巡检报告中建议清理。"
   },
   "dwyAwojtLOeF": {
    "name": "临床×文献交叉周报_2026-10-18",
@@ -832,10 +802,10 @@
    "layer": "文献层",
    "size": 8297,
    "mtime": "1792454436000",
-   "status": "empty",
-   "done_at": "2026-10-21T09:07:44+08:00",
+   "status": "done",
+   "done_at": "2026-10-23T09:53:51+08:00",
    "slugs": [],
-   "note": "摘要型过程文档，非研究产出：文件名 2026-10-19，正文自述检索日期 2026-10-19，但执行时间 2026-10-20 07:00–07:56（窗口错位，已在运营日志记为『错位交付』）。内容为全文级流水线运行摘要：medRxiv 33 命中 full 32/partial 1/none 0，bioRxiv 70 条 403 缺席，分层为机器初筛（脚本自述『非专家判读，严禁直接引用』）。不含可成篇研究条目 → 不入站。"
+   "note": "2026-10-23 处置：工程运行摘要归档件（10-19 检索日，medRxiv 33/33 全文、bioRxiv 70 篇因 Cloudflare 403 缺席），无站内内容可消化。已记录其两项待修转交上游任务 12819187：①_final_summary.json 的 tiers 为跨期累计口径（页面/RSS 显示 114 vs 当日 103）；②bioRxiv 恒定 403 的取文路径"
   },
   "dxCnKBUCoQXK": {
    "name": "行业情报周报_2026-10-21",
@@ -861,6 +831,169 @@
     "Hippocampal-Perfusion-mvPI-Spatial-Aging-bioRxiv-2026.html"
    ],
    "note": "2026-10-22 补消化（当日07:30巡检漏处理）：主榜4成篇；观察哨2（脑老化5mC/5hmC框架无定量、MCFT平台资源类）+补遗3（相关性弱）不成篇入档"
+  },
+  "dDCLlIreKqJS": {
+   "name": "预印本速递_2026-10-23",
+   "layer": "文献层",
+   "size": 42130,
+   "mtime": "1792707530000",
+   "status": "done",
+   "done_at": "2026-10-23T09:51:04+08:00",
+   "slugs": [
+    "ITP-Outlier-Control-Cohort-Prediction-Interval-Lifespan-2026.html",
+    "Amyloid-Tau-Neuropathology-Autopsy-Cohort-SaoPaulo-2026.html",
+    "Cell-Size-Chromatin-Rewiring-MDM4-Splicing-Senescence-2026.html",
+    "In-Silico-Perturbation-Yamanaka-Order-Partial-Reprogramming-2026.html"
+   ],
+   "note": "2026-10-23 摄入巡检消化：主榜3+观察哨1成篇（C级，仅公开摘要）；已用DOI逐一grep news/原文硬核验排除harvest误判（本批根因是doi-index污染，已修复backfill-doi.py）"
+  },
+  "dasrAsiBHRgt": {
+   "name": "文献层_五刊监控_深度文献卡片_2026-10-23",
+   "layer": "文献层",
+   "size": 244017,
+   "mtime": "1792705099000",
+   "status": "done",
+   "done_at": "2026-10-23T09:52:20+08:00",
+   "slugs": [
+    "CRISPR-Screen-Dusp5-Zfp219-Aged-T-Cell-Cell-2026.html",
+    "Hepatic-BDH1-3HB-CD8-T-Cell-Exhaustion-CellMetab-2026.html",
+    "Mitochondrial-Transplantation-HIF3A-BNIP3-Mitophagy-Aging-Heart-2026.html",
+    "Rapamycin-Immune-Reprogramming-Aged-Atherosclerosis-AgingCell-2026.html",
+    "SIRT6-Activator-MDL-800-Intervertebral-Disc-AgingCell-2026.html",
+    "Nicotinamide-Riboside-Microglia-Cognition-Aged-Mice-GeroScience-2026.html",
+    "Epigenetic-DeAging-Kinetics-iNSC-Blood-Cells-AgingCell-2026.html",
+    "MTR4-Youth-Factor-Vascular-Endothelium-AgingCell-2026.html",
+    "Plasma-Proteomic-Organ-Clocks-Mortality-LBC1936-AgingCell-2026.html"
+   ],
+   "note": "2026-10-23 摄入巡检消化：五刊9篇成篇（B级，Cell/Cell Metab/Aging Cell×5/GeroScience×2）；证据分级与来源行已写入页面"
+  },
+  "deNrOILHpEBs": {
+   "name": "播客_第3期_补丁包_待推送_2026-10-23.tar",
+   "layer": "元层",
+   "size": 6010188,
+   "mtime": "1792699706000",
+   "status": "done",
+   "done_at": "2026-10-23T09:52:32+08:00",
+   "slugs": [],
+   "note": "2026-10-23 本轮实际应用：git bundle verify 通过后 cherry-pick bc9ba68（前置 cfb4797 为当前 HEAD 祖先，sitemap 冲突取 ours 交由管线重建），19 阶段管线全绿，推送 6100097..6b32d66，线上核验 /podcast/ 与 /podcast.xml 各 3 期、音频 200（3,184,797 B 完整）、articles.json 587。该补丁包弥补了 10-23 04:00 播客任务因沙箱无 GH_TOKEN 导致的未推送缺口"
+  },
+  "dCjUoBntXwef": {
+   "name": "LongBiosci_待写_2026-10-22_迁移守卫页与检查器自检.tar",
+   "layer": "元层",
+   "size": 62116,
+   "mtime": "1792627972000",
+   "status": "done",
+   "done_at": "2026-10-23T09:52:32+08:00",
+   "slugs": [],
+   "note": "2026-10-23 核验：tar 内 check-links.py/gen-redirects.py/build-index.py/redirects.json 与当前仓库 md5 一致，45 个 news 页全部在位；run-pipeline.sh 差异仅为此后的两项增强（backfill-added、末尾分享条守卫），19 阶段内容已被完全覆盖。内容早已上线，补落 done 记录"
+  },
+  "dWvqWUywXiqv": {
+   "name": "LongBiosci_待写_2026-10-22_迁移守卫页与canonical自指修复.tar",
+   "layer": "元层",
+   "size": 57909,
+   "mtime": "1792626594000",
+   "status": "done",
+   "done_at": "2026-10-23T09:52:41+08:00",
+   "slugs": [],
+   "note": "2026-10-23 核验：下载连续 3 次 403（SignatureDoesNotMatch）——URL 经 fetch.py 原样传递未损坏，是网盘下载服务对中英混拼文件名（canonical自指修复）的签名 bug，纯中文文件名的同类 tar 可正常下载，属上游服务问题。补丁成效已在线上硬核验：管线第17阶段 gen-redirects 39 条迁移页全部就位、第18阶段自检 11/11（含迁移页 canonical 探针）、第19阶段 766/766 页面 canonical 齐备"
+  },
+  "dbhxURufXOPt": {
+   "name": "LongBiosci_待写补丁_2026-10-21.tar",
+   "layer": "元层",
+   "size": 215304,
+   "mtime": "1792556521000",
+   "status": "done",
+   "done_at": "2026-10-23T09:52:42+08:00",
+   "slugs": [],
+   "note": "2026-10-23 核验并补回远端缺失的 done 记录：tar 内 3 个 patch 的签名均已在当前代码中——check-links.py 含 canonical 判定（40 处）、run-pipeline.sh 第19阶段 canonical 硬校验、404.html 有 rel=canonical、mobile.html 有 og:url、fix_related 相关链接修复页在位。内容早已上线"
+  },
+  "dMIguvNomlMp": {
+   "name": "运营日志_2026-10-23最新快照（含播客第3期留痕）",
+   "layer": "元层",
+   "size": 180081,
+   "mtime": "1792699957000",
+   "status": "done",
+   "done_at": "2026-10-23T09:53:51+08:00",
+   "slugs": [],
+   "note": "2026-10-23 处置：运营日志快照归档件，权威版为网盘《运营日志.md》dcRhMjctGcjp（42,803 B）。快照含播客第3期留痕（bc9ba68 未推送、附恢复剧本），本轮已按该剧本完成推送并线上复验"
+  },
+  "dbsioFAWDjqi": {
+   "name": "全文PDF",
+   "layer": "文献层",
+   "size": 0,
+   "mtime": "1792178933000",
+   "status": "empty",
+   "done_at": "2026-10-23T09:55:41+08:00",
+   "slugs": [],
+   "note": "目录条目（dir_list 对 kind=2 目录返回 size=0，非任务空产）：五刊监控的全文PDF归档子目录，2 个 PDF 子项已单独入清单且 done（dNzUHbVFQTBa 1,553,065B / dcstQIgaFtPO 967,092B）"
+  },
+  "dntPxtImVdXC": {
+   "name": "IMA知识库_0019eb4e65002c9f",
+   "layer": "元层",
+   "size": 0,
+   "mtime": "1789261659000",
+   "status": "empty",
+   "done_at": "2026-10-23T09:55:41+08:00",
+   "slugs": [],
+   "note": "目录条目（dir_list 对 kind=2 目录返回 size=0，非任务空产）：IMA 知识库子目录，2 个临床试验清单子项已单独入清单且 done（dhnlTAyanHao 227,731B / dgUBJEBhGZjZ snapshot 121,430B）"
+  },
+  "dcohzvNdxzhl": {
+   "name": "系统文件",
+   "layer": "元层",
+   "size": 0,
+   "mtime": "1789099876000",
+   "status": "empty",
+   "done_at": "2026-10-23T09:55:41+08:00",
+   "slugs": [],
+   "note": "目录条目（dir_list 对 kind=2 目录返回 size=0，非任务空产）：系统文件目录，无内容产出"
+  },
+  "dAyJLyFnKcvo": {
+   "name": "网站喂料_2026-10-13",
+   "layer": "网站层",
+   "size": 0,
+   "mtime": "1791917579000",
+   "status": "empty",
+   "done_at": "2026-10-23T09:55:41+08:00",
+   "slugs": [],
+   "note": "目录条目（dir_list 对 kind=2 目录返回 size=0，非任务空产）：网站喂料批次目录，17 个子项已单独入清单且全部 done"
   }
- }
+ },
+ "retired": [
+  {
+   "name": "IMA知识库_0019eb4e65002c9f/衰老与长寿相关临床试验登记清单",
+   "layer": "元层",
+   "size": 218833,
+   "mtime": "1790818489000",
+   "status": "done",
+   "done_at": "2026-10-16T01:10:27+08:00",
+   "slugs": [],
+   "note": "558 条试验登记库已消化：解析为 data/trials-full.json（558 唯一 NCT），新建 /trials-full.html 全量登记库页（宽口径检索视图），与 /trials.html（82 项机制口径主表）互链，进 sitemap。82 窄口径 + 558 宽口径双库并存，用户已授权执行。",
+   "retired_at": "2026-10-23",
+   "retire_reason": "上游已从网盘删除（manifest 重建后不存在）；duBgXYxWoSQW/dXnPTXlfISVq 为 10-18 旧版临床试验清单，已被 dhnlTAyanHao(227,731B)+dgUBJEBhGZjZ(snapshot 121,430B) 取代；dNSmHwfzNMrn 为上传测试文件"
+  },
+  {
+   "name": "IMA知识库_0019eb4e65002c9f/衰老与长寿相关临床试验登记清单_snapshot",
+   "layer": "元层",
+   "size": 145445,
+   "mtime": "1790818492000",
+   "status": "done",
+   "done_at": "2026-10-16T01:10:27+08:00",
+   "slugs": [],
+   "note": "同上：trials-snapshot（JSON, total_unique=558）与登记库 md 已双源核对（状态分布 368/155/35 一致），落地为 /trials-full.html。",
+   "retired_at": "2026-10-23",
+   "retire_reason": "上游已从网盘删除（manifest 重建后不存在）；duBgXYxWoSQW/dXnPTXlfISVq 为 10-18 旧版临床试验清单，已被 dhnlTAyanHao(227,731B)+dgUBJEBhGZjZ(snapshot 121,430B) 取代；dNSmHwfzNMrn 为上传测试文件"
+  },
+  {
+   "name": "upload_test",
+   "layer": "文献层",
+   "size": 24,
+   "mtime": "1792137562000",
+   "status": "done",
+   "done_at": "2026-10-17T07:43:12+08:00",
+   "slugs": [],
+   "note": "非产出：upload_test.txt 24B（内容 upload_probe_2026-10-16），系上游做网盘上传链路连通性测试后遗留的探针文件，无内容价值，不入站。已在巡检报告中建议清理。",
+   "retired_at": "2026-10-23",
+   "retire_reason": "上游已从网盘删除（manifest 重建后不存在）；duBgXYxWoSQW/dXnPTXlfISVq 为 10-18 旧版临床试验清单，已被 dhnlTAyanHao(227,731B)+dgUBJEBhGZjZ(snapshot 121,430B) 取代；dNSmHwfzNMrn 为上传测试文件"
+  }
+ ]
 }

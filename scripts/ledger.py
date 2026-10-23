@@ -254,6 +254,10 @@ def main():
         # 而 .intake/ 是 gitignore 的、不进版本库——等于对账结果不可复现
         # （与 set 迭代顺序是同一类病：工具自己不确定，就不能当收尾自检）。
         # 安全网的价值在「提醒有文件没 build」，不在「替你把它算进去」。
+        # 只提醒「真的没 build」的文件。2026-10-23 修：原逻辑只要
+        # .intake/raw/ 里有 md 就报数，经 ledger-merge-outputs.py 并入
+        # 台账的 6 个文件每次都被误报——收尾自检里的假警报比没有警报更坏。
+        files = [f for f in files if os.path.basename(f) not in per_file]
         if files:
             print(f"另发现 {len(files)} 个 .intake/raw/*.md（未 build 进台账）")
             if "--include-unbuilt" in sys.argv:
