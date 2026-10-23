@@ -24,6 +24,23 @@ python3 scripts/cursor.py empty  --repo . --file-id <id> --note "size=0，需重
 **游标让「处理过没有」变成机器可判定的事实**，而不是 agent 的印象。
 即使一次运行中途挂掉，下次接手从游标继续即可。
 
+### 滚动文件判重（2026-10-24 新增）
+
+网盘对同名文件有两种行为且都会发生：**原地更新**（file_id 不变、mtime 变，
+实测 10-23 待办清单 `dDgSRfxdSmVQ`）与**同名新建**（file_id 变，实测 10-24
+运行摘要 `dsGXxdlopHqF`/`dGSADrtEEHrK` 同名同哈希两份）。只按 file_id
+判新，这两种都发现不了。规则（`cursor.py` 已实现）：
+
+| 层 | 命令 | 作用 |
+|---|---|---|
+| 提示 | `cursor next` | 列出「已 done 但 size/mtime 变了」与「新 file_id 但 basename 与已消化/本轮已排队记录相同」 |
+| 终裁 | `cursor seen --file-id X --hash <md5>` | 下载后按（basename, 哈希）判重：UNCHANGED / DUPLICATE / NEW。**哈希相同才是重复**；同名不同哈希 = 滚动更新，只消化增量 |
+| 留痕 | `cursor done --hash <md5>` | 把内容哈希写进游标，下一轮 seen 才有基准 |
+
+流程：下载 → `md5sum` → `seen` → NEW 才消化 → `done --hash` 收尾。
+2026-10-24 之前 done 的历史记录没有哈希，`seen` 只能判 NEW（安全侧：
+宁可重消化，不可漏消化）；确认无实质更新的，用 `done --hash` 补记基准。
+
 ## 这个通道解决什么问题
 
 项目里有 **8 个自动化任务**在持续产出内容，产出全部落在网盘 IMA 知识库。
@@ -296,7 +313,7 @@ python3 scripts/harvest.py <repo> <files...> --mech /path/to/mech.json
 | `scripts/audit-traceability.py` | ⑥第 15 环：溯源完整性审计（只报告不阻断） |
 | `scripts/run-pipeline.sh` | ⑥ 本地全绿：16 环节管线 |
 | `scripts/push_via_api2.py` | ⑦ 推送：Git Data API 快通道（`force:false`，tree sha 强校验） |
-| `scripts/cursor.py` | 游标：增量判定（`verify` / `next` / `done` / `empty` / `stat`） |
+| `scripts/cursor.py` | 游标：增量判定与滚动文件判重（`verify` / `next` / `done` / `seen` / `empty` / `stat`） |
 | `scripts/nd_dirlist.py` | 抓取网盘四层清单 → `data/nd_raw.json`（不经人手） |
 | `scripts/build_manifest.py` | `nd_raw.json` → `data/intake-manifest.tsv`（事实源，实测字节覆盖缓存） |
 | `scripts/ndupload.py` | 上传：三步链（file_upload → PUT → complete），签名不经人手 |
