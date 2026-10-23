@@ -13,7 +13,9 @@
     "cover": "https://longbiosci.com/podcast-cover.png",
     "copyright": "© 2026 LongBiosci 编辑部",
     "disclaimer": "本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。",
-    "transcript_dir": "podcast/transcripts"
+    "transcript_dir": "podcast/transcripts",
+    "data_datetime": "2026-10-22 18:32",
+    "generated_at": "2026-10-24 03:31"
   },
   "episodes": [
     {
@@ -22,14 +24,15 @@
       "series": "论文精读",
       "title": "NAD⁺ 前体之争：标志物翻倍之后，发生了什么",
       "date": "2026-10-19",
-      "duration_sec": 595,
+      "data_datetime": "2026-10-19 18:51",
+      "generated_at": "2026-10-24 03:31",
+      "duration_sec": 509,
       "audio": "audio/nad-precursor-nr-nmn-headtohead.mp3",
       "voice": "zh-CN-XiaoxiaoNeural",
       "desc": "NR 与 NMN 都能把全血 NAD⁺ 约翻倍；同一周，NOPARK 三期在 393 人身上读出不利于 NR 的临床评分。标志物翻倍之后，到底发生了什么？",
       "article_slugs": [
         "news/NAD-Precursor-Head-to-Head-RCT-NR-NMN-2026.html",
-        "news/NOPARK-NR-Early-Parkinson-Phase3-JAMA-2026.html",
-        "news/NAD-Precursor-Systematic-Review-Meta-Analysis-2026.html"
+        "news/NOPARK-NR-Early-Parkinson-Phase3-JAMA-2026.html"
       ],
       "sources": [
         {
@@ -44,13 +47,6 @@
           "pmid": "42848371",
           "url": "https://doi.org/10.1001/jama.2026.18828",
           "note": "临床试验注册号 NCT03568968；全文为在线预发表，本站仅依据官方摘要撰写"
-        },
-        {
-          "label": "NAD⁺ 前体系统评价与荟萃分析（15 项 RCT）",
-          "doi": "",
-          "pmid": "",
-          "url": "",
-          "note": "⚠️ 来源待补：PubMed 未检索到完全对应文献，本站结论照登但明示单一来源、未能独立核实"
         }
       ]
     },
@@ -60,7 +56,9 @@
       "series": "机制十分钟",
       "title": "Senolytic：清除衰老细胞的人体证据，到哪一步了",
       "date": "2026-10-22",
-      "duration_sec": 409,
+      "data_datetime": "2026-10-22 16:20",
+      "generated_at": "2026-10-22 16:20",
+      "duration_sec": 410,
       "audio": "audio/senolytic-human-evidence-map-2026.mp3",
       "voice": "zh-CN-XiaoxiaoNeural",
       "desc": "「清除衰老细胞能抗衰」是过去十年最出圈的抗衰叙事之一。一份 2026 年的系统评价梳理了已完成的人体试验：D+Q 的初步改善、轻度的副作用、以及它至今仍是「研究性」治疗的原因。",
@@ -82,6 +80,8 @@
       "series": "打假与证伪",
       "title": "复合维生素让表观遗传时钟慢了四个月——然后呢？",
       "date": "2026-10-23",
+      "data_datetime": "2026-10-23 04:06",
+      "generated_at": "2026-10-23 04:06",
       "duration_sec": 531,
       "audio": "audio/cosmos-multivitamin-epigenetic-clocks-2026.mp3",
       "voice": "zh-CN-XiaoxiaoNeural",
@@ -96,6 +96,106 @@
           "pmid": "",
           "url": "https://doi.org/10.1038/s41591-026-04239-3",
           "note": "主文献为 COSMOS 试验的辅助分析，衰老时钟为次要探索性指标；站内文章未列 PMID"
+        }
+      ]
+    },
+    {
+      "id": "ep004",
+      "slug": "dnam-clocks-dementia-meta-analysis-2026",
+      "series": "打假与证伪",
+      "title": "DNAm 时钟与痴呆：五种时钟为何只剩 GrimAge",
+      "date": "2026-10-24",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-24 03:31",
+      "duration_sec": 308,
+      "audio": "audio/dnam-clocks-dementia-meta-analysis-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "37 项观察研究、46,365 人的 meta 分析中，只有 GrimAge 年龄加速稳定预测全因痴呆；其余四种主流时钟均无显著关联。结果约束了把“时钟变慢”直接翻译成临床获益的做法。",
+      "article_slugs": [
+        "news/DNAm-Clock-EAA-Dementia-Meta-Analysis-37-Studies-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "medRxiv（2026）：DNA 甲基化时钟与神经退行性疾病的系统评价和荟萃分析",
+          "doi": "10.64898/2026.10.21.26365867",
+          "pmid": "",
+          "url": "https://doi.org/10.64898/2026.10.21.26365867",
+          "note": "未经同行评审；本站依据官方摘要撰写，结论可能在正式发表时变更"
+        }
+      ]
+    },
+    {
+      "id": "ep005",
+      "slug": "entorhinal-grid-temporal-instability-aging-2026",
+      "series": "论文精读",
+      "title": "内嗅网格信号变弱：消失了，还是不稳定？",
+      "date": "2026-10-24",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-24 03:31",
+      "duration_sec": 282,
+      "audio": "audio/entorhinal-grid-temporal-instability-aging-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "85 名老年人的虚拟现实导航与 fMRI 研究提示：内嗅皮层六向信号变弱，更像是跨时间表征不稳定，而非表征消失；稳定性越高，物体-位置记忆越好。",
+      "article_slugs": [
+        "news/Entorhinal-Grid-Coding-Temporal-Instability-Aging-bioRxiv-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "bioRxiv（2026）：时间不稳定性削弱老年人的内嗅网格样编码",
+          "doi": "10.64898/2026.10.15.759328",
+          "pmid": "",
+          "url": "https://doi.org/10.64898/2026.10.15.759328",
+          "note": "未经同行评审；本站依据官方摘要撰写，源站全文未获取"
+        }
+      ]
+    },
+    {
+      "id": "ep006",
+      "slug": "hippocampal-perfusion-mvpi-aging-2026",
+      "series": "论文精读",
+      "title": "老化海马的两条血管轴线：供血与搏动不能混为一谈",
+      "date": "2026-10-24",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-24 03:31",
+      "duration_sec": 285,
+      "audio": "audio/hippocampal-perfusion-mvpi-aging-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "35 名青年与老年成人的 7T MRI 显示，海马灌注与微血管容积搏动指数具有不同空间组织和年龄差异；老化脑血管不能只用“脑血流下降”一个维度概括。",
+      "article_slugs": [
+        "news/Hippocampal-Perfusion-mvPI-Spatial-Aging-bioRxiv-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "bioRxiv（2026）：跨年龄人类海马灌注与微血管搏动的不同空间组织",
+          "doi": "10.64898/2026.10.15.759438",
+          "pmid": "",
+          "url": "https://doi.org/10.64898/2026.10.15.759438",
+          "note": "未经同行评审；本站依据官方摘要撰写，源站全文未获取"
+        }
+      ]
+    },
+    {
+      "id": "ep007",
+      "slug": "young-bm-microglia-bdnf-trkb-aging-2026",
+      "series": "论文精读",
+      "title": "年轻骨髓细胞改善老年认知：关键不在永久驻留",
+      "date": "2026-10-24",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-24 03:31",
+      "duration_sec": 296,
+      "audio": "audio/young-bm-microglia-bdnf-trkb-aging-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "小鼠可诱导清除实验把年轻骨髓来源小胶质样细胞的认知获益定位到早期归巢窗口，并指向 BDNF-TrkB 必要信号；三个月后维持获益不再需要细胞长期驻留。",
+      "article_slugs": [
+        "news/Young-BM-Microglia-BDNF-TrkB-Aged-Cognition-bioRxiv-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "bioRxiv（2026）：年轻骨髓来源小胶质样细胞经 BDNF-TrkB 信号改善老年脑认知",
+          "doi": "10.64898/2026.10.15.759429",
+          "pmid": "",
+          "url": "https://doi.org/10.64898/2026.10.15.759429",
+          "note": "未经同行评审；本站依据官方摘要撰写，源站全文未获取"
         }
       ]
     }

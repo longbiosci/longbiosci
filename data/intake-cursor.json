@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-24T04:31:03+08:00",
+ "updated_at": "2026-10-24T05:36:20+08:00",
  "entries": {
   "dkwSBCCuiNrB": {
    "name": "文献层_五刊监控_深度文献卡片_2026-10-02",
@@ -107,12 +107,12 @@
   "djDYwIKGTXEV": {
    "name": "预印本速递_2026-09-15",
    "layer": "文献层",
-   "size": 15032,
+   "size": 20450,
    "mtime": "1789445617000",
    "status": "done",
-   "done_at": "2026-10-24T04:31:03+08:00",
+   "done_at": "2026-10-24T05:36:20+08:00",
    "slugs": [],
-   "note": "速递 09-15（合并权威版 20,450B，较 10-15 消化时 +5,418B）：12 条（主榜10+观察哨2）DOI 逐一 grep news/ 硬核验全部在站内；文件内 C3/C5-C9 剔除项正确未收。mtime +101s 同 size 系上传期触碰，无内容损失",
+   "note": "UNCHANGED：仅 dir_list 缓存 size 修正，内容哈希与上次一致，无增量",
    "hash": "09ac1fce9d577a2387fdf26aa2181c31"
   },
   "dZimRRbWuwmI": {
@@ -285,12 +285,12 @@
   "dRlRAPWevRku": {
    "name": "运营日志",
    "layer": "网站层",
-   "size": 123195,
+   "size": 177489,
    "mtime": "1792653219000",
    "status": "done",
-   "done_at": "2026-10-24T04:31:03+08:00",
+   "done_at": "2026-10-24T05:36:20+08:00",
    "slugs": [],
-   "note": "运营日志网站层副本（177,489B）：条目止于 10-22 15:0x 推送阻塞解除，全部在库；11 轮后的新条目只在元层副本",
+   "note": "UNCHANGED：仅 dir_list 缓存 size 修正，内容哈希与上次一致，无增量",
    "hash": "f225e7b67b38466b147f560b66607cfb"
   },
   "dVisoPwrcwVm": {
@@ -362,13 +362,13 @@
   "dVKsSOJcCMjU": {
    "name": "行业情报周报_2026-09-16",
    "layer": "行业层",
-   "size": 18880,
-   "mtime": "1792083815000",
+   "size": 17542,
+   "mtime": "1792785138000",
    "status": "done",
-   "done_at": "2026-10-24T04:31:03+08:00",
+   "done_at": "2026-10-24T05:36:20+08:00",
    "slugs": [],
-   "note": "行业情报周报 09-16 xlsx（17,542B，较备案 -1,338B 系重序列化）：与 md 版 dOnhQdjKdwmw 逐条比对，29 条事件（投融资10+管线12+监管7）全部对上，无新增。size 变化非内容变化",
-   "hash": "d4d430e2465535410488540491096176"
+   "note": "滚动更新（mtime 10-24 且哈希变化）：29 条逐条硬核验全部已在站内（投融资 10 条→Funding-Roundup-Sep-Oct；管线 12 条→Pipeline-Commercialization-Sep-Oct；监管 7 条→Regulatory-Payment-Boundaries），增量 0，判重复跳过",
+   "hash": "a884a6353480c2a4b384d8624c5365fe"
   },
   "dxGTKRYApbJO": {
    "name": "行业情报周报_2026-10-14",
@@ -383,12 +383,12 @@
   "dcRhMjctGcjp": {
    "name": "运营日志",
    "layer": "元层",
-   "size": 42803,
+   "size": 192706,
    "mtime": "1792726872000",
    "status": "done",
-   "done_at": "2026-10-24T04:31:03+08:00",
+   "done_at": "2026-10-24T05:36:20+08:00",
    "slugs": [],
-   "note": "运营日志元层副本（192,706B，较 10-16 记录 +149,903B）：末两条为 10-23 10:10 /papers/ 上线与 11:35 b6d3d679 遗留问题处置，均已推送在库；无新动作。日志三血脉同样待收敛",
+   "note": "UNCHANGED：仅 dir_list 缓存 size 修正，内容哈希与上次一致，无增量",
    "hash": "9c93e12e3095e6ec1c92e53c47896fb5"
   },
   "duLHFqzcdVBY": {
@@ -1401,6 +1401,35 @@
    "slugs": [],
    "note": "12819187 运行摘要元层根副本：seen 判重 DUPLICATE（与子目录版 dsGXxdlopHqF 同哈希），跳过消化——网盘同名新建行为的实证案例",
    "hash": "ea3c57cb686db9f4d87f05af5417c002"
+  },
+  "dszhNWfbIizM": {
+   "name": "LongBiosci_播客_ep003-ep007_待推送_2026-10-24.tar",
+   "layer": "元层",
+   "size": 23280973,
+   "mtime": "1792785379000",
+   "status": "done",
+   "done_at": "2026-10-24T05:36:15+08:00",
+   "slugs": [
+    "podcast/index.html",
+    "podcast.xml",
+    "audio/dnam-clocks-dementia-meta-analysis-2026.mp3",
+    "audio/entorhinal-grid-temporal-instability-aging-2026.mp3",
+    "audio/hippocampal-perfusion-mvpi-aging-2026.mp3",
+    "audio/young-bm-microglia-bdnf-trkb-aging-2026.mp3"
+   ],
+   "note": "播客 ep003–ep007 补丁包：新增 ep004–ep007 四期上线（ep001–ep003 已上线，重复跳过 3 条；ep001 音频按上游重合成版替换，509s）",
+   "hash": "ca4dfbedbeefa93f2b276fc9a43c7bef"
+  },
+  "daTPqNskxxAC": {
+   "name": "播客_第4-7期_补丁包_待推送_2026-10-24",
+   "layer": "元层",
+   "size": 16056320,
+   "mtime": "1792785353000",
+   "status": "done",
+   "done_at": "2026-10-24T05:36:15+08:00",
+   "slugs": [],
+   "note": "与 dszhNWfbIizM 同一批交付的裸文件包（未压缩 tar），内容已由前者消化；仅登记留痕",
+   "hash": "3c6f65c6d521653622ec7b9b8d8ac2ee"
   }
  },
  "retired": [

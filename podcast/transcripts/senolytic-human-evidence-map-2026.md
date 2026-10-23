@@ -3,6 +3,8 @@ slug: senolytic-human-evidence-map-2026
 series: 机制十分钟
 title: Senolytic：清除衰老细胞的人体证据，到哪一步了
 date: 2026-10-22
+data_datetime: 2026-10-22 16:20
+generated_at: 2026-10-22 16:20
 voice: zh-CN-XiaoxiaoNeural
 rate: "+5%"
 ---
