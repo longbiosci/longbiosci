@@ -57,7 +57,34 @@ BRANCH = "main"
 # 远端 main（3b59970d）的 trees 在本地被重建成的提交对象。
 # 它**不是**远端那个提交的 sha（对象 sha 无法离线复现），但**内容与远端 tree 一致**，
 # 因此可当作「远端此刻长什么样」的本地代理，用来算差异。
+# ⚠️ 该提交会随沙箱重建丢失（2026-10-24 实测：丢失后 rev-parse 直接崩）。
+# 已由 resolve_base() 自愈：缺失/过期时自动在本地历史找 tree 等价的提交。
 SNAPSHOT_COMMIT = "840ec3ff24320f51334871c8c750d6355e0d0f8d"
+
+
+def _local_tree(rev):
+    """本地提交的 tree sha；rev 不存在返回 None（不抛异常）。"""
+    r = subprocess.run(["git", "rev-parse", rev + "^{tree}"],
+                       capture_output=True)
+    return r.stdout.decode().strip() if r.returncode == 0 else None
+
+
+def resolve_base(base, remote_tree):
+    """基准自愈：硬编码快照提交丢失或远端前进后，在本地历史里找一个
+    tree 与远端一致的提交——内容等价即可用于算差异，commit sha 无需相同。
+    找不到才按 SOP 报错（下载 tarball 重建快照），严禁带着过期基准上路。
+    """
+    if _local_tree(base) == remote_tree:
+        return base
+    for c in sh("git", "rev-list", "HEAD", "-n", "100").decode().split():
+        if _local_tree(c) == remote_tree:
+            print(f"⚠️ 基准 {base[:10]} 本地缺失或已过期 → 自动改用等价提交 "
+                  f"{c[:10]}（tree 与远端一致 {remote_tree[:10]}）")
+            return c
+    raise SystemExit(
+        f"✗ 基准 {base[:10]} 不可用，且本地历史中找不到 tree == 远端 "
+        f"{remote_tree[:10]} 的提交。\n"
+        f"  按 SOP：下载远端 tarball → 重建为本地提交 → 重试；不要带着过期基准上路。")
 
 
 def sh(*args, check=True):
@@ -115,6 +142,7 @@ def main():
     remote_tree = remote_commit["tree"]["sha"]
     print(f"远端 {BRANCH:6s}= {remote_sha[:10]}")
     print(f"本地 HEAD     = {head[:10]}")
+    base = resolve_base(base, remote_tree)
 
     # 1) 快照 fidelity 校验：本地重建的远端 tree 必须与 API 返回的 tree sha 一致。
     #    不一致说明快照不是远端此刻的样子，此时算出的差异不可用。
