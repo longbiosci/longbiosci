@@ -1,8 +1,8 @@
 {
  "summary": {
-  "total": 574,
+  "total": 587,
   "level_counts": {
-   "强": 442,
+   "强": 455,
    "中": 132
   },
   "by_tier": {
@@ -11,11 +11,11 @@
     "中": 27
    },
    "B": {
-    "强": 230,
+    "强": 239,
     "中": 90
    },
    "C": {
-    "强": 104,
+    "强": 108,
     "中": 15
    }
   },
@@ -684,6 +684,171 @@
   "no_source": []
  },
  "articles": [
+  {
+   "slug": "Amyloid-Tau-Neuropathology-Autopsy-Cohort-SaoPaulo-2026.html",
+   "title": "2,711 例尸检的冷水：70 岁前 Aβ/tau 病理并不常见，而生物标志物看不见的共存病变同样能解释认知损害",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.20.26365945",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.20.26365945"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "CRISPR-Screen-Dusp5-Zfp219-Aged-T-Cell-Cell-2026.html",
+   "title": "单细胞 CRISPR 筛出两个靶点：敲掉它们，老年 T 细胞的抗肿瘤能力被拉回来",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.cell.2026.07.016",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.cell.2026.07.016",
+    "https://pubmed.ncbi.nlm.nih.gov/42526438/"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Cell-Size-Chromatin-Rewiring-MDM4-Splicing-Senescence-2026.html",
+   "title": "细胞变大不只是衰老的结果：它让染色质重排、MDM4 剪错，反过来把细胞焊死在衰老里",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.21.760624",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.21.760624"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Epigenetic-DeAging-Kinetics-iNSC-Blood-Cells-AgingCell-2026.html",
+   "title": "101 岁供体的血细胞转成神经干细胞后，表观年龄只剩 5%：但去衰老要好几周才完成",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1111/acel.70751",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1111/acel.70751",
+    "https://pubmed.ncbi.nlm.nih.gov/42829448/"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Hepatic-BDH1-3HB-CD8-T-Cell-Exhaustion-CellMetab-2026.html",
+   "title": "衰老让肝脏少产一种酮体，远程把 T 细胞「耗竭」掉：BDH1–3HB–PRKAR1B–CREM 轴",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.cmet.2026.08.009",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.cmet.2026.08.009",
+    "https://pubmed.ncbi.nlm.nih.gov/42692017/"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "ITP-Outlier-Control-Cohort-Prediction-Interval-Lifespan-2026.html",
+   "title": "10,757 只对照小鼠的警告：换掉一个「异常」队列，两种雷帕霉素方案的显著性就变了",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.21.760720",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.21.760720"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "In-Silico-Perturbation-Yamanaka-Order-Partial-Reprogramming-2026.html",
+   "title": "山中因子的 24 种导入顺序，第一次被系统地筛了一遍：POU5F1 或 SOX2 打头，效应最大",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.09.17.752497",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.09.17.752497"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "MTR4-Youth-Factor-Vascular-Endothelium-AgingCell-2026.html",
+   "title": "一个跨三物种的血管「年轻因子」：MTR4 被 SYVN1 泛素化降解，线虫里过表达延寿可比经典长寿模型",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1111/acel.70774",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1111/acel.70774",
+    "https://pubmed.ncbi.nlm.nih.gov/42885357/"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Mitochondrial-Transplantation-HIF3A-BNIP3-Mitophagy-Aging-Heart-2026.html",
+   "title": "衰老心脏的线粒体自噬不是太少，是「堵住了」：HIF-3α 异常上调把 BNIP3 顶过了头",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1111/acel.70720",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1111/acel.70720",
+    "https://pubmed.ncbi.nlm.nih.gov/42775695/"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Nicotinamide-Riboside-Microglia-Cognition-Aged-Mice-GeroScience-2026.html",
+   "title": "NR 补 8 周：老年鼠的小胶质细胞回到年轻态，筑巢、Y 迷宫、新物体识别都回来了",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1007/s11357-025-01959-1",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1007/s11357-025-01959-1",
+    "https://pubmed.ncbi.nlm.nih.gov/41273482/"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Plasma-Proteomic-Organ-Clocks-Mortality-LBC1936-AgingCell-2026.html",
+   "title": "蛋白组器官时钟确实能预测死亡——但没赢过便宜得多的 GrimAge2、脑体积、握力和认知",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1111/acel.70747",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1111/acel.70747",
+    "https://pubmed.ncbi.nlm.nih.gov/42823846/"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Rapamycin-Immune-Reprogramming-Aged-Atherosclerosis-AgingCell-2026.html",
+   "title": "在已经长好斑块的老年小鼠身上，雷帕霉素 8 周把斑块巨噬细胞压下来，也压住了淋巴免疫",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1111/acel.70730",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1111/acel.70730",
+    "https://pubmed.ncbi.nlm.nih.gov/42775680/"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "SIRT6-Activator-MDL-800-Intervertebral-Disc-AgingCell-2026.html",
+   "title": "24 月龄小鼠长期吃 SIRT6 激动剂：椎间盘退变评分降了，H3K9ac 降了，自噬升了",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1111/acel.70709",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1111/acel.70709",
+    "https://pubmed.ncbi.nlm.nih.gov/42895774/"
+   ],
+   "level": "强"
+  },
   {
    "slug": "DNAm-Clock-EAA-Dementia-Meta-Analysis-37-Studies-2026.html",
    "title": "37 项研究 4.6 万人的证伪性检验：五种表观遗传时钟里只有 GrimAge 预测痴呆",
