@@ -96,7 +96,12 @@ PAGES = [
     ("companies/index.html",  "weekly",  "0.7"),
     ("article.html",          "monthly", "0.5"),
     ("about/index.html",      "monthly", "0.6"),
-    ("about.html",            "monthly", "0.5"),
+    # about.html 已于 2026-10-23 剔除：它是 gen-redirects.py 按 redirects.json
+    # 生成的**迁移守卫页**（canonical → /about/），不是内容页。
+    # 守卫页进 sitemap 等于告诉搜索引擎「这个地址有一份独立内容」，
+    # 与它自己 canonical 指向别处直接矛盾——canonical 的效力会被自相矛盾的收录削弱。
+    # 同一份 redirects.json 里另外 38 条是 news/ 下的文章守卫页，因 sitemap 只收
+    # articles.json 登记项而天然不入 sitemap；根级的这一条是唯一漏网的。
 ]
 
 # 组规则：(glob 模式, changefreq, priority)；索引页单独优先输出

@@ -71,6 +71,7 @@
       <a href="/evidence/" aria-label="证据分级">证据<span class="nav-mq">分级</span></a>
       <a href="/trials.html" aria-label="临床试验">临床<span class="nav-mq">试验</span></a>
       <a href="/industry/">产业</a>
+      <a href="/events/">会议</a>
       <a href="/podcast/" aria-label="播客">播<span class="nav-mq">客</span></a>
       <a href="/about/">关于</a>
       <a href="/search.html" aria-current="page" class="nav-search" aria-label="站内搜索"><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="6.8" cy="6.8" r="4.6" fill="none" stroke="currentColor" stroke-width="1.6"/><line x1="10.3" y1="10.3" x2="14" y2="14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><span class="nav-search-text">搜索</span></a>
@@ -157,12 +158,69 @@
     return out.replace(re, '<mark>$1</mark>');
   }
 
+  // ---- 查询归一（2026-10-23）----
+  // 问题：同一个分子在站内有多种写法 —— NAD⁺ / NAD+ / NAD-plus / 烟酰胺腺嘌呤二核苷酸，
+  // 读者搜哪一种都只命中其中一部分（实测 NAD 3 条 / NAD+ 1 条 / NAD⁺ 1 条）。
+  // 做法：先把全角、上标、加号、连字符等「同一个字的多种长相」统一成一个 ASCII 形态，
+  // 再对少量高频同义词做等价展开（只展开**确指同一物**的写法，不做上下位概念合并——
+  // 把 NMN 并进 NAD⁺ 会让读者以为自己搜到了原文没说的东西）。
+  var SUP = { '⁰':'0','¹':'1','²':'2','³':'3','⁴':'4','⁵':'5','⁶':'6','⁷':'7','⁸':'8','⁹':'9',
+              '⁺':'+','⁻':'-' };
+
+  function norm(s) {
+    s = String(s == null ? '' : s).toLowerCase();
+    s = s.replace(/[⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻]/g, function (c) { return SUP[c]; });
+    s = s.replace(/[＋]/g, '+').replace(/[－—–]/g, '-');
+    // 去掉加号、连字符、斜杠、空白：NAD+ / NAD-plus / nad plus 都收成 "nad plus"
+    s = s.replace(/[-_/]/g, '+').replace(/\+/g, ' ').replace(/\s+/g, ' ').trim();
+    return s;
+  }
+
+  // 同义词组：组内任一写法视为同一检索词。**只收真正等价的别名。**
+  var SYN = [
+    ['nad', 'nadplus', '烟酰胺腺嘌呤二核苷酸', '辅酶i'],
+    ['nmn', '烟酰胺单核苷酸'],
+    ['nr', '烟酰胺核糖'],
+    ['senolytic', 'senolytics', '清除衰老细胞', '衰老细胞清除剂'],
+    ['mtor', '雷帕霉素靶蛋白', 'mtorci'],
+    ['sasp', '衰老相关分泌表型'],
+    ['表观遗传时钟', '表观遗传年龄', 'epigenetic clock', 'dna甲基化年龄']
+  ];
+  var SYN_MAP = (function () {
+    var m = {};
+    SYN.forEach(function (g) {
+      var keys = g.map(function (w) { return norm(w).replace(/\s/g, ''); });
+      keys.forEach(function (k) { m[k] = keys; });
+    });
+    return m;
+  })();
+
+  // 把用户输入拆成 [原文写法] 与 [归一后等价组] 两层：
+  // 命中判定用等价组（宽松），高亮仍用原文（不把读者的词改掉）。
+  function expand(q) {
+    var raw = norm(q).split(' ').filter(Boolean);
+    return raw.map(function (t) {
+      var k = t.replace(/\s/g, '');
+      return SYN_MAP[k] || [t];
+    });
+  }
+
+  // 词边界判定：纯 ASCII 检索词前后不能再接字母数字，
+  // 否则 nad 会命中 nadh / nadph / nadir（搜「NAD」跑出 NADH 的文章是假命中）。
+  // 中文没有词边界概念，只有含非 ASCII 字符的词才做子串匹配。
+  function hit(blob, alt) {
+    if (/[^\x00-\x7f]/.test(alt)) return blob.indexOf(alt) !== -1;
+    return new RegExp('(^|[^a-z0-9])' + alt.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '(?![a-z0-9])').test(blob);
+  }
+
   function search(q) {
     if (!q) return index.slice();
-    var terms = q.toLowerCase().split(/\s+/).filter(Boolean);
+    var groups = expand(q);
     return index.filter(function (it) {
-      var blob = (it.t + ' ' + it.x + ' ' + it.g + ' ' + it.p).toLowerCase();
-      return terms.every(function (t) { return blob.indexOf(t) !== -1; });
+      var blob = norm(it.t + ' ' + it.x + ' ' + it.g + ' ' + it.p);
+      return groups.every(function (alts) {
+        return alts.some(function (alt) { return hit(blob, alt); });
+      });
     });
   }
 
@@ -253,12 +311,12 @@
 
   $prev.addEventListener('click', function (e) {
     e.preventDefault();
-    if (curPage > 1) { curPage--; render($q.value.trim().toLowerCase().split(/\s+/).filter(Boolean)); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+    if (curPage > 1) { curPage--; render(norm($q.value).split(/\s+/).filter(Boolean)); window.scrollTo({ top: 0, behavior: 'smooth' }); }
   });
   $next.addEventListener('click', function (e) {
     e.preventDefault();
     var tp = Math.max(1, Math.ceil(filtered.length / PER_PAGE));
-    if (curPage < tp) { curPage++; render($q.value.trim().toLowerCase().split(/\s+/).filter(Boolean)); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+    if (curPage < tp) { curPage++; render(norm($q.value).split(/\s+/).filter(Boolean)); window.scrollTo({ top: 0, behavior: 'smooth' }); }
   });
 })();
 </script>
