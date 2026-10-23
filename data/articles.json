@@ -1,5 +1,65 @@
 [
   {
+    "slug": "Cross-Species-Muscle-Transcriptomic-Aging-Signatures-2026.html",
+    "title": "六个物种的骨骼肌衰老：共有的只有三个标志物，雌雄走的还不是同一条路",
+    "desc": "一项跨 6 个物种的骨骼肌 RNA-seq 比较发现，衰老签名存在强烈的性别偏向：18 个雄性偏向 vs 4 个雌性偏向标志物；两性共享的仅 Na 通道、HSP70、SPARC 三个。HSP70 的变化指向蛋白质稳态的跨物种共同下降。",
+    "tag": "预印本",
+    "date": "2026-10-24",
+    "topic": "器官衰老",
+    "type": "研究进展",
+    "evidence": "C",
+    "source": "",
+    "added": "2026-10-24"
+  },
+  {
+    "slug": "Glymphatic-Dysfunction-Sleep-Disorders-Meta-2026.html",
+    "title": "睡眠呼吸暂停越重，大脑的「清洗」越弱：类淋巴 meta 的 r=−0.53 与它的边界",
+    "desc": "一项纳入 15 项研究的系统综述与 meta 分析发现：阻塞性睡眠呼吸暂停患者的类淋巴转运显著受损（AHI 与 DTI-ALPS 指数 r=−0.53），但睡眠剥夺与发作性睡病 1 型未见显著改变——对流行的「睡眠-阿尔茨海默」叙事是一记镇静剂。",
+    "tag": "预印本",
+    "date": "2026-10-24",
+    "topic": "神经退行",
+    "type": "研究进展",
+    "evidence": "B",
+    "source": "",
+    "added": "2026-10-24"
+  },
+  {
+    "slug": "Hippocampus-mPFC-Polysynaptic-Recruitment-Aging-2026.html",
+    "title": "老年大鼠的海马-前额叶对话：直接输入还在，中断的是局部环路募集",
+    "desc": "亚利桑那大学 Carol A Barnes 团队用 Neuropixels 高密度记录发现：老化不影响海马→mPFC 的单突触传递，受损的是反映局部环路募集的多突触反应（35–100 ms），且以腹侧 mPFC 最深。",
+    "tag": "预印本",
+    "date": "2026-10-24",
+    "topic": "神经退行",
+    "type": "研究进展",
+    "evidence": "C",
+    "source": "",
+    "added": "2026-10-24"
+  },
+  {
+    "slug": "MEMR-MOCR-Auditory-Reflexes-Aging-Biomarker-2026.html",
+    "title": "别把中耳肌反射当成「生物年龄」：一项 51 人研究给听觉生理读数划的边界",
+    "desc": "根特大学团队的全文级研究（n=51，年轻/中年/中年听力损失三组）发现：中耳肌反射幅度确实随年龄变化，但校正耳蜗损伤指标后效应显著减弱——它测的是累积损伤，不是老化本身；既往部分「MOCR 随龄变化」的结论可能是共激活污染所致。",
+    "tag": "预印本",
+    "date": "2026-10-24",
+    "topic": "器官衰老",
+    "type": "研究进展",
+    "evidence": "B",
+    "source": "",
+    "added": "2026-10-24"
+  },
+  {
+    "slug": "Preoperative-FBG-Postoperative-Delirium-U-Shaped-2026.html",
+    "title": "术前血糖不是越低越好：2,157 例老年糖尿病手术患者的 U 型警告",
+    "desc": "中国人民解放军总医院团队的多中心回顾性队列（20 家医院、2,157 例老年糖尿病手术患者）发现：术前空腹血糖与术后谵妄呈 U 型关联，最低风险点 8.43 mmol/L，最优区间 5.92–9.75 mmol/L——明显高于常规「严格控糖」目标。",
+    "tag": "预印本",
+    "date": "2026-10-24",
+    "topic": "临床与转化",
+    "type": "研究进展",
+    "evidence": "B",
+    "source": "",
+    "added": "2026-10-24"
+  },
+  {
     "slug": "Amyloid-Tau-Neuropathology-Autopsy-Cohort-SaoPaulo-2026.html",
     "title": "2,711 例尸检的冷水：70 岁前 Aβ/tau 病理并不常见，而生物标志物看不见的共存病变同样能解释认知损害",
     "desc": "巴西圣保罗大学 2004–2025 年人群尸检队列 2,711 例（平均 73.4 岁）显示，同时达到 Thal 3–5 且 Braak IV–VI 者仅 19.6%；61–70 岁为 5.5%，81–90 岁才升至 36.5%。更关键的是，仅共存脑病变者的 CDR>0 比例为 58.5%，与仅 Aβ+tau 联合病理者的 63.7% 接近。",

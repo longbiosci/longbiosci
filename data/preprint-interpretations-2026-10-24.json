@@ -1,0 +1,551 @@
+{
+ "batch": "预印本全文级解读_2026-10-24",
+ "generated_at": "2026-10-24T02:00:00+08:00",
+ "source_task": "12819187 预印本全文级解读（无人值守）",
+ "source_dir": "元层/预印本全文级解读_2026-10-24/",
+ "covers": "上游《预印本速递_2026-10-21/10-22/10-23》，数据窗口 2026-10-20/21/22",
+ "total": 33,
+ "tiers": {
+  "主榜": 9,
+  "补遗": 14,
+  "观察哨": 10
+ },
+ "ingested_by": "内容摄入巡检 12409847（05:30 班）",
+ "ingested_at": "2026-10-24",
+ "digestion_rule": "主榜成篇；观察哨择优成篇（有全文核验且含可引用定量），其余入档；补遗入档",
+ "digestion_stats": {
+  "already-on-site": 11,
+  "published-this-run": 5,
+  "archived": 17
+ },
+ "items": [
+  {
+   "file": "预印本解读_2026-10-20_观察哨01_10.64898-2026.10.19.760205.md",
+   "doi": "10.64898/2026.10.19.760205",
+   "data_date": "2026-10-20",
+   "tier": "观察哨",
+   "rank": 1,
+   "server": "bioRxiv",
+   "ft_status": "none",
+   "ft_chars": 0,
+   "title_cn": "异常的核内组织损害 Hutchinson-Gilford 早老症（HGPS）中的成脂谱系定向与终末成熟",
+   "file_id": "dbZOeZQXudRs",
+   "digestion": {
+    "status": "already-on-site",
+    "slug": "news/HGPS-Adipogenic-Lineage-Consolidation-Failure-HiC-bioRxiv-2026.html"
+   }
+  },
+  {
+   "file": "预印本解读_2026-10-20_观察哨02_10.64898-2026.04.27.26351829.md",
+   "doi": "10.64898/2026.04.27.26351829",
+   "data_date": "2026-10-20",
+   "tier": "观察哨",
+   "rank": 2,
+   "server": "medRxiv",
+   "ft_status": "full",
+   "ft_chars": 53327,
+   "title_cn": "老化、听力损失与共激活对中耳肌反射与内侧橄榄耳蜗反射的影响",
+   "file_id": "dTwWaOGHISzh",
+   "digestion": {
+    "status": "published-this-run",
+    "slug": "news/MEMR-MOCR-Auditory-Reflexes-Aging-Biomarker-2026.html"
+   }
+  },
+  {
+   "file": "预印本解读_2026-10-20_观察哨03_10.64898-2026.10.17.759715.md",
+   "doi": "10.64898/2026.10.17.759715",
+   "data_date": "2026-10-20",
+   "tier": "观察哨",
+   "rank": 3,
+   "server": "bioRxiv",
+   "ft_status": "none",
+   "ft_chars": 0,
+   "title_cn": "CARM1 Ser572 位点的磷酸化通过限制过早的成肌定向来维持肌肉干细胞的自我更新",
+   "file_id": "dOFCraHEzexo",
+   "digestion": {
+    "status": "already-on-site",
+    "slug": "news/CARM1-Ser572-Muscle-Stem-Cell-Exhaustion-bioRxiv-2026.html"
+   }
+  },
+  {
+   "file": "预印本解读_2026-10-20_观察哨04_10.64898-2026.10.18.759942.md",
+   "doi": "10.64898/2026.10.18.759942",
+   "data_date": "2026-10-20",
+   "tier": "观察哨",
+   "rank": 4,
+   "server": "bioRxiv",
+   "ft_status": "none",
+   "ft_chars": 0,
+   "title_cn": "BNIP3L/NIX 介导的线粒体自噬限制阿尔茨海默病病理并保护神经元功能",
+   "file_id": "dluebCeqDIAd",
+   "digestion": {
+    "status": "already-on-site",
+    "slug": "news/BNIP3L-NIX-Mitophagy-Alzheimer-Tau-Amyloid-bioRxiv-2026.html"
+   }
+  },
+  {
+   "file": "预印本解读_2026-10-20_补遗01_10.64898-2026.10.18.26365823.md",
+   "doi": "10.64898/2026.10.18.26365823",
+   "data_date": "2026-10-20",
+   "tier": "补遗",
+   "rank": 1,
+   "server": "medRxiv",
+   "ft_status": "full",
+   "ft_chars": 44463,
+   "title_cn": "司美格鲁肽起始治疗后心率在 REM 睡眠期上升最多",
+   "file_id": "dHvCvWImnPeg",
+   "digestion": {
+    "status": "archived",
+    "note": "观察哨/补遗按本站消化规则不成篇，入档备查"
+   }
+  },
+  {
+   "file": "预印本解读_2026-10-20_补遗02_10.64898-2026.10.15.26365689.md",
+   "doi": "10.64898/2026.10.15.26365689",
+   "data_date": "2026-10-20",
+   "tier": "补遗",
+   "rank": 2,
+   "server": "medRxiv",
+   "ft_status": "full",
+   "ft_chars": 50463,
+   "title_cn": "肾血管性高血压经 AT1R 依赖的血脑屏障功能障碍驱动缺血性白质损伤",
+   "file_id": "dmDYMXlsqUNL",
+   "digestion": {
+    "status": "archived",
+    "note": "观察哨/补遗按本站消化规则不成篇，入档备查"
+   }
+  },
+  {
+   "file": "预印本解读_2026-10-20_补遗03_10.64898-2026.10.18.759935.md",
+   "doi": "10.64898/2026.10.18.759935",
+   "data_date": "2026-10-20",
+   "tier": "补遗",
+   "rank": 3,
+   "server": "bioRxiv",
+   "ft_status": "none",
+   "ft_chars": 0,
+   "title_cn": "靶向 SIRT1–METTL3 轴的植物化学成分计算筛选",
+   "file_id": "dXXLVBNmvcPB",
+   "digestion": {
+    "status": "archived",
+    "note": "观察哨/补遗按本站消化规则不成篇，入档备查"
+   }
+  },
+  {
+   "file": "预印本解读_2026-10-20_补遗04_10.64898-2026.10.19.26365876.md",
+   "doi": "10.64898/2026.10.19.26365876",
+   "data_date": "2026-10-20",
+   "tier": "补遗",
+   "rank": 4,
+   "server": "medRxiv",
+   "ft_status": "partial",
+   "ft_chars": 5304,
+   "title_cn": "ORIGIN-PD：用于帕金森病分层的可解释全血转录组模型",
+   "file_id": "dUlUvQwrBWeX",
+   "digestion": {
+    "status": "archived",
+    "note": "观察哨/补遗按本站消化规则不成篇，入档备查"
+   }
+  },
+  {
+   "file": "预印本解读_2026-10-20_补遗05_10.64898-2026.10.19.760020.md",
+   "doi": "10.64898/2026.10.19.760020",
+   "data_date": "2026-10-20",
+   "tier": "补遗",
+   "rank": 5,
+   "server": "bioRxiv",
+   "ft_status": "none",
+   "ft_chars": 0,
+   "title_cn": "MagLOV2：可基因编码的量子 pH 传感器，在线粒体自噬过程中读出局部酸化",
+   "file_id": "dzKkCEXnczGD",
+   "digestion": {
+    "status": "archived",
+    "note": "观察哨/补遗按本站消化规则不成篇，入档备查"
+   }
+  },
+  {
+   "file": "预印本解读_2026-10-21_主榜01_10.64898-2026.10.21.26365867.md",
+   "doi": "10.64898/2026.10.21.26365867",
+   "data_date": "2026-10-21",
+   "tier": "主榜",
+   "rank": 1,
+   "server": "medRxiv",
+   "ft_status": "full",
+   "ft_chars": 150146,
+   "title_cn": "用 DNA 甲基化时钟测量的生物学年龄与神经退行性疾病：系统综述与 meta 分析",
+   "file_id": "dQNwBSKDXvAI",
+   "digestion": {
+    "status": "already-on-site",
+    "slug": "news/DNAm-Clock-EAA-Dementia-Meta-Analysis-37-Studies-2026.html"
+   }
+  },
+  {
+   "file": "预印本解读_2026-10-21_主榜02_10.64898-2026.10.15.759328.md",
+   "doi": "10.64898/2026.10.15.759328",
+   "data_date": "2026-10-21",
+   "tier": "主榜",
+   "rank": 2,
+   "server": "bioRxiv",
+   "ft_status": "none",
+   "ft_chars": 0,
+   "title_cn": "时间上的不稳定性削弱了老年人内嗅皮层的网格样编码",
+   "file_id": "dUihCSAlpHRn",
+   "digestion": {
+    "status": "already-on-site",
+    "slug": "news/Entorhinal-Grid-Coding-Temporal-Instability-Aging-bioRxiv-2026.html"
+   }
+  },
+  {
+   "file": "预印本解读_2026-10-21_主榜03_10.64898-2026.10.15.759429.md",
+   "doi": "10.64898/2026.10.15.759429",
+   "data_date": "2026-10-21",
+   "tier": "主榜",
+   "rank": 3,
+   "server": "bioRxiv",
+   "ft_status": "none",
+   "ft_chars": 0,
+   "title_cn": "年轻骨髓来源的小胶质样细胞通过 BDNF-TrkB 信号改善老年脑认知功能",
+   "file_id": "dZkSbQqosFgO",
+   "digestion": {
+    "status": "already-on-site",
+    "slug": "news/Young-BM-Microglia-BDNF-TrkB-Aged-Cognition-bioRxiv-2026.html"
+   }
+  },
+  {
+   "file": "预印本解读_2026-10-21_主榜04_10.64898-2026.10.15.759438.md",
+   "doi": "10.64898/2026.10.15.759438",
+   "data_date": "2026-10-21",
+   "tier": "主榜",
+   "rank": 4,
+   "server": "bioRxiv",
+   "ft_status": "none",
+   "ft_chars": 0,
+   "title_cn": "人海马灌注与微血管搏动性在年龄维度上的空间组织差异",
+   "file_id": "dRCgFqIPzfFy",
+   "digestion": {
+    "status": "already-on-site",
+    "slug": "news/Hippocampal-Perfusion-mvPI-Spatial-Aging-bioRxiv-2026.html"
+   }
+  },
+  {
+   "file": "预印本解读_2026-10-21_观察哨01_10.64898-2026.10.15.757659.md",
+   "doi": "10.64898/2026.10.15.757659",
+   "data_date": "2026-10-21",
+   "tier": "观察哨",
+   "rank": 1,
+   "server": "bioRxiv",
+   "ft_status": "none",
+   "ft_chars": 0,
+   "title_cn": "脑老化过程中 DNA 甲基化、羟甲基化与基因表达的一个新表观遗传框架",
+   "file_id": "dmbCOgkLrWVL",
+   "digestion": {
+    "status": "archived",
+    "note": "观察哨/补遗按本站消化规则不成篇，入档备查"
+   }
+  },
+  {
+   "file": "预印本解读_2026-10-21_观察哨02_10.64898-2026.05.06.723176.md",
+   "doi": "10.64898/2026.05.06.723176",
+   "data_date": "2026-10-21",
+   "tier": "观察哨",
+   "rank": 2,
+   "server": "bioRxiv",
+   "ft_status": "none",
+   "ft_chars": 0,
+   "title_cn": "人神经元中蛋白质周转调节因子的高通量鉴定",
+   "file_id": "dMSVjpbNyWgX",
+   "digestion": {
+    "status": "archived",
+    "note": "观察哨/补遗按本站消化规则不成篇，入档备查"
+   }
+  },
+  {
+   "file": "预印本解读_2026-10-21_补遗01_10.64898-2026.09.03.749078.md",
+   "doi": "10.64898/2026.09.03.749078",
+   "data_date": "2026-10-21",
+   "tier": "补遗",
+   "rank": 1,
+   "server": "bioRxiv",
+   "ft_status": "none",
+   "ft_chars": 0,
+   "title_cn": "一个跨越生命界的生物代谢物理理论",
+   "file_id": "dhSnzdsThGCm",
+   "digestion": {
+    "status": "archived",
+    "note": "观察哨/补遗按本站消化规则不成篇，入档备查"
+   }
+  },
+  {
+   "file": "预印本解读_2026-10-21_补遗02_10.64898-2026.10.19.26365915.md",
+   "doi": "10.64898/2026.10.19.26365915",
+   "data_date": "2026-10-21",
+   "tier": "补遗",
+   "rank": 2,
+   "server": "medRxiv",
+   "ft_status": "full",
+   "ft_chars": 278677,
+   "title_cn": "微量元素补充可维持慢性肾病患者的代谢韧性",
+   "file_id": "dNRALUmjFDTa",
+   "digestion": {
+    "status": "archived",
+    "note": "观察哨/补遗按本站消化规则不成篇，入档备查"
+   }
+  },
+  {
+   "file": "预印本解读_2026-10-21_补遗03_10.64898-2026.10.19.26365903.md",
+   "doi": "10.64898/2026.10.19.26365903",
+   "data_date": "2026-10-21",
+   "tier": "补遗",
+   "rank": 3,
+   "server": "medRxiv",
+   "ft_status": "full",
+   "ft_chars": 84511,
+   "title_cn": "超越肾脏体积：肾实质、皮层与髓质厚度与疾病、人体测量学及肾脏脂肪含量的三维图谱",
+   "file_id": "dLaPXNDTNdCY",
+   "digestion": {
+    "status": "archived",
+    "note": "观察哨/补遗按本站消化规则不成篇，入档备查"
+   }
+  },
+  {
+   "file": "预印本解读_2026-10-22_主榜01_10.64898-2026.10.16.759636.md",
+   "doi": "10.64898/2026.10.16.759636",
+   "data_date": "2026-10-22",
+   "tier": "主榜",
+   "rank": 1,
+   "server": "bioRxiv",
+   "ft_status": "none",
+   "ft_chars": 0,
+   "title_cn": "跨多样物种的共有与性别偏向骨骼肌转录组衰老特征",
+   "file_id": "dNWPECxlUWeA",
+   "digestion": {
+    "status": "published-this-run",
+    "slug": "news/Cross-Species-Muscle-Transcriptomic-Aging-Signatures-2026.html"
+   }
+  },
+  {
+   "file": "预印本解读_2026-10-22_主榜02_10.64898-2026.10.21.760720.md",
+   "doi": "10.64898/2026.10.21.760720",
+   "data_date": "2026-10-22",
+   "tier": "主榜",
+   "rank": 2,
+   "server": "bioRxiv",
+   "ft_status": "none",
+   "ft_chars": 0,
+   "title_cn": "用于识别寿命研究中异常对照队列的预测区间框架",
+   "file_id": "dQPKKYogSGnb",
+   "digestion": {
+    "status": "already-on-site",
+    "slug": "news/ITP-Outlier-Control-Cohort-Prediction-Interval-Lifespan-2026.html"
+   }
+  },
+  {
+   "file": "预印本解读_2026-10-22_主榜03_10.64898-2026.06.05.730244.md",
+   "doi": "10.64898/2026.06.05.730244",
+   "data_date": "2026-10-22",
+   "tier": "主榜",
+   "rank": 3,
+   "server": "bioRxiv",
+   "ft_status": "none",
+   "ft_chars": 0,
+   "title_cn": "老化大鼠海马诱发的背内侧前额叶皮层多突触反应减弱",
+   "file_id": "dODCNSzbkABL",
+   "digestion": {
+    "status": "published-this-run",
+    "slug": "news/Hippocampus-mPFC-Polysynaptic-Recruitment-Aging-2026.html"
+   }
+  },
+  {
+   "file": "预印本解读_2026-10-22_主榜04_10.64898-2026.10.20.26365945.md",
+   "doi": "10.64898/2026.10.20.26365945",
+   "data_date": "2026-10-22",
+   "tier": "主榜",
+   "rank": 4,
+   "server": "medRxiv",
+   "ft_status": "full",
+   "ft_chars": 70560,
+   "title_cn": "人群尸检队列中淀粉样蛋白与 tau 神经病理分期、共存脑疾病与认知状态的关系",
+   "file_id": "dCpxAzauWFlU",
+   "digestion": {
+    "status": "already-on-site",
+    "slug": "news/Amyloid-Tau-Neuropathology-Autopsy-Cohort-SaoPaulo-2026.html"
+   }
+  },
+  {
+   "file": "预印本解读_2026-10-22_主榜05_10.64898-2026.10.20.26366023.md",
+   "doi": "10.64898/2026.10.20.26366023",
+   "data_date": "2026-10-22",
+   "tier": "主榜",
+   "rank": 5,
+   "server": "medRxiv",
+   "ft_status": "full",
+   "ft_chars": 74603,
+   "title_cn": "老年糖尿病患者术前空腹血糖与术后谵妄的 U 型关联：一项多中心回顾性队列研究",
+   "file_id": "dcUeMooVYDMn",
+   "digestion": {
+    "status": "published-this-run",
+    "slug": "news/Preoperative-FBG-Postoperative-Delirium-U-Shaped-2026.html"
+   }
+  },
+  {
+   "file": "预印本解读_2026-10-22_观察哨01_10.64898-2026.10.21.760624.md",
+   "doi": "10.64898/2026.10.21.760624",
+   "data_date": "2026-10-22",
+   "tier": "观察哨",
+   "rank": 1,
+   "server": "bioRxiv",
+   "ft_status": "none",
+   "ft_chars": 0,
+   "title_cn": "重连的 mRNA 稳态强制执行细胞大小相关的衰老",
+   "file_id": "dUgNDflzwcjt",
+   "digestion": {
+    "status": "already-on-site",
+    "slug": "news/Cell-Size-Chromatin-Rewiring-MDM4-Splicing-Senescence-2026.html"
+   }
+  },
+  {
+   "file": "预印本解读_2026-10-22_观察哨02_10.64898-2026.10.16.759608.md",
+   "doi": "10.64898/2026.10.16.759608",
+   "data_date": "2026-10-22",
+   "tier": "观察哨",
+   "rank": 2,
+   "server": "bioRxiv",
+   "ft_status": "none",
+   "ft_chars": 0,
+   "title_cn": "线粒体功能障碍在软骨发育不全小鼠模型的早发肌肉骨骼老化中起关键作用",
+   "file_id": "dQMRjOToexoA",
+   "digestion": {
+    "status": "archived",
+    "note": "观察哨/补遗按本站消化规则不成篇，入档备查"
+   }
+  },
+  {
+   "file": "预印本解读_2026-10-22_观察哨03_10.64898-2026.10.20.26366043.md",
+   "doi": "10.64898/2026.10.20.26366043",
+   "data_date": "2026-10-22",
+   "tier": "观察哨",
+   "rank": 3,
+   "server": "medRxiv",
+   "ft_status": "full",
+   "ft_chars": 79441,
+   "title_cn": "睡眠障碍中的类淋巴功能障碍及其认知含义",
+   "file_id": "dkDAbYnklPGC",
+   "digestion": {
+    "status": "published-this-run",
+    "slug": "news/Glymphatic-Dysfunction-Sleep-Disorders-Meta-2026.html"
+   }
+  },
+  {
+   "file": "预印本解读_2026-10-22_观察哨04_10.64898-2026.09.17.752497.md",
+   "doi": "10.64898/2026.09.17.752497",
+   "data_date": "2026-10-22",
+   "tier": "观察哨",
+   "rank": 4,
+   "server": "bioRxiv",
+   "ft_status": "none",
+   "ft_chars": 0,
+   "title_cn": "基于 Geneformer 的 ISP 平台：支持跨物种、状态反馈与多基因的计算机扰动筛选框架及其在 iPS 细胞状态转换中的应用",
+   "file_id": "dMDvnRTCYMoc",
+   "digestion": {
+    "status": "already-on-site",
+    "slug": "news/In-Silico-Perturbation-Yamanaka-Order-Partial-Reprogramming-2026.html"
+   }
+  },
+  {
+   "file": "预印本解读_2026-10-22_补遗01_10.64898-2026.10.21.760650.md",
+   "doi": "10.64898/2026.10.21.760650",
+   "data_date": "2026-10-22",
+   "tier": "补遗",
+   "rank": 1,
+   "server": "bioRxiv",
+   "ft_status": "none",
+   "ft_chars": 0,
+   "title_cn": "感染外寄生虫下仍生长：自由生活鸦科鸟类端粒缩短的性别特异效应",
+   "file_id": "dfrpPoyrahWz",
+   "digestion": {
+    "status": "archived",
+    "note": "观察哨/补遗按本站消化规则不成篇，入档备查"
+   }
+  },
+  {
+   "file": "预印本解读_2026-10-22_补遗02_10.64898-2026.10.21.760721.md",
+   "doi": "10.64898/2026.10.21.760721",
+   "data_date": "2026-10-22",
+   "tier": "补遗",
+   "rank": 2,
+   "server": "bioRxiv",
+   "ft_status": "none",
+   "ft_chars": 0,
+   "title_cn": "神经代谢与血管失调是获得性脑损伤的功能性生物标志物",
+   "file_id": "dDMBuqCAFpgU",
+   "digestion": {
+    "status": "archived",
+    "note": "观察哨/补遗按本站消化规则不成篇，入档备查"
+   }
+  },
+  {
+   "file": "预印本解读_2026-10-22_补遗03_10.1101-2024.12.17.628978.md",
+   "doi": "10.1101/2024.12.17.628978",
+   "data_date": "2026-10-22",
+   "tier": "补遗",
+   "rank": 3,
+   "server": "bioRxiv",
+   "ft_status": "none",
+   "ft_chars": 0,
+   "title_cn": "神经元表达 E2F4DN 经 TrkB 信号恢复 5xFAD 纯合小鼠的成年神经发生",
+   "file_id": "dCzamSPvqLzT",
+   "digestion": {
+    "status": "archived",
+    "note": "观察哨/补遗按本站消化规则不成篇，入档备查"
+   }
+  },
+  {
+   "file": "预印本解读_2026-10-22_补遗04_10.64898-2026.03.25.714182.md",
+   "doi": "10.64898/2026.03.25.714182",
+   "data_date": "2026-10-22",
+   "tier": "补遗",
+   "rank": 4,
+   "server": "bioRxiv",
+   "ft_status": "none",
+   "ft_chars": 0,
+   "title_cn": "人 iPSC 来源心脏类器官中的 LMNA 单倍剂量不足揭示早期纤维化信号为可成药过程",
+   "file_id": "dQbXqBbCocca",
+   "digestion": {
+    "status": "archived",
+    "note": "观察哨/补遗按本站消化规则不成篇，入档备查"
+   }
+  },
+  {
+   "file": "预印本解读_2026-10-22_补遗05_10.64898-2026.10.21.760611.md",
+   "doi": "10.64898/2026.10.21.760611",
+   "data_date": "2026-10-22",
+   "tier": "补遗",
+   "rank": 5,
+   "server": "bioRxiv",
+   "ft_status": "none",
+   "ft_chars": 0,
+   "title_cn": "可扩展的体外细胞竞争模型鉴定早白血病「超级竞争者」克隆",
+   "file_id": "dFZbvQTLyVeB",
+   "digestion": {
+    "status": "archived",
+    "note": "观察哨/补遗按本站消化规则不成篇，入档备查"
+   }
+  },
+  {
+   "file": "预印本解读_2026-10-22_补遗06_10.64898-2026.10.16.759626.md",
+   "doi": "10.64898/2026.10.16.759626",
+   "data_date": "2026-10-22",
+   "tier": "补遗",
+   "rank": 6,
+   "server": "bioRxiv",
+   "ft_status": "none",
+   "ft_chars": 0,
+   "title_cn": "PGC-1α Gly482Ser rs8192678 SNP 重编程氧化代谢偏向能量储存（雌性）",
+   "file_id": "djNqrqEBNLLy",
+   "digestion": {
+    "status": "archived",
+    "note": "观察哨/补遗按本站消化规则不成篇，入档备查"
+   }
+  }
+ ]
+}
