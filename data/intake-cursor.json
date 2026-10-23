@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-23T09:55:41+08:00",
+ "updated_at": "2026-10-24T04:31:03+08:00",
  "entries": {
   "dkwSBCCuiNrB": {
    "name": "文献层_五刊监控_深度文献卡片_2026-10-02",
@@ -108,24 +108,12 @@
    "name": "预印本速递_2026-09-15",
    "layer": "文献层",
    "size": 15032,
-   "mtime": "1789445516000",
+   "mtime": "1789445617000",
    "status": "done",
-   "done_at": "2026-10-15T16:31:36+08:00",
-   "slugs": [
-    "Germline-Removal-Somatic-DNA-Repair-Zebrafish-2026.html",
-    "Single-Cell-Isoform-Splicing-Aging-Atlas-2026.html",
-    "Heterogeneous-Epigenetic-Mammalian-Mortality-Clock-2026.html",
-    "Hypothalamus-Aging-X-Linked-Sex-Difference-2026.html",
-    "AP1-Lung-Fibrosis-ECM-Program-2026.html",
-    "MEG-Resting-State-Network-Aging-2026.html",
-    "Hippocampus-Memory-Update-Tent5a-Aging-2026.html",
-    "Amyloid-Trajectory-Bifurcation-Normal-Aging-AD-2026.html",
-    "Transcranial-Aperiodic-Stimulation-Working-Memory-2026.html",
-    "SenSASP-Senescence-SASP-Gene-Database-2026.html",
-    "Life-History-Fast-Slow-Evolution-Mortality-2026.html",
-    "REDD1-Dexamethasone-Muscle-Atrophy-Mitochondria-ER-2026.html"
-   ],
-   "note": "9-15 期速递 12 条预印本；与总表核对，证据等级 C，全部入站"
+   "done_at": "2026-10-24T04:31:03+08:00",
+   "slugs": [],
+   "note": "速递 09-15（合并权威版 20,450B，较 10-15 消化时 +5,418B）：12 条（主榜10+观察哨2）DOI 逐一 grep news/ 硬核验全部在站内；文件内 C3/C5-C9 剔除项正确未收。mtime +101s 同 size 系上传期触碰，无内容损失",
+   "hash": "09ac1fce9d577a2387fdf26aa2181c31"
   },
   "dZimRRbWuwmI": {
    "name": "预印本速递_2026-09-15_独立复核与增量",
@@ -297,22 +285,24 @@
   "dRlRAPWevRku": {
    "name": "运营日志",
    "layer": "网站层",
-   "size": 64212,
-   "mtime": "1792045018000",
+   "size": 123195,
+   "mtime": "1792653219000",
    "status": "done",
-   "done_at": "2026-10-15T16:37:39+08:00",
+   "done_at": "2026-10-24T04:31:03+08:00",
    "slugs": [],
-   "note": "本轮结果已追加（预印本 11 期 57 篇入站、4 个工具缺陷修复、9 个未处理产出移交下轮）"
+   "note": "运营日志网站层副本（177,489B）：条目止于 10-22 15:0x 推送阻塞解除，全部在库；11 轮后的新条目只在元层副本",
+   "hash": "f225e7b67b38466b147f560b66607cfb"
   },
   "dVisoPwrcwVm": {
    "name": "运营待办清单",
    "layer": "网站层",
-   "size": 31351,
-   "mtime": "1792045075000",
+   "size": 83690,
+   "mtime": "1792653220000",
    "status": "done",
-   "done_at": "2026-10-15T16:37:39+08:00",
+   "done_at": "2026-10-24T04:31:03+08:00",
    "slugs": [],
-   "note": "已追加「本轮新增」区块：11 项已完成 + 8 项下轮待办（含重跑任务 7762989 / 7660605）"
+   "note": "待办网站层副本（83,690B）：10-22 陈旧线，无新增",
+   "hash": "ad7d8cdf3093d08456bfb0d874745277"
   },
   "dCbmTQRxOmJF": {
    "name": "网站喂料_2026-10-13/IMA_文献著录_2026-10-13",
@@ -373,15 +363,12 @@
    "name": "行业情报周报_2026-09-16",
    "layer": "行业层",
    "size": 18880,
-   "mtime": "1792065908000",
+   "mtime": "1792083815000",
    "status": "done",
-   "done_at": "2026-10-16T00:51:31+08:00",
-   "slugs": [
-    "Longevity-Funding-Roundup-Sep-Oct-2026.html",
-    "Longevity-Pipeline-Commercialization-Sep-Oct-2026.html",
-    "Longevity-Regulatory-Payment-Boundaries-2026.html"
-   ],
-   "note": "09-16 xlsx 版，与 md 版（dOnhQdjKdwmw）同源，事件集合一致无新增，按同一批处置，不重复计数。"
+   "done_at": "2026-10-24T04:31:03+08:00",
+   "slugs": [],
+   "note": "行业情报周报 09-16 xlsx（17,542B，较备案 -1,338B 系重序列化）：与 md 版 dOnhQdjKdwmw 逐条比对，29 条事件（投融资10+管线12+监管7）全部对上，无新增。size 变化非内容变化",
+   "hash": "d4d430e2465535410488540491096176"
   },
   "dxGTKRYApbJO": {
    "name": "行业情报周报_2026-10-14",
@@ -397,21 +384,23 @@
    "name": "运营日志",
    "layer": "元层",
    "size": 42803,
-   "mtime": "1792021773000",
+   "mtime": "1792726872000",
    "status": "done",
-   "done_at": "2026-10-16T00:51:31+08:00",
+   "done_at": "2026-10-24T04:31:03+08:00",
    "slugs": [],
-   "note": "元层副本为 2026-10-15 07:44 的陈旧快照（44015 B，仅到第十次运行），已被网站层根目录副本（dRlRAPWevRku，78019 B，15 次运行）覆盖。本轮只向网站层副本追加，元层副本不再单独维护（待清单里已列为同步项）。"
+   "note": "运营日志元层副本（192,706B，较 10-16 记录 +149,903B）：末两条为 10-23 10:10 /papers/ 上线与 11:35 b6d3d679 遗留问题处置，均已推送在库；无新动作。日志三血脉同样待收敛",
+   "hash": "9c93e12e3095e6ec1c92e53c47896fb5"
   },
   "duLHFqzcdVBY": {
    "name": "运营待办清单",
    "layer": "元层",
-   "size": 25062,
-   "mtime": "1792021602000",
+   "size": 103492,
+   "mtime": "1792783790000",
    "status": "done",
-   "done_at": "2026-10-16T00:51:31+08:00",
+   "done_at": "2026-10-24T04:31:03+08:00",
    "slugs": [],
-   "note": "元层副本为 2026-10-15 07:44 陈旧快照（25062 B）；现行版为网站层根目录副本（dVisoPwrcwVm，34920 B）。本轮只更新网站层，元层同步仍待办。"
+   "note": "待办元层权威版（103,492B）：即 10-24 03:29 本巡检上传件，MD5 与本地副本 bdfb52cb 一致，mtime 变化系自身上传；三血脉收敛建议已写入附1",
+   "hash": "bdfb52cb3e1d64613fb9b94eb119cd45"
   },
   "dkmvnmTBYaqu": {
    "name": "资产库使用指南",
@@ -436,12 +425,13 @@
   "dDgSRfxdSmVQ": {
    "name": "网站喂料_2026-10-13/运营待办清单",
    "layer": "网站层",
-   "size": 29623,
-   "mtime": "1792035278000",
+   "size": 99782,
+   "mtime": "1792730962000",
    "status": "done",
-   "done_at": "2026-10-16T00:51:31+08:00",
+   "done_at": "2026-10-24T04:31:03+08:00",
    "slugs": [],
-   "note": "10-13 批次导出的运营待办清单副本（29623 B）；现行版为网站层根目录 dVisoPwrcwVm（34920 B）。本轮只更新根目录副本。"
+   "note": "待办网站喂料副本（99,782B）：陈旧分叉，头部仍是旧班制；与元层权威版差异仅为本巡检 10-24 追加的观察项章节（38 行），无新增可执行内容。三血脉待收敛（元层根为权威位）",
+   "hash": "13e5c5cf4756316c19673798fe15aa29"
   },
   "dPbPpYebDMnu": {
    "name": "网站喂料_2026-10-13/LongBiosci_本地管线脚本_2026-10-15.tar",
@@ -689,15 +679,13 @@
   "dwyAwojtLOeF": {
    "name": "临床×文献交叉周报_2026-10-18",
    "layer": "元层",
-   "size": 26952,
+   "size": 29189,
    "mtime": "1792262507000",
    "status": "done",
-   "done_at": "2026-10-18T08:03:13+08:00",
-   "slugs": [
-    "NOPARK-NR-Early-Parkinson-Phase3-JAMA-2026.html",
-    "Cross-Weekly-Clinical-Literature-2026-10-18.html"
-   ],
-   "note": "实下载 29189 B（非 0）。四路查重命中 3 项已收、1 项无DOI但内容重合；仅 JAMA NOPARK 三期阴性（PMID 42848371 / NCT03568968）属真实未收， PubMed 官方摘要逐项核验后成文，证据 A。同期 TAME/ER-100/D+Q MASH 等已由既有稿覆盖，不重复立稿"
+   "done_at": "2026-10-24T04:31:03+08:00",
+   "slugs": [],
+   "note": "临床×文献交叉周报 10-18：mtime 未变，纯 size 缓存修正（26,952→29,189 系 10-18 已更正的实测值）；JAMA NOPARK 三期阴性已成文，无新内容",
+   "hash": "e0b169062cdde458b2b466950fb47583"
   },
   "dhnlTAyanHao": {
    "name": "IMA知识库_0019eb4e65002c9f/衰老与长寿相关临床试验登记清单",
@@ -818,19 +806,15 @@
    "note": "行业周报配套 xlsx（30,825 B），三表数据源与 md 同源；md 已消化，xlsx 作为结构化底稿不入站。⚠ 下载时签名 URL 已过期返回 403，未能核验内容；与 md 的条目数（9/15/6）一致性待下次核验。"
   },
   "dhKUzsPPYJNA": {
-   "name": "",
-   "layer": "",
-   "size": 0,
-   "mtime": "",
+   "name": "预印本速递_2026-10-22",
+   "layer": "文献层",
+   "size": 31347,
+   "mtime": "1792620450000",
    "status": "done",
-   "done_at": "2026-10-22T18:28:32+08:00",
-   "slugs": [
-    "DNAm-Clock-EAA-Dementia-Meta-Analysis-37-Studies-2026.html",
-    "Entorhinal-Grid-Coding-Temporal-Instability-Aging-bioRxiv-2026.html",
-    "Young-BM-Microglia-BDNF-TrkB-Aged-Cognition-bioRxiv-2026.html",
-    "Hippocampal-Perfusion-mvPI-Spatial-Aging-bioRxiv-2026.html"
-   ],
-   "note": "2026-10-22 补消化（当日07:30巡检漏处理）：主榜4成篇；观察哨2（脑老化5mC/5hmC框架无定量、MCFT平台资源类）+补遗3（相关性弱）不成篇入档"
+   "done_at": "2026-10-24T04:31:03+08:00",
+   "slugs": [],
+   "note": "速递 10-22 首次实下载 31,347B（10-22 18:28 游标记 0 字节系 dir_list 陈旧缓存）：4 主榜已在站内（DNAm时钟meta/内嗅网格/骨髓小胶质/海马灌注），观察哨2+补遗3 按 10-22 消化记录不成篇入档，与解读批次口径一致",
+   "hash": "5d99e4111ce1f94d9e7c8e15ba07b236"
   },
   "dDCLlIreKqJS": {
    "name": "预印本速递_2026-10-23",
@@ -956,6 +940,467 @@
    "done_at": "2026-10-23T09:55:41+08:00",
    "slugs": [],
    "note": "目录条目（dir_list 对 kind=2 目录返回 size=0，非任务空产）：网站喂料批次目录，17 个子项已单独入清单且全部 done"
+  },
+  "dWuFNxGjHaGn": {
+   "name": "预印本全文级解读_2026-10-24/_items",
+   "layer": "元层",
+   "size": 11734,
+   "mtime": "1792778730000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:27+08:00",
+   "slugs": [],
+   "note": "33 条解读条目机读清单，已落库为 data/preprint-interpretations-2026-10-24.json（含逐条消化决策与 file_id）",
+   "hash": "514dbd025a39a2da17fbec87b9f7bf93"
+  },
+  "dLxdmoLqoGQR": {
+   "name": "预印本全文级解读_2026-10-24/preprint_interpretation_2026-10-24",
+   "layer": "元层",
+   "size": 3667,
+   "mtime": "1792778726000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:27+08:00",
+   "slugs": [],
+   "note": "12819187 运行日志副本（logs/preprint_interpretation_2026-10-24.log）：bioRxiv 403、medRxiv 429 自愈、JATS 过短定 partial、网盘签名链接不可用已绕过的记录，与运行摘要一致",
+   "hash": "bc1f2b8cd8d37341d5c49fc0f99f010d"
+  },
+  "deZQSqJdIuJC": {
+   "name": "预印本全文级解读_2026-10-24/预印本全文级解读_总索引_2026-10-24",
+   "layer": "元层",
+   "size": 10075,
+   "mtime": "1792778532000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:27+08:00",
+   "slugs": [],
+   "note": "总索引：33 条（主榜9/补遗14/观察哨10），全文级10/摘要级23；消化结论 5 成篇 + 11 在库 + 17 入档",
+   "hash": "7455cc3b90fb279ce637509beadc01d0"
+  },
+  "dsGXxdlopHqF": {
+   "name": "预印本全文级解读_2026-10-24/预印本全文级解读_运行摘要_2026-10-24",
+   "layer": "元层",
+   "size": 7722,
+   "mtime": "1792778536000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:27+08:00",
+   "slugs": [],
+   "note": "12819187 改排班后首跑（01:30）运行摘要：补 10-21/10-22/10-23 三期 33 条全成稿；bioRxiv 403 为最大缺口；无发布通道由巡检消化",
+   "hash": "ea3c57cb686db9f4d87f05af5417c002"
+  },
+  "dHvCvWImnPeg": {
+   "name": "预印本全文级解读_2026-10-24/预印本解读_2026-10-20_补遗01_10.64898-2026.10.18.26365823",
+   "layer": "元层",
+   "size": 3646,
+   "mtime": "1792778540000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:27+08:00",
+   "slugs": [],
+   "note": "解读页 10.64898/2026.10.18.26365823：观察哨/补遗按本站规则不成篇，入档（data/preprint-interpretations-2026-10-24.json）",
+   "hash": "f18f84955cf4f5ff16eec4f74baa242c"
+  },
+  "dmDYMXlsqUNL": {
+   "name": "预印本全文级解读_2026-10-24/预印本解读_2026-10-20_补遗02_10.64898-2026.10.15.26365689",
+   "layer": "元层",
+   "size": 4140,
+   "mtime": "1792778544000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:27+08:00",
+   "slugs": [],
+   "note": "解读页 10.64898/2026.10.15.26365689：观察哨/补遗按本站规则不成篇，入档（data/preprint-interpretations-2026-10-24.json）",
+   "hash": "b54537d47200e48fdde52d299b586670"
+  },
+  "dXXLVBNmvcPB": {
+   "name": "预印本全文级解读_2026-10-24/预印本解读_2026-10-20_补遗03_10.64898-2026.10.18.759935",
+   "layer": "元层",
+   "size": 3339,
+   "mtime": "1792778548000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:27+08:00",
+   "slugs": [],
+   "note": "解读页 10.64898/2026.10.18.759935：观察哨/补遗按本站规则不成篇，入档（data/preprint-interpretations-2026-10-24.json）",
+   "hash": "1414fe8bc669d3d3532918860c74fbfd"
+  },
+  "dUlUvQwrBWeX": {
+   "name": "预印本全文级解读_2026-10-24/预印本解读_2026-10-20_补遗04_10.64898-2026.10.19.26365876",
+   "layer": "元层",
+   "size": 3452,
+   "mtime": "1792778552000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:27+08:00",
+   "slugs": [],
+   "note": "解读页 10.64898/2026.10.19.26365876：观察哨/补遗按本站规则不成篇，入档（data/preprint-interpretations-2026-10-24.json）",
+   "hash": "ba6386e6220c70c1fef151c9e9d966ad"
+  },
+  "dzKkCEXnczGD": {
+   "name": "预印本全文级解读_2026-10-24/预印本解读_2026-10-20_补遗05_10.64898-2026.10.19.760020",
+   "layer": "元层",
+   "size": 3082,
+   "mtime": "1792778555000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:27+08:00",
+   "slugs": [],
+   "note": "解读页 10.64898/2026.10.19.760020：观察哨/补遗按本站规则不成篇，入档（data/preprint-interpretations-2026-10-24.json）",
+   "hash": "106a4c8543d08a1cd91c9c88b9567e6d"
+  },
+  "dbZOeZQXudRs": {
+   "name": "预印本全文级解读_2026-10-24/预印本解读_2026-10-20_观察哨01_10.64898-2026.10.19.760205",
+   "layer": "元层",
+   "size": 3850,
+   "mtime": "1792778560000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:27+08:00",
+   "slugs": [],
+   "note": "解读页 10.64898/2026.10.19.760205：DOI 硬核验已在站内（HGPS-Adipogenic-Lineage-Consolidation-Failure-HiC-bioRxiv-2026.html），无重复动作",
+   "hash": "95305cafbd3c116777597578468f6009"
+  },
+  "dTwWaOGHISzh": {
+   "name": "预印本全文级解读_2026-10-24/预印本解读_2026-10-20_观察哨02_10.64898-2026.04.27.26351829",
+   "layer": "元层",
+   "size": 4013,
+   "mtime": "1792778563000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:27+08:00",
+   "slugs": [
+    "MEMR-MOCR-Auditory-Reflexes-Aging-Biomarker-2026.html"
+   ],
+   "note": "26351829 中耳肌反射（10-20 观察哨02，全文级）择优成篇上线",
+   "hash": "28a12d29760aca5389c3303f86ed7918"
+  },
+  "dOFCraHEzexo": {
+   "name": "预印本全文级解读_2026-10-24/预印本解读_2026-10-20_观察哨03_10.64898-2026.10.17.759715",
+   "layer": "元层",
+   "size": 3609,
+   "mtime": "1792778567000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:27+08:00",
+   "slugs": [],
+   "note": "解读页 10.64898/2026.10.17.759715：DOI 硬核验已在站内（CARM1-Ser572-Muscle-Stem-Cell-Exhaustion-bioRxiv-2026.html），无重复动作",
+   "hash": "4f7ecd77bba3791c0e25065593a3f3fa"
+  },
+  "dluebCeqDIAd": {
+   "name": "预印本全文级解读_2026-10-24/预印本解读_2026-10-20_观察哨04_10.64898-2026.10.18.759942",
+   "layer": "元层",
+   "size": 3706,
+   "mtime": "1792778571000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:27+08:00",
+   "slugs": [],
+   "note": "解读页 10.64898/2026.10.18.759942：DOI 硬核验已在站内（BNIP3L-NIX-Mitophagy-Alzheimer-Tau-Amyloid-bioRxiv-2026.html），无重复动作",
+   "hash": "93b1a4d02be8739bfdcaf8ebf72f4188"
+  },
+  "dQNwBSKDXvAI": {
+   "name": "预印本全文级解读_2026-10-24/预印本解读_2026-10-21_主榜01_10.64898-2026.10.21.26365867",
+   "layer": "元层",
+   "size": 4713,
+   "mtime": "1792778575000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:27+08:00",
+   "slugs": [],
+   "note": "解读页 10.64898/2026.10.21.26365867：DOI 硬核验已在站内（DNAm-Clock-EAA-Dementia-Meta-Analysis-37-Studies-2026.html），无重复动作",
+   "hash": "4657bc3b13e70e2365e47d95a8b7496f"
+  },
+  "dUihCSAlpHRn": {
+   "name": "预印本全文级解读_2026-10-24/预印本解读_2026-10-21_主榜02_10.64898-2026.10.15.759328",
+   "layer": "元层",
+   "size": 3392,
+   "mtime": "1792778579000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:27+08:00",
+   "slugs": [],
+   "note": "解读页 10.64898/2026.10.15.759328：DOI 硬核验已在站内（Entorhinal-Grid-Coding-Temporal-Instability-Aging-bioRxiv-2026.html），无重复动作",
+   "hash": "22f239d0f3bda2c9432974f3fbbe6571"
+  },
+  "dZkSbQqosFgO": {
+   "name": "预印本全文级解读_2026-10-24/预印本解读_2026-10-21_主榜03_10.64898-2026.10.15.759429",
+   "layer": "元层",
+   "size": 3809,
+   "mtime": "1792778583000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:28+08:00",
+   "slugs": [],
+   "note": "解读页 10.64898/2026.10.15.759429：DOI 硬核验已在站内（Young-BM-Microglia-BDNF-TrkB-Aged-Cognition-bioRxiv-2026.html），无重复动作",
+   "hash": "cc293eda1d67940ccbaae3844af0175b"
+  },
+  "dRCgFqIPzfFy": {
+   "name": "预印本全文级解读_2026-10-24/预印本解读_2026-10-21_主榜04_10.64898-2026.10.15.759438",
+   "layer": "元层",
+   "size": 3464,
+   "mtime": "1792778587000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:28+08:00",
+   "slugs": [],
+   "note": "解读页 10.64898/2026.10.15.759438：DOI 硬核验已在站内（Hippocampal-Perfusion-mvPI-Spatial-Aging-bioRxiv-2026.html），无重复动作",
+   "hash": "2eea99a6e1de5ef914fe28f2d95c57f1"
+  },
+  "dhSnzdsThGCm": {
+   "name": "预印本全文级解读_2026-10-24/预印本解读_2026-10-21_补遗01_10.64898-2026.09.03.749078",
+   "layer": "元层",
+   "size": 2851,
+   "mtime": "1792778591000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:28+08:00",
+   "slugs": [],
+   "note": "解读页 10.64898/2026.09.03.749078：观察哨/补遗按本站规则不成篇，入档（data/preprint-interpretations-2026-10-24.json）",
+   "hash": "aaa105102a453c868740f2be131d9ef2"
+  },
+  "dNRALUmjFDTa": {
+   "name": "预印本全文级解读_2026-10-24/预印本解读_2026-10-21_补遗02_10.64898-2026.10.19.26365915",
+   "layer": "元层",
+   "size": 3674,
+   "mtime": "1792778595000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:28+08:00",
+   "slugs": [],
+   "note": "解读页 10.64898/2026.10.19.26365915：观察哨/补遗按本站规则不成篇，入档（data/preprint-interpretations-2026-10-24.json）",
+   "hash": "7eef7bef7f9e5dbeb1721adb2900002d"
+  },
+  "dLaPXNDTNdCY": {
+   "name": "预印本全文级解读_2026-10-24/预印本解读_2026-10-21_补遗03_10.64898-2026.10.19.26365903",
+   "layer": "元层",
+   "size": 4173,
+   "mtime": "1792778599000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:28+08:00",
+   "slugs": [],
+   "note": "解读页 10.64898/2026.10.19.26365903：观察哨/补遗按本站规则不成篇，入档（data/preprint-interpretations-2026-10-24.json）",
+   "hash": "824db18b98b74a7d0fb315d5dcec71f7"
+  },
+  "dmbCOgkLrWVL": {
+   "name": "预印本全文级解读_2026-10-24/预印本解读_2026-10-21_观察哨01_10.64898-2026.10.15.757659",
+   "layer": "元层",
+   "size": 3106,
+   "mtime": "1792778603000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:28+08:00",
+   "slugs": [],
+   "note": "解读页 10.64898/2026.10.15.757659：观察哨/补遗按本站规则不成篇，入档（data/preprint-interpretations-2026-10-24.json）",
+   "hash": "18c70e469d3b013b727007475cf623b9"
+  },
+  "dMSVjpbNyWgX": {
+   "name": "预印本全文级解读_2026-10-24/预印本解读_2026-10-21_观察哨02_10.64898-2026.05.06.723176",
+   "layer": "元层",
+   "size": 3113,
+   "mtime": "1792778607000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:28+08:00",
+   "slugs": [],
+   "note": "解读页 10.64898/2026.05.06.723176：观察哨/补遗按本站规则不成篇，入档（data/preprint-interpretations-2026-10-24.json）",
+   "hash": "f47fb400e1795a244d9f908ced8012fd"
+  },
+  "dNWPECxlUWeA": {
+   "name": "预印本全文级解读_2026-10-24/预印本解读_2026-10-22_主榜01_10.64898-2026.10.16.759636",
+   "layer": "元层",
+   "size": 3328,
+   "mtime": "1792778611000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:28+08:00",
+   "slugs": [
+    "Cross-Species-Muscle-Transcriptomic-Aging-Signatures-2026.html"
+   ],
+   "note": "759636 跨物种肌肉转录组（10-22 主榜01）成篇上线",
+   "hash": "dea3bacb4b2698c36a8de5b94f7e04e8"
+  },
+  "dQPKKYogSGnb": {
+   "name": "预印本全文级解读_2026-10-24/预印本解读_2026-10-22_主榜02_10.64898-2026.10.21.760720",
+   "layer": "元层",
+   "size": 3344,
+   "mtime": "1792778615000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:28+08:00",
+   "slugs": [],
+   "note": "解读页 10.64898/2026.10.21.760720：DOI 硬核验已在站内（ITP-Outlier-Control-Cohort-Prediction-Interval-Lifespan-2026.html），无重复动作",
+   "hash": "8e2cd8092ce7fccc59643fa5a75da1f3"
+  },
+  "dODCNSzbkABL": {
+   "name": "预印本全文级解读_2026-10-24/预印本解读_2026-10-22_主榜03_10.64898-2026.06.05.730244",
+   "layer": "元层",
+   "size": 3295,
+   "mtime": "1792778619000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:28+08:00",
+   "slugs": [
+    "Hippocampus-mPFC-Polysynaptic-Recruitment-Aging-2026.html"
+   ],
+   "note": "730244 海马-mPFC 多突触（10-22 主榜03）成篇上线",
+   "hash": "849888b00faf3b0874d21006f5c1472d"
+  },
+  "dCpxAzauWFlU": {
+   "name": "预印本全文级解读_2026-10-24/预印本解读_2026-10-22_主榜04_10.64898-2026.10.20.26365945",
+   "layer": "元层",
+   "size": 4769,
+   "mtime": "1792778623000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:28+08:00",
+   "slugs": [],
+   "note": "解读页 10.64898/2026.10.20.26365945：DOI 硬核验已在站内（Amyloid-Tau-Neuropathology-Autopsy-Cohort-SaoPaulo-2026.html），无重复动作",
+   "hash": "39b88ef692d44a6bdae0d9cf498dbf2f"
+  },
+  "dcUeMooVYDMn": {
+   "name": "预印本全文级解读_2026-10-24/预印本解读_2026-10-22_主榜05_10.64898-2026.10.20.26366023",
+   "layer": "元层",
+   "size": 3808,
+   "mtime": "1792778628000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:28+08:00",
+   "slugs": [
+    "Preoperative-FBG-Postoperative-Delirium-U-Shaped-2026.html"
+   ],
+   "note": "26366023 术前血糖-谵妄 U 型（10-22 主榜05，全文级）成篇上线",
+   "hash": "34618c296efa9d829014efa1f935ab11"
+  },
+  "dfrpPoyrahWz": {
+   "name": "预印本全文级解读_2026-10-24/预印本解读_2026-10-22_补遗01_10.64898-2026.10.21.760650",
+   "layer": "元层",
+   "size": 2834,
+   "mtime": "1792778631000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:28+08:00",
+   "slugs": [],
+   "note": "解读页 10.64898/2026.10.21.760650：观察哨/补遗按本站规则不成篇，入档（data/preprint-interpretations-2026-10-24.json）",
+   "hash": "a55079a264780cd09c41b174ed7ed693"
+  },
+  "dDMBuqCAFpgU": {
+   "name": "预印本全文级解读_2026-10-24/预印本解读_2026-10-22_补遗02_10.64898-2026.10.21.760721",
+   "layer": "元层",
+   "size": 2855,
+   "mtime": "1792778635000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:28+08:00",
+   "slugs": [],
+   "note": "解读页 10.64898/2026.10.21.760721：观察哨/补遗按本站规则不成篇，入档（data/preprint-interpretations-2026-10-24.json）",
+   "hash": "d1bad10c9f047f4e98c9c346bf44bc52"
+  },
+  "dCzamSPvqLzT": {
+   "name": "预印本全文级解读_2026-10-24/预印本解读_2026-10-22_补遗03_10.1101-2024.12.17.628978",
+   "layer": "元层",
+   "size": 2886,
+   "mtime": "1792778639000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:28+08:00",
+   "slugs": [],
+   "note": "解读页 10.1101/2024.12.17.628978：观察哨/补遗按本站规则不成篇，入档（data/preprint-interpretations-2026-10-24.json）",
+   "hash": "95c6dd6e6b70583fec7f9938c604c92e"
+  },
+  "dQbXqBbCocca": {
+   "name": "预印本全文级解读_2026-10-24/预印本解读_2026-10-22_补遗04_10.64898-2026.03.25.714182",
+   "layer": "元层",
+   "size": 3035,
+   "mtime": "1792778643000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:28+08:00",
+   "slugs": [],
+   "note": "解读页 10.64898/2026.03.25.714182：观察哨/补遗按本站规则不成篇，入档（data/preprint-interpretations-2026-10-24.json）",
+   "hash": "ad68476aef637f7fa7b33d6742e55cdb"
+  },
+  "dFZbvQTLyVeB": {
+   "name": "预印本全文级解读_2026-10-24/预印本解读_2026-10-22_补遗05_10.64898-2026.10.21.760611",
+   "layer": "元层",
+   "size": 2853,
+   "mtime": "1792778647000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:28+08:00",
+   "slugs": [],
+   "note": "解读页 10.64898/2026.10.21.760611：观察哨/补遗按本站规则不成篇，入档（data/preprint-interpretations-2026-10-24.json）",
+   "hash": "da194639d5a356cc1981b153f01a50b6"
+  },
+  "djNqrqEBNLLy": {
+   "name": "预印本全文级解读_2026-10-24/预印本解读_2026-10-22_补遗06_10.64898-2026.10.16.759626",
+   "layer": "元层",
+   "size": 3219,
+   "mtime": "1792778651000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:28+08:00",
+   "slugs": [],
+   "note": "解读页 10.64898/2026.10.16.759626：观察哨/补遗按本站规则不成篇，入档（data/preprint-interpretations-2026-10-24.json）",
+   "hash": "d4c95184b5097184d9a5fe7dfaaafd5d"
+  },
+  "dUgNDflzwcjt": {
+   "name": "预印本全文级解读_2026-10-24/预印本解读_2026-10-22_观察哨01_10.64898-2026.10.21.760624",
+   "layer": "元层",
+   "size": 3282,
+   "mtime": "1792778655000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:28+08:00",
+   "slugs": [],
+   "note": "解读页 10.64898/2026.10.21.760624：DOI 硬核验已在站内（Cell-Size-Chromatin-Rewiring-MDM4-Splicing-Senescence-2026.html），无重复动作",
+   "hash": "c938671b634865f7a0d8cab5f1254f03"
+  },
+  "dQMRjOToexoA": {
+   "name": "预印本全文级解读_2026-10-24/预印本解读_2026-10-22_观察哨02_10.64898-2026.10.16.759608",
+   "layer": "元层",
+   "size": 3250,
+   "mtime": "1792778659000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:28+08:00",
+   "slugs": [],
+   "note": "解读页 10.64898/2026.10.16.759608：观察哨/补遗按本站规则不成篇，入档（data/preprint-interpretations-2026-10-24.json）",
+   "hash": "112f2a42d95ec7f3becc3be6e8545998"
+  },
+  "dkDAbYnklPGC": {
+   "name": "预印本全文级解读_2026-10-24/预印本解读_2026-10-22_观察哨03_10.64898-2026.10.20.26366043",
+   "layer": "元层",
+   "size": 3808,
+   "mtime": "1792778663000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:28+08:00",
+   "slugs": [
+    "Glymphatic-Dysfunction-Sleep-Disorders-Meta-2026.html"
+   ],
+   "note": "26366043 类淋巴 meta（10-22 观察哨03，全文级）择优成篇上线",
+   "hash": "3a8fedf855e3624de0747685427f4d3c"
+  },
+  "dMDvnRTCYMoc": {
+   "name": "预印本全文级解读_2026-10-24/预印本解读_2026-10-22_观察哨04_10.64898-2026.09.17.752497",
+   "layer": "元层",
+   "size": 3899,
+   "mtime": "1792778667000",
+   "status": "done",
+   "done_at": "2026-10-24T04:29:28+08:00",
+   "slugs": [],
+   "note": "解读页 10.64898/2026.09.17.752497：DOI 硬核验已在站内（In-Silico-Perturbation-Yamanaka-Order-Partial-Reprogramming-2026.html），无重复动作",
+   "hash": "8977f32fda7ee304b541d030ce9f0562"
+  },
+  "dLjsGiskwcfv": {
+   "name": "LongBiosci_已推送_d624bc2e_2026-10-23_论文索引与sitemap-lastmod.tar",
+   "layer": "元层",
+   "size": 439260,
+   "mtime": "1792721528000",
+   "status": "done",
+   "done_at": "2026-10-24T04:30:40+08:00",
+   "slugs": [],
+   "note": "d624bc2e 推送回执包（PATCH + 46 改动/5 新增清单 + root/ 最终文件）；对应 /papers/ 论文索引等 4 件事已在本仓历史中且已推送，声称的 5 个落地物现存核验通过",
+   "hash": "7df4732793fad1c7f5e2148b418c8128"
+  },
+  "dsuXKghHCRAa": {
+   "name": "LongBiosci_遗留问题决策表_2026-10-23",
+   "layer": "元层",
+   "size": 7264,
+   "mtime": "1792726906000",
+   "status": "done",
+   "done_at": "2026-10-24T04:30:40+08:00",
+   "slugs": [],
+   "note": "遗留问题决策表（实为 xlsx）5 项核验：第 3 项已完成；第 1/2/4 项已随 commit b6d3d679 落地（状态列陈旧）；第 5 项公众号分发待用户拍板",
+   "hash": "b84097e280f343cd47d76abd5f3f144d"
+  },
+  "dGVcnGUvlgkl": {
+   "name": "LongBiosci_预印本流水线脚本资产_2026-10-24.tar",
+   "layer": "元层",
+   "size": 61528,
+   "mtime": "1792778738000",
+   "status": "done",
+   "done_at": "2026-10-24T04:30:40+08:00",
+   "slugs": [],
+   "note": "流水线脚本资产 tar（实为 tar.gz，15 文件：13 脚本 + run_preprint_pipeline.sh + keywords.txt），完整性核验通过，与运行摘要描述一致",
+   "hash": "c6fb5d0564154fa26074d3d77a39f52a"
+  },
+  "dGSADrtEEHrK": {
+   "name": "预印本全文级解读_运行摘要_2026-10-24",
+   "layer": "元层",
+   "size": 7722,
+   "mtime": "1792778734000",
+   "status": "done",
+   "done_at": "2026-10-24T04:31:03+08:00",
+   "slugs": [],
+   "note": "12819187 运行摘要元层根副本：seen 判重 DUPLICATE（与子目录版 dsGXxdlopHqF 同哈希），跳过消化——网盘同名新建行为的实证案例",
+   "hash": "ea3c57cb686db9f4d87f05af5417c002"
   }
  },
  "retired": [
