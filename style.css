@@ -924,3 +924,7 @@ body:has(.bottom-nav){padding-bottom:64px}
   .share-bar{flex-direction:column;align-items:flex-start;gap:12px}
   .share-qr{margin-left:0}
 }
+
+/* 上下篇导航 + 情报发生日期（inject-article-nav.py） */
+.article-nav{display:flex;flex-wrap:wrap;gap:12px;margin:26px 0 0;padding:0;list-style:none}.article-nav a{flex:1 1 260px;display:block;padding:12px 16px;border:1px solid #e6e8ef;border-radius:10px;text-decoration:none;color:#111;background:#fbfcfe;font-size:14px;line-height:1.5;min-height:44px}.article-nav a:hover{border-color:#0f3460;background:#f4f7fc}.article-nav .nav-dir{display:block;font-size:12px;color:#777;margin-bottom:4px}.article-nav .nav-newer{text-align:right}@media(max-width:600px){.article-nav{flex-direction:column}.article-nav .nav-newer{text-align:left}}
+.event-date{display:inline-block;margin-left:10px;font-size:12px;color:#8a6d3b;background:#fdf6e3;border:1px solid #f0e2c0;border-radius:6px;padding:2px 8px;vertical-align:middle}

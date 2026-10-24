@@ -186,4 +186,11 @@ step 20 check-links.py         "全站死链 + 计数一致性 + canonical 硬�
 echo "[末尾守卫] inject-share-bar      补文章页转发分享条（复制链接 + 二维码）"
 "$PYTHON" "$HERE/inject-share-bar.py" "$ROOT"
 
-printf "\n✅ 管线执行完成（20/20）· 末位分享条守卫已补\n"
+# 末位守卫 2：文章页上/下篇导航 + 情报发生日期（2026-10-24 新增，待办 P2 #10）
+#   同样排在末尾，理由与 share-bar 一致：step16 fix_related 会重写 news 正文区。
+#   它排在 check-links（20）之后，所以链接可达性由**脚本自己**硬校验
+#   （目标文件不存在就不注入该侧），不把死链风险留给看不见它的检查器。
+echo "[末尾守卫] inject-article-nav   补文章页上下篇导航 + 情报发生日期"
+"$PYTHON" "$HERE/inject-article-nav.py" "$ROOT"
+
+printf "\n✅ 管线执行完成（20/20）· 末位两条守卫已补（分享条 + 上下篇/发生日期）\n"
