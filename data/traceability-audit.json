@@ -1,25 +1,32 @@
 {
  "summary": {
-  "total": 592,
+  "total": 767,
   "level_counts": {
-   "强": 462,
+   "强": 636,
+   "断链": 1,
    "中": 130
   },
   "by_tier": {
    "A": {
-    "强": 109,
+    "强": 149,
     "中": 26
    },
    "B": {
-    "强": 243,
+    "强": 306,
+    "断链": 1,
     "中": 89
    },
    "C": {
-    "强": 110,
+    "强": 181,
     "中": 15
    }
   },
   "missing_doi": [
+   {
+    "slug": "circRNA-Partial-Reprogramming-MSC-2026.html",
+    "title": "环状 RNA 做部分重编程：MSC 变年轻，但不会变成 iPSC",
+    "evidence": "B"
+   },
    {
     "slug": "Mission-Therapeutics-MTX325-USP30-Parkinson-Phase1b-2026.html",
     "title": "线粒体自噬第一次走进帕金森患者：USP30 抑制剂 MTX325 完成 1b 期首例给药",
@@ -671,9 +678,2073 @@
     "evidence": "B"
    }
   ],
-  "no_source": []
+  "no_source": [
+   {
+    "slug": "circRNA-Partial-Reprogramming-MSC-2026.html",
+    "title": "环状 RNA 做部分重编程：MSC 变年轻，但不会变成 iPSC",
+    "evidence": "B"
+   }
+  ]
  },
  "articles": [
+  {
+   "slug": "ARG2-Osteoblast-Senescence-Mitophagy-2026.html",
+   "title": "ARG2 踩下线粒体自噬的刹车：成骨细胞衰老与骨丢失的新轴",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.7150/thno.129818",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.7150/thno.129818"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Accelerated-Brain-Aging-Executive-Deficits-2026.html",
+   "title": "脑龄差与执行功能：精神病高危与精神分裂症各伤一处",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1186/s12888-026-08455-6",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1186/s12888-026-08455-6"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Accelerated-Epigenetic-Aging-Frontotemporal-Dementia-2026.html",
+   "title": "额颞叶痴呆的表观年龄加速 +1.17 年，指向吸烟、炎症与糖代谢",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1002/ana.78395",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1002/ana.78395"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Adropin-Endothelin-Vascular-Aging-T2DM-2026.html",
+   "title": "adropin 与内皮素的失衡：ENHO–EDN1 变异与早期血管老化",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3389/fendo.2026.1961984",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/fendo.2026.1961984"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Aged-Female-APOE4-KI-Rat-Neuroimaging-2026.html",
+   "title": "老年雌性 APOE4 大鼠：脑区变大而非萎缩，Barnes 迷宫已经受损",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1111/gbb.70076",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1111/gbb.70076"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Aging-Kidney-Senescence-Bibliometric-2026.html",
+   "title": "肾脏衰老与纤维化的文献计量图谱：谁在做、做到哪一步",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3389/fneph.2026.1905354",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/fneph.2026.1905354"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Aging-Tumor-Microenvironment-Oral-Cancer-2026.html",
+   "title": "衰老如何为口腔癌搭建促肿瘤生态位",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.jtumed.2026.09.008",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.jtumed.2026.09.008"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Antisense-Oligo-Glycosylation-Keratinocyte-Senescence-2026.html",
+   "title": "敲低糖基化基因，能否改写角质形成细胞的衰老表型",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.7150/ntno.135510",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.7150/ntno.135510"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Anxiety-Trajectory-Hip-Fracture-Risk-2026.html",
+   "title": "焦虑症状的上升轨迹，把髋部骨折风险一起带上去了",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1007/s11657-026-01784-9",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1007/s11657-026-01784-9"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Apelin13-GATA4-Neuronal-Senescence-Autophagy-2026.html",
+   "title": "Apelin-13 不清除 ROS，而是恢复自噬：阻断 GATA4 神经元衰老的另一条路",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1038/s41419-026-09121-1",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1038/s41419-026-09121-1"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Aperiodic-EEG-Attentional-Aging-Marker-2026.html",
+   "title": "非周期性脑电的纵向下降，追的是加工速度而不是执行功能",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1523/JNEUROSCI.1306-26.2026",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1523/JNEUROSCI.1306-26.2026"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Autophagy-Activation-SMA-Lifespan-2026.html",
+   "title": "在 SMA 线虫里，激活自噬比抑制它更能改善神经肌肉功能",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1021/acschemneuro.6c00569",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1021/acschemneuro.6c00569"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Bibliometric-Cellular-Senescence-Heart-Failure-2026.html",
+   "title": "心衰中的细胞衰老：一张 2020 年后加速膨胀的文献地图",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1016/j.arr.2026.103427",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.arr.2026.103427"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Biological-Age-CVD-Hospitalization-Risk-2026.html",
+   "title": "用住院风险定义生物学年龄：一个 AUROC 0.87 的新算法",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1186/s12872-026-06325-3",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1186/s12872-026-06325-3"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Biological-Aging-Dietary-Biomarkers-Comment-2026.html",
+   "title": "是生物学老化还是膳食生物标志物？——膳食-衰老关联的解读之困",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1016/j.clnu.2026.106823",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.clnu.2026.106823"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Bone-Force-Sensing-Delays-Aging-2026.html",
+   "title": "骨细胞的力学感知：给老年小鼠加负荷，健康期与寿命一起延长",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.cmet.2026.09.020",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.cmet.2026.09.020"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Brain-Age-Gap-Cognitive-Decline-2026.html",
+   "title": "脑龄提前多少，记忆就掉多快：BAG 与纵向认知下降",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1007/s11357-026-02598-w",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1007/s11357-026-02598-w"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Burn-Survivors-80-Plus-Functional-Recovery-2026.html",
+   "title": "80 岁以上烧伤幸存者的功能悖论：身体很差，社会角色却在均值",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1093/jbcr/irag178",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1093/jbcr/irag178"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "CCL11-Microglial-Reparative-ICH-Aged-Brain-2026.html",
+   "title": "循环 CCL11 是老年脑出血后修复失败的那个可靶向介质",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1097/WNR.0000000000002313",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1097/WNR.0000000000002313"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Cardiometabolic-Pregnancy-Offspring-Biological-Ageing-2026.html",
+   "title": "妊娠期心脏代谢并发症：子代端粒没变，甲基化变了",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1111/ppe.70206",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1111/ppe.70206"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Cellular-Senescence-CKD-Cardiac-Fibrosis-2026.html",
+   "title": "细胞衰老：慢性肾病与心脏纤维化之间那条共同机制",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.34067/KID.0000001463",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.34067/KID.0000001463"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Cellular-Senescence-Multiple-Sclerosis-2026.html",
+   "title": "多发性硬化为什么会走向进展期：细胞衰老作为缺失的一环",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3389/fimmu.2026.1944657",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/fimmu.2026.1944657"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Cellular-Senescence-Neurodegeneration-Review-2026.html",
+   "title": "细胞衰老与神经退行：机制说得清，生物标志物仍缺位",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1016/j.pnpbp.2026.111985",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.pnpbp.2026.111985"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Cellular-Senescence-Skeletal-Muscle-Review-2026.html",
+   "title": "骨骼肌里的衰老细胞：它们通过 SASP 重塑整个肌组织微环境",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1146/annurev-physiol-040725-104324",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1146/annurev-physiol-040725-104324"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Cellular-Senescence-Vascular-Aging-Pulmonary-Hypertension-2026.html",
+   "title": "肺动脉高压里的血管衰老：从内皮修复失败到 ECM 硬化",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1016/j.pupt.2026.102454",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.pupt.2026.102454"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Cervical-Spinal-Cord-Morphometry-Lifespan-2026.html",
+   "title": "颈髓也有生长曲线：首张覆盖全生命周期的形态学图表",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1002/hbm.70658",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1002/hbm.70658"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Chalcone-Derivative-AMPK-Autophagy-Alzheimer-2026.html",
+   "title": "一个三氟甲基查尔酮：同时推自噬流与溶酶体，改善 Aβ/Tau 病理",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.phrs.2026.109691",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.phrs.2026.109691"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Cilia-Centered-NAD-Signaling-Lysosome-2026.html",
+   "title": "纤毛是 NAD⁺ 信号的中枢：耗竭先伤纤毛，再伤溶酶体",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1111/acel.70745",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1111/acel.70745"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Cladribine-Older-MS-Real-World-2026.html",
+   "title": "50 岁以上 MS 患者用克拉屈滨：115 例真实世界的两年 ARR",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1007/s40120-026-01041-8",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1007/s40120-026-01041-8"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Cold-BH2-Metabolic-Network-Longevity-2026.html",
+   "title": "寒冷激活一条 BH2 代谢网络：只在肌肉里提速就够延寿",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1038/s41586-026-11152-9",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1038/s41586-026-11152-9"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Cross-Weekly-Clinical-Literature-2026-10-25.html",
+   "title": "交叉周报 2026-10-25：D+Q+NR 三联完成读出的同一周，小鼠模型反问「清除衰老细胞并不恢复 NAD」",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.7150/thno.129818",
+   "doi_in_page": true,
+   "source_links": [],
+   "level": "强"
+  },
+  {
+   "slug": "DCTN2-HCC-Senescence-TRIM21-MST2-2026.html",
+   "title": "DCTN2：一个被 TP53 突变抬高的肝癌衰老相关基因",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.7150/thno.137790",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.7150/thno.137790"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Death-Receptors-IAP-Antagonist-Senolytics-2026.html",
+   "title": "衰老细胞对 IAP 成瘾：一条从死亡受体出发的 senolytic 路线",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1126/sciadv.aed4541",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1126/sciadv.aed4541"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Dog-Lifespan-Therapeutics-Regulatory-2026.html",
+   "title": "先给狗用的延寿药：犬用寿命治疗正在给人类 gerotherapeutics 铺路",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1007/s11357-026-02618-9",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1007/s11357-026-02618-9"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Drosophila-Adipaging-Carotenoid-Review-2026.html",
+   "title": "Adipaging：把果蝇脂肪体当作衰老-代谢的研究平台",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1016/j.ydbio.2026.10.008",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.ydbio.2026.10.008"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "EPA-DHA-NRF2-Beta-Cell-Resilience-2026.html",
+   "title": "EPA 与 DHA 给 β 细胞装上一条 NRF2 韧性回路",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3389/fphys.2026.1948763",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/fphys.2026.1948763"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Endothelial-Cell-Aging-Single-Cell-Atlas-2026.html",
+   "title": "人内皮细胞衰老的单细胞图谱：血管新生退潮，与一个 p21 程序",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1038/s43587-026-01247-3",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1038/s43587-026-01247-3"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Epigenetic-VSMC-Plasticity-Vascular-Aging-2026.html",
+   "title": "血管平滑肌细胞的表观可塑性：急性损伤与慢性衰老要两套打法",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1016/j.vph.2026.107712",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.vph.2026.107712"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Equisetum-Polysaccharide-Obesity-Aged-Mice-2026.html",
+   "title": "木贼多糖：在被高脂饮食打乱的老年肠道里恢复多样性",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1093/bbb/zbag159",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1093/bbb/zbag159"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Exercise-Grip-Strength-Meta-Older-Adults-2026.html",
+   "title": "运动能把手握力提多少：一份 meta 给出的合并效应 SMD 0.47",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3389/fphys.2026.1882998",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/fphys.2026.1882998"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Exosome-Skin-Aging-Therapy-Review-2026.html",
+   "title": "外泌体抗皮肤衰老：机制说得通，临床证据还很薄",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.2147/IJN.S648176",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.2147/IJN.S648176"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Fermented-Pomegranate-Brain-Aging-Microbiome-2026.html",
+   "title": "发酵石榴汁：经菌群-代谢物轴压住神经炎症与脑衰老通路",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1021/acs.jafc.6c08050",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1021/acs.jafc.6c08050"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Ferro-Aging-Alzheimer-Iron-Framework-2026.html",
+   "title": "ferro-aging：用铁死亡重写阿尔茨海默的衰老叙事",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1177/13872877261501439",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1177/13872877261501439"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Ferro-Aging-Bone-Joint-Degeneration-2026.html",
+   "title": "ferro-aging：把铁代谢与骨关节退变连起来的统一框架",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1186/s12964-026-03194-3",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1186/s12964-026-03194-3"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Frailty-Assessment-Ovarian-Cancer-Review-2026.html",
+   "title": "卵巢癌的衰弱评估：61 篇文献里只有一半真正在测衰弱",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1016/j.ijgc.2026.105613",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.ijgc.2026.105613"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Frailty-Hepatocellular-Carcinoma-Outcomes-2026.html",
+   "title": "肝癌里的衰弱：一个被低估的结局预测因子",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1159/lic/admag006",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1159/lic/admag006"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Frailty-Screening-Preventive-Care-LTC-Certification-2026.html",
+   "title": "把衰弱筛查写进预防保健后，长期照护认定率的斜率变了",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1093/ageing/afag307",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1093/ageing/afag307"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "GZMK-CD8-T-Acinar-Senescence-Salivary-2026.html",
+   "title": "GZMK⁺CD8⁺ T 细胞让腺泡细胞衰老：口干的一条免疫路径",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.7150/ijbs.134478",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.7150/ijbs.134478"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Giant-Panda-Gut-Microbiome-Longevity-2026.html",
+   "title": "大熊猫的长寿菌群：年龄相关的肠型转换与功能轨迹",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1093/cz/zoaf074",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1093/cz/zoaf074"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Global-Cancer-Burden-Middle-Aged-Elderly-2026.html",
+   "title": "中老年癌症负担三十年：老龄化是发病增长的主要驱动",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3389/fonc.2026.1859604",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/fonc.2026.1859604"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "HAP40-Proteostasis-Huntingtin-2026.html",
+   "title": "HAP40 不只是亨廷顿蛋白的搭档，它是一个蛋白质稳态调控因子",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1073/pnas.2611301123",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1073/pnas.2611301123"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "HMMR-Colorectal-Carcinoma-mTOR-2026.html",
+   "title": "HMMR 经 PI3K/AKT/mTOR 推动结直肠癌的增殖与侵袭",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1111/ajco.70200",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1111/ajco.70200"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Hair-Graying-Melanocyte-Stem-Cell-2026.html",
+   "title": "头发为什么变白：毛囊黑色素细胞储库的不可逆，与那道窄门",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3389/fcell.2026.1815236",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/fcell.2026.1815236"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Hearing-Threshold-Sarcopenia-Sex-Specific-2026.html",
+   "title": "高频听力越差，男性肌少症 odds 越高：1,032 人的性别差异",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.2169/internalmedicine.8024-26",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.2169/internalmedicine.8024-26"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Heart-Failure-Circulating-Vascular-NAD-CD38-2026.html",
+   "title": "心衰小鼠的 NAD⁺：循环在降，血管在烧，CD38 随病程一路升高",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3389/fmolb.2026.1927197",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/fmolb.2026.1927197"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Hematopoietic-Loss-of-X-Chromosome-Women-2026.html",
+   "title": "女性造血系统的 X 染色体丢失：55 岁以上超过 10% 可检出",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1111/acel.70778",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1111/acel.70778"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Home-Use-LED-Mask-Cream-Anti-Aging-2026.html",
+   "title": "家用红光面罩配抗衰面霜：弹性蛋白 +29.6%，鱼尾纹深度 −24.2%",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1111/srt.70395",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1111/srt.70395"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Human-Milk-Oligosaccharides-Intestinal-Decline-2026.html",
+   "title": "3′-SL 与 LNnT：两种母乳寡糖如何减缓自然衰老的肠道退化",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.foodres.2026.120792",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.foodres.2026.120792"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Hyperfunction-Systemic-Amplification-Rejuvenation-2026.html",
+   "title": "从超功能到系统性放大：重写晚年加速的逻辑",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.18632/aging.206430",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.18632/aging.206430"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Inducible-NAD-Deficiency-Multi-Systemic-Mice-2026.html",
+   "title": "把 NAD 耗竭做成开关：ANDY 小鼠的多系统衰老与寿命缩短",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1038/s41467-026-77996-x",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1038/s41467-026-77996-x"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Industry-Weekly-W38-2026-09-16-Backfill.html",
+   "title": "行业情报补遗 W38（2026-09-16）：8 笔融资与 12 条管线，钱往递送平台和保肌两处走",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1038/s41587-026-03286-y",
+   "doi_in_page": true,
+   "source_links": [
+    "https://longevity.technology/news/hexembio-raises-15-5m-to-rejuvenate-aging-stem-cells/",
+    "https://www.businesswire.com/news/home/20260910642125/en/",
+    "https://www.finanzwire.com/press-release/biophytis-epa-albps-biophytis-announces-completion-of-53-million-capital-increase-to-fund-its-phase-2-trial-in-obesity-HhDjcQ4jYof",
+    "https://invest.clene.com/news-releases/news-release-details/clene-announces-4-million-registered-direct-offering",
+    "https://www.sec.gov/Archives/edgar/data/1958777/000119312526391310/fblg-20260915.htm",
+    "https://pomegra.io/startups/inspiren-raises-70m-series-c-at-500m-valuation-2026-09-11",
+    "https://www.startupmag.co.uk/funding/magnitude-biosciences-2026-seed-funding",
+    "http://insilico.com/news/lgv150926en-ai-driven-longevity-vaccines",
+    "https://doi.org/10.1038/s41587-026-03286-y"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Interlimb-Coupling-Aging-Parkinson-Force-Control-2026.html",
+   "title": "老化与帕金森在力控任务上留下不同的肢体间耦合指纹",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1016/j.humov.2026.103546",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.humov.2026.103546"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Intermittent-Fasting-Mediterranean-Inflammation-RCT-2026.html",
+   "title": "8 周膳食质量没降 CRP，是禁食带来的体重下降降了它",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1016/j.cmet.2026.09.017",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.cmet.2026.09.017"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Interpretable-Deep-Learning-Brain-Age-Review-2026.html",
+   "title": "可解释深度学习做脑龄预测：从局部归因走向解剖学意义表征",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1515/revneuro-2026-0186",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1515/revneuro-2026-0186"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Intrinsic-Capacity-Decline-Frailty-Fall-Risk-2026.html",
+   "title": "内在能力下降：89% 的社区老人有，运动域最先掉",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.4103/aam.aam_662_26",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.4103/aam.aam_662_26"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Lactiplantibacillus-HY7715-AGEs-BBB-Aging-2026.html",
+   "title": "热灭活的益生菌也有效：HY7715 降低 AGEs 与血脑屏障渗漏",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.4014/jmb.2609.09057",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.4014/jmb.2609.09057"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Lipid-Composite-Indices-Vascular-Aging-2026.html",
+   "title": "12 个血脂复合指数：TyG 每增 1 单位，血管老化 OR 翻倍",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1016/j.atherosclerosis.2026.121897",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.atherosclerosis.2026.121897"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Lithocholic-Acid-Microbial-Biotransformation-Anti-Aging-2026.html",
+   "title": "用米曲霉改造石胆酸：羟基化、甲酯化、乙酰化各改一次活性",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.steroids.2026.109857",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.steroids.2026.109857"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Longevity-Thalassemia-Which-Clock-2026.html",
+   "title": "地中海贫血的长寿之问：我们要减速的究竟是哪个时钟",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1002/ajh.70529",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1002/ajh.70529"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Lowering-Insulin-Signalling-Development-Longevity-2026.html",
+   "title": "发育期降胰岛素信号：长得更快、生得更多、活得更久，但子代付出代价",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1111/acel.70783",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1111/acel.70783"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "MOTS-c-LARS1-Lipophagy-Diabetic-Nephropathy-2026.html",
+   "title": "MOTS-c 下调 LARS1：用脂噬疏通糖尿病肾病的小管衰老",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.bcp.2026.118572",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.bcp.2026.118572"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Macrophage-Depletion-Aged-Kidney-Senescence-2026.html",
+   "title": "清除巨噬细胞能减老年肾的炎症与衰老，但高剂量伤肾",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.imbio.2026.153259",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.imbio.2026.153259"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Maternal-ACE-Epigenetic-Aging-Children-2026.html",
+   "title": "母亲的童年逆境，会不会写进孩子的表观遗传时钟",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3389/frcha.2026.1913117",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/frcha.2026.1913117"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Meat-Consumption-Frailty-Community-2026.html",
+   "title": "吃够推荐量肉类的人，衰弱可能性低三成：社区人群的 OR 0.70",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3389/fnut.2026.1955451",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/fnut.2026.1955451"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Motor-Neuron-Vulnerability-Aging-2026.html",
+   "title": "老年运动神经元为什么选择性易感：MMP-9 与 Chodl 的随龄轨迹",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1113/EP094279",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1113/EP094279"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Multimorbidity-Economic-Burden-Aging-2026.html",
+   "title": "多重共病的双重负担：2000–2023 年的 YLD 与经济代价",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1001/jamanetworkopen.2026.33002",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1001/jamanetworkopen.2026.33002"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "NAD-Metabolic-Restoration-Lung-GVHD-2026.html",
+   "title": "恢复 NAD⁺ 代谢：把肺 GVHD 的抗炎与抗感染能力解耦",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1126/sciadv.aef3338",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1126/sciadv.aef3338"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "NAD-Supplementation-Wound-Healing-Case-2026.html",
+   "title": "常规处理无效的伤口，口服 NAD⁺ 补充后快速愈合",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1097/GOX.0000000000008174",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1097/GOX.0000000000008174"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "NCCRP1-Ovarian-Cancer-PI3K-AKT-mTOR-2026.html",
+   "title": "NCCRP1 拉高卵巢癌的线粒体呼吸，也拉高了转移与不良预后",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.62347/OXEM5735",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.62347/OXEM5735"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "NIR-Probe-Beta-Gal-Inhibitor-Senolytics-2026.html",
+   "title": "用近红外探针筛衰老细胞：从天然 β-gal 抑制剂到动脉粥样硬化",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.jpha.2026.101659",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.jpha.2026.101659"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "National-Healthy-Longevity-Strategies-2026.html",
+   "title": "同一份联合国决议，四条实施路径：各国健康长寿战略比较",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.32687/0869-866X-2026-34-s2-1076-1082",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.32687/0869-866X-2026-34-s2-1076-1082"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Neural-Representation-Geometry-Aging-MCI-2026.html",
+   "title": "健康老化的神经表征在扩张，MCI 与 AD 的却在坍缩",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1016/j.clinph.2026.2112412",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.clinph.2026.2112412"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Neurodegeneration-Sub-Saharan-Africa-Exposome-2026.html",
+   "title": "撒哈拉以南非洲：被低估的「生物衰老→神经退行」天然实验场",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1016/j.arr.2026.103429",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.arr.2026.103429"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Neuroinflammatory-Resolution-Failure-Brain-Aging-2026.html",
+   "title": "脑老化里的炎症不消退：一个以「恢复」为导向的小胶质细胞框架",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1007/s12035-026-06281-1",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1007/s12035-026-06281-1"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Nicotinamide-Riboside-Flap-Survival-Autophagy-2026.html",
+   "title": "NR 经 NAD⁺/SIRT1–FOXO1 增强自噬，提高皮瓣存活",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1007/s12272-026-01644-7",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1007/s12272-026-01644-7"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Nutrition-Inflammation-Index-Vascular-Aging-Mortality-2026.html",
+   "title": "营养-炎症指数与血管老化：糖尿病及前期人群的死亡风险分层",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1186/s12872-026-06366-8",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1186/s12872-026-06366-8"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Out-of-Home-Activities-Healthy-Ageing-2026.html",
+   "title": "出门做什么、去哪儿：老年人日常活动的「内容 × 场景」框架",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1155/jare/3428651",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1155/jare/3428651"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "PTSD-Metabolic-Syndrome-Epigenetic-Age-2026.html",
+   "title": "腰围越大表观年龄越高，PTSD 越重反而越低：一个负向交互",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1016/j.ynstr.2026.100856",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.ynstr.2026.100856"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Particulate-Matter-Cardiovascular-Aging-Framework-2026.html",
+   "title": "颗粒物暴露是「加速老化」还是可逆毒性：用时间维度分辨",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1007/s12012-026-10209-5",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1007/s12012-026-10209-5"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Pentahydroxyflavone-Metformin-Hepatic-AMPK-2026.html",
+   "title": "五羟基黄酮联合二甲双胍：AMPK/SREBP-1c/SCD1 上的肝保护",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1002/cbdv.71801",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1002/cbdv.71801"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Plant-Based-Diet-Frailty-Multicohort-2026.html",
+   "title": "植物性膳食与衰弱：健康指数 OR 0.71–0.80，不健康的反过来",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1093/ageing/afag304",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1093/ageing/afag304"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Plantar-Flexor-Torque-Gait-Complexity-Aging-2026.html",
+   "title": "老年人的步态与扭矩复杂度绑在了一起：运动控制的降维",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3389/fnetp.2026.1947848",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/fnetp.2026.1947848"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Plasma-Immune-Senescence-Biomarkers-Cohort-2026.html",
+   "title": "六种血浆标志物先于事件升高：免疫调节与衰老的提前信号",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1186/s12979-026-00583-7",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1186/s12979-026-00583-7"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Platelet-Inflammation-Biological-Aging-Diabetes-2026.html",
+   "title": "血小板站到炎症衰老与表观遗传时钟之间：糖尿病队列的横断面证据",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1016/j.exger.2026.113364",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.exger.2026.113364"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Postpartum-Recovery-Window-Maternal-Aging-2026.html",
+   "title": "产后是一个恢复窗口：妊娠间隔可能是母体衰老的缺失变量",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1016/j.tem.2026.09.002",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.tem.2026.09.002"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-1101-2022-09-06-22279660-2026.html",
+   "title": "药物基因集分析识别已确立与新兴的治疗机制（DRUGSETS）",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1101/2022.09.06.22279660",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1101/2022.09.06.22279660"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-1101-2024-05-28-596192-2026.html",
+   "title": "瞬时升高多巴胺触发可塑性，保留 PD 小鼠运动功能、纹状体神经元形态与丘脑纹状体输入",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1101/2024.05.28.596192",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1101/2024.05.28.596192"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-03-04-709558-2026.html",
+   "title": "细菌代谢物通过提高酸性鞘磷脂酶 asm-3 的表达，改变线虫胰岛素信号降低的后果",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.03.04.709558",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.03.04.709558"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-06-22-733821-2026.html",
+   "title": "前额叶激活预测反应潜伏期，并受年龄与生活方式塑造",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.06.22.733821",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.06.22.733821"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-06-23-733839-2026.html",
+   "title": "比较代谢组学识别跨物种中反复出现的年龄相关通路重塑",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.06.23.733839",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.06.23.733839"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-07-06-736718-2026.html",
+   "title": "AD 中外显空间重映射受损与内隐神经动力学保留的分离",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.07.06.736718",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.07.06.736718"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-09-09-750398-2026.html",
+   "title": "Aβ42 驱动的 α-突触核蛋白原纤维多态性与不同的细胞内聚集",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.09.09.750398",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.09.09.750398"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-01-26364102-2026.html",
+   "title": "社会与行为风险因素与持续性注意的年龄相关差异相关：All of Us 的横断面 GradCPT 分析",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.01.26364102",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.01.26364102"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-16-759692-2026.html",
+   "title": "胰岛素信号缺陷与氧化应激激酶激活先于 PS19 tau 转基因小鼠的 tau 病理",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.16.759692",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.16.759692"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-19-759610-2026.html",
+   "title": "对 AD 病理的协同且可复现的多细胞响应",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.19.759610",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.19.759610"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-19-759783-2026.html",
+   "title": "配对的血浆与组织蛋白质组学揭示人类衰老循环生物标志物的选择性本质",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.19.759783",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.19.759783"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-19-759840-2026.html",
+   "title": "Serpin A3 在脑淀粉样血管病与 ARIA 中升高",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.19.759840",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.19.759840"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-19-760019-2026.html",
+   "title": "肠道起始的 α-突触核蛋白病经内脏-脊髓通路传播",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.19.760019",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.19.760019"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-19-760035-2026.html",
+   "title": "心律失常中的「愤怒-脑岛-躯体」连接",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.19.760035",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.19.760035"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-19-760135-2026.html",
+   "title": "辛伐他汀联合给药削弱氯氮平诱导的黑腹果蝇寿命延长与线粒体功能恢复",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.19.760135",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.19.760135"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-19-760151-2026.html",
+   "title": "α-突触核蛋白与神经黑色素共同促进帕金森病病理",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.19.760151",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.19.760151"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-19-760199-2026.html",
+   "title": "脑周细胞是对氧化应激敏感的细胞群，经 ROS-1 依赖的 TRPA1 激活受损",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.19.760199",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.19.760199"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-19-760240-2026.html",
+   "title": "用 k 段约束隐马尔可夫模型在稀疏单细胞全基因组测序中实现稳健的染色体分割",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.19.760240",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.19.760240"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-19-760267-2026.html",
+   "title": "早期有益、后期有害：睾丸因子对雄性死亡率的年龄依赖效应",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.19.760267",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.19.760267"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-19-760270-2026.html",
+   "title": "AD 相关蛋白质组改变在嗅觉干细胞中呈现通路水平转录组重叠",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.19.760270",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.19.760270"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-20-760295-2026.html",
+   "title": "通过 3D 血管重建量化齿状回血管生态位的经典与新特征",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.20.760295",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.20.760295"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-20-760359-2026.html",
+   "title": "多尺度组织学揭示正常人结肠中局部化的衰老特征",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.20.760359",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.20.760359"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-20-760390-2026.html",
+   "title": "早期造血命运决定不依赖骨髓微环境",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.20.760390",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.20.760390"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-20-760505-2026.html",
+   "title": "时序蛋白质组把 APP London 突变与早期胆固醇重塑细胞程序联系起来",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.20.760505",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.20.760505"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-20-760541-2026.html",
+   "title": "人海马 CA1 的前向再激活支持重复学习，并在衰老脑中得以保留",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.20.760541",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.20.760541"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-21-26366056-2026.html",
+   "title": "血浆 eMTBR-tau 作为 AD 连续谱临床分期与进展的标志物",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.21.26366056",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.21.26366056"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-21-26366088-2026.html",
+   "title": "芬兰人群队列中 BMI 偏离遗传预测与不同的分子特征相关",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.21.26366088",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.21.26366088"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-21-26366146-2026.html",
+   "title": "路易体病的遗传易感性与路易病理的分布",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.21.26366146",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.21.26366146"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-21-26366165-2026.html",
+   "title": "弥散 MRI 白质路由数字标志物作为 AD 早期标志物",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.21.26366165",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.21.26366165"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-21-759261-2026.html",
+   "title": "METTL3 介导的 m6A 修饰通过调控 ACSL1 依赖的甘油三酯代谢缓解 ALS 骨骼肌萎缩",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.21.759261",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.21.759261"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-21-759645-2026.html",
+   "title": "低氧与炎症后骨骼肌消耗与线粒体变化的差异化模式：与生理表型的关联",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.21.759645",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.21.759645"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-21-760483-2026.html",
+   "title": "法尼醇 X 受体信号缺失促进小鼠脉络膜新生血管形成",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.21.760483",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.21.760483"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-21-760529-2026.html",
+   "title": "无参考转录本 isoform 发现把未注释的 RNA 加工与疾病风险联系起来",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.21.760529",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.21.760529"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-21-760809-2026.html",
+   "title": "TMEM55B 下调促进阿尔茨海默病模型中的神经变性",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.21.760809",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.21.760809"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-21-760824-2026.html",
+   "title": "乳头上核对成体新生齿状回神经元输入的选择性特征",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.21.760824",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.21.760824"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-21-760838-2026.html",
+   "title": "miR-103a-3p/AGFG1 轴失调把内吞运输障碍与内质网应激联系起来（PD）",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.21.760838",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.21.760838"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-22-26365257-2026.html",
+   "title": "SNX13 与 SNX14 细胞器间系链抑制溶酶体膜损伤与神经退行",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.22.26365257",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.22.26365257"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-22-26366001-2026.html",
+   "title": "美国成人阿尔茨海默病与帕金森病相关死亡率的种族差异与时间趋势：CDC WONDER 2018-2024",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.22.26366001",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.22.26366001"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-22-26366051-2026.html",
+   "title": "父母痴呆史与中年期的外周免疫衰老相关，而非泛化的生物学与脑龄加速",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.22.26366051",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.22.26366051"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-22-26366074-2026.html",
+   "title": "C 反应蛋白与谵妄严重程度的关联：一项前瞻性队列研究分析",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.22.26366074",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.22.26366074"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-22-26366150-2026.html",
+   "title": "NuMom2b 研究中黑人女性孕早期母亲表观遗传年龄加速、妊娠时长与自发性早产",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.22.26366150",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.22.26366150"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-22-26366214-2026.html",
+   "title": "中非老年人认知功能的血浆蛋白质组关联（刚果民主共和国）",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.22.26366214",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.22.26366214"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-22-760787-2026.html",
+   "title": "CST-Polα/primase 在 Rif1 支持下保护端粒 ss-dsDNA 连接处免受损伤识别与切除",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.22.760787",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.22.760787"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-22-760947-2026.html",
+   "title": "从单细胞图像量化间充质干细胞的点状形态，建立可直接关联成骨谱系分化的确定性质量评估管线",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.22.760947",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.22.760947"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-22-760951-2026.html",
+   "title": "早老小鼠负荷诱导骨适应中的力学调控失调：来自微多物理场基于智能体模型的启示",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.22.760951",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.22.760951"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-22-761199-2026.html",
+   "title": "克服脑组织分割瓶颈以实现人群规模的空间蛋白质组推断",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.22.761199",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.22.761199"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-23-761367-2026.html",
+   "title": "认知异质性与衰老：一个不依赖年龄的纤毛基因程序追踪小鼠的认知韧性",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.23.761367",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.23.761367"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-23-761386-2026.html",
+   "title": "模拟前驱期帕金森病：短暂鱼藤酮暴露后小鼠的胃肠病理与早期运动缺陷",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.23.761386",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.23.761386"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-23-761418-2026.html",
+   "title": "解析人脑海马中衰老与细胞衰老的细胞与分子网络",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.23.761418",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.23.761418"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-23-761456-2026.html",
+   "title": "雄激素受体 SUMO 位点突变改善 SBMA 果蝇模型的毒性",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.23.761456",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.23.761456"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Proteostasis-Stress-SOD2-Localization-Senescence-2026.html",
+   "title": "蛋白质稳态应激让 SOD2 离开线粒体，而不是让它变少",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1247/csf.26039",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1247/csf.26039"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Pythagorean-Self-Awareness-Telomere-RCT-2026.html",
+   "title": "心理行为干预降低了总氧化状态，但端粒长度没动",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1016/j.mad.2026.112263",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.mad.2026.112263"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Regional-BBB-Dysfunction-Cognition-2026.html",
+   "title": "血脑屏障漏在哪里，认知就掉在哪里",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1093/braincomms/fcag342",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1093/braincomms/fcag342"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Resveratroloside-Mitochondria-Chromatin-Senescence-2026.html",
+   "title": "白藜芦醇糖苷：毒性更低，却同时改线粒体与染色质两头",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1007/s10522-026-10532-y",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1007/s10522-026-10532-y"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "SEPTIN6-HSC-Senescence-Congenital-Neutropenia-2026.html",
+   "title": "胚系 SEPTIN6 突变：让造血干细胞提前衰老，mTOR 抑制可挽救",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1172/jci.insight.209595",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1172/jci.insight.209595"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Sarcopenia-Protein-Mediterranean-Diet-Review-2026.html",
+   "title": "肌少症的营养策略：蛋白策略与地中海式膳食的证据最一致",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1016/j.tjnut.2026.101896",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.tjnut.2026.101896"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Selenium-Macrophage-Senescence-Ovarian-Fibrosis-2026.html",
+   "title": "硒如何挡住镉的卵巢毒性：先压住巨噬细胞的铁死亡与衰老",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.jnutbio.2026.110525",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.jnutbio.2026.110525"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Senescence-Antiviral-Interferon-IPF-2026.html",
+   "title": "衰老让 IPF 成纤维细胞的抗病毒应答变了形",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1111/acel.70763",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1111/acel.70763"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Senescence-Signature-Breast-Cancer-Immunotherapy-2026.html",
+   "title": "衰老特征签名：给乳腺癌分层，并预测免疫治疗应答",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1096/fj.202603669R",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1096/fj.202603669R"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Sirtuin-Family-Network-Review-2026.html",
+   "title": "sirtuin 不是单一长寿开关，而是一张区室化网络",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1186/s43556-026-00631-0",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1186/s43556-026-00631-0"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Spinach-RIP-mTOR-Colorectal-Cancer-2026.html",
+   "title": "菠菜核糖体失活蛋白：下调 AKT/mTOR，把 HT29 推向凋亡",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.ejphar.2026.179464",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.ejphar.2026.179464"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Taurine-Inflammaging-NLRP3-Macrophage-2026.html",
+   "title": "牛磺酸随龄升高不是坏事：它是对炎症衰老的对映稳态反应",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.cell.2026.09.061",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.cell.2026.09.061"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Type-2-Immunity-Counter-Regulatory-Aging-2026.html",
+   "title": "2 型免疫：衰老里那条被忽略的反调节轴",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1038/s43587-026-01265-1",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1038/s43587-026-01265-1"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Vitamin-A-E-Gut-Microbiota-Children-2026.html",
+   "title": "维生素 A/E 与学龄儿童肠道菌群：缺乏普遍，菌群差异有限",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1080/29933935.2026.2747503",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1080/29933935.2026.2747503"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "WEE1-Inhibition-Senescence-Epigenetic-GBM-2026.html",
+   "title": "抢在衰老之前：早期 WEE1 抑制阻断胶质母细胞瘤的衰老样重编程",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.canlet.2026.218913",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.canlet.2026.218913"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "WGS-Senescence-Variants-Mice-2026.html",
+   "title": "全基因组测序找衰老相关变异：Cic、Gsta6 与 Bfsp1 三个候选",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.18699/vjgb-26-90",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.18699/vjgb-26-90"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Warm-Needling-Chondrocyte-Senescence-KOA-2026.html",
+   "title": "温针灸对膝骨关节炎大鼠软骨细胞衰老的调控效应",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.13702/j.1000-0607.20251035",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.13702/j.1000-0607.20251035"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Wild-Type-ATTR-CM-Ageing-Myocardium-2026.html",
+   "title": "野生型 ATTR 心肌病：把视角从四聚体稳定挪到「衰老心肌」",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1093/eurheartj/ehag748",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1093/eurheartj/ehag748"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Young-Plasma-Exosome-YOD1-M2-Bone-2026.html",
+   "title": "年轻血浆外泌体递送 YOD1：经 M2 极化与 mTOR 改写骨稳态",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.7150/ijbs.138620",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.7150/ijbs.138620"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Zinc-HDAC6-Autophagy-Cerebral-Ischemia-2026.html",
+   "title": "脑缺血再灌注后的锌：经 HDAC6 把自噬推向神经元损伤的一侧",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.neulet.2026.138767",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.neulet.2026.138767"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "circRNA-Partial-Reprogramming-MSC-2026.html",
+   "title": "环状 RNA 做部分重编程：MSC 变年轻，但不会变成 iPSC",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [],
+   "level": "断链"
+  },
+  {
+   "slug": "AT-1-Acetyl-CoA-Transporter-Neuronal-Metabolism-SIRT1-2026.html",
+   "title": "内质网的乙酰-CoA 闸门 AT-1：一端连着早老症表型，一端连着 SIRT1 与突触沉默",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.isci.2026.117722",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.isci.2026.117722",
+    "https://pubmed.ncbi.nlm.nih.gov/42909095/"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Advanced-Maternal-Age-Decidual-Angiogenesis-2026.html",
+   "title": "妊娠是一次血管压力测试：高龄孕鼠的蜕膜血管生成与螺旋动脉重塑双重受损",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.21.760773",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.21.760773"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Big-Five-Personality-PhenoAge-Acceleration-UKB-2026.html",
+   "title": "神经质让生物年龄跑得更快：UK Biobank 11.9 万人的 PhenoAge 加速与那一成的说服力",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3389/fpsyg.2026.1876764",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/fpsyg.2026.1876764",
+    "https://pubmed.ncbi.nlm.nih.gov/42909058/"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "CSF-cfDNA-Methylation-Tauopathy-Classification-2026.html",
+   "title": "脑脊液 cfDNA 甲基化区分三种 tau 病：AUC 0.84–0.85，血浆跟不上",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1177/13872877261500498",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1177/13872877261500498"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Causal-Genetic-Network-Cross-Sectional-Aging-Fibroblasts-2026.html",
+   "title": "用横断面数据反推动力学：490 例 GTEx 成纤维细胞的因果网络，实验验证率 53.8%",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.21.760791",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.21.760791"
+   ],
+   "level": "强"
+  },
   {
    "slug": "Cross-Species-Muscle-Transcriptomic-Aging-Signatures-2026.html",
    "title": "六个物种的骨骼肌衰老：共有的只有三个标志物，雌雄走的还不是同一条路",
@@ -723,6 +2794,18 @@
    "level": "强"
   },
   {
+   "slug": "NAD-Sex-Specific-Protection-Early-Life-Infection-2026.html",
+   "title": "补 NR 只保护雌性：NAD 代谢在早期感染防护中的性别二态性",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.19.760092",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.19.760092"
+   ],
+   "level": "强"
+  },
+  {
    "slug": "Preoperative-FBG-Postoperative-Delirium-U-Shaped-2026.html",
    "title": "术前血糖不是越低越好：2,157 例老年糖尿病手术患者的 U 型警告",
    "evidence": "B",
@@ -731,6 +2814,43 @@
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.64898/2026.10.20.26366023"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Stathmin1-Mitophagy-Hematopoietic-Stem-Progenitor-2026.html",
+   "title": "静止期的 Stathmin 1：造血干祖细胞的线粒体自噬守门人",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.isci.2026.117458",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.isci.2026.117458",
+    "https://pubmed.ncbi.nlm.nih.gov/42909098/"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "WRN-Deficiency-TA-Rich-Tandem-Repeats-TERT-2026.html",
+   "title": "Werner 综合征的一把钥匙：WRN 缺失让 TA 富集重复变成断裂热点，同一个 15.7 Mb 缺失反复激活 TERT",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.16.758976",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.16.758976"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "miR-29-Epigenetic-Fidelity-Plasticity-Tradeoff-2026.html",
+   "title": "miR-29 的一笔账：保住了表观遗传的忠实，赊掉了年轻的可塑性",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.18.759616",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.18.759616"
    ],
    "level": "强"
   },

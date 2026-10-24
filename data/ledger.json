@@ -1,7 +1,7 @@
 {
  "site": {
-  "articles": 630,
-  "dois": 485
+  "articles": 805,
+  "dois": 670
  },
  "outputs": {
   "preprint_2026-10-21.md": {
@@ -186,8 +186,8 @@
   }
  },
  "output_entries": 426,
- "covered": 190,
- "missing_count": 236,
+ "covered": 193,
+ "missing_count": 233,
  "missing": [
   {
    "fingerprint": "doi:10.1007/s11357-025-02017-6",
@@ -231,7 +231,7 @@
     "文献层_五刊监控_深度文献卡片_2026-10-23.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1007/s11357-025-02027-4，标题相似 0.00，词元重叠 0.25）"
+   "basis": "四路均未命中（DOI=10.1007/s11357-025-02027-4，标题相似 0.00，词元重叠 0.33）"
   },
   {
    "fingerprint": "doi:10.1007/s11357-025-02028-3",
@@ -357,7 +357,7 @@
     "文献层_五刊监控_深度文献卡片_2026-10-23.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1007/s11357-026-02443-0，标题相似 0.00，词元重叠 0.40）"
+   "basis": "四路均未命中（DOI=10.1007/s11357-026-02443-0，标题相似 0.00，词元重叠 0.50）"
   },
   {
    "fingerprint": "doi:10.1007/s11357-026-02464-9",
@@ -604,7 +604,7 @@
     "文献层_五刊监控_深度文献卡片_2026-10-23.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1038/s43587-026-01221-z，标题相似 0.00，词元重叠 0.50）"
+   "basis": "四路均未命中（DOI=10.1038/s43587-026-01221-z，标题相似 0.00，词元重叠 0.67）"
   },
   {
    "fingerprint": "doi:10.1038/s43587-026-01224-w",
@@ -626,7 +626,7 @@
     "cards_2026-09-25.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1038/s43587-026-01230-y，标题相似 0.00，词元重叠 0.50）"
+   "basis": "四路均未命中（DOI=10.1038/s43587-026-01230-y，标题相似 0.00，词元重叠 0.67）"
   },
   {
    "fingerprint": "doi:10.1101/2024.12.17.628978",
@@ -648,7 +648,7 @@
     "preprint-summary-2026-10-19.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1101/2025.02.24.639868，标题相似 0.00，词元重叠 0.50）"
+   "basis": "四路均未命中（DOI=10.1101/2025.02.24.639868，标题相似 0.00，词元重叠 0.67）"
   },
   {
    "fingerprint": "doi:10.1111/acel.70664",
@@ -863,17 +863,6 @@
    "basis": "四路均未命中（DOI=10.1111/acel.70737，标题相似 0.00，词元重叠 0.67）"
   },
   {
-   "fingerprint": "doi:10.1111/acel.70738",
-   "title": "Targeting Ero1L by Parthenolide Alleviates Cellular Senescence and Fibrosis of Localized Scleroderma by Regulating Mitochondria-Associated Endoplasmic Reticulum Membranes Stabilization.",
-   "doi": "10.1111/acel.70738",
-   "code": "A24",
-   "seen_in": [
-    "文献层_五刊监控_深度文献卡片_2026-10-23.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1111/acel.70738，标题相似 0.00，词元重叠 0.50）"
-  },
-  {
    "fingerprint": "doi:10.1111/acel.70743",
    "title": "Organ-Specific Proteomic Aging Clocks Reveal Complexities Underlying the Healthy Drinking Paradox",
    "doi": "10.1111/acel.70743",
@@ -883,17 +872,6 @@
    ],
    "status": "漏收",
    "basis": "四路均未命中（DOI=10.1111/acel.70743，标题相似 0.00，词元重叠 0.43）"
-  },
-  {
-   "fingerprint": "doi:10.1111/acel.70745",
-   "title": "A Cilia-Centered Nicotinamide Adenine Dinucleotide  Signaling Network Regulates Hypothalamic Lysosomal Homeostasis and Metabolic Aging.",
-   "doi": "10.1111/acel.70745",
-   "code": "A23",
-   "seen_in": [
-    "文献层_五刊监控_深度文献卡片_2026-10-23.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1111/acel.70745，标题相似 0.00，词元重叠 0.33）"
   },
   {
    "fingerprint": "doi:10.1111/acel.70753",
@@ -927,17 +905,6 @@
    ],
    "status": "漏收",
    "basis": "四路均未命中（DOI=10.1111/acel.70758，标题相似 0.00，词元重叠 0.50）"
-  },
-  {
-   "fingerprint": "doi:10.1111/acel.70763",
-   "title": "Cellular Senescence Dysregulates Antiviral Interferon Responses in Idiopathic Pulmonary Fibrosis.",
-   "doi": "10.1111/acel.70763",
-   "code": "A11",
-   "seen_in": [
-    "文献层_五刊监控_深度文献卡片_2026-10-23.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1111/acel.70763，标题相似 0.00，词元重叠 0.67）"
   },
   {
    "fingerprint": "doi:10.1111/acel.70766",
@@ -1135,7 +1102,7 @@
     "pipeline-summary-2026-10-18.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=10.64898/2026.10.12.758495，标题相似 0.00，词元重叠 0.33）"
+   "basis": "四路均未命中（DOI=10.64898/2026.10.12.758495，标题相似 0.00，词元重叠 0.40）"
   },
   {
    "fingerprint": "doi:10.64898/2026.10.15.26365674",
@@ -1201,7 +1168,7 @@
     "preprint-summary-2026-10-19.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=10.64898/2026.10.16.759624，标题相似 0.00，词元重叠 0.33）"
+   "basis": "四路均未命中（DOI=10.64898/2026.10.16.759624，标题相似 0.00，词元重叠 0.50）"
   },
   {
    "fingerprint": "doi:10.64898/2026.10.16.759626",
@@ -1245,7 +1212,7 @@
     "预印本速递_2026-10-23.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=10.64898/2026.10.21.760650，标题相似 0.00，词元重叠 0.33）"
+   "basis": "四路均未命中（DOI=10.64898/2026.10.21.760650，标题相似 0.00，词元重叠 0.40）"
   },
   {
    "fingerprint": "doi:10.64898/2026.10.21.760721",
@@ -2872,7 +2839,7 @@
    "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
   }
  ],
- "orphan_count": 630,
+ "orphan_count": 805,
  "orphan_sample": [
   "3D-Culture-Reverses-Limbal-Niche-AgingCell-2026.html",
   "7-Ketocholesterol-Derivatives-Pathophysiology.html",
@@ -2889,11 +2856,11 @@
   "AQP4-TGN073-Glymphatic-Tau-Pathology-MolNeurodegener-2026.html",
   "ARDD-2026-to-relocate-to-Bosto.html",
   "ARDD-2026-to-relocate-to-Boston.html",
+  "ARG2-Osteoblast-Senescence-Mitophagy-2026.html",
+  "AT-1-Acetyl-CoA-Transporter-Neuronal-Metabolism-SIRT1-2026.html",
   "ATF5-Muscle-Mass-Quality-Aging-2026.html",
-  "Acid-Base-Dysregulation-Aging-Metabolism-Frailty-2026.html",
-  "Adaptive-Cost-Hypothesis-NCDs-Evolvable-Lifespan-2026.html",
-  "Age-Associated-Gut-Microbiota-Dysbiosis-Impairs-AgingCell-2026.html",
-  "Aged-Microbiota-Fecal-Transplant-Bama-Pig-2026.html"
+  "Accelerated-Brain-Aging-Executive-Deficits-2026.html",
+  "Accelerated-Epigenetic-Aging-Frontotemporal-Dementia-2026.html"
  ],
  "note": "missing 必须逐条人工核对后再写稿。判定为「漏收」只代表三路均未命中，不是结论——中文摘要条目尤其需要用中文关键词直接搜站内。"
 }
