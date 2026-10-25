@@ -7,6 +7,28 @@
 .lb-poster{
   margin-top:var(--s-3);
 }
+
+/* ---------- 挂进 .share-bar 时的样式（2026-10-25）----------
+   海报入口已合并进页脚「分享给好友」条，与「复制链接」并排。
+   该条自带底色与圆角，按钮要跟着条走，不能再带外边距。 */
+.share-bar .lb-poster{
+  margin-top:0;
+  display:inline-flex;
+}
+.share-bar .lb-poster-btn{
+  background:transparent;
+  border:1px solid #0f3460;
+  color:#0f3460;
+  font-size:14px;
+  font-weight:600;
+  padding:9px 18px;
+  border-radius:8px;
+  min-height:40px;
+}
+.share-bar .lb-poster-btn:hover{
+  background:#0f3460;
+  color:#fff;
+}
 .lb-poster-btn{
   display:inline-flex;align-items:center;gap:.4em;
   padding:.4em .85em;
@@ -71,7 +93,31 @@
   background:var(--c-bg-sunken);
   flex:1;min-height:0;
 }
-.lb-poster-canvas-box canvas{display:block;width:100%;height:auto}
+/* 2026-10-25：canvas 退为离屏绘制器，展示改由 <img> 承担。
+   iOS Safari / 微信内置浏览器对 <canvas> 长按不弹「存储到照片 / 发送给朋友」，
+   只有 <img> 才会 —— 这是「点图片保存到相册」能否成立的关键。 */
+.lb-poster-canvas-box canvas{display:none}
+.lb-poster-img{
+  display:none;
+  width:100%;height:auto;
+  /* 长按弹出系统菜单（存储到照片 / 发送给朋友）必需。
+     touch-callout 是 iOS 专有属性，Chromium 不识别会返回空 —— 但 CSS 本身
+     会被 iOS Safari 正常解析，故保留；user-select:text 保证长按不被拦。 */
+  -webkit-touch-callout:default;
+  -webkit-user-select:text;
+  user-select:text;
+  -webkit-user-drag:auto;
+  cursor:pointer;
+}
+.lb-poster-img.on{display:block}
+/* 点了「长按图片保存」之后的视觉提示：告诉读者该按哪里 */
+.lb-poster-img.hint{
+  animation:lb-poster-hint 2.2s var(--ease);
+}
+@keyframes lb-poster-hint{
+  0%,100%{box-shadow:none}
+  15%,60%{box-shadow:0 0 0 3px var(--c-primary)}
+}
 
 .lb-poster-actions{
   margin-top:var(--s-3);

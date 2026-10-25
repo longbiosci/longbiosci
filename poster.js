@@ -1,7 +1,7 @@
 /* ==========================================================================
    LongBiosci 海报生成器
    在文章页挂载「生成海报」按钮，运行时读取页面 DOM 元数据，
-   用 Canvas 绘制分享长图，支持下载 PNG / 分享 / 复制链接。
+   用 Canvas 绘制分享长图，支持保存图片 / 分享 / 复制链接。
 
    设计要点：
    1. 不注入任何 HTML 结构，自身在运行时挂载 → 对存量文章页零侵入
@@ -12,12 +12,36 @@
       PNG 文件，平台不支持时退化到分享链接）；「复制链接」始终可用
       （clipboard API + execCommand 双兜底）。操作反馈走弹层内 tip 文本，
       不用 alert()——不打断、不阻塞、移动端不弹难看系统框
+
+   2026-10-25 修订（分享体验）
+   --------------------------------------------------------------------------
+   动机：读者反馈「分享给好友」那块只��复制链接，想直接出海报存相册 /
+   发给微信好友。核查发现三个真问题：
+     ① 入口割裂：海报按钮在文章顶部，页脚 share-bar 里没有 → 读者找不到
+     ② 存不了：海报画在 <canvas> 上，而 iOS / 微信对 canvas 长按**不弹保存
+        菜单**，只有 <img> 才行 → 原来那句「长按图片也可保存到相册」是空话
+     ③ 微信里没有分享按钮：微信内置浏览器实测 navigator.share === undefined，
+        渐进增强分支会把它整个藏掉 → 微信用户看到「分享给好友」却只能复制
+   对策：
+     · 入口合并：优先挂进 .share-bar（读者真正在用的那块），无 share-bar
+       时才退回文章顶部，不制造第二个入口
+     · 载体换 img：canvas 退为离屏绘制器，画完转 dataURL 交给 <img> 展示，
+       长按 → iOS「存储到照片」/ 微信「发送给朋友」才真的能触发
+     · 平台分流：微信内置浏览器走「长按图片」路径并明示步骤；
+       支持 navigator.share 的系统分享面板可直接选微信好友
    ========================================================================== */
 (function () {
   'use strict';
 
   if (window.__lbPosterMounted) return;
   window.__lbPosterMounted = true;
+
+  /* ---------- 平台判定 ---------- */
+  // 微信内置浏览器（Android X5 / iOS WKWebView）
+  var IS_WEIXIN = /MicroMessenger/i.test(navigator.userAgent || '');
+  // iOS（含 iPadOS 伪装为 Mac 的情况）
+  var IS_IOS = /iPad|iPhone|iPod/i.test(navigator.userAgent || '') ||
+               (navigator.platform === 'MacIntel' && (navigator.maxTouchPoints || 0) > 1);
 
   var W = 1080;                            // 导出宽度（2倍图=2160px）；高度按内容自适应
   var C = {
@@ -603,6 +627,10 @@
       '<circle cx="8.5" cy="8.5" r="1.4" fill="currentColor" stroke="none"/>' +
       '</svg><span>生成海报</span></button>';
 
+    // 弹层里的海报用 <img> 承载，不用 <canvas>。
+    // 原因（2026-10-25 实测）：iOS Safari / 微信内置浏览器对 <canvas>
+    // 长按**不弹**「存储到照片 / 发送给朋友」菜单，只有 <img> 才会。
+    // canvas 退为离屏绘制器：画完 → toDataURL → 交给 <img> 展示。
     var overlay = document.createElement('div');
     overlay.className = 'lb-poster-modal';
     overlay.setAttribute('aria-hidden', 'true');
@@ -612,22 +640,41 @@
       '<strong>文章海报</strong>' +
       '<button class="lb-poster-x" type="button" aria-label="关闭">×</button>' +
       '</div>' +
-      '<div class="lb-poster-canvas-box"><canvas id="lbPosterCanvas"></canvas></div>' +
+      '<div class="lb-poster-canvas-box">' +
+      '<canvas id="lbPosterCanvas" aria-hidden="true"></canvas>' +
+      '<img id="lbPosterImg" class="lb-poster-img" alt="文章海报长图，可长按保存或发送">' +
+      '</div>' +
       '<div class="lb-poster-actions">' +
-      '<button class="lb-poster-dl" type="button">下载 PNG</button>' +
+      '<button class="lb-poster-dl" type="button">保存图片</button>' +
       '<div class="lb-poster-sub">' +
       (hasShare ? '<button class="lb-poster-share" type="button">分享</button>' : '') +
       '<button class="lb-poster-copy" type="button">复制链接</button>' +
       '</div>' +
-      '<p class="lb-poster-tip">长按图片也可保存到相册</p>' +
+      '<p class="lb-poster-tip"></p>' +
       '</div></div>';
     document.body.appendChild(overlay);
 
     var canvas = overlay.querySelector('#lbPosterCanvas');
+    var img = overlay.querySelector('#lbPosterImg');
     var blobCache = null;                // 打开弹层时预生成的 PNG，下载/分享共用
     var tip = overlay.querySelector('.lb-poster-tip');
-    var tipText = tip.textContent;
     var tipTimer = null;
+
+    // 分平台的提示文案。三种路径，对应三种真实可用的分享方式：
+    //  ① 微信内置浏览器：没有 navigator.share，只能长按图片 →「发送给朋友」
+    //  ② 支持系统分享面板的移动端：点「分享」→ 面板里直接选微信好友
+    //  ③ 桌面端：下载 PNG 后自行发送
+    var TIP_TEXT = IS_WEIXIN
+      ? '长按上方图片 →「发送给朋友」直接发微信，或「保存到相册」'
+      : (IS_IOS
+        ? '长按上方图片可「存储到照片」；点「分享」可直接发给微信好友'
+        : '点「分享」可发送到微信等应用；长按图片也可保存');
+
+    // 主动作按钮的文案随平台走。
+    // 微信/iOS 上 <a download> 不可靠（iOS 会跳预览页、微信会拦），
+    // 唯一稳的路径是长按图片 —— 所以按钮改成「长按保存」并给一次性引导，
+    // 避免读者点了没反应以为坏了。
+    var DL_TEXT = (IS_WEIXIN || IS_IOS) ? '长按图片保存' : '保存图片';
 
     // 反馈走 tip 文本：不打断、不阻塞、移动端不弹难看系统框
     function feedback(msg, ok) {
@@ -635,13 +682,20 @@
       tip.classList.toggle('ok', !!ok);
       if (tipTimer) clearTimeout(tipTimer);
       tipTimer = setTimeout(function () {
-        tip.textContent = tipText;
+        tip.textContent = TIP_TEXT;
         tip.classList.remove('ok');
       }, 2400);
     }
 
     function open() {
       draw(canvas, m);
+      // canvas → dataURL → img。iOS/微信长按保存靠的就是这个 <img>。
+      try {
+        img.src = canvas.toDataURL('image/png');
+        img.classList.add('on');
+      } catch (e) {
+        img.classList.remove('on');      // 极端情况下退回 canvas 直显
+      }
       blobCache = null;
       // 预生成 PNG：navigator.share 要求处在用户手势的激活窗口内，
       // 打开弹层时就算好，点「分享」即可同步触发，不吃激活窗口的亏。
@@ -659,9 +713,30 @@
 
     wrap.querySelector('.lb-poster-btn').addEventListener('click', open);
     overlay.querySelector('.lb-poster-x').addEventListener('click', close);
-    overlay.querySelector('.lb-poster-dl').addEventListener('click', function () {
+    var dlBtn = overlay.querySelector('.lb-poster-dl');
+    dlBtn.textContent = DL_TEXT;
+    dlBtn.addEventListener('click', function () {
+      // 移动端：<a download> 不可靠，唯一稳的路径是长按图片
+      if (IS_WEIXIN || IS_IOS) {
+        feedback('请长按上方图片 →「保存到相册」/「发送给朋友」');
+        // 给图片一个视觉提示，告诉读者该动哪儿
+        img.classList.add('hint');
+        setTimeout(function () { img.classList.remove('hint'); }, 2200);
+        return;
+      }
       download(canvas, blobCache);
     });
+
+    // 桌面端：直接点图片就下载（读者诉求是「点图片保存」）。
+    // 移动端不能这么做 —— 移动端「点一下」不是保存语义，长按才是，
+    // 在移动端绑 click 会抢掉长按手势，反而把唯一可行的路堵死。
+    if (!IS_WEIXIN && !IS_IOS) {
+      img.addEventListener('click', function () {
+        download(canvas, blobCache);
+        feedback('图片已下载，可直接发送给好友', true);
+      });
+      img.style.cursor = 'pointer';
+    }
     overlay.querySelector('.lb-poster-copy').addEventListener('click', function () {
       copyLink(m.url || (location.origin + location.pathname), feedback);
     });
@@ -678,13 +753,31 @@
       if (e.key === 'Escape' && overlay.classList.contains('on')) close();
     });
 
-    // 挂载点：优先文章头部的元信息行，其次正文前
-    var head = document.querySelector('.article-header');
-    if (head) head.appendChild(wrap);
-    else {
-      var h1 = document.querySelector('h1');
-      if (h1 && h1.parentNode) h1.parentNode.insertBefore(wrap, h1.nextSibling);
-      else document.body.insertBefore(wrap, document.body.firstChild);
+    tip.textContent = TIP_TEXT;
+
+    /* ---------- 挂载点 ----------
+       2026-10-25 改：优先挂进 .share-bar（读者真正会找的「分享给好友」那块），
+       那里已经有「复制链接」和二维码，读者一眼就能看到「生成分享海报」，
+       两套分享 UI 不再割裂。没有 share-bar 的页面才退回文章顶部。 */
+    var bar = document.querySelector('.share-bar');
+    if (bar) {
+      var acts = bar.querySelector('.share-bar-actions');
+      if (acts) {
+        // 插在「复制链接」之后、tip 之前，保持动作区聚拢
+        var tipSpan = acts.querySelector('.share-tip');
+        if (tipSpan) acts.insertBefore(wrap, tipSpan);
+        else acts.appendChild(wrap);
+      } else {
+        bar.appendChild(wrap);
+      }
+    } else {
+      var head = document.querySelector('.article-header');
+      if (head) head.appendChild(wrap);
+      else {
+        var h1 = document.querySelector('h1');
+        if (h1 && h1.parentNode) h1.parentNode.insertBefore(wrap, h1.nextSibling);
+        else document.body.insertBefore(wrap, document.body.firstChild);
+      }
     }
   }
 
