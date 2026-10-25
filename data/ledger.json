@@ -1,7 +1,7 @@
 {
  "site": {
-  "articles": 805,
-  "dois": 670
+  "articles": 819,
+  "dois": 683
  },
  "outputs": {
   "preprint_2026-10-21.md": {
@@ -186,8 +186,8 @@
   }
  },
  "output_entries": 426,
- "covered": 193,
- "missing_count": 233,
+ "covered": 194,
+ "missing_count": 232,
  "missing": [
   {
    "fingerprint": "doi:10.1007/s11357-025-02017-6",
@@ -391,18 +391,6 @@
    ],
    "status": "漏收",
    "basis": "四路均未命中（DOI=10.1007/s11357-026-02498-z，标题相似 0.00，词元重叠 0.33）"
-  },
-  {
-   "fingerprint": "doi:10.1007/s11357-026-02515-1",
-   "title": "Therapeutic potential of MitoQ, a mitochondria-targeted antioxidant, in age-related physiological dysfunction",
-   "doi": "10.1007/s11357-026-02515-1",
-   "code": "G16",
-   "seen_in": [
-    "cards_2026-10-02.md",
-    "文献层_五刊监控_深度文献卡片_2026-10-23.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1007/s11357-026-02515-1，标题相似 0.00，词元重叠 0.40）"
   },
   {
    "fingerprint": "doi:10.1007/s11357-026-02523-1",
@@ -1394,7 +1382,7 @@
     "pool_2026-10-13.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.33）；★中文摘要条目，必须人工核对站内中文关键词"
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
   },
   {
    "fingerprint": "t:170d264979580eba",
@@ -2467,7 +2455,7 @@
     "meta_2026-10_v2.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.20）；★中文摘要条目，必须人工核对站内中文关键词"
   },
   {
    "fingerprint": "t:c0e28a1a4021d69a",
@@ -2839,7 +2827,7 @@
    "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
   }
  ],
- "orphan_count": 805,
+ "orphan_count": 819,
  "orphan_sample": [
   "3D-Culture-Reverses-Limbal-Niche-AgingCell-2026.html",
   "7-Ketocholesterol-Derivatives-Pathophysiology.html",

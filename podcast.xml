@@ -8,7 +8,7 @@
   <language>zh-cn</language>
   <copyright>© 2026 LongBiosci 编辑部</copyright>
   <description><![CDATA[只讲有来源的长寿科学——每期节目，都能顺着一张来源清单回查原文。 本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。]]></description>
-  <lastBuildDate>Sun, 25 Oct 2026 03:53:00 +0800</lastBuildDate>
+  <lastBuildDate>Mon, 26 Oct 2026 03:43:00 +0800</lastBuildDate>
   <itunes:author>LongBiosci 编辑部</itunes:author>
   <itunes:summary><![CDATA[只讲有来源的长寿科学——每期节目，都能顺着一张来源清单回查原文。]]></itunes:summary>
   <itunes:owner>
@@ -23,6 +23,168 @@
   </image>
   <itunes:category text="Science"/>
   <itunes:explicit>no</itunes:explicit>
+  <item>
+    <title>六个时钟一起说你变年轻了——但最强的信号不在最有效的剂量上</title>
+    <link>https://longbiosci.com/podcast/#ep014</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep014</guid>
+    <pubDate>Mon, 26 Oct 2026 03:43:00 +0800</pubDate>
+    <category>打假与证伪</category>
+    <description><![CDATA[数据日期：2026-10-22 18:32
+生成时间：2026-10-26 03:43
+
+六个独立的蛋白质组时钟一致显示 IPF 患者用药后预测生物学年龄下降 3–4 年，但时钟信号最强的剂量与肺功能改善最大的剂量并不重合——作者自己写下：时钟无法单独区分「衰老变慢」与「疾病被治疗」。
+
+来源：
+· Nature Biotechnology：AI 设计的 TNIK 抑制剂 Rentosertib 在 IPF IIa 期试验中的蛋白质组学二次分析（DOI 10.1038/s41587-026-03286-y）
+  注：探索性二次分析，非预设终点；n=42；部分统计量与置信区间待补全文；企业主导研究
+
+站内延伸阅读：
+· AI 设计的 IPF 新药让 6 个蛋白质组时钟同时变年轻——但最强信号不在最有效的剂量上 https://longbiosci.com/news/Rentosertib-Proteomic-Aging-Clocks-IPF-Nature-Biotech-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep014]]></description>
+    <enclosure url="https://longbiosci.com/audio/rentosertib-proteomic-clocks-ipf-2026.mp3" length="2568765" type="audio/mpeg"/>
+    <itunes:duration>428</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[六个独立的蛋白质组时钟一致显示 IPF 患者用药后预测生物学年龄下降 3–4 年，但时钟信号最强的剂量与肺功能改善最大的剂量并不重合——作者自己写下：时钟无法单独区分「衰老变慢」与「疾病被治疗」。]]></itunes:summary>
+  </item>
+  <item>
+    <title>Y 染色体丢失：22.3 万男性追踪出的那条通往眼底的链</title>
+    <link>https://longbiosci.com/podcast/#ep015</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep015</guid>
+    <pubDate>Mon, 26 Oct 2026 03:43:00 +0800</pubDate>
+    <category>论文精读</category>
+    <description><![CDATA[数据日期：2026-10-22 18:32
+生成时间：2026-10-26 03:43
+
+22.3 万男性中，造血系统 Y 染色体嵌合缺失独立预测黄斑变性，MMP-12 在诊断前 12 年即偏离，单核细胞计数被中介分析确认为中间环节——但 HR<1 的方向表述需以原文为准，本节目不做方向推断。
+
+来源：
+· Aging Cell（UK Biobank 223,051 名男性）：Y 染色体嵌合缺失与年龄相关性黄斑变性的多组学分析（DOI 10.1111/acel.70775；PubMed 42894102）
+  注：观察性队列，中介分析仍属统计因果推断；UKB 健康志愿者偏倚；付费全文未获取
+
+站内延伸阅读：
+· Y 染色体丢失提前 12 年发出信号：22.3 万男性追踪出的「克隆嵌合—免疫—视网膜轴」 https://longbiosci.com/news/LOSS-of-Chromosome-Y-AMD-UKBiobank-MultiOmic-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep015]]></description>
+    <enclosure url="https://longbiosci.com/audio/loy-chromosome-y-amd-ukbiobank-2026.mp3" length="2766621" type="audio/mpeg"/>
+    <itunes:duration>461</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[22.3 万男性中，造血系统 Y 染色体嵌合缺失独立预测黄斑变性，MMP-12 在诊断前 12 年即偏离，单核细胞计数被中介分析确认为中间环节——但 HR<1 的方向表述需以原文为准，本节目不做方向推断。]]></itunes:summary>
+  </item>
+  <item>
+    <title>二十万人、十三个器官系统：衰弱在中年人身上就已经算数</title>
+    <link>https://longbiosci.com/podcast/#ep016</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep016</guid>
+    <pubDate>Mon, 26 Oct 2026 03:43:00 +0800</pubDate>
+    <category>论文精读</category>
+    <description><![CDATA[数据日期：2026-10-22 18:32
+生成时间：2026-10-26 03:43
+
+23 万慢病人群、13 年随访：衰弱 HR 2.32、前衰弱 1.35，且在全部 13 个器官系统疾病组中无一例外成立，19–34% 的超额死亡风险可归因于衰弱——但基线均龄 57.8 岁，不能替代 70 岁以上人群的证据。
+
+来源：
+· GeroScience（UK Biobank n=230,960）：衰弱 / 前衰弱与全因死亡——覆盖 13 个器官系统疾病组（DOI 10.1007/s11357-025-01980-4）
+  注：观察性队列；健康志愿者偏倚；均龄 57.8 岁不覆盖 ≥70 岁人群
+
+站内延伸阅读：
+· UK Biobank 23 万人 × 13 年：衰弱在全部 13 个器官系统的慢性病中都翻倍风险的死亡率 https://longbiosci.com/news/Frailty-Mortality-Link-In-People-GeroScience-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep016]]></description>
+    <enclosure url="https://longbiosci.com/audio/frailty-13-organ-systems-ukb-2026.mp3" length="2466525" type="audio/mpeg"/>
+    <itunes:duration>411</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[23 万慢病人群、13 年随访：衰弱 HR 2.32、前衰弱 1.35，且在全部 13 个器官系统疾病组中无一例外成立，19–34% 的超额死亡风险可归因于衰弱——但基线均龄 57.8 岁，不能替代 70 岁以上人群的证据。]]></itunes:summary>
+  </item>
+  <item>
+    <title>八周、二十人、个性化：XPRIZE 健康跨度赛的试验到底能证明什么</title>
+    <link>https://longbiosci.com/podcast/#ep017</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep017</guid>
+    <pubDate>Mon, 26 Oct 2026 03:43:00 +0800</pubDate>
+    <category>产业脉搏</category>
+    <description><![CDATA[数据日期：2026-10-22 18:32
+生成时间：2026-10-26 03:43
+
+PROMETHEUS 把「精准老年医学」写成了可执行判据：基础干预 + 按表型追加的增强干预，第 4 周动态调整。但 8 周、20 人、单臂无对照、十几种成分叠加——它是施工图纸，不是疗效报告。
+
+来源：
+· GeroScience：PROMETHEUS——XPRIZE Healthspan 半决赛的个体化老年医学试验方案（NCT07451496）（DOI 10.1007/s11357-026-02394-6）
+  注：方案类文章，单臂可行性试验 n=20；节目不推荐任何补剂或剂量方案
+
+站内延伸阅读：
+· PROMETHEUS 方案：XPRIZE Healthspan 把&quot;精准老年医学&quot;压进 8 周、20 个人 https://longbiosci.com/news/PROMETHEUS-Clinical-Trial-Protocol-Tailoring-GeroScience-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep017]]></description>
+    <enclosure url="https://longbiosci.com/audio/prometheus-xprize-healthspan-protocol-2026.mp3" length="2641341" type="audio/mpeg"/>
+    <itunes:duration>440</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[PROMETHEUS 把「精准老年医学」写成了可执行判据：基础干预 + 按表型追加的增强干预，第 4 周动态调整。但 8 周、20 人、单臂无对照、十几种成分叠加——它是施工图纸，不是疗效报告。]]></itunes:summary>
+  </item>
+  <item>
+    <title>患者已经绕开医生：一位全科医生把长寿医学的缺口挑明了</title>
+    <link>https://longbiosci.com/podcast/#ep018</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep018</guid>
+    <pubDate>Mon, 26 Oct 2026 03:43:00 +0800</pubDate>
+    <category>产业脉搏</category>
+    <description><![CDATA[数据日期：2026-10-22 18:32
+生成时间：2026-10-26 03:43
+
+Nature Aging 评论：患者正以「欲望路径」方式绕开未受训练的全科医生自行寻求长寿医学答案；医学课程里衰老仍只被当作疾病风险因素。瓶颈不是科学，是把科学转成医生可用知识的工程。
+
+来源：
+· Nature Aging 评论（Dean Ariel）：长寿医学与基层医疗的「欲望路径」困境（DOI 10.1038/s43587-026-01211-1）
+  注：评论文章，观点性质，不产生新实验数据；站内标 A 级，解读时按评论性质折价
+
+站内延伸阅读：
+· 长寿医学切入基层医疗：全科医生面对"欲望路径"困境 https://longbiosci.com/news/Longevity-Medicine-Primary-Care-Desire-Paths-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep018]]></description>
+    <enclosure url="https://longbiosci.com/audio/longevity-medicine-primary-care-desire-paths-2026.mp3" length="2221725" type="audio/mpeg"/>
+    <itunes:duration>370</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[Nature Aging 评论：患者正以「欲望路径」方式绕开未受训练的全科医生自行寻求长寿医学答案；医学课程里衰老仍只被当作疾病风险因素。瓶颈不是科学，是把科学转成医生可用知识的工程。]]></itunes:summary>
+  </item>
+  <item>
+    <title>把体力活动配平之后，老年人的肌肉-肌腱单元没有「退化」</title>
+    <link>https://longbiosci.com/podcast/#ep019</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep019</guid>
+    <pubDate>Mon, 26 Oct 2026 03:43:00 +0800</pubDate>
+    <category>打假与证伪</category>
+    <description><![CDATA[数据日期：2026-10-22 18:32
+生成时间：2026-10-26 03:43
+
+体力活动水平匹配后，活跃老年人与年轻活跃者在离心运动中的肌腱应变、肌束长度与速度、跟腱刚度全部无显著差异。但 p>0.05 不等于等效——未见等效性检验声明，正确说法是「没检出差异」。
+
+来源：
+· GeroScience：体力活动匹配条件下，年轻与老年活跃者离心运动中的腓肠肌内侧头肌肉-肌腱单元行为（DOI 10.1007/s11357-026-02547-7）
+  注：横断面阴性结果；n / CI / 等效性检验待补全文；老年组仅含活跃非衰弱者，不可外推久坐或衰弱老人
+
+站内延伸阅读：
+· 一个重要的阴性结果：体力活动匹配后，老年人的肌肉-肌腱单元在离心运动中并不&quot;退化&quot; https://longbiosci.com/news/Gastrocnemius-Medialis-Muscle-tendon-Behavior-Eccentric-GeroScience-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep019]]></description>
+    <enclosure url="https://longbiosci.com/audio/muscle-tendon-eccentric-aging-null-2026.mp3" length="1935309" type="audio/mpeg"/>
+    <itunes:duration>323</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[体力活动水平匹配后，活跃老年人与年轻活跃者在离心运动中的肌腱应变、肌束长度与速度、跟腱刚度全部无显著差异。但 p>0.05 不等于等效——未见等效性检验声明，正确说法是「没检出差异」。]]></itunes:summary>
+  </item>
   <item>
     <title>脑龄预测的多宇宙：换一条流水线，误差能从五岁变成十八岁</title>
     <link>https://longbiosci.com/podcast/#ep008</link>

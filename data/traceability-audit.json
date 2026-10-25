@@ -1,27 +1,32 @@
 {
  "summary": {
-  "total": 767,
+  "total": 781,
   "level_counts": {
-   "强": 636,
-   "断链": 1,
-   "中": 130
+   "强": 649,
+   "中": 131,
+   "断链": 1
   },
   "by_tier": {
    "A": {
-    "强": 149,
+    "强": 150,
     "中": 26
    },
    "B": {
-    "强": 306,
-    "断链": 1,
-    "中": 89
+    "强": 313,
+    "中": 90,
+    "断链": 1
    },
    "C": {
-    "强": 181,
+    "强": 186,
     "中": 15
    }
   },
   "missing_doi": [
+   {
+    "slug": "ER-100-Partial-Reprogramming-Phase-1-First-in-Human-Glaucoma-Life-Biosciences-2026.html",
+    "title": "部分重编程的第一个人体数据：ER-100 在 3 名青光眼患者中耐受，2 人出现视野改善信号",
+    "evidence": "B"
+   },
    {
     "slug": "circRNA-Partial-Reprogramming-MSC-2026.html",
     "title": "环状 RNA 做部分重编程：MSC 变年轻，但不会变成 iPSC",
@@ -688,6 +693,66 @@
  },
  "articles": [
   {
+   "slug": "Preprint-10-64898-2026-09-28-26364135-2026.html",
+   "title": "端粒维持在脂肪肉瘤去分化时被获得，且遗传学上更长的端粒与脂肪肉瘤风险相关",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.09.28.26364135",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.09.28.26364135"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-22-760701-2026.html",
+   "title": "人皮层区域葡萄糖代谢的细胞与线粒体关联因素",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.22.760701",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.22.760701"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-22-761036-2026.html",
+   "title": "抗 GABAB 受体自身免疫通过突触前病理导致认知下降",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.22.761036",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.22.761036"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-22-761048-2026.html",
+   "title": "随机增长率与终生繁殖产出对亲缘效应的敏感性：一个非线性反馈模型",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.22.761048",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.22.761048"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-22-761130-2026.html",
+   "title": "颞叶癫痫中 MRI 定义的皮层变薄的组织形态计量学对应物",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.22.761130",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.22.761130"
+   ],
+   "level": "强"
+  },
+  {
    "slug": "ARG2-Osteoblast-Senescence-Mitophagy-2026.html",
    "title": "ARG2 踩下线粒体自噬的刹车：成骨细胞衰老与骨丢失的新轴",
    "evidence": "B",
@@ -828,6 +893,18 @@
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1021/acschemneuro.6c00569"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "BCG-Vaccination-Tau-Pathology-PS19-Mice-SciAdv-2026.html",
+   "title": "卡介苗在 tau 病小鼠里做了什么：磷酸化 tau 下降、脑萎缩减缓，海马转录组几乎回到健康态",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1126/sciadv.aej4603",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1126/sciadv.aej4603"
    ],
    "level": "强"
   },
@@ -1118,6 +1195,19 @@
    "level": "强"
   },
   {
+   "slug": "ER-100-Partial-Reprogramming-Phase-1-First-in-Human-Glaucoma-Life-Biosciences-2026.html",
+   "title": "部分重编程的第一个人体数据：ER-100 在 3 名青光眼患者中耐受，2 人出现视野改善信号",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://clinicaltrials.gov/study/NCT07290244",
+    "https://www.lifebiosciences.com/?p=1114"
+   ],
+   "level": "中"
+  },
+  {
    "slug": "Endothelial-Cell-Aging-Single-Cell-Atlas-2026.html",
    "title": "人内皮细胞衰老的单细胞图谱：血管新生退潮，与一个 p21 程序",
    "evidence": "A",
@@ -1214,6 +1304,32 @@
    "level": "强"
   },
   {
+   "slug": "Fhl2-Chondrocyte-Ferroptosis-Mitophagic-Flux-Osteoarthritis-CellDeathDiffer-2026.html",
+   "title": "软骨细胞铁死亡的上游开关：Fhl2 打乱微管、堵住线粒体自噬，敲低它可减轻小鼠软骨退变",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1038/s41418-026-01878-4",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1038/s41418-026-01878-4",
+    "https://pubmed.ncbi.nlm.nih.gov/42919858/"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Five-Gene-Mitochondrial-Lipid-Metabolism-Signature-Alzheimer-JAD-2026.html",
+   "title": "五个基因给阿尔茨海默病打分：线粒体-脂质代谢特征在独立队列 AUC 0.892",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1177/13872877261500762",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1177/13872877261500762",
+    "https://pubmed.ncbi.nlm.nih.gov/42920275/"
+   ],
+   "level": "强"
+  },
+  {
    "slug": "Frailty-Assessment-Ovarian-Cancer-Review-2026.html",
    "title": "卵巢癌的衰弱评估：61 篇文献里只有一半真正在测衰弱",
    "evidence": "C",
@@ -1258,6 +1374,19 @@
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.7150/ijbs.134478"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Gait-Speed-Muscle-Mass-Gray-Matter-Volume-MCI-JAD-2026.html",
+   "title": "轻度认知障碍里，走得慢和壳核有关：234 例影像显示步速越慢，双侧壳核与左额上回灰质越小",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1177/13872877261500490",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1177/13872877261500490",
+    "https://pubmed.ncbi.nlm.nih.gov/42920257/"
    ],
    "level": "强"
   },
@@ -1582,6 +1711,32 @@
    "level": "强"
   },
   {
+   "slug": "MitoQ-Mitochondria-Targeted-Antioxidant-Human-Preantral-Follicle-MolHumReprod-2026.html",
+   "title": "Mito-Q 在人类早期卵泡上翻了车：颗粒细胞凋亡增加、卵泡生长受抑，线粒体抗氧化不是处处有益",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1093/molehr/gaag062",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1093/molehr/gaag062",
+    "https://pubmed.ncbi.nlm.nih.gov/42920279/"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Mitochondrial-Biomarkers-Neurology-Clinical-Implications-NatRevNeurol-2026.html",
+   "title": "线粒体生物标志物进神经科的清单：四类标志物、跨病种的共同扰动，以及临床落地卡在哪",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1038/s41582-026-01274-z",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1038/s41582-026-01274-z",
+    "https://pubmed.ncbi.nlm.nih.gov/42919989/"
+   ],
+   "level": "强"
+  },
+  {
    "slug": "Motor-Neuron-Vulnerability-Aging-2026.html",
    "title": "老年运动神经元为什么选择性易感：MMP-9 与 Chodl 的随龄轨迹",
    "evidence": "B",
@@ -1722,6 +1877,18 @@
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1186/s12872-026-06366-8"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "OSKM-Partial-Reprogramming-Ischemic-Brain-Damage-Aging-AgingCell-2026.html",
+   "title": "山中因子在老年小鼠脑缺血里的实测：梗死面积变小、髓鞘保住，少突胶质细胞回流",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1111/acel.70776",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1111/acel.70776"
    ],
    "level": "强"
   },
@@ -2562,6 +2729,19 @@
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1016/j.ejphar.2026.179464"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "TSC1-mTORC1-Axis-Alzheimer-ROSMAP-Bioinformatics-FrontAgingNeurosci-2026.html",
+   "title": "ROSMAP 人脑数据把 TSC1 拉进 AD 叙事：它越低，Aβ 与 tau 越重、认知越差、神经炎症越旺",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3389/fnagi.2026.1920487",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/fnagi.2026.1920487",
+    "https://pubmed.ncbi.nlm.nih.gov/42920665/"
    ],
    "level": "强"
   },

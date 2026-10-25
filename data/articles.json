@@ -1,5 +1,70 @@
 [
   {
+    "slug": "Preprint-10-64898-2026-09-28-26364135-2026.html",
+    "title": "端粒维持在脂肪肉瘤去分化时被获得，且遗传学上更长的端粒与脂肪肉瘤风险相关",
+    "desc": "长端粒不是保护因素，而是脂肪肉瘤的风险因素：体细胞层面，MDM2 扩增的去分化脂肪肉瘤（DDLPS）在去分化时通过局灶性 TERT 扩增或重排（而非启动子突变）获得端粒维持，并预示总生存减半；胚系层面，孟德尔随机化显示遗传预测的白细胞端粒长度每增加 1 个 SD，脂肪肉瘤 odds 增加 4.10 倍。",
+    "tag": "预印本",
+    "date": "2026-10-26",
+    "topic": "细胞衰老",
+    "type": "预印本",
+    "evidence": "C",
+    "source": "doi.org",
+    "doi": "10.64898/2026.09.28.26364135",
+    "added": "2026-10-26"
+  },
+  {
+    "slug": "Preprint-10-64898-2026-10-22-760701-2026.html",
+    "title": "人皮层区域葡萄糖代谢的细胞与线粒体关联因素",
+    "desc": "把 [18F]FDG PET 与细胞组成估计、线粒体密度估计结合（并校正 RNA 含量与死后采样导致的差异基因表达），发现：线粒体分布与静息态内在能量需求强相关；而代谢与神经元组成的关系由感觉输入与线粒体稀疏的细轴突神经元驱动——刺激诱发的能量需求主要由不依赖线粒体丰度的神经元过程（轴突活动等）满足。",
+    "tag": "预印本",
+    "date": "2026-10-26",
+    "topic": "代谢与营养",
+    "type": "预印本",
+    "evidence": "C",
+    "source": "doi.org",
+    "doi": "10.64898/2026.10.22.760701",
+    "added": "2026-10-26"
+  },
+  {
+    "slug": "Preprint-10-64898-2026-10-22-761036-2026.html",
+    "title": "抗 GABAB 受体自身免疫通过突触前病理导致认知下降",
+    "desc": "在抗 GABAB 受体自身免疫性脑炎这一「人类天然模型」中，患者自身抗体靶向 B1a 亚基的 sushi 结构域与 B2 亚基、干扰突触前信号；这种对 B1a 亚基的排他性功能性拮抗破坏短时程与长时程突触可塑性，在体异常放大海马网络振荡与耦合，最终损害记忆巩固。",
+    "tag": "预印本",
+    "date": "2026-10-26",
+    "topic": "神经退行",
+    "type": "预印本",
+    "evidence": "C",
+    "source": "doi.org",
+    "doi": "10.64898/2026.10.22.761036",
+    "added": "2026-10-26"
+  },
+  {
+    "slug": "Preprint-10-64898-2026-10-22-761048-2026.html",
+    "title": "随机增长率与终生繁殖产出对亲缘效应的敏感性：一个非线性反馈模型",
+    "desc": "把「亲属网络 ↔ 生活史」的双向非线性反馈显式建模并应用于人类，结果显示：母亲、祖母、年长姐姐（>10 岁）对儿童死亡率的 kin 效应斜率，对随机增长率与平均终生繁殖产出均呈负敏感——提高这些效应的绝对值会推高随机增长率，祖母效应因此处于正选择之下。",
+    "tag": "预印本",
+    "date": "2026-10-26",
+    "topic": "方法与工具",
+    "type": "预印本",
+    "evidence": "C",
+    "source": "doi.org",
+    "doi": "10.64898/2026.10.22.761048",
+    "added": "2026-10-26"
+  },
+  {
+    "slug": "Preprint-10-64898-2026-10-22-761130-2026.html",
+    "title": "颞叶癫痫中 MRI 定义的皮层变薄的组织形态计量学对应物",
+    "desc": "MRI 定义的皮层变薄并不对应弥漫性神经元丢失，而是对应神经元密度升高与细胞大小空间组织的改变；层特异性板层变薄的证据有限，仅见于右侧 TLE/海马硬化（HS）组的 VI 层。作者据此挑战「皮层变薄 = 进行性神经变性」这一主流解读。",
+    "tag": "预印本",
+    "date": "2026-10-26",
+    "topic": "神经退行",
+    "type": "预印本",
+    "evidence": "C",
+    "source": "doi.org",
+    "doi": "10.64898/2026.10.22.761130",
+    "added": "2026-10-26"
+  },
+  {
     "slug": "ARG2-Osteoblast-Senescence-Mitophagy-2026.html",
     "title": "ARG2 踩下线粒体自噬的刹车：成骨细胞衰老与骨丢失的新轴",
     "desc": "ARG2 通过 IκB-NF-κB-TXN2 轴抑制线粒体自噬，导致 mtROS 过量、线粒体功能受损，从而驱动成骨细胞衰老与骨丢失；成骨细胞特异性敲除 ARG2 可改善表型。",
@@ -154,6 +219,18 @@
     "source": "doi.org",
     "doi": "10.1021/acschemneuro.6c00569",
     "added": "2026-10-25"
+  },
+  {
+    "slug": "BCG-Vaccination-Tau-Pathology-PS19-Mice-SciAdv-2026.html",
+    "title": "卡介苗在 tau 病小鼠里做了什么：磷酸化 tau 下降、脑萎缩减缓，海马转录组几乎回到健康态",
+    "desc": "Science Advances 报道：基于膀胱癌患者中卡介苗接种者阿尔茨海默病发生率下降的回顾性发现，研究者在 PS19 tau 病小鼠中验证：BCG 降低海马磷酸化 tau 与小胶质增生、保留神经元标志物、减缓脑萎缩，新物体识别改善，体重维持与生存亦有改善。",
+    "tag": "研究进展",
+    "date": "2026-10-25",
+    "topic": "",
+    "type": "研究进展",
+    "evidence": "B",
+    "source": "",
+    "added": "2026-10-26"
   },
   {
     "slug": "Bibliometric-Cellular-Senescence-Heart-Failure-2026.html",
@@ -468,6 +545,18 @@
     "added": "2026-10-25"
   },
   {
+    "slug": "ER-100-Partial-Reprogramming-Phase-1-First-in-Human-Glaucoma-Life-Biosciences-2026.html",
+    "title": "部分重编程的第一个人体数据：ER-100 在 3 名青光眼患者中耐受，2 人出现视野改善信号",
+    "desc": "Life Biosciences 公布 ER-100 I 期中期数据：3 名开角型青光眼患者接受单次玻璃体腔注射（2×10^11 vg）联合 8 周口服多西环素诱导 OSK 表达，至第 56 天耐受良好，无剂量限制毒性或严重不良事件；2 人 Humphrey 视野中 ≥28% 测点改善超过 4 dB，DSMB 建议升至剂量水平 2。",
+    "tag": "临床进展",
+    "date": "2026-10-25",
+    "topic": "",
+    "type": "临床进展",
+    "evidence": "B",
+    "source": "",
+    "added": "2026-10-26"
+  },
+  {
     "slug": "Endothelial-Cell-Aging-Single-Cell-Atlas-2026.html",
     "title": "人内皮细胞衰老的单细胞图谱：血管新生退潮，与一个 p21 程序",
     "desc": "① 静脉 EC 中血管新生相关基因表达下降；② 广泛的细胞外基质（ECM）与机械力转导（mechanotransduction）相关特征改变；③ 发现一个 p21 关联的 EC 转录程序，并在体外与体内模型中证实其与细胞衰老相连。研究提供了跨组织、跨年龄的高分辨率人内皮转录参考图谱。",
@@ -572,6 +661,30 @@
     "added": "2026-10-25"
   },
   {
+    "slug": "Fhl2-Chondrocyte-Ferroptosis-Mitophagic-Flux-Osteoarthritis-CellDeathDiffer-2026.html",
+    "title": "软骨细胞铁死亡的上游开关：Fhl2 打乱微管、堵住线粒体自噬，敲低它可减轻小鼠软骨退变",
+    "desc": "Cell Death & Differentiation 报道：Fhl2 在 OA 转录组特征、易铁死亡软骨细胞状态与 RSL3 诱导程序中共同出现，且在人 OA 软骨、DMM 小鼠软骨与应激软骨细胞中升高；Fhl2 上调伴随微管紊乱、线粒体自噬流受阻、ROS 与脂质过氧化增加，敲低后软骨退变减轻、步态改善。",
+    "tag": "研究进展",
+    "date": "2026-10-25",
+    "topic": "",
+    "type": "研究进展",
+    "evidence": "B",
+    "source": "",
+    "added": "2026-10-26"
+  },
+  {
+    "slug": "Five-Gene-Mitochondrial-Lipid-Metabolism-Signature-Alzheimer-JAD-2026.html",
+    "title": "五个基因给阿尔茨海默病打分：线粒体-脂质代谢特征在独立队列 AUC 0.892",
+    "desc": "Journal of Alzheimer's Disease 报道：研究者以 GSE5281 为训练集、GSE28146 为独立验证集，用 LASSO 与随机森林筛选线粒体-脂质代谢基因，得到五基因特征（SDR16C5、EGR1、ASAH2B、HIP1R、CKMT1B），逻辑回归模型交叉验证 AUC 0.953、验证集 AUC 0.892。",
+    "tag": "研究进展",
+    "date": "2026-10-25",
+    "topic": "",
+    "type": "研究进展",
+    "evidence": "B",
+    "source": "",
+    "added": "2026-10-26"
+  },
+  {
     "slug": "Frailty-Assessment-Ovarian-Cancer-Review-2026.html",
     "title": "卵巢癌的衰弱评估：61 篇文献里只有一半真正在测衰弱",
     "desc": "检索到 5,818 条记录，去重后筛选 3,170 条，评估 111 篇全文，最终 61 篇独立发表物（代表 54 项研究/队列）符合宽泛纳入标准。其中 32 篇（52.5%）使用经验证筛查工具或多维方法并进入结局综合；其余 29 篇（47.5%）依赖单域替代指标或非衰弱构念，被单独映射。经验证筛查工具用于 6 篇，缺陷累积指数用于 16 篇（15 项研究），老年评估（GA）方",
@@ -622,6 +735,18 @@
     "source": "doi.org",
     "doi": "10.7150/ijbs.134478",
     "added": "2026-10-25"
+  },
+  {
+    "slug": "Gait-Speed-Muscle-Mass-Gray-Matter-Volume-MCI-JAD-2026.html",
+    "title": "轻度认知障碍里，走得慢和壳核有关：234 例影像显示步速越慢，双侧壳核与左额上回灰质越小",
+    "desc": "Journal of Alzheimer's Disease 报道：234 名轻度认知障碍老年人按 2019 亚洲肌少症工作组标准评估肌少症、步速、握力与四肢骨骼肌指数，并用基于体素的形态学分析 T1 影像；步速较慢与双侧壳核及左侧额上回灰质体积较低显著相关，而肌少症状态与握力未见显著差异。",
+    "tag": "研究进展",
+    "date": "2026-10-25",
+    "topic": "",
+    "type": "研究进展",
+    "evidence": "B",
+    "source": "",
+    "added": "2026-10-26"
   },
   {
     "slug": "Giant-Panda-Gut-Microbiome-Longevity-2026.html",
@@ -962,6 +1087,30 @@
     "added": "2026-10-25"
   },
   {
+    "slug": "MitoQ-Mitochondria-Targeted-Antioxidant-Human-Preantral-Follicle-MolHumReprod-2026.html",
+    "title": "Mito-Q 在人类早期卵泡上翻了车：颗粒细胞凋亡增加、卵泡生长受抑，线粒体抗氧化不是处处有益",
+    "desc": "Molecular Human Reproduction 报道：在人类卵巢皮质碎片与分离的窦前卵泡两个体外模型中，线粒体靶向抗氧化剂 Mito-Q 未改善卵泡存活或密度；相反，浓度升高伴随颗粒细胞凋亡显著增加、分离窦前卵泡生长受限，并伴线粒体应激相关基因表达改变。",
+    "tag": "研究进展",
+    "date": "2026-10-25",
+    "topic": "",
+    "type": "研究进展",
+    "evidence": "B",
+    "source": "",
+    "added": "2026-10-26"
+  },
+  {
+    "slug": "Mitochondrial-Biomarkers-Neurology-Clinical-Implications-NatRevNeurol-2026.html",
+    "title": "线粒体生物标志物进神经科的清单：四类标志物、跨病种的共同扰动，以及临床落地卡在哪",
+    "desc": "Nature Reviews Neurology 综述：线粒体功能障碍被视为从原发性线粒体病到 ALS、阿尔茨海默病、帕金森病、多发性硬化、遗传性共济失调与特发性炎性肌病的共同下游机制；文章按体液、遗传、多组学与影像四类梳理标志物，并指出临床转化受限于方法异质性、生物变异与疾病特异性不足。",
+    "tag": "综述",
+    "date": "2026-10-25",
+    "topic": "",
+    "type": "综述解读",
+    "evidence": "A",
+    "source": "",
+    "added": "2026-10-26"
+  },
+  {
     "slug": "Motor-Neuron-Vulnerability-Aging-2026.html",
     "title": "老年运动神经元为什么选择性易感：MMP-9 与 Chodl 的随龄轨迹",
     "desc": "MMP-9 与 Chodl 在 ALS 模型中随病程下降，被认为可作为快疲劳型 MN 的分子标记；本文在腰段与舌下神经核 MN 中系统刻画其随龄变化，并将表达与 MN 大小（电容）分层关联。作者指出老年研究中一个主要局限是：较大的舌下与腰段 MN 及 FF 型运动单位似乎比 S 型与 FR 型更易发生功能障碍、变性与死亡。",
@@ -1116,6 +1265,18 @@
     "source": "doi.org",
     "doi": "10.1186/s12872-026-06366-8",
     "added": "2026-10-25"
+  },
+  {
+    "slug": "OSKM-Partial-Reprogramming-Ischemic-Brain-Damage-Aging-AgingCell-2026.html",
+    "title": "山中因子在老年小鼠脑缺血里的实测：梗死面积变小、髓鞘保住，少突胶质细胞回流",
+    "desc": "Aging Cell 报道：在 Rosa26-Tet-ON 可诱导 OSKM 的老年小鼠上做永久性大脑中动脉闭塞，48 小时后梗死面积显著小于野生型对照，神经功能评分与 tightrope 表现更好；髓鞘完整性得以保留，Olig2+ 少突胶质细胞与 PDGFRα+ 前体增多，星形胶质活化被压住。",
+    "tag": "研究进展",
+    "date": "2026-10-25",
+    "topic": "",
+    "type": "研究进展",
+    "evidence": "B",
+    "source": "",
+    "added": "2026-10-26"
   },
   {
     "slug": "Out-of-Home-Activities-Healthy-Ageing-2026.html",
@@ -2026,6 +2187,18 @@
     "source": "doi.org",
     "doi": "10.1016/j.ejphar.2026.179464",
     "added": "2026-10-25"
+  },
+  {
+    "slug": "TSC1-mTORC1-Axis-Alzheimer-ROSMAP-Bioinformatics-FrontAgingNeurosci-2026.html",
+    "title": "ROSMAP 人脑数据把 TSC1 拉进 AD 叙事：它越低，Aβ 与 tau 越重、认知越差、神经炎症越旺",
+    "desc": "Frontiers in Aging Neuroscience 报道：整合 ROSMAP 队列的 RNA-seq、神经病理与临床数据后发现，AD 脑中 TSC1 显著下调、mTOR 与 RPTOR 上调；TSC1 低表达与更高的 Aβ 斑块密度、tau 缠结负荷、更差的总体认知以及小胶质与星形胶质活化增强显著相关。",
+    "tag": "研究进展",
+    "date": "2026-10-25",
+    "topic": "",
+    "type": "研究进展",
+    "evidence": "B",
+    "source": "",
+    "added": "2026-10-26"
   },
   {
     "slug": "Taurine-Inflammaging-NLRP3-Macrophage-2026.html",

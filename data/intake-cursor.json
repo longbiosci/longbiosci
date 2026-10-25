@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-25T06:05:37+08:00",
+ "updated_at": "2026-10-26T05:45:36+08:00",
  "entries": {
   "dkwSBCCuiNrB": {
    "name": "文献层_五刊监控_深度文献卡片_2026-10-02",
@@ -363,14 +363,12 @@
    "name": "行业情报周报_2026-09-16",
    "layer": "行业层",
    "size": 17552,
-   "mtime": "1792791748000",
+   "mtime": "1792949462000",
    "status": "done",
-   "done_at": "2026-10-25T06:05:37+08:00",
-   "slugs": [
-    "Industry-Weekly-W38-2026-09-16-Backfill.html"
-   ],
-   "note": "行业情报周报 W38 滚动更新：监管动态 7 条已由往期成篇（ev-2026-022）跳过；投融资 8 + 管线 12 = 20 条净新增入库并成篇 1",
-   "hash": "323bf17b14244fbee77f26ff4c1f4ec8"
+   "done_at": "2026-10-26T05:45:35+08:00",
+   "slugs": [],
+   "note": "行业情报周报 W38 xlsx 滚动更新：21 条正式条目（融资10 2 外围除外 + 管线12 + 监管7）逐条比对 industry.json URL，全部已在库（ev-2026-041..060 / ev-2026-022）→ 净新增 0",
+   "hash": "2815ae5f811eaf342067722ce6495a21"
   },
   "dxGTKRYApbJO": {
    "name": "行业情报周报_2026-10-14",
@@ -386,23 +384,23 @@
    "name": "运营日志",
    "layer": "元层",
    "size": 237130,
-   "mtime": "1792847917000",
+   "mtime": "1792957693000",
    "status": "done",
-   "done_at": "2026-10-25T06:05:37+08:00",
+   "done_at": "2026-10-26T05:45:35+08:00",
    "slugs": [],
-   "note": "运营日志（元层滚动更新），运营件非上站内容，仅留痕",
-   "hash": "fa736ad5f424cbef71514fd4a3ee1b2c"
+   "note": "元层运营日志滚动更新：留痕件。同上，以网站层为准",
+   "hash": "122879201b5aa52f9c0718877e8c3b82"
   },
   "duLHFqzcdVBY": {
    "name": "运营待办清单",
    "layer": "元层",
    "size": 113342,
-   "mtime": "1792847769000",
+   "mtime": "1792934150000",
    "status": "done",
-   "done_at": "2026-10-25T06:05:37+08:00",
+   "done_at": "2026-10-26T05:45:35+08:00",
    "slugs": [],
-   "note": "运营待办清单（元层滚动更新），运营件非上站内容，仅留痕",
-   "hash": "9149b209fb28938bedb2c25eb583d6cc"
+   "note": "元层运营待办清单滚动更新：留痕件。按 README 口径以网站层为准，元层件只读不覆盖",
+   "hash": "00197f53acc9b7e5e03d8dadbe1b05e4"
   },
   "dkmvnmTBYaqu": {
    "name": "资产库使用指南",
@@ -1425,12 +1423,12 @@
   "daTPqNskxxAC": {
    "name": "播客_第4-7期_补丁包_待推送_2026-10-24",
    "layer": "元层",
-   "size": 16056320,
+   "size": 16220160,
    "mtime": "1792785353000",
    "status": "done",
-   "done_at": "2026-10-24T05:36:15+08:00",
+   "done_at": "2026-10-26T05:45:35+08:00",
    "slugs": [],
-   "note": "与 dszhNWfbIizM 同一批交付的裸文件包（未压缩 tar），内容已由前者消化；仅登记留痕",
+   "note": "播客 ep004–007 补丁包：seen 判 UNCHANGED（内容与 2026-10-24 已消化版一致），不重复消化；本轮仅刷新游标记录",
    "hash": "3c6f65c6d521653622ec7b9b8d8ac2ee"
   },
   "dxJBcXhtNGcc": {
@@ -1777,6 +1775,202 @@
    "slugs": [],
    "note": "预印本解读运行总结（元层根目录原件），运行留痕件",
    "hash": "9f41830f044b09d09635a0a8d1b8dfc7"
+  },
+  "djKWnyBOmTxI": {
+   "name": "预印本全文级解读_2026-10-26/预印本解读_2026-10-25_主榜01_10.64898-2026.09.28.26364135",
+   "layer": "元层",
+   "size": 15871,
+   "mtime": "1792950396000",
+   "status": "done",
+   "done_at": "2026-10-26T05:45:35+08:00",
+   "slugs": [
+    "Preprint-10-64898-2026-09-28-26364135-2026.html"
+   ],
+   "note": "预印本解读 主榜01 端粒维持与脂肪肉瘤（A 全文级）成篇上站",
+   "hash": "c2314909975c7fc63c31aa0f64a4594b"
+  },
+  "dbfGOlXltdmt": {
+   "name": "预印本全文级解读_2026-10-26/预印本解读_2026-10-25_主榜02_10.64898-2026.10.22.761048",
+   "layer": "元层",
+   "size": 5270,
+   "mtime": "1792950430000",
+   "status": "done",
+   "done_at": "2026-10-26T05:45:35+08:00",
+   "slugs": [
+    "Preprint-10-64898-2026-10-22-761048-2026.html"
+   ],
+   "note": "预印本解读 主榜02 kin 效应敏感性与祖母假说（C 摘要级）成篇上站",
+   "hash": "672c4375ef0cf666ce2a20d9ab826b19"
+  },
+  "dnGAZnvxEaOn": {
+   "name": "预印本全文级解读_2026-10-26/预印本解读_2026-10-25_观察哨01_10.64898-2026.10.22.761036",
+   "layer": "元层",
+   "size": 4755,
+   "mtime": "1792950462000",
+   "status": "done",
+   "done_at": "2026-10-26T05:45:35+08:00",
+   "slugs": [
+    "Preprint-10-64898-2026-10-22-761036-2026.html"
+   ],
+   "note": "预印本解读 观察哨01 抗 GABAB 受体自身免疫（C 摘要级）成篇上站",
+   "hash": "b489de70c4d2a84cfe14fbb75678cc7c"
+  },
+  "djWMJzdwcSav": {
+   "name": "预印本全文级解读_2026-10-26/预印本解读_2026-10-25_观察哨02_10.64898-2026.10.22.761130",
+   "layer": "元层",
+   "size": 5408,
+   "mtime": "1792950493000",
+   "status": "done",
+   "done_at": "2026-10-26T05:45:35+08:00",
+   "slugs": [
+    "Preprint-10-64898-2026-10-22-761130-2026.html"
+   ],
+   "note": "预印本解读 观察哨02 MRI 皮层变薄的组织学对应物（C 摘要级）成篇上站",
+   "hash": "9506ca3126dec5d8116ab89f62807f46"
+  },
+  "dlMfkkYgSiho": {
+   "name": "预印本全文级解读_2026-10-26/预印本解读_2026-10-25_观察哨03_10.64898-2026.10.22.760701",
+   "layer": "元层",
+   "size": 4962,
+   "mtime": "1792950525000",
+   "status": "done",
+   "done_at": "2026-10-26T05:45:35+08:00",
+   "slugs": [
+    "Preprint-10-64898-2026-10-22-760701-2026.html"
+   ],
+   "note": "预印本解读 观察哨03 皮层葡萄糖代谢（C 摘要级）成篇上站",
+   "hash": "cd5992ddd990c4e2131a5d0a561f56c7"
+  },
+  "dVulkMNCgUDp": {
+   "name": "预印本速递_2026-10-26",
+   "layer": "文献层",
+   "size": 35373,
+   "mtime": "1792945712000",
+   "status": "done",
+   "done_at": "2026-10-26T05:45:35+08:00",
+   "slugs": [],
+   "note": "预印本速递本体（31 条扫描/5 条入榜）；入榜 5 条已由元层解读版上站，本体不重复成篇",
+   "hash": "23f354c99287538b177d5b325c5a59ad"
+  },
+  "djAzFCMwHNzg": {
+   "name": "预印本速递_总表_2026-10-26增量",
+   "layer": "文献层",
+   "size": 52328,
+   "mtime": "1792945600000",
+   "status": "done",
+   "done_at": "2026-10-26T05:45:35+08:00",
+   "slugs": [],
+   "note": "预印本总表增量 xlsx 62 行/60 DOI，逐条比对站内全部已收录（含 arXiv 格式变体 1 条）→ 净新增 0，跳过计数 60",
+   "hash": "61b9394f5130e2b245fe79f19eb2b5ca"
+  },
+  "dutntPjmuBOP": {
+   "name": "午刊补丁包_2026-10-25_待推送.tar",
+   "layer": "元层",
+   "size": 150203,
+   "mtime": "1792907950000",
+   "status": "done",
+   "done_at": "2026-10-26T05:45:35+08:00",
+   "slugs": [
+    "BCG-Vaccination-Tau-Pathology-PS19-Mice-SciAdv-2026.html",
+    "ER-100-Partial-Reprogramming-Phase-1-First-in-Human-Glaucoma-Life-Biosciences-2026.html",
+    "Fhl2-Chondrocyte-Ferroptosis-Mitophagic-Flux-Osteoarthritis-CellDeathDiffer-2026.html",
+    "Five-Gene-Mitochondrial-Lipid-Metabolism-Signature-Alzheimer-JAD-2026.html",
+    "Gait-Speed-Muscle-Mass-Gray-Matter-Volume-MCI-JAD-2026.html",
+    "MitoQ-Mitochondria-Targeted-Antioxidant-Human-Preantral-Follicle-MolHumReprod-2026.html",
+    "Mitochondrial-Biomarkers-Neurology-Clinical-Implications-NatRevNeurol-2026.html",
+    "OSKM-Partial-Reprogramming-Ischemic-Brain-Damage-Aging-AgingCell-2026.html",
+    "TSC1-mTORC1-Axis-Alzheimer-ROSMAP-Bioinformatics-FrontAgingNeurosci-2026.html"
+   ],
+   "note": "午刊补丁包 12 篇：9 篇上站；3 篇同 DOI 站内已有成稿按规则④跳过（acel.70783 / sciadv.aef3338 / sciadv.aed4541）。同时修 data-lb-event-date 占位值并补规则③时间标签",
+   "hash": "f4910c31d2f0b0c4b23971ccc26489a3"
+  },
+  "dKUTHchdFmMA": {
+   "name": "LongBiosci_播客_ep014-ep019_增量_待推送_2026-10-26",
+   "layer": "元层",
+   "size": 13952676,
+   "mtime": "1792957584000",
+   "status": "done",
+   "done_at": "2026-10-26T05:45:35+08:00",
+   "slugs": [],
+   "note": "播客 ep014–ep019 增量包：前 13 期与站内逐字段一致，净新增 6 期上站（audio 19 + transcripts 19 + RSS 19 item，ffprobe 实测时长与 JSON 全一致）",
+   "hash": "02f7dc7b53a41ceb794fa970f19e5a8d"
+  },
+  "dtcanfxQOOeM": {
+   "name": "网站运营周报_2026-W43_2026-10-19至10-25",
+   "layer": "元层",
+   "size": 8932,
+   "mtime": "1792934124000",
+   "status": "done",
+   "done_at": "2026-10-26T05:45:35+08:00",
+   "slugs": [],
+   "note": "网站运营周报 2026-W43：运营留痕件，非上站内容。已读取并提取 7 项下周优先事项入运行摘要",
+   "hash": "ebff23e82b158bf5efefbac0f2459d30"
+  },
+  "dLSuAMscRCOl": {
+   "name": "预印本全文级解读_2026-10-26/预印本全文级解读_运行总结_2026-10-26",
+   "layer": "元层",
+   "size": 8490,
+   "mtime": "1792950847000",
+   "status": "done",
+   "done_at": "2026-10-26T05:45:35+08:00",
+   "slugs": [],
+   "note": "预印本解读运行总结（子目录副本）：留痕件，与根目录 dPLsJZXUOxrM 同一 md5",
+   "hash": "2a6cbcc97b6ed0ffb787b24c7e56d61f"
+  },
+  "dPLsJZXUOxrM": {
+   "name": "预印本全文级解读_运行总结_2026-10-26",
+   "layer": "元层",
+   "size": 8490,
+   "mtime": "1792950941000",
+   "status": "done",
+   "done_at": "2026-10-26T05:45:35+08:00",
+   "slugs": [],
+   "note": "预印本解读运行总结（元层根目录副本）：留痕件，双层交付按两份分别留痕",
+   "hash": "2a6cbcc97b6ed0ffb787b24c7e56d61f"
+  },
+  "dWDUsmlPGnFo": {
+   "name": "预印本全文级解读_2026-10-26/预印本全文级解读_2026-10-26_全集.tar",
+   "layer": "元层",
+   "size": 23523,
+   "mtime": "1792950909000",
+   "status": "done",
+   "done_at": "2026-10-26T05:45:36+08:00",
+   "slugs": [],
+   "note": "预印本解读全集 tar.gz：打包件，内容含上述 5 篇 + 索引/总结/日志/_items，均已分别处理",
+   "hash": "54c4690e95d3c66a7b735c1b12857a6c"
+  },
+  "dDRLwxDgPdEH": {
+   "name": "预印本全文级解读_2026-10-26/预印本全文级解读_总索引_2026-10-26",
+   "layer": "元层",
+   "size": 5904,
+   "mtime": "1792950814000",
+   "status": "done",
+   "done_at": "2026-10-26T05:45:36+08:00",
+   "slugs": [],
+   "note": "预印本解读总索引：留痕件，5 条题录与已上站 5 篇一一对应",
+   "hash": "c6f96e7c9a947287335531d2d0e7352d"
+  },
+  "dTMOQxADXkJW": {
+   "name": "预印本全文级解读_2026-10-26/预印本全文级解读_日志副本_2026-10-26",
+   "layer": "元层",
+   "size": 6922,
+   "mtime": "1792950878000",
+   "status": "done",
+   "done_at": "2026-10-26T05:45:36+08:00",
+   "slugs": [],
+   "note": "预印本解读日志副本：留痕件",
+   "hash": "442842a311e8df83e303f458591189cb"
+  },
+  "dplhgsUwmtAg": {
+   "name": "预印本全文级解读_2026-10-26/_items",
+   "layer": "元层",
+   "size": 2844,
+   "mtime": "1792950639000",
+   "status": "done",
+   "done_at": "2026-10-26T05:45:36+08:00",
+   "slugs": [],
+   "note": "预印本解读 _items.json 滚动更新：机读清单，已用于批次 a 定位 5 条",
+   "hash": "04187ac1afb5ef0b5edebc6f7ba14210"
   }
  },
  "retired": [
