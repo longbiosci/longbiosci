@@ -1,8 +1,8 @@
 {
  "summary": {
-  "total": 592,
+  "total": 601,
   "level_counts": {
-   "强": 462,
+   "强": 471,
    "中": 130
   },
   "by_tier": {
@@ -11,11 +11,11 @@
     "中": 26
    },
    "B": {
-    "强": 243,
+    "强": 251,
     "中": 89
    },
    "C": {
-    "强": 110,
+    "强": 111,
     "中": 15
    }
   },
@@ -675,6 +675,68 @@
  },
  "articles": [
   {
+   "slug": "AT-1-Acetyl-CoA-Transporter-Neuronal-Metabolism-SIRT1-2026.html",
+   "title": "内质网的乙酰-CoA 闸门 AT-1：一端连着早老症表型，一端连着 SIRT1 与突触沉默",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.isci.2026.117722",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.isci.2026.117722",
+    "https://pubmed.ncbi.nlm.nih.gov/42909095/"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Advanced-Maternal-Age-Decidual-Angiogenesis-2026.html",
+   "title": "妊娠是一次血管压力测试：高龄孕鼠的蜕膜血管生成与螺旋动脉重塑双重受损",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.21.760773",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.21.760773"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Big-Five-Personality-PhenoAge-Acceleration-UKB-2026.html",
+   "title": "神经质让生物年龄跑得更快：UK Biobank 11.9 万人的 PhenoAge 加速与那一成的说服力",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3389/fpsyg.2026.1876764",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/fpsyg.2026.1876764",
+    "https://pubmed.ncbi.nlm.nih.gov/42909058/"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "CSF-cfDNA-Methylation-Tauopathy-Classification-2026.html",
+   "title": "脑脊液 cfDNA 甲基化区分三种 tau 病：AUC 0.84–0.85，血浆跟不上",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1177/13872877261500498",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1177/13872877261500498"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Causal-Genetic-Network-Cross-Sectional-Aging-Fibroblasts-2026.html",
+   "title": "用横断面数据反推动力学：490 例 GTEx 成纤维细胞的因果网络，实验验证率 53.8%",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.21.760791",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.21.760791"
+   ],
+   "level": "强"
+  },
+  {
    "slug": "Cross-Species-Muscle-Transcriptomic-Aging-Signatures-2026.html",
    "title": "六个物种的骨骼肌衰老：共有的只有三个标志物，雌雄走的还不是同一条路",
    "evidence": "C",
@@ -723,6 +785,18 @@
    "level": "强"
   },
   {
+   "slug": "NAD-Sex-Specific-Protection-Early-Life-Infection-2026.html",
+   "title": "补 NR 只保护雌性：NAD 代谢在早期感染防护中的性别二态性",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.19.760092",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.19.760092"
+   ],
+   "level": "强"
+  },
+  {
    "slug": "Preoperative-FBG-Postoperative-Delirium-U-Shaped-2026.html",
    "title": "术前血糖不是越低越好：2,157 例老年糖尿病手术患者的 U 型警告",
    "evidence": "B",
@@ -731,6 +805,43 @@
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.64898/2026.10.20.26366023"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Stathmin1-Mitophagy-Hematopoietic-Stem-Progenitor-2026.html",
+   "title": "静止期的 Stathmin 1：造血干祖细胞的线粒体自噬守门人",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.isci.2026.117458",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.isci.2026.117458",
+    "https://pubmed.ncbi.nlm.nih.gov/42909098/"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "WRN-Deficiency-TA-Rich-Tandem-Repeats-TERT-2026.html",
+   "title": "Werner 综合征的一把钥匙：WRN 缺失让 TA 富集重复变成断裂热点，同一个 15.7 Mb 缺失反复激活 TERT",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.16.758976",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.16.758976"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "miR-29-Epigenetic-Fidelity-Plasticity-Tradeoff-2026.html",
+   "title": "miR-29 的一笔账：保住了表观遗传的忠实，赊掉了年轻的可塑性",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.18.759616",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.18.759616"
    ],
    "level": "强"
   },
