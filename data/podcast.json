@@ -15,7 +15,7 @@
     "disclaimer": "本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。",
     "transcript_dir": "podcast/transcripts",
     "data_datetime": "2026-10-22 18:32",
-    "generated_at": "2026-10-24 03:31"
+    "generated_at": "2026-10-25 03:53"
   },
   "episodes": [
     {
@@ -196,6 +196,156 @@
           "pmid": "",
           "url": "https://doi.org/10.64898/2026.10.15.759429",
           "note": "未经同行评审；本站依据官方摘要撰写，源站全文未获取"
+        }
+      ]
+    },
+    {
+      "id": "ep008",
+      "slug": "brain-age-multiverse-pipelines-2026",
+      "series": "打假与证伪",
+      "title": "脑龄预测的多宇宙：换一条流水线，误差能从五岁变成十八岁",
+      "date": "2026-10-25",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-25 03:53",
+      "duration_sec": 476,
+      "audio": "audio/brain-age-multiverse-pipelines-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "脑龄是预测出来的量，不是测出来的量。84 条分析流水线跑下来，平均绝对误差从 5.26 岁到 18.30 岁——而图谱选哪张，几乎不影响精度，却决定「哪些脑区最重要」。",
+      "article_slugs": [
+        "news/Multiverse-Brain-Age-Pipeline-Sensitivity-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "bioRxiv（2026-10）：脑龄预测的多宇宙分析——模态、偏倚校正与图谱选择（CamCAN 560 名健康成人 × 84 条流水线）",
+          "doi": "10.64898/2026.10.12.758514v1",
+          "pmid": "",
+          "url": "https://doi.org/10.64898/2026.10.12.758514v1",
+          "note": "未经同行评审的预印本；本站仅依据官方摘要与站内解读撰写"
+        }
+      ]
+    },
+    {
+      "id": "ep009",
+      "slug": "regeneration-transcriptomic-rejuvenation-gut-liver-2026",
+      "series": "论文精读",
+      "title": "再生让组织变年轻了吗：一份六十三页预印本给出的瞬时答案",
+      "date": "2026-10-25",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-25 03:53",
+      "duration_sec": 517,
+      "audio": "audio/regeneration-transcriptomic-rejuvenation-gut-liver-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "11 类再生模型里，上皮一律被预测为更年轻。但把整条时间曲线拉出来看：损伤期先变老、再生峰值变年轻、然后回到基线——而癌变中的病变也被判为「更年轻」。",
+      "article_slugs": [
+        "news/Regeneration-Transient-Transcriptomic-Rejuvenation-Gut-Liver-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "bioRxiv（2026-10-13）：Gladyshev / Iqbal 组 63 页预印本——再生进入与退出时的组织转录组年龄轨迹",
+          "doi": "10.64898/2026.10.11.758291v1",
+          "pmid": "",
+          "url": "https://doi.org/10.64898/2026.10.11.758291v1",
+          "note": "未经同行评审的预印本；本站仅依据官方摘要与站内解读撰写"
+        }
+      ]
+    },
+    {
+      "id": "ep010",
+      "slug": "nia-itp-11-compounds-no-lifespan-2026",
+      "series": "打假与证伪",
+      "title": "十一种抗衰化合物，在金标准测试里一个都没活下来",
+      "date": "2026-10-25",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-25 03:53",
+      "duration_sec": 343,
+      "audio": "audio/nia-itp-11-compounds-no-lifespan-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "NIA 干预测试项目用遗传异质性小鼠、三站点协作测了 11 种化合物：全部未能显著延长寿命，其中三种在雌性身上与寿命缩短相关。虾青素、美克洛嗪、米格列酮此前阳性，本轮未重复。",
+      "article_slugs": [
+        "news/NIA-ITP-11-Compounds-No-Lifespan-Extension-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "GeroScience：NIA 干预测试项目（ITP）——11 种化合物在遗传异质性 UM-HET3 小鼠中的寿命测试结果",
+          "doi": "10.1007/s11357-026-02201-2",
+          "pmid": "",
+          "url": "https://doi.org/10.1007/s11357-026-02201-2",
+          "note": "站内文章未提供各化合物剂量、组样本量与统计值，本节目未作补充"
+        }
+      ]
+    },
+    {
+      "id": "ep011",
+      "slug": "ampk-direct-activation-991-lifespan-2026",
+      "series": "机制十分钟",
+      "title": "AMPK 单独被打开会怎样：三种模式生物给出了同一个方向",
+      "date": "2026-10-25",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-25 03:53",
+      "duration_sec": 370,
+      "audio": "audio/ampk-direct-activation-991-lifespan-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "用直接激活剂 991 把 AMPK 单独打开，酵母、线虫、果蝇都延寿，部分幅度超过 25%。但小鼠身上没有延长寿命，只看到一组「促长寿」的蛋白组特征。",
+      "article_slugs": [
+        "news/AMPK-Direct-Activation-991-Lifespan-AgingCell-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Aging Cell（2026-09-29）：直接 AMPK 激活剂 991 在裂殖酵母、线虫与果蝇中延长寿命",
+          "doi": "10.1111/acel.70721",
+          "pmid": "",
+          "url": "https://doi.org/10.1111/acel.70721",
+          "note": "同行评议临床前研究；991 为实验性化合物，小鼠仅蛋白组证据，不构成用药建议"
+        }
+      ]
+    },
+    {
+      "id": "ep012",
+      "slug": "ramanomics-senescence-barcode-2026",
+      "series": "论文精读",
+      "title": "不用活检看见衰老细胞：一束激光和一个百分之七十八的准确率",
+      "date": "2026-10-25",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-25 03:53",
+      "duration_sec": 424,
+      "audio": "audio/ramanomics-senescence-barcode-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "肺和皮肤的衰老细胞激活的是两套完全不同的基因程序，化学成分却收敛到同一个脂质波段。加入拉曼光谱后，分类准确率从 74%/62% 提到 78%/65%——提升是真的，离临床诊断还很远。",
+      "article_slugs": [
+        "news/RamanOmics-Senescence-Detection-Nature-Aging-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Nature Aging（2026-10-11 在线）：拉曼显微镜结合空间转录组学在小鼠肺与皮肤中识别衰老细胞（47,602 个细胞）",
+          "doi": "10.1038/s43587-026-01219-7",
+          "pmid": "",
+          "url": "https://doi.org/10.1038/s43587-026-01219-7",
+          "note": "同行评议临床前研究，全部数据来自小鼠组织切片；人体适配尚未完成"
+        }
+      ]
+    },
+    {
+      "id": "ep013",
+      "slug": "healthspan-not-lifespan-cliche-2026",
+      "series": "打假与证伪",
+      "title": "「我们要的是健康寿命，不是活得久」：三位老年学家说这句话是误导",
+      "date": "2026-10-25",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-25 03:53",
+      "duration_sec": 409,
+      "audio": "audio/healthspan-not-lifespan-cliche-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "动物研究里健康寿命与总寿命通常同向增加；既然衰老是晚期疾病的原因，能真正延迟病理的干预必然也推迟死亡——「纯健康寿命延长」在很大程度上是个神话。",
+      "article_slugs": [
+        "news/Healthspan-Not-Lifespan-GeroScience-Gems-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "GeroScience（2026-10-07）：Gems / Iijima / de Magalhães——「健康寿命而非总寿命」为何是误导性陈词",
+          "doi": "10.1007/s11357-026-02577-1",
+          "pmid": "",
+          "url": "https://doi.org/10.1007/s11357-026-02577-1",
+          "note": "同行评议观点/评论文章，非原始研究，不产生新实验数据；作者已自行披露产业任职"
         }
       ]
     }
