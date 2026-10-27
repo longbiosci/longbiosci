@@ -15,7 +15,7 @@
   "disclaimer": "本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。",
   "transcript_dir": "podcast/transcripts",
   "data_datetime": "2026-10-22 18:32",
-  "generated_at": "2026-10-27 03:44"
+  "generated_at": "2026-10-28 03:39"
  },
  "episodes": [
   {
@@ -673,6 +673,231 @@
      "note": "站内标注 A 级，但机制部分主要来自小鼠模型；「首次在体证明」为论文自身表述、本节目按原文转述不做独立确认；遗传模型为发育期起效，与人类成年期病程不直接对应"
     }
    ]
+  },
+  {
+   "id": "ep027",
+   "slug": "ml-lifespan-compound-screening-auprc-2026",
+   "series": "打假与证伪",
+   "title": "用机器学习筛延寿化合物：准确率八成好看，另一个指标只有零点五二",
+   "desc": "同一份化合物-蛋白互作数据换成三种表示方式，模型的性能与「它认为哪些蛋白重要」会同时改变：XGBoost 准确率 80.36%、AUROC 0.7605，而 AUPRC 只有 0.52–0.53。",
+   "article_slugs": [
+    "news/ML-Lifespan-Extending-Compounds-Prediction-bioRxiv-2026.html"
+   ],
+   "sources": [
+    {
+     "label": "bioRxiv 预印本：化合物-蛋白互作表示方式对延寿化合物预测模型性能与可解释性的影响",
+     "doi": "10.64898/2026.10.16.759743",
+     "pmid": "",
+     "url": "https://doi.org/10.64898/2026.10.16.759743",
+     "note": "预印本未经同行评审；站内仅依据官方摘要撰写，全文未获取（源站返回 HTTP 403）；正负样本数量与比例、标签来源库与纳入标准摘要均未给出，本期不做推测"
+    }
+   ],
+   "date": "2026-10-28",
+   "data_datetime": "2026-10-22 18:32",
+   "generated_at": "2026-10-28 03:39",
+   "duration_sec": 426,
+   "audio": "audio/ml-lifespan-compound-screening-auprc-2026.mp3",
+   "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  {
+   "id": "ep028",
+   "slug": "lipid-chain-elongation-plb1-aging-2026",
+   "series": "论文精读",
+   "title": "脂质链变长：一个想挤进「衰老标志」清单的新候选",
+   "desc": "脂质酰基链长度在小鼠、线虫、果蝇和人类中一致随龄变长，可被饮食限制与雷帕霉素逆转，Plb1 敲低在线虫延长寿命——但小鼠没有寿命数据。",
+   "article_slugs": [
+    "news/Lipid-Chain-Elongation-Plb1-Hallmark-Aging-2026.html"
+   ],
+   "sources": [
+    {
+     "label": "Nature Aging：脂质酰基链延长作为跨物种保守、可干预的衰老标志及其调控因子 Plb1（作者含 Johan Auwerx、Linda Partridge）",
+     "doi": "10.1038/s43587-026-01223-x",
+     "pmid": "",
+     "url": "https://doi.org/10.1038/s43587-026-01223-x",
+     "note": "小鼠未报告寿命数据，延寿结论仅来自线虫；人体部分为观察性关联与孟德尔随机化统计支持，非干预证据；作者团队在线虫长寿与代谢研究领域有商业化布局与相关专利"
+    }
+   ],
+   "date": "2026-10-28",
+   "data_datetime": "2026-10-22 18:32",
+   "generated_at": "2026-10-28 03:39",
+   "duration_sec": 508,
+   "audio": "audio/lipid-chain-elongation-plb1-aging-2026.mp3",
+   "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  {
+   "id": "ep029",
+   "slug": "naive-cd8-tcell-decline-lymph-node-2026",
+   "series": "论文精读",
+   "title": "中年男性的 T 细胞库提前塌缩：免疫衰老的窗口比想象中更早",
+   "desc": "雄性在中年早期就出现抗原非依赖性的初始 CD8⁺ T 细胞耗竭，叠加胸腺退化使淋巴结更快收缩、癌症抗原识别受限；去雄促胸腺再生可在概念验证层面逆转这一过程。",
+   "article_slugs": [
+    "news/Lymph-Node-Contraction-Links-Sex-biased-NatureAging-2026.html"
+   ],
+   "sources": [
+    {
+     "label": "Nature Aging：雄性中年期初始 CD8⁺ T 细胞耗竭、淋巴结收缩与去雄促胸腺再生对抗肿瘤免疫应答的恢复",
+     "doi": "10.1038/s43587-026-01238-4",
+     "pmid": "42855600",
+     "url": "https://doi.org/10.1038/s43587-026-01238-4",
+     "note": "核心干预为雄激素剥夺，临床可接受性极低，属概念验证而非治疗方案；人类数据仅为支持性证据；T 细胞频率、淋巴结体积、ICB 响应、生存数据与 n、p 值摘要均未给出，标注待补全文；主要为动物模型，不能外推至人体"
+    }
+   ],
+   "date": "2026-10-28",
+   "data_datetime": "2026-10-22 18:32",
+   "generated_at": "2026-10-28 03:39",
+   "duration_sec": 384,
+   "audio": "audio/naive-cd8-tcell-decline-lymph-node-2026.mp3",
+   "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  {
+   "id": "ep030",
+   "slug": "one-carbon-metabolism-folate-hcy-2026",
+   "series": "论文精读",
+   "title": "叶酸与同型半胱氨酸：同一条通路上，坏方向的力量是好方向的三倍",
+   "desc": "印度 LASI-DAD 队列 4.5 年重复测量：同型半胱氨酸每翻一倍约对应表型年龄加速 3.2 年，叶酸每翻一倍约对应慢 1.1 年；观察性设计不能确立因果，本期不推荐任何补剂与剂量。",
+   "article_slugs": [
+    "news/Longitudinal-Associations-Of-One-carbon-Metabolism-GeroScience-2026.html"
+   ],
+   "sources": [
+    {
+     "label": "GeroScience：LASI-DAD 队列中一碳代谢生物标志物与生物学衰老的 4.5 年纵向关联",
+     "doi": "10.1007/s11357-026-02505-3",
+     "pmid": "42720848",
+     "url": "https://doi.org/10.1007/s11357-026-02505-3",
+     "note": "观察性纵向设计无法确立因果，叶酸补充能否减缓衰老需随机对照试验；样本量、回归系数与 95% CI、以及维生素 B12 的结果摘要均未给出（三者并列却只报告两者，不做推测）；印度人群外推需谨慎"
+    }
+   ],
+   "date": "2026-10-28",
+   "data_datetime": "2026-10-22 18:32",
+   "generated_at": "2026-10-28 03:39",
+   "duration_sec": 422,
+   "audio": "audio/one-carbon-metabolism-folate-hcy-2026.mp3",
+   "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  {
+   "id": "ep031",
+   "slug": "senolytic-vs-exercise-cardiac-2026",
+   "series": "打假与证伪",
+   "title": "senolytic 加运动，没有一加一大于二：一次失败的叠加假设",
+   "desc": "12 月龄小鼠 9 个月四组干预：senolytic 与有氧运动都降低了心肌细胞衰老标志并改善心功能，但联合未见叠加，且全心组织的 p16/p21 与 SASP 未被任何干预改变。",
+   "article_slugs": [
+    "news/Chronic-Senolytic-Treatment-or-Aerobic-Exercise-Reduce-Senescence-Improve-Myocardial-Function.html"
+   ],
+   "sources": [
+    {
+     "label": "Aging Cell：慢性 senolytic 和/或有氧运动降低衰老心脏的衰老负荷并改善心肌功能（★ 阴性结果）",
+     "doi": "10.1111/acel.70759",
+     "pmid": "42841582",
+     "url": "https://doi.org/10.1111/acel.70759",
+     "note": "细胞层面标志下降但全心组织 p16/p21 与 SASP 未被任何干预改变；效应量绝对值摘要未给出（PMC13644388 免费全文待核）；未报告雌雄分层；12 月龄起始不能外推至更高龄；阴性结论应读作「未检出叠加」而非「证明无叠加」"
+    }
+   ],
+   "date": "2026-10-28",
+   "data_datetime": "2026-10-22 18:32",
+   "generated_at": "2026-10-28 03:39",
+   "duration_sec": 400,
+   "audio": "audio/senolytic-vs-exercise-cardiac-2026.mp3",
+   "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  {
+   "id": "ep032",
+   "slug": "hiit-aged-female-mice-multi-endpoint-2026",
+   "series": "论文精读",
+   "title": "运动研究里最该看的那一行，是对照组掉了多少",
+   "desc": "14 周 HIIT 让 24 月龄雌鼠的有氧能力涨 71%、执行功能涨 73%，但更该看的是对照组：四股力量掉了 67%。多数终点上的作用是「守住不塌」。",
+   "article_slugs": [
+    "news/HIIT-Aged-Female-Mice-Multi-Endpoint-GeroScience-2026.html"
+   ],
+   "sources": [
+    {
+     "label": "GeroScience：14 周高强度间歇训练对 24 月龄雌性小鼠体能、认知、心血管与体成分等多终点的影响",
+     "doi": "10.1007/s11357-026-02489-0",
+     "pmid": "",
+     "url": "https://doi.org/10.1007/s11357-026-02489-0",
+     "note": "每组仅 n=9；未报告寿命终点；运动起始月龄为按期末 24 月龄与 14 周干预的推算、以全文为准；对照组血压变化未给出、绝对血压值待补全文，不可换算为人类预期"
+    }
+   ],
+   "date": "2026-10-28",
+   "data_datetime": "2026-10-22 18:32",
+   "generated_at": "2026-10-28 03:39",
+   "duration_sec": 402,
+   "audio": "audio/hiit-aged-female-mice-multi-endpoint-2026.mp3",
+   "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  {
+   "id": "ep033",
+   "slug": "sirt1-l1-retrotransposon-heterochromatin-2026",
+   "series": "机制十分钟",
+   "title": "SIRT1 的另一份工作：按住基因组里的跳跃基因",
+   "desc": "SIRT1 通过增强 Lamin B1 与 KAP1 互作、提高 H3K9me3 把 L1 逆转座子按在异染色质里；缺失时经 cGAS-STING 触发衰老，3TC 的挽救仅在细胞层面得到验证。",
+   "article_slugs": [
+    "news/SIRT1-L1-Retrotransposon-Heterochromatin-AgingCell-2026.html"
+   ],
+   "sources": [
+    {
+     "label": "Aging Cell：SIRT1 经 Lamin B1–KAP1 与 H3K9me3 维持 L1 逆转座子异染色质沉默，缺失时经 cGAS-STING 触发细胞衰老及 3TC 挽救",
+     "doi": "10.1111/acel.70689",
+     "pmid": "",
+     "url": "https://doi.org/10.1111/acel.70689",
+     "note": "3TC 挽救仅在细胞层面验证、体内效果未报告；主要证据来自细胞系，缺在体衰老模型与寿命数据；摘要未提供可引用定量，本期不给出任何具体数字；不能由此推出补充 SIRT1 激活剂有效；3TC 为处方药，本期仅作研究设计陈述"
+    }
+   ],
+   "date": "2026-10-28",
+   "data_datetime": "2026-10-22 18:32",
+   "generated_at": "2026-10-28 03:39",
+   "duration_sec": 391,
+   "audio": "audio/sirt1-l1-retrotransposon-heterochromatin-2026.mp3",
+   "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  {
+   "id": "ep034",
+   "slug": "oral-function-limit-frailty-sex-specific-2026",
+   "series": "打假与证伪",
+   "title": "咀嚼困难预示衰弱风险上升七成——但这个效应只在女性身上成立",
+   "desc": "1348 名基线健壮老人 4 年随访：自报口腔功能受限使衰弱新发风险上升约七成（HR 1.74）；但分层后女性 HR 2.44 显著、男性 HR 0.87 不显著，且男性组置信区间极宽。",
+   "article_slugs": [
+    "news/Oral-Functional-Limitation-Risk-Of-GeroScience-2026.html"
+   ],
+   "sources": [
+    {
+     "label": "GeroScience：韩国社区老人自报口腔功能受限与衰弱新发的 4 年纵向关联及性别差异",
+     "doi": "10.1007/s11357-025-02015-8",
+     "pmid": "41331404",
+     "url": "https://doi.org/10.1007/s11357-025-02015-8",
+     "note": "暴露仅两项自报条目、无客观口腔功能测定（咬合力/舌压/余留牙数）；男性组 95% CI 0.44–1.73 极宽，不显著很可能为效力不足而非确凿阴性；事件数与交互项 p 值待补全文；PMC13601412 免费全文可核验"
+    }
+   ],
+   "date": "2026-10-28",
+   "data_datetime": "2026-10-22 18:32",
+   "generated_at": "2026-10-28 03:39",
+   "duration_sec": 407,
+   "audio": "audio/oral-function-limit-frailty-sex-specific-2026.mp3",
+   "voice": "zh-CN-XiaoxiaoNeural"
+  },
+  {
+   "id": "ep035",
+   "slug": "italy-longevity-medicine-ssn-roadmap-2026",
+   "series": "产业脉搏",
+   "title": "意大利的长寿医学路线图：一份立场文件，五步建议，和三个没解决的障碍",
+   "desc": "65 岁以上占 24.1%、健康寿命年数比预期寿命少 15–16 年；文件提出五步整合路径，同时自承工具多数仍处探索或替代终点阶段、过早应用存在风险。",
+   "article_slugs": [
+    "news/Italy-Longevity-Medicine-Health-Service-2026.html"
+   ],
+   "sources": [
+    {
+     "label": "Aging Cell 立场文件：长寿医学整合进意大利国家卫生服务体系（SSN）的背景、障碍与五步路径",
+     "doi": "10.18632/aging.206402",
+     "pmid": "",
+     "url": "https://doi.org/10.18632/aging.206402",
+     "note": "立场文件而非原始研究，五步路径为建议而非已实施政策；文件自述多组学生物标志物与数字健康监测多数仍处探索/替代终点阶段、过早应用存在风险；站内另参考 Fight Aging 报道，本期不做任何投资相关推断"
+    }
+   ],
+   "date": "2026-10-28",
+   "data_datetime": "2026-10-22 18:32",
+   "generated_at": "2026-10-28 03:39",
+   "duration_sec": 449,
+   "audio": "audio/italy-longevity-medicine-ssn-roadmap-2026.mp3",
+   "voice": "zh-CN-XiaoxiaoNeural"
   }
  ]
 }

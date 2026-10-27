@@ -24,11 +24,25 @@
     "modify_time": "1790223724000"
    },
    {
+    "file_id": "dpnLrBCASvgV",
+    "name": "预印本速递_总表_2026-10-28增量",
+    "ext": "xlsx",
+    "size": "30105",
+    "modify_time": "1793119494000"
+   },
+   {
     "file_id": "djAzFCMwHNzg",
     "name": "预印本速递_总表_2026-10-26增量",
     "ext": "xlsx",
     "size": "52328",
     "modify_time": "1792945600000"
+   },
+   {
+    "file_id": "dtRtWuzsKAUz",
+    "name": "预印本速递_2026-10-28",
+    "ext": "md",
+    "size": "149427",
+    "modify_time": "1793119463000"
    },
    {
     "file_id": "dVulkMNCgUDp",
@@ -232,6 +246,20 @@
   "dir_id": "dVEYJcsAbUdK",
   "items": [
    {
+    "file_id": "dauTkaOpIygl",
+    "name": "行业情报周报_2026-10-28",
+    "ext": "xlsx",
+    "size": "50911",
+    "modify_time": "1793124700000"
+   },
+   {
+    "file_id": "dfCLxqSPNKoU",
+    "name": "行业情报周报_2026-10-28",
+    "ext": "md",
+    "size": "53827",
+    "modify_time": "1793124939000"
+   },
+   {
     "file_id": "dxCnKBUCoQXK",
     "name": "行业情报周报_2026-10-21",
     "ext": "xlsx",
@@ -264,7 +292,7 @@
     "name": "行业情报周报_2026-09-16",
     "ext": "xlsx",
     "size": "18880",
-    "modify_time": "1792949462000"
+    "modify_time": "1793059918000"
    },
    {
     "file_id": "dOnhQdjKdwmw",
@@ -272,12 +300,229 @@
     "ext": "md",
     "size": "30237",
     "modify_time": "1789522187000"
+   },
+   {
+    "file_id": "dmsATtPgKteT",
+    "name": "管线状态基线",
+    "ext": "json",
+    "size": "19435",
+    "modify_time": "1793124702000"
    }
   ]
  },
  "元层": {
   "dir_id": "dQpzABLkRxLu",
   "items": [
+   {
+    "file_id": "drpAaQJoGZph",
+    "name": "预印本全文级解读_2026-10-28/预印本解读_2026-10-27_观察哨09_10.64898-2026.10.25.761682",
+    "ext": "md",
+    "size": "4569",
+    "modify_time": "1793125084000"
+   },
+   {
+    "file_id": "drBVAVNLSpqv",
+    "name": "预印本全文级解读_2026-10-28/预印本解读_2026-10-27_观察哨08_10.64898-2026.10.23.761349",
+    "ext": "md",
+    "size": "4226",
+    "modify_time": "1793125083000"
+   },
+   {
+    "file_id": "dojcDQttSVDl",
+    "name": "预印本全文级解读_2026-10-28/预印本解读_2026-10-27_观察哨07_10.64898-2026.10.25.761633",
+    "ext": "md",
+    "size": "3872",
+    "modify_time": "1793125082000"
+   },
+   {
+    "file_id": "dqgRoYfafroh",
+    "name": "预印本全文级解读_2026-10-28/预印本解读_2026-10-27_观察哨06_10.64898-2026.10.22.761284",
+    "ext": "md",
+    "size": "4511",
+    "modify_time": "1793124971000"
+   },
+   {
+    "file_id": "dvWeZEWvECDg",
+    "name": "预印本全文级解读_2026-10-28/预印本解读_2026-10-27_观察哨05_10.64898-2026.10.23.761372",
+    "ext": "md",
+    "size": "3470",
+    "modify_time": "1793124970000"
+   },
+   {
+    "file_id": "dNcTatTFzTqF",
+    "name": "预印本全文级解读_2026-10-28/预印本解读_2026-10-27_观察哨04_10.64898-2026.10.26.761765",
+    "ext": "md",
+    "size": "4216",
+    "modify_time": "1793124969000"
+   },
+   {
+    "file_id": "dOhwMtcwKszI",
+    "name": "预印本全文级解读_2026-10-28/预印本解读_2026-10-27_观察哨03_10.1101-2025.11.26.690872",
+    "ext": "md",
+    "size": "4299",
+    "modify_time": "1793124968000"
+   },
+   {
+    "file_id": "dxBmtjsvXpbp",
+    "name": "预印本全文级解读_2026-10-28/预印本解读_2026-10-27_观察哨02_10.64898-2026.10.26.762038",
+    "ext": "md",
+    "size": "4068",
+    "modify_time": "1793124966000"
+   },
+   {
+    "file_id": "drFQpAwQdQLo",
+    "name": "预印本全文级解读_2026-10-28/预印本解读_2026-10-27_观察哨01_10.64898-2026.10.26.761919",
+    "ext": "md",
+    "size": "4285",
+    "modify_time": "1793124855000"
+   },
+   {
+    "file_id": "dvaMKcigRchJ",
+    "name": "预印本全文级解读_2026-10-28/预印本解读_2026-10-27_主榜05_10.64898-2026.10.24.761584",
+    "ext": "md",
+    "size": "5166",
+    "modify_time": "1793124854000"
+   },
+   {
+    "file_id": "dsDLlxVMwCkc",
+    "name": "预印本全文级解读_2026-10-28/预印本解读_2026-10-27_主榜04_10.64898-2026.10.26.761670",
+    "ext": "md",
+    "size": "4312",
+    "modify_time": "1793124853000"
+   },
+   {
+    "file_id": "dxNlkMbEplkV",
+    "name": "预印本全文级解读_2026-10-28/预印本解读_2026-10-27_主榜03_10.1101-2025.07.07.663438",
+    "ext": "md",
+    "size": "4791",
+    "modify_time": "1793124852000"
+   },
+   {
+    "file_id": "dfxjrxTMIVDg",
+    "name": "预印本全文级解读_2026-10-28/预印本解读_2026-10-27_主榜02_10.64898-2026.10.23.761432",
+    "ext": "md",
+    "size": "4447",
+    "modify_time": "1793124850000"
+   },
+   {
+    "file_id": "dqinjZQnWTgq",
+    "name": "预印本全文级解读_2026-10-28/预印本解读_2026-10-27_主榜01_10.64898-2026.10.25.761546",
+    "ext": "md",
+    "size": "5300",
+    "modify_time": "1793124738000"
+   },
+   {
+    "file_id": "drpSjcKDLbAs",
+    "name": "预印本全文级解读_2026-10-28/预印本解读_2026-10-26_补遗B8_10.64898-2026.10.22.26366255",
+    "ext": "md",
+    "size": "8766",
+    "modify_time": "1793125315000"
+   },
+   {
+    "file_id": "dWpaEdqmzgkl",
+    "name": "预印本全文级解读_2026-10-28/预印本解读_2026-10-26_补遗B7_10.64898-2026.10.23.26366288",
+    "ext": "md",
+    "size": "8227",
+    "modify_time": "1793125313000"
+   },
+   {
+    "file_id": "doDPpbIrFasw",
+    "name": "预印本全文级解读_2026-10-28/预印本解读_2026-10-26_补遗B6_10.64898-2026.10.23.26366296",
+    "ext": "md",
+    "size": "9879",
+    "modify_time": "1793125312000"
+   },
+   {
+    "file_id": "dCSgmWHakgmw",
+    "name": "预印本全文级解读_2026-10-28/预印本解读_2026-10-26_补遗B5_10.64898-2026.10.22.26366227",
+    "ext": "md",
+    "size": "8585",
+    "modify_time": "1793125311000"
+   },
+   {
+    "file_id": "dNQZCsONEYXk",
+    "name": "预印本全文级解读_2026-10-28/预印本解读_2026-10-26_补遗B4_10.64898-2026.10.20.26363947",
+    "ext": "md",
+    "size": "9351",
+    "modify_time": "1793125310000"
+   },
+   {
+    "file_id": "dJrmLIjrMGEX",
+    "name": "预印本全文级解读_2026-10-28/预印本解读_2026-10-26_补遗B3_10.64898-2026.09.29.755284",
+    "ext": "md",
+    "size": "4485",
+    "modify_time": "1793125203000"
+   },
+   {
+    "file_id": "dlhkqApqNTZu",
+    "name": "预印本全文级解读_2026-10-28/预印本解读_2026-10-26_补遗B2_10.64898-2026.10.21.760411",
+    "ext": "md",
+    "size": "3905",
+    "modify_time": "1793125201000"
+   },
+   {
+    "file_id": "dXnWdQwJAoku",
+    "name": "预印本全文级解读_2026-10-28/预印本解读_2026-10-26_补遗B1_10.64898-2026.10.24.26366278",
+    "ext": "md",
+    "size": "10281",
+    "modify_time": "1793125200000"
+   },
+   {
+    "file_id": "dnYhQwTGsCdB",
+    "name": "预印本全文级解读_2026-10-28/预印本解读_2026-10-26_补遗A4_10.64898-2026.10.20.760445",
+    "ext": "md",
+    "size": "4136",
+    "modify_time": "1793125199000"
+   },
+   {
+    "file_id": "dcWTEDUsLurC",
+    "name": "预印本全文级解读_2026-10-28/预印本解读_2026-10-26_补遗A3_10.64898-2026.10.22.26366029",
+    "ext": "md",
+    "size": "12326",
+    "modify_time": "1793125197000"
+   },
+   {
+    "file_id": "dbGDFjjCNtKF",
+    "name": "预印本全文级解读_2026-10-28/预印本解读_2026-10-26_补遗A2_10.64898-2026.10.22.26366221",
+    "ext": "md",
+    "size": "14921",
+    "modify_time": "1793125087000"
+   },
+   {
+    "file_id": "dGhIcZnmEYLX",
+    "name": "预印本全文级解读_2026-10-28/预印本解读_2026-10-26_补遗A1_10.64898-2026.10.11.758291",
+    "ext": "md",
+    "size": "5800",
+    "modify_time": "1793125085000"
+   },
+   {
+    "file_id": "dUBjzmhPtlOB",
+    "name": "预印本全文级解读_2026-10-28/预印本全文级解读_运行总结_2026-10-28",
+    "ext": "md",
+    "size": "14681",
+    "modify_time": "1793125547000"
+   },
+   {
+    "file_id": "dTCUavEKmZaS",
+    "name": "预印本全文级解读_2026-10-28/预印本全文级解读_日志副本_2026-10-28",
+    "ext": "log",
+    "size": "11771",
+    "modify_time": "1793125549000"
+   },
+   {
+    "file_id": "dEqVnNUzEkuZ",
+    "name": "预印本全文级解读_2026-10-28/预印本全文级解读_2026-10-28_全集.tar",
+    "ext": "gz",
+    "size": "63332",
+    "modify_time": "1793124736000"
+   },
+   {
+    "file_id": "dfPCBwYantrz",
+    "name": "预印本全文级解读_2026-10-28/_items",
+    "ext": "json",
+    "size": "14273",
+    "modify_time": "1793124732000"
+   },
    {
     "file_id": "dlMfkkYgSiho",
     "name": "预印本全文级解读_2026-10-26/预印本解读_2026-10-25_观察哨03_10.64898-2026.10.22.760701",
@@ -657,6 +902,20 @@
     "modify_time": "1792778730000"
    },
    {
+    "file_id": "dauTkaOpIygl",
+    "name": "IMA知识库_0019eb4e65002c9f/行业层/行业情报周报_2026-10-28",
+    "ext": "xlsx",
+    "size": "50911",
+    "modify_time": "1793124700000"
+   },
+   {
+    "file_id": "dfCLxqSPNKoU",
+    "name": "IMA知识库_0019eb4e65002c9f/行业层/行业情报周报_2026-10-28",
+    "ext": "md",
+    "size": "53827",
+    "modify_time": "1793124939000"
+   },
+   {
     "file_id": "dxCnKBUCoQXK",
     "name": "IMA知识库_0019eb4e65002c9f/行业层/行业情报周报_2026-10-21",
     "ext": "xlsx",
@@ -689,7 +948,7 @@
     "name": "IMA知识库_0019eb4e65002c9f/行业层/行业情报周报_2026-09-16",
     "ext": "xlsx",
     "size": "18880",
-    "modify_time": "1792949462000"
+    "modify_time": "1793059918000"
    },
    {
     "file_id": "dOnhQdjKdwmw",
@@ -697,6 +956,13 @@
     "ext": "md",
     "size": "30237",
     "modify_time": "1789522187000"
+   },
+   {
+    "file_id": "dmsATtPgKteT",
+    "name": "IMA知识库_0019eb4e65002c9f/行业层/管线状态基线",
+    "ext": "json",
+    "size": "19435",
+    "modify_time": "1793124702000"
    },
    {
     "file_id": "dequNRtQngAz",
@@ -853,11 +1119,25 @@
     "modify_time": "1790223724000"
    },
    {
+    "file_id": "dpnLrBCASvgV",
+    "name": "IMA知识库_0019eb4e65002c9f/文献层/预印本速递_总表_2026-10-28增量",
+    "ext": "xlsx",
+    "size": "30105",
+    "modify_time": "1793119494000"
+   },
+   {
     "file_id": "djAzFCMwHNzg",
     "name": "IMA知识库_0019eb4e65002c9f/文献层/预印本速递_总表_2026-10-26增量",
     "ext": "xlsx",
     "size": "52328",
     "modify_time": "1792945600000"
+   },
+   {
+    "file_id": "dtRtWuzsKAUz",
+    "name": "IMA知识库_0019eb4e65002c9f/文献层/预印本速递_2026-10-28",
+    "ext": "md",
+    "size": "149427",
+    "modify_time": "1793119463000"
    },
    {
     "file_id": "dVulkMNCgUDp",
@@ -1077,6 +1357,13 @@
     "modify_time": "1792778734000"
    },
    {
+    "file_id": "dVdAvVgUAvkp",
+    "name": "预印本全文级解读_运行总结_2026-10-28",
+    "ext": "",
+    "size": "18005",
+    "modify_time": "1793125550000"
+   },
+   {
     "file_id": "dPLsJZXUOxrM",
     "name": "预印本全文级解读_运行总结_2026-10-26",
     "ext": "md",
@@ -1095,7 +1382,7 @@
     "name": "运营日志",
     "ext": "md",
     "size": "42803",
-    "modify_time": "1792957693000"
+    "modify_time": "1793107612000"
    },
    {
     "file_id": "dMIguvNomlMp",
@@ -1109,7 +1396,7 @@
     "name": "运营待办清单",
     "ext": "md",
     "size": "25062",
-    "modify_time": "1792934150000"
+    "modify_time": "1793107648000"
    },
    {
     "file_id": "dkmvnmTBYaqu",
@@ -1154,6 +1441,20 @@
     "modify_time": "1792791733000"
    },
    {
+    "file_id": "dlyTXAelaRdq",
+    "name": "午刊补丁包_2026-10-27_待推送.tar",
+    "ext": "gz",
+    "size": "192445",
+    "modify_time": "1793080370000"
+   },
+   {
+    "file_id": "dUWaxkDcFcbo",
+    "name": "午刊补丁包_2026-10-26_待推送.tar",
+    "ext": "gz",
+    "size": "181177",
+    "modify_time": "1792994332000"
+   },
+   {
     "file_id": "dutntPjmuBOP",
     "name": "午刊补丁包_2026-10-25_待推送.tar",
     "ext": "gz",
@@ -1196,6 +1497,13 @@
     "modify_time": "1791767865000"
    },
    {
+    "file_id": "dAnKxVCrsSXL",
+    "name": "P2-18_data-lb-event-date_修复包_待巡检套用_2026-10-26.tar",
+    "ext": "gz",
+    "size": "14818",
+    "modify_time": "1792974125000"
+   },
+   {
     "file_id": "dGVcnGUvlgkl",
     "name": "LongBiosci_预印本流水线脚本资产_2026-10-24.tar",
     "ext": "gz",
@@ -1208,6 +1516,20 @@
     "ext": "xlsx",
     "size": "7264",
     "modify_time": "1792726906000"
+   },
+   {
+    "file_id": "daOaqmbrDKDw",
+    "name": "LongBiosci_播客_ep027-ep035_增量_待推送_2026-10-28",
+    "ext": "tar",
+    "size": "23603200",
+    "modify_time": "1793130023000"
+   },
+   {
+    "file_id": "dqKaXlSTUXKJ",
+    "name": "LongBiosci_播客_ep020-ep026_增量_待推送_2026-10-27",
+    "ext": "tar",
+    "size": "16742400",
+    "modify_time": "1793044023000"
    },
    {
     "file_id": "dKUTHchdFmMA",
@@ -1257,6 +1579,20 @@
     "ext": "gz",
     "size": "439260",
     "modify_time": "1792721528000"
+   },
+   {
+    "file_id": "dbZAxUiJXMff",
+    "name": "LongBiosci_内容交付_64434345_2026-10-27_待推送",
+    "ext": "tar",
+    "size": "23265280",
+    "modify_time": "1793051329000"
+   },
+   {
+    "file_id": "dfLQXQxzlQEV",
+    "name": "github_pat_longbiosci.deploy",
+    "ext": "",
+    "size": "93",
+    "modify_time": "1793083085000"
    }
   ]
  },

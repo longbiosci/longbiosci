@@ -8,7 +8,7 @@
   <language>zh-cn</language>
   <copyright>© 2026 LongBiosci 编辑部</copyright>
   <description><![CDATA[只讲有来源的长寿科学——每期节目，都能顺着一张来源清单回查原文。 本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。]]></description>
-  <lastBuildDate>Tue, 27 Oct 2026 03:44:00 +0800</lastBuildDate>
+  <lastBuildDate>Wed, 28 Oct 2026 03:39:00 +0800</lastBuildDate>
   <itunes:author>LongBiosci 编辑部</itunes:author>
   <itunes:summary><![CDATA[只讲有来源的长寿科学——每期节目，都能顺着一张来源清单回查原文。]]></itunes:summary>
   <itunes:owner>
@@ -23,6 +23,249 @@
   </image>
   <itunes:category text="Science"/>
   <itunes:explicit>no</itunes:explicit>
+  <item>
+    <title>用机器学习筛延寿化合物：准确率八成好看，另一个指标只有零点五二</title>
+    <link>https://longbiosci.com/podcast/#ep027</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep027</guid>
+    <pubDate>Wed, 28 Oct 2026 03:39:00 +0800</pubDate>
+    <category>打假与证伪</category>
+    <description><![CDATA[数据日期：2026-10-22 18:32
+生成时间：2026-10-28 03:39
+
+同一份化合物-蛋白互作数据换成三种表示方式，模型的性能与「它认为哪些蛋白重要」会同时改变：XGBoost 准确率 80.36%、AUROC 0.7605，而 AUPRC 只有 0.52–0.53。
+
+来源：
+· bioRxiv 预印本：化合物-蛋白互作表示方式对延寿化合物预测模型性能与可解释性的影响（DOI 10.64898/2026.10.16.759743）
+  注：预印本未经同行评审；站内仅依据官方摘要撰写，全文未获取（源站返回 HTTP 403）；正负样本数量与比例、标签来源库与纳入标准摘要均未给出，本期不做推测
+
+站内延伸阅读：
+· 用 XGBoost 筛延寿化合物：准确率 80.36% 好看，但 AUPRC 只有 0.52 https://longbiosci.com/news/ML-Lifespan-Extending-Compounds-Prediction-bioRxiv-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep027]]></description>
+    <enclosure url="https://longbiosci.com/audio/ml-lifespan-compound-screening-auprc-2026.mp3" length="2554797" type="audio/mpeg"/>
+    <itunes:duration>426</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[同一份化合物-蛋白互作数据换成三种表示方式，模型的性能与「它认为哪些蛋白重要」会同时改变：XGBoost 准确率 80.36%、AUROC 0.7605，而 AUPRC 只有 0.52–0.53。]]></itunes:summary>
+  </item>
+  <item>
+    <title>脂质链变长：一个想挤进「衰老标志」清单的新候选</title>
+    <link>https://longbiosci.com/podcast/#ep028</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep028</guid>
+    <pubDate>Wed, 28 Oct 2026 03:39:00 +0800</pubDate>
+    <category>论文精读</category>
+    <description><![CDATA[数据日期：2026-10-22 18:32
+生成时间：2026-10-28 03:39
+
+脂质酰基链长度在小鼠、线虫、果蝇和人类中一致随龄变长，可被饮食限制与雷帕霉素逆转，Plb1 敲低在线虫延长寿命——但小鼠没有寿命数据。
+
+来源：
+· Nature Aging：脂质酰基链延长作为跨物种保守、可干预的衰老标志及其调控因子 Plb1（作者含 Johan Auwerx、Linda Partridge）（DOI 10.1038/s43587-026-01223-x）
+  注：小鼠未报告寿命数据，延寿结论仅来自线虫；人体部分为观察性关联与孟德尔随机化统计支持，非干预证据；作者团队在线虫长寿与代谢研究领域有商业化布局与相关专利
+
+站内延伸阅读：
+· 脂质链变长是跨物种衰老标志：Nature Aging 找到可干预的 Plb1 靶点 https://longbiosci.com/news/Lipid-Chain-Elongation-Plb1-Hallmark-Aging-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep028]]></description>
+    <enclosure url="https://longbiosci.com/audio/lipid-chain-elongation-plb1-aging-2026.mp3" length="3048717" type="audio/mpeg"/>
+    <itunes:duration>508</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[脂质酰基链长度在小鼠、线虫、果蝇和人类中一致随龄变长，可被饮食限制与雷帕霉素逆转，Plb1 敲低在线虫延长寿命——但小鼠没有寿命数据。]]></itunes:summary>
+  </item>
+  <item>
+    <title>中年男性的 T 细胞库提前塌缩：免疫衰老的窗口比想象中更早</title>
+    <link>https://longbiosci.com/podcast/#ep029</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep029</guid>
+    <pubDate>Wed, 28 Oct 2026 03:39:00 +0800</pubDate>
+    <category>论文精读</category>
+    <description><![CDATA[数据日期：2026-10-22 18:32
+生成时间：2026-10-28 03:39
+
+雄性在中年早期就出现抗原非依赖性的初始 CD8⁺ T 细胞耗竭，叠加胸腺退化使淋巴结更快收缩、癌症抗原识别受限；去雄促胸腺再生可在概念验证层面逆转这一过程。
+
+来源：
+· Nature Aging：雄性中年期初始 CD8⁺ T 细胞耗竭、淋巴结收缩与去雄促胸腺再生对抗肿瘤免疫应答的恢复（DOI 10.1038/s43587-026-01238-4；PubMed 42855600）
+  注：核心干预为雄激素剥夺，临床可接受性极低，属概念验证而非治疗方案；人类数据仅为支持性证据；T 细胞频率、淋巴结体积、ICB 响应、生存数据与 n、p 值摘要均未给出，标注待补全文；主要为动物模型，不能外推至人体
+
+站内延伸阅读：
+· 中年男性的 T 细胞库提前塌缩，而去雄能让胸腺&quot;回春&quot; https://longbiosci.com/news/Lymph-Node-Contraction-Links-Sex-biased-NatureAging-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep029]]></description>
+    <enclosure url="https://longbiosci.com/audio/naive-cd8-tcell-decline-lymph-node-2026.mp3" length="2303229" type="audio/mpeg"/>
+    <itunes:duration>384</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[雄性在中年早期就出现抗原非依赖性的初始 CD8⁺ T 细胞耗竭，叠加胸腺退化使淋巴结更快收缩、癌症抗原识别受限；去雄促胸腺再生可在概念验证层面逆转这一过程。]]></itunes:summary>
+  </item>
+  <item>
+    <title>叶酸与同型半胱氨酸：同一条通路上，坏方向的力量是好方向的三倍</title>
+    <link>https://longbiosci.com/podcast/#ep030</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep030</guid>
+    <pubDate>Wed, 28 Oct 2026 03:39:00 +0800</pubDate>
+    <category>论文精读</category>
+    <description><![CDATA[数据日期：2026-10-22 18:32
+生成时间：2026-10-28 03:39
+
+印度 LASI-DAD 队列 4.5 年重复测量：同型半胱氨酸每翻一倍约对应表型年龄加速 3.2 年，叶酸每翻一倍约对应慢 1.1 年；观察性设计不能确立因果，本期不推荐任何补剂与剂量。
+
+来源：
+· GeroScience：LASI-DAD 队列中一碳代谢生物标志物与生物学衰老的 4.5 年纵向关联（DOI 10.1007/s11357-026-02505-3；PubMed 42720848）
+  注：观察性纵向设计无法确立因果，叶酸补充能否减缓衰老需随机对照试验；样本量、回归系数与 95% CI、以及维生素 B12 的结果摘要均未给出（三者并列却只报告两者，不做推测）；印度人群外推需谨慎
+
+站内延伸阅读：
+· LASI-DAD 4.5 年重复测量：叶酸与同型半胱氨酸，把&quot;一碳代谢&quot;接上了衰老轨迹 https://longbiosci.com/news/Longitudinal-Associations-Of-One-carbon-Metabolism-GeroScience-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep030]]></description>
+    <enclosure url="https://longbiosci.com/audio/one-carbon-metabolism-folate-hcy-2026.mp3" length="2533197" type="audio/mpeg"/>
+    <itunes:duration>422</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[印度 LASI-DAD 队列 4.5 年重复测量：同型半胱氨酸每翻一倍约对应表型年龄加速 3.2 年，叶酸每翻一倍约对应慢 1.1 年；观察性设计不能确立因果，本期不推荐任何补剂与剂量。]]></itunes:summary>
+  </item>
+  <item>
+    <title>senolytic 加运动，没有一加一大于二：一次失败的叠加假设</title>
+    <link>https://longbiosci.com/podcast/#ep031</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep031</guid>
+    <pubDate>Wed, 28 Oct 2026 03:39:00 +0800</pubDate>
+    <category>打假与证伪</category>
+    <description><![CDATA[数据日期：2026-10-22 18:32
+生成时间：2026-10-28 03:39
+
+12 月龄小鼠 9 个月四组干预：senolytic 与有氧运动都降低了心肌细胞衰老标志并改善心功能，但联合未见叠加，且全心组织的 p16/p21 与 SASP 未被任何干预改变。
+
+来源：
+· Aging Cell：慢性 senolytic 和/或有氧运动降低衰老心脏的衰老负荷并改善心肌功能（★ 阴性结果）（DOI 10.1111/acel.70759；PubMed 42841582）
+  注：细胞层面标志下降但全心组织 p16/p21 与 SASP 未被任何干预改变；效应量绝对值摘要未给出（PMC13644388 免费全文待核）；未报告雌雄分层；12 月龄起始不能外推至更高龄；阴性结论应读作「未检出叠加」而非「证明无叠加」
+
+站内延伸阅读：
+· 慢性 senolytic 和/或有氧运动降低衰老心脏的衰老负荷并改善心肌功能 ★ 阴性结果值得注意 https://longbiosci.com/news/Chronic-Senolytic-Treatment-or-Aerobic-Exercise-Reduce-Senescence-Improve-Myocardial-Function.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep031]]></description>
+    <enclosure url="https://longbiosci.com/audio/senolytic-vs-exercise-cardiac-2026.mp3" length="2398845" type="audio/mpeg"/>
+    <itunes:duration>400</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[12 月龄小鼠 9 个月四组干预：senolytic 与有氧运动都降低了心肌细胞衰老标志并改善心功能，但联合未见叠加，且全心组织的 p16/p21 与 SASP 未被任何干预改变。]]></itunes:summary>
+  </item>
+  <item>
+    <title>运动研究里最该看的那一行，是对照组掉了多少</title>
+    <link>https://longbiosci.com/podcast/#ep032</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep032</guid>
+    <pubDate>Wed, 28 Oct 2026 03:39:00 +0800</pubDate>
+    <category>论文精读</category>
+    <description><![CDATA[数据日期：2026-10-22 18:32
+生成时间：2026-10-28 03:39
+
+14 周 HIIT 让 24 月龄雌鼠的有氧能力涨 71%、执行功能涨 73%，但更该看的是对照组：四股力量掉了 67%。多数终点上的作用是「守住不塌」。
+
+来源：
+· GeroScience：14 周高强度间歇训练对 24 月龄雌性小鼠体能、认知、心血管与体成分等多终点的影响（DOI 10.1007/s11357-026-02489-0）
+  注：每组仅 n=9；未报告寿命终点；运动起始月龄为按期末 24 月龄与 14 周干预的推算、以全文为准；对照组血压变化未给出、绝对血压值待补全文，不可换算为人类预期
+
+站内延伸阅读：
+· 14 周 HIIT 让 24 月龄雌鼠的有氧能力涨 71%，而对照组掉了 67% 的四股力量 https://longbiosci.com/news/HIIT-Aged-Female-Mice-Multi-Endpoint-GeroScience-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep032]]></description>
+    <enclosure url="https://longbiosci.com/audio/hiit-aged-female-mice-multi-endpoint-2026.mp3" length="2411805" type="audio/mpeg"/>
+    <itunes:duration>402</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[14 周 HIIT 让 24 月龄雌鼠的有氧能力涨 71%、执行功能涨 73%，但更该看的是对照组：四股力量掉了 67%。多数终点上的作用是「守住不塌」。]]></itunes:summary>
+  </item>
+  <item>
+    <title>SIRT1 的另一份工作：按住基因组里的跳跃基因</title>
+    <link>https://longbiosci.com/podcast/#ep033</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep033</guid>
+    <pubDate>Wed, 28 Oct 2026 03:39:00 +0800</pubDate>
+    <category>机制十分钟</category>
+    <description><![CDATA[数据日期：2026-10-22 18:32
+生成时间：2026-10-28 03:39
+
+SIRT1 通过增强 Lamin B1 与 KAP1 互作、提高 H3K9me3 把 L1 逆转座子按在异染色质里；缺失时经 cGAS-STING 触发衰老，3TC 的挽救仅在细胞层面得到验证。
+
+来源：
+· Aging Cell：SIRT1 经 Lamin B1–KAP1 与 H3K9me3 维持 L1 逆转座子异染色质沉默，缺失时经 cGAS-STING 触发细胞衰老及 3TC 挽救（DOI 10.1111/acel.70689）
+  注：3TC 挽救仅在细胞层面验证、体内效果未报告；主要证据来自细胞系，缺在体衰老模型与寿命数据；摘要未提供可引用定量，本期不给出任何具体数字；不能由此推出补充 SIRT1 激活剂有效；3TC 为处方药，本期仅作研究设计陈述
+
+站内延伸阅读：
+· SIRT1 的另一份工作：把 L1 跳跃基因按在异染色质里，按不住就触发衰老 https://longbiosci.com/news/SIRT1-L1-Retrotransposon-Heterochromatin-AgingCell-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep033]]></description>
+    <enclosure url="https://longbiosci.com/audio/sirt1-l1-retrotransposon-heterochromatin-2026.mp3" length="2344845" type="audio/mpeg"/>
+    <itunes:duration>391</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[SIRT1 通过增强 Lamin B1 与 KAP1 互作、提高 H3K9me3 把 L1 逆转座子按在异染色质里；缺失时经 cGAS-STING 触发衰老，3TC 的挽救仅在细胞层面得到验证。]]></itunes:summary>
+  </item>
+  <item>
+    <title>咀嚼困难预示衰弱风险上升七成——但这个效应只在女性身上成立</title>
+    <link>https://longbiosci.com/podcast/#ep034</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep034</guid>
+    <pubDate>Wed, 28 Oct 2026 03:39:00 +0800</pubDate>
+    <category>打假与证伪</category>
+    <description><![CDATA[数据日期：2026-10-22 18:32
+生成时间：2026-10-28 03:39
+
+1348 名基线健壮老人 4 年随访：自报口腔功能受限使衰弱新发风险上升约七成（HR 1.74）；但分层后女性 HR 2.44 显著、男性 HR 0.87 不显著，且男性组置信区间极宽。
+
+来源：
+· GeroScience：韩国社区老人自报口腔功能受限与衰弱新发的 4 年纵向关联及性别差异（DOI 10.1007/s11357-025-02015-8；PubMed 41331404）
+  注：暴露仅两项自报条目、无客观口腔功能测定（咬合力/舌压/余留牙数）；男性组 95% CI 0.44–1.73 极宽，不显著很可能为效力不足而非确凿阴性；事件数与交互项 p 值待补全文；PMC13601412 免费全文可核验
+
+站内延伸阅读：
+· 咀嚼/发音困难能预测衰弱新发——但这个预测只在女性身上成立 https://longbiosci.com/news/Oral-Functional-Limitation-Risk-Of-GeroScience-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep034]]></description>
+    <enclosure url="https://longbiosci.com/audio/oral-function-limit-frailty-sex-specific-2026.mp3" length="2442621" type="audio/mpeg"/>
+    <itunes:duration>407</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[1348 名基线健壮老人 4 年随访：自报口腔功能受限使衰弱新发风险上升约七成（HR 1.74）；但分层后女性 HR 2.44 显著、男性 HR 0.87 不显著，且男性组置信区间极宽。]]></itunes:summary>
+  </item>
+  <item>
+    <title>意大利的长寿医学路线图：一份立场文件，五步建议，和三个没解决的障碍</title>
+    <link>https://longbiosci.com/podcast/#ep035</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep035</guid>
+    <pubDate>Wed, 28 Oct 2026 03:39:00 +0800</pubDate>
+    <category>产业脉搏</category>
+    <description><![CDATA[数据日期：2026-10-22 18:32
+生成时间：2026-10-28 03:39
+
+65 岁以上占 24.1%、健康寿命年数比预期寿命少 15–16 年；文件提出五步整合路径，同时自承工具多数仍处探索或替代终点阶段、过早应用存在风险。
+
+来源：
+· Aging Cell 立场文件：长寿医学整合进意大利国家卫生服务体系（SSN）的背景、障碍与五步路径（DOI 10.18632/aging.206402）
+  注：立场文件而非原始研究，五步路径为建议而非已实施政策；文件自述多组学生物标志物与数字健康监测多数仍处探索/替代终点阶段、过早应用存在风险；站内另参考 Fight Aging 报道，本期不做任何投资相关推断
+
+站内延伸阅读：
+· 意大利发布长寿医学整合路线图：面向全球最老龄化国家的系统性变革 https://longbiosci.com/news/Italy-Longevity-Medicine-Health-Service-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep035]]></description>
+    <enclosure url="https://longbiosci.com/audio/italy-longevity-medicine-ssn-roadmap-2026.mp3" length="2694045" type="audio/mpeg"/>
+    <itunes:duration>449</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[65 岁以上占 24.1%、健康寿命年数比预期寿命少 15–16 年；文件提出五步整合路径，同时自承工具多数仍处探索或替代终点阶段、过早应用存在风险。]]></itunes:summary>
+  </item>
   <item>
     <title>丹酚酸：把「天然抗衰」这句话按现代药理学标准跑完一遍</title>
     <link>https://longbiosci.com/podcast/#ep020</link>

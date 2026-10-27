@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fMRI 基础模型在下游应用中的当前缺口：来自 BrainLM 与 BrainHarmonix 在 Prevent-AD 上的经验教训 — LongBiosci</title>
+    <meta name="description" content="在 Prevent-AD（AD 家族史成人队列，343 人通过 QC，其中 218 人有淀粉样蛋白 PET）上，两个近期 fMRI 基础模型 BrainLM 与 BrainHarmonix 的特征，在性别与年龄预测上仅与功能连接（FC）相当或略优，而在两个临床目标（MCI 进展、Aβ 负荷）上没有任何特征超过哑分类器的准确率、AUC 全部接近随机。 作者同时报告了两个模型都需要">
+    <link rel="canonical" href="https://longbiosci.com/news/Preprint-10-64898-2026-10-22-26366227-2026.html">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://longbiosci.com/news/Preprint-10-64898-2026-10-22-26366227-2026.html">
+    <meta property="og:title" content="fMRI 基础模型在下游应用中的当前缺口：来自 BrainLM 与 BrainHarmonix 在 Prevent-AD 上的经验教训">
+    <meta property="og:description" content="在 Prevent-AD（AD 家族史成人队列，343 人通过 QC，其中 218 人有淀粉样蛋白 PET）上，两个近期 fMRI 基础模型 BrainLM 与 BrainHarmonix 的特征，在性别与年龄预测上仅与功能连接（FC）相当或略优，而在两个临床目标（MCI 进展、Aβ 负荷）上没有任何特征超过哑分类器的准确率、AUC 全部接近随机。 作者同时报告了两个模型都需要">
+    <meta property="og:image" content="https://longbiosci.com/og-image.png">
+    <meta property="og:site_name" content="LongBiosci">
+    <meta property="article:published_time" content="2026-10-28T00:00:00Z">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="fMRI 基础模型在下游应用中的当前缺口：来自 BrainLM 与 BrainHarmonix 在 Prevent-AD 上的经验教训">
+    <meta name="twitter:description" content="在 Prevent-AD（AD 家族史成人队列，343 人通过 QC，其中 218 人有淀粉样蛋白 PET）上，两个近期 fMRI 基础模型 BrainLM 与 BrainHarmonix 的特征，在性别与年龄预测上仅与功能连接（FC）相当或略优，而在两个临床目标（MCI 进展、Aβ 负荷）上没有任何特征超过哑分类器的准确率、AUC 全部接近随机。 作者同时报告了两个模型都需要">
+    <meta name="twitter:image" content="https://longbiosci.com/og-image.png">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/svg+xml" href="/favicon-dark.svg" media="(prefers-color-scheme: dark)">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="stylesheet" href="/style.css">
+    <script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "url": "https://longbiosci.com/news/Preprint-10-64898-2026-10-22-26366227-2026.html",
+  "headline": "fMRI 基础模型在下游应用中的当前缺口：来自 BrainLM 与 BrainHarmonix 在 Prevent-AD 上的经验教训",
+  "description": "在 Prevent-AD（AD 家族史成人队列，343 人通过 QC，其中 218 人有淀粉样蛋白 PET）上，两个近期 fMRI 基础模型 BrainLM 与 BrainHarmonix 的特征，在性别与年龄预测上仅与功能连接（FC）相当或略优，而在两个临床目标（MCI 进展、Aβ 负荷）上没有任何特征超过哑分类器的准确率、AUC 全部接近随机。 作者同时报告了两个模型都需要",
+  "image": "https://longbiosci.com/og-image.png",
+  "author": {
+    "@type": "Organization",
+    "name": "LongBiosci 编辑部"
+  },
+  "datePublished": "2026-10-28",
+  "publisher": {
+    "@type": "Organization",
+    "name": "LongBiosci",
+    "url": "https://longbiosci.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://longbiosci.com/og-image.png",
+      "width": 836,
+      "height": 257
+    }
+  },
+  "inLanguage": "zh-CN"
+}
+    </script>
+    <script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "首页",
+      "item": "https://longbiosci.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "新闻",
+      "item": "https://longbiosci.com/news/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "fMRI 基础模型在下游应用中的当前缺口：来自 Brai",
+      "item": "https://longbiosci.com/news/Preprint-10-64898-2026-10-22-26366227-2026.html"
+    }
+  ]
+}
+    </script>
+<link rel="stylesheet" href="/poster.css">
+<script src="/qr.js" defer></script>
+<script src="/poster.js" defer data-tier="c" data-topic="神经退行"></script>
+<!-- longbiosci:analytics 无 Cookie、无跨站追踪、不收集身份信息；详见 /privacy/ -->
+<script defer src="https://cloud.umami.is/script.js" data-website-id="bfb60723-d93d-4925-b1a2-d7ef51b9014c" data-do-not-track="true"></script>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">跳转到主要内容</a>
+<header class="site-header">
+    <nav class="wrap" aria-label="主导航">
+        <a href="/" class="brand"><img src="/logo-mark.svg" alt="" class="brand-mark" width="28" height="28"><span class="brand-name">LongBiosci</span></a>
+        <div class="main-nav">
+      <a href="/">首页</a>
+      <a href="/news/" aria-current="page">最新</a>
+      <a href="/topics/" aria-label="主题专辑"><span class="nav-mq">主题</span>专辑</a>
+      <a href="/guide/" aria-label="热词专题">热词<span class="nav-mq">专题</span></a>
+      <a href="/research/" aria-label="概念与工具">概念<span class="nav-mq">与工具</span></a>
+      <a href="/daily/">周刊</a>
+      <a href="/evidence/" aria-label="证据分级">证据<span class="nav-mq">分级</span></a>
+      <a href="/trials.html" aria-label="临床试验">临床<span class="nav-mq">试验</span></a>
+      <a href="/industry/">产业</a>
+      <a href="/events/">会议</a>
+      <a href="/podcast/" aria-label="播客">播<span class="nav-mq">客</span></a>
+      <a href="/about/">关于</a>
+      <a href="/search.html" class="nav-search" aria-label="站内搜索"><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="6.8" cy="6.8" r="4.6" fill="none" stroke="currentColor" stroke-width="1.6"/><line x1="10.3" y1="10.3" x2="14" y2="14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><span class="nav-search-text">搜索</span></a>
+    </div>
+    </nav>
+</header>
+
+    <main class="article-container" id="main-content">
+        <nav class="breadcrumb" aria-label="面包屑导航">
+            <a href="/">首页</a> &gt; <a href="/news/">新闻</a> &gt; <span aria-current="page">fMRI 基础模型在下游应用中的当前缺口：来自 Brai</span>
+        </nav>
+
+        <article>
+            <header class="article-header">
+                <span class="tag">预印本</span>
+                <span class="date"><time datetime="2026-10-28">Wed, 28 Oct</time></span><span class="event-date" data-lb-event-date="2026-10-22">情报发生 2026-10-22 · 发布于 2026-10-28</span>
+                <h1>fMRI 基础模型在下游应用中的当前缺口：来自 BrainLM 与 BrainHarmonix 在 Prevent-AD 上的经验教训</h1>
+                <p class="source">来源：<em>medRxiv</em> · 档位 补遗观察哨 B5 · 版本 v1（2026-10-26） · DOI <a href="https://doi.org/10.64898/2026.10.22.26366227" target="_blank" rel="noopener noreferrer">10.64898/2026.10.22.26366227</a> · 来源：IMA 知识库《预印本全文级解读_2026-10-28》（任务 12819187） · <strong>全文已获取并逐节核验（档位 A）</strong></p>
+            </header>
+
+            <div class="article-content">
+<p><em>数据日期 2026-10-26 · 生成时间 2026-10-28 01:59　｜　预印本 · medRxiv · v1（2026-10-26） · radiology and imaging</em></p>
+
+<h2>一、一句话结论</h2><p><strong>在 Prevent-AD（AD 家族史成人队列，343 人通过 QC，其中 218 人有淀粉样蛋白 PET）上，两个近期 fMRI 基础模型 BrainLM 与 BrainHarmonix 的特征，在性别与年龄预测上仅与功能连接（FC）相当或略优，而在两个临床目标（MCI 进展、Aβ 负荷）上没有任何特征超过哑分类器的准确率、AUC 全部接近随机。</strong> 作者同时报告了两个模型都需要对发布代码做实质改动才能跑通。</p>
+
+<h2>二、研究问题</h2><p>两个近期 fMRI 基础模型<strong>是否"已可被独立研究者用于临床数据集"</strong>？</p>
+
+<h2>三、方法（核验至全文 Methods）</h2>
+
+<h2>四、核心结果（含 95% CI）</h2><p>### 4.1 基线性能（Table 2）</p>
+<p>> <strong>这张表本身就是本条的核心贡献</strong>：在类别不平衡的临床目标上，<strong>FC 的"准确率"看起来体面（0.807 / 0.582），但 AUC 已经掉到随机线附近（0.451 / 0.495），且低于哑分类器</strong>。</p>
+<p>### 4.2 基础模型表现</p>
+<ul>
+<li><strong>最佳基础模型特征</strong>：<strong>BrainHarmonix 冻结 T1 编码器的潜权重</strong>——性别 <strong>准确率 0.841 [0.823, 0.859]</strong>；年龄组 <strong>0.705 [0.673, 0.737]</strong>。</li>
+<li><strong>年龄组</strong>上基础模型略高于 FC，但<strong>差异不显著</strong>（<strong>t(34.0)=1.05，p=0.15</strong>）。<strong>BrainHarmonix 整体优于 BrainLM。</strong></li>
+<li><strong>MCI 状态</strong>：没有任何特征在准确率上超过哑分类器，AUC 全部接近随机；<strong>精确率最高的是微调后的 BrainLM attention head CLS token（0.176 [0.122, 0.231]）</strong>，高于 FC（0.167 [0.013, 0.321]），<strong>但未达统计显著</strong>。</li>
+<li><strong>Aβ SUVR</strong>：精确率最高的是<strong>微调 BrainLM CLS embedding（0.40 [0.339, 0.461]）</strong>，高于 FC（0.355 [0.260, 0.449]），<strong>同样未达统计显著</strong>。</li>
+
+</ul><p>### 4.3 工程可复现性（本条的另一半价值）</p>
+<ul>
+<li><strong>信号归一化不一致</strong>：两模型所用数据集的归一化实践不明，作者只能实现多个选项并测试。</li>
+<li><strong>检查点分发</strong>：BrainLM 通过 Hugging Face；<strong>BrainHarmonix 通过 Google Drive 而非更安全的公开仓库</strong>。</li>
+<li><strong>源码质量</strong>：BrainLM 的时间序列提取未用 Nilearn 等通用库，且<strong>自行实现的 robust scalar 归一化有误</strong>（issue 页面已有多条未处理）；BrainHarmonix 打包后<strong>不可安装</strong>，幸有 MedARC-AI 的修复 fork。</li>
+<li><strong>学习曲线</strong>：BrainHarmonix 在无全局归一化时学习曲线嘈杂、部分交叉验证折 50 个 epoch 内不收敛；BrainLM 仅 giga-connectome 流程无全局体素归一化时学习曲线稳定，但<strong>损失变化幅度很小</strong>。</li>
+</ul>
+
+<h2>五、作者给出的建议</h2><ul>
+<li>未来研究应提供<strong>标准化数据流程</strong>。</li>
+<li><strong>始终报告 FC 与哑分类器基线</strong>。</li>
+<li>类别强不平衡的临床目标应<strong>报告包括精确率在内的多个指标</strong>。</li>
+</ul>
+
+<h2>六、局限（全文自陈 + 核验补充）</h2><ul>
+<li><strong>仅两个模型、一个数据集</strong>，不能推广为"fMRI 基础模型都无效"。</li>
+<li><strong>Prevent-AD 是家族史富集队列</strong>，事件率与人群分布不同于一般临床场景。</li>
+<li><strong>作者改动了发布代码</strong>，因此"模型表现"部分依赖于他们的工程选择（作者已如实说明，但这使结果的可归因性变差）。</li>
+<li><strong>样本 343（218 有 PET）</strong>对 MCI/Aβ 这类不平衡目标把握度有限。</li>
+<li><strong>未与更强的传统机器学习基线比较</strong>（如带特征选择的 SVM/梯度提升），只比了 FC 与哑分类器——这是一个真实的方法学缺口：如果目的只是"基础模型是否超过 FC"，那么设计是成立的；但如果想说"基础模型没用"，还需要强基线。</li>
+<li><strong>（核验补充）</strong> 作者只报告了学习曲线稳定的条件，意味着<strong>部分配置的结果被排除</strong>——这是合理的（作者已说明并给出图），但也意味着最终报告的是"在能跑通的配置下的最好情况"。</li>
+</ul>
+
+<h2>七、对衰老与长寿研究的价值</h2><ul>
+<li><strong>"哑分类器基线"这一条建议本身价值最高</strong>：在<strong>类别不平衡</strong>的衰老/AD 预测任务中，不报哑分类器基线会让"AUC 0.7"看起来像有效，而实际上可能只是多数类占比。<strong>这条应当成为我们评估任何脑龄/AD 预测模型的默认检查项。</strong></li>
+<li><strong>"LLM 式的强迁移不能假定成立于 fMRI"</strong>：与语言/视觉领域不同，这里<strong>没有任何特征在临床目标上超过哑分类器</strong>，这是对当前"基础模型热"的一个硬约束。</li>
+<li><strong>工程可复现性问题很现实</strong>：两个模型都需要实质改代码才能跑通，会直接劝退独立团队——<strong>在决定引入大模型特征之前，先评估工程成本</strong>。</li>
+<li><strong>与本期的呼应</strong>：补遗观察哨 B6（EEG 的时间链接指标）与补遗主榜 A4（脑龄差）都是<strong>用简单、可解释的特征做出有效预测</strong>，与本条形成对比——<strong>在样本有限的衰老/AD 数据上，可解释的领域特征目前仍优于大模型特征</strong>。</li>
+</ul>
+
+<h2>八、保留意见（读者须知）</h2><ul>
+<li>本条是<strong>方法学评估</strong>论文，不含新的衰老生物学发现。</li>
+<li><strong>不要引用为"fMRI 基础模型无效"</strong>，正确的引用是"<strong>在 Prevent-AD 这一家族史富集队列上、在两个特定模型上、四个目标中的两个临床目标上，未观察到超过哑分类器的表现</strong>"。</li>
+<li>预印本，未经同行评审。</li>
+
+</ul><p>> <strong>全文核验记录</strong>：2026-10-28 抓取 PDF（HTTP 200，1,314,354 字节，30 页），逐节核对至 Abstract / Methods（归一化、检查点、源码 fork）/ Results（Table 2 基线、性别与年龄组、MCI 与 Aβ）/ Discussion / Limitations and future directions / Funding。页内数字均出自全文；本节额外补出速递卡片未覆盖的细节（Table 2 的完整基线数值与 95% CI、t 检验统计量 t(34.0)=1.05、BrainHarmonix 冻结 T1 编码器为最佳特征、BrainLM robust scalar 实现有误、BrainHarmonix 经 Google Drive 分发、学习曲线排除条件）。 > <strong>时间标签</strong>：数据日期 2026-10-26（补遗窗口 T-2）· 生成 2026-10-28 01:59</p>
+
+<div class="notice-box">
+    <p><span class="tier tier-c">C 级</span><strong>证据分级：C 级（预印本 / 观点评论，非原始研究）</strong></p>
+    <p><strong>本文属观点/评论类文献，不是原始研究。</strong>其论点依赖于作者对既有证据的梳理与判断，<strong>不构成新的实验证据</strong>。本站标注 C 级即为此意——阅读时请把它当作「领域内的思考框架」，而非「研究发现」。</p>
+    <p><strong>关于本文的文献来源：</strong>本站依据 IMA 知识库「五刊监控·深度文献卡片」（SOP §4.2 摘要级）撰写，<strong>依据期刊公开摘要与 PubMed 元数据</strong>；付费墙全文未获取之处已标注「待补全文」，<strong>未做任何数值推算补全</strong>。</p>
+</div>
+
+            </div>
+
+            <div class="related-block"><h3>延伸阅读</h3><ul class="related-list"><li><a href="/news/Preprint-10-64898-2026-10-22-761036-2026.html">抗 GABAB 受体自身免疫通过突触前病理导致认知下降</a></li><li><a href="/news/Arrowhead-ARO-MAPT-Subcutaneous-siRNA-Crosses-BBB-2026.html">Arrowhead ARO-MAPT：皮下 siRNA 首次临床验证可跨越血脑屏障，CSF tau 降 73%</a> <span class="tag-date">2026-10-28</span></li><li><a href="/news/Beacon-Biosignals-Acquires-Snap-Home-EEG-2026.html">Beacon 收购 Snap Diagnostics：家用 EEG 睡眠检测进入基层医疗，脑衰老表型走向临床级数据</a> <span class="tag-date">2026-10-28</span></li></ul></div>
+<section class="share-bar" aria-label="分享给好友">
+            <span class="share-bar-title">分享给好友</span>
+            <div class="share-bar-actions">
+                <button type="button" class="share-copy-btn">复制链接</button>
+                <span class="share-tip" hidden>已复制 &#10003;</span>
+            </div>
+            <div class="share-qr">
+                <div class="share-qr-code" aria-hidden="true"></div>
+                <span class="share-qr-note">微信扫码，手机直接打开</span>
+            </div>
+        </section>
+<nav class="lb-article-nav" aria-label="上下篇导航"><ul><li><a class="nav-older" href="/news/Preprint-10-64898-2026-10-22-26366029-2026.html"><span class="nav-dir">← 上一篇（更早）</span>蛋白基因组学捕获阿尔茨海默病易感性的中年生物学状态</a></li><li><a class="nav-newer" href="/news/Preprint-10-64898-2026-10-22-761284-2026.html"><span class="nav-dir">下一篇（更新）→</span>【摘要级】CEP-IP 与 CMRF 在 SEA-AD 小胶质细胞中的应用：一个与认知关联的线粒体共表达模块</a></li></ul></nav>
+<footer class="article-footer">
+                <a href="/news/" class="back-link">← 返回新闻列表</a>
+            </footer>
+        </article>
+    </main>
+
+    <footer class="site-footer">
+    <div class="wrap">
+        <p>© 2026 LongBiosci 编辑部 · 衰老与长寿科技资讯</p>
+        <a href="/rss.xml">RSS</a> · <!-- longbiosci:footer-stats -->匿名访问统计由 <a href="https://umami.is" target="_blank" rel="noopener">Umami</a> 提供（无 Cookie、不收集身份信息，详见 <a href="/privacy/">隐私政策</a>）<!--/longbiosci:footer-stats --> · <a href="/sitemap.xml">Sitemap</a> · <a href="/privacy/">隐私政策</a> · <a href="/about/">关于</a>
+    </div>
+</footer>
+
+<div class="read-progress" aria-hidden="true"><div class="read-progress-bar" id="readBar"></div></div>
+<button class="to-top" id="toTop" type="button" aria-label="回到顶部" title="回到顶部">↑</button>
+<script src="/qrcode.min.js"></script>
+<script src="/share.js" defer></script>
+</body>
+</html>

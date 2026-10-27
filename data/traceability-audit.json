@@ -1,9 +1,9 @@
 {
  "summary": {
-  "total": 790,
+  "total": 830,
   "level_counts": {
-   "强": 657,
-   "中": 132,
+   "中": 147,
+   "强": 682,
    "断链": 1
   },
   "by_tier": {
@@ -12,16 +12,91 @@
     "中": 26
    },
    "B": {
+    "中": 105,
     "强": 319,
-    "中": 90,
     "断链": 1
    },
    "C": {
-    "强": 187,
+    "强": 212,
     "中": 16
    }
   },
   "missing_doi": [
+   {
+    "slug": "Arrowhead-ARO-MAPT-Subcutaneous-siRNA-Crosses-BBB-2026.html",
+    "title": "Arrowhead ARO-MAPT：皮下 siRNA 首次临床验证可跨越血脑屏障，CSF tau 降 73%",
+    "evidence": "B"
+   },
+   {
+    "slug": "Beacon-Biosignals-Acquires-Snap-Home-EEG-2026.html",
+    "title": "Beacon 收购 Snap Diagnostics：家用 EEG 睡眠检测进入基层医疗，脑衰老表型走向临床级数据",
+    "evidence": "B"
+   },
+   {
+    "slug": "Biograph-Caristo-Coronary-Inflammation-Asymptomatic-2026.html",
+    "title": "42.9% 无症状低危成人存在冠脉炎症：常规风险工具一个都没识别出来",
+    "evidence": "B"
+   },
+   {
+    "slug": "Calico-Fosigotifator-EMA-PRIME-VWM-2026.html",
+    "title": "Calico 的 fosigotifator 获 EMA PRIME：eIF2B 激活剂攒成 FDA+EMA 双认定",
+    "evidence": "B"
+   },
+   {
+    "slug": "Carnyx-CNYX-005-Sleep-Aged-Rats-IND-Enabling-2026.html",
+    "title": "Carnyx 的 CNYX-005：老年大鼠总睡眠增加 1.5~2 小时，进入 IND-enabling",
+    "evidence": "B"
+   },
+   {
+    "slug": "Ferring-Acquires-Gameto-1-38B-Ovarian-Aging-2026.html",
+    "title": "Ferring 至多 13.825 亿美元收购 Gameto：卵巢衰老第一次被大药厂定价",
+    "evidence": "B"
+   },
+   {
+    "slug": "Immorta-Bio-SenoMune-0257-AI-Senolytic-Peptide-2026.html",
+    "title": "Immorta Bio 的 SenoMune-0257：9 氨基酸 AI 设计 senolytic 免疫疗法拟年底进人体",
+    "evidence": "B"
+   },
+   {
+    "slug": "Insilico-ISM6331-Pan-TEAD-Inhibitor-ESMO-2026.html",
+    "title": "Insilico ISM6331：生成式 AI 设计的泛 TEAD 抑制剂，130 mg 组 ORR 40%",
+    "evidence": "B"
+   },
+   {
+    "slug": "Life-Biosciences-ER-100-First-In-Human-Phase-1-2026.html",
+    "title": "Life Biosciences 的 ER-100：OSK 部分重编程首批 3 例人体数据",
+    "evidence": "B"
+   },
+   {
+    "slug": "Longeveron-ELPIS-II-Phase-2b-Miss-HLHS-2026.html",
+    "title": "Longeveron ELPIS II 2b 期主要终点未达：间充质干细胞疗法在 HLHS 上失败",
+    "evidence": "B"
+   },
+   {
+    "slug": "Longevity-Industry-Retrenchment-Unity-Turn-Bio-2026.html",
+    "title": "两条 ⬇：Unity Biotechnology 已停止运营，Turn Bio 核心资产被竞拍收购",
+    "evidence": "B"
+   },
+   {
+    "slug": "NRG-Therapeutics-NRG5051-PET-Biodistribution-Trial-2026.html",
+    "title": "NRG5051 启动 PET 生物分布试验：为线粒体 mPTP 抑制剂的脑穿透取证",
+    "evidence": "B"
+   },
+   {
+    "slug": "NewLimit-Clinical-Development-Hire-2027-FIH-2026.html",
+    "title": "NewLimit 补齐临床班底：前 89bio 首席医学官出任临床开发负责人，重申 2027 首次人体",
+    "evidence": "B"
+   },
+   {
+    "slug": "Rubedo-RLS-1496-Skin-Epigenetic-Age-Phase-1b-2026.html",
+    "title": "Rubedo RLS-1496 1b 期：外用 4 周后皮肤表观遗传年龄平均降低 2.1 年",
+    "evidence": "B"
+   },
+   {
+    "slug": "XPRIZE-Healthspan-101M-Finalist-Teams-2026.html",
+    "title": "XPRIZE Healthspan 1.01 亿美元：10 支终选团队与「1 年能否外推数十年」的硬问题",
+    "evidence": "B"
+   },
    {
     "slug": "ER-100-Partial-Reprogramming-Phase-1-First-in-Human-Glaucoma-Life-Biosciences-2026.html",
     "title": "部分重编程的第一个人体数据：ER-100 在 3 名青光眼患者中耐受，2 人出现视野改善信号",
@@ -697,6 +772,486 @@
   ]
  },
  "articles": [
+  {
+   "slug": "Arrowhead-ARO-MAPT-Subcutaneous-siRNA-Crosses-BBB-2026.html",
+   "title": "Arrowhead ARO-MAPT：皮下 siRNA 首次临床验证可跨越血脑屏障，CSF tau 降 73%",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://arrowheadpharma.com/en-us/newsroom/arrowhead-pharmaceuticals-announces-aro-mapt-interim-phase-12a"
+   ],
+   "level": "中"
+  },
+  {
+   "slug": "Beacon-Biosignals-Acquires-Snap-Home-EEG-2026.html",
+   "title": "Beacon 收购 Snap Diagnostics：家用 EEG 睡眠检测进入基层医疗，脑衰老表型走向临床级数据",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://www.globenewswire.com/news-release/2026/10/22/3386463/0/en/beacon-biosignals-acquires-snap-diagnostics-paving-the-way-for-eeg-enabled-home-sleep-testing-in-every-care-setting.html"
+   ],
+   "level": "中"
+  },
+  {
+   "slug": "Biograph-Caristo-Coronary-Inflammation-Asymptomatic-2026.html",
+   "title": "42.9% 无症状低危成人存在冠脉炎症：常规风险工具一个都没识别出来",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://www.businesswire.com/news/home/20261022460203/en/Biograph-Completes-First-U.S.-Study-with-Caristo-Diagnostics-AI-Powered-Coronary-Inflammation-Detection-Finding-Risk-in-Over-42-of-Asymptomatic-Patients"
+   ],
+   "level": "中"
+  },
+  {
+   "slug": "Calico-Fosigotifator-EMA-PRIME-VWM-2026.html",
+   "title": "Calico 的 fosigotifator 获 EMA PRIME：eIF2B 激活剂攒成 FDA+EMA 双认定",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://www.calicolabs.com/press/calico-life-sciences-announces-european-medicines-agency-grants-prime-designation-to-investigational-fosigotifator-for-vanishing-white-matter"
+   ],
+   "level": "中"
+  },
+  {
+   "slug": "Carnyx-CNYX-005-Sleep-Aged-Rats-IND-Enabling-2026.html",
+   "title": "Carnyx 的 CNYX-005：老年大鼠总睡眠增加 1.5~2 小时，进入 IND-enabling",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://www.biospace.com/press-releases/carnyx-therapeutics-advances-lead-oral-sleep-candidate-cnyx-005-into-ind-enabling-development"
+   ],
+   "level": "中"
+  },
+  {
+   "slug": "Ferring-Acquires-Gameto-1-38B-Ovarian-Aging-2026.html",
+   "title": "Ferring 至多 13.825 亿美元收购 Gameto：卵巢衰老第一次被大药厂定价",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://www.ferring.com/ferring-pharmaceuticals-and-gameto-sign-agreement-for-proposed-acquisition"
+   ],
+   "level": "中"
+  },
+  {
+   "slug": "Immorta-Bio-SenoMune-0257-AI-Senolytic-Peptide-2026.html",
+   "title": "Immorta Bio 的 SenoMune-0257：9 氨基酸 AI 设计 senolytic 免疫疗法拟年底进人体",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://www.prnewswire.com/news-releases/immorta-bio-pioneers-ai-designed-senolytic-immunotherapy-targeting-diseases-of-aging-302905700.html"
+   ],
+   "level": "中"
+  },
+  {
+   "slug": "Insilico-ISM6331-Pan-TEAD-Inhibitor-ESMO-2026.html",
+   "title": "Insilico ISM6331：生成式 AI 设计的泛 TEAD 抑制剂，130 mg 组 ORR 40%",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://www.prnewswire.com/news-releases/insilico-medicine-reports-40-orr-at-130-mg-for-pan-tead-inhibitor-ism6331-designed-using-generative-ai-in-heavily-pretreated-mesothelioma-at-esmo-2026-302919241.html"
+   ],
+   "level": "中"
+  },
+  {
+   "slug": "Life-Biosciences-ER-100-First-In-Human-Phase-1-2026.html",
+   "title": "Life Biosciences 的 ER-100：OSK 部分重编程首批 3 例人体数据",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://www.lifebiosciences.com/life-biosciences-announces-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies/"
+   ],
+   "level": "中"
+  },
+  {
+   "slug": "Longeveron-ELPIS-II-Phase-2b-Miss-HLHS-2026.html",
+   "title": "Longeveron ELPIS II 2b 期主要终点未达：间充质干细胞疗法在 HLHS 上失败",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://www.globenewswire.com/news-release/2026/10/26/3388178/0/en/longeveron-announces-updated-results-from-elpis-ii-phase-2b-clinical-trial-evaluating-laromestrocel-as-a-potential-treatment-for-hypoplastic-left-heart-syndrome-hlhs.html"
+   ],
+   "level": "中"
+  },
+  {
+   "slug": "Longevity-Industry-Retrenchment-Unity-Turn-Bio-2026.html",
+   "title": "两条 ⬇：Unity Biotechnology 已停止运营，Turn Bio 核心资产被竞拍收购",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://longevity.technology/news/"
+   ],
+   "level": "中"
+  },
+  {
+   "slug": "NRG-Therapeutics-NRG5051-PET-Biodistribution-Trial-2026.html",
+   "title": "NRG5051 启动 PET 生物分布试验：为线粒体 mPTP 抑制剂的脑穿透取证",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://www.globenewswire.com/news-release/2026/10/21/3385145/0/en/nrg-therapeutics-announces-a-pet-biodistribution-trial-of-lead-clinical-asset-nrg5051.html"
+   ],
+   "level": "中"
+  },
+  {
+   "slug": "NewLimit-Clinical-Development-Hire-2027-FIH-2026.html",
+   "title": "NewLimit 补齐临床班底：前 89bio 首席医学官出任临床开发负责人，重申 2027 首次人体",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://blog.newlimit.com/p/2026-summer"
+   ],
+   "level": "中"
+  },
+  {
+   "slug": "Preprint-10-1101-2025-07-07-663438-2026.html",
+   "title": "【摘要级】利用黑腹果蝇的变异揭示随龄感染易感性升高的不同路径，及其与寿命的性别依赖性关联",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1101/2025.07.07.663438",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1101/2025.07.07.663438"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-1101-2025-11-26-690872-2026.html",
+   "title": "【摘要级】阿尔茨海默病伴精神病的蛋白质组分析揭示共享的 AD 蛋白全景与独立的突触后密度破坏分子签名",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1101/2025.11.26.690872",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1101/2025.11.26.690872"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-09-29-755284-2026.html",
+   "title": "【摘要级】秀丽隐杆线虫神经系统中的多聚谷氨酰胺聚集由随机成核事件驱动",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.09.29.755284",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.09.29.755284"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-20-26363947-2026.html",
+   "title": "欧洲人群帕金森病发病年龄的遗传修饰因子",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.20.26363947",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.20.26363947"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-20-760445-2026.html",
+   "title": "【摘要级】功能与结构脑龄差作为认知表现的互补预测标志物",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.20.760445",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.20.760445"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-21-760411-2026.html",
+   "title": "【摘要级】跨多种功能连接度量的全脑 MEG 规范建模",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.21.760411",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.21.760411"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-22-26366029-2026.html",
+   "title": "蛋白基因组学捕获阿尔茨海默病易感性的中年生物学状态",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.22.26366029",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.22.26366029"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-22-26366221-2026.html",
+   "title": "多祖先 Mount Sinai Million 队列中贯穿成年期的克隆性造血的遗传、临床与免疫全景",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.22.26366221",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.22.26366221"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-22-26366227-2026.html",
+   "title": "fMRI 基础模型在下游应用中的当前缺口：来自 BrainLM 与 BrainHarmonix 在 Prevent-AD 上的经验教训",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.22.26366227",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.22.26366227"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-22-26366255-2026.html",
+   "title": "用大语言模型检验老年人在故事聆听中的助听器收益",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.22.26366255",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.22.26366255"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-22-761284-2026.html",
+   "title": "【摘要级】CEP-IP 与 CMRF 在 SEA-AD 小胶质细胞中的应用：一个与认知关联的线粒体共表达模块",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.22.761284",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.22.761284"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-23-26366288-2026.html",
+   "title": "2 型糖尿病认知损害的干预措施：药物与生活方式策略、机制及临床意义的伞式综述",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.23.26366288",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.23.26366288"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-23-26366296-2026.html",
+   "title": "超越 α 功率降低：阿尔茨海默病中 α 与其他脑节律之间更弱的时间链接",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.23.26366296",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.23.26366296"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-23-761349-2026.html",
+   "title": "【摘要级】人特异长链非编码 RNA HD-LINC 驱动亨廷顿病中脂滴相关的神经变性",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.23.761349",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.23.761349"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-23-761372-2026.html",
+   "title": "【摘要级】线粒体与生物能过程在大细胞外囊泡中富集，而在小细胞外囊泡中相互耗竭",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.23.761372",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.23.761372"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-23-761432-2026.html",
+   "title": "【摘要级】鹿属（Odocoileus）的表观遗传时钟与非线性衰老",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.23.761432",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.23.761432"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-24-26366278-2026.html",
+   "title": "超灵敏细胞游离 DNA 甲基化组图谱揭示与阿尔茨海默病相关的脑特异表观遗传改变",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.24.26366278",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.24.26366278"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-24-761584-2026.html",
+   "title": "【摘要级】快速 fMRI 揭示侧脑室容量的生理振荡：衰老与警觉度的影响",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.24.761584",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.24.761584"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-25-761546-2026.html",
+   "title": "【摘要级】核纤层相关结构域内的 DNA 损伤触发核膜重组与染色质脱离，以防止核膜出泡与基因组不稳定",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.25.761546",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.25.761546"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-25-761633-2026.html",
+   "title": "【摘要级】习惯性睡眠时长与脑网络可控性的皮层组织相关",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.25.761633",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.25.761633"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-25-761682-2026.html",
+   "title": "【摘要级】基于正则化逻辑回归的基因选择用于肌肉衰老与再生中异质性 scRNA-seq 巨噬细胞群的功能分析",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.25.761682",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.25.761682"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-26-761670-2026.html",
+   "title": "【摘要级】更进一步：C57BL/6 小鼠自主运动的多维运动与步态模式的年龄及性别依赖性变化",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.26.761670",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.26.761670"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-26-761765-2026.html",
+   "title": "【摘要级】老年人表现出保留的视听整合神经签名，但其与言语理解的关联发生改变",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.26.761765",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.26.761765"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-26-761919-2026.html",
+   "title": "【摘要级】Genedex：在阿尔茨海默病病理、细胞类型与脑区之间为基因签名建立语境",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.26.761919",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.26.761919"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-26-762038-2026.html",
+   "title": "【摘要级】重复 VU0155069 处理与雌性 3xTg-AD 小鼠中区域及病理阶段特异的树突棘重塑相关",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.26.762038",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.26.762038"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Rubedo-RLS-1496-Skin-Epigenetic-Age-Phase-1b-2026.html",
+   "title": "Rubedo RLS-1496 1b 期：外用 4 周后皮肤表观遗传年龄平均降低 2.1 年",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://www.businesswire.com/news/home/20261012590263/en/"
+   ],
+   "level": "中"
+  },
+  {
+   "slug": "XPRIZE-Healthspan-101M-Finalist-Teams-2026.html",
+   "title": "XPRIZE Healthspan 1.01 亿美元：10 支终选团队与「1 年能否外推数十年」的硬问题",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://longevity.technology/news/the-101-million-question-isnt-who-wins/"
+   ],
+   "level": "中"
+  },
   {
    "slug": "Preprint-10-64898-2026-09-28-26364135-2026.html",
    "title": "端粒维持在脂肪肉瘤去分化时被获得，且遗传学上更长的端粒与脂肪肉瘤风险相关",
