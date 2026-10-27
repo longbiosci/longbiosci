@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-26T05:45:36+08:00",
+ "updated_at": "2026-10-27T05:50:23+08:00",
  "entries": {
   "dkwSBCCuiNrB": {
    "name": "文献层_五刊监控_深度文献卡片_2026-10-02",
@@ -362,13 +362,13 @@
   "dVKsSOJcCMjU": {
    "name": "行业情报周报_2026-09-16",
    "layer": "行业层",
-   "size": 17552,
-   "mtime": "1792949462000",
+   "size": 17543,
+   "mtime": "1793020011000",
    "status": "done",
-   "done_at": "2026-10-26T05:45:35+08:00",
+   "done_at": "2026-10-27T05:42:04+08:00",
    "slugs": [],
-   "note": "行业情报周报 W38 xlsx 滚动更新：21 条正式条目（融资10 2 外围除外 + 管线12 + 监管7）逐条比对 industry.json URL，全部已在库（ev-2026-041..060 / ev-2026-022）→ 净新增 0",
-   "hash": "2815ae5f811eaf342067722ce6495a21"
+   "note": "载体错位：文件名 .md 实为 xlsx(file 判定 Microsoft Excel 2007+)，与同名 dOnhQdjKdwmw(30237B 真md) 非同物；同题已消化，本轮跳过不写稿",
+   "hash": "4941aa69898a63015d20975631fa7415"
   },
   "dxGTKRYApbJO": {
    "name": "行业情报周报_2026-10-14",
@@ -383,24 +383,24 @@
   "dcRhMjctGcjp": {
    "name": "运营日志",
    "layer": "元层",
-   "size": 237130,
-   "mtime": "1792957693000",
+   "size": 312581,
+   "mtime": "1793044072000",
    "status": "done",
-   "done_at": "2026-10-26T05:45:35+08:00",
+   "done_at": "2026-10-27T05:50:23+08:00",
    "slugs": [],
-   "note": "元层运营日志滚动更新：留痕件。同上，以网站层为准",
-   "hash": "122879201b5aa52f9c0718877e8c3b82"
+   "note": "本班产出（不是上游交付）：已回写本轮留痕并上传覆盖网盘同名文件，file_id 不变",
+   "hash": "4a80729216f0b2dc4f72925982e43121"
   },
   "duLHFqzcdVBY": {
    "name": "运营待办清单",
    "layer": "元层",
-   "size": 113342,
-   "mtime": "1792934150000",
+   "size": 142584,
+   "mtime": "1793022669000",
    "status": "done",
-   "done_at": "2026-10-26T05:45:35+08:00",
+   "done_at": "2026-10-27T05:50:23+08:00",
    "slugs": [],
-   "note": "元层运营待办清单滚动更新：留痕件。按 README 口径以网站层为准，元层件只读不覆盖",
-   "hash": "00197f53acc9b7e5e03d8dadbe1b05e4"
+   "note": "本班产出（不是上游交付）：已回写本轮留痕并上传覆盖网盘同名文件，file_id 不变",
+   "hash": "a86bf8a1eb98bae1973cd108c55ab48f"
   },
   "dkmvnmTBYaqu": {
    "name": "资产库使用指南",
@@ -1909,56 +1909,56 @@
   "dLSuAMscRCOl": {
    "name": "预印本全文级解读_2026-10-26/预印本全文级解读_运行总结_2026-10-26",
    "layer": "元层",
-   "size": 8490,
+   "size": 10183,
    "mtime": "1792950847000",
    "status": "done",
-   "done_at": "2026-10-26T05:45:35+08:00",
+   "done_at": "2026-10-27T05:42:35+08:00",
    "slugs": [],
-   "note": "预印本解读运行总结（子目录副本）：留痕件，与根目录 dPLsJZXUOxrM 同一 md5",
+   "note": "2026-10-27 05:30 班：下载核验内容哈希与已消化记录一致（缓存 size 修正非内容更新），刷新基准",
    "hash": "2a6cbcc97b6ed0ffb787b24c7e56d61f"
   },
   "dPLsJZXUOxrM": {
    "name": "预印本全文级解读_运行总结_2026-10-26",
    "layer": "元层",
-   "size": 8490,
+   "size": 10183,
    "mtime": "1792950941000",
    "status": "done",
-   "done_at": "2026-10-26T05:45:35+08:00",
+   "done_at": "2026-10-27T05:42:35+08:00",
    "slugs": [],
-   "note": "预印本解读运行总结（元层根目录副本）：留痕件，双层交付按两份分别留痕",
+   "note": "2026-10-27 05:30 班：下载核验内容哈希与已消化记录一致（缓存 size 修正非内容更新），刷新基准",
    "hash": "2a6cbcc97b6ed0ffb787b24c7e56d61f"
   },
   "dWDUsmlPGnFo": {
    "name": "预印本全文级解读_2026-10-26/预印本全文级解读_2026-10-26_全集.tar",
    "layer": "元层",
-   "size": 23523,
+   "size": 24085,
    "mtime": "1792950909000",
    "status": "done",
-   "done_at": "2026-10-26T05:45:36+08:00",
+   "done_at": "2026-10-27T05:42:35+08:00",
    "slugs": [],
-   "note": "预印本解读全集 tar.gz：打包件，内容含上述 5 篇 + 索引/总结/日志/_items，均已分别处理",
+   "note": "2026-10-27 05:30 班：下载核验内容哈希与已消化记录一致（缓存 size 修正非内容更新），刷新基准",
    "hash": "54c4690e95d3c66a7b735c1b12857a6c"
   },
   "dDRLwxDgPdEH": {
    "name": "预印本全文级解读_2026-10-26/预印本全文级解读_总索引_2026-10-26",
    "layer": "元层",
-   "size": 5904,
+   "size": 6190,
    "mtime": "1792950814000",
    "status": "done",
-   "done_at": "2026-10-26T05:45:36+08:00",
+   "done_at": "2026-10-27T05:42:35+08:00",
    "slugs": [],
-   "note": "预印本解读总索引：留痕件，5 条题录与已上站 5 篇一一对应",
+   "note": "2026-10-27 05:30 班：下载核验内容哈希与已消化记录一致（缓存 size 修正非内容更新），刷新基准",
    "hash": "c6f96e7c9a947287335531d2d0e7352d"
   },
   "dTMOQxADXkJW": {
    "name": "预印本全文级解读_2026-10-26/预印本全文级解读_日志副本_2026-10-26",
    "layer": "元层",
-   "size": 6922,
+   "size": 8789,
    "mtime": "1792950878000",
    "status": "done",
-   "done_at": "2026-10-26T05:45:36+08:00",
+   "done_at": "2026-10-27T05:42:35+08:00",
    "slugs": [],
-   "note": "预印本解读日志副本：留痕件",
+   "note": "2026-10-27 05:30 班：下载核验内容哈希与已消化记录一致（缓存 size 修正非内容更新），刷新基准",
    "hash": "442842a311e8df83e303f458591189cb"
   },
   "dplhgsUwmtAg": {
@@ -1971,6 +1971,57 @@
    "slugs": [],
    "note": "预印本解读 _items.json 滚动更新：机读清单，已用于批次 a 定位 5 条",
    "hash": "04187ac1afb5ef0b5edebc6f7ba14210"
+  },
+  "dqKaXlSTUXKJ": {
+   "name": "LongBiosci_播客_ep020-ep026_增量_待推送_2026-10-27",
+   "layer": "元层",
+   "size": 16742400,
+   "mtime": "1793044023000",
+   "status": "done",
+   "done_at": "2026-10-27T05:41:48+08:00",
+   "slugs": [
+    "ep020-salvianolic-acids-natural-senolytics-2026",
+    "ep021-ghr-antagonist-vs-liver-knockout-2026",
+    "ep022-mci-prefrailty-distinct-signatures-2026",
+    "ep023-parental-longevity-vs-polygenic-score-2026",
+    "ep024-longevity-industry-matures-bibliometric-2026",
+    "ep025-senotype-framework-senescent-cells-2026",
+    "ep026-ifnar1-mitophagy-parkinson-dementia-2026"
+   ],
+   "note": "播客 ep020–ep026 增量包：7 mp3 + 7 文字稿 + podcast.json 26 期，管线重建 RSS/页面，19→26 期",
+   "hash": "bbcc9bbdce7d71bc804e13a6579e462f"
+  },
+  "dUWaxkDcFcbo": {
+   "name": "午刊补丁包_2026-10-26_待推送.tar",
+   "layer": "元层",
+   "size": 181177,
+   "mtime": "1792994332000",
+   "status": "done",
+   "done_at": "2026-10-27T05:41:56+08:00",
+   "slugs": [
+    "Ginsenoside-Rg1-DAF16-Mitophagy-Celegans-Biogerontology-2026.html",
+    "HIV-Epigenetic-Aging-Metaanalysis-JGerontolA-2026.html",
+    "Senokine-Gas6-MDV-Aortic-Valve-Calcification-AgingCell-2026.html",
+    "Glial-Lipid-Reprogramming-Brain-Aging-Redox-Biology-2026.html",
+    "NCoR1-Decline-Primate-Small-Intestinal-Aging-LifeMed-2026.html",
+    "Aged-Microenvironment-Nanoreactor-LepR-BoneMarrow-MaterTodayBio-2026.html",
+    "Proteomic-Atlas-T-Cell-Exhaustion-Proteostatic-Collapse-Cell-2026.html",
+    "Fetuin-A-TLR4-Neuroinflammation-Aged-Rats-Biogerontology-2026.html",
+    "Eos-SENOLYTIX-PTC-2105-Late-Life-Survival-SEC-2026.html"
+   ],
+   "note": "午刊补丁包 2026-10-26：9 篇 news 页面上站（ articles 781→790），未用包内 articles.json 覆盖（走 build-index 重建避免回退）",
+   "hash": "7074adf54e06611c1633c7a3172e2482"
+  },
+  "dAnKxVCrsSXL": {
+   "name": "P2-18_data-lb-event-date_修复包_待巡检套用_2026-10-26.tar",
+   "layer": "元层",
+   "size": 14818,
+   "mtime": "1792974125000",
+   "status": "done",
+   "done_at": "2026-10-27T05:42:04+08:00",
+   "slugs": [],
+   "note": "P2-18 修复包：修 152 篇 data-lb-event-date 占位值；根治 inject-article-nav.py 硬编码 \"1\"；固化为管线末尾守卫3",
+   "hash": "ec0c14954728460c377e30419b939f29"
   }
  },
  "retired": [

@@ -15,7 +15,7 @@
   "disclaimer": "本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。",
   "transcript_dir": "podcast/transcripts",
   "data_datetime": "2026-10-22 18:32",
-  "generated_at": "2026-10-26 03:43"
+  "generated_at": "2026-10-27 03:44"
  },
  "episodes": [
   {
@@ -496,6 +496,181 @@
      "pmid": "",
      "url": "https://doi.org/10.1007/s11357-026-02547-7",
      "note": "横断面阴性结果；n / CI / 等效性检验待补全文；老年组仅含活跃非衰弱者，不可外推久坐或衰弱老人"
+    }
+   ]
+  },
+  {
+   "id": "ep020",
+   "slug": "salvianolic-acids-natural-senolytics-2026",
+   "series": "论文精读",
+   "title": "丹酚酸：把「天然抗衰」这句话按现代药理学标准跑完一遍",
+   "date": "2026-10-27",
+   "data_datetime": "2026-10-22 18:32",
+   "generated_at": "2026-10-27 03:44",
+   "duration_sec": 424,
+   "audio": "audio/salvianolic-acids-natural-senolytics-2026.mp3",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "desc": "丹酚酸 A/B/E 对衰老细胞有跨谱系的选择性毒性，靶向 GSTP1 同时打开凋亡与铁死亡，并抑制 SASP；间歇给药使老年小鼠剩余寿命延长 51.4%。但零人体数据，且本文研究的是提纯单体，不是丹参饮片。",
+   "article_slugs": [
+    "news/Salvianolic-Acids-Natural-Senolytics-Npj-Aging-2026.html"
+   ],
+   "sources": [
+    {
+     "label": "npj Aging（2026-09-11）：丹酚酸是天然衰老细胞清除剂并延长老年期寿命——Salvianolic acids are natural senolytics and increase lifespan in old age",
+     "doi": "10.1038/s41514-026-00496-1",
+     "pmid": "",
+     "url": "https://doi.org/10.1038/s41514-026-00496-1",
+     "note": "B 级临床前（小鼠 + 体外）；零人体数据、无药代与剂量探索；「天然」不等于安全、丹参类制剂有抗凝与出血风险；作者含 senolytic 概念推动者 Kirkland"
+    }
+   ]
+  },
+  {
+   "id": "ep021",
+   "slug": "ghr-antagonist-vs-liver-knockout-2026",
+   "series": "论文精读",
+   "title": "同一个受体，削全身延寿，只削肝脏却折寿",
+   "date": "2026-10-27",
+   "data_datetime": "2026-10-22 18:32",
+   "generated_at": "2026-10-27 03:44",
+   "duration_sec": 455,
+   "audio": "audio/ghr-antagonist-vs-liver-knockout-2026.mp3",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "desc": "GHA 转基因小鼠中位与最长寿命均延长（雄鼠最长 +186 天、雌鼠 +265 天），两性都显著。而站内另一篇只在肝细胞敲除同一受体的研究，寿命反而缩短——决定结果的是「在哪个组织降」，不是「降了多少」。",
+   "article_slugs": [
+    "news/GHR-Antagonist-Pegvisomant-Lineage-Extends-Lifespan-AgingCell-2026.html"
+   ],
+   "sources": [
+    {
+     "label": "Aging Cell 2026;25(9):e70697：生长激素受体拮抗延长寿命（Ohio University / Edison Biotechnology Institute, List EO, Berryman DE）",
+     "doi": "10.1111/acel.70697",
+     "pmid": "42701998",
+     "url": "https://doi.org/10.1111/acel.70697",
+     "note": "B 级临床前；转基因模型非给药，不可读成培维索孟可抗衰；样本量与中位寿命绝对值未报告、延寿百分比待补全文；雌鼠效应远强于雄鼠机制未解释"
+    }
+   ]
+  },
+  {
+   "id": "ep022",
+   "slug": "mci-prefrailty-distinct-signatures-2026",
+   "series": "打假与证伪",
+   "title": "五十个人、零重叠：衰弱与轻度认知障碍的血液签名并不共享",
+   "date": "2026-10-27",
+   "data_datetime": "2026-10-22 18:32",
+   "generated_at": "2026-10-27 03:44",
+   "duration_sec": 326,
+   "audio": "audio/mci-prefrailty-distinct-signatures-2026.mp3",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "desc": "50 名社区老人的三层血浆组学显示，MCI 的 21 个蛋白标志物与前衰弱的 24 个蛋白标志物零交集，代谢组同样无重叠。但 n=50 且不含明确衰弱者，「零重叠」完全可能是假阴性。",
+   "article_slugs": [
+    "news/Mild-Cognitive-Impairment-Pre-frailty-Show-GeroScience-2026.html"
+   ],
+   "sources": [
+    {
+     "label": "GeroScience：轻度认知障碍与前衰弱呈现截然不同的血浆多组学签名（横断面研究）",
+     "doi": "10.1007/s11357-026-02462-x",
+     "pmid": "42629519",
+     "url": "https://doi.org/10.1007/s11357-026-02462-x",
+     "note": "A 级人体研究但为小样本横断面；效应量/q 值/AUC 待补全文；预设 panel 覆盖有限；作者自限需大队列确认"
+    }
+   ]
+  },
+  {
+   "id": "ep023",
+   "slug": "parental-longevity-vs-polygenic-score-2026",
+   "series": "论文精读",
+   "title": "父母活得久，和多基因评分高，抓到的不是同一批东西",
+   "date": "2026-10-27",
+   "data_datetime": "2026-10-22 18:32",
+   "generated_at": "2026-10-27 03:44",
+   "duration_sec": 338,
+   "audio": "audio/parental-longevity-vs-polygenic-score-2026.mp3",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "desc": "1,126 名瑞典 70 岁老人、6 年随访：父母长寿额外关联更高 MMSE、更低 BMI、更低 IL-6 与 CRP 及更少吸烟，而多基因长寿评分只额外关联较少心梗。高父母长寿者随访时 pTau217 上升更少。",
+   "article_slugs": [
+    "news/Parental-Longevity-Polygenic-Longevity-Scores-GeroScience-2026.html"
+   ],
+   "sources": [
+    {
+     "label": "GeroScience：Gothenburg H70 出生队列中父母长寿与多基因长寿评分和衰老相关因素的关系（6 年随访）",
+     "doi": "10.1007/s11357-026-02501-7",
+     "pmid": "42726198",
+     "url": "https://doi.org/10.1007/s11357-026-02501-7",
+     "note": "A 级人体观察性研究；效应量/CI/p 值待补全文；SES 混杂强、父母年龄为自报、瑞典单一出生队列；「PL 可作生物学衰老代理」属推论"
+    }
+   ]
+  },
+  {
+   "id": "ep024",
+   "slug": "longevity-industry-matures-bibliometric-2026",
+   "series": "产业脉搏",
+   "title": "长寿产业的下一道门槛：等一款被批准的药",
+   "date": "2026-10-27",
+   "data_datetime": "2026-10-22 18:32",
+   "generated_at": "2026-10-27 03:44",
+   "duration_sec": 386,
+   "audio": "audio/longevity-industry-matures-bibliometric-2026.mp3",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "desc": "文献计量综述显示抗衰老药物研究已从探索性延寿转向机制知情的三条干预轴线；而大药厂的保守立场要持续到新药获批、数十万人使用、结果不可否认且带来可观商业收入为止——GLP-1 是参照案例。",
+   "article_slugs": [
+    "news/Longevity-Industry-Matures-Bibliometric-Review-2026.html"
+   ],
+   "sources": [
+    {
+     "label": "Ageing Research Reviews（2026）：从寿命延长到 hallmarks 驱动的老年治疗优先级排序——文献计量引导的策略性综述",
+     "doi": "10.1016/j.arr.2026.103221",
+     "pmid": "",
+     "url": "https://doi.org/10.1016/j.arr.2026.103221",
+     "note": "B 级行业动态；本期为站内对 Fight Aging! 2026-07-16 评论及其所引综述的二手转述，评论员观点带有立场；文献计量衡量论文结构而非疗效"
+    }
+   ]
+  },
+  {
+   "id": "ep025",
+   "slug": "senotype-framework-senescent-cells-2026",
+   "series": "机制十分钟",
+   "title": "衰老细胞不是一种细胞：Senotype 想把「清除」改成「分类」",
+   "date": "2026-10-27",
+   "data_datetime": "2026-10-22 18:32",
+   "generated_at": "2026-10-27 03:44",
+   "duration_sec": 363,
+   "audio": "audio/senotype-framework-senescent-cells-2026.mp3",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "desc": "Nature Aging 的 Senotype 框架用来源、分子特征、生物学效应三个维度给衰老细胞分类，区分自适应与适应不良两类。但这是 Perspective——它改变的是提问方式，未提供可操作的判定标准。",
+   "article_slugs": [
+    "news/Senotype-Framework-Cellular-Senescence-Nature-Aging-2026.html"
+   ],
+   "sources": [
+    {
+     "label": "Nature Aging（2026-08-01）：Senotypes define the diverse landscape of senescent cells（Schafer MJ, Basisty N, Baker DJ）",
+     "doi": "10.1038/s43587-026-01148-5",
+     "pmid": "",
+     "url": "https://doi.org/10.1038/s43587-026-01148-5",
+     "note": "B 级，观点框架类文章非原始研究；文中引用的发育/抗癌/组织修复证据来自其它文献，本节目未独立核实一手文献；无配套检测方法验证"
+    }
+   ]
+  },
+  {
+   "id": "ep026",
+   "slug": "ifnar1-mitophagy-parkinson-dementia-2026",
+   "series": "论文精读",
+   "title": "同一个基因在两种脑细胞里缺失，长出了两种病",
+   "date": "2026-10-27",
+   "data_datetime": "2026-10-22 18:32",
+   "generated_at": "2026-10-27 03:44",
+   "duration_sec": 376,
+   "audio": "audio/ifnar1-mitophagy-parkinson-dementia-2026.mp3",
+   "voice": "zh-CN-XiaoxiaoNeural",
+   "desc": "神经元缺失 IFNAR1 得到路易体样包涵体、运动缺陷与认知下降；星形胶质细胞缺失则只出现神经精神异常、无明显运动缺陷。机制链条指向线粒体自噬障碍与葡萄糖代谢亢进。",
+   "article_slugs": [
+    "news/IFNAR1-Mitochondria-Parkinson-Dementia-2026.html"
+   ],
+   "sources": [
+    {
+     "label": "Journal of Biomedical Science：IFNAR1 缺失通过损害线粒体自噬与神经递质传递驱动帕金森病痴呆（哥本哈根大学 / 奥胡斯大学 / 诺和诺德基金会蛋白质研究中心）",
+     "doi": "10.1186/s12929-026-01257-8",
+     "pmid": "",
+     "url": "https://doi.org/10.1186/s12929-026-01257-8",
+     "note": "站内标注 A 级，但机制部分主要来自小鼠模型；「首次在体证明」为论文自身表述、本节目按原文转述不做独立确认；遗传模型为发育期起效，与人类成年期病程不直接对应"
     }
    ]
   }

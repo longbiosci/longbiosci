@@ -1,7 +1,7 @@
 {
  "site": {
-  "articles": 819,
-  "dois": 683
+  "articles": 828,
+  "dois": 692
  },
  "outputs": {
   "preprint_2026-10-21.md": {
@@ -186,8 +186,8 @@
   }
  },
  "output_entries": 426,
- "covered": 194,
- "missing_count": 232,
+ "covered": 195,
+ "missing_count": 231,
  "missing": [
   {
    "fingerprint": "doi:10.1007/s11357-025-02017-6",
@@ -882,17 +882,6 @@
    ],
    "status": "漏收",
    "basis": "四路均未命中（DOI=10.1111/acel.70755，标题相似 0.00，词元重叠 0.33）"
-  },
-  {
-   "fingerprint": "doi:10.1111/acel.70758",
-   "title": "The Senokine Gas6 Promotes Aortic Valve Calcification Through CaMKII-DRP1-Mediated Terminal Scission of Mitochondrial-Derived Vesicles.",
-   "doi": "10.1111/acel.70758",
-   "code": "A20",
-   "seen_in": [
-    "文献层_五刊监控_深度文献卡片_2026-10-23.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1111/acel.70758，标题相似 0.00，词元重叠 0.50）"
   },
   {
    "fingerprint": "doi:10.1111/acel.70766",
@@ -2827,7 +2816,7 @@
    "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
   }
  ],
- "orphan_count": 819,
+ "orphan_count": 828,
  "orphan_sample": [
   "3D-Culture-Reverses-Limbal-Niche-AgingCell-2026.html",
   "7-Ketocholesterol-Derivatives-Pathophysiology.html",

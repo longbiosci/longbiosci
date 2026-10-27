@@ -205,9 +205,12 @@ def process(path, nb, by_slug, stats):
     CSS_DATE_local = "" if "style.css" in out else CSS_DATE
     ed = event_date_of(a or {}, str((a or {}).get("date") or ""))
     if ed:
+        # 2026-10-27 修复（待办 P2-18 根治）：此处原为 data-{mark}="1" 硬编码占位值，
+        # 导致注入出来的情报发生日期机器不可读（人读文案正确、机器读到 "1"）。
+        # 存量 SPA 由 scripts/fix_event_date.py 修复，这里修的是「每轮再生一遍」的源头。
         tag = (
-            '<span class="event-date" data-%s="1">情报发生 %s · 发布于 %s</span>'
-            % (DATE_MARK, ed, str((a or {}).get("date") or ""))
+            '<span class="event-date" data-%s="%s">情报发生 %s · 发布于 %s</span>'
+            % (DATE_MARK, ed, ed, str((a or {}).get("date") or ""))
         )
         # 分组 2 把 time 后原有的换行/缩进原样带回去，别把 <h1> 挤到同一行
         m = re.search(

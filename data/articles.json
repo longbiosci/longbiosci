@@ -1221,6 +1221,19 @@
     "added": "2026-10-25"
   },
   {
+    "slug": "NCoR1-Decline-Primate-Small-Intestinal-Aging-LifeMed-2026.html",
+    "title": "NCoR1 下降：灵长类小肠衰老的保守特征，二甲双胍能把它拉回来",
+    "desc": "Life Medicine 以研究亮点的形式点评了 Nat Aging 上用单核测序解析灵长类小肠衰老的工作：NCoR1 下降被识别为跨物种保守的衰老特征，且可被二甲双胍逆转。",
+    "tag": "观点评论",
+    "date": "2026-10-25",
+    "topic": "",
+    "type": "观点评论",
+    "evidence": "C",
+    "source": "",
+    "added": "2026-10-27",
+    "doi": "10.1093/lifemedi/lnag035"
+  },
+  {
     "slug": "NCCRP1-Ovarian-Cancer-PI3K-AKT-mTOR-2026.html",
     "title": "NCCRP1 拉高卵巢癌的线粒体呼吸，也拉高了转移与不良预后",
     "desc": "预后模型包含 28 个具显著预后价值的基因，其中 NCCRP1 mRNA 在卵巢组织中差异表达并具潜在预后意义。NCCRP1 蛋白在 OC 组织中相对癌旁过表达，高表达与腹水、腹水中肿瘤细胞、淋巴结转移、远处转移及晚期 FIGO 分期相关，且总生存更差。敲低 NCCRP1 抑制 OC 细胞增殖、迁移与侵袭并促进凋亡，过表达则相反。此外，敲低降低耗氧率，过表达则相反；NCCRP1",
@@ -1635,6 +1648,32 @@
     "source": "doi.org",
     "doi": "10.3389/fonc.2026.1859604",
     "added": "2026-10-25"
+  },
+  {
+    "slug": "Glial-Lipid-Reprogramming-Brain-Aging-Redox-Biology-2026.html",
+    "title": "不是脂质变多了，是脂质「换了身份」：一篇重写脑衰老氧化还原叙事的综述",
+    "desc": "该综述主张：解释胶质细胞为何在衰老中变得氧化还原脆弱，关键变量不是脂质丰度，而是脂质的身份、组成、氧化态、储存形式与亚细胞定位；缩醛磷脂缓冲、过氧化物酶体代谢与区室分布是落点。",
+    "tag": "综述",
+    "date": "2026-10-25",
+    "topic": "",
+    "type": "综述解读",
+    "evidence": "B",
+    "source": "",
+    "added": "2026-10-27",
+    "doi": "10.1016/j.redox.2026.104453"
+  },
+  {
+    "slug": "Ginsenoside-Rg1-DAF16-Mitophagy-Celegans-Biogerontology-2026.html",
+    "title": "人参皂苷 Rg1 在线虫里延寿：走的还是 DAF-16 那条线粒体自噬路",
+    "desc": "人参主要活性成分 Rg1 处理衰老线虫后细胞存活提高、肌肉形态维持、寿命延长；RNA-seq 与生信把关键靶点锁定为转录因子 daf-16，敲除株验证线粒体自噬激活与抗氧化能力提升均由该通路介导。",
+    "tag": "基础研究",
+    "date": "2026-10-25",
+    "topic": "",
+    "type": "机制研究",
+    "evidence": "B",
+    "source": "",
+    "added": "2026-10-27",
+    "doi": "10.1007/s10522-026-10536-8"
   },
   {
     "slug": "Giant-Panda-Gut-Microbiome-Longevity-2026.html",
@@ -2273,6 +2312,19 @@
     "added": "2026-10-25"
   },
   {
+    "slug": "Aged-Microenvironment-Nanoreactor-LepR-BoneMarrow-MaterTodayBio-2026.html",
+    "title": "给老化骨髓装一个「触发式」纳米反应器：放 NO/Mg²⁺、清 ROS，LepR⁺ 细胞回春",
+    "desc": "衰老 LepR+ 细胞陷入 NO 下降、Mg²⁺ 减少、ROS 累积的恶性循环；包被衰老 LepR+ 细胞膜的纳米反应器 CLPM 可靶向释放 NO/Mg²⁺ 并清除 ROS，降低衰老表型并增强骨髓再生。",
+    "tag": "基础研究",
+    "date": "2026-10-25",
+    "topic": "",
+    "type": "机制研究",
+    "evidence": "B",
+    "source": "",
+    "added": "2026-10-27",
+    "doi": "10.1016/j.mtbio.2026.103751"
+  },
+  {
     "slug": "Aged-Female-APOE4-KI-Rat-Neuroimaging-2026.html",
     "title": "老年雌性 APOE4 大鼠：脑区变大而非萎缩，Barnes 迷宫已经受损",
     "desc": "APOE4 鼠多个脑区体积显著大于 APOE3 对照（而非萎缩）；DTI 显示丘脑、脑干及白质纤维束 FA 升高，而感觉运动皮层 FA 降低。多数区域 FA 升高伴随 ADC 降低，这一反向关系符合细胞毒性水肿。行为上 APOE4 鼠 Barnes 迷宫显著受损。总体上，老年雌性 APOE4-KI 大鼠呈现临床前 AD 表型：白质、感觉运动与边缘环路广泛体积增大 + 微结构改变",
@@ -2429,6 +2481,19 @@
     "doi": "10.64898/2026.06.05.730244"
   },
   {
+    "slug": "HIV-Epigenetic-Aging-Metaanalysis-JGerontolA-2026.html",
+    "title": "55 项研究合在一起：HIV 感染者的表观年龄平均快了 3.41 年",
+    "desc": "系统综述纳入 55 项研究，其中 14 项 HorvathAge 表观年龄加速的随机效应荟萃给出平均差 3.41 年（95%CI 2.22–4.60）；同时暴露出儿童与 65 岁以上人群、纵向数据几乎空白的证据缺口。",
+    "tag": "综述",
+    "date": "2026-10-24",
+    "topic": "",
+    "type": "综述解读",
+    "evidence": "A",
+    "source": "",
+    "added": "2026-10-27",
+    "doi": "10.1093/gerona/glag252"
+  },
+  {
     "slug": "Glymphatic-Dysfunction-Sleep-Disorders-Meta-2026.html",
     "title": "睡眠呼吸暂停越重，大脑的「清洗」越弱：类淋巴 meta 的 r=−0.53 与它的边界",
     "desc": "一项纳入 15 项研究的系统综述与 meta 分析发现：阻塞性睡眠呼吸暂停患者的类淋巴转运显著受损（AHI 与 DTI-ALPS 指数 r=−0.53），但睡眠剥夺与发作性睡病 1 型未见显著改变——对流行的「睡眠-阿尔茨海默」叙事是一记镇静剂。",
@@ -2440,6 +2505,19 @@
     "source": "",
     "added": "2026-10-24",
     "doi": "10.64898/2026.10.20.26366043"
+  },
+  {
+    "slug": "Fetuin-A-TLR4-Neuroinflammation-Aged-Rats-Biogerontology-2026.html",
+    "title": "把 Fetuin-A 压下去，老龄大鼠海马的 TLR4 神经炎症就跟着退了",
+    "desc": "在 TAA 诱导的老年大鼠轻微型肝性脑病模型中，吡格列酮降低海马 Fetuin-A，伴随 TLR4/MyD88/NF-κB 下调、星形胶质活化减少，海马神经元密度、树突分支与棘密度恢复。",
+    "tag": "基础研究",
+    "date": "2026-10-24",
+    "topic": "",
+    "type": "机制研究",
+    "evidence": "B",
+    "source": "",
+    "added": "2026-10-27",
+    "doi": "10.1007/s10522-026-10533-x"
   },
   {
     "slug": "Cross-Species-Muscle-Transcriptomic-Aging-Signatures-2026.html",
@@ -2702,6 +2780,32 @@
     "added": "2026-10-22"
   },
   {
+    "slug": "Senokine-Gas6-MDV-Aortic-Valve-Calcification-AgingCell-2026.html",
+    "title": "衰老细胞分泌的 Gas6，把线粒体来源囊泡变成了瓣膜钙化的运载工具",
+    "desc": "钙化的人瓣膜间质细胞超量分泌线粒体来源囊泡（MDV），Gas6 经 Ca²⁺-CaMKII-DRP1 轴促进 MDV 终末剪切，把钙化信号传给受体细胞；抑制 CaMKII 或 DRP1 可减少分泌与钙化。",
+    "tag": "基础研究",
+    "date": "2026-10-22",
+    "topic": "",
+    "type": "机制研究",
+    "evidence": "B",
+    "source": "",
+    "added": "2026-10-27",
+    "doi": "10.1111/acel.70758"
+  },
+  {
+    "slug": "Proteomic-Atlas-T-Cell-Exhaustion-Proteostatic-Collapse-Cell-2026.html",
+    "title": "T 细胞耗竭的底层是蛋白稳态崩了：Cell 多组学图谱给出的新落点",
+    "desc": "整合转录组、定量蛋白质组、周转蛋白质组与泛素蛋白质组，研究把蛋白稳态崩溃定义为 T 细胞耗竭的核心特征，E3 泛素连接酶差异表达与免疫治疗结局相关，过表达 RNF166 可增强 T 细胞持久性。",
+    "tag": "研究进展",
+    "date": "2026-10-22",
+    "topic": "",
+    "type": "研究进展",
+    "evidence": "B",
+    "source": "",
+    "added": "2026-10-27",
+    "doi": "10.1016/j.cell.2026.09.051"
+  },
+  {
     "slug": "Hippocampal-Perfusion-mvPI-Spatial-Aging-bioRxiv-2026.html",
     "title": "海马的「供水」与「搏动」是两条独立的老化轴线：7T MRI 的空间图谱",
     "desc": "35 名青年与老年人的 7T MRI 显示，海马灌注与微血管搏动指数（mvPI）空间组织不同、各有年龄差异；青年组中前者对应 PV 中间神经元密度，后者对应 theta 频段。",
@@ -2713,6 +2817,18 @@
     "source": "doi.org",
     "doi": "10.64898/2026.10.15.759438",
     "added": "2026-10-22"
+  },
+  {
+    "slug": "Eos-SENOLYTIX-PTC-2105-Late-Life-Survival-SEC-2026.html",
+    "title": "80 周龄才开始给药、每周一次：Eos 的 PTC-2105 让自然衰老小鼠活得显著更久（p=0.0142）",
+    "desc": "Eos SENOLYTIX 在第 17 届靶向线粒体世界大会公布 PTC-2105 临床前数据：自然衰老小鼠自 80 周龄起每周 25 mg/kg 给药至自然死亡，总生存显著优于生理盐水（log-rank p=0.0142）。",
+    "tag": "产业动态",
+    "date": "2026-10-22",
+    "topic": "",
+    "type": "行业动态",
+    "evidence": "C",
+    "source": "",
+    "added": "2026-10-27"
   },
   {
     "slug": "Entorhinal-Grid-Coding-Temporal-Instability-Aging-bioRxiv-2026.html",

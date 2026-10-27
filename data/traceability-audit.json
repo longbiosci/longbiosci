@@ -1,24 +1,24 @@
 {
  "summary": {
-  "total": 781,
+  "total": 790,
   "level_counts": {
-   "强": 649,
-   "中": 131,
+   "强": 657,
+   "中": 132,
    "断链": 1
   },
   "by_tier": {
    "A": {
-    "强": 150,
+    "强": 151,
     "中": 26
    },
    "B": {
-    "强": 313,
+    "强": 319,
     "中": 90,
     "断链": 1
    },
    "C": {
-    "强": 186,
-    "中": 15
+    "强": 187,
+    "中": 16
    }
   },
   "missing_doi": [
@@ -31,6 +31,11 @@
     "slug": "circRNA-Partial-Reprogramming-MSC-2026.html",
     "title": "环状 RNA 做部分重编程：MSC 变年轻，但不会变成 iPSC",
     "evidence": "B"
+   },
+   {
+    "slug": "Eos-SENOLYTIX-PTC-2105-Late-Life-Survival-SEC-2026.html",
+    "title": "80 周龄才开始给药、每周一次：Eos 的 PTC-2105 让自然衰老小鼠活得显著更久（p=0.0142）",
+    "evidence": "C"
    },
    {
     "slug": "Mission-Therapeutics-MTX325-USP30-Parkinson-Phase1b-2026.html",
@@ -813,6 +818,18 @@
    "level": "强"
   },
   {
+   "slug": "Aged-Microenvironment-Nanoreactor-LepR-BoneMarrow-MaterTodayBio-2026.html",
+   "title": "给老化骨髓装一个「触发式」纳米反应器：放 NO/Mg²⁺、清 ROS，LepR⁺ 细胞回春",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.mtbio.2026.103751",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.mtbio.2026.103751"
+   ],
+   "level": "强"
+  },
+  {
    "slug": "Aging-Kidney-Senescence-Bibliometric-2026.html",
    "title": "肾脏衰老与纤维化的文献计量图谱：谁在做、做到哪一步",
    "evidence": "B",
@@ -1403,6 +1420,30 @@
    "level": "强"
   },
   {
+   "slug": "Ginsenoside-Rg1-DAF16-Mitophagy-Celegans-Biogerontology-2026.html",
+   "title": "人参皂苷 Rg1 在线虫里延寿：走的还是 DAF-16 那条线粒体自噬路",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1007/s10522-026-10536-8",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1007/s10522-026-10536-8"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Glial-Lipid-Reprogramming-Brain-Aging-Redox-Biology-2026.html",
+   "title": "不是脂质变多了，是脂质「换了身份」：一篇重写脑衰老氧化还原叙事的综述",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.redox.2026.104453",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.redox.2026.104453"
+   ],
+   "level": "强"
+  },
+  {
    "slug": "Global-Cancer-Burden-Middle-Aged-Elderly-2026.html",
    "title": "中老年癌症负担三十年：老龄化是发病增长的主要驱动",
    "evidence": "A",
@@ -1793,6 +1834,18 @@
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.62347/OXEM5735"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "NCoR1-Decline-Primate-Small-Intestinal-Aging-LifeMed-2026.html",
+   "title": "NCoR1 下降：灵长类小肠衰老的保守特征，二甲双胍能把它拉回来",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1038/s43587-026-01131-0",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1093/lifemedi/lnag035"
    ],
    "level": "强"
   },
@@ -2938,6 +2991,18 @@
    "level": "强"
   },
   {
+   "slug": "Fetuin-A-TLR4-Neuroinflammation-Aged-Rats-Biogerontology-2026.html",
+   "title": "把 Fetuin-A 压下去，老龄大鼠海马的 TLR4 神经炎症就跟着退了",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1007/s10522-026-10533-x",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1007/s10522-026-10533-x"
+   ],
+   "level": "强"
+  },
+  {
    "slug": "Glymphatic-Dysfunction-Sleep-Disorders-Meta-2026.html",
    "title": "睡眠呼吸暂停越重，大脑的「清洗」越弱：类淋巴 meta 的 r=−0.53 与它的边界",
    "evidence": "B",
@@ -2946,6 +3011,18 @@
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.64898/2026.10.20.26366043"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "HIV-Epigenetic-Aging-Metaanalysis-JGerontolA-2026.html",
+   "title": "55 项研究合在一起：HIV 感染者的表观年龄平均快了 3.41 年",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1093/gerona/glag252",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1093/gerona/glag252"
    ],
    "level": "强"
   },
@@ -3224,6 +3301,18 @@
    "level": "强"
   },
   {
+   "slug": "Eos-SENOLYTIX-PTC-2105-Late-Life-Survival-SEC-2026.html",
+   "title": "80 周龄才开始给药、每周一次：Eos 的 PTC-2105 让自然衰老小鼠活得显著更久（p=0.0142）",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://www.sec.gov/Archives/edgar/data/1574235/000149315226047966/form425.htm"
+   ],
+   "level": "中"
+  },
+  {
    "slug": "Hippocampal-Perfusion-mvPI-Spatial-Aging-bioRxiv-2026.html",
    "title": "海马的「供水」与「搏动」是两条独立的老化轴线：7T MRI 的空间图谱",
    "evidence": "B",
@@ -3232,6 +3321,30 @@
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.64898/2026.10.15.759438"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Proteomic-Atlas-T-Cell-Exhaustion-Proteostatic-Collapse-Cell-2026.html",
+   "title": "T 细胞耗竭的底层是蛋白稳态崩了：Cell 多组学图谱给出的新落点",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.cell.2026.09.051",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.cell.2026.09.051"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Senokine-Gas6-MDV-Aortic-Valve-Calcification-AgingCell-2026.html",
+   "title": "衰老细胞分泌的 Gas6，把线粒体来源囊泡变成了瓣膜钙化的运载工具",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1111/acel.70758",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1111/acel.70758"
    ],
    "level": "强"
   },

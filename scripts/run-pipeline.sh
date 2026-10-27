@@ -193,4 +193,12 @@ echo "[末尾守卫] inject-share-bar      补文章页转发分享条（复制�
 echo "[末尾守卫] inject-article-nav   补文章页上下篇导航 + 情报发生日期"
 "$PYTHON" "$HERE/inject-article-nav.py" "$ROOT"
 
-printf "\n✅ 管线执行完成（20/20）· 末位两条守卫已补（分享条 + 上下篇/发生日期）\n"
+# 末位守卫 3：data-lb-event-date 占位值修复 + 硬断言（待办 P2-18，2026-10-27 固化）
+#   inject-article-nav 每轮重新注入该属性，一旦它的取值写错，错误会随每轮构建
+#   重新扩散到全部受影响页面（10-26 实测：占位值 97 → 本轮 152）。
+#   故放在它之后而非之前：先让它按自己的逻辑注入，再由本环节纠正 + 断言。
+#   fix_event_date.py 幂等且自带断言（解析不出日期则 exit 1），失败即构建失败。
+echo "[末尾守卫] fix_event_date       修 data-lb-event-date 占位值 + 断言全为 YYYY-MM-DD"
+"$PYTHON" "$HERE/fix_event_date.py" "$ROOT/news" --apply
+
+printf "\n✅ 管线执行完成（20/20）· 末位三条守卫已补（分享条 + 上下篇/发生日期 + P2-18 日期断言）\n"
