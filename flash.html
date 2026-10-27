@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>快讯 · LongBiosci</title>
+<meta name="description" content="LongBiosci 快讯栏目：午刊班直发的午后快讯，带数据日期与生成时间，来源可溯。">
+<link rel="canonical" href="https://longbiosci.com/flash.html">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<a href="#main-content" class="skip-link">跳转到主要内容</a>
+<header class="site-header">
+  <div class="wrap">
+    <a href="/" class="brand"><img src="/logo-mark.svg" alt="" class="brand-mark" width="28" height="28"><span class="brand-name">LongBiosci</span></a>
+    <nav class="main-nav" aria-label="主导航">
+      <a href="/">首页</a>
+      <a href="/news/">最新</a>
+      <a href="/topics/" aria-label="主题专辑"><span class="nav-mq">主题</span>专辑</a>
+      <a href="/guide/" aria-label="热词专题">热词<span class="nav-mq">专题</span></a>
+      <a href="/research/" aria-label="概念与工具">概念<span class="nav-mq">与工具</span></a>
+      <a href="/daily/">周刊</a>
+      <a href="/evidence/" aria-label="证据分级">证据<span class="nav-mq">分级</span></a>
+      <a href="/trials.html" aria-label="临床试验">临床<span class="nav-mq">试验</span></a>
+      <a href="/industry/">产业</a>
+      <a href="/events/">会议</a>
+      <a href="/podcast/" aria-label="播客">播<span class="nav-mq">客</span></a>
+      <a href="/about/">关于</a>
+      <a href="/search.html" class="nav-search" aria-label="站内搜索"><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="6.8" cy="6.8" r="4.6" fill="none" stroke="currentColor" stroke-width="1.6"/><line x1="10.3" y1="10.3" x2="14" y2="14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><span class="nav-search-text">搜索</span></a>
+    </nav>
+  </div>
+</header>
+<main id="main-content">
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h1>快讯</h1>
+        <span class="section-note" id="flashMeta">加载中…</span>
+      </div>
+      <p class="flash-intro">本栏目由午刊班每日 13:30 后直发，聚焦当日行业与文献的快节奏情报（300–500 字），每条带<strong>数据日期 + 生成时间</strong>与可核验来源（DOI/PMID/NCT/官方 URL）。快讯不进入主内容库（<code>articles.json</code>），与全站研究解读相互独立；满 30 条自动滚动淘汰最旧。</p>
+      <div id="flashList"><p>加载中…</p></div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© 2026 LongBiosci · 衰老与长寿科技资讯
+    <a href="/rss.xml">RSS</a> · <a href="/">返回首页</a>
+  </div>
+</footer>
+<script>
+(function () {
+  var list = document.getElementById('flashList'), meta = document.getElementById('flashMeta');
+  fetch('/data/flash.json', { cache: 'no-cache' }).then(function (r) { return r.ok ? r.json() : null; }).then(function (d) {
+    var items = (d && Array.isArray(d.items)) ? d.items : [];
+    meta.textContent = '共 ' + items.length + ' 条 · 更新于 ' + ((d && d.updated_at) || '—');
+    if (!items.length) { list.innerHTML = '<p>暂无快讯。今日内容请见 <a href="/news/">最新收录</a>。</p>'; return; }
+    list.innerHTML = items.map(function (it) {
+      var src = it.source_url ? ' · <a href="' + it.source_url + '" target="_blank" rel="noopener">原文来源</a>' : '';
+      return '<article class="flash-card"><div class="item-meta"><span class="tag">快讯</span>'
+        + '<span class="tag-date">' + (it.date || '') + ' 数据 · ' + (it.generated_at || '') + ' 生成</span></div>'
+        + '<h3>' + it.title + '</h3><p>' + (it.summary || '') + '</p>'
+        + '<div class="card-foot"><span>' + (it.source || '') + src + '</span></div></article>';
+    }).join('');
+  }).catch(function () { list.innerHTML = '<p>快讯数据暂时不可用，请稍后刷新。</p>'; });
+})();
+</script>
+</body>
+</html>

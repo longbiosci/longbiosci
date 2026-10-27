@@ -68,6 +68,7 @@ BASE = "https://longbiosci.com"
 # (相对路径, changefreq, priority)
 PAGES = [
     ("zh/index.html",         "weekly",  "0.8"),
+    ("flash.html",            "hourly",  "0.6"),  # 快讯栏目（lb-flash-v1 · 午刊班专用）
     ("trials.html",           "daily",   "0.8"),
     ("trials-full.html",      "daily",   "0.6"),
     ("telomere.html",         "monthly", "0.7"),

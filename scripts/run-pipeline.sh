@@ -201,4 +201,11 @@ echo "[末尾守卫] inject-article-nav   补文章页上下篇导航 + 情报�
 echo "[末尾守卫] fix_event_date       修 data-lb-event-date 占位值 + 断言全为 YYYY-MM-DD"
 "$PYTHON" "$HERE/fix_event_date.py" "$ROOT/news" --apply
 
+# 末位守卫 4：快讯栏目校验（2026-10-27 新增）
+#   午刊班 13508579 直发 data/flash.json（lb-flash-v1），本守卫确保：
+#   schema 合法 / 每条带数据日期+生成时间 / 来源可核验 / 上限30 / 与 articles.json 隔离。
+#   快讯空列表视为合法（栏目未启用不报错）。
+echo "[末尾守卫] flash_validate       快讯栏目 schema+时间标签+来源+隔离断言"
+"$PYTHON" "$HERE/flash_validate.py"
+
 printf "\n✅ 管线执行完成（20/20）· 末位三条守卫已补（分享条 + 上下篇/发生日期 + P2-18 日期断言）\n"

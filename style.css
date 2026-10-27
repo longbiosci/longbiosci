@@ -928,3 +928,23 @@ body:has(.bottom-nav){padding-bottom:64px}
 /* 上下篇导航 + 情报发生日期（inject-article-nav.py） */
 .article-nav{display:flex;flex-wrap:wrap;gap:12px;margin:26px 0 0;padding:0;list-style:none}.article-nav a{flex:1 1 260px;display:block;padding:12px 16px;border:1px solid #e6e8ef;border-radius:10px;text-decoration:none;color:#111;background:#fbfcfe;font-size:14px;line-height:1.5;min-height:44px}.article-nav a:hover{border-color:#0f3460;background:#f4f7fc}.article-nav .nav-dir{display:block;font-size:12px;color:#777;margin-bottom:4px}.article-nav .nav-newer{text-align:right}@media(max-width:600px){.article-nav{flex-direction:column}.article-nav .nav-newer{text-align:left}}
 .event-date{display:inline-block;margin-left:10px;font-size:12px;color:#8a6d3b;background:#fdf6e3;border:1px solid #f0e2c0;border-radius:6px;padding:2px 8px;vertical-align:middle}
+
+/* ═══ 快讯栏目（lb-flash-v1 · 午刊班专用，与主内容管线隔离）═══ */
+.flash-bar{border-bottom:1px solid #f0e2c0;background:linear-gradient(90deg,#fffaf0,#fff)}
+.flash-wrap{display:flex;align-items:center;gap:14px;min-height:44px;padding-top:6px;padding-bottom:6px}
+.flash-badge{display:inline-flex;align-items:center;gap:6px;flex:none;font-size:13px;font-weight:700;color:#8a6d3b;
+  background:#fdf6e3;border:1px solid #f0e2c0;border-radius:6px;padding:3px 10px}
+.flash-dot{width:7px;height:7px;border-radius:50%;background:#c8452c;animation:flash-pulse 1.4s infinite}
+@keyframes flash-pulse{0%,100%{opacity:1}50%{opacity:.25}}
+.flash-viewport{flex:1;overflow:hidden;white-space:nowrap;mask-image:linear-gradient(90deg,transparent,#000 3%,#000 97%,transparent)}
+.flash-track{display:inline-block;white-space:nowrap;animation:flash-scroll 36s linear infinite}
+.flash-bar:hover .flash-track{animation-play-state:paused}
+.flash-item{display:inline-block;margin-right:40px;font-size:14px;color:#33475b}
+.flash-item a{color:#0d4f8b;text-decoration:none}
+.flash-item a:hover{text-decoration:underline}
+.flash-item .flash-time{color:#8a6d3b;font-size:12px;margin-right:6px}
+.flash-item a[target="_blank"]{font-size:12px;color:#94a1ad;margin-left:6px}
+.flash-more{flex:none;font-size:13px;color:#6b7885;text-decoration:none}
+.flash-more:hover{color:#0d4f8b}
+@keyframes flash-scroll{from{transform:translateX(0)}to{transform:translateX(var(--flash-shift,-50%))}}
+@media (max-width:600px){.flash-more{display:none}.flash-track{animation-duration:24s}}
