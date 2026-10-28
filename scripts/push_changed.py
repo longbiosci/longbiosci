@@ -114,9 +114,26 @@ def api(path, method="GET", payload=None, token=None, retries=6):
     raise SystemExit(f"重试 {retries} 次仍失败：\n{last}")
 
 
+def _infer_base(remote_tree, window=200):
+    """按 tree sha 反查本地同内容提交作为推送基线。
+
+    远端 commit 由 GitHub API 生成，committer 时间戳与本地不同 → sha 必然不同名，
+    但 tree 是同一个。遍历最近 window 个本地提交，取 tree 相同的第一个（最新的）。
+    找不到就报错，绝不静默回退到 HEAD~1 —— 基线选错会把别人的成果算成「删除」推上去。
+    """
+    out = sh("git", "rev-list", f"--max-count={window}", "HEAD").decode().split()
+    for c in out:
+        if sh("git", "rev-parse", f"{c}^{{tree}}").decode().strip() == remote_tree:
+            print(f"自动推定基线 = {c[:7]}（tree 与远端一致）")
+            return c
+    raise SystemExit(
+        f"无法自动推定基线：最近 {window} 个本地提交的 tree 都与远端 "
+        f"{remote_tree[:7]} 不同。本地已落后过多合并/重基线，"
+        f"请显式指定 base_ref（通常应是「内容等于远端」的那个本地提交）。")
+
+
 def main():
     token, rest = read_token(sys.argv[1:])
-    base = rest[0] if rest else "0bdb2f8"
 
     head = sh("git", "rev-parse", "HEAD").decode().strip()
     msg = sh("git", "log", "-1", "--format=%B").decode().strip()
@@ -125,6 +142,16 @@ def main():
     remote_sha = remote["object"]["sha"]
     remote_commit = api(f"/git/commits/{remote_sha}", token=token)
     remote_tree = remote_commit["tree"]["sha"]
+
+    # 基线（base）：默认不能再写死某个 commit sha。
+    # 2026-10-29 踩坑：默认 base 写着 0bdb2f8，该提交早已不在本地仓库，
+    # 于是 `git diff --name-only 0bdb2f8 HEAD` 直接 128 退出，必须先手工找基线。
+    # 远端 commit 是 API 造出来的（committer 时间戳不同 → sha 与本地不同名），
+    # 但 tree 与某个本地提交同源，因此按 tree sha 反查本地同名提交即可。
+    if rest:
+        base = rest[0]
+    else:
+        base = _infer_base(remote_tree)
     print(f"远端 {BRANCH} = {remote_sha[:7]}  tree={remote_tree[:7]}")
     print(f"本地 HEAD     = {head[:7]}")
 
@@ -132,9 +159,13 @@ def main():
         print("已同步，无需推送")
         return
 
-    # 变更文件列表
+    # 变更文件列表（必须在推送前算）：为空就收手，否则会推上去一个「内容没变」的空提交。
+    # 2026-10-29 第二个坑：修好自动基线后空跑一次，main 上多出一个同 tree 的空 commit。
     changed = [l for l in sh("git", "diff", "--name-only", base, head).decode().split("\n") if l.strip()]
     print(f"变更文件 {len(changed)} 个")
+    if not changed:
+        print("无实质变更，不推送（远端内容与本地一致，无需制造空提交）")
+        return
 
     # 1) 上传 blob
     blobs = {}
