@@ -1,9 +1,9 @@
 {
  "summary": {
-  "total": 830,
+  "total": 847,
   "level_counts": {
+   "强": 699,
    "中": 147,
-   "强": 682,
    "断链": 1
   },
   "by_tier": {
@@ -13,11 +13,11 @@
    },
    "B": {
     "中": 105,
-    "强": 319,
+    "强": 331,
     "断链": 1
    },
    "C": {
-    "强": 212,
+    "强": 217,
     "中": 16
    }
   },
@@ -773,6 +773,19 @@
  },
  "articles": [
   {
+   "slug": "Aging-As-Failed-Resolution-Framework-Geroscience-IJMS-2026.html",
+   "title": "衰老是一道「始终没开始愈合的伤口」吗？这个框架现在可检验了",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/ijms27208987",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/ijms27208987",
+    "https://pubmed.ncbi.nlm.nih.gov/42941762/"
+   ],
+   "level": "强"
+  },
+  {
    "slug": "Arrowhead-ARO-MAPT-Subcutaneous-siRNA-Crosses-BBB-2026.html",
    "title": "Arrowhead ARO-MAPT：皮下 siRNA 首次临床验证可跨越血脑屏障，CSF tau 降 73%",
    "evidence": "B",
@@ -833,6 +846,32 @@
    "level": "中"
   },
   {
+   "slug": "Dog-Aging-Project-Longevity-Factors-41047-Dogs-Geroscience-2026.html",
+   "title": "4.1 万只狗的长寿答卷：体型、血统与「你住在哪里」都进了方程",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1007/s11357-026-02448-9",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1007/s11357-026-02448-9",
+    "https://pubmed.ncbi.nlm.nih.gov/42945030/"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "FG1-Aromatic-Vinegar-Lifespan-Celegans-SKN1-IJMS-2026.html",
+   "title": "来自芳香醋的一个小分子，把线虫的寿命与抗逆性一起抬了上去",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/ijms27209208",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/ijms27209208",
+    "https://pubmed.ncbi.nlm.nih.gov/42941978/"
+   ],
+   "level": "强"
+  },
+  {
    "slug": "Ferring-Acquires-Gameto-1-38B-Ovarian-Aging-2026.html",
    "title": "Ferring 至多 13.825 亿美元收购 Gameto：卵巢衰老第一次被大药厂定价",
    "evidence": "B",
@@ -843,6 +882,19 @@
     "https://www.ferring.com/ferring-pharmaceuticals-and-gameto-sign-agreement-for-proposed-acquisition"
    ],
    "level": "中"
+  },
+  {
+   "slug": "Geroscience-Trial-Biomarker-Roadmap-Lifestyle-Aging-Biomolecules-2026.html",
+   "title": "人体 geroscience 试验该怎么选生物标志物？一份可执行路线图",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/biom16101504",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/biom16101504",
+    "https://pubmed.ncbi.nlm.nih.gov/42939758/"
+   ],
+   "level": "强"
   },
   {
    "slug": "Immorta-Bio-SenoMune-0257-AI-Senolytic-Peptide-2026.html",
@@ -867,6 +919,18 @@
     "https://www.prnewswire.com/news-releases/insilico-medicine-reports-40-orr-at-130-mg-for-pan-tead-inhibitor-ism6331-designed-using-generative-ai-in-heavily-pretreated-mesothelioma-at-esmo-2026-302919241.html"
    ],
    "level": "中"
+  },
+  {
+   "slug": "Klotho-Sustained-Delivery-Cell-in-a-Box-Encapsulation-FrontAging-2026.html",
+   "title": "Klotho 补不上去的两个死结：半衰期太短、产细胞被免疫清除",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3389/fragi.2026.1913194",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/fragi.2026.1913194"
+   ],
+   "level": "强"
   },
   {
    "slug": "Life-Biosciences-ER-100-First-In-Human-Phase-1-2026.html",
@@ -905,6 +969,58 @@
    "level": "中"
   },
   {
+   "slug": "Myricitrin-Delays-Celegans-Aging-DAF16-SIR21-Antioxidants-2026.html",
+   "title": "杨梅苷延寿：DAF-16 与 SIR-2.1 两条经典通路同时被点亮",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/antiox15101230",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/antiox15101230",
+    "https://pubmed.ncbi.nlm.nih.gov/42939805/"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "NMN-Does-Not-Prevent-Cardiac-Hypertrophy-Hypoxia-Mice-Nutrients-2026.html",
+   "title": "NMN 的一次「未达主要终点」：没能阻止心脏肥厚，但压住了应激标志物",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/nu18203334",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/nu18203334",
+    "https://pubmed.ncbi.nlm.nih.gov/42942905/"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "NMN-Microglia-OGDR-NLRP3-Lipid-Droplet-Biomedicines-2026.html",
+   "title": "NMN 在小胶质细胞里的落点：NLRP3 炎症小体与脂滴标志两条签名",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/biomedicines14102378",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/biomedicines14102378",
+    "https://pubmed.ncbi.nlm.nih.gov/42940187/"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "NMN-Producing-Probiotic-B12-N-Celegans-Alzheimer-Aging-Foods-2026.html",
+   "title": "让益生菌自己生产 NMN：在 AD 线虫模型里，它和纯化 NMN 打了个平手",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/foods15203657",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/foods15203657",
+    "https://pubmed.ncbi.nlm.nih.gov/42940294/"
+   ],
+   "level": "强"
+  },
+  {
    "slug": "NRG-Therapeutics-NRG5051-PET-Biodistribution-Trial-2026.html",
    "title": "NRG5051 启动 PET 生物分布试验：为线粒体 mPTP 抑制剂的脑穿透取证",
    "evidence": "B",
@@ -917,6 +1033,19 @@
    "level": "中"
   },
   {
+   "slug": "Neurotropic-Herpesviruses-Brain-Aging-Accelerator-Multiple-Hit-Virology-2026.html",
+   "title": "潜伏的疱疹病毒会不会是脑衰老的加速器？一个新模型把「多次打击」摆上台面",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1016/j.virol.2026.111113",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.virol.2026.111113",
+    "https://pubmed.ncbi.nlm.nih.gov/42945857/"
+   ],
+   "level": "强"
+  },
+  {
    "slug": "NewLimit-Clinical-Development-Hire-2027-FIH-2026.html",
    "title": "NewLimit 补齐临床班底：前 89bio 首席医学官出任临床开发负责人，重申 2027 首次人体",
    "evidence": "B",
@@ -927,6 +1056,19 @@
     "https://blog.newlimit.com/p/2026-summer"
    ],
    "level": "中"
+  },
+  {
+   "slug": "P2X7-Antagonist-A740003-Cardiac-Senescence-Inflammaging-Pharmaceuticals-2026.html",
+   "title": "阻断 P2X7 受体，能让 D-半乳糖诱导的「衰老心脏」年轻几分？",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/ph19101548",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/ph19101548",
+    "https://pubmed.ncbi.nlm.nih.gov/42943245/"
+   ],
+   "level": "强"
   },
   {
    "slug": "Preprint-10-1101-2025-07-07-663438-2026.html",
@@ -961,6 +1103,18 @@
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.64898/2026.09.29.755284"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Preprint-10-64898-2026-10-11-758291-2026.html",
+   "title": "【摘要级】再生伴随转录组年龄回落：肠道与肝脏在修复中被时钟读为“更年轻”",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.64898/2026.10.11.758291",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.64898/2026.10.11.758291"
    ],
    "level": "强"
   },
@@ -1239,6 +1393,70 @@
     "https://www.businesswire.com/news/home/20261012590263/en/"
    ],
    "level": "中"
+  },
+  {
+   "slug": "Senescence-Malignancy-Axis-Inflammaging-Perspective-Antioxidants-2026.html",
+   "title": "衰老细胞如何把健康组织改造成肿瘤的「沃土」：一条 SASP 驱动的逻辑链",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/antiox15101357",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/antiox15101357",
+    "https://pubmed.ncbi.nlm.nih.gov/42939931/"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Seno-Antigen-Selection-Framework-Senolytic-Immunotherapy-FrontSysBiol-2026.html",
+   "title": "给 senolytic 免疫治疗挑靶点：一套四条硬标准，uPAR 与 GPNMB 都没通过",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3389/fsysb.2026.1940319",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/fsysb.2026.1940319"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Skeletal-Muscle-Aging-Systemic-Aging-Contributor-Biomolecules-2026.html",
+   "title": "把骨骼肌当成内分泌器官看：一篇综述重新定位了它在系统性衰老中的位置",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/biom16101527",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/biom16101527",
+    "https://pubmed.ncbi.nlm.nih.gov/42939781/"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Type-I-Interferon-Autoantibodies-Plateau-Centernarians-JHumImmun-2026.html",
+   "title": "百岁老人身上的一个「免疫悖论」：抗病毒自身抗体不再随年龄上升了",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.70962/jhi.20260143",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.70962/jhi.20260143",
+    "https://pubmed.ncbi.nlm.nih.gov/42944855/"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Updated-Guide-Assessment-Mammalian-Cellular-Senescence-MolCells-2026.html",
+   "title": "细胞衰老怎么测才有说服力：一份更新版方法指南",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.mocell.2026.100408",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.mocell.2026.100408",
+    "https://pubmed.ncbi.nlm.nih.gov/42946057/"
+   ],
+   "level": "强"
   },
   {
    "slug": "XPRIZE-Healthspan-101M-Finalist-Teams-2026.html",

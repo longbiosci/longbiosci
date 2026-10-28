@@ -1,5 +1,10 @@
 ﻿日期,标题,主题,类型,证据等级,DOI,DOI 链接,来源,站内解读页
 2026-10-28,XPRIZE Healthspan 1.01 亿美元：10 支终选团队与「1 年能否外推数十年」的硬问题,方法与工具,产业动态,B,,,IMA 交叉追踪,https://longbiosci.com/news/XPRIZE-Healthspan-101M-Finalist-Teams-2026.html
+2026-10-28,细胞衰老怎么测才有说服力：一份更新版方法指南,细胞衰老,方法学,B,10.1016/j.mocell.2026.100408,https://doi.org/10.1016/j.mocell.2026.100408,doi.org,https://longbiosci.com/news/Updated-Guide-Assessment-Mammalian-Cellular-Senescence-MolCells-2026.html
+2026-10-28,百岁老人身上的一个「免疫悖论」：抗病毒自身抗体不再随年龄上升了,免疫与炎症,基础研究,B,10.70962/jhi.20260143,https://doi.org/10.70962/jhi.20260143,doi.org,https://longbiosci.com/news/Type-I-Interferon-Autoantibodies-Plateau-Centernarians-JHumImmun-2026.html
+2026-10-28,把骨骼肌当成内分泌器官看：一篇综述重新定位了它在系统性衰老中的位置,器官衰老,综述,B,10.3390/biom16101527,https://doi.org/10.3390/biom16101527,doi.org,https://longbiosci.com/news/Skeletal-Muscle-Aging-Systemic-Aging-Contributor-Biomolecules-2026.html
+2026-10-28,给 senolytic 免疫治疗挑靶点：一套四条硬标准，uPAR 与 GPNMB 都没通过,细胞衰老,方法学,C,10.3389/fsysb.2026.1940319,https://doi.org/10.3389/fsysb.2026.1940319,doi.org,https://longbiosci.com/news/Seno-Antigen-Selection-Framework-Senolytic-Immunotherapy-FrontSysBiol-2026.html
+2026-10-28,衰老细胞如何把健康组织改造成肿瘤的「沃土」：一条 SASP 驱动的逻辑链,细胞衰老,综述,B,10.3390/antiox15101357,https://doi.org/10.3390/antiox15101357,doi.org,https://longbiosci.com/news/Senescence-Malignancy-Axis-Inflammaging-Perspective-Antioxidants-2026.html
 2026-10-28,Rubedo RLS-1496 1b 期：外用 4 周后皮肤表观遗传年龄平均降低 2.1 年,细胞衰老,产业动态,B,,,IMA 交叉追踪,https://longbiosci.com/news/Rubedo-RLS-1496-Skin-Epigenetic-Age-Phase-1b-2026.html
 2026-10-28,【摘要级】重复 VU0155069 处理与雌性 3xTg-AD 小鼠中区域及病理阶段特异的树突棘重塑相关,神经退行,预印本,C,10.64898/2026.10.26.762038,https://doi.org/10.64898/2026.10.26.762038,doi.org,https://longbiosci.com/news/Preprint-10-64898-2026-10-26-762038-2026.html
 2026-10-28,【摘要级】Genedex：在阿尔茨海默病病理、细胞类型与脑区之间为基因签名建立语境,神经退行,预印本,C,10.64898/2026.10.26.761919,https://doi.org/10.64898/2026.10.26.761919,doi.org,https://longbiosci.com/news/Preprint-10-64898-2026-10-26-761919-2026.html
@@ -23,22 +28,34 @@
 2026-10-28,【摘要级】跨多种功能连接度量的全脑 MEG 规范建模,神经退行,预印本,C,10.64898/2026.10.21.760411,https://doi.org/10.64898/2026.10.21.760411,doi.org,https://longbiosci.com/news/Preprint-10-64898-2026-10-21-760411-2026.html
 2026-10-28,【摘要级】功能与结构脑龄差作为认知表现的互补预测标志物,神经退行,预印本,C,10.64898/2026.10.20.760445,https://doi.org/10.64898/2026.10.20.760445,doi.org,https://longbiosci.com/news/Preprint-10-64898-2026-10-20-760445-2026.html
 2026-10-28,欧洲人群帕金森病发病年龄的遗传修饰因子,神经退行,预印本,C,10.64898/2026.10.20.26363947,https://doi.org/10.64898/2026.10.20.26363947,doi.org,https://longbiosci.com/news/Preprint-10-64898-2026-10-20-26363947-2026.html
+2026-10-28,【摘要级】再生伴随转录组年龄回落：肠道与肝脏在修复中被时钟读为“更年轻”,器官衰老,预印本,C,10.64898/2026.10.11.758291,https://doi.org/10.64898/2026.10.11.758291,doi.org,https://longbiosci.com/news/Preprint-10-64898-2026-10-11-758291-2026.html
 2026-10-28,【摘要级】秀丽隐杆线虫神经系统中的多聚谷氨酰胺聚集由随机成核事件驱动,神经退行,预印本,C,10.64898/2026.09.29.755284,https://doi.org/10.64898/2026.09.29.755284,doi.org,https://longbiosci.com/news/Preprint-10-64898-2026-09-29-755284-2026.html
 2026-10-28,【摘要级】阿尔茨海默病伴精神病的蛋白质组分析揭示共享的 AD 蛋白全景与独立的突触后密度破坏分子签名,神经退行,预印本,C,10.1101/2025.11.26.690872,https://doi.org/10.1101/2025.11.26.690872,doi.org,https://longbiosci.com/news/Preprint-10-1101-2025-11-26-690872-2026.html
 2026-10-28,【摘要级】利用黑腹果蝇的变异揭示随龄感染易感性升高的不同路径，及其与寿命的性别依赖性关联,免疫与炎症,预印本,C,10.1101/2025.07.07.663438,https://doi.org/10.1101/2025.07.07.663438,doi.org,https://longbiosci.com/news/Preprint-10-1101-2025-07-07-663438-2026.html
+2026-10-28,阻断 P2X7 受体，能让 D-半乳糖诱导的「衰老心脏」年轻几分？,细胞衰老,基础研究,B,10.3390/ph19101548,https://doi.org/10.3390/ph19101548,doi.org,https://longbiosci.com/news/P2X7-Antagonist-A740003-Cardiac-Senescence-Inflammaging-Pharmaceuticals-2026.html
 2026-10-28,NewLimit 补齐临床班底：前 89bio 首席医学官出任临床开发负责人，重申 2027 首次人体,表观遗传,产业动态,B,,,IMA 交叉追踪,https://longbiosci.com/news/NewLimit-Clinical-Development-Hire-2027-FIH-2026.html
+2026-10-28,潜伏的疱疹病毒会不会是脑衰老的加速器？一个新模型把「多次打击」摆上台面,神经退行,综述,C,10.1016/j.virol.2026.111113,https://doi.org/10.1016/j.virol.2026.111113,doi.org,https://longbiosci.com/news/Neurotropic-Herpesviruses-Brain-Aging-Accelerator-Multiple-Hit-Virology-2026.html
 2026-10-28,NRG5051 启动 PET 生物分布试验：为线粒体 mPTP 抑制剂的脑穿透取证,线粒体,产业动态,B,,,IMA 交叉追踪,https://longbiosci.com/news/NRG-Therapeutics-NRG5051-PET-Biodistribution-Trial-2026.html
+2026-10-28,让益生菌自己生产 NMN：在 AD 线虫模型里，它和纯化 NMN 打了个平手,NAD+与sirtuin,基础研究,B,10.3390/foods15203657,https://doi.org/10.3390/foods15203657,doi.org,https://longbiosci.com/news/NMN-Producing-Probiotic-B12-N-Celegans-Alzheimer-Aging-Foods-2026.html
+2026-10-28,NMN 在小胶质细胞里的落点：NLRP3 炎症小体与脂滴标志两条签名,NAD+与sirtuin,基础研究,B,10.3390/biomedicines14102378,https://doi.org/10.3390/biomedicines14102378,doi.org,https://longbiosci.com/news/NMN-Microglia-OGDR-NLRP3-Lipid-Droplet-Biomedicines-2026.html
+2026-10-28,NMN 的一次「未达主要终点」：没能阻止心脏肥厚，但压住了应激标志物,NAD+与sirtuin,基础研究,B,10.3390/nu18203334,https://doi.org/10.3390/nu18203334,doi.org,https://longbiosci.com/news/NMN-Does-Not-Prevent-Cardiac-Hypertrophy-Hypoxia-Mice-Nutrients-2026.html
+2026-10-28,杨梅苷延寿：DAF-16 与 SIR-2.1 两条经典通路同时被点亮,代谢与营养,基础研究,B,10.3390/antiox15101230,https://doi.org/10.3390/antiox15101230,doi.org,https://longbiosci.com/news/Myricitrin-Delays-Celegans-Aging-DAF16-SIR21-Antioxidants-2026.html
 2026-10-28,两条 ⬇：Unity Biotechnology 已停止运营，Turn Bio 核心资产被竞拍收购,生命历程,产业动态,B,,,IMA 交叉追踪,https://longbiosci.com/news/Longevity-Industry-Retrenchment-Unity-Turn-Bio-2026.html
 2026-10-28,Longeveron ELPIS II 2b 期主要终点未达：间充质干细胞疗法在 HLHS 上失败,临床与转化,产业动态,B,,,IMA 交叉追踪,https://longbiosci.com/news/Longeveron-ELPIS-II-Phase-2b-Miss-HLHS-2026.html
 2026-10-28,Life Biosciences 的 ER-100：OSK 部分重编程首批 3 例人体数据,表观遗传,产业动态,B,,,IMA 交叉追踪,https://longbiosci.com/news/Life-Biosciences-ER-100-First-In-Human-Phase-1-2026.html
+2026-10-28,Klotho 补不上去的两个死结：半衰期太短、产细胞被免疫清除,临床与转化,综述,C,10.3389/fragi.2026.1913194,https://doi.org/10.3389/fragi.2026.1913194,doi.org,https://longbiosci.com/news/Klotho-Sustained-Delivery-Cell-in-a-Box-Encapsulation-FrontAging-2026.html
 2026-10-28,Insilico ISM6331：生成式 AI 设计的泛 TEAD 抑制剂，130 mg 组 ORR 40%,方法与工具,产业动态,B,,,IMA 交叉追踪,https://longbiosci.com/news/Insilico-ISM6331-Pan-TEAD-Inhibitor-ESMO-2026.html
 2026-10-28,Immorta Bio 的 SenoMune-0257：9 氨基酸 AI 设计 senolytic 免疫疗法拟年底进人体,细胞衰老,产业动态,B,,,IMA 交叉追踪,https://longbiosci.com/news/Immorta-Bio-SenoMune-0257-AI-Senolytic-Peptide-2026.html
+2026-10-28,人体 geroscience 试验该怎么选生物标志物？一份可执行路线图,生命历程,综述,B,10.3390/biom16101504,https://doi.org/10.3390/biom16101504,doi.org,https://longbiosci.com/news/Geroscience-Trial-Biomarker-Roadmap-Lifestyle-Aging-Biomolecules-2026.html
 2026-10-28,Ferring 至多 13.825 亿美元收购 Gameto：卵巢衰老第一次被大药厂定价,器官衰老,产业动态,B,,,IMA 交叉追踪,https://longbiosci.com/news/Ferring-Acquires-Gameto-1-38B-Ovarian-Aging-2026.html
+2026-10-28,来自芳香醋的一个小分子，把线虫的寿命与抗逆性一起抬了上去,代谢与营养,基础研究,B,10.3390/ijms27209208,https://doi.org/10.3390/ijms27209208,doi.org,https://longbiosci.com/news/FG1-Aromatic-Vinegar-Lifespan-Celegans-SKN1-IJMS-2026.html
+2026-10-28,4.1 万只狗的长寿答卷：体型、血统与「你住在哪里」都进了方程,生命历程,流行病学,B,10.1007/s11357-026-02448-9,https://doi.org/10.1007/s11357-026-02448-9,doi.org,https://longbiosci.com/news/Dog-Aging-Project-Longevity-Factors-41047-Dogs-Geroscience-2026.html
 2026-10-28,Carnyx 的 CNYX-005：老年大鼠总睡眠增加 1.5~2 小时，进入 IND-enabling,生命历程,产业动态,B,,,IMA 交叉追踪,https://longbiosci.com/news/Carnyx-CNYX-005-Sleep-Aged-Rats-IND-Enabling-2026.html
 2026-10-28,Calico 的 fosigotifator 获 EMA PRIME：eIF2B 激活剂攒成 FDA+EMA 双认定,临床与转化,产业动态,B,,,IMA 交叉追踪,https://longbiosci.com/news/Calico-Fosigotifator-EMA-PRIME-VWM-2026.html
 2026-10-28,42.9% 无症状低危成人存在冠脉炎症：常规风险工具一个都没识别出来,免疫与炎症,产业动态,B,,,IMA 交叉追踪,https://longbiosci.com/news/Biograph-Caristo-Coronary-Inflammation-Asymptomatic-2026.html
 2026-10-28,Beacon 收购 Snap Diagnostics：家用 EEG 睡眠检测进入基层医疗，脑衰老表型走向临床级数据,神经退行,产业动态,B,,,IMA 交叉追踪,https://longbiosci.com/news/Beacon-Biosignals-Acquires-Snap-Home-EEG-2026.html
 2026-10-28,Arrowhead ARO-MAPT：皮下 siRNA 首次临床验证可跨越血脑屏障，CSF tau 降 73%,神经退行,产业动态,B,,,IMA 交叉追踪,https://longbiosci.com/news/Arrowhead-ARO-MAPT-Subcutaneous-siRNA-Crosses-BBB-2026.html
+2026-10-28,衰老是一道「始终没开始愈合的伤口」吗？这个框架现在可检验了,细胞衰老,观点评论,C,10.3390/ijms27208987,https://doi.org/10.3390/ijms27208987,doi.org,https://longbiosci.com/news/Aging-As-Failed-Resolution-Framework-Geroscience-IJMS-2026.html
 2026-10-26,颞叶癫痫中 MRI 定义的皮层变薄的组织形态计量学对应物,神经退行,预印本,C,10.64898/2026.10.22.761130,https://doi.org/10.64898/2026.10.22.761130,doi.org,https://longbiosci.com/news/Preprint-10-64898-2026-10-22-761130-2026.html
 2026-10-26,随机增长率与终生繁殖产出对亲缘效应的敏感性：一个非线性反馈模型,方法与工具,预印本,C,10.64898/2026.10.22.761048,https://doi.org/10.64898/2026.10.22.761048,doi.org,https://longbiosci.com/news/Preprint-10-64898-2026-10-22-761048-2026.html
 2026-10-26,抗 GABAB 受体自身免疫通过突触前病理导致认知下降,神经退行,预印本,C,10.64898/2026.10.22.761036,https://doi.org/10.64898/2026.10.22.761036,doi.org,https://longbiosci.com/news/Preprint-10-64898-2026-10-22-761036-2026.html

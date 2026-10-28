@@ -8,7 +8,7 @@
   <language>zh-cn</language>
   <copyright>© 2026 LongBiosci 编辑部</copyright>
   <description><![CDATA[只讲有来源的长寿科学——每期节目，都能顺着一张来源清单回查原文。 本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。]]></description>
-  <lastBuildDate>Wed, 28 Oct 2026 03:39:00 +0800</lastBuildDate>
+  <lastBuildDate>Thu, 29 Oct 2026 03:45:00 +0800</lastBuildDate>
   <itunes:author>LongBiosci 编辑部</itunes:author>
   <itunes:summary><![CDATA[只讲有来源的长寿科学——每期节目，都能顺着一张来源清单回查原文。]]></itunes:summary>
   <itunes:owner>
@@ -23,6 +23,330 @@
   </image>
   <itunes:category text="Science"/>
   <itunes:explicit>no</itunes:explicit>
+  <item>
+    <title>四万一千只狗的寿命方程：体型、血统，还有你住在哪里</title>
+    <link>https://longbiosci.com/podcast/#ep036</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep036</guid>
+    <pubDate>Thu, 29 Oct 2026 03:45:00 +0800</pubDate>
+    <category>论文精读</category>
+    <description><![CDATA[数据日期：2026-10-28 05:51
+生成时间：2026-10-29 03:45
+
+41,047 只伴侣犬的生存分析：中位寿命从小型犬 14 年到巨型犬不足 10 年；校正人口学后城乡差异不再显著而地区差异仍显著，且与人类死亡率模式正相关（r=0.43）。
+
+来源：
+· GeroScience（2026）：Dog Aging Project 首批生存分析，41,047 只伴侣犬的寿命决定因素（DOI 10.1007/s11357-026-02448-9；PubMed 42945030）
+  注：观察性队列，死亡日期由主人报告；七十二个关联为相关而非因果；站内 B 级证据，核心结论来自动物模型，不能外推至人体
+
+站内延伸阅读：
+· 4.1 万只狗的长寿答卷：体型、血统与「你住在哪里」都进了方程 https://longbiosci.com/news/Dog-Aging-Project-Longevity-Factors-41047-Dogs-Geroscience-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep036]]></description>
+    <enclosure url="https://longbiosci.com/audio/dog-aging-project-41047-survival-2026.mp3" length="1809453" type="audio/mpeg"/>
+    <itunes:duration>302</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[41,047 只伴侣犬的生存分析：中位寿命从小型犬 14 年到巨型犬不足 10 年；校正人口学后城乡差异不再显著而地区差异仍显著，且与人类死亡率模式正相关（r=0.43）。]]></itunes:summary>
+  </item>
+  <item>
+    <title>表观遗传时钟快了 3.41 年：一份 55 项研究的荟萃，和一个没人填的空白</title>
+    <link>https://longbiosci.com/podcast/#ep037</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep037</guid>
+    <pubDate>Thu, 29 Oct 2026 03:45:00 +0800</pubDate>
+    <category>论文精读</category>
+    <description><![CDATA[数据日期：2026-10-28 05:51
+生成时间：2026-10-29 03:45
+
+14 项 HorvathAge 表观年龄加速的随机效应荟萃给出平均差 3.41 年（95%CI 2.22–4.60）；同时暴露出「无一项研究聚焦 65 岁以上」的证据空白。
+
+来源：
+· The Journals of Gerontology: Series A（2026）：HIV 感染与表观遗传年龄加速的系统综述与荟萃分析（DOI 10.1093/gerona/glag252；PubMed 42921758）
+  注：55 项纳入研究，异质性大（人群、样本、芯片平台、所用时钟均不统一）；仅 6 项纳入 18 岁以下、无一项聚焦 65 岁以上；站内 A 级证据指证据层级，非个体外推许可
+
+站内延伸阅读：
+· 55 项研究合在一起：HIV 感染者的表观年龄平均快了 3.41 年 https://longbiosci.com/news/HIV-Epigenetic-Aging-Metaanalysis-JGerontolA-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep037]]></description>
+    <enclosure url="https://longbiosci.com/audio/hiv-epigenetic-age-acceleration-meta-2026.mp3" length="1695549" type="audio/mpeg"/>
+    <itunes:duration>283</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[14 项 HorvathAge 表观年龄加速的随机效应荟萃给出平均差 3.41 年（95%CI 2.22–4.60）；同时暴露出「无一项研究聚焦 65 岁以上」的证据空白。]]></itunes:summary>
+  </item>
+  <item>
+    <title>线粒体进神经科要过四道关：一份清单，和一句「还不能横向比」</title>
+    <link>https://longbiosci.com/podcast/#ep038</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep038</guid>
+    <pubDate>Thu, 29 Oct 2026 03:45:00 +0800</pubDate>
+    <category>机制十分钟</category>
+    <description><![CDATA[数据日期：2026-10-28 05:51
+生成时间：2026-10-29 03:45
+
+综述把线粒体标志物分为体液、遗传、多组学、影像四类，跨病种指向生物能量学、氧化还原稳态、线粒体基因组维持与炎症信号四条共同紊乱。
+
+来源：
+· Nature Reviews Neurology（2026）：线粒体生物标志物在神经科的临床意义综述（DOI 10.1038/s41582-026-01274-z）
+  注：综述，站内 A 级证据，依据英文摘要整理未取全文；作者明示临床落地仍受方法学异质性、生物变异性与疾病特异性不足限制；目前无任何单一指标可跨研究横向比较
+
+站内延伸阅读：
+· 线粒体生物标志物进神经科的清单：四类标志物、跨病种的共同扰动，以及临床落地卡在哪 https://longbiosci.com/news/Mitochondrial-Biomarkers-Neurology-Clinical-Implications-NatRevNeurol-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep038]]></description>
+    <enclosure url="https://longbiosci.com/audio/mitochondrial-biomarkers-neurology-2026.mp3" length="1765101" type="audio/mpeg"/>
+    <itunes:duration>294</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[综述把线粒体标志物分为体液、遗传、多组学、影像四类，跨病种指向生物能量学、氧化还原稳态、线粒体基因组维持与炎症信号四条共同紊乱。]]></itunes:summary>
+  </item>
+  <item>
+    <title>线粒体抗氧化剂在人类卵泡上翻车：成熟期有益，不等于早期也有益</title>
+    <link>https://longbiosci.com/podcast/#ep039</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep039</guid>
+    <pubDate>Thu, 29 Oct 2026 03:45:00 +0800</pubDate>
+    <category>打假与证伪</category>
+    <description><![CDATA[数据日期：2026-10-28 05:51
+生成时间：2026-10-29 03:45
+
+人类卵巢皮质与窦前卵泡体外模型中，Mito-Q 未改善卵泡存活率与密度，浓度升高反伴随颗粒细胞凋亡增加与窦前卵泡生长受限。
+
+来源：
+· Molecular Human Reproduction（2026）：线粒体靶向抗氧化剂对人类卵巢组织与窦前卵泡的影响（DOI 10.1093/molehr/gaag062）
+  注：体外研究，浓度与体内暴露不可直接换算；组织来源为特定临床人群且样本量有限；结论限于早期卵泡发生与生育力保存场景，不应读成「Mito-Q 对人体有害」的泛化判断
+
+站内延伸阅读：
+· Mito-Q 在人类早期卵泡上翻了车：颗粒细胞凋亡增加、卵泡生长受抑，线粒体抗氧化不是处处有益 https://longbiosci.com/news/MitoQ-Mitochondria-Targeted-Antioxidant-Human-Preantral-Follicle-MolHumReprod-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep039]]></description>
+    <enclosure url="https://longbiosci.com/audio/mitoq-human-preantral-follicle-2026.mp3" length="1589133" type="audio/mpeg"/>
+    <itunes:duration>265</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[人类卵巢皮质与窦前卵泡体外模型中，Mito-Q 未改善卵泡存活率与密度，浓度升高反伴随颗粒细胞凋亡增加与窦前卵泡生长受限。]]></itunes:summary>
+  </item>
+  <item>
+    <title>NMN 的一次未达主要终点：应激标志物压住了，心脏肥厚没挡住</title>
+    <link>https://longbiosci.com/podcast/#ep040</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep040</guid>
+    <pubDate>Thu, 29 Oct 2026 03:45:00 +0800</pubDate>
+    <category>打假与证伪</category>
+    <description><![CDATA[数据日期：2026-10-28 05:51
+生成时间：2026-10-29 03:45
+
+间歇常压低氧小鼠中，NMN 显著减弱右心室 BNP 与 Myh7 表达，却未在器官层面阻止心脏肥厚，血清 LDH 活性反而进一步升高。
+
+来源：
+· Nutrients（2026）：间歇常压低氧小鼠中 NMN 对心脏肥厚与应激标志物的作用（DOI 10.3390/nu18203334；PubMed 42942905）
+  注：作者自称探索性结果；低氧模型与人类心脏衰老不同；未见剂量-反应与长期随访；站内 B 级证据，来自动物模型，不能外推至人体
+
+站内延伸阅读：
+· NMN 的一次「未达主要终点」：没能阻止心脏肥厚，但压住了应激标志物 https://longbiosci.com/news/NMN-Does-Not-Prevent-Cardiac-Hypertrophy-Hypoxia-Mice-Nutrients-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep040]]></description>
+    <enclosure url="https://longbiosci.com/audio/nmn-cardiac-hypertrophy-hypoxia-2026.mp3" length="1691949" type="audio/mpeg"/>
+    <itunes:duration>282</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[间歇常压低氧小鼠中，NMN 显著减弱右心室 BNP 与 Myh7 表达，却未在器官层面阻止心脏肥厚，血清 LDH 活性反而进一步升高。]]></itunes:summary>
+  </item>
+  <item>
+    <title>一个染色阳性就说「细胞衰老了」：一份更新版指南要纠正的正是这件事</title>
+    <link>https://longbiosci.com/podcast/#ep041</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep041</guid>
+    <pubDate>Thu, 29 Oct 2026 03:45:00 +0800</pubDate>
+    <category>机制十分钟</category>
+    <description><![CDATA[数据日期：2026-10-28 05:51
+生成时间：2026-10-29 03:45
+
+更新版指南把细胞衰老检测扩展到细胞周期与形态、转录组特征、基于荧光的活细胞工具三类，并强调单一标志物判定衰老在方法学上不充分。
+
+来源：
+· Molecules and Cells（2026）：哺乳动物细胞衰老评估的更新版方法指南（DOI 10.1016/j.mocell.2026.100408；PubMed 42946057）
+  注：MiniResource 体裁，是操作指南而非新数据；摘要未给出具体判读阈值，实操细节需看全文
+
+站内延伸阅读：
+· 细胞衰老怎么测才有说服力：一份更新版方法指南 https://longbiosci.com/news/Updated-Guide-Assessment-Mammalian-Cellular-Senescence-MolCells-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep041]]></description>
+    <enclosure url="https://longbiosci.com/audio/cellular-senescence-assessment-guide-2026.mp3" length="1538445" type="audio/mpeg"/>
+    <itunes:duration>256</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[更新版指南把细胞衰老检测扩展到细胞周期与形态、转录组特征、基于荧光的活细胞工具三类，并强调单一标志物判定衰老在方法学上不充分。]]></itunes:summary>
+  </item>
+  <item>
+    <title>卡介苗在 tau 病小鼠里做了什么：病理退了、转录组回摆，边界也还在</title>
+    <link>https://longbiosci.com/podcast/#ep042</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep042</guid>
+    <pubDate>Thu, 29 Oct 2026 03:45:00 +0800</pubDate>
+    <category>论文精读</category>
+    <description><![CDATA[数据日期：2026-10-28 05:51
+生成时间：2026-10-29 03:45
+
+PS19 小鼠给药后海马磷酸化 tau 减少、脑萎缩减缓，疾病相关基因表达特征几乎回归健康对照；人群证据仍是回顾性，效应量跨度 12%~78%。
+
+来源：
+· Science Advances（2026）：卡介苗接种对 PS19 tau 病小鼠病理、影像与髓系细胞重编程的影响（DOI 10.1126/sciadv.aej4603）
+  注：小鼠单一模型、单一品系；人群证据为回顾性且效应量跨度极大；从接种卡介苗到可用于神经退行病之间仍有很长的路
+
+站内延伸阅读：
+· 卡介苗在 tau 病小鼠里做了什么：磷酸化 tau 下降、脑萎缩减缓，海马转录组几乎回到健康态 https://longbiosci.com/news/BCG-Vaccination-Tau-Pathology-PS19-Mice-SciAdv-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep042]]></description>
+    <enclosure url="https://longbiosci.com/audio/bcg-tau-ps19-mice-2026.mp3" length="1679853" type="audio/mpeg"/>
+    <itunes:duration>280</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[PS19 小鼠给药后海马磷酸化 tau 减少、脑萎缩减缓，疾病相关基因表达特征几乎回归健康对照；人群证据仍是回顾性，效应量跨度 12%~78%。]]></itunes:summary>
+  </item>
+  <item>
+    <title>部分重编程扛不扛得住一次卒中：老年小鼠四十八小时的实测</title>
+    <link>https://longbiosci.com/podcast/#ep043</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep043</guid>
+    <pubDate>Thu, 29 Oct 2026 03:45:00 +0800</pubDate>
+    <category>论文精读</category>
+    <description><![CDATA[数据日期：2026-10-28 05:51
+生成时间：2026-10-29 03:45
+
+老年小鼠诱导 OSKM 后接受永久性大脑中动脉闭塞，48 小时损伤面积更小、髓鞘完整性保留、Olig2⁺ 与 PDGFRα⁺ 细胞增加。
+
+来源：
+· Aging Cell（2026）：部分重编程（OSKM）对老年小鼠缺血性脑损伤的作用（DOI 10.1111/acel.70776）
+  注：观察窗仅 48 小时，属急性期读数；缺失长期生存、长期功能与剂量安全性数据；重编程是否直接作用于少突胶质细胞谱系尚未被因果证明
+
+站内延伸阅读：
+· 山中因子在老年小鼠脑缺血里的实测：梗死面积变小、髓鞘保住，少突胶质细胞回流 https://longbiosci.com/news/OSKM-Partial-Reprogramming-Ischemic-Brain-Damage-Aging-AgingCell-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep043]]></description>
+    <enclosure url="https://longbiosci.com/audio/oskm-partial-reprogramming-stroke-2026.mp3" length="1768845" type="audio/mpeg"/>
+    <itunes:duration>295</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[老年小鼠诱导 OSKM 后接受永久性大脑中动脉闭塞，48 小时损伤面积更小、髓鞘完整性保留、Olig2⁺ 与 PDGFRα⁺ 细胞增加。]]></itunes:summary>
+  </item>
+  <item>
+    <title>脑衰老里的脂质问题不是「变多了」，而是「换了身份」</title>
+    <link>https://longbiosci.com/podcast/#ep044</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep044</guid>
+    <pubDate>Thu, 29 Oct 2026 03:45:00 +0800</pubDate>
+    <category>机制十分钟</category>
+    <description><![CDATA[数据日期：2026-10-28 05:51
+生成时间：2026-10-29 03:45
+
+综述主张衰老脑胶质细胞的氧化还原脆弱性不取决于脂质有多少，而取决于酰基链饱和度、头基结构、氧化脂质种类与缩醛磷脂缓冲等化学性质。
+
+来源：
+· Redox Biology（2026）：胶质细胞脂质重编程与衰老脑氧化还原脆弱性综述（DOI 10.1016/j.redox.2026.104453；PubMed 42927732）
+  注：综述框架主张，非干预有效性的证据；站内 B 级证据，来自临床前证据或二次文献，不能外推至人体
+
+站内延伸阅读：
+· 不是脂质变多了，是脂质「换了身份」：一篇重写脑衰老氧化还原叙事的综述 https://longbiosci.com/news/Glial-Lipid-Reprogramming-Brain-Aging-Redox-Biology-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep044]]></description>
+    <enclosure url="https://longbiosci.com/audio/glial-lipid-reprogramming-brain-aging-2026.mp3" length="1590429" type="audio/mpeg"/>
+    <itunes:duration>265</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[综述主张衰老脑胶质细胞的氧化还原脆弱性不取决于脂质有多少，而取决于酰基链饱和度、头基结构、氧化脂质种类与缩醛磷脂缓冲等化学性质。]]></itunes:summary>
+  </item>
+  <item>
+    <title>T 细胞耗竭的底层可能是蛋白稳态崩了：一份多组学图谱给出的落点</title>
+    <link>https://longbiosci.com/podcast/#ep045</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep045</guid>
+    <pubDate>Thu, 29 Oct 2026 03:45:00 +0800</pubDate>
+    <category>论文精读</category>
+    <description><![CDATA[数据日期：2026-10-28 05:51
+生成时间：2026-10-29 03:45
+
+四层多组学图谱把蛋白稳态崩溃定义为 T 细胞耗竭的中心特征；过表达 E3 连接酶 RNF166 在体外与体内均增强 T 细胞持久性。
+
+来源：
+· Cell（2026）：T 细胞耗竭的多组学图谱，蛋白稳态崩溃作为中心特征（DOI 10.1016/j.cell.2026.09.051；PubMed 42906538）
+  注：具体蛋白数、周转速率变化倍数与 RNF166 过表达的体内疗效幅度摘要未给出，站内标注待补全文；E3 连接酶与免疫治疗结局的关联仍属相关性证据
+
+站内延伸阅读：
+· T 细胞耗竭的底层是蛋白稳态崩了：Cell 多组学图谱给出的新落点 https://longbiosci.com/news/Proteomic-Atlas-T-Cell-Exhaustion-Proteostatic-Collapse-Cell-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep045]]></description>
+    <enclosure url="https://longbiosci.com/audio/tcell-exhaustion-proteostasis-atlas-2026.mp3" length="1564941" type="audio/mpeg"/>
+    <itunes:duration>261</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[四层多组学图谱把蛋白稳态崩溃定义为 T 细胞耗竭的中心特征；过表达 E3 连接酶 RNF166 在体外与体内均增强 T 细胞持久性。]]></itunes:summary>
+  </item>
+  <item>
+    <title>百岁老人的一个免疫悖论：抗病毒自身抗体不再随年龄上升了</title>
+    <link>https://longbiosci.com/podcast/#ep046</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep046</guid>
+    <pubDate>Thu, 29 Oct 2026 03:45:00 +0800</pubDate>
+    <category>论文精读</category>
+    <description><![CDATA[数据日期：2026-10-28 05:51
+生成时间：2026-10-29 03:45
+
+四个队列 938 名百岁老人中 5.4% 携带中和性 I 型干扰素自身抗体，相对「80 岁以上超过 6%」出现平台期（日本 3.3%~哥伦比亚 9.1%）。
+
+来源：
+· Journal of Human Immunity（2026）：四个队列 938 名百岁老人中和性 I 型干扰素自身抗体患病率（DOI 10.70962/jhi.20260143；PubMed 42944855）
+  注：横断面设计，无随访死亡率数据；5.4% 与「80 岁以上 >6%」为跨研究比较而非同一队列内部对照；四队列检测方法与入组标准一致性需看全文
+
+站内延伸阅读：
+· 百岁老人身上的一个「免疫悖论」：抗病毒自身抗体不再随年龄上升了 https://longbiosci.com/news/Type-I-Interferon-Autoantibodies-Plateau-Centernarians-JHumImmun-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep046]]></description>
+    <enclosure url="https://longbiosci.com/audio/ifn1-autoantibodies-centenarians-2026.mp3" length="1686333" type="audio/mpeg"/>
+    <itunes:duration>281</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[四个队列 938 名百岁老人中 5.4% 携带中和性 I 型干扰素自身抗体，相对「80 岁以上超过 6%」出现平台期（日本 3.3%~哥伦比亚 9.1%）。]]></itunes:summary>
+  </item>
+  <item>
+    <title>保险公司为什么还不买表观遗传时钟的账：四条理由，两个例外</title>
+    <link>https://longbiosci.com/podcast/#ep047</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep047</guid>
+    <pubDate>Thu, 29 Oct 2026 03:45:00 +0800</pubDate>
+    <category>产业脉搏</category>
+    <description><![CDATA[数据日期：2026-10-28 05:51
+生成时间：2026-10-29 03:45
+
+《Insurance Science》列出四条障碍：个体层面不准、不等同于生物年龄、训练数据偏差、预测死亡率不优于年龄性别吸烟史血压 BMI 与病史。
+
+来源：
+· Insurance Science（2026）：生物衰老时钟用于人寿保险核保的可行性分析（DOI 10.17849/insm-53-2-1-5.1B）
+  注：分析性文章，非原始研究；本期只转述其结论，不推荐任何检测产品、公司与检测服务，亦不作任何投资相关推断
+
+站内延伸阅读：
+· 生物衰老时钟：人寿保险准备好了吗？ https://longbiosci.com/news/Biological-Clocks-Life-Insurance-Underwriting-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep047]]></description>
+    <enclosure url="https://longbiosci.com/audio/epigenetic-clocks-life-insurance-2026.mp3" length="1913997" type="audio/mpeg"/>
+    <itunes:duration>319</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[《Insurance Science》列出四条障碍：个体层面不准、不等同于生物年龄、训练数据偏差、预测死亡率不优于年龄性别吸烟史血压 BMI 与病史。]]></itunes:summary>
+  </item>
   <item>
     <title>用机器学习筛延寿化合物：准确率八成好看，另一个指标只有零点五二</title>
     <link>https://longbiosci.com/podcast/#ep027</link>
