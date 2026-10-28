@@ -1,23 +1,23 @@
 {
  "summary": {
-  "total": 847,
+  "total": 1111,
   "level_counts": {
-   "强": 699,
+   "强": 963,
    "中": 147,
    "断链": 1
   },
   "by_tier": {
    "A": {
-    "强": 151,
+    "强": 263,
     "中": 26
    },
    "B": {
+    "强": 394,
     "中": 105,
-    "强": 331,
     "断链": 1
    },
    "C": {
-    "强": 217,
+    "强": 306,
     "中": 16
    }
   },
@@ -772,6 +772,3174 @@
   ]
  },
  "articles": [
+  {
+   "slug": "ACO2-Oxidative-Stress-Biomarker-AD-Multi-Omics-2026.html",
+   "title": "多组学锁定 ACO2 为 AD 的氧化应激相关生物标志物",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/biom16101435",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/biom16101435**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "AD-Hashimoto-Thyroiditis-Immune-Transcriptomic-Overlap-2026.html",
+   "title": "AD 与桥本甲状腺炎的免疫交汇：多队列转录组的关联边界",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/genes17101261",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/genes17101261**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "AMPK-Signaling-Cell-Metabolism-Human-Diseases-Review-2026.html",
+   "title": "AMPK 通路全景综述：从能量感知到疾病的三层定义",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1038/s41392-026-02790-6",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1038/s41392-026-02790-6**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Aerobic-Exercise-Gut-Microbiota-UM-HET3-Mice-2026.html",
+   "title": "有氧训练改写胃肠道菌群并提高运动能力：UM-HET3 小鼠",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1007/s11357-026-02582-4",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1007/s11357-026-02582-4**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Age-Related-Bimanual-Coordination-Electrophysiology-2026.html",
+   "title": "双手协调的年龄重构：行为与电生理同相位/反相位模式",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/brainsci16101075",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/brainsci16101075**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Age-Related-Cardiac-Dysfunction-Telomere-Rats-2026.html",
+   "title": "大鼠心功能随龄下降，但端粒长度没变：一个阴性结果",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3389/fcvm.2026.1790767",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/fcvm.2026.1790767**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Age-Sex-Multiscale-Entropy-Spectral-Power-Lifespan-2026.html",
+   "title": "多尺度熵与频谱功率的年龄×性别交互：全生命周期的复现研究",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1162/IMAG.a.1407",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1162/IMAG.a.1407**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Age-Stratified-Serum-Biomarkers-Cognitive-Impairment-Inpatients-2026.html",
+   "title": "年龄分层后，哪些血清标志物还能区分认知损害",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/brainsci16101080",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/brainsci16101080**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Ageing-Adults-Profound-Intellectual-Disabilities-French-Facilities-2026.html",
+   "title": "法国机构中重度多重障碍老龄者的健康与照护特征",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1111/jar.70324",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1111/jar.70324**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Aging-Genes-Pathways-Yeast-Insight-2026.html",
+   "title": "酵母模型里的衰老基因与通路：环境与生活方式如何接入",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/cimb48101045",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/cimb48101045**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Aging-Like-Foveal-Profile-Macular-Hole-Fellow-Eyes-2026.html",
+   "title": "特发性黄斑裂孔患者对侧眼也呈现出「老化样」中心凹轮廓",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1007/s00417-026-07537-1",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1007/s00417-026-07537-1**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Aging-Reshapes-Subchronic-LPS-Response-L-Theanine-Exercise-2026.html",
+   "title": "老化反而让大鼠对亚慢性 LPS「钝感」，但对淀粉样蛋白仍脆弱",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.bbr.2026.116553",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.bbr.2026.116553**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Alpha-Halogenated-Curcumins-Amyloid-Beta-Binding-2026.html",
+   "title": "α-卤代姜黄素改变 Aβ 结合与构象：体外证据与上限",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/ijms27209355",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/ijms27209355**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Alpha-Lipoic-Acid-Ambrisentan-PAH-AMPK-mTOR-2026.html",
+   "title": "α-硫辛酸联合或不联合安立生坦减轻实验性肺动脉高压",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/biom16101432",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/biom16101432**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Amino-Acid-Substitutions-Proteomic-AD-GFAP-2026.html",
+   "title": "蛋白质组里的氨基酸替换：GFAP 两处位点与 Alexander 病突变重合",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/biomedicines14102342",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/biomedicines14102342**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Amphibian-Extracts-Multi-Target-Anti-AD-Peptides-2026.html",
+   "title": "从两栖动物提取物到聚焦肽库：算法驱动的多靶点抗 AD 肽",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/biom16101458",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/biom16101458**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Amygdala-Vulnerability-Pick-Disease-FTD-Syndromes-2026.html",
+   "title": "Pick 病里杏仁核的选择性易感与不同 FTD 综合征对应",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1111/bpa.70159",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1111/bpa.70159**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Annual-Wellness-Visits-Dementia-Medication-Medicare-2026.html",
+   "title": "Medicare 年度健康体检与新开痴呆药处方之间的关联",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1001/jamanetworkopen.2026.40804",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1001/jamanetworkopen.2026.40804**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Apathy-Progression-Neuropathology-NACC-ADRD-2026.html",
+   "title": "淡漠进展的神经病理关联：NACC 纵向队列的分层发现",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1097/WAD.0000000000000754",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1097/WAD.0000000000000754**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Aquaporin-4-Muscle-Differentiation-Satellite-Cell-Aging-2026.html",
+   "title": "水通道蛋白 AQP4 失守后的骨骼肌再生：一个老年肌衰减新靶点",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1002/jcsm.70412",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1002/jcsm.70412**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Autophagy-Pituitary-Neuroendocrine-Tumors-PitNET-2026.html",
+   "title": "垂体神经内分泌肿瘤里的自噬：分泌稳态与耐药",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/ijms27209195",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/ijms27209195**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Autophagy-Progesterone-Endometrium-Recurrent-Implantation-Failure-2026.html",
+   "title": "自噬能否解释反复种植失败里的孕激素应答差异",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3389/fimmu.2026.1990439",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/fimmu.2026.1990439**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Autophagy-Pseudomonas-Aeruginosa-Infection-Host-Pathogen-2026.html",
+   "title": "自噬与铜绿假单胞菌：一场沿多个关卡展开的攻防",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3389/fmicb.2026.1976209",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/fmicb.2026.1976209**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Bacteroides-Fragilis-OMV-Skin-Autophagy-Pseudomonadota-2026.html",
+   "title": "脆弱拟杆菌外膜囊泡经自噬帮皮肤菌群定植",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.isci.2026.117969",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.isci.2026.117969**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Better-At-Home-Geriatric-Rehabilitation-Shortened-Inpatient-2026.html",
+   "title": "缩短住院康复之后：居家老年康复的 ADL 独立性对照研究",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1007/s41999-026-01628-2",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1007/s41999-026-01628-2**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Biological-Age-AI-Health-Care-Commentary-2026.html",
+   "title": "别把实际年龄当作体检起点：生物学年龄与 AI 进入临床的路线争论",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1038/s41514-026-00524-0",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1038/s41514-026-00524-0**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Bipolar-Disorder-Dementia-Risk-Meta-2026.html",
+   "title": "双相情感障碍与痴呆：合并 RR 2.40–3.08 的分型 meta",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3389/fnagi.2026.1980508",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/fnagi.2026.1980508**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Bisphenol-A-ACSL4-Ferro-Aging-Urothelial-Injury-2026.html",
+   "title": "双酚 A 诱导 ACSL4 相关的「铁老化样」尿路上皮损伤",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.ecoenv.2026.120976",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.ecoenv.2026.120976**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Blood-Based-Biomarkers-AD-Detection-Technologies-2026.html",
+   "title": "AD 血液标志物：检测技术与临床应用走到哪一步",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1002/agm2.70112",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1002/agm2.70112**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Brain-Aging-Senescence-Neuroimmunological-Dysregulation-2026.html",
+   "title": "脑衰老与细胞衰老如何点燃神经免疫失调",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/brainsci16101019",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/brainsci16101019**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Brain-Blindness-Versus-Eye-Blindness-AD-Vision-Genetics-2026.html",
+   "title": "脑盲还是眼盲：AD 与视觉损害的遗传与分子连接",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/cimb48101081",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/cimb48101081**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Brain-Rap1-Signaling-Metformin-Antidiabetic-Action-2026.html",
+   "title": "二甲双胍降糖还有「脑 Rap1」这一段",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/biology15201810",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/biology15201810**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Brains-For-Dementia-Research-At-18-Cohort-2026.html",
+   "title": "英国脑库 18 年：三千余例生前评估与死后组织的可及性",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1002/alz.71956",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1002/alz.71956**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Brainstem-Circuit-Resilience-Tau-Vulnerability-AD-2026.html",
+   "title": "脑干环路的韧性抵消 tau 病理：AD 易感性的另一半答案",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1016/j.neuron.2026.10.002",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.neuron.2026.10.002**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Butyrate-PPARgamma-p21-Endothelial-Dysfunction-Soy-Polysaccharide-2026.html",
+   "title": "大豆多糖经肠-血管轴：丁酸激活 PPARγ、下调 p21 保护老年内皮",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1021/acs.jafc.6c10019",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1021/acs.jafc.6c10019**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "CASS4-Microglial-Focal-Adhesion-Amyloidosis-2026.html",
+   "title": "AD 遗传风险因子 CASS4 管着小胶质细胞的黏着斑生物学",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1084/jem.20260104",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1084/jem.20260104**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "CDK4-6-Inhibition-mTOR-Lymphangioleiomyomatosis-2026.html",
+   "title": "CDK4/6 抑制压制 mTORC1：淋巴管肌瘤病的新切入点",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1016/j.bbadis.2026.168513",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.bbadis.2026.168513**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "CSF-APOE-Secondary-Glycosylation-Cognitive-Decline-MCI-2026.html",
+   "title": "脑脊液 APOE 次级糖基化预测 MCI 认知下降：一个待验证的信号",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/biomedicines14102206",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/biomedicines14102206**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "CT-Skeletal-Muscle-Assessment-Sarcopenia-Surgery-Scoping-Review-2026.html",
+   "title": "CT 测肌肉量判肌少症有多不一致：肝胆胰外科的范围综述",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/jcm15207856",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/jcm15207856**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Cardiorespiratory-Fitness-Cortical-Thickness-Lifespan-GAM-2026.html",
+   "title": "心肺适能与皮层厚度的关系不是直线：广义加性模型给出的年龄差异",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1002/trc2.70237",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1002/trc2.70237**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Cellular-Senescence-Ocular-Surface-Diseases-2026.html",
+   "title": "眼表疾病里的细胞衰老：机制与治疗视角",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/ijms27209003",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/ijms27209003**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Central-Obesity-Inflammation-Trajectories-Incident-Frailty-2026.html",
+   "title": "中心性肥胖与慢性低度炎症的长期轨迹决定衰弱发生",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1016/j.maturitas.2026.109161",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.maturitas.2026.109161**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Cerebellar-Nuclei-Cuprizone-Demyelination-Aged-Mice-MRI-2026.html",
+   "title": "小脑核团对脱髓鞘的易感性不随年龄消退：MRI–组织学纵向研究",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.nbas.2026.100171",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.nbas.2026.100171**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Cerebral-Hemodynamics-Subjective-Cognitive-Decline-fNIRS-2026.html",
+   "title": "主观认知下降者的脑血流图样：fNIRS 系统综述",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/brainsci16101130",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/brainsci16101130**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Chronic-Demyelination-Microglial-Lysosomal-Dysfunction-2026.html",
+   "title": "慢性脱髓鞘造出一种溶酶体失灵的小胶质细胞状态",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1038/s41593-026-02489-5",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1038/s41593-026-02489-5**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Circular-RNAs-AD-Ferroptosis-EPAC-Signalling-2026.html",
+   "title": "环状 RNA 搭上铁死亡：AD 中的 EPAC 信号与生物标志物",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/antiox15101321",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/antiox15101321**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Cisplatin-Ototoxicity-Autophagy-PTEN-PI3K-AKT-Cochlea-2026.html",
+   "title": "顺铂耳毒性不是线性剂量反应：自噬与 PTEN/PI3K/AKT 参与其中",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/biomedicines14102377",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/biomedicines14102377**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Coenzyme-Q10-Muscle-Health-Older-Adults-RCT-Meta-2026.html",
+   "title": "辅酶 Q10 与中老年人肌肉功能：RCT 的 meta 与洗脱期诟病",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/antiox15101219",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/antiox15101219**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Community-Inequalities-Incident-Oral-Frailty-2026.html",
+   "title": "社区层面的不平等塑造了口腔衰弱的发生率",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1177/23800844261491726",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1177/23800844261491726**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Comparative-Endocrinology-Of-Aging-Insects-2026.html",
+   "title": "昆虫比较内分泌视角下的衰老：胰岛素调控的生活史综合征",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1242/jeb.253055",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1242/jeb.253055**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Compartment-Specific-Remodelling-Denervation-Muscle-Regeneration-2026.html",
+   "title": "区室特异的转录重排：失神经支配与老年肌肉再生被重新定义",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/ijms27209025",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/ijms27209025**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Computational-Drug-Discovery-Alzheimer-Review-2026.html",
+   "title": "计算方法的 AD 药物发现之旅：能做什么，卡在哪里",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1016/j.apsb.2025.07.038",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.apsb.2025.07.038**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Coronavirus-Ubiquitination-Selective-Autophagy-Innate-Immunity-2026.html",
+   "title": "冠状病毒如何劫持泛素化与选择性自噬来压制先天免疫",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/v18101068",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/v18101068**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Cyanobacteria-MAO-B-Inhibitors-Parkinson-In-Silico-2026.html",
+   "title": "从蓝藻里筛 MAO-B 抑制剂：分子对接加动力学模拟",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/ph19101569",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/ph19101569**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Cytokinins-Biomaterials-Tissue-Regeneration-In-Vitro-Review-2026.html",
+   "title": "细胞分裂素进入生物材料：体外研究的再生潜力",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/cimb48101010",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/cimb48101010**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Dementia-Risk-Scores-Prediction-Meta-Analysis-2026.html",
+   "title": "痴呆风险量表到底预测得准不准：随访长度与年龄决定 AUC",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1007/s11357-026-02615-y",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1007/s11357-026-02615-y**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Dental-Care-Modifies-Cognitive-Decline-Scoping-Review-2026.html",
+   "title": "口腔治疗能改写认知下降吗：一篇范围综述的克制结论",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1177/23800844261491617",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1177/23800844261491617**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Dentin-Yellowness-Stiffness-Aging-Human-Dentin-2026.html",
+   "title": "牙齿变黄不仅在变老：它与老化牙本质硬度的关系",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1177/23800844261492172",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1177/23800844261492172**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Deubiquitinating-Enzymes-AD-Protein-Homeostasis-2026.html",
+   "title": "去泛素化酶在 AD：从蛋白稳态到多条病理通路",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/biom16101494",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/biom16101494**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Diabetic-Neuropathy-Low-Muscle-Mass-Osteoporosis-Fractures-2026.html",
+   "title": "糖尿病周围神经病变叠加低四肢肌量：骨质疏松、跌倒与骨折风险同升",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1111/1753-0407.70276",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1111/1753-0407.70276**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Dietary-Indices-Cognition-Older-Chinese-Adults-2026.html",
+   "title": "cMIND、膳食多样性与 HPDI：中国老年人认知的三个饮食指数",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/nu18203365",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/nu18203365**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Digital-Completion-Time-AD-Atrophy-Vascular-Burden-2026.html",
+   "title": "数字连线测试时间：更贴近 AD 型萎缩，而非血管负荷",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1002/dad2.70526",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1002/dad2.70526**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Dihydromyricetin-Healthspan-Neuroprotection-C-Elegans-2026.html",
+   "title": "二氢杨梅素延长线虫健康寿命：伴随氧化还原与线粒体质量控制变化",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/antiox15101251",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/antiox15101251**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Dual-AChE-Kgp-Alzheimer-Computational-Study-2026.html",
+   "title": "同时靶向胆碱能失调与牙龈蛋白酶：AD 双靶点计算研究",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/ph19101589",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/ph19101589**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Dual-MAGL-ABHD6-Inhibition-Excitotoxicity-Neuroprotection-2026.html",
+   "title": "双 MAGL/ABHD6 抑制提升内源性大麻素：AMPA 兴奋毒性后的神经保护",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/biom16101496",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/biom16101496**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "EP2-EP4-Alzheimer-Cell-Dependent-Signalling-2026.html",
+   "title": "EP2 与 EP4 的细胞依赖信号：选择性靶向 AD 的可能与不能",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/ijms27209190",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/ijms27209190**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "ER-Volume-Senescence-State-UPR-Dynamics-2026.html",
+   "title": "内质网体积与衰老状态如何决定 UPR 的动力学",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/cimb48101027",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/cimb48101027**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Early-Menarche-Ovarian-Reserve-Biological-Aging-2026.html",
+   "title": "月经初潮过早与卵巢储备及年轻成人的生物学年龄",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1093/reprod/xaag134",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1093/reprod/xaag134**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Early-Onset-Familial-Parkinsonism-Clinical-Genetic-Cohort-2026.html",
+   "title": "早发与家族性帕金森综合征：单中心回顾性队列的临床与基因画像",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1371/journal.pone.0361198",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1371/journal.pone.0361198**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Empagliflozin-Metformin-Cardio-Kidney-Metabolic-Syndrome-2026.html",
+   "title": "恩格列净联合二甲双胍在心-肾-代谢综合征模型里压住氧化与炎症",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/ijms27208988",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/ijms27208988**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Environmental-Exposome-AMD-Oxidative-Stress-2026.html",
+   "title": "环境暴露组与 AMD：以氧化应激为分子界面",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/antiox15101351",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/antiox15101351**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Epigenetic-Aging-Informed-Dietary-Pattern-Health-Outcomes-2026.html",
+   "title": "以表观遗传年龄反推的饮食模式：多国队列里的健康结局谱",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1038/s41467-026-77790-9",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1038/s41467-026-77790-9**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Epigenetic-Mechanisms-Neurodegenerative-Diseases-Therapeutics-2026.html",
+   "title": "神经退行病的表观遗传机制：从基因调控到治疗候选",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/ijms27209322",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/ijms27209322**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Episodic-Memory-Practice-Effects-Longitudinal-Trajectories-2026.html",
+   "title": "情景记忆的练习效应不只是重测获益：它本身可能携带轨迹信息",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3389/fnagi.2026.1933991",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/fnagi.2026.1933991**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Esculetin-Transplant-Rejection-CD4-T-Cell-Glycolysis-mTOR-2026.html",
+   "title": "七叶内酯经 PI3K-AKT-mTOR 调节 CD4⁺ T 细胞糖酵解减轻移植排斥",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.intimp.2026.117573",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.intimp.2026.117573**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Ethosomal-Trans-Resveratrol-Nanocarrier-Characterization-2026.html",
+   "title": "反式白藜芦醇醇质体：一个配方与释放性能的载体研究",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/pharmaceutics18101237",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/pharmaceutics18101237**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Exercise-Autophagy-Lysosome-Nrf2-ARF1-HFD-Mice-2026.html",
+   "title": "运动与骨骼肌自噬-溶酶体及 Nrf2/ARF1：高脂饮食小鼠的剂量线索",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/nu18203329",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/nu18203329**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Exercise-Lactylation-WDR41-Autophagy-Fatty-Liver-2026.html",
+   "title": "运动诱导的 WDR41 乳酸化启动自噬并改善脂肪肝",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1080/15548627.2026.2754683",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1080/15548627.2026.2754683**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Exercise-Snacks-Sarcopenia-Mortality-National-Cohort-2026.html",
+   "title": "「运动零食」与肌少症及全因死亡：全国队列的剂量关联",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.5114/biolsport.2026.163369",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.5114/biolsport.2026.163369**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Extracellular-Matrix-Mitochondrial-Function-Lung-Aging-2026.html",
+   "title": "肺老化里的细胞外基质与线粒体功能双双失调",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.34922/AE.2026.39.4.016",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.34922/AE.2026.39.4.016**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Frailty-In-Hospital-Acute-Pulmonary-Embolism-NIS-2026.html",
+   "title": "衰弱对急性肺栓塞住院结局的影响：全国住院样本分析",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/jcm15208107",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/jcm15208107**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Frailty-Metabolomics-Proteomics-Geriatric-Clinic-2026.html",
+   "title": "衰弱状态写在代谢组与蛋白质组里：NAD⁺ 前体与核小体蛋白",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/nu18203336",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/nu18203336**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "GLP-1-RA-Cognitive-Performance-AD-Risk-RCT-Meta-2026.html",
+   "title": "GLP-1 受体激动剂与认知：AD 高危人群 RCT 的 meta 分析",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/nu18203312",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/nu18203312**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Galega-Hippophae-Resveratrol-Senescence-Fibroblasts-Hair-Follicles-2026.html",
+   "title": "山羊豆＋沙棘油＋白藜芦醇：离体毛囊里的衰老标记下降",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/cimb48101041",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/cimb48101041**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Ganoderma-Spore-Powder-Gut-Microbiota-Tryptophan-Indoles-2026.html",
+   "title": "破壁灵芝孢子粉经菌群推动色氨酸吲哚代谢护肠",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/microorganisms14102280",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/microorganisms14102280**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Genetic-Transcriptomic-DLB-AD-PDD-Differences-2026.html",
+   "title": "DLB、AD 与 PDD 的分子差异：多队列整合只给出少量候选",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/ijms27209173",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/ijms27209173**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Ginseng-Intake-Serum-Zinc-AD-Cognition-2026.html",
+   "title": "服用人参并血清锌较高者，延迟情景记忆表现更好",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1016/j.jgr.2026.101119",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.jgr.2026.101119**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Ginsenoside-Rb1-AMPK-mTOR-Uterine-Aging-2026.html",
+   "title": "人参皂苷 Rb1 经 AMPK 关闭 mTOR：子宫内膜衰老的三张表型处方",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1038/s41392-026-02970-4",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1038/s41392-026-02970-4**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Ginsenoside-Rg1-PCOS-Granulosa-Cell-Glycolysis-mTOR-2026.html",
+   "title": "人参皂苷 Rg1 经 PI3K/Akt/mTOR 改善大鼠 PCOS 颗粒细胞",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.reprotox.2026.109394",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.reprotox.2026.109394**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Ginsenoside-Rg2-TGF-beta-Smad-Sarcopenia-Aged-Mice-2026.html",
+   "title": "人参皂苷 Rg2 抑制 TGF-β1/Smad 纤维化重塑：老年肌少症小鼠",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.jgr.2026.101115",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.jgr.2026.101115**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Glial-Contributions-Pain-Neurodegeneration-Systematic-Review-2026.html",
+   "title": "胶质细胞参与神经退行相关疼痛：系统综述的证据形态",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/brainsci16101093",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/brainsci16101093**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Glyceraldehyde-HSP90beta-Autophagy-Renal-Epithelial-Cells-2026.html",
+   "title": "甘油醛诱导 HSP90β 高分子量物种与自噬相关蛋白改变",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/biom16101488",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/biom16101488**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Glymphatic-Dysfunction-Neurological-Disorders-Inflammaging-2026.html",
+   "title": "类淋巴功能失灵：把神经退行、炎症老化与肠-脑信号串起来",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/biomedicines14102178",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/biomedicines14102178**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Glymphatic-Meningeal-Autophagy-ME-CFS-Long-COVID-2026.html",
+   "title": "类淋巴-脑膜淋巴与自噬：ME/CFS 与长新冠的机制视角",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/ijms27209351",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/ijms27209351**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Gut-Microbiome-Estrogen-Axis-Menopause-2026.html",
+   "title": "肠道菌群-雌激素轴与绝经：体成分、心血管代谢与营养",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/nu18203330",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/nu18203330**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Gut-Microbiome-Oxidative-Stress-Type-2-Diabetes-2026.html",
+   "title": "肠道菌群与氧化应激在 2 型糖尿病里的相互拉扯",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/antiox15101278",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/antiox15101278**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Gut-Microbiota-Regulating-Alzheimer-Review-2026.html",
+   "title": "肠道菌群调控 AD 的研究版图：证据到哪一步了",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/biology15201893",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/biology15201893**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "H-Pylori-Genetic-Proxies-HLA-Alzheimer-Parkinson-2026.html",
+   "title": "幽门螺杆菌血清学的遗传代理被 HLA-II 单倍型牵着走：神经退行关联要打折",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/microorganisms14102193",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/microorganisms14102193**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "HCT-FS-Frailty-Survival-Allogeneic-Transplantation-2026.html",
+   "title": "HCT-FS 定义的衰弱与异基因移植后生存：OS 与 NRM 而非复发",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1111/ejh.70344",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1111/ejh.70344**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "HDL-Functionality-Cholesterol-Dementia-Case-Cohort-2026.html",
+   "title": "看 HDL 功能而不只看 HDL-C：高心血管风险老年人的痴呆发生",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/ijms27209197",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/ijms27209197**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Hemocytes-Nutrient-Sensing-Immune-Lifespan-Drosophila-2026.html",
+   "title": "果蝇血细胞作为营养感知枢纽：免疫、寿命与跨代适合度",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1016/j.ydbio.2026.10.011",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.ydbio.2026.10.011**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Herpesvirus-Infections-Influence-Aging-Timing-2026.html",
+   "title": "疱疹病毒感染会改写我们老化的时间与方式吗",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/v18101062",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/v18101062**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Heterogeneous-ATN-Progression-AD-Subtypes-2026.html",
+   "title": "AT(N) 标志物的进展在数据驱动 AD 亚型里并不齐步",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3389/fnagi.2026.1902282",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/fnagi.2026.1902282**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Hippocampal-Hypothalamic-Nutrition-AD-5xFAD-2026.html",
+   "title": "果糖、DHA 与 NR 在 5xFAD 小鼠海马与下丘脑的细胞类型特异效应",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.isci.2026.117920",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.isci.2026.117920**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Histone-H1-Variants-Drug-Induced-Senescence-2026.html",
+   "title": "药物诱导衰老过程中组蛋白 H1 亚型的动态变化",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/genes17101274",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/genes17101274**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Histone-Modifications-Aging-Neuroinflammation-Metabolism-AD-2026.html",
+   "title": "组蛋白修饰站在 AD 的衰老、神经炎症与代谢交汇处",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1111/acel.70785",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1111/acel.70785**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Hormone-Replacement-Therapy-Epigenetic-Clock-Estrogen-2026.html",
+   "title": "用表观遗传钟看激素替代治疗：雌二醇信号、血糖状态与寿命",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1186/s13293-026-00959-w",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1186/s13293-026-00959-w**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Household-Size-Social-Connection-Neurodegenerative-Burden-2026.html",
+   "title": "家庭规模越小，神经退行病负担越高：一项全球生态分析",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1159/ndd/aduag008",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1159/ndd/aduag008**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Human-Proteostasis-Network-Autophagy-Lysosome-Survey-2026.html",
+   "title": "人类蛋白稳态网络普查：自噬-溶酶体通路这一册",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1080/15548627.2026.2741038",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1080/15548627.2026.2741038**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Hypertension-Older-Adults-Taiwan-Japan-Guidelines-2026.html",
+   "title": "台湾 2026 与日本 2025 高血压指南：老年人降压的共同点与分歧",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1038/s41440-026-02688-4",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1038/s41440-026-02688-4**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Immune-Inflammatory-Autophagy-JNK-Human-Myocardium-2026.html",
+   "title": "缺血与非缺血心肌的免疫炎症、自噬与 JNK 重塑差异",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/cimb48101082",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/cimb48101082**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Immunosenescence-Aging-Cancer-Tumor-Microenvironment-2026.html",
+   "title": "免疫衰老重塑肿瘤微环境：老年肿瘤治疗的机制与取向",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/biom16101487",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/biom16101487**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Incensole-Acetate-Sirtuin-Insulin-Signaling-AD-Model-2026.html",
+   "title": "乳香醇乙酸酯调节 sirtuin–胰岛素信号轴：实验性 AD 模型",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/ph19101573",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/ph19101573**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Integrating-Cure-Care-AD-Systems-Precision-Medicine-2026.html",
+   "title": "把治愈与照护合在一起：AD 精准医学的系统视角",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3389/fmmed.2026.1960763",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/fmmed.2026.1960763**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Intracellular-Antibody-Delivery-Tau-Phosphorylation-Neural-Cells-2026.html",
+   "title": "把抗体送进神经细胞：CLD 技术揭示 tau 磷酸化与细胞完整性的关系",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3389/frdem.2026.1737082",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/frdem.2026.1737082**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Iron-Mitochondria-Oligodendrocyte-Axis-AD-2026.html",
+   "title": "铁-线粒体-少突胶质细胞轴：AD 的一个代谢新框架",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/brainsci16101097",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/brainsci16101097**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Jiaotaiwan-AMPK-Lipid-Metabolism-APP-PS1-Mice-2026.html",
+   "title": "交泰丸经 AMPK 改善 APP/PS1 小鼠的脂质代谢异常",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.12122/j.issn.1673-4254.2026.10.19",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.12122/j.issn.1673-4254.2026.10.19**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "K34-Hemoglobin-H2O2-Decomposition-APP-PS1-Focal-GiD-2026.html",
+   "title": "K34 借血红素分解过氧化氢：局灶性 GiD 的 APP/PS1 小鼠改善",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/antiox15101293",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/antiox15101293**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "L1CAM-EV-MicroRNAs-MCI-AD-Exploratory-2026.html",
+   "title": "L1CAM 富集胞外囊泡里的 microRNA：MCI 与 AD 的候选标志物",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/ijms27209301",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/ijms27209301**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Lactoferrin-Healthy-Aging-Gut-Immune-Iron-Mitochondria-2026.html",
+   "title": "乳铁蛋白与健康老化：肠、免疫、铁与线粒体四条线",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/nu18203319",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/nu18203319**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Laminin-Peptides-Isoforms-Multifaceted-Review-2026.html",
+   "title": "层粘连蛋白多肽与亚型：一条跨越肿瘤到运动的分子线",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/cimb48101040",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/cimb48101040**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Large-Language-Models-AD-Early-Screening-Scoping-Review-2026.html",
+   "title": "大语言模型筛早期 AD：范围综述看到的证据边界",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3389/fnagi.2026.1906641",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/fnagi.2026.1906641**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Lecanemab-Real-World-Jiangsu-Cohort-Outcomes-2026.html",
+   "title": "仑卡奈单抗在中国江苏 20 家医院的真实世界 68 例",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1002/alz.71936",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1002/alz.71936**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Leisure-Activities-Cognitive-Reserve-Lifespan-Review-2026.html",
+   "title": "休闲活动与认知储备：奖励属性可能是被低估的一环",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/brainsci16101031",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/brainsci16101031**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Lifestyle-Cognitive-Performance-Subjective-Complaints-N-HANCE-2026.html",
+   "title": "主观认知下降人群里，什么东西真正关联客观认知表现",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/brainsci16101033",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/brainsci16101033**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Loneliness-Hearing-Decline-Cognitive-Aging-SHARE-MR-2026.html",
+   "title": "孤独是不是听力下降通向认知老化的那条路：SHARE 加孟德尔随机化",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1002/alz.71950",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1002/alz.71950**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Long-Term-Sildenafil-Male-Reproductive-Aging-Rats-2026.html",
+   "title": "长期西地那非延缓雄性大鼠的功能与生殖衰老",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1093/reprod/xaag136",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1093/reprod/xaag136**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Lower-Limb-Asymmetry-Falls-Frailty-Systematic-Review-2026.html",
+   "title": "下肢不对称与跌倒、体能和衰弱",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/jcm15208198",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/jcm15208198**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Lysine-Acetylation-Sirtuins-Cardiometabolic-Disease-2026.html",
+   "title": "赖氨酸乙酰化把 sirtuin 与 NAD⁺ 放在了心代谢病的核心",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/ph19101557",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/ph19101557**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Macronutrient-Distribution-Frailty-Energy-Sufficiency-2026.html",
+   "title": "能量是否吃够，决定了三大宏量营养素配比与衰弱的关系",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/nu18203393",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/nu18203393**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Macrophage-Senescence-Senile-Osteoporosis-2026.html",
+   "title": "老年骨质疏松里的巨噬细胞衰老：骨免疫对话与治疗窗口",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1186/s12979-026-00586-4",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1186/s12979-026-00586-4**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Melatonin-Edaravone-Methylmercury-ALS-GLP-1-Myelin-2026.html",
+   "title": "褪黑素联合依达拉奉经 GLP-1 与髓鞘保护对抗甲基汞 ALS 样病变",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1007/s00210-026-06009-x",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1007/s00210-026-06009-x**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Melatonin-Hepatocyte-Mitochondria-Constant-Light-2026.html",
+   "title": "褪黑素保护老化肝细胞线粒体：电镜定量给出的形态学证据",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.34922/AE.2026.39.4.017",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.34922/AE.2026.39.4.017**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Metformin-Acute-Social-Sniffing-BTBR-Mice-2026.html",
+   "title": "一剂二甲双胍增加雄性 BTBR 小鼠的社交嗅探：品系与性别差异",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3389/adar.2026.16883",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/adar.2026.16883**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Metformin-Atorvastatin-MASH-AMPK-NFkB-2026.html",
+   "title": "二甲双胍联合阿托伐他汀经 AMPK/NF-κB 改善 MASH",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3389/fendo.2026.1972846",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/fendo.2026.1972846**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Metformin-High-Dose-Tablet-Quality-Attributes-2026.html",
+   "title": "高剂量二甲双胍薄膜衣片：工艺参数如何改变质量属性",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/pharmaceutics18101264",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/pharmaceutics18101264**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Metformin-Liver-Glucose-Enzymes-STZ-Diabetic-Rats-2026.html",
+   "title": "二甲双胍在 STZ 糖尿病大鼠只部分纠正肝糖代谢酶",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/jcm15208108",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/jcm15208108**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Metformin-SGLT2i-Intermittent-Fasting-Healthspan-Review-2026.html",
+   "title": "二甲双胍、SGLT2 抑制剂与间歇性禁食的汇合处：一个叙述性框架",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/cimb48101008",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/cimb48101008**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Microbiome-Phytosterol-Sulfates-Tissue-Distribution-Mice-2026.html",
+   "title": "菌群依赖的植物甾醇硫酸盐：被当作惰性成分的他们其实有分布",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1016/j.isci.2026.117883",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.isci.2026.117883**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Microencapsulated-Sodium-Butyrate-Aged-Quails-Multi-Omics-2026.html",
+   "title": "微囊化丁酸钠喂老龄鹌鹑：多组学看产蛋性能与菌代谢物",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1186/s42523-026-00590-5",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1186/s42523-026-00590-5**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Microglial-Dynamic-Remodeling-AD-Spatiotemporal-Immunometabolic-2026.html",
+   "title": "小胶质细胞应答的动态重塑：异质状态、时空进程与免疫代谢失调",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3389/fcell.2026.1929282",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/fcell.2026.1929282**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Microglial-NUS1-Iron-Dysregulation-Dopaminergic-Neurodegeneration-PD-2026.html",
+   "title": "小胶质细胞 NUS1 缺失经铁代谢失衡驱动多巴胺神经元退变",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1038/s41593-026-02499-3",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1038/s41593-026-02499-3**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Microglial-Therapeutic-Potential-AD-Targeted-Interventions-2026.html",
+   "title": "把药送给小胶质细胞：AD 靶向递送的现状",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/ph19101603",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/ph19101603**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Minor-Phytocannabinoids-ER-Stress-Proteostasis-AD-2026.html",
+   "title": "微量植物大麻素能否救 ER 应激相关的蛋白稳态崩塌",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/biom16101383",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/biom16101383**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Mitophagy-Vortex-COPD-Skeletal-Muscle-Dysfunction-2026.html",
+   "title": "线粒体自噬漩涡：炎症、缺氧与老化共同驱动 COPD 骨骼肌失能",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/biomedicines14102240",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/biomedicines14102240**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Modeling-Strategies-Neurodegenerative-Diseases-Frameworks-2026.html",
+   "title": "神经退行病的建模策略：体外、体内与 in silico 的互补",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/biomedicines14102227",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/biomedicines14102227**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Modified-Anti-Amyloid-Antibodies-Alzheimer-Review-2026.html",
+   "title": "改造型抗 Aβ 抗体：跨血脑屏障与 ARIA 之间的下一代工程",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1186/s12916-026-05088-0",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1186/s12916-026-05088-0**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Monocyte-Macrophage-Senescence-Genes-PAH-Single-Cell-2026.html",
+   "title": "单细胞+bulk 整合抓出肺动脉高压的单核/巨噬衰老候选基因",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3389/fimmu.2026.1938985",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/fimmu.2026.1938985**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Moxibustion-BMSC-Exosomal-miR-27a-3p-Mitophagy-Osteoporosis-2026.html",
+   "title": "艾灸经 BMSC 外泌体 miR-27a-3p 促进线粒体自噬改善骨质疏松大鼠成骨",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.cellsig.2026.112962",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.cellsig.2026.112962**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Multi-Omics-Metformin-LPS-Lung-Injury-Gut-Metabolites-2026.html",
+   "title": "二甲双胍保护 LPS 肺损伤：多组学指向肠源代谢特征",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/ph19101643",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/ph19101643**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Multimodal-Organ-Age-Plasma-Proteins-Behaviour-2026.html",
+   "title": "用多模态数据预测器官年龄：血浆蛋白与行为性状同时浮出",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1093/ageing/afag309",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1093/ageing/afag309**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Musical-Instrument-Practice-Sensorimotor-Healthy-Aging-2026.html",
+   "title": "乐器练习作为感觉-运动训练：健康老化的谨慎乐观边界",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/brainsci16101038",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/brainsci16101038**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Myo-Inositol-Metformin-Berberine-PCOS-Observational-2026.html",
+   "title": "肌醇、二甲双胍与小檗碱：PCOS 六个月的观察性比较",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/jcm15207765",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/jcm15207765**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "NLRP3-IL-1beta-Atherosclerosis-Natural-Products-Review-2026.html",
+   "title": "瞄准 NLRP3/IL-1β 轴治动脉粥样硬化：天然产物的转化之问",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/biom16101409",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/biom16101409**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Nanovaccine-Dendritic-Cell-Senescence-Metabolic-Dysfunction-2026.html",
+   "title": "双佐剂衰老细胞清除纳米疫苗：先清 Gpnmb⁺ 脂肪细胞，再谈代谢",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1002/advs.78545",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1002/advs.78545**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Nasopharyngeal-Microbiota-Influenza-Like-Illness-Aging-2026.html",
+   "title": "鼻咽与口咽菌群对着流感样疾病应答说了什么：老龄化人群样本",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1016/j.isci.2026.117929",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.isci.2026.117929**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Neural-Entrainment-Speech-Age-Noise-2026.html",
+   "title": "老化是如何改变语音包络跟随的：信噪条件下的脑电证据",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1016/j.neurobiolaging.2026.10.005",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.neurobiolaging.2026.10.005**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Neuropsychological-Clustering-Early-MCI-Community-2026.html",
+   "title": "用神经心理测验聚类抓社区老人的早期 MCI 信号",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3389/fnagi.2026.1926431",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/fnagi.2026.1926431**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Nighttime-Blue-Light-Lipid-Accumulation-Lifespan-C-Elegans-2026.html",
+   "title": "夜间蓝光经 DAF-16/SOD-3 缩短线虫寿命并堆积脂质",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/genes17101263",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/genes17101263**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Niosomal-Mexiletine-Rotenone-Parkinsonism-circDLGAP4-2026.html",
+   "title": "囊泡装载的美西律经 circDLGAP4/miR-134-5p/p-CREB 缓解鱼藤酮帕金森模型",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/ph19101654",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/ph19101654**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Nuclear-Damage-Response-Code-Cutaneous-Wound-Repair-2026.html",
+   "title": "皮肤创面修复里的核损伤应答编码：cGAS-STING 与衰老的界面",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/biom16101427",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/biom16101427**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Numerical-Cognition-Neurodegenerative-Disorders-Systematic-Review-2026.html",
+   "title": "数字认知在神经退行病中保留与受损的图样",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/brainsci16101067",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/brainsci16101067**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Nutrition-Plus-Exercise-Frailty-SWIM-Review-2026.html",
+   "title": "营养联合运动干预衰弱：SWiM 合成看到的成分难题",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1177/02601060261499544",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1177/02601060261499544**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Nutrition-Strategies-Sarcopenia-Network-Meta-2026.html",
+   "title": "抗肌少症的营养策略互比：网络 meta 的优势与证据缺口",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/nu18203368",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/nu18203368**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "OTUD1-Parkin-Degradation-Dopaminergic-Neurodegeneration-PD-2026.html",
+   "title": "OTUD1 通过降解 Parkin 加重帕金森模型的多巴胺神经元退变",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1016/j.expneurol.2026.116080",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.expneurol.2026.116080**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Okinawa-Nutrition-Transition-Longevity-Hypothesis-2026.html",
+   "title": "从贫瘠到富足：冲绳战后营养转型与寿命趋势的新假说",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/nu18203415",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/nu18203415**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Oleuropein-Derivative-GS32-Proteostasis-Cancer-2026.html",
+   "title": "橄榄苦苷半合成衍生物 GS32 通过破坏蛋白稳态选择性杀肿瘤细胞",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.ejmech.2026.119466",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.ejmech.2026.119466**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Oligodendrocytes-Parkinson-Etiology-Review-2026.html",
+   "title": "少突胶质细胞在帕金森病病因学里的新角色",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1515/revneuro-2026-0089",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1515/revneuro-2026-0089**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Omics-Integrative-Biological-Age-Assessment-2026.html",
+   "title": "用组学与整合方法测生物学年龄：方法标准化的现实障碍",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.34922/AE.2026.39.4.015",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.34922/AE.2026.39.4.015**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Oral-Frailty-Assessments-Methodological-Evaluation-2026.html",
+   "title": "口腔衰弱量表的分层推荐：谁该在哪一层用哪个工具",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1177/23800844261491670",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1177/23800844261491670**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Oral-Frailty-HRQoL-Master-Athletes-2026.html",
+   "title": "连老年运动健将也躲不开口腔衰弱：它与生活质量体能维度绑定",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1111/ggi.70889",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1111/ggi.70889**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Oral-Frailty-Risk-Factors-Meta-Analysis-2026.html",
+   "title": "口腔衰弱的风险因素：五个域的系统综述与 meta",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1097/MD.0000000000051322",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1097/MD.0000000000051322**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Osteoarthritis-Management-New-Developments-2026.html",
+   "title": "骨关节炎治疗的新进展：表型分层走向精准医学",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1016/j.berh.2026.102211",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.berh.2026.102211**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Ozone-Alzheimer-Sleep-Air-Pollution-Hypothesis-2026.html",
+   "title": "臭氧作为 AD 与睡眠障碍的催化剂：空气污染假说被摆上桌面",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/biology15201904",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/biology15201904**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "PARP10-Condensation-NAD-Homeostasis-Viral-Replication-2026.html",
+   "title": "PARP10 相变凝聚通过改写 NAD⁺ 稳态抑制病毒复制",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1038/s41467-026-78058-y",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1038/s41467-026-78058-y**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "PINK1-Parkin-Mitophagy-Nonylphenol-Podocyte-Glomerulonephritis-2026.html",
+   "title": "PINK1/Parkin 介导的线粒体自噬在壬基酚致足细胞损伤中的保护作用",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.bcp.2026.118564",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.bcp.2026.118564**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "POI-LMD-3-Mutation-Autophagic-Lysosomal-C-Elegans-2026.html",
+   "title": "早发性卵巢功能不全相关 LMD-3 点突变：蛋白稳定性与线虫自噬溶酶体",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1371/journal.pone.0361215",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1371/journal.pone.0361215**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "PTPRD-Flavonol-AD-Neurofibrillary-Pathophysiology-2026.html",
+   "title": "AD 神经原纤维病理中的 PTPRD 与黄酮醇修饰路径",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/biomedicines14102210",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/biomedicines14102210**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Paeonol-UVB-Premature-Senescence-Fibroblasts-2026.html",
+   "title": "丹皮酚减轻 UVB 诱导的皮肤成纤维细胞早衰",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/ijms27209352",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/ijms27209352**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Paired-CSF-Plasma-Analyte-Contrasts-AD-Stages-2026.html",
+   "title": "脑脊液-血浆成对比较：蛋白间的信号对比随 AD 阶段而变",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/biomedicines14102407",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/biomedicines14102407**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Parishin-B-Gastrodia-Elata-Docking-AD-2026.html",
+   "title": "对接引导把天麻素 B 排到前列：一个可成药的抗 AD 候选",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/biology15201830",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/biology15201830**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Partial-Edentia-Longevity-Medicine-Biomarker-2026.html",
+   "title": "部分牙列缺失在长寿医学中的临床表型意义",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.34922/AE.2026.39.4.011",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.34922/AE.2026.39.4.011**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Parvalbumin-Interneuron-Network-Aging-Motor-Cortex-2026.html",
+   "title": "小清蛋白中间神经元网络的随龄重塑改变了皮质脊髓输出",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/cimb48100978",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/cimb48100978**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Pathway-PRS-Modify-Amyloid-Tau-PET-Accumulation-AD-2026.html",
+   "title": "通路特异性多基因风险评分改写淀粉样蛋白到 tau 的扩散速度",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1002/alz.71939",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1002/alz.71939**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Peptide-Preparations-Alzheimer-Therapy-Prospects-2026.html",
+   "title": "多肽制剂用于阿尔茨海默病治疗的前景",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.34922/AE.2026.39.4.002",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.34922/AE.2026.39.4.002**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Peptidergic-Regulation-Cardiovascular-Aging-VPP-KED-2026.html",
+   "title": "肽类调节心血管老化：血管多肽制剂与 KED、AEDR 短肽",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.34922/AE.2026.39.4.001",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.34922/AE.2026.39.4.001**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Peptides-Acetylcholinesterase-AD-Design-Strategies-2026.html",
+   "title": "靶向乙酰胆碱酯酶的多肽：AD 领域的证据缺口与设计空间",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/ijms27209094",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/ijms27209094**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Peri-Ovarian-Mitochondrial-Administration-Aged-Rats-2026.html",
+   "title": "卵巢周围给线粒体：游离还是海藻酸包裹的 MSC 来源线粒体",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/biomedicines14102394",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/biomedicines14102394**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Pericyte-KATP-Channels-Alzheimer-Cerebral-Blood-Flow-2026.html",
+   "title": "周细胞 KATP 通道失灵：AD 脑血流下降的一个新靶点",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1085/jgp.202614120",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1085/jgp.202614120**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Periocular-Rejuvenation-Evidence-Based-Management-2026.html",
+   "title": "眶周年轻化：从美观诉求回到眼科证据",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3389/fmed.2026.1943441",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/fmed.2026.1943441**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Perivascular-Spaces-Multidomain-Determinants-Preclinical-AD-2026.html",
+   "title": "血管周围间隙提示早期脑血管脆弱性：AD 高危人群的多域决定因素",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1177/0271678X261503069",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1177/0271678X261503069**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Plasma-AD-Biomarkers-Test-Retest-Reliability-Heterogeneous-2026.html",
+   "title": "血浆 AD 标志物的短间隔变异：异质临床队列里的重测信度",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1186/s13195-026-02180-8",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1186/s13195-026-02180-8**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Plasma-Beta-Synuclein-Synaptic-Density-UCB-J-PET-AD-2026.html",
+   "title": "血浆 β-突触核蛋白与海马突触密度的 PET 对照关系",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1002/alz.71900",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1002/alz.71900**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Plasma-Biomarkers-Point-Of-Care-AD-2D-BioPAD-2026.html",
+   "title": "床旁 AD 诊断的血浆标志物：2D-BioPAD 的定位与前提",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1177/25424823261437790",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1177/25424823261437790**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Plasma-Lactate-Glucose-Lactate-Index-MASLD-BioAge-2026.html",
+   "title": "血浆乳酸与葡萄糖-乳酸指数：生物学年龄加速的部分中介",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1186/s13148-026-02219-5",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1186/s13148-026-02219-5**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Precision-Nutrition-Health-Outcomes-Lifespan-2026.html",
+   "title": "精准营养要走到公共健康，还差哪几块拼图",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/nu18203424",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/nu18203424**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Prefrontal-Planning-Latency-Age-Microbial-Exposure-2026.html",
+   "title": "前额叶计划潜伏期随龄变慢，并与微生物暴露血清学证据相关",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1002/cdt3.70074",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1002/cdt3.70074**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Probabilistic-Framework-Life-Course-Diet-Longevity-2026.html",
+   "title": "概率框架揭示全球膳食与健康长寿的生命历程异质性",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1136/bmjph-2026-005263",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1136/bmjph-2026-005263**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Prognostic-Nutritional-Index-Microbial-DNA-Neurocognitive-Vulnerability-2026.html",
+   "title": "老年住院患者的预后营养指数、循环微生物 DNA 与神经认知脆弱性",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/nu18203387",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/nu18203387**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Protein-Persulfidation-Aging-Age-Related-Disorders-2026.html",
+   "title": "蛋白质过硫化：一个连接聚集与相分离的老化化学层",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/pharmaceutics18101266",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/pharmaceutics18101266**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Proteomic-Ageing-Clocks-Methods-Muscle-2026.html",
+   "title": "蛋白质组学年龄时钟：方法、机制，以及那块难做的肌肉",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1186/s13059-026-04220-w",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1186/s13059-026-04220-w**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Proteostasis-Network-Translation-Folding-Organelle-Survey-2026.html",
+   "title": "人类蛋白稳态网络普查：翻译、折叠与细胞器专门系统",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1080/15548627.2026.2741033",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1080/15548627.2026.2741033**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Pyroptosis-Mitophagy-Axis-Mechanisms-Therapeutics-2026.html",
+   "title": "焦亡-线粒体自噬轴：从分子机制到治疗机会",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3389/fimmu.2026.1950578",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/fimmu.2026.1950578**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "ROR2-Right-Ventricular-Failure-Proteostasis-2026.html",
+   "title": "ROR2 通过打乱蛋白稳态驱动右心衰竭",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1161/CIRCULATIONAHA.125.078798",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1161/CIRCULATIONAHA.125.078798**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Relaxin-2-Synaptic-Integrity-NLRP3-mTOR-Autophagy-AD-2026.html",
+   "title": "松弛素-2 经 NLRP3-mTOR-自噬通路保护突触完整性",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.2478/acph-2026-0023",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.2478/acph-2026-0023**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Resilience-Comprehensive-Geriatric-Assessment-2026.html",
+   "title": "把「韧性」写进老年综合评估：一个被提议的新模块",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.34922/AE.2026.39.4.007",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.34922/AE.2026.39.4.007**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Resolvin-Receptors-iPSC-PARK2-Parkinson-Cultures-2026.html",
+   "title": "PARK2 相关帕金森 iPSC 分化细胞里的消退素受体谱差异",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/brainsci16101047",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/brainsci16101047**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Resveratrol-BCG-Autophagy-Apoptosis-Macrophages-SIRT1-2026.html",
+   "title": "白藜芦醇在 BCG 巨噬细胞里不等于 SIRT1 依赖：自噬与凋亡的两条线",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/microorganisms14102365",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/microorganisms14102365**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Retinal-Neurodegeneration-Accelerated-Ocular-Aging-Nutrients-2026.html",
+   "title": "把视网膜变性读作眼部加速衰老：营养与代谢补充剂综述",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3389/fragi.2026.1912337",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/fragi.2026.1912337**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "SCeNS-Standardization-Fluid-Markers-AD-2026.html",
+   "title": "SCeNS 标准化框架：让不同平台的体液 AD 标志物可比",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1002/dad2.70516",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1002/dad2.70516**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "SIRT1-Hypertension-Mitochondrial-Vascular-Aging-2026.html",
+   "title": "SIRT1 把氧化应激与线粒体 dysfunction 接到高血压与血管老化上",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/antiox15101353",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/antiox15101353**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "SIRT1-Redox-Crosstalk-Cellular-State-Transitions-2026.html",
+   "title": "SIRT1 与氧化还原的互话：适应能力随细胞状态転换下降",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/biology15201845",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/biology15201845**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "SOD1-Strain-Intracisternal-Templated-Aggregation-ALS-Mice-2026.html",
+   "title": "两种人 SOD1 聚集体经小脑池注射播种 ALS：潜伏期与生存期",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1186/s40478-026-02473-x",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1186/s40478-026-02473-x**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "STIs-Over-65-Southern-Sardinia-2026.html",
+   "title": "65 岁以上人群的性传播感染：撒丁岛南部正在上升的风险",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/jcm15207866",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/jcm15207866**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Safranal-Plasma-Iron-Behavior-AD-Models-2026.html",
+   "title": "藏红花醛调节血浆铁并改善 AD 模型行为：剂量特异的细胞保护",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/ijms27209392",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/ijms27209392**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Senescence-Transcriptome-Reversal-Diabetic-Kidney-Repurposing-2026.html",
+   "title": "把衰老转录组反转过来找药：糖尿病肾病的老药新用计算优先级",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/biomedicines14102286",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/biomedicines14102286**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Senomorphics-SASP-Modulation-Without-Clearing-2026.html",
+   "title": "只让衰老细胞闭嘴而不清除：senomorphic 策略的机会与天花板",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3389/fphar.2026.1911529",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/fphar.2026.1911529**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Serum-Neurofilament-Light-Cognitive-Decline-India-Cohort-2026.html",
+   "title": "血清神经丝轻链在印度认知下降连续谱中的表现",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1007/s40520-026-03381-9",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1007/s40520-026-03381-9**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Serum-Niacin-Nicotinamide-Child-Behavior-China-2026.html",
+   "title": "血清烟酸与烟酰胺和儿童行为：一项纵向研究的阴性结果",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/nu18203344",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/nu18203344**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Serum-TSH-Geriatric-Outpatients-Cross-Sectional-2026.html",
+   "title": "老年门诊患者的促甲状腺素：如何解读孤立性 TSH 异常",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/jcm15208059",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/jcm15208059**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Seven-Ways-Not-To-Think-Carefully-About-Aging-2026.html",
+   "title": "关于衰老，七种不该有的思维方式",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1038/s44318-026-00946-2",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1038/s44318-026-00946-2**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Sex-Dependent-Skeletal-Muscle-3xTg-AD-Mice-2026.html",
+   "title": "3xTg AD 小鼠骨骼肌的性别差异：AD 不只是中枢病",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1007/s11357-026-02569-1",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1007/s11357-026-02569-1**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Sex-Differences-Sleep-Memory-Older-Adults-AD-Risk-2026.html",
+   "title": "睡眠与记忆的性别差异：AD 高危老年人的模型变量",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3389/fendo.2026.1930177",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/fendo.2026.1930177**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Shenqi-Xiezhuo-Decotion-Renal-Fibrosis-ERK-mTOR-2026.html",
+   "title": "参芪泻浊汤经 ERK1/2-mTOR 抑制过度自噬改善肾纤维化",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.12122/j.issn.1673-4254.2026.10.03",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.12122/j.issn.1673-4254.2026.10.03**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Shh-MMP-Crosstalk-Neurovascular-Ageing-Stroke-2026.html",
+   "title": "Sonic hedgehog 与基质金属蛋白酶的对话：连接神经血管老化与卒中",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1007/s11357-026-02619-8",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1007/s11357-026-02619-8**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Signaling-Molecules-Skin-Aging-Targeted-Prevention-2026.html",
+   "title": "透明质酸配螯合锌硅修正皮肤老化的分子表征",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.34922/AE.2026.39.4.014",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.34922/AE.2026.39.4.014**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Single-Cell-Lacrimal-Gland-Aging-Mice-2026.html",
+   "title": "小鼠泪腺的单细胞转录组：慢性炎症与纤维化的随龄并行",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1167/iovs.67.12.73",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1167/iovs.67.12.73**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Single-Cell-Microglial-Dysfunction-Diabetes-Neurodegeneration-2026.html",
+   "title": "糖尿病相关神经退行易感性：单细胞层面的小胶质功能失调",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1002/advs.202600023",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1002/advs.202600023**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Sirtuin-1-Mammarenavirus-Multiplication-Sphingolipid-2026.html",
+   "title": "SIRT1 是 mammarenavirus 复制所需：鞘脂代谢的宿主依赖",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/v18101088",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/v18101088**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Sitagliptin-Metformin-ER-Bioequivalence-Mexican-Subjects-2026.html",
+   "title": "西格列汀/二甲双胍缓释复方在健康墨西哥受试者的生物等效性",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/ph19101532",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/ph19101532**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Sleep-Duration-Sarcopenia-Depression-CHARLS-2026.html",
+   "title": "睡眠时长、肌少症与抑郁新发：CHARLS 中国中老年前瞻队列",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1097/MD.0000000000051177",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1097/MD.0000000000051177**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Social-Determinants-Neurocognitive-Aging-Andean-Ecuador-2026.html",
+   "title": "安第斯厄瓜多尔农村老年人的社会决定因素与神经认知老化",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/brainsci16101002",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/brainsci16101002**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Social-Disconnection-Cognitive-Consequences-Dementia-Prevention-2026.html",
+   "title": "社会孤立带来的认知后果并不平均：机制、修饰因素与预防机会",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3389/fpsyt.2026.1949322",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/fpsyt.2026.1949322**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Social-Ties-Diet-Inequality-Canadian-Longitudinal-Aging-2026.html",
+   "title": "社会关系变化与膳食质量：加拿大老龄化队列里的性别与 SES 交叉不平等",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/nu18203416",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/nu18203416**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Soy-Phytoestrogen-Metabolic-Health-Ovariectomized-Mice-2026.html",
+   "title": "富含植物雌激素的大豆日粮经雌激素受体改善去卵巢老年鼠代谢",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/nu18203451",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/nu18203451**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Spatial-Interoceptive-Amnestic-MCI-Perceived-Health-2026.html",
+   "title": "遗忘型 MCI 的空间与内感受加工：它们各自对应不同的健康感受",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/jcm15207787",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/jcm15207787**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Stem-Cell-Exosome-Organ-Health-Longevity-Review-2026.html",
+   "title": "干细胞与外泌体用于器官健康与长寿：临床前到临床的距离",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/ijms27209174",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/ijms27209174**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Stress-Goblet-Cell-Barrier-5-HT-HTR7-NLRP6-Autophagy-2026.html",
+   "title": "心理应激经 5-HT/HTR7 压住 NLRP6 与自噬，砸坏肠道屏障",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/biology15201870",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/biology15201870**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Stroke-Sarcopenia-Lower-Limb-Strength-Gait-Matched-Cohort-2026.html",
+   "title": "卒中叠加肌少症表型：下肢力量与步态的独立关联",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/jcm15207779",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/jcm15207779**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Sulforaphane-Sarcopenia-Type-2-Diabetes-Review-2026.html",
+   "title": "萝卜硫素用于 2 型糖尿病肌少症：机制与转化证据",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/antiox15101272",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/antiox15101272**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Swallowing-Time-Neck-Worn-Stethoscope-Community-Older-Adults-2026.html",
+   "title": "颈戴电子听诊器测吞咽时间：它与年龄、性别和咀嚼功能的关系",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1111/ggi.70891",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1111/ggi.70891**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "T-Cell-Metabolic-Ageing-Therapeutic-Research-2026.html",
+   "title": "T 细胞代谢老化：一个可直接做药的免疫衰老接口",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1093/cei/uxag066",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1093/cei/uxag066**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "TDP-43-Dysfunction-Glial-Homeostatic-Identity-ALS-FTD-2026.html",
+   "title": "TDP-43 功能失调让胶质细胞丢掉稳态身份：ALS/FTD 里的双刃反应",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1016/j.brainres.2026.150618",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.brainres.2026.150618**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Target48-Neurodegeneration-Panel-Protein-Signatures-2026.html",
+   "title": "Target48 神经退行蛋白面板：AD 的 CSF pTau217 AUC 达到 1",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1002/alz.71866",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1002/alz.71866**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Telomerase-Cellular-Stress-Response-Inhibitors-2026.html",
+   "title": "端粒酶在细胞应激应答里的角色：抑制剂作为增敏策略",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/biomedicines14102171",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/biomedicines14102171**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Telomere-Dynamics-Congenital-Heart-Defects-Cardiogenesis-2026.html",
+   "title": "端粒动力学与先天性心脏病：心脏发生中被忽略的角色",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.1155/humu/5547171",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1155/humu/5547171**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Telomere-Length-hTERT-MNS16A-Cannabis-Use-Disorder-2026.html",
+   "title": "大麻使用障碍里的白细胞端粒长度与 hTERT MNS16A 变异",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.9758/cpn.25.1389",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.9758/cpn.25.1389**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Tenascin-X-Tenascin-C-Age-Cardiometabolic-Risk-2026.html",
+   "title": "血清 Tenascin X 与 C：年龄与心代谢风险的临床相关性",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/ijms27209180",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/ijms27209180**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Theory-Of-Resilience-Geriatric-Medicine-2026.html",
+   "title": "老年医学中的韧性理论：系统性的年龄相关改变",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.34922/AE.2026.39.4.006",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.34922/AE.2026.39.4.006**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Treadmill-Exercise-Oxidative-Stress-Sirtuin-D-Galactose-Rats-2026.html",
+   "title": "恒速跑台在 D-半乳糖大鼠身上改了什么：氧化应激与 sirtuin 生化谱",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/biom16101421",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/biom16101421**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Type-2-Diabetes-Osteoarthritis-Shared-Pathophysiology-2026.html",
+   "title": "2 型糖尿病与骨关节炎共享的病理生理过程",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.3390/ijms27209168",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/ijms27209168**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "UCHL1-Sp1-Cochlear-Hair-Cell-Senescence-Expression-Of-Concern-2026.html",
+   "title": "UCHL1/Sp1 与耳蜗毛细胞衰老一文被发表关切（Expression of Concern）",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3892/etm.2026.13330",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3892/etm.2026.13330**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "UDCA-TUDCA-Network-Pharmacology-AD-2026.html",
+   "title": "UDCA 与 TUDCA 的网络药理学对照：AD 相关靶点的同与异",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/ph19101512",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/ph19101512**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Uterine-Decidualization-Aging-Molecular-Structural-Mice-2026.html",
+   "title": "子宫蜕膜化为什么在老年失效：分子与结构层面的并置证据",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1186/s44494-026-00007-9",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1186/s44494-026-00007-9**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "VCE-005-1-Diabetic-Wound-Healing-Endothelial-Protection-2026.html",
+   "title": "VCE-005.1 局部与支架递送：护住内皮才能愈合糖尿病创面",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/pharmaceutics18101200",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/pharmaceutics18101200**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Vision-Transformer-Lifespan-Functional-Connectivity-2026.html",
+   "title": "用视觉 Transformer 画全生命周期功能连接的轨迹",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1142/S0129065727500304",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1142/S0129065727500304**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Vitamin-D-Leucine-Whey-Inflammaging-Cardiac-Rehab-RCT-2026.html",
+   "title": "心脏康复里的一项探索性 RCT：维生素 D 加亮氨酸乳清蛋白能否压住 inflammaging",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/biom16101484",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/biom16101484**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Weight-Normalized-RMR-Malnutrition-Sarcopenia-Inpatients-2026.html",
+   "title": "住院老人的静息代谢率按体重校正后：同时指向营养不良与肌少症",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3389/fnut.2026.1914763",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3389/fnut.2026.1914763**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "White-Matter-Microstructural-Aging-GAN-Disentanglement-2026.html",
+   "title": "白质微结构老化不是一条轨迹：GAN 解纠缠给出的多维潜变量",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/brainsci16101076",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/brainsci16101076**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Zinc-Deficiency-Cuprizone-Hippocampus-ZnT3-NOGO-A-IL-6-2026.html",
+   "title": "缺锌或补锌改写脱髓鞘海马：ZnT3、NOGO-A 与IL-6的表达",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.3390/ijms27209329",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/ijms27209329**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "hTERT-Promoter-Polymorphisms-Metabolic-Phenotypes-Telomere-2026.html",
+   "title": "hTERT 启动子多态性与代谢表型的关联不靠端粒长度解释",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.3390/ijms27209292",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.3390/ijms27209292**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "hucMSC-Exosomes-Cognitive-Impairment-Metabolic-Remodeling-2026.html",
+   "title": "脐带 MSC 外泌体经代谢重塑救回 APP/PS1 小鼠认知",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.expneurol.2026.116100",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.expneurol.2026.116100**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "m6A-lncRNA-RMRP-Mitophagy-oxLDL-Endothelial-Injury-2026.html",
+   "title": "m6A 修饰 lncRNA RMRP 经 PTBP1/PI3K-AKT 推动线粒体自噬与内皮损伤",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.bbagrm.2026.195190",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.bbagrm.2026.195190**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "mTOR-Inhibition-Strategies-Oropharyngeal-Carcinoma-2026.html",
+   "title": "口咽癌的 mTOR 抑制策略：从经典抑制剂到新一代",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.21873/anticanres.18430",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.21873/anticanres.18430**"
+   ],
+   "level": "强"
+  },
   {
    "slug": "Aging-As-Failed-Resolution-Framework-Geroscience-IJMS-2026.html",
    "title": "衰老是一道「始终没开始愈合的伤口」吗？这个框架现在可检验了",
@@ -1550,7 +4718,7 @@
    "doi": "10.1186/s12888-026-08455-6",
    "doi_in_page": true,
    "source_links": [
-    "https://doi.org/10.1186/s12888-026-08455-6"
+    "https://doi.org/10.1186/s12888-026-08455-6**"
    ],
    "level": "强"
   },
@@ -1682,7 +4850,7 @@
    "doi": "10.1021/acschemneuro.6c00569",
    "doi_in_page": true,
    "source_links": [
-    "https://doi.org/10.1021/acschemneuro.6c00569"
+    "https://doi.org/10.1021/acschemneuro.6c00569**"
    ],
    "level": "强"
   },
@@ -1718,7 +4886,7 @@
    "doi": "10.1186/s12872-026-06325-3",
    "doi_in_page": true,
    "source_links": [
-    "https://doi.org/10.1186/s12872-026-06325-3"
+    "https://doi.org/10.1186/s12872-026-06325-3**"
    ],
    "level": "强"
   },
@@ -1778,7 +4946,7 @@
    "doi": "10.1097/WNR.0000000000002313",
    "doi_in_page": true,
    "source_links": [
-    "https://doi.org/10.1097/WNR.0000000000002313"
+    "https://doi.org/10.1097/WNR.0000000000002313**"
    ],
    "level": "强"
   },
@@ -1910,7 +5078,7 @@
    "doi": "10.1038/s41586-026-11152-9",
    "doi_in_page": true,
    "source_links": [
-    "https://doi.org/10.1038/s41586-026-11152-9"
+    "https://doi.org/10.1038/s41586-026-11152-9**"
    ],
    "level": "强"
   },
@@ -1944,7 +5112,7 @@
    "doi": "10.1126/sciadv.aed4541",
    "doi_in_page": true,
    "source_links": [
-    "https://doi.org/10.1126/sciadv.aed4541"
+    "https://doi.org/10.1126/sciadv.aed4541**"
    ],
    "level": "强"
   },
@@ -2005,7 +5173,7 @@
    "doi": "10.1038/s43587-026-01247-3",
    "doi_in_page": true,
    "source_links": [
-    "https://doi.org/10.1038/s43587-026-01247-3"
+    "https://doi.org/10.1038/s43587-026-01247-3**"
    ],
    "level": "强"
   },
@@ -2308,7 +5476,7 @@
    "doi": "10.1111/srt.70395",
    "doi_in_page": true,
    "source_links": [
-    "https://doi.org/10.1111/srt.70395"
+    "https://doi.org/10.1111/srt.70395**"
    ],
    "level": "强"
   },
@@ -2570,19 +5738,19 @@
    "doi": "10.1001/jamanetworkopen.2026.33002",
    "doi_in_page": true,
    "source_links": [
-    "https://doi.org/10.1001/jamanetworkopen.2026.33002"
+    "https://doi.org/10.1001/jamanetworkopen.2026.33002**"
    ],
    "level": "强"
   },
   {
    "slug": "NAD-Metabolic-Restoration-Lung-GVHD-2026.html",
    "title": "恢复 NAD⁺ 代谢：把肺 GVHD 的抗炎与抗感染能力解耦",
-   "evidence": "B",
+   "evidence": "A",
    "page_exists": true,
    "doi": "10.1126/sciadv.aef3338",
    "doi_in_page": true,
    "source_links": [
-    "https://doi.org/10.1126/sciadv.aef3338"
+    "https://doi.org/10.1126/sciadv.aef3338**"
    ],
    "level": "强"
   },
@@ -2702,7 +5870,7 @@
    "doi": "10.1186/s12872-026-06366-8",
    "doi_in_page": true,
    "source_links": [
-    "https://doi.org/10.1186/s12872-026-06366-8"
+    "https://doi.org/10.1186/s12872-026-06366-8**"
    ],
    "level": "强"
   },

@@ -1,9 +1,19 @@
 {
  "site": {
-  "articles": 868,
-  "dois": 717
+  "articles": 1149,
+  "dois": 998
  },
  "outputs": {
+  "cards_2026-10-29.md": {
+   "rows": 285,
+   "bytes": 48879,
+   "suspicious_empty": false
+  },
+  "dGBunAeRiRlm__文献监控_2026-10-29_卡片": {
+   "rows": 0,
+   "bytes": 692872,
+   "suspicious_empty": false
+  },
   "preprint_2026-10-21.md": {
    "rows": 0,
    "bytes": 39189,
@@ -185,9 +195,9 @@
    "suspicious_empty": false
   }
  },
- "output_entries": 426,
- "covered": 195,
- "missing_count": 231,
+ "output_entries": 711,
+ "covered": 481,
+ "missing_count": 230,
  "missing": [
   {
    "fingerprint": "doi:10.1007/s11357-025-02017-6",
@@ -231,7 +241,7 @@
     "文献层_五刊监控_深度文献卡片_2026-10-23.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1007/s11357-025-02027-4，标题相似 0.00，词元重叠 0.33）"
+   "basis": "四路均未命中（DOI=10.1007/s11357-025-02027-4，标题相似 0.00，词元重叠 0.40）"
   },
   {
    "fingerprint": "doi:10.1007/s11357-025-02028-3",
@@ -266,7 +276,7 @@
     "cards_2026-10-02.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1007/s11357-025-02035-4，标题相似 0.00，词元重叠 0.33）"
+   "basis": "四路均未命中（DOI=10.1007/s11357-025-02035-4，标题相似 0.00，词元重叠 0.50）"
   },
   {
    "fingerprint": "doi:10.1007/s11357-025-02037-2",
@@ -289,7 +299,7 @@
     "文献层_五刊监控_深度文献卡片_2026-10-23.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1007/s11357-025-02043-4，标题相似 0.00，词元重叠 0.20）"
+   "basis": "四路均未命中（DOI=10.1007/s11357-025-02043-4，标题相似 0.00，词元重叠 0.33）"
   },
   {
    "fingerprint": "doi:10.1007/s11357-026-02362-0",
@@ -368,7 +378,7 @@
     "cards_2026-09-25.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1007/s11357-026-02464-9，标题相似 0.00，词元重叠 0.33）"
+   "basis": "四路均未命中（DOI=10.1007/s11357-026-02464-9，标题相似 0.00，词元重叠 0.40）"
   },
   {
    "fingerprint": "doi:10.1007/s11357-026-02467-6",
@@ -437,18 +447,6 @@
    "basis": "四路均未命中（DOI=10.1007/s11357-026-02546-8，标题相似 0.00，词元重叠 0.50）"
   },
   {
-   "fingerprint": "doi:10.1007/s11357-026-02550-y",
-   "title": "Dietary pattern and epigenetic aging: a longitudinal twin study",
-   "doi": "10.1007/s11357-026-02550-y",
-   "code": "G12",
-   "seen_in": [
-    "cards_2026-10-02.md",
-    "文献层_五刊监控_深度文献卡片_2026-10-23.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1007/s11357-026-02550-y，标题相似 0.00，词元重叠 0.40）"
-  },
-  {
    "fingerprint": "doi:10.1007/s11357-026-02554-8",
    "title": "Autologous cytokine-induced NK cells as candidate cellular senolytics: evidence, obstacles…",
    "doi": "10.1007/s11357-026-02554-8",
@@ -514,7 +512,7 @@
     "文献层_五刊监控_深度文献卡片_2026-10-23.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1007/s11357-026-02603-2，标题相似 0.00，词元重叠 0.40）"
+   "basis": "四路均未命中（DOI=10.1007/s11357-026-02603-2，标题相似 0.00，词元重叠 0.50）"
   },
   {
    "fingerprint": "doi:10.1016/j.cell.2026.06.035",
@@ -547,7 +545,7 @@
     "cards_2026-10-02.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1016/j.cmet.2026.09.003，标题相似 0.00，词元重叠 0.33）"
+   "basis": "四路均未命中（DOI=10.1016/j.cmet.2026.09.003，标题相似 0.00，词元重叠 0.50）"
   },
   {
    "fingerprint": "doi:10.1038/s43587-026-01177-0",
@@ -647,7 +645,7 @@
     "cards_2026-09-25.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1111/acel.70664，标题相似 0.00，词元重叠 0.33）"
+   "basis": "四路均未命中（DOI=10.1111/acel.70664，标题相似 0.00，词元重叠 0.50）"
   },
   {
    "fingerprint": "doi:10.1111/acel.70674",
@@ -658,7 +656,7 @@
     "cards_2026-09-25.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1111/acel.70674，标题相似 0.00，词元重叠 0.33）"
+   "basis": "四路均未命中（DOI=10.1111/acel.70674，标题相似 0.00，词元重叠 0.40）"
   },
   {
    "fingerprint": "doi:10.1111/acel.70675",
@@ -790,7 +788,7 @@
     "文献层_五刊监控_深度文献卡片_2026-10-23.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1111/acel.70727，标题相似 0.00，词元重叠 0.33）"
+   "basis": "四路均未命中（DOI=10.1111/acel.70727，标题相似 0.00，词元重叠 0.40）"
   },
   {
    "fingerprint": "doi:10.1111/acel.70729",
@@ -859,7 +857,7 @@
     "cards_2026-10-02.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1111/acel.70743，标题相似 0.00，词元重叠 0.43）"
+   "basis": "四路均未命中（DOI=10.1111/acel.70743，标题相似 0.00，词元重叠 0.50）"
   },
   {
    "fingerprint": "doi:10.1111/acel.70753",
@@ -881,7 +879,7 @@
     "文献层_五刊监控_深度文献卡片_2026-10-23.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1111/acel.70755，标题相似 0.00，词元重叠 0.33）"
+   "basis": "四路均未命中（DOI=10.1111/acel.70755，标题相似 0.00，词元重叠 0.50）"
   },
   {
    "fingerprint": "doi:10.1111/acel.70766",
@@ -980,7 +978,7 @@
     "preprint-2026-09-15.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=10.64898/2026.09.10.26362802，标题相似 0.00，词元重叠 0.33）；★中文摘要条目，必须人工核对站内中文关键词"
+   "basis": "四路均未命中（DOI=10.64898/2026.09.10.26362802，标题相似 0.00，词元重叠 0.67）；★中文摘要条目，必须人工核对站内中文关键词"
   },
   {
    "fingerprint": "doi:10.64898/2026.09.11.26362881",
@@ -1013,7 +1011,7 @@
     "pipeline-summary-2026-10-18.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=10.64898/2026.10.11.758328，标题相似 0.00，词元重叠 0.33）"
+   "basis": "四路均未命中（DOI=10.64898/2026.10.11.758328，标题相似 0.00，词元重叠 0.50）"
   },
   {
    "fingerprint": "doi:10.64898/2026.10.12.758406",
@@ -1046,7 +1044,7 @@
     "pipeline-summary-2026-10-18.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=10.64898/2026.10.12.758428，标题相似 0.00，词元重叠 0.20）"
+   "basis": "四路均未命中（DOI=10.64898/2026.10.12.758428，标题相似 0.00，词元重叠 0.25）"
   },
   {
    "fingerprint": "doi:10.64898/2026.10.12.758429",
@@ -1200,7 +1198,7 @@
     "预印本速递_2026-10-23.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=10.64898/2026.10.21.760721，标题相似 0.00，词元重叠 0.40）"
+   "basis": "四路均未命中（DOI=10.64898/2026.10.21.760721，标题相似 0.00，词元重叠 0.50）"
   },
   {
    "fingerprint": "t:012a55f80422dedb",
@@ -2617,7 +2615,7 @@
     "pool_2026-10-13.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.20）；★中文摘要条目，必须人工核对站内中文关键词"
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.25）；★中文摘要条目，必须人工核对站内中文关键词"
   },
   {
    "fingerprint": "t:da955d200fe780cd",
@@ -2629,7 +2627,7 @@
     "industry_2026-10-21.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）"
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）"
   },
   {
    "fingerprint": "t:dbe3594fb9fa5f9c",
@@ -2816,15 +2814,18 @@
    "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
   }
  ],
- "orphan_count": 868,
+ "orphan_count": 1149,
  "orphan_sample": [
   "3D-Culture-Reverses-Limbal-Niche-AgingCell-2026.html",
   "7-Ketocholesterol-Derivatives-Pathophysiology.html",
   "AAV-FGF21-Gene-Therapy-Healthspan-Lifespan-2026.html",
+  "ACO2-Oxidative-Stress-Biomarker-AD-Multi-Omics-2026.html",
+  "AD-Hashimoto-Thyroiditis-Immune-Transcriptomic-Overlap-2026.html",
   "ADPHC-Ultrahuman-Biological-Health-Age-Public-Health-MOU.html",
   "AGEs-Glycation-Tissue-Stiffness-2026.html",
   "AHR-Inhibition-Axon-Regeneration-Nature-2026.html",
   "AMPK-Direct-Activation-991-Lifespan-AgingCell-2026.html",
+  "AMPK-Signaling-Cell-Metabolism-Human-Diseases-Review-2026.html",
   "ANP-Gene-Therapy-Heart-Regeneration.html",
   "AP1-Lung-Fibrosis-ECM-Program-2026.html",
   "APOE2-DNA-Repair-Neuronal-Aging-2026.html",
@@ -2834,10 +2835,7 @@
   "ARDD-2026-to-relocate-to-Bosto.html",
   "ARDD-2026-to-relocate-to-Boston.html",
   "ARG2-Osteoblast-Senescence-Mitophagy-2026.html",
-  "AT-1-Acetyl-CoA-Transporter-Neuronal-Metabolism-SIRT1-2026.html",
-  "ATF5-Muscle-Mass-Quality-Aging-2026.html",
-  "Accelerated-Brain-Aging-Executive-Deficits-2026.html",
-  "Accelerated-Epigenetic-Aging-Frontotemporal-Dementia-2026.html"
+  "AT-1-Acetyl-CoA-Transporter-Neuronal-Metabolism-SIRT1-2026.html"
  ],
  "note": "missing 必须逐条人工核对后再写稿。判定为「漏收」只代表三路均未命中，不是结论——中文摘要条目尤其需要用中文关键词直接搜站内。"
 }

@@ -1,6 +1,2571 @@
 {
  "entries": [
   {
+   "fingerprint": "doi:10.1038/s41467-026-77790-9",
+   "title": "An epigenetic aging-informed dietary pattern is associated with a spectrum of aging-related health outcomes.",
+   "doi": "10.1038/s41467-026-77790-9",
+   "code": "001",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1002/alz.71939",
+   "title": "Pathway-specific polygenic risk scores modify the association between amyloid and tau PET accumulation in patients with Alzheimer's disease.",
+   "doi": "10.1002/alz.71939",
+   "code": "002",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s41392-026-02970-4",
+   "title": "Ginsenoside Rb1 alleviates uterine aging via AMPK-mediated mTOR inactivation.",
+   "doi": "10.1038/s41392-026-02970-4",
+   "code": "003",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3389/fragi.2026.1912337",
+   "title": "Retinal neurodegeneration as accelerated ocular aging: a review of nutritional and metabolic supplements.",
+   "doi": "10.3389/fragi.2026.1912337",
+   "code": "004",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s41514-026-00524-0",
+   "title": "The use of biological age and artificial intelligence in health care.",
+   "doi": "10.1038/s41514-026-00524-0",
+   "code": "005",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02615-y",
+   "title": "How well do dementia risk scores predict dementia? A systematic review and meta-analysis.",
+   "doi": "10.1007/s11357-026-02615-y",
+   "code": "006",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1186/s12979-026-00586-4",
+   "title": "Macrophage senescence and senescence-like states in senile osteoporosis: cellular cross-talk and therapeutic perspectives.",
+   "doi": "10.1186/s12979-026-00586-4",
+   "code": "007",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3389/fnagi.2026.1980508",
+   "title": "Bipolar disorder and risk of all-cause and specific dementia: a systematic review and meta-analysis.",
+   "doi": "10.3389/fnagi.2026.1980508",
+   "code": "008",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1186/s13148-026-02219-5",
+   "title": "Accelerated biological aging mediates the associations of plasma lactate and the glucose-lactate index with MASLD: a prospective cohort study.",
+   "doi": "10.1186/s13148-026-02219-5",
+   "code": "009",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1002/dad2.70526",
+   "title": "Digital completion time relates more strongly to Alzheimer's disease-type atrophy than to vascular burden in a community cohort.",
+   "doi": "10.1002/dad2.70526",
+   "code": "010",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1002/alz.71936",
+   "title": "Real-world clinical, biomarker, and imaging outcomes of lecanemab in Alzheimer's disease: a multicenter longitudinal cohort study in Jiangsu, China.",
+   "doi": "10.1002/alz.71936",
+   "code": "011",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s41392-026-02790-6",
+   "title": "The AMPK signaling pathway in cell metabolism and human diseases.",
+   "doi": "10.1038/s41392-026-02790-6",
+   "code": "012",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1002/dad2.70516",
+   "title": "Symmetric Centipolar Normalized Score : A standardization framework for fluid marker cross-comparability in Alzheimer's disease.",
+   "doi": "10.1002/dad2.70516",
+   "code": "013",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.nbas.2026.100171",
+   "title": "Cerebellar nuclei remain vulnerable to cuprizone-induced demyelination in adult and aged mice: A longitudinal multimodal MRI-histology study.",
+   "doi": "10.1016/j.nbas.2026.100171",
+   "code": "014",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1002/trc2.70237",
+   "title": "Differential relationships between cardiorespiratory fitness and cortical thickness across the adult lifespan: A generalized additive model approach.",
+   "doi": "10.1002/trc2.70237",
+   "code": "015",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1186/s40478-026-02473-x",
+   "title": "Intracisternal injection of two human SOD1 aggregate strains induces templated aggregation and ALS in transgenic mouse model.",
+   "doi": "10.1186/s40478-026-02473-x",
+   "code": "016",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.apsb.2025.07.038",
+   "title": "Application of computational methods in the drug discovery and development of Alzheimer's disease.",
+   "doi": "10.1016/j.apsb.2025.07.038",
+   "code": "017",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s41467-026-78058-y",
+   "title": "PARP10 condensation inhibits viral replication via targeting NAD+ homeostasis.",
+   "doi": "10.1038/s41467-026-78058-y",
+   "code": "018",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s41593-026-02489-5",
+   "title": "Chronic progressive demyelination induces a microglial state with lysosomal dysfunction.",
+   "doi": "10.1038/s41593-026-02489-5",
+   "code": "019",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1186/s12916-026-05088-0",
+   "title": "Advances in modified anti-Aβ antibodies for the treatment of Alzheimer's disease.",
+   "doi": "10.1186/s12916-026-05088-0",
+   "code": "020",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1186/s13059-026-04220-w",
+   "title": "Proteomic ageing clocks: methods, mechanisms and the muscle connection.",
+   "doi": "10.1186/s13059-026-04220-w",
+   "code": "021",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1002/alz.71956",
+   "title": "Brains for dementia research at 18: Commitment to impact the value of human post-mortem tissue.",
+   "doi": "10.1002/alz.71956",
+   "code": "022",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3389/fnagi.2026.1906641",
+   "title": "Application of large language models in early screening of Alzheimer's disease: a scoping review.",
+   "doi": "10.3389/fnagi.2026.1906641",
+   "code": "023",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1097/md.0000000000051177",
+   "title": "Sleep duration, sarcopenia, and incident depressive symptoms in Chinese middle-aged and older adults: A prospective cohort study based on CHARLS.",
+   "doi": "10.1097/md.0000000000051177",
+   "code": "024",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/biom16101421",
+   "title": "Effects of Fixed-Speed Treadmill Exercise on Oxidative Stress and Sirtuin Biomarkers in Young and D-Galactose-Treated Rats: A Biochemical Study with Exploratory Hippocampal Observations.",
+   "doi": "10.3390/biom16101421",
+   "code": "025",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/biom16101484",
+   "title": "An Exploratory Randomized Clinical Trial to Assess the Effects of Vitamin D and Leucine-Enriched Whey Protein Supplementation on Inflammaging and Gut Eubacterial Biomass in Cardiac Rehabilitation Patients.",
+   "doi": "10.3390/biom16101484",
+   "code": "026",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/nu18203329",
+   "title": "Exercise Is Associated with Skeletal Muscle Autophagy-Lysosome-Related Markers and Nrf2/ARF1 Signaling in HFD Mice.",
+   "doi": "10.3390/nu18203329",
+   "code": "027",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02619-8",
+   "title": "Sonic hedgehog-matrix metalloproteinase crosstalk in neurovascular ageing and stroke: a potential mechanistic link.",
+   "doi": "10.1007/s11357-026-02619-8",
+   "code": "028",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02569-1",
+   "title": "Characterization of sex-dependent skeletal muscle alterations in the 3xTg Alzheimer's disease mouse model.",
+   "doi": "10.1007/s11357-026-02569-1",
+   "code": "029",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3389/fcvm.2026.1790767",
+   "title": "Age-related cardiac dysfunction is not associated with shorter telomere length in laboratory rats.",
+   "doi": "10.3389/fcvm.2026.1790767",
+   "code": "030",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3389/fnagi.2026.1902282",
+   "title": "Heterogeneous progression of AT biomarkers in data-driven subtypes of Alzheimer's disease.",
+   "doi": "10.3389/fnagi.2026.1902282",
+   "code": "031",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.jgr.2026.101115",
+   "title": "Ginsenoside Rg2 attenuates TGF-β1/Smad-mediated fibrotic remodeling in aged male mice with sarcopenia.",
+   "doi": "10.1016/j.jgr.2026.101115",
+   "code": "032",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1186/s44494-026-00007-9",
+   "title": "Uterine function and reproduction aging. I. Molecular and structural alterations associated with impaired decidualization in aged mouse uteri.",
+   "doi": "10.1186/s44494-026-00007-9",
+   "code": "033",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3389/fphar.2026.1911529",
+   "title": "Silencing without clearing: pharmacological modulation of the SASP in aging and disease.",
+   "doi": "10.3389/fphar.2026.1911529",
+   "code": "034",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3389/fendo.2026.1972846",
+   "title": "Metformin and atorvastatin ameliorate MASH via the AMPK/NF-κB pathway.",
+   "doi": "10.3389/fendo.2026.1972846",
+   "code": "035",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1162/imag.a.1407",
+   "title": "Interactions between age and sex in multiscale entropy and spectral power changes across the lifespan.",
+   "doi": "10.1162/imag.a.1407",
+   "code": "036",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/brainsci16101019",
+   "title": "Brain Aging and Cellular Senescence Trigger Neuroimmunological Dysregulation and Neurodegeneration.",
+   "doi": "10.3390/brainsci16101019",
+   "code": "037",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/brainsci16101075",
+   "title": "Age-Related Electrophysiological Reorganization During In-Phase and Anti-Phase Bimanual Coordination.",
+   "doi": "10.3390/brainsci16101075",
+   "code": "038",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/biology15201893",
+   "title": "Research Advances and Perspectives on Gut Microbiota Regulating Alzheimer's Disease.",
+   "doi": "10.3390/biology15201893",
+   "code": "039",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/biology15201904",
+   "title": "Ozone as a Catalyst for Alzheimer's Disease and Sleep Disorders: Implications for Neurodegeneration Induced by Air Pollution.",
+   "doi": "10.3390/biology15201904",
+   "code": "040",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/cimb48100978",
+   "title": "Age-Dependent Remodeling of Parvalbumin Interneuron-Associated Networks Alters Corticospinal Output in the Motor Cortex.",
+   "doi": "10.3390/cimb48100978",
+   "code": "041",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/cimb48101008",
+   "title": "Metformin, SGLT2 Inhibitors, and Intermittent Fasting: Convergent Pathways to Healthspan Extension, Cardiovascular Longevity, and Cancer Prevention-A Narrative Review.",
+   "doi": "10.3390/cimb48101008",
+   "code": "042",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/biom16101383",
+   "title": "Minor Phytocannabinoids as Candidate Multi-Target Modulators of Endoplasmic Reticulum Stress-Linked Proteostasis Failure in Alzheimer's Disease: A Mechanistic Review.",
+   "doi": "10.3390/biom16101383",
+   "code": "043",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/biom16101409",
+   "title": "Modulating the NLRP3/IL-1β Axis in Age-Related Atherosclerosis: Natural Products, Molecular Mechanisms, and Translational Perspectives-A Narrative Review.",
+   "doi": "10.3390/biom16101409",
+   "code": "044",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/biom16101427",
+   "title": "The Nuclear Damage-Response Code of Cutaneous Wound Repair: Mechanotransduction, cGAS-STING, Senescence, and Regenerative Interfaces.",
+   "doi": "10.3390/biom16101427",
+   "code": "045",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/biom16101432",
+   "title": "α-Lipoic Acid, with or Without Ambrisentan, Attenuates Experimental Pulmonary Arterial Hypertension: Associations with AMPK/mTOR/NF-κB Signaling and Kallistatin.",
+   "doi": "10.3390/biom16101432",
+   "code": "046",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/biom16101487",
+   "title": "Immunosenescence in Aging and Cancer: Molecular Mechanisms, Tumor Microenvironment Remodeling, and Therapeutic Implications.",
+   "doi": "10.3390/biom16101487",
+   "code": "047",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/biom16101504",
+   "title": "Lifestyle-Associated Biomarkers of Cellular and Whole-Organism Aging: A Practical Roadmap for Human Geroscience Trials.",
+   "doi": "10.3390/biom16101504",
+   "code": "048",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/antiox15101351",
+   "title": "The Environmental Exposome and Age-Related Macular Degeneration: Oxidative Stress as a Molecular Link.",
+   "doi": "10.3390/antiox15101351",
+   "code": "049",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/antiox15101353",
+   "title": "Sirtuin-1 in Hypertension: Linking Oxidative Stress and Mitochondrial Dysfunction to Vascular Aging and Therapeutic Potential.",
+   "doi": "10.3390/antiox15101353",
+   "code": "050",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/biomedicines14102178",
+   "title": "Glymphatic Dysfunction Across Neurological Disorders: Links to Neurodegeneration, Inflammaging, Gut-Brain Signaling, and Physiological Modulators.",
+   "doi": "10.3390/biomedicines14102178",
+   "code": "051",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/biomedicines14102206",
+   "title": "CSF APOE Secondary Glycosylation Predicts Cognitive Decline in Mild Cognitive Impairment.",
+   "doi": "10.3390/biomedicines14102206",
+   "code": "052",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/biomedicines14102240",
+   "title": "The Mitophagy Vortex: Bridging Inflammatory, Oxidative, Hypoxic, and Aging Insults to Drive COPD Skeletal Muscle Dysfunction.",
+   "doi": "10.3390/biomedicines14102240",
+   "code": "053",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/biomedicines14102378",
+   "title": "Nicotinamide Mononucleotide Is Associated with Attenuation of OGD/R-Induced Pro-Inflammatory Programs in Microglia: Transcriptomic Evidence Converging on the NLRP3 Inflammasome and Lipid-Droplet-Related Molecular Signatures.",
+   "doi": "10.3390/biomedicines14102378",
+   "code": "054",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/biomedicines14102407",
+   "title": "Paired CSF-Plasma Analyte Signal Contrasts Across Alzheimer's Disease Clinical Stages and MCI-to-Dementia Conversion.",
+   "doi": "10.3390/biomedicines14102407",
+   "code": "055",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/jcm15208059",
+   "title": "Serum Thyrotropin Levels Across Older Age Groups in Geriatric Outpatients Without Documented or Clinically Evident Thyroid Disease: A Retrospective Cross-Sectional Study.",
+   "doi": "10.3390/jcm15208059",
+   "code": "056",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/ijms27208987",
+   "title": "Is Aging a Failure to Resolve? Integrating Damage Responses, Regenerative Decline, and Geroscience Interventions.",
+   "doi": "10.3390/ijms27208987",
+   "code": "057",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/ijms27209003",
+   "title": "Cellular Senescence in Ocular Surface Diseases: Molecular Mechanisms and Therapeutic Perspectives.",
+   "doi": "10.3390/ijms27209003",
+   "code": "058",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/ijms27209173",
+   "title": "Integrative Genetic and Transcriptomic Analysis Reveals Candidate Molecular Differences Among Dementia with Lewy Bodies, Alzheimer's Disease, and Parkinson's Disease Dementia.",
+   "doi": "10.3390/ijms27209173",
+   "code": "059",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/ijms27209352",
+   "title": "Paeonol Attenuates UVB-Induced Premature Senescence in Human Dermal Fibroblasts to Promote Skin Longevity.",
+   "doi": "10.3390/ijms27209352",
+   "code": "060",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/nu18203330",
+   "title": "The Gut Microbiome-Estrogen Axis in Menopause: Implications for Body Composition, Cardiometabolic Health and Nutrition.",
+   "doi": "10.3390/nu18203330",
+   "code": "061",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/nu18203336",
+   "title": "Association of Frailty Status with Semi-Targeted Metabolomics and Untargeted Proteomics in Older Adults Referred for Physical Therapy in a Geriatric Clinic.",
+   "doi": "10.3390/nu18203336",
+   "code": "062",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/nu18203365",
+   "title": "Associations of Distinct Dietary Indices with Global and Domain-Specific Cognition and Age-Related Heterogeneity in Older Chinese Adults.",
+   "doi": "10.3390/nu18203365",
+   "code": "063",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/nu18203415",
+   "title": "Lean-to-Rich Healthy Aging: A New Hypothesis on Okinawa's Postwar Nutrition Transition and Longevity Trends.",
+   "doi": "10.3390/nu18203415",
+   "code": "064",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/ph19101548",
+   "title": "P2X7 Receptor Antagonist A740003 Mitigates Cardiac Senescence by Inhibiting Inflammaging Through the NF-κB Pathway.",
+   "doi": "10.3390/ph19101548",
+   "code": "065",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/ph19101573",
+   "title": "Incensole Acetate Regulates the Sirtuin-Insulin Signaling Axis in an Experimental Alzheimer's Disease Model.",
+   "doi": "10.3390/ph19101573",
+   "code": "066",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/microorganisms14102365",
+   "title": "Research on the Regulatory Effects of Resveratrol on BCG-Induced Autophagy and Apoptosis in Macrophages via Targeting SIRT1.",
+   "doi": "10.3390/microorganisms14102365",
+   "code": "067",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1186/s13293-026-00959-w",
+   "title": "Hormone replacement therapy through the lens of epigenetic clock: estrogen signals, glycemic status, and lifespan.",
+   "doi": "10.1186/s13293-026-00959-w",
+   "code": "068",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1097/md.0000000000051322",
+   "title": "Systematic review and meta-analysis of risk factors for oral frailty.",
+   "doi": "10.1097/md.0000000000051322",
+   "code": "069",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/cimb48101040",
+   "title": "Laminin-Derived Peptides and Isoforms: A Multifaceted Review of Their Roles in Cancer, Neurodegeneration, Inflammation, Tissue Regeneration, and Exercise Physiology.",
+   "doi": "10.3390/cimb48101040",
+   "code": "070",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/cimb48101041",
+   "title": "A Novel Combination of Galega officinalis Extract, Hippophae rhamnoides Fruit Oil and Resveratrol Attenuates Bleomycin-Induced Senescence Markers in Human Dermal Fibroblasts and Ex Vivo Hair Follicles.",
+   "doi": "10.3390/cimb48101041",
+   "code": "071",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/antiox15101357",
+   "title": "The Senescence-Malignancy Axis: An Inflammaging Perspective.",
+   "doi": "10.3390/antiox15101357",
+   "code": "072",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/ijms27209025",
+   "title": "Compartment-Specific Transcriptional Remodelling Defines Denervation and Geriatric Muscle Regeneration.",
+   "doi": "10.3390/ijms27209025",
+   "code": "073",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/ijms27209301",
+   "title": "L1CAM-Enriched Extracellular Vesicle MicroRNAs in Mild Cognitive Impairment and Alzheimer's Disease: An Exploratory Study.",
+   "doi": "10.3390/ijms27209301",
+   "code": "074",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/pharmaceutics18101266",
+   "title": "Targeting of Protein Persulfidation in Aging and Age-Related Disorders.",
+   "doi": "10.3390/pharmaceutics18101266",
+   "code": "075",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/nu18203312",
+   "title": "Impact of GLP-1 Receptor Agonists on Cognitive Performance in Adults at Risk of Alzheimer's Disease: A Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
+   "doi": "10.3390/nu18203312",
+   "code": "076",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/nu18203368",
+   "title": "Comparative Effectiveness of Nutritional Strategies for Sarcopenia-Related Outcomes in Older Adults: A Systematic Review and Network Meta-Analysis.",
+   "doi": "10.3390/nu18203368",
+   "code": "077",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s11357-026-02582-4",
+   "title": "Aerobic exercise training alters gastrointestinal microbiota and enhances exercise capacity in UM-HET3 mice.",
+   "doi": "10.1007/s11357-026-02582-4",
+   "code": "078",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/antiox15101219",
+   "title": "Effects of Coenzyme Q10 Supplementation on Muscle Health and Physical Capacity in Middle-Aged and Older Adults: A Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
+   "doi": "10.3390/antiox15101219",
+   "code": "079",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s40520-026-03381-9",
+   "title": "Serum neurofilament light protein as a biomarker across the cognitive decline continuum: a cross-sectional study from an Indian cohort.",
+   "doi": "10.1007/s40520-026-03381-9",
+   "code": "080",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3389/fnagi.2026.1926431",
+   "title": "A clustering approach based on neuropsychological testing to detect early signs of probable MCI among community-dwelling older adults.",
+   "doi": "10.3389/fnagi.2026.1926431",
+   "code": "081",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3389/fnagi.2026.1933991",
+   "title": "Beyond retest gains: episodic memory practice effects and longitudinal cognitive trajectories in cognitively healthy adults.",
+   "doi": "10.3389/fnagi.2026.1933991",
+   "code": "082",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/genes17101261",
+   "title": "Multi-Cohort Transcriptomic Integration Identifies Overlapping Immune and Antigen-Presentation Features in Alzheimer's Disease and Hashimoto's Thyroiditis.",
+   "doi": "10.3390/genes17101261",
+   "code": "083",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/genes17101263",
+   "title": "Nighttime Blue Light Promotes Lipid Accumulation and Shortens Lifespan via DAF-16/SOD-3-Mediated Oxidative Stress in C. elegans.",
+   "doi": "10.3390/genes17101263",
+   "code": "084",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/brainsci16101033",
+   "title": "Lifestyle, Psychosocial and Demographic Correlates of Objective Cognitive Performance in Middle-Aged and Older Adults with Subjective Cognitive Complaints: A Cross-Sectional Baseline Analysis of the N-HANCE Cohort.",
+   "doi": "10.3390/brainsci16101033",
+   "code": "085",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/brainsci16101076",
+   "title": "Latent Multidimensional Organization of White Matter Microstructural Aging: A Generative Adversarial Network Disentanglement Study in a Clinically Defined Reference Cohort.",
+   "doi": "10.3390/brainsci16101076",
+   "code": "086",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/biomedicines14102394",
+   "title": "Peri-Ovarian Mitochondrial Administration Improves Surrogate Markers of Ovarian Function in Aged Rats: Free Versus Alginate-Encapsulated Mesenchymal Stromal Cell-Derived Mitochondria.",
+   "doi": "10.3390/biomedicines14102394",
+   "code": "087",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/jcm15207765",
+   "title": "Comparative Effects of Myo-Inositol, Metformin, Berberine, and Combination Therapy on Metabolic, Anthropometric and Hormonal Parameters in Women with Polycystic Ovary Syndrome: A 6-Month Observational Cohort Study.",
+   "doi": "10.3390/jcm15207765",
+   "code": "088",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/jcm15207779",
+   "title": "Independent Associations of Stroke and Sarcopenia-Related Phenotype with Lower-Limb Strength and Gait: A 1:2 Matched Cohort Analysis.",
+   "doi": "10.3390/jcm15207779",
+   "code": "089",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/jcm15208108",
+   "title": "Effects of Metformin Treatment on Liver Glucose Metabolism-Related Enzyme Levels in Streptozotocin-Induced Diabetic Rats.",
+   "doi": "10.3390/jcm15208108",
+   "code": "090",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/ijms27209197",
+   "title": "HDL Functionality, Cholesterol-Related Biomarkers and Incidence of Dementia: A Case-Cohort Study in Older Adults at High Cardiovascular Risk.",
+   "doi": "10.3390/ijms27209197",
+   "code": "091",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/nu18203334",
+   "title": "Nicotinamide Mononucleotide Does Not Prevent Cardiac Hypertrophy but Attenuates Cardiac Stress and Remodeling Markers in Mice Exposed to Intermittent Normobaric Hypoxia.",
+   "doi": "10.3390/nu18203334",
+   "code": "092",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/nu18203416",
+   "title": "Whose Diet Suffers When Social Ties Change? Inter-Related Socioeconomic and Gender Inequalities in the Canadian Longitudinal Study on Aging Cohort.",
+   "doi": "10.3390/nu18203416",
+   "code": "093",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/nu18203451",
+   "title": "Estrogen Receptor-Mediated Effects of a Phytoestrogen-Rich Soy-Based Diet on Metabolic Health Following Ovariectomy in Aged Mice.",
+   "doi": "10.3390/nu18203451",
+   "code": "094",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s41999-026-01628-2",
+   "title": "Independence in activities of daily living for home-based geriatric rehabilitation after shortened inpatient rehabilitation: the \"Better@Home\" center prospective cohort study with a matched historical control group.",
+   "doi": "10.1007/s41999-026-01628-2",
+   "code": "095",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1371/journal.pone.0361198",
+   "title": "Clinical and genetic characteristics of patients with early-onset or familial parkinsonism: A retrospective single-center cohort.",
+   "doi": "10.1371/journal.pone.0361198",
+   "code": "096",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1186/s13195-026-02180-8",
+   "title": "Short-interval variability and test-retest reliability of Alzheimer's disease plasma biomarkers in a clinically heterogenous cohort.",
+   "doi": "10.1186/s13195-026-02180-8",
+   "code": "097",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.5114/biolsport.2026.163369",
+   "title": "Associations of exercise snacks with sarcopenia and all-cause mortality: A national cohort study.",
+   "doi": "10.5114/biolsport.2026.163369",
+   "code": "098",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.isci.2026.117883",
+   "title": "Microbiome-dependent phytosterol sulfates production and tissue distribution in mice.",
+   "doi": "10.1016/j.isci.2026.117883",
+   "code": "099",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3389/adar.2026.16883",
+   "title": "Acute metformin treatment increased social sniffing in male but not female BTBR mice.",
+   "doi": "10.3389/adar.2026.16883",
+   "code": "100",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/antiox15101293",
+   "title": "K34  Promotes Hemoglobin-Supported H2O2 Decomposition and Attenuates Neurodegenerative Phenotypes in APP/PS1 Mice with Focal GiD.",
+   "doi": "10.3390/antiox15101293",
+   "code": "101",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3389/fendo.2026.1930177",
+   "title": "Sex differences in sleep and memory relationships in older adults at risk for Alzheimer's disease.",
+   "doi": "10.3389/fendo.2026.1930177",
+   "code": "102",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3389/fmicb.2026.1976209",
+   "title": "Autophagy in Pseudomonas aeruginosa infection: host defense, bacterial countermeasures, and therapeutic targeting.",
+   "doi": "10.3389/fmicb.2026.1976209",
+   "code": "103",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3389/fimmu.2026.1938985",
+   "title": "Integrative single-cell and bulk transcriptomic analysis identifies monocyte/macrophage senescence-associated candidate genes in pulmonary arterial hypertension.",
+   "doi": "10.3389/fimmu.2026.1938985",
+   "code": "104",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1155/humu/5547171",
+   "title": "Telomere Dynamics in Congenital Heart Defects: Hidden Architects of Cardiogenesis?",
+   "doi": "10.1155/humu/5547171",
+   "code": "105",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3389/fnut.2026.1914763",
+   "title": "Body weight-normalized resting metabolic rate and its associations with malnutrition and sarcopenia in hospitalized older adults: a cross-sectional study.",
+   "doi": "10.3389/fnut.2026.1914763",
+   "code": "106",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3389/fimmu.2026.1990439",
+   "title": "Autophagy as a potential link between progesterone responsiveness and endometrial immune function in recurrent implantation failure.",
+   "doi": "10.3389/fimmu.2026.1990439",
+   "code": "107",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3389/fmed.2026.1943441",
+   "title": "Periocular rejuvenation: current concepts and evidence-based management.",
+   "doi": "10.3389/fmed.2026.1943441",
+   "code": "108",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/genes17101274",
+   "title": "Dynamic Changes of Histone H1 Variants in Drug-Induced Senescence.",
+   "doi": "10.3390/genes17101274",
+   "code": "109",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/brainsci16101031",
+   "title": "Leisure Activities: A Narrative Review of Established Evidence and New Perspectives on the Cognitive Reserve Framework in Healthy Populations Across the Adult Lifespan.",
+   "doi": "10.3390/brainsci16101031",
+   "code": "110",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/brainsci16101038",
+   "title": "Musical Instrument Practice as Sensorimotor and Motor-Cognitive Skill Training in Healthy Aging.",
+   "doi": "10.3390/brainsci16101038",
+   "code": "111",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/brainsci16101047",
+   "title": "Neuronal and Glial Cultures Differentiated from iPSCs of Healthy Donors and Patients with PARK2-Associated Parkinson's Disease Exhibit Distinct Expression Patterns of Receptors for Resolvin E1 and Resolvin D1.",
+   "doi": "10.3390/brainsci16101047",
+   "code": "112",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/brainsci16101067",
+   "title": "Numerical Cognition in Neurodegenerative Disorders: A Systematic Review of Patterns of Preservation and Impairment.",
+   "doi": "10.3390/brainsci16101067",
+   "code": "113",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/brainsci16101080",
+   "title": "Age-Stratified Serum Biomarkers for Discriminating Clinically Defined Cognitive Impairment in Neurological Inpatients: A Cross-Sectional Study.",
+   "doi": "10.3390/brainsci16101080",
+   "code": "114",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/brainsci16101093",
+   "title": "Glial Contributions to Pain in Neurodegenerative Disease Models: A Systematic Review of Microglial and Astrocytic Evidence.",
+   "doi": "10.3390/brainsci16101093",
+   "code": "115",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/brainsci16101097",
+   "title": "The Iron-Mitochondria-Oligodendrocyte Axis: An Emerging Metabolic Framework for Alzheimer's Disease.",
+   "doi": "10.3390/brainsci16101097",
+   "code": "116",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/brainsci16101130",
+   "title": "Cerebral Hemodynamic Patterns in People with Subjective Cognitive Decline: A Systematic Review Based on Functional Near-Infrared Spectroscopy.",
+   "doi": "10.3390/brainsci16101130",
+   "code": "117",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/biology15201810",
+   "title": "Beyond the Liver: Brain Rap1 Signaling in Metformin's Antidiabetic Action.",
+   "doi": "10.3390/biology15201810",
+   "code": "118",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/cimb48101010",
+   "title": "The Potential of Cytokinins as Innovative Components of Multifunctional Biomaterials: Mechanisms of Biological Activity and Potential in Tissue Regeneration-In Vitro Studies-Review.",
+   "doi": "10.3390/cimb48101010",
+   "code": "119",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/cimb48101027",
+   "title": "Dynamics of Endoplasmic Reticulum Stress Responses in Cells with Different Endoplasmic Reticulum Volumes and Senescence States.",
+   "doi": "10.3390/cimb48101027",
+   "code": "120",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/cimb48101081",
+   "title": "Brain Blindness Versus Eye Blindness: Genetic and Molecular Connections Between Alzheimer's Disease and Visual Impairment.",
+   "doi": "10.3390/cimb48101081",
+   "code": "121",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/biom16101496",
+   "title": "Enhancement of Endocannabinoid Signaling by Dual MAGL/ABHD6 Inhibition Reduces Neurodegeneration and Neuro-Inflammation Following AMPA-Mediated Excitotoxicity.",
+   "doi": "10.3390/biom16101496",
+   "code": "122",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/antiox15101251",
+   "title": "Dihydromyricetin Is Associated with Healthspan-Related Phenotypes and Neuroprotection in Caenorhabditis elegans, Alongside Redox and Mitochondrial Quality-Control Changes.",
+   "doi": "10.3390/antiox15101251",
+   "code": "123",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/antiox15101272",
+   "title": "Sulforaphane as a Therapeutic Target for Sarcopenia in Type 2 Diabetes: Mechanistic Insights and Translational Evidence.",
+   "doi": "10.3390/antiox15101272",
+   "code": "124",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/antiox15101278",
+   "title": "Interplay Between the Gut Microbiome and Oxidative Stress in Type 2 Diabetes.",
+   "doi": "10.3390/antiox15101278",
+   "code": "125",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/antiox15101321",
+   "title": "Circular RNAs in Alzheimer's Disease: Mechanisms, Biomarkers, and EPAC Signalling in Ferroptosis.",
+   "doi": "10.3390/antiox15101321",
+   "code": "126",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/biomedicines14102227",
+   "title": "Modeling Strategies for Neurodegenerative Diseases: In Vitro, In Vivo and In Silico Frameworks.",
+   "doi": "10.3390/biomedicines14102227",
+   "code": "127",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/biomedicines14102286",
+   "title": "Senescence-Associated Transcriptome Reversal Prioritizes Repurposing Candidates for Diabetic Kidney Disease: A Computational Study.",
+   "doi": "10.3390/biomedicines14102286",
+   "code": "128",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/biomedicines14102377",
+   "title": "A Non-Linear Ototoxic Response to Cisplatin Is Associated with Autophagy and PTEN/PI3K/AKT Signaling in Cochlear Hair Cells and Spiral Ganglion Neurons.",
+   "doi": "10.3390/biomedicines14102377",
+   "code": "129",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/jcm15207787",
+   "title": "When Body and Space Shape Perceived Health: Spatial and Interoceptive Processes in Amnestic Mild Cognitive Impairment.",
+   "doi": "10.3390/jcm15207787",
+   "code": "130",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/jcm15207856",
+   "title": "Heterogeneity in CT-Based Skeletal Muscle Mass Assessment and Sarcopenia Diagnosis Undermines Comparability in Hepatopancreatobiliary Surgery: A Scoping Review.",
+   "doi": "10.3390/jcm15207856",
+   "code": "131",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/jcm15207866",
+   "title": "Sexually Transmitted Infections in the Third Age: Rising Risk Among over 65-Year-Old Persons in Southern Sardinia.",
+   "doi": "10.3390/jcm15207866",
+   "code": "132",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/jcm15208107",
+   "title": "Frailty Impact on In-Hospital Outcomes Among Patients Hospitalized with Acute Pulmonary Embolism: A National Inpatient Sample Analysis.",
+   "doi": "10.3390/jcm15208107",
+   "code": "133",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/jcm15208198",
+   "title": "Association of Lower-Limb Asymmetry with Falls, Physical Performance and Frailty in Older Adults: A Systematic Review.",
+   "doi": "10.3390/jcm15208198",
+   "code": "134",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/ijms27208988",
+   "title": "Empagliflozin and Metformin Combination Therapy Attenuates Oxidative Stress and Inflammation in Experimental Cardio-Kidney-Metabolic Syndrome.",
+   "doi": "10.3390/ijms27208988",
+   "code": "135",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/ijms27209094",
+   "title": "Peptides and Peptide Analogues Targeting Acetylcholinesterase-Associated Mechanisms in Alzheimer's Disease and Dementias: Evidence Gaps, Design Strategies, and Translational Perspectives.",
+   "doi": "10.3390/ijms27209094",
+   "code": "136",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/ijms27209168",
+   "title": "Exploring Pathophysiological Processes Shared Between Type 2 Diabetes Mellitus and Osteoarthritis.",
+   "doi": "10.3390/ijms27209168",
+   "code": "137",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/ijms27209174",
+   "title": "Stem Cell and Exosome Treatment for Organ Health and Longevity.",
+   "doi": "10.3390/ijms27209174",
+   "code": "138",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/ijms27209190",
+   "title": "EP2 and EP4 in Alzheimer's Disease: Cell-Dependent Signalling and Implications for Selective Targeting.",
+   "doi": "10.3390/ijms27209190",
+   "code": "139",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/ijms27209195",
+   "title": "Autophagy in Pituitary Neuroendocrine Tumors : Molecular Mechanisms, Secretory Homeostasis, Therapeutic Resistance, and Translational Perspectives.",
+   "doi": "10.3390/ijms27209195",
+   "code": "140",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/ijms27209322",
+   "title": "Epigenetic Mechanisms in Neurodegenerative Diseases: From Genetic Regulation to Therapeutic Potential.",
+   "doi": "10.3390/ijms27209322",
+   "code": "141",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/ijms27209329",
+   "title": "Effects of Zinc Deficiency and Supplementation on Hippocampal ZnT3, NOGO-A, IL-6, and SESN2 Expression and Oxidative Stress Markers in a Cuprizone-Induced Toxic Demyelination Model.",
+   "doi": "10.3390/ijms27209329",
+   "code": "142",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/ijms27209351",
+   "title": "The Glymphatic-Meningeal Lymphatic System and Autophagy in ME/CFS and Long COVID: A Mechanistic Perspective.",
+   "doi": "10.3390/ijms27209351",
+   "code": "143",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/ijms27209355",
+   "title": "α-Halogenated Curcumins Enhance the Binding Affinity and Induced Structural Alterations to Amyloid-β Protein in Alzheimer's Disease.",
+   "doi": "10.3390/ijms27209355",
+   "code": "144",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/ijms27209392",
+   "title": "Safranal, a Natural Neuroprotective Compound, Modulates Plasma Iron Levels, Improves Behavioral Performance, and Demonstrates Dose-Specific Cytoprotection in Alzheimer's Disease Models.",
+   "doi": "10.3390/ijms27209392",
+   "code": "145",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/pharmaceutics18101200",
+   "title": "Topical and Scaffold-Mediated Delivery of VCE-005.1 Enhances Diabetic Wound Healing Through Endothelial Protection and Vascular Regeneration.",
+   "doi": "10.3390/pharmaceutics18101200",
+   "code": "146",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/pharmaceutics18101237",
+   "title": "Ethosomal Nanocarriers for Trans-Resveratrol Delivery: Formulation, Physicochemical Characterization, Stability, and In Vitro Release Performance.",
+   "doi": "10.3390/pharmaceutics18101237",
+   "code": "147",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/pharmaceutics18101264",
+   "title": "Impact of Process Parameters on the Quality Attributes of High-Dose Metformin Hydrochloride Film-Coated Tablets.",
+   "doi": "10.3390/pharmaceutics18101264",
+   "code": "148",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/nu18203344",
+   "title": "Associations of Serum Niacin and Nicotinamide with Child Behavior: A Longitudinal Study in China.",
+   "doi": "10.3390/nu18203344",
+   "code": "149",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/nu18203387",
+   "title": "Prognostic Nutritional Index, Circulating Bacterial and Viral DNA, and Neurocognitive Vulnerability in Geriatric Inpatients: A Cross-Sectional Study.",
+   "doi": "10.3390/nu18203387",
+   "code": "150",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/nu18203393",
+   "title": "Macronutrient Distribution and Frailty According to Energy Sufficiency.",
+   "doi": "10.3390/nu18203393",
+   "code": "151",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/nu18203424",
+   "title": "Precision Nutrition and Health Outcomes Across the Lifespan.",
+   "doi": "10.3390/nu18203424",
+   "code": "152",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/ph19101512",
+   "title": "Comparative Network Pharmacology and Molecular Docking Analysis of Ursodeoxycholic Acid and Tauroursodeoxycholic Acid in Alzheimer's Disease-Associated Molecular Networks.",
+   "doi": "10.3390/ph19101512",
+   "code": "153",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/ph19101532",
+   "title": "Bioequivalence Assessment of Sitagliptin/Metformin Extended-Release Fixed-Dose Combinations in Healthy Mexican Subjects Under Fasting and Fed Conditions.",
+   "doi": "10.3390/ph19101532",
+   "code": "154",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/ph19101557",
+   "title": "Lysine Acetylation as a Regulatory Mechanism in Cardiometabolic Disease: A Focus on Sirtuins.",
+   "doi": "10.3390/ph19101557",
+   "code": "155",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/ph19101569",
+   "title": "In Silico Evaluation of Cyanobacteria-Derived Bioactive Compounds as Potential Monoamine Oxidase-B Inhibitors for Parkinson's Disease: Molecular Docking and Molecular Dynamics Simulation Study.",
+   "doi": "10.3390/ph19101569",
+   "code": "156",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/ph19101589",
+   "title": "Targeting Cholinergic Dysfunction and Gingipain Activity in Alzheimer's Disease: A Dual AChE-Kgp Computational Study.",
+   "doi": "10.3390/ph19101589",
+   "code": "157",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/ph19101643",
+   "title": "Multi-Omics Analysis Identifies Gut-Associated Metabolic Signatures Associated with Metformin-Mediated Protection Against LPS-Induced Lung Injury.",
+   "doi": "10.3390/ph19101643",
+   "code": "158",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/ph19101654",
+   "title": "Niosomal Mexiletine Attenuates Rotenone-Induced Parkinsonism via Modulation of the circDLGAP4/miR-134-5p/p-CREB Axis and Restoration of Mitochondrial-Autophagic Homeostasis.",
+   "doi": "10.3390/ph19101654",
+   "code": "159",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/microorganisms14102193",
+   "title": "Genetic Proxies for Helicobacter pylori Serology Are Dominated by HLA Class II Haplotype Structure: Implications for Reported Associations with Neurodegenerative Disease.",
+   "doi": "10.3390/microorganisms14102193",
+   "code": "160",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/microorganisms14102280",
+   "title": "Ganoderma lucidum Sporoderm-Broken Spore Powder  Remodels the Gut Microbiota and Promotes Tryptophan-Derived Indole Metabolites to Maintain Intestinal Homeostasis.",
+   "doi": "10.3390/microorganisms14102280",
+   "code": "161",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/v18101068",
+   "title": "Coronavirus Exploitation of Ubiquitination and Selective Autophagy to Control Innate Immunity: Mechanisms, Systems Logic, and Therapeutic Opportunities.",
+   "doi": "10.3390/v18101068",
+   "code": "162",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/v18101088",
+   "title": "Sirtuin 1 Is Required for Optimal Mammarenavirus Multiplication.",
+   "doi": "10.3390/v18101088",
+   "code": "163",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1371/journal.pone.0361215",
+   "title": "A premature ovarian insufficiency-associated LMD-3 point mutation impairs protein stability and causes autophagic-lysosomal dysfunction in Caenorhabditis elegans.",
+   "doi": "10.1371/journal.pone.0361215",
+   "code": "164",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1186/s42523-026-00590-5",
+   "title": "Multi-omics insights into the role of microencapsulated sodium butyrate on production performance in aged quails.",
+   "doi": "10.1186/s42523-026-00590-5",
+   "code": "165",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3389/frdem.2026.1737082",
+   "title": "Safe and efficient intracellular delivery of functional antibodies into cultured neural cells shows a role for Alzheimer's-relevant tau phosphorylation in cell integrity.",
+   "doi": "10.3389/frdem.2026.1737082",
+   "code": "166",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3389/fcell.2026.1929282",
+   "title": "Dynamic remodeling of microglial responses in Alzheimer's disease: heterogeneous states, spatiotemporal progression, and immunometabolic dysregulation.",
+   "doi": "10.3389/fcell.2026.1929282",
+   "code": "167",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.jgr.2026.101119",
+   "title": "Association of ginseng intake and serum zinc with Alzheimer's disease-related cognition.",
+   "doi": "10.1016/j.jgr.2026.101119",
+   "code": "168",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1136/bmjph-2026-005263",
+   "title": "A probabilistic framework reveals life course heterogeneity in global diet and healthy longevity associations.",
+   "doi": "10.1136/bmjph-2026-005263",
+   "code": "169",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.isci.2026.117929",
+   "title": "Linking nasopharyngeal and oropharyngeal microbiota to immune responses during influenza-like illness in an aging population.",
+   "doi": "10.1016/j.isci.2026.117929",
+   "code": "170",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1002/cdt3.70074",
+   "title": "Prefrontal Planning Latency Associated With Age and Serological Evidence of Microbial Exposure.",
+   "doi": "10.1002/cdt3.70074",
+   "code": "171",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.isci.2026.117969",
+   "title": "Bacteroides fragilis outer membrane vesicle mediates Pseudomonadota colonization by inducing autophagy on the skin.",
+   "doi": "10.1016/j.isci.2026.117969",
+   "code": "172",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3389/fpsyt.2026.1949322",
+   "title": "The unequal cognitive consequences of social disconnection: mechanisms, modifiers and opportunities for dementia prevention.",
+   "doi": "10.3389/fpsyt.2026.1949322",
+   "code": "173",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.isci.2026.117920",
+   "title": "Hippocampal and hypothalamic cell-type specific mechanisms underlying nutritional and metabolic modulation of Alzheimer's disease.",
+   "doi": "10.1016/j.isci.2026.117920",
+   "code": "174",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/brainsci16101002",
+   "title": "Social Determinants of Health and Neurocognitive Aging in Indigenous and Non-Indigenous Older Adults in Rural Andean Ecuador: A Population-Based Study in Cotacachi.",
+   "doi": "10.3390/brainsci16101002",
+   "code": "175",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/biology15201830",
+   "title": "A Docking-Guided Strategy Prioritizes Parishin B as a Potential Anti-Alzheimer's Constituent of Gastrodia elata Blume.",
+   "doi": "10.3390/biology15201830",
+   "code": "176",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/biology15201845",
+   "title": "SIRT1-Redox Crosstalk in Aging: Adaptive Capacity and Cellular State Transitions.",
+   "doi": "10.3390/biology15201845",
+   "code": "177",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/biology15201870",
+   "title": "Psychological Stress Disrupts Goblet Cell Function and Intestinal Barrier via 5-HT/HTR7-Mediated NLRP6 and Autophagy Suppression.",
+   "doi": "10.3390/biology15201870",
+   "code": "178",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/cimb48101045",
+   "title": "Understanding Aging Genes and Pathways: Insight from Yeast.",
+   "doi": "10.3390/cimb48101045",
+   "code": "179",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/cimb48101082",
+   "title": "Immune-Inflammatory, Autophagy, and JNK Remodeling in Ischemic and Nonischemic Human Myocardium.",
+   "doi": "10.3390/cimb48101082",
+   "code": "180",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/biom16101435",
+   "title": "Integrated Multi-Omics Analysis Reveals ACO2 as an Oxidative-Stress-Related Biomarker in Alzheimer's Disease.",
+   "doi": "10.3390/biom16101435",
+   "code": "181",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/biom16101458",
+   "title": "From Amphibian Extracts to Focused Libraries: An Algorithm-Based Strategy to Uncover Potent Multi-Target Anti-Alzheimer Peptides.",
+   "doi": "10.3390/biom16101458",
+   "code": "182",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/biom16101488",
+   "title": "Glyceraldehyde May Induce the Generation of High-Molecular-Weight Species of HSP90β and Autophagy-Related Proteins and Alter Protein Levels in Human Renal Epithelial Cells.",
+   "doi": "10.3390/biom16101488",
+   "code": "183",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/biom16101494",
+   "title": "Deubiquitinating Enzymes in Alzheimer's Disease: From Protein Homeostasis to Diverse Pathological Processes.",
+   "doi": "10.3390/biom16101494",
+   "code": "184",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/biom16101527",
+   "title": "Skeletal Muscle Aging Is a Significant Contributor to Systemic Aging.",
+   "doi": "10.3390/biom16101527",
+   "code": "185",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/antiox15101230",
+   "title": "Myricitrin Delays Caenorhabditis elegans Aging: Association with DAF-16, SIR-2.1, and Potential Cholinergic Modulation.",
+   "doi": "10.3390/antiox15101230",
+   "code": "186",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/biomedicines14102171",
+   "title": "The Role of Telomerase in Cellular Stress Response-Therapeutic Potential of Telomerase Inhibitors.",
+   "doi": "10.3390/biomedicines14102171",
+   "code": "187",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/biomedicines14102210",
+   "title": "Alzheimer's Disease Neurofibrillary Pathophysiology: PTPRD- and Flavonol-Modified Mechanisms, Prevention and Therapeutics.",
+   "doi": "10.3390/biomedicines14102210",
+   "code": "188",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/biomedicines14102342",
+   "title": "Profiling Amino Acid Substitutions in Proteomic Datasets of Alzheimer's Disease Reveals Biological Significance.",
+   "doi": "10.3390/biomedicines14102342",
+   "code": "189",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/ijms27209180",
+   "title": "Tenascin X and Tenascin C Serum Levels in Relation to Age and Cardiometabolic Risk Parameters.",
+   "doi": "10.3390/ijms27209180",
+   "code": "190",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/ijms27209208",
+   "title": "Lifespan Extension and Increased Resistance to Environmental Stressors Induced by 5-Hydroxy-4-phenylfuran-2-one in Caenorhabditis elegans.",
+   "doi": "10.3390/ijms27209208",
+   "code": "191",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/ijms27209292",
+   "title": "Telomere-Independent Associations of hTERT Promoter Polymorphisms with Metabolic Phenotypes and Diabetic Complications.",
+   "doi": "10.3390/ijms27209292",
+   "code": "192",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/nu18203319",
+   "title": "Lactoferrin and Healthy Aging: Gut, Immune, Iron, and Mitochondrial Mechanisms.",
+   "doi": "10.3390/nu18203319",
+   "code": "193",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/ph19101603",
+   "title": "Microglial Therapeutic Potential in Alzheimer's Disease: From Phenotypic Diversity to Targeted Interventions.",
+   "doi": "10.3390/ph19101603",
+   "code": "194",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3390/v18101062",
+   "title": "Can Herpesvirus Infections Influence When and How We Age?",
+   "doi": "10.3390/v18101062",
+   "code": "195",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1177/25424823261437790",
+   "title": "Perspectives on plasma biomarkers for point-of-care diagnostics in Alzheimer's disease: Insights into 2D-BioPAD.",
+   "doi": "10.1177/25424823261437790",
+   "code": "196",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3389/fimmu.2026.1950578",
+   "title": "Unraveling the pyroptosis-mitophagy axis: from molecular mechanisms to therapeutic opportunities.",
+   "doi": "10.3389/fimmu.2026.1950578",
+   "code": "197",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3389/fmmed.2026.1960763",
+   "title": "Integrating cure and care in Alzheimer's disease: a systems perspective for precision medicine.",
+   "doi": "10.3389/fmmed.2026.1960763",
+   "code": "198",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s41440-026-02688-4",
+   "title": "Managing hypertension in the aging dragon: bridging the 2026 Taiwan  and 2025 Japanese  perspectives on blood pressure control in older adults.",
+   "doi": "10.1038/s41440-026-02688-4",
+   "code": "199",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s41586-026-11152-9",
+   "title": "Cold activates a BH2 metabolic network promoting longevity and proteostasis",
+   "doi": "10.1038/s41586-026-11152-9",
+   "code": "U01",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s43587-026-01247-3",
+   "title": "Uncovering the transcriptional hallmarks of endothelial cell aging via integrated single-cell analysis",
+   "doi": "10.1038/s43587-026-01247-3",
+   "code": "U02",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1126/sciadv.aed4541",
+   "title": "Death receptors regulate entry to therapy-induced senescence and orchestrate senescent cell death",
+   "doi": "10.1126/sciadv.aed4541",
+   "code": "U03",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1126/sciadv.aef3338",
+   "title": "NAD metabolic restoration resolves the inflammation-immunocompetence trade-off in lung graft-versus-host disease.",
+   "doi": "10.1126/sciadv.aef3338",
+   "code": "U04",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1001/jamanetworkopen.2026.33002",
+   "title": "Dual Health and Economic Burden of Multimorbidity in Aging Populations",
+   "doi": "10.1001/jamanetworkopen.2026.33002",
+   "code": "U05",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1097/wnr.0000000000002313",
+   "title": "CCL11 inhibits microglial reparative responses in aged mouse brains following intracerebral hemorrhage.",
+   "doi": "10.1097/wnr.0000000000002313",
+   "code": "U06",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1186/s12872-026-06366-8",
+   "title": "Associations of a nutrition-inflammation index and vascular aging with mortality in adults with diabetes or prediabetes and cardiovascular disease.",
+   "doi": "10.1186/s12872-026-06366-8",
+   "code": "U07",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1186/s12872-026-06325-3",
+   "title": "A novel method for biological age assessment utilizing hospitalization risk of cardiovascular disease.",
+   "doi": "10.1186/s12872-026-06325-3",
+   "code": "U08",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1186/s12888-026-08455-6",
+   "title": "Accelerated brain aging associated with executive deficits in adolescence and early adulthood among individuals with schizophrenia and genetic high risk.",
+   "doi": "10.1186/s12888-026-08455-6",
+   "code": "U09",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1021/acschemneuro.6c00569",
+   "title": "Pharmacological Activation of Autophagy Ameliorates Neuromuscular-Associated Defects and Extends Lifespan in a Caenorhabditis elegans Model of Spinal Muscular Atrophy.",
+   "doi": "10.1021/acschemneuro.6c00569",
+   "code": "U10",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/srt.70395",
+   "title": "Anti-Aging Efficacy of a Home-use red and Infrared Light-Emitting Diode Mask and a Cream: Ex Vivo and Clinical Evaluations in Women With Mature Skin.",
+   "doi": "10.1111/srt.70395",
+   "code": "U11",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1002/jcsm.70412",
+   "title": "Aquaporin-4 Orchestrates Muscle Cell Differentiation and Satellite Cell Preservation: A Novel Target in Age-Related Muscle Decline.",
+   "doi": "10.1002/jcsm.70412",
+   "code": "200",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/acel.70785",
+   "title": "Histone Modifications at the Intersection of Aging, Neuroinflammation and Metabolism in Alzheimer's Disease.",
+   "doi": "10.1111/acel.70785",
+   "code": "201",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.34922/ae.2026.39.4.001",
+   "title": "Peptidergic regulation of age-related alterations in the cardiovascular system..",
+   "doi": "10.34922/ae.2026.39.4.001",
+   "code": "202",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1093/ageing/afag309",
+   "title": "Predicting organ age with multimodal data identifies ageing-associated plasma proteins and behavioural traits.",
+   "doi": "10.1093/ageing/afag309",
+   "code": "203",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1002/alz.71950",
+   "title": "Loneliness as a pathway linking hearing decline to cognitive aging: Longitudinal and genetic evidence.",
+   "doi": "10.1002/alz.71950",
+   "code": "204",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s41593-026-02499-3",
+   "title": "Microglial NUS1 deficiency drives dopaminergic neurodegeneration through intercellular iron dysregulation in Parkinson's disease models.",
+   "doi": "10.1038/s41593-026-02499-3",
+   "code": "205",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1080/15548627.2026.2741038",
+   "title": "Survey of the human proteostasis network: the autophagy-lysosome pathway.",
+   "doi": "10.1080/15548627.2026.2741038",
+   "code": "206",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1002/advs.78545",
+   "title": "A Bi-Adjuvant Senolytic Nanovaccine Modulating Dendritic Cell Senescence Ameliorates Aging-Related Metabolic Dysfunction.",
+   "doi": "10.1002/advs.78545",
+   "code": "207",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.34922/ae.2026.39.4.015",
+   "title": "Omics and integrative methods for assessing biological age..",
+   "doi": "10.34922/ae.2026.39.4.015",
+   "code": "208",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1001/jamanetworkopen.2026.40804",
+   "title": "Annual Wellness Visits and New Dementia Medication Prescriptions Among US Medicare Beneficiaries.",
+   "doi": "10.1001/jamanetworkopen.2026.40804",
+   "code": "209",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1084/jem.20260104",
+   "title": "Alzheimer's genetic risk factor CASS4 controls microglial focal adhesion biology and amyloidosis.",
+   "doi": "10.1084/jem.20260104",
+   "code": "210",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1038/s44318-026-00946-2",
+   "title": "Seven ways not to think carefully about aging.",
+   "doi": "10.1038/s44318-026-00946-2",
+   "code": "211",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1177/02601060261499544",
+   "title": "The impact of interventions combining nutrition and physical exercise on frailty in old age: A systematic literature review and Synthesis Without Meta-analysis .",
+   "doi": "10.1177/02601060261499544",
+   "code": "212",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1161/circulationaha.125.078798",
+   "title": "ROR2 Drives Right Ventricular Heart Failure Through Disruption of Proteostasis.",
+   "doi": "10.1161/circulationaha.125.078798",
+   "code": "213",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.34922/ae.2026.39.4.002",
+   "title": "Prospects of application of peptide preparations in therapy of Alzheimer's disease..",
+   "doi": "10.34922/ae.2026.39.4.002",
+   "code": "214",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.34922/ae.2026.39.4.007",
+   "title": "Resilience as a component of comprehensive geriatric assessment..",
+   "doi": "10.34922/ae.2026.39.4.007",
+   "code": "215",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.34922/ae.2026.39.4.011",
+   "title": "Clinical phenotype of the patient with partial adentia in longevity medicine..",
+   "doi": "10.34922/ae.2026.39.4.011",
+   "code": "216",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.34922/ae.2026.39.4.016",
+   "title": "Dysregulation of extracellular matrix and mitochondrial function in lung aging..",
+   "doi": "10.34922/ae.2026.39.4.016",
+   "code": "217",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1080/15548627.2026.2741033",
+   "title": "Survey of the human proteostasis network: translation, protein folding, and organelle-specific systems.",
+   "doi": "10.1080/15548627.2026.2741033",
+   "code": "218",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1080/15548627.2026.2754683",
+   "title": "Exercise-induced lactylation in WDR41 initiates autophagy and improves fatty liver diseases.",
+   "doi": "10.1080/15548627.2026.2754683",
+   "code": "219",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1002/agm2.70112",
+   "title": "Blood-Based Biomarkers in Alzheimer's Disease: Advances in Detection Technologies and Clinical Applications.",
+   "doi": "10.1002/agm2.70112",
+   "code": "220",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.2478/acph-2026-0023",
+   "title": "Relaxin-2 protects synaptic integrity via hippocampal NLRP3-mTOR-autophagy pathways in an age-dependent Alzheimer-like model.",
+   "doi": "10.2478/acph-2026-0023",
+   "code": "221",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1159/ndd/aduag008",
+   "title": "Structural Social Connection, Biological Ageing, and Neurodegenerative Disease Burden: A Global Ecological Analysis of Household Size and Modelled Dementia Incidence Estimates.",
+   "doi": "10.1159/ndd/aduag008",
+   "code": "222",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.neuron.2026.10.002",
+   "title": "Trait-linked brainstem circuit resilience balances tau pathology-induced cellular vulnerability in Alzheimer's disease.",
+   "doi": "10.1016/j.neuron.2026.10.002",
+   "code": "223",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1002/alz.71900",
+   "title": "Plasma β-synuclein associates with hippocampal synaptic density measured with 11CUCB-J PET and plasma tau markers in Alzheimer's disease.",
+   "doi": "10.1002/alz.71900",
+   "code": "224",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.9758/cpn.25.1389",
+   "title": "Exploring the Role of Leukocyte Telomere Length and Human Telomerase Reverse Transcriptase MNS16A Variant in Cannabis or Synthetic Cannabinoid Use Disorder.",
+   "doi": "10.9758/cpn.25.1389",
+   "code": "225",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1002/alz.71866",
+   "title": "The Target48 Neurodegeneration panel: A novel tool for profiling protein signatures in neurodegenerative disorders.",
+   "doi": "10.1002/alz.71866",
+   "code": "226",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1002/advs.202600023",
+   "title": "Single-Cell Dissection of Microglial Dysfunction in Diabetes-Associated Neurodegenerative Vulnerability.",
+   "doi": "10.1002/advs.202600023",
+   "code": "227",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.12122/j.issn.1673-4254.2026.10.03",
+   "title": "Shenqi Xiezhuo Decoction ameliorates renal fibrosis in rats by inhibiting excessive autophagy via modulating the ERK1/2-mTOR signaling pathway.",
+   "doi": "10.12122/j.issn.1673-4254.2026.10.03",
+   "code": "228",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.34922/ae.2026.39.4.006",
+   "title": "Theory of resilience in geriatric medicine..",
+   "doi": "10.34922/ae.2026.39.4.006",
+   "code": "229",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.34922/ae.2026.39.4.014",
+   "title": "Signaling molecules and skin aging: Targeted prevention approaches in molecular cosmetology..",
+   "doi": "10.34922/ae.2026.39.4.014",
+   "code": "230",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.34922/ae.2026.39.4.017",
+   "title": "Quantitative electron microscopic assessment of the mitochondrial apparatus of hepatocytes during aging: Effect of constant illumination and melatonin correction..",
+   "doi": "10.34922/ae.2026.39.4.017",
+   "code": "231",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1093/reprod/xaag136",
+   "title": "Long-term sildenafil attenuates age-associated functional and reproductive decline in male rats.",
+   "doi": "10.1093/reprod/xaag136",
+   "code": "232",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.neurobiolaging.2026.10.005",
+   "title": "Age- and noise-related differences in neural entrainment to speech sounds.",
+   "doi": "10.1016/j.neurobiolaging.2026.10.005",
+   "code": "233",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.mocell.2026.100408",
+   "title": "Updated guide to the assessment of mammalian cellular senescence.",
+   "doi": "10.1016/j.mocell.2026.100408",
+   "code": "234",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.12122/j.issn.1673-4254.2026.10.19",
+   "title": "Jiaotaiwan improves lipid metabolism abnormalities in a mouse model of Alzheimer disease by regulating the AMPK signaling pathway.",
+   "doi": "10.12122/j.issn.1673-4254.2026.10.19",
+   "code": "235",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.maturitas.2026.109161",
+   "title": "Associations of longitudinal patterns of central obesity and chronic low-grade inflammation with incident frailty in middle-aged and older adults.",
+   "doi": "10.1016/j.maturitas.2026.109161",
+   "code": "236",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/ggi.70889",
+   "title": "Oral Frailty Is Associated With the Physical Component of Health-Related Quality of Life in Middle-Aged and Older Japanese Master Athletes.",
+   "doi": "10.1111/ggi.70889",
+   "code": "237",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1167/iovs.67.12.73",
+   "title": "Single-Cell Transcriptomic Analysis Reveals Age-Associated Cellular and Transcriptional Changes in Murine Lacrimal Glands.",
+   "doi": "10.1167/iovs.67.12.73",
+   "code": "238",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.expneurol.2026.116080",
+   "title": "The deubiquitinase OTUD1 aggravated dopaminergic neurodegeneration in Parkinson's disease model by promoting the degradation of Parkin.",
+   "doi": "10.1016/j.expneurol.2026.116080",
+   "code": "239",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1177/23800844261491617",
+   "title": "Is There Evidence That Dental Care Modifies Cognitive Decline? Insights from a Scoping Review.",
+   "doi": "10.1177/23800844261491617",
+   "code": "240",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.ecoenv.2026.120976",
+   "title": "Bisphenol A induces ACSL4-associated ferro-aging-like urothelial injury: Implications for Hunner-type interstitial cystitis.",
+   "doi": "10.1016/j.ecoenv.2026.120976",
+   "code": "241",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/bpa.70159",
+   "title": "Amygdala vulnerability in Pick disease with discrete frontotemporal dementia syndromes.",
+   "doi": "10.1111/bpa.70159",
+   "code": "242",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.bbadis.2026.168513",
+   "title": "CDK4/6 inhibition suppresses mTOR activity and growth in lymphangioleiomyomatosis .",
+   "doi": "10.1016/j.bbadis.2026.168513",
+   "code": "243",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.bbr.2026.116553",
+   "title": "Aging reshapes the response to subchronic LPS: cognitive and neuroinflammatory resilience with selective amyloid vulnerability and reduced responsiveness to L-Theanine and aerobic exercise.",
+   "doi": "10.1016/j.bbr.2026.116553",
+   "code": "244",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.brainres.2026.150618",
+   "title": "TDP-43 dysfunction destabilizes glial homeostatic identity in ALS/FTD.",
+   "doi": "10.1016/j.brainres.2026.150618",
+   "code": "245",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1093/cei/uxag066",
+   "title": "T cell metabolic ageing as a factor for therapeutic research.",
+   "doi": "10.1093/cei/uxag066",
+   "code": "246",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.ejmech.2026.119466",
+   "title": "Cancer-selective cytotoxicity of a semi-synthetic derivative of oleuropein via proteostasis network impairment.",
+   "doi": "10.1016/j.ejmech.2026.119466",
+   "code": "247",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.expneurol.2026.116100",
+   "title": "hucMSC-derived exosomes rescue cognitive impairment and Alzheimer-like pathology in APP/PS1 mice via metabolic remodeling.",
+   "doi": "10.1016/j.expneurol.2026.116100",
+   "code": "248",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.ydbio.2026.10.011",
+   "title": "Hemocytes as nutrient-sensing regulators of immune function, lifespan, and intergenerational fitness in Drosophila melanogaster.",
+   "doi": "10.1016/j.ydbio.2026.10.011",
+   "code": "249",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.cellsig.2026.112962",
+   "title": "Mechanistic study on the promotion of osteogenic differentiation in osteoporotic rats by moxibustion via regulation of BMSCs-derived exosomal miR-27a-3p-mediated mitophagy.",
+   "doi": "10.1016/j.cellsig.2026.112962",
+   "code": "250",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.21873/anticanres.18430",
+   "title": "mTOR Inhibition Strategies in Oropharyngeal Carcinoma.",
+   "doi": "10.21873/anticanres.18430",
+   "code": "251",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.3892/etm.2026.13330",
+   "title": "Expression of Concern UCHL1 regulated by Sp1 ameliorates cochlear hair cell senescence and oxidative damage.",
+   "doi": "10.3892/etm.2026.13330",
+   "code": "252",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1097/wad.0000000000000754",
+   "title": "Neuropathological Correlates of Apathy Progression in Alzheimer Disease and Related Dementias: A Longitudinal NACC Cohort Study.",
+   "doi": "10.1097/wad.0000000000000754",
+   "code": "253",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1177/23800844261492172",
+   "title": "Yellowness Correlates with Stiffness in Aging Human Dentin.",
+   "doi": "10.1177/23800844261492172",
+   "code": "254",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1177/23800844261491670",
+   "title": "Oral Frailty Assessments for Older Adults: A Systematic Review and Methodological Evaluation.",
+   "doi": "10.1177/23800844261491670",
+   "code": "255",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1093/reprod/xaag134",
+   "title": "Early menarche in association with ovarian reserve and biological aging in young adults: a cross-sectional study.",
+   "doi": "10.1093/reprod/xaag134",
+   "code": "256",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1177/23800844261491726",
+   "title": "Community-Level Inequalities and Risk Factors for Incident Oral Frailty.",
+   "doi": "10.1177/23800844261491726",
+   "code": "257",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.intimp.2026.117573",
+   "title": "Esculetin alleviates mouse transplant rejection by modulating CD4+ T cell functional responses and glycolytic metabolism via the PI3K-AKT-mTOR axis.",
+   "doi": "10.1016/j.intimp.2026.117573",
+   "code": "258",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.reprotox.2026.109394",
+   "title": "Ginsenoside Rg1 alleviates dehydroepiandrosterone-induced polycystic ovary syndrome by regulating granulosa cell glycolysis, proliferative activity, and apoptosis through the PI3K/Akt/mTOR pathway.",
+   "doi": "10.1016/j.reprotox.2026.109394",
+   "code": "259",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.bcp.2026.118564",
+   "title": "Role and mechanism of action of PINK1/Parkin-mediated mitophagy in nonylphenol-induced podocyte apoptosis and glomerulonephritis.",
+   "doi": "10.1016/j.bcp.2026.118564",
+   "code": "260",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.bbagrm.2026.195190",
+   "title": "M6A-modified lncRNA RMRP facilitates mitophagy and promotes ox-LDL-induced endothelial cell injury by interacting with PTBP1 and activating the PI3K/AKT pathway.",
+   "doi": "10.1016/j.bbagrm.2026.195190",
+   "code": "261",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s00210-026-06009-x",
+   "title": "Combined melatonin and edaravone therapy attenuates methylmercury-induced amyotrophic lateral sclerosis-like neurodegeneration through GLP-1 modulation and myelin preservation.",
+   "doi": "10.1007/s00210-026-06009-x",
+   "code": "262",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1007/s00417-026-07537-1",
+   "title": "Evidence of an aging-like foveal profile in healthy fellow eyes of patients with idiopathic macular hole.",
+   "doi": "10.1007/s00417-026-07537-1",
+   "code": "263",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/ggi.70891",
+   "title": "Swallowing-Related Time Measured by a Neck-Worn Electronic Stethoscope and Its Associations With Age, Sex, and Masticatory Function in Community-Dwelling Older Adults.",
+   "doi": "10.1111/ggi.70891",
+   "code": "264",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/1753-0407.70276",
+   "title": "Diabetic Peripheral Neuropathy With Low Appendicular Muscle Mass Is Associated With Osteoporosis, Falls, and Fractures.",
+   "doi": "10.1111/1753-0407.70276",
+   "code": "265",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1142/s0129065727500304",
+   "title": "Mapping Lifespan Functional Connectivity with Vision Transformer and Attention-Guided Trajectory Analysis.",
+   "doi": "10.1142/s0129065727500304",
+   "code": "266",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1085/jgp.202614120",
+   "title": "Communication breakdown: Impaired pericyte KATP channels in a model of Alzheimer's disease.",
+   "doi": "10.1085/jgp.202614120",
+   "code": "267",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1016/j.berh.2026.102211",
+   "title": "New developments in the management of osteoarthritis.",
+   "doi": "10.1016/j.berh.2026.102211",
+   "code": "268",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/jar.70324",
+   "title": "Health and Care Characteristics of Ageing Adults With Profound Intellectual and Multiple Disabilities Living in French Facilities.",
+   "doi": "10.1111/jar.70324",
+   "code": "269",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1515/revneuro-2026-0089",
+   "title": "New insights of oligodendrocytes in the etiology of Parkinson's disease.",
+   "doi": "10.1515/revneuro-2026-0089",
+   "code": "270",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1177/0271678x261503069",
+   "title": "EXPRESS: Multidomain determinants of perivascular spaces indicate early cerebrovascular vulnerability in individuals at risk of Alzheimer's disease.",
+   "doi": "10.1177/0271678x261503069",
+   "code": "271",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1242/jeb.253055",
+   "title": "Toward a comparative endocrinology of aging: insights from insects.",
+   "doi": "10.1242/jeb.253055",
+   "code": "272",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1111/ejh.70344",
+   "title": "HCT-FS-Defined Frailty Is Associated With Lower Survival Across Diverse Hematologic Diagnoses After Allogeneic Transplantation.",
+   "doi": "10.1111/ejh.70344",
+   "code": "273",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
+   "fingerprint": "doi:10.1021/acs.jafc.6c10019",
+   "title": "PPARγ/P21 Signaling Mediates Butyrate-Driven Protection against Aging-Related Endothelial Dysfunction: A Novel Effect of Soybean Polysaccharide via the Gut-Vascular Axis.",
+   "doi": "10.1021/acs.jafc.6c10019",
+   "code": "274",
+   "seen_in": [
+    "cards_2026-10-29.md"
+   ]
+  },
+  {
    "fingerprint": "doi:10.1002/mco2.70899",
    "title": "一个月等热量纯素 vs 高肉饮食；PhenoAge −1.7 岁",
    "doi": "10.1002/mco2.70899",
@@ -4044,6 +6609,16 @@
   }
  ],
  "files": {
+  "cards_2026-10-29.md": {
+   "rows": 285,
+   "bytes": 48879,
+   "suspicious_empty": false
+  },
+  "dGBunAeRiRlm__文献监控_2026-10-29_卡片": {
+   "rows": 0,
+   "bytes": 692872,
+   "suspicious_empty": false
+  },
   "preprint_2026-10-21.md": {
    "rows": 0,
    "bytes": 39189,

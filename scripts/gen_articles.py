@@ -142,7 +142,13 @@ def date_cn(d):
     return f"{WEEKDAYS[dt.weekday()]}, {dt.day} {MONTHS[dt.month - 1]}"
 
 
-def notice(ev):
+def notice(ev, mode="abstract"):
+    """证据分级提示框。
+
+    mode:
+      abstract —— 仅依据期刊公开摘要与 PubMed 元数据撰写（付费墙全文未获取）
+      fulltext —— 已获取并核对全文，数值以原文为准
+    """
     t = {"A": "A 级（同行评议人体研究）",
          "B": "B 级（同行评议临床前研究，主要为动物模型）",
          "C": "C 级（预印本 / 观点评论，非原始研究）"}[ev]
@@ -151,13 +157,21 @@ def notice(ev):
         "B": "<p><strong>本文核心结论来自动物模型或体外细胞学，属临床前证据，不能外推至人体。</strong>「延长健康寿命」「改善功能」等表述在小鼠中的意义，与人类临床结局之间仍有距离。</p>",
         "C": "<p><strong>本文属观点/评论类文献，不是原始研究。</strong>其论点依赖于作者对既有证据的梳理与判断，<strong>不构成新的实验证据</strong>。本站标注 C 级即为此意——阅读时请把它当作「领域内的思考框架」，而非「研究发现」。</p>",
     }[ev]
+    src_line = {
+        "abstract": ('本站依据 IMA 知识库「五刊监控·深度文献卡片」（SOP §4.2 摘要级）撰写，'
+                     '<strong>依据期刊公开摘要与 PubMed 元数据</strong>；'
+                     '付费墙全文未获取之处已标注「待补全文」，'
+                     '<strong>未做任何数值推算补全</strong>。'),
+        "fulltext": ('本站依据 IMA 知识库「五刊监控·深度文献卡片」撰写，'
+                     '<strong>依据已获取的期刊全文</strong>（方法、样本量与结论已回到原文核对）；'
+                     '未能获取全文的同批条目另行标注「摘要级」，'
+                     '<strong>全程未做任何数值推算补全</strong>。'),
+    }[mode if mode in ("abstract", "fulltext") else "abstract"]
     return (f'<div class="notice-box">\n'
             f'    <p><span class="tier tier-{ev.lower()}">{ev} 级</span>'
             f'<strong>证据分级：{t}</strong></p>\n'
             f'    {body}\n'
-            f'    <p><strong>关于本文的文献来源：</strong>本站依据 IMA 知识库「五刊监控·深度文献卡片」'
-            f'（SOP §4.2 摘要级）撰写，<strong>依据期刊公开摘要与 PubMed 元数据</strong>；'
-            f'付费墙全文未获取之处已标注「待补全文」，<strong>未做任何数值推算补全</strong>。</p>\n'
+            f'    <p><strong>关于本文的文献来源：</strong>{src_line}</p>\n'
             f'</div>')
 
 
@@ -1207,7 +1221,7 @@ A["NAD-Precursor-Systematic-Review-Meta-Analysis-2026.html"] = dict(
 
 def build(slug, m, related_html):
     ld_news, ld_crumb = ld(m["title"], html.escape(m["desc"], quote=True), slug, DATE, m["crumb"])
-    body = m["body"].rstrip() + "\n\n" + notice(m["ev"]) + "\n"
+    body = m["body"].rstrip() + "\n\n" + notice(m["ev"], m.get("notice_src", "abstract")) + "\n"
     return HEAD.format(
         title=html.escape(m["title"]), desc=html.escape(m["desc"], quote=True),
         slug=slug, date=DATE, date_cn=date_cn(DATE), crumb=html.escape(m["crumb"]),
