@@ -1,1203 +1,1543 @@
 {
- "schema": 1,
- "show": {
-  "title": "长寿证据链",
-  "tagline": "只讲有来源的长寿科学——每期节目，都能顺着一张来源清单回查原文。",
-  "author": "LongBiosci 编辑部",
-  "email": "ops@longbiosci.com",
-  "language": "zh-cn",
-  "explicit": false,
-  "category": "Science",
-  "site_url": "https://longbiosci.com/podcast/",
-  "rss_url": "https://longbiosci.com/podcast.xml",
-  "cover": "https://longbiosci.com/podcast-cover.png",
-  "copyright": "© 2026 LongBiosci 编辑部",
-  "disclaimer": "本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。",
-  "transcript_dir": "podcast/transcripts",
-  "data_datetime": "2026-10-28 05:51",
-  "generated_at": "2026-10-29 03:45"
- },
- "episodes": [
-  {
-   "id": "ep001",
-   "slug": "nad-precursor-nr-nmn-headtohead",
-   "series": "论文精读",
-   "title": "NAD⁺ 前体之争：标志物翻倍之后，发生了什么",
-   "date": "2026-10-19",
-   "data_datetime": "2026-10-19 18:51",
-   "generated_at": "2026-10-24 03:31",
-   "duration_sec": 509,
-   "audio": "audio/nad-precursor-nr-nmn-headtohead.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural",
-   "desc": "NR 与 NMN 都能把全血 NAD⁺ 约翻倍；同一周，NOPARK 三期在 393 人身上读出不利于 NR 的临床评分。标志物翻倍之后，到底发生了什么？",
-   "article_slugs": [
-    "news/NAD-Precursor-Head-to-Head-RCT-NR-NMN-2026.html",
-    "news/NOPARK-NR-Early-Parkinson-Phase3-JAMA-2026.html"
-   ],
-   "sources": [
+  "schema": 1,
+  "show": {
+    "title": "长寿证据链",
+    "tagline": "只讲有来源的长寿科学——每期节目，都能顺着一张来源清单回查原文。",
+    "author": "LongBiosci 编辑部",
+    "email": "ops@longbiosci.com",
+    "language": "zh-cn",
+    "explicit": false,
+    "category": "Science",
+    "site_url": "https://longbiosci.com/podcast/",
+    "rss_url": "https://longbiosci.com/podcast.xml",
+    "cover": "https://longbiosci.com/podcast-cover.png",
+    "copyright": "© 2026 LongBiosci 编辑部",
+    "disclaimer": "本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。",
+    "transcript_dir": "podcast/transcripts",
+    "data_datetime": "2026-10-29 13:30",
+    "generated_at": "2026-10-30 03:43"
+  },
+  "episodes": [
     {
-     "label": "Nature Metabolism（2026）：三种 NAD⁺ 前体对人体循环 NAD⁺ 与微生物代谢的差异影响",
-     "doi": "10.1038/s42255-025-01421-8",
-     "pmid": "41540253",
-     "url": "https://doi.org/10.1038/s42255-025-01421-8"
+      "id": "ep001",
+      "slug": "nad-precursor-nr-nmn-headtohead",
+      "series": "论文精读",
+      "title": "NAD⁺ 前体之争：标志物翻倍之后，发生了什么",
+      "date": "2026-10-19",
+      "data_datetime": "2026-10-19 18:51",
+      "generated_at": "2026-10-24 03:31",
+      "duration_sec": 509,
+      "audio": "audio/nad-precursor-nr-nmn-headtohead.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "NR 与 NMN 都能把全血 NAD⁺ 约翻倍；同一周，NOPARK 三期在 393 人身上读出不利于 NR 的临床评分。标志物翻倍之后，到底发生了什么？",
+      "article_slugs": [
+        "news/NAD-Precursor-Head-to-Head-RCT-NR-NMN-2026.html",
+        "news/NOPARK-NR-Early-Parkinson-Phase3-JAMA-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Nature Metabolism（2026）：三种 NAD⁺ 前体对人体循环 NAD⁺ 与微生物代谢的差异影响",
+          "doi": "10.1038/s42255-025-01421-8",
+          "pmid": "41540253",
+          "url": "https://doi.org/10.1038/s42255-025-01421-8"
+        },
+        {
+          "label": "JAMA（2026-10-08）：NOPARK 随机临床试验——烟酰胺核糖用于早期帕金森病",
+          "doi": "10.1001/jama.2026.18828",
+          "pmid": "42848371",
+          "url": "https://doi.org/10.1001/jama.2026.18828",
+          "note": "临床试验注册号 NCT03568968；全文为在线预发表，本站仅依据官方摘要撰写"
+        }
+      ]
     },
     {
-     "label": "JAMA（2026-10-08）：NOPARK 随机临床试验——烟酰胺核糖用于早期帕金森病",
-     "doi": "10.1001/jama.2026.18828",
-     "pmid": "42848371",
-     "url": "https://doi.org/10.1001/jama.2026.18828",
-     "note": "临床试验注册号 NCT03568968；全文为在线预发表，本站仅依据官方摘要撰写"
-    }
-   ]
-  },
-  {
-   "id": "ep002",
-   "slug": "senolytic-human-evidence-map-2026",
-   "series": "机制十分钟",
-   "title": "Senolytic：清除衰老细胞的人体证据，到哪一步了",
-   "date": "2026-10-22",
-   "data_datetime": "2026-10-22 16:20",
-   "generated_at": "2026-10-22 16:20",
-   "duration_sec": 410,
-   "audio": "audio/senolytic-human-evidence-map-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural",
-   "desc": "「清除衰老细胞能抗衰」是过去十年最出圈的抗衰叙事之一。一份 2026 年的系统评价梳理了已完成的人体试验：D+Q 的初步改善、轻度的副作用、以及它至今仍是「研究性」治疗的原因。",
-   "article_slugs": [
-    "news/Senolytics-Senomorphics-Human-Trials-Systematic-Review-BJCP-2026.html"
-   ],
-   "sources": [
+      "id": "ep002",
+      "slug": "senolytic-human-evidence-map-2026",
+      "series": "机制十分钟",
+      "title": "Senolytic：清除衰老细胞的人体证据，到哪一步了",
+      "date": "2026-10-22",
+      "data_datetime": "2026-10-22 16:20",
+      "generated_at": "2026-10-22 16:20",
+      "duration_sec": 410,
+      "audio": "audio/senolytic-human-evidence-map-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "「清除衰老细胞能抗衰」是过去十年最出圈的抗衰叙事之一。一份 2026 年的系统评价梳理了已完成的人体试验：D+Q 的初步改善、轻度的副作用、以及它至今仍是「研究性」治疗的原因。",
+      "article_slugs": [
+        "news/Senolytics-Senomorphics-Human-Trials-Systematic-Review-BJCP-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "British Journal of Clinical Pharmacology（2026）：Senolytics 与 Senomorphics 人体试验系统评价",
+          "doi": "10.1002/bcp.70871",
+          "pmid": "42834340",
+          "url": "https://doi.org/10.1002/bcp.70871"
+        }
+      ]
+    },
     {
-     "label": "British Journal of Clinical Pharmacology（2026）：Senolytics 与 Senomorphics 人体试验系统评价",
-     "doi": "10.1002/bcp.70871",
-     "pmid": "42834340",
-     "url": "https://doi.org/10.1002/bcp.70871"
-    }
-   ]
-  },
-  {
-   "id": "ep003",
-   "slug": "cosmos-multivitamin-epigenetic-clocks-2026",
-   "series": "打假与证伪",
-   "title": "复合维生素让表观遗传时钟慢了四个月——然后呢？",
-   "date": "2026-10-23",
-   "data_datetime": "2026-10-23 04:06",
-   "generated_at": "2026-10-23 04:06",
-   "duration_sec": 531,
-   "audio": "audio/cosmos-multivitamin-epigenetic-clocks-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural",
-   "desc": "COSMOS 试验 958 人两年随机对照：每日复合维生素让第二代表观遗传时钟走得慢一点，两年约差 4 个月；同试验的可可黄烷醇什么都没发生。这支持「时钟动了一点」，不支持「吃维生素能延寿」。",
-   "article_slugs": [
-    "news/COSMOS-Multivitamin-Epigenetic-Aging-Clocks-Nature-Medicine-2026.html"
-   ],
-   "sources": [
+      "id": "ep003",
+      "slug": "cosmos-multivitamin-epigenetic-clocks-2026",
+      "series": "打假与证伪",
+      "title": "复合维生素让表观遗传时钟慢了四个月——然后呢？",
+      "date": "2026-10-23",
+      "data_datetime": "2026-10-23 04:06",
+      "generated_at": "2026-10-23 04:06",
+      "duration_sec": 531,
+      "audio": "audio/cosmos-multivitamin-epigenetic-clocks-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "COSMOS 试验 958 人两年随机对照：每日复合维生素让第二代表观遗传时钟走得慢一点，两年约差 4 个月；同试验的可可黄烷醇什么都没发生。这支持「时钟动了一点」，不支持「吃维生素能延寿」。",
+      "article_slugs": [
+        "news/COSMOS-Multivitamin-Epigenetic-Aging-Clocks-Nature-Medicine-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Nature Medicine（2026）：COSMOS 随机临床试验——每日复合维生素-矿物质与可可提取物对表观遗传衰老时钟的影响（2 年结果）",
+          "doi": "10.1038/s41591-026-04239-3",
+          "pmid": "",
+          "url": "https://doi.org/10.1038/s41591-026-04239-3",
+          "note": "主文献为 COSMOS 试验的辅助分析，衰老时钟为次要探索性指标；站内文章未列 PMID"
+        }
+      ]
+    },
     {
-     "label": "Nature Medicine（2026）：COSMOS 随机临床试验——每日复合维生素-矿物质与可可提取物对表观遗传衰老时钟的影响（2 年结果）",
-     "doi": "10.1038/s41591-026-04239-3",
-     "pmid": "",
-     "url": "https://doi.org/10.1038/s41591-026-04239-3",
-     "note": "主文献为 COSMOS 试验的辅助分析，衰老时钟为次要探索性指标；站内文章未列 PMID"
-    }
-   ]
-  },
-  {
-   "id": "ep004",
-   "slug": "dnam-clocks-dementia-meta-analysis-2026",
-   "series": "打假与证伪",
-   "title": "DNAm 时钟与痴呆：五种时钟为何只剩 GrimAge",
-   "date": "2026-10-24",
-   "data_datetime": "2026-10-22 18:32",
-   "generated_at": "2026-10-24 03:31",
-   "duration_sec": 308,
-   "audio": "audio/dnam-clocks-dementia-meta-analysis-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural",
-   "desc": "37 项观察研究、46,365 人的 meta 分析中，只有 GrimAge 年龄加速稳定预测全因痴呆；其余四种主流时钟均无显著关联。结果约束了把“时钟变慢”直接翻译成临床获益的做法。",
-   "article_slugs": [
-    "news/DNAm-Clock-EAA-Dementia-Meta-Analysis-37-Studies-2026.html"
-   ],
-   "sources": [
+      "id": "ep004",
+      "slug": "dnam-clocks-dementia-meta-analysis-2026",
+      "series": "打假与证伪",
+      "title": "DNAm 时钟与痴呆：五种时钟为何只剩 GrimAge",
+      "date": "2026-10-24",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-24 03:31",
+      "duration_sec": 308,
+      "audio": "audio/dnam-clocks-dementia-meta-analysis-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "37 项观察研究、46,365 人的 meta 分析中，只有 GrimAge 年龄加速稳定预测全因痴呆；其余四种主流时钟均无显著关联。结果约束了把“时钟变慢”直接翻译成临床获益的做法。",
+      "article_slugs": [
+        "news/DNAm-Clock-EAA-Dementia-Meta-Analysis-37-Studies-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "medRxiv（2026）：DNA 甲基化时钟与神经退行性疾病的系统评价和荟萃分析",
+          "doi": "10.64898/2026.10.21.26365867",
+          "pmid": "",
+          "url": "https://doi.org/10.64898/2026.10.21.26365867",
+          "note": "未经同行评审；本站依据官方摘要撰写，结论可能在正式发表时变更"
+        }
+      ]
+    },
     {
-     "label": "medRxiv（2026）：DNA 甲基化时钟与神经退行性疾病的系统评价和荟萃分析",
-     "doi": "10.64898/2026.10.21.26365867",
-     "pmid": "",
-     "url": "https://doi.org/10.64898/2026.10.21.26365867",
-     "note": "未经同行评审；本站依据官方摘要撰写，结论可能在正式发表时变更"
-    }
-   ]
-  },
-  {
-   "id": "ep005",
-   "slug": "entorhinal-grid-temporal-instability-aging-2026",
-   "series": "论文精读",
-   "title": "内嗅网格信号变弱：消失了，还是不稳定？",
-   "date": "2026-10-24",
-   "data_datetime": "2026-10-22 18:32",
-   "generated_at": "2026-10-24 03:31",
-   "duration_sec": 282,
-   "audio": "audio/entorhinal-grid-temporal-instability-aging-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural",
-   "desc": "85 名老年人的虚拟现实导航与 fMRI 研究提示：内嗅皮层六向信号变弱，更像是跨时间表征不稳定，而非表征消失；稳定性越高，物体-位置记忆越好。",
-   "article_slugs": [
-    "news/Entorhinal-Grid-Coding-Temporal-Instability-Aging-bioRxiv-2026.html"
-   ],
-   "sources": [
+      "id": "ep005",
+      "slug": "entorhinal-grid-temporal-instability-aging-2026",
+      "series": "论文精读",
+      "title": "内嗅网格信号变弱：消失了，还是不稳定？",
+      "date": "2026-10-24",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-24 03:31",
+      "duration_sec": 282,
+      "audio": "audio/entorhinal-grid-temporal-instability-aging-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "85 名老年人的虚拟现实导航与 fMRI 研究提示：内嗅皮层六向信号变弱，更像是跨时间表征不稳定，而非表征消失；稳定性越高，物体-位置记忆越好。",
+      "article_slugs": [
+        "news/Entorhinal-Grid-Coding-Temporal-Instability-Aging-bioRxiv-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "bioRxiv（2026）：时间不稳定性削弱老年人的内嗅网格样编码",
+          "doi": "10.64898/2026.10.15.759328",
+          "pmid": "",
+          "url": "https://doi.org/10.64898/2026.10.15.759328",
+          "note": "未经同行评审；本站依据官方摘要撰写，源站全文未获取"
+        }
+      ]
+    },
     {
-     "label": "bioRxiv（2026）：时间不稳定性削弱老年人的内嗅网格样编码",
-     "doi": "10.64898/2026.10.15.759328",
-     "pmid": "",
-     "url": "https://doi.org/10.64898/2026.10.15.759328",
-     "note": "未经同行评审；本站依据官方摘要撰写，源站全文未获取"
-    }
-   ]
-  },
-  {
-   "id": "ep006",
-   "slug": "hippocampal-perfusion-mvpi-aging-2026",
-   "series": "论文精读",
-   "title": "老化海马的两条血管轴线：供血与搏动不能混为一谈",
-   "date": "2026-10-24",
-   "data_datetime": "2026-10-22 18:32",
-   "generated_at": "2026-10-24 03:31",
-   "duration_sec": 285,
-   "audio": "audio/hippocampal-perfusion-mvpi-aging-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural",
-   "desc": "35 名青年与老年成人的 7T MRI 显示，海马灌注与微血管容积搏动指数具有不同空间组织和年龄差异；老化脑血管不能只用“脑血流下降”一个维度概括。",
-   "article_slugs": [
-    "news/Hippocampal-Perfusion-mvPI-Spatial-Aging-bioRxiv-2026.html"
-   ],
-   "sources": [
+      "id": "ep006",
+      "slug": "hippocampal-perfusion-mvpi-aging-2026",
+      "series": "论文精读",
+      "title": "老化海马的两条血管轴线：供血与搏动不能混为一谈",
+      "date": "2026-10-24",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-24 03:31",
+      "duration_sec": 285,
+      "audio": "audio/hippocampal-perfusion-mvpi-aging-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "35 名青年与老年成人的 7T MRI 显示，海马灌注与微血管容积搏动指数具有不同空间组织和年龄差异；老化脑血管不能只用“脑血流下降”一个维度概括。",
+      "article_slugs": [
+        "news/Hippocampal-Perfusion-mvPI-Spatial-Aging-bioRxiv-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "bioRxiv（2026）：跨年龄人类海马灌注与微血管搏动的不同空间组织",
+          "doi": "10.64898/2026.10.15.759438",
+          "pmid": "",
+          "url": "https://doi.org/10.64898/2026.10.15.759438",
+          "note": "未经同行评审；本站依据官方摘要撰写，源站全文未获取"
+        }
+      ]
+    },
     {
-     "label": "bioRxiv（2026）：跨年龄人类海马灌注与微血管搏动的不同空间组织",
-     "doi": "10.64898/2026.10.15.759438",
-     "pmid": "",
-     "url": "https://doi.org/10.64898/2026.10.15.759438",
-     "note": "未经同行评审；本站依据官方摘要撰写，源站全文未获取"
-    }
-   ]
-  },
-  {
-   "id": "ep007",
-   "slug": "young-bm-microglia-bdnf-trkb-aging-2026",
-   "series": "论文精读",
-   "title": "年轻骨髓细胞改善老年认知：关键不在永久驻留",
-   "date": "2026-10-24",
-   "data_datetime": "2026-10-22 18:32",
-   "generated_at": "2026-10-24 03:31",
-   "duration_sec": 296,
-   "audio": "audio/young-bm-microglia-bdnf-trkb-aging-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural",
-   "desc": "小鼠可诱导清除实验把年轻骨髓来源小胶质样细胞的认知获益定位到早期归巢窗口，并指向 BDNF-TrkB 必要信号；三个月后维持获益不再需要细胞长期驻留。",
-   "article_slugs": [
-    "news/Young-BM-Microglia-BDNF-TrkB-Aged-Cognition-bioRxiv-2026.html"
-   ],
-   "sources": [
+      "id": "ep007",
+      "slug": "young-bm-microglia-bdnf-trkb-aging-2026",
+      "series": "论文精读",
+      "title": "年轻骨髓细胞改善老年认知：关键不在永久驻留",
+      "date": "2026-10-24",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-24 03:31",
+      "duration_sec": 296,
+      "audio": "audio/young-bm-microglia-bdnf-trkb-aging-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "小鼠可诱导清除实验把年轻骨髓来源小胶质样细胞的认知获益定位到早期归巢窗口，并指向 BDNF-TrkB 必要信号；三个月后维持获益不再需要细胞长期驻留。",
+      "article_slugs": [
+        "news/Young-BM-Microglia-BDNF-TrkB-Aged-Cognition-bioRxiv-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "bioRxiv（2026）：年轻骨髓来源小胶质样细胞经 BDNF-TrkB 信号改善老年脑认知",
+          "doi": "10.64898/2026.10.15.759429",
+          "pmid": "",
+          "url": "https://doi.org/10.64898/2026.10.15.759429",
+          "note": "未经同行评审；本站依据官方摘要撰写，源站全文未获取"
+        }
+      ]
+    },
     {
-     "label": "bioRxiv（2026）：年轻骨髓来源小胶质样细胞经 BDNF-TrkB 信号改善老年脑认知",
-     "doi": "10.64898/2026.10.15.759429",
-     "pmid": "",
-     "url": "https://doi.org/10.64898/2026.10.15.759429",
-     "note": "未经同行评审；本站依据官方摘要撰写，源站全文未获取"
-    }
-   ]
-  },
-  {
-   "id": "ep008",
-   "slug": "brain-age-multiverse-pipelines-2026",
-   "series": "打假与证伪",
-   "title": "脑龄预测的多宇宙：换一条流水线，误差能从五岁变成十八岁",
-   "date": "2026-10-25",
-   "data_datetime": "2026-10-22 18:32",
-   "generated_at": "2026-10-25 03:53",
-   "duration_sec": 476,
-   "audio": "audio/brain-age-multiverse-pipelines-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural",
-   "desc": "脑龄是预测出来的量，不是测出来的量。84 条分析流水线跑下来，平均绝对误差从 5.26 岁到 18.30 岁——而图谱选哪张，几乎不影响精度，却决定「哪些脑区最重要」。",
-   "article_slugs": [
-    "news/Multiverse-Brain-Age-Pipeline-Sensitivity-2026.html"
-   ],
-   "sources": [
+      "id": "ep008",
+      "slug": "brain-age-multiverse-pipelines-2026",
+      "series": "打假与证伪",
+      "title": "脑龄预测的多宇宙：换一条流水线，误差能从五岁变成十八岁",
+      "date": "2026-10-25",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-25 03:53",
+      "duration_sec": 476,
+      "audio": "audio/brain-age-multiverse-pipelines-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "脑龄是预测出来的量，不是测出来的量。84 条分析流水线跑下来，平均绝对误差从 5.26 岁到 18.30 岁——而图谱选哪张，几乎不影响精度，却决定「哪些脑区最重要」。",
+      "article_slugs": [
+        "news/Multiverse-Brain-Age-Pipeline-Sensitivity-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "bioRxiv（2026-10）：脑龄预测的多宇宙分析——模态、偏倚校正与图谱选择（CamCAN 560 名健康成人 × 84 条流水线）",
+          "doi": "10.64898/2026.10.12.758514v1",
+          "pmid": "",
+          "url": "https://doi.org/10.64898/2026.10.12.758514v1",
+          "note": "未经同行评审的预印本；本站仅依据官方摘要与站内解读撰写"
+        }
+      ]
+    },
     {
-     "label": "bioRxiv（2026-10）：脑龄预测的多宇宙分析——模态、偏倚校正与图谱选择（CamCAN 560 名健康成人 × 84 条流水线）",
-     "doi": "10.64898/2026.10.12.758514v1",
-     "pmid": "",
-     "url": "https://doi.org/10.64898/2026.10.12.758514v1",
-     "note": "未经同行评审的预印本；本站仅依据官方摘要与站内解读撰写"
-    }
-   ]
-  },
-  {
-   "id": "ep009",
-   "slug": "regeneration-transcriptomic-rejuvenation-gut-liver-2026",
-   "series": "论文精读",
-   "title": "再生让组织变年轻了吗：一份六十三页预印本给出的瞬时答案",
-   "date": "2026-10-25",
-   "data_datetime": "2026-10-22 18:32",
-   "generated_at": "2026-10-25 03:53",
-   "duration_sec": 517,
-   "audio": "audio/regeneration-transcriptomic-rejuvenation-gut-liver-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural",
-   "desc": "11 类再生模型里，上皮一律被预测为更年轻。但把整条时间曲线拉出来看：损伤期先变老、再生峰值变年轻、然后回到基线——而癌变中的病变也被判为「更年轻」。",
-   "article_slugs": [
-    "news/Regeneration-Transient-Transcriptomic-Rejuvenation-Gut-Liver-2026.html"
-   ],
-   "sources": [
+      "id": "ep009",
+      "slug": "regeneration-transcriptomic-rejuvenation-gut-liver-2026",
+      "series": "论文精读",
+      "title": "再生让组织变年轻了吗：一份六十三页预印本给出的瞬时答案",
+      "date": "2026-10-25",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-25 03:53",
+      "duration_sec": 517,
+      "audio": "audio/regeneration-transcriptomic-rejuvenation-gut-liver-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "11 类再生模型里，上皮一律被预测为更年轻。但把整条时间曲线拉出来看：损伤期先变老、再生峰值变年轻、然后回到基线——而癌变中的病变也被判为「更年轻」。",
+      "article_slugs": [
+        "news/Regeneration-Transient-Transcriptomic-Rejuvenation-Gut-Liver-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "bioRxiv（2026-10-13）：Gladyshev / Iqbal 组 63 页预印本——再生进入与退出时的组织转录组年龄轨迹",
+          "doi": "10.64898/2026.10.11.758291v1",
+          "pmid": "",
+          "url": "https://doi.org/10.64898/2026.10.11.758291v1",
+          "note": "未经同行评审的预印本；本站仅依据官方摘要与站内解读撰写"
+        }
+      ]
+    },
     {
-     "label": "bioRxiv（2026-10-13）：Gladyshev / Iqbal 组 63 页预印本——再生进入与退出时的组织转录组年龄轨迹",
-     "doi": "10.64898/2026.10.11.758291v1",
-     "pmid": "",
-     "url": "https://doi.org/10.64898/2026.10.11.758291v1",
-     "note": "未经同行评审的预印本；本站仅依据官方摘要与站内解读撰写"
-    }
-   ]
-  },
-  {
-   "id": "ep010",
-   "slug": "nia-itp-11-compounds-no-lifespan-2026",
-   "series": "打假与证伪",
-   "title": "十一种抗衰化合物，在金标准测试里一个都没活下来",
-   "date": "2026-10-25",
-   "data_datetime": "2026-10-22 18:32",
-   "generated_at": "2026-10-25 03:53",
-   "duration_sec": 343,
-   "audio": "audio/nia-itp-11-compounds-no-lifespan-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural",
-   "desc": "NIA 干预测试项目用遗传异质性小鼠、三站点协作测了 11 种化合物：全部未能显著延长寿命，其中三种在雌性身上与寿命缩短相关。虾青素、美克洛嗪、米格列酮此前阳性，本轮未重复。",
-   "article_slugs": [
-    "news/NIA-ITP-11-Compounds-No-Lifespan-Extension-2026.html"
-   ],
-   "sources": [
+      "id": "ep010",
+      "slug": "nia-itp-11-compounds-no-lifespan-2026",
+      "series": "打假与证伪",
+      "title": "十一种抗衰化合物，在金标准测试里一个都没活下来",
+      "date": "2026-10-25",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-25 03:53",
+      "duration_sec": 343,
+      "audio": "audio/nia-itp-11-compounds-no-lifespan-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "NIA 干预测试项目用遗传异质性小鼠、三站点协作测了 11 种化合物：全部未能显著延长寿命，其中三种在雌性身上与寿命缩短相关。虾青素、美克洛嗪、米格列酮此前阳性，本轮未重复。",
+      "article_slugs": [
+        "news/NIA-ITP-11-Compounds-No-Lifespan-Extension-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "GeroScience：NIA 干预测试项目（ITP）——11 种化合物在遗传异质性 UM-HET3 小鼠中的寿命测试结果",
+          "doi": "10.1007/s11357-026-02201-2",
+          "pmid": "",
+          "url": "https://doi.org/10.1007/s11357-026-02201-2",
+          "note": "站内文章未提供各化合物剂量、组样本量与统计值，本节目未作补充"
+        }
+      ]
+    },
     {
-     "label": "GeroScience：NIA 干预测试项目（ITP）——11 种化合物在遗传异质性 UM-HET3 小鼠中的寿命测试结果",
-     "doi": "10.1007/s11357-026-02201-2",
-     "pmid": "",
-     "url": "https://doi.org/10.1007/s11357-026-02201-2",
-     "note": "站内文章未提供各化合物剂量、组样本量与统计值，本节目未作补充"
-    }
-   ]
-  },
-  {
-   "id": "ep011",
-   "slug": "ampk-direct-activation-991-lifespan-2026",
-   "series": "机制十分钟",
-   "title": "AMPK 单独被打开会怎样：三种模式生物给出了同一个方向",
-   "date": "2026-10-25",
-   "data_datetime": "2026-10-22 18:32",
-   "generated_at": "2026-10-25 03:53",
-   "duration_sec": 370,
-   "audio": "audio/ampk-direct-activation-991-lifespan-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural",
-   "desc": "用直接激活剂 991 把 AMPK 单独打开，酵母、线虫、果蝇都延寿，部分幅度超过 25%。但小鼠身上没有延长寿命，只看到一组「促长寿」的蛋白组特征。",
-   "article_slugs": [
-    "news/AMPK-Direct-Activation-991-Lifespan-AgingCell-2026.html"
-   ],
-   "sources": [
+      "id": "ep011",
+      "slug": "ampk-direct-activation-991-lifespan-2026",
+      "series": "机制十分钟",
+      "title": "AMPK 单独被打开会怎样：三种模式生物给出了同一个方向",
+      "date": "2026-10-25",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-25 03:53",
+      "duration_sec": 370,
+      "audio": "audio/ampk-direct-activation-991-lifespan-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "用直接激活剂 991 把 AMPK 单独打开，酵母、线虫、果蝇都延寿，部分幅度超过 25%。但小鼠身上没有延长寿命，只看到一组「促长寿」的蛋白组特征。",
+      "article_slugs": [
+        "news/AMPK-Direct-Activation-991-Lifespan-AgingCell-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Aging Cell（2026-09-29）：直接 AMPK 激活剂 991 在裂殖酵母、线虫与果蝇中延长寿命",
+          "doi": "10.1111/acel.70721",
+          "pmid": "",
+          "url": "https://doi.org/10.1111/acel.70721",
+          "note": "同行评议临床前研究；991 为实验性化合物，小鼠仅蛋白组证据，不构成用药建议"
+        }
+      ]
+    },
     {
-     "label": "Aging Cell（2026-09-29）：直接 AMPK 激活剂 991 在裂殖酵母、线虫与果蝇中延长寿命",
-     "doi": "10.1111/acel.70721",
-     "pmid": "",
-     "url": "https://doi.org/10.1111/acel.70721",
-     "note": "同行评议临床前研究；991 为实验性化合物，小鼠仅蛋白组证据，不构成用药建议"
-    }
-   ]
-  },
-  {
-   "id": "ep012",
-   "slug": "ramanomics-senescence-barcode-2026",
-   "series": "论文精读",
-   "title": "不用活检看见衰老细胞：一束激光和一个百分之七十八的准确率",
-   "date": "2026-10-25",
-   "data_datetime": "2026-10-22 18:32",
-   "generated_at": "2026-10-25 03:53",
-   "duration_sec": 424,
-   "audio": "audio/ramanomics-senescence-barcode-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural",
-   "desc": "肺和皮肤的衰老细胞激活的是两套完全不同的基因程序，化学成分却收敛到同一个脂质波段。加入拉曼光谱后，分类准确率从 74%/62% 提到 78%/65%——提升是真的，离临床诊断还很远。",
-   "article_slugs": [
-    "news/RamanOmics-Senescence-Detection-Nature-Aging-2026.html"
-   ],
-   "sources": [
+      "id": "ep012",
+      "slug": "ramanomics-senescence-barcode-2026",
+      "series": "论文精读",
+      "title": "不用活检看见衰老细胞：一束激光和一个百分之七十八的准确率",
+      "date": "2026-10-25",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-25 03:53",
+      "duration_sec": 424,
+      "audio": "audio/ramanomics-senescence-barcode-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "肺和皮肤的衰老细胞激活的是两套完全不同的基因程序，化学成分却收敛到同一个脂质波段。加入拉曼光谱后，分类准确率从 74%/62% 提到 78%/65%——提升是真的，离临床诊断还很远。",
+      "article_slugs": [
+        "news/RamanOmics-Senescence-Detection-Nature-Aging-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Nature Aging（2026-10-11 在线）：拉曼显微镜结合空间转录组学在小鼠肺与皮肤中识别衰老细胞（47,602 个细胞）",
+          "doi": "10.1038/s43587-026-01219-7",
+          "pmid": "",
+          "url": "https://doi.org/10.1038/s43587-026-01219-7",
+          "note": "同行评议临床前研究，全部数据来自小鼠组织切片；人体适配尚未完成"
+        }
+      ]
+    },
     {
-     "label": "Nature Aging（2026-10-11 在线）：拉曼显微镜结合空间转录组学在小鼠肺与皮肤中识别衰老细胞（47,602 个细胞）",
-     "doi": "10.1038/s43587-026-01219-7",
-     "pmid": "",
-     "url": "https://doi.org/10.1038/s43587-026-01219-7",
-     "note": "同行评议临床前研究，全部数据来自小鼠组织切片；人体适配尚未完成"
-    }
-   ]
-  },
-  {
-   "id": "ep013",
-   "slug": "healthspan-not-lifespan-cliche-2026",
-   "series": "打假与证伪",
-   "title": "「我们要的是健康寿命，不是活得久」：三位老年学家说这句话是误导",
-   "date": "2026-10-25",
-   "data_datetime": "2026-10-22 18:32",
-   "generated_at": "2026-10-25 03:53",
-   "duration_sec": 409,
-   "audio": "audio/healthspan-not-lifespan-cliche-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural",
-   "desc": "动物研究里健康寿命与总寿命通常同向增加；既然衰老是晚期疾病的原因，能真正延迟病理的干预必然也推迟死亡——「纯健康寿命延长」在很大程度上是个神话。",
-   "article_slugs": [
-    "news/Healthspan-Not-Lifespan-GeroScience-Gems-2026.html"
-   ],
-   "sources": [
+      "id": "ep013",
+      "slug": "healthspan-not-lifespan-cliche-2026",
+      "series": "打假与证伪",
+      "title": "「我们要的是健康寿命，不是活得久」：三位老年学家说这句话是误导",
+      "date": "2026-10-25",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-25 03:53",
+      "duration_sec": 409,
+      "audio": "audio/healthspan-not-lifespan-cliche-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "动物研究里健康寿命与总寿命通常同向增加；既然衰老是晚期疾病的原因，能真正延迟病理的干预必然也推迟死亡——「纯健康寿命延长」在很大程度上是个神话。",
+      "article_slugs": [
+        "news/Healthspan-Not-Lifespan-GeroScience-Gems-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "GeroScience（2026-10-07）：Gems / Iijima / de Magalhães——「健康寿命而非总寿命」为何是误导性陈词",
+          "doi": "10.1007/s11357-026-02577-1",
+          "pmid": "",
+          "url": "https://doi.org/10.1007/s11357-026-02577-1",
+          "note": "同行评议观点/评论文章，非原始研究，不产生新实验数据；作者已自行披露产业任职"
+        }
+      ]
+    },
     {
-     "label": "GeroScience（2026-10-07）：Gems / Iijima / de Magalhães——「健康寿命而非总寿命」为何是误导性陈词",
-     "doi": "10.1007/s11357-026-02577-1",
-     "pmid": "",
-     "url": "https://doi.org/10.1007/s11357-026-02577-1",
-     "note": "同行评议观点/评论文章，非原始研究，不产生新实验数据；作者已自行披露产业任职"
-    }
-   ]
-  },
-  {
-   "id": "ep014",
-   "slug": "rentosertib-proteomic-clocks-ipf-2026",
-   "series": "打假与证伪",
-   "title": "六个时钟一起说你变年轻了——但最强的信号不在最有效的剂量上",
-   "date": "2026-10-26",
-   "data_datetime": "2026-10-22 18:32",
-   "generated_at": "2026-10-26 03:43",
-   "duration_sec": 428,
-   "audio": "audio/rentosertib-proteomic-clocks-ipf-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural",
-   "desc": "六个独立的蛋白质组时钟一致显示 IPF 患者用药后预测生物学年龄下降 3–4 年，但时钟信号最强的剂量与肺功能改善最大的剂量并不重合——作者自己写下：时钟无法单独区分「衰老变慢」与「疾病被治疗」。",
-   "article_slugs": [
-    "news/Rentosertib-Proteomic-Aging-Clocks-IPF-Nature-Biotech-2026.html"
-   ],
-   "sources": [
+      "id": "ep014",
+      "slug": "rentosertib-proteomic-clocks-ipf-2026",
+      "series": "打假与证伪",
+      "title": "六个时钟一起说你变年轻了——但最强的信号不在最有效的剂量上",
+      "date": "2026-10-26",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-26 03:43",
+      "duration_sec": 428,
+      "audio": "audio/rentosertib-proteomic-clocks-ipf-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "六个独立的蛋白质组时钟一致显示 IPF 患者用药后预测生物学年龄下降 3–4 年，但时钟信号最强的剂量与肺功能改善最大的剂量并不重合——作者自己写下：时钟无法单独区分「衰老变慢」与「疾病被治疗」。",
+      "article_slugs": [
+        "news/Rentosertib-Proteomic-Aging-Clocks-IPF-Nature-Biotech-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Nature Biotechnology：AI 设计的 TNIK 抑制剂 Rentosertib 在 IPF IIa 期试验中的蛋白质组学二次分析",
+          "doi": "10.1038/s41587-026-03286-y",
+          "pmid": "",
+          "url": "https://doi.org/10.1038/s41587-026-03286-y",
+          "note": "探索性二次分析，非预设终点；n=42；部分统计量与置信区间待补全文；企业主导研究"
+        }
+      ]
+    },
     {
-     "label": "Nature Biotechnology：AI 设计的 TNIK 抑制剂 Rentosertib 在 IPF IIa 期试验中的蛋白质组学二次分析",
-     "doi": "10.1038/s41587-026-03286-y",
-     "pmid": "",
-     "url": "https://doi.org/10.1038/s41587-026-03286-y",
-     "note": "探索性二次分析，非预设终点；n=42；部分统计量与置信区间待补全文；企业主导研究"
-    }
-   ]
-  },
-  {
-   "id": "ep015",
-   "slug": "loy-chromosome-y-amd-ukbiobank-2026",
-   "series": "论文精读",
-   "title": "Y 染色体丢失：22.3 万男性追踪出的那条通往眼底的链",
-   "date": "2026-10-26",
-   "data_datetime": "2026-10-22 18:32",
-   "generated_at": "2026-10-26 03:43",
-   "duration_sec": 461,
-   "audio": "audio/loy-chromosome-y-amd-ukbiobank-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural",
-   "desc": "22.3 万男性中，造血系统 Y 染色体嵌合缺失独立预测黄斑变性，MMP-12 在诊断前 12 年即偏离，单核细胞计数被中介分析确认为中间环节——但 HR<1 的方向表述需以原文为准，本节目不做方向推断。",
-   "article_slugs": [
-    "news/LOSS-of-Chromosome-Y-AMD-UKBiobank-MultiOmic-2026.html"
-   ],
-   "sources": [
+      "id": "ep015",
+      "slug": "loy-chromosome-y-amd-ukbiobank-2026",
+      "series": "论文精读",
+      "title": "Y 染色体丢失：22.3 万男性追踪出的那条通往眼底的链",
+      "date": "2026-10-26",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-26 03:43",
+      "duration_sec": 461,
+      "audio": "audio/loy-chromosome-y-amd-ukbiobank-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "22.3 万男性中，造血系统 Y 染色体嵌合缺失独立预测黄斑变性，MMP-12 在诊断前 12 年即偏离，单核细胞计数被中介分析确认为中间环节——但 HR<1 的方向表述需以原文为准，本节目不做方向推断。",
+      "article_slugs": [
+        "news/LOSS-of-Chromosome-Y-AMD-UKBiobank-MultiOmic-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Aging Cell（UK Biobank 223,051 名男性）：Y 染色体嵌合缺失与年龄相关性黄斑变性的多组学分析",
+          "doi": "10.1111/acel.70775",
+          "pmid": "42894102",
+          "url": "https://doi.org/10.1111/acel.70775",
+          "note": "观察性队列，中介分析仍属统计因果推断；UKB 健康志愿者偏倚；付费全文未获取"
+        }
+      ]
+    },
     {
-     "label": "Aging Cell（UK Biobank 223,051 名男性）：Y 染色体嵌合缺失与年龄相关性黄斑变性的多组学分析",
-     "doi": "10.1111/acel.70775",
-     "pmid": "42894102",
-     "url": "https://doi.org/10.1111/acel.70775",
-     "note": "观察性队列，中介分析仍属统计因果推断；UKB 健康志愿者偏倚；付费全文未获取"
-    }
-   ]
-  },
-  {
-   "id": "ep016",
-   "slug": "frailty-13-organ-systems-ukb-2026",
-   "series": "论文精读",
-   "title": "二十万人、十三个器官系统：衰弱在中年人身上就已经算数",
-   "date": "2026-10-26",
-   "data_datetime": "2026-10-22 18:32",
-   "generated_at": "2026-10-26 03:43",
-   "duration_sec": 411,
-   "audio": "audio/frailty-13-organ-systems-ukb-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural",
-   "desc": "23 万慢病人群、13 年随访：衰弱 HR 2.32、前衰弱 1.35，且在全部 13 个器官系统疾病组中无一例外成立，19–34% 的超额死亡风险可归因于衰弱——但基线均龄 57.8 岁，不能替代 70 岁以上人群的证据。",
-   "article_slugs": [
-    "news/Frailty-Mortality-Link-In-People-GeroScience-2026.html"
-   ],
-   "sources": [
+      "id": "ep016",
+      "slug": "frailty-13-organ-systems-ukb-2026",
+      "series": "论文精读",
+      "title": "二十万人、十三个器官系统：衰弱在中年人身上就已经算数",
+      "date": "2026-10-26",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-26 03:43",
+      "duration_sec": 411,
+      "audio": "audio/frailty-13-organ-systems-ukb-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "23 万慢病人群、13 年随访：衰弱 HR 2.32、前衰弱 1.35，且在全部 13 个器官系统疾病组中无一例外成立，19–34% 的超额死亡风险可归因于衰弱——但基线均龄 57.8 岁，不能替代 70 岁以上人群的证据。",
+      "article_slugs": [
+        "news/Frailty-Mortality-Link-In-People-GeroScience-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "GeroScience（UK Biobank n=230,960）：衰弱 / 前衰弱与全因死亡——覆盖 13 个器官系统疾病组",
+          "doi": "10.1007/s11357-025-01980-4",
+          "pmid": "",
+          "url": "https://doi.org/10.1007/s11357-025-01980-4",
+          "note": "观察性队列；健康志愿者偏倚；均龄 57.8 岁不覆盖 ≥70 岁人群"
+        }
+      ]
+    },
     {
-     "label": "GeroScience（UK Biobank n=230,960）：衰弱 / 前衰弱与全因死亡——覆盖 13 个器官系统疾病组",
-     "doi": "10.1007/s11357-025-01980-4",
-     "pmid": "",
-     "url": "https://doi.org/10.1007/s11357-025-01980-4",
-     "note": "观察性队列；健康志愿者偏倚；均龄 57.8 岁不覆盖 ≥70 岁人群"
-    }
-   ]
-  },
-  {
-   "id": "ep017",
-   "slug": "prometheus-xprize-healthspan-protocol-2026",
-   "series": "产业脉搏",
-   "title": "八周、二十人、个性化：XPRIZE 健康跨度赛的试验到底能证明什么",
-   "date": "2026-10-26",
-   "data_datetime": "2026-10-22 18:32",
-   "generated_at": "2026-10-26 03:43",
-   "duration_sec": 440,
-   "audio": "audio/prometheus-xprize-healthspan-protocol-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural",
-   "desc": "PROMETHEUS 把「精准老年医学」写成了可执行判据：基础干预 + 按表型追加的增强干预，第 4 周动态调整。但 8 周、20 人、单臂无对照、十几种成分叠加——它是施工图纸，不是疗效报告。",
-   "article_slugs": [
-    "news/PROMETHEUS-Clinical-Trial-Protocol-Tailoring-GeroScience-2026.html"
-   ],
-   "sources": [
+      "id": "ep017",
+      "slug": "prometheus-xprize-healthspan-protocol-2026",
+      "series": "产业脉搏",
+      "title": "八周、二十人、个性化：XPRIZE 健康跨度赛的试验到底能证明什么",
+      "date": "2026-10-26",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-26 03:43",
+      "duration_sec": 440,
+      "audio": "audio/prometheus-xprize-healthspan-protocol-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "PROMETHEUS 把「精准老年医学」写成了可执行判据：基础干预 + 按表型追加的增强干预，第 4 周动态调整。但 8 周、20 人、单臂无对照、十几种成分叠加——它是施工图纸，不是疗效报告。",
+      "article_slugs": [
+        "news/PROMETHEUS-Clinical-Trial-Protocol-Tailoring-GeroScience-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "GeroScience：PROMETHEUS——XPRIZE Healthspan 半决赛的个体化老年医学试验方案（NCT07451496）",
+          "doi": "10.1007/s11357-026-02394-6",
+          "pmid": "",
+          "url": "https://doi.org/10.1007/s11357-026-02394-6",
+          "note": "方案类文章，单臂可行性试验 n=20；节目不推荐任何补剂或剂量方案"
+        }
+      ]
+    },
     {
-     "label": "GeroScience：PROMETHEUS——XPRIZE Healthspan 半决赛的个体化老年医学试验方案（NCT07451496）",
-     "doi": "10.1007/s11357-026-02394-6",
-     "pmid": "",
-     "url": "https://doi.org/10.1007/s11357-026-02394-6",
-     "note": "方案类文章，单臂可行性试验 n=20；节目不推荐任何补剂或剂量方案"
-    }
-   ]
-  },
-  {
-   "id": "ep018",
-   "slug": "longevity-medicine-primary-care-desire-paths-2026",
-   "series": "产业脉搏",
-   "title": "患者已经绕开医生：一位全科医生把长寿医学的缺口挑明了",
-   "date": "2026-10-26",
-   "data_datetime": "2026-10-22 18:32",
-   "generated_at": "2026-10-26 03:43",
-   "duration_sec": 370,
-   "audio": "audio/longevity-medicine-primary-care-desire-paths-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural",
-   "desc": "Nature Aging 评论：患者正以「欲望路径」方式绕开未受训练的全科医生自行寻求长寿医学答案；医学课程里衰老仍只被当作疾病风险因素。瓶颈不是科学，是把科学转成医生可用知识的工程。",
-   "article_slugs": [
-    "news/Longevity-Medicine-Primary-Care-Desire-Paths-2026.html"
-   ],
-   "sources": [
+      "id": "ep018",
+      "slug": "longevity-medicine-primary-care-desire-paths-2026",
+      "series": "产业脉搏",
+      "title": "患者已经绕开医生：一位全科医生把长寿医学的缺口挑明了",
+      "date": "2026-10-26",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-26 03:43",
+      "duration_sec": 370,
+      "audio": "audio/longevity-medicine-primary-care-desire-paths-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "Nature Aging 评论：患者正以「欲望路径」方式绕开未受训练的全科医生自行寻求长寿医学答案；医学课程里衰老仍只被当作疾病风险因素。瓶颈不是科学，是把科学转成医生可用知识的工程。",
+      "article_slugs": [
+        "news/Longevity-Medicine-Primary-Care-Desire-Paths-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Nature Aging 评论（Dean Ariel）：长寿医学与基层医疗的「欲望路径」困境",
+          "doi": "10.1038/s43587-026-01211-1",
+          "pmid": "",
+          "url": "https://doi.org/10.1038/s43587-026-01211-1",
+          "note": "评论文章，观点性质，不产生新实验数据；站内标 A 级，解读时按评论性质折价"
+        }
+      ]
+    },
     {
-     "label": "Nature Aging 评论（Dean Ariel）：长寿医学与基层医疗的「欲望路径」困境",
-     "doi": "10.1038/s43587-026-01211-1",
-     "pmid": "",
-     "url": "https://doi.org/10.1038/s43587-026-01211-1",
-     "note": "评论文章，观点性质，不产生新实验数据；站内标 A 级，解读时按评论性质折价"
-    }
-   ]
-  },
-  {
-   "id": "ep019",
-   "slug": "muscle-tendon-eccentric-aging-null-2026",
-   "series": "打假与证伪",
-   "title": "把体力活动配平之后，老年人的肌肉-肌腱单元没有「退化」",
-   "date": "2026-10-26",
-   "data_datetime": "2026-10-22 18:32",
-   "generated_at": "2026-10-26 03:43",
-   "duration_sec": 323,
-   "audio": "audio/muscle-tendon-eccentric-aging-null-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural",
-   "desc": "体力活动水平匹配后，活跃老年人与年轻活跃者在离心运动中的肌腱应变、肌束长度与速度、跟腱刚度全部无显著差异。但 p>0.05 不等于等效——未见等效性检验声明，正确说法是「没检出差异」。",
-   "article_slugs": [
-    "news/Gastrocnemius-Medialis-Muscle-tendon-Behavior-Eccentric-GeroScience-2026.html"
-   ],
-   "sources": [
+      "id": "ep019",
+      "slug": "muscle-tendon-eccentric-aging-null-2026",
+      "series": "打假与证伪",
+      "title": "把体力活动配平之后，老年人的肌肉-肌腱单元没有「退化」",
+      "date": "2026-10-26",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-26 03:43",
+      "duration_sec": 323,
+      "audio": "audio/muscle-tendon-eccentric-aging-null-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "体力活动水平匹配后，活跃老年人与年轻活跃者在离心运动中的肌腱应变、肌束长度与速度、跟腱刚度全部无显著差异。但 p>0.05 不等于等效——未见等效性检验声明，正确说法是「没检出差异」。",
+      "article_slugs": [
+        "news/Gastrocnemius-Medialis-Muscle-tendon-Behavior-Eccentric-GeroScience-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "GeroScience：体力活动匹配条件下，年轻与老年活跃者离心运动中的腓肠肌内侧头肌肉-肌腱单元行为",
+          "doi": "10.1007/s11357-026-02547-7",
+          "pmid": "",
+          "url": "https://doi.org/10.1007/s11357-026-02547-7",
+          "note": "横断面阴性结果；n / CI / 等效性检验待补全文；老年组仅含活跃非衰弱者，不可外推久坐或衰弱老人"
+        }
+      ]
+    },
     {
-     "label": "GeroScience：体力活动匹配条件下，年轻与老年活跃者离心运动中的腓肠肌内侧头肌肉-肌腱单元行为",
-     "doi": "10.1007/s11357-026-02547-7",
-     "pmid": "",
-     "url": "https://doi.org/10.1007/s11357-026-02547-7",
-     "note": "横断面阴性结果；n / CI / 等效性检验待补全文；老年组仅含活跃非衰弱者，不可外推久坐或衰弱老人"
-    }
-   ]
-  },
-  {
-   "id": "ep020",
-   "slug": "salvianolic-acids-natural-senolytics-2026",
-   "series": "论文精读",
-   "title": "丹酚酸：把「天然抗衰」这句话按现代药理学标准跑完一遍",
-   "date": "2026-10-27",
-   "data_datetime": "2026-10-22 18:32",
-   "generated_at": "2026-10-27 03:44",
-   "duration_sec": 424,
-   "audio": "audio/salvianolic-acids-natural-senolytics-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural",
-   "desc": "丹酚酸 A/B/E 对衰老细胞有跨谱系的选择性毒性，靶向 GSTP1 同时打开凋亡与铁死亡，并抑制 SASP；间歇给药使老年小鼠剩余寿命延长 51.4%。但零人体数据，且本文研究的是提纯单体，不是丹参饮片。",
-   "article_slugs": [
-    "news/Salvianolic-Acids-Natural-Senolytics-Npj-Aging-2026.html"
-   ],
-   "sources": [
+      "id": "ep020",
+      "slug": "salvianolic-acids-natural-senolytics-2026",
+      "series": "论文精读",
+      "title": "丹酚酸：把「天然抗衰」这句话按现代药理学标准跑完一遍",
+      "date": "2026-10-27",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-27 03:44",
+      "duration_sec": 424,
+      "audio": "audio/salvianolic-acids-natural-senolytics-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "丹酚酸 A/B/E 对衰老细胞有跨谱系的选择性毒性，靶向 GSTP1 同时打开凋亡与铁死亡，并抑制 SASP；间歇给药使老年小鼠剩余寿命延长 51.4%。但零人体数据，且本文研究的是提纯单体，不是丹参饮片。",
+      "article_slugs": [
+        "news/Salvianolic-Acids-Natural-Senolytics-Npj-Aging-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "npj Aging（2026-09-11）：丹酚酸是天然衰老细胞清除剂并延长老年期寿命——Salvianolic acids are natural senolytics and increase lifespan in old age",
+          "doi": "10.1038/s41514-026-00496-1",
+          "pmid": "",
+          "url": "https://doi.org/10.1038/s41514-026-00496-1",
+          "note": "B 级临床前（小鼠 + 体外）；零人体数据、无药代与剂量探索；「天然」不等于安全、丹参类制剂有抗凝与出血风险；作者含 senolytic 概念推动者 Kirkland"
+        }
+      ]
+    },
     {
-     "label": "npj Aging（2026-09-11）：丹酚酸是天然衰老细胞清除剂并延长老年期寿命——Salvianolic acids are natural senolytics and increase lifespan in old age",
-     "doi": "10.1038/s41514-026-00496-1",
-     "pmid": "",
-     "url": "https://doi.org/10.1038/s41514-026-00496-1",
-     "note": "B 级临床前（小鼠 + 体外）；零人体数据、无药代与剂量探索；「天然」不等于安全、丹参类制剂有抗凝与出血风险；作者含 senolytic 概念推动者 Kirkland"
-    }
-   ]
-  },
-  {
-   "id": "ep021",
-   "slug": "ghr-antagonist-vs-liver-knockout-2026",
-   "series": "论文精读",
-   "title": "同一个受体，削全身延寿，只削肝脏却折寿",
-   "date": "2026-10-27",
-   "data_datetime": "2026-10-22 18:32",
-   "generated_at": "2026-10-27 03:44",
-   "duration_sec": 455,
-   "audio": "audio/ghr-antagonist-vs-liver-knockout-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural",
-   "desc": "GHA 转基因小鼠中位与最长寿命均延长（雄鼠最长 +186 天、雌鼠 +265 天），两性都显著。而站内另一篇只在肝细胞敲除同一受体的研究，寿命反而缩短——决定结果的是「在哪个组织降」，不是「降了多少」。",
-   "article_slugs": [
-    "news/GHR-Antagonist-Pegvisomant-Lineage-Extends-Lifespan-AgingCell-2026.html"
-   ],
-   "sources": [
+      "id": "ep021",
+      "slug": "ghr-antagonist-vs-liver-knockout-2026",
+      "series": "论文精读",
+      "title": "同一个受体，削全身延寿，只削肝脏却折寿",
+      "date": "2026-10-27",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-27 03:44",
+      "duration_sec": 455,
+      "audio": "audio/ghr-antagonist-vs-liver-knockout-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "GHA 转基因小鼠中位与最长寿命均延长（雄鼠最长 +186 天、雌鼠 +265 天），两性都显著。而站内另一篇只在肝细胞敲除同一受体的研究，寿命反而缩短——决定结果的是「在哪个组织降」，不是「降了多少」。",
+      "article_slugs": [
+        "news/GHR-Antagonist-Pegvisomant-Lineage-Extends-Lifespan-AgingCell-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Aging Cell 2026;25(9):e70697：生长激素受体拮抗延长寿命（Ohio University / Edison Biotechnology Institute, List EO, Berryman DE）",
+          "doi": "10.1111/acel.70697",
+          "pmid": "42701998",
+          "url": "https://doi.org/10.1111/acel.70697",
+          "note": "B 级临床前；转基因模型非给药，不可读成培维索孟可抗衰；样本量与中位寿命绝对值未报告、延寿百分比待补全文；雌鼠效应远强于雄鼠机制未解释"
+        }
+      ]
+    },
     {
-     "label": "Aging Cell 2026;25(9):e70697：生长激素受体拮抗延长寿命（Ohio University / Edison Biotechnology Institute, List EO, Berryman DE）",
-     "doi": "10.1111/acel.70697",
-     "pmid": "42701998",
-     "url": "https://doi.org/10.1111/acel.70697",
-     "note": "B 级临床前；转基因模型非给药，不可读成培维索孟可抗衰；样本量与中位寿命绝对值未报告、延寿百分比待补全文；雌鼠效应远强于雄鼠机制未解释"
-    }
-   ]
-  },
-  {
-   "id": "ep022",
-   "slug": "mci-prefrailty-distinct-signatures-2026",
-   "series": "打假与证伪",
-   "title": "五十个人、零重叠：衰弱与轻度认知障碍的血液签名并不共享",
-   "date": "2026-10-27",
-   "data_datetime": "2026-10-22 18:32",
-   "generated_at": "2026-10-27 03:44",
-   "duration_sec": 326,
-   "audio": "audio/mci-prefrailty-distinct-signatures-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural",
-   "desc": "50 名社区老人的三层血浆组学显示，MCI 的 21 个蛋白标志物与前衰弱的 24 个蛋白标志物零交集，代谢组同样无重叠。但 n=50 且不含明确衰弱者，「零重叠」完全可能是假阴性。",
-   "article_slugs": [
-    "news/Mild-Cognitive-Impairment-Pre-frailty-Show-GeroScience-2026.html"
-   ],
-   "sources": [
+      "id": "ep022",
+      "slug": "mci-prefrailty-distinct-signatures-2026",
+      "series": "打假与证伪",
+      "title": "五十个人、零重叠：衰弱与轻度认知障碍的血液签名并不共享",
+      "date": "2026-10-27",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-27 03:44",
+      "duration_sec": 326,
+      "audio": "audio/mci-prefrailty-distinct-signatures-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "50 名社区老人的三层血浆组学显示，MCI 的 21 个蛋白标志物与前衰弱的 24 个蛋白标志物零交集，代谢组同样无重叠。但 n=50 且不含明确衰弱者，「零重叠」完全可能是假阴性。",
+      "article_slugs": [
+        "news/Mild-Cognitive-Impairment-Pre-frailty-Show-GeroScience-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "GeroScience：轻度认知障碍与前衰弱呈现截然不同的血浆多组学签名（横断面研究）",
+          "doi": "10.1007/s11357-026-02462-x",
+          "pmid": "42629519",
+          "url": "https://doi.org/10.1007/s11357-026-02462-x",
+          "note": "A 级人体研究但为小样本横断面；效应量/q 值/AUC 待补全文；预设 panel 覆盖有限；作者自限需大队列确认"
+        }
+      ]
+    },
     {
-     "label": "GeroScience：轻度认知障碍与前衰弱呈现截然不同的血浆多组学签名（横断面研究）",
-     "doi": "10.1007/s11357-026-02462-x",
-     "pmid": "42629519",
-     "url": "https://doi.org/10.1007/s11357-026-02462-x",
-     "note": "A 级人体研究但为小样本横断面；效应量/q 值/AUC 待补全文；预设 panel 覆盖有限；作者自限需大队列确认"
-    }
-   ]
-  },
-  {
-   "id": "ep023",
-   "slug": "parental-longevity-vs-polygenic-score-2026",
-   "series": "论文精读",
-   "title": "父母活得久，和多基因评分高，抓到的不是同一批东西",
-   "date": "2026-10-27",
-   "data_datetime": "2026-10-22 18:32",
-   "generated_at": "2026-10-27 03:44",
-   "duration_sec": 338,
-   "audio": "audio/parental-longevity-vs-polygenic-score-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural",
-   "desc": "1,126 名瑞典 70 岁老人、6 年随访：父母长寿额外关联更高 MMSE、更低 BMI、更低 IL-6 与 CRP 及更少吸烟，而多基因长寿评分只额外关联较少心梗。高父母长寿者随访时 pTau217 上升更少。",
-   "article_slugs": [
-    "news/Parental-Longevity-Polygenic-Longevity-Scores-GeroScience-2026.html"
-   ],
-   "sources": [
+      "id": "ep023",
+      "slug": "parental-longevity-vs-polygenic-score-2026",
+      "series": "论文精读",
+      "title": "父母活得久，和多基因评分高，抓到的不是同一批东西",
+      "date": "2026-10-27",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-27 03:44",
+      "duration_sec": 338,
+      "audio": "audio/parental-longevity-vs-polygenic-score-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "1,126 名瑞典 70 岁老人、6 年随访：父母长寿额外关联更高 MMSE、更低 BMI、更低 IL-6 与 CRP 及更少吸烟，而多基因长寿评分只额外关联较少心梗。高父母长寿者随访时 pTau217 上升更少。",
+      "article_slugs": [
+        "news/Parental-Longevity-Polygenic-Longevity-Scores-GeroScience-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "GeroScience：Gothenburg H70 出生队列中父母长寿与多基因长寿评分和衰老相关因素的关系（6 年随访）",
+          "doi": "10.1007/s11357-026-02501-7",
+          "pmid": "42726198",
+          "url": "https://doi.org/10.1007/s11357-026-02501-7",
+          "note": "A 级人体观察性研究；效应量/CI/p 值待补全文；SES 混杂强、父母年龄为自报、瑞典单一出生队列；「PL 可作生物学衰老代理」属推论"
+        }
+      ]
+    },
     {
-     "label": "GeroScience：Gothenburg H70 出生队列中父母长寿与多基因长寿评分和衰老相关因素的关系（6 年随访）",
-     "doi": "10.1007/s11357-026-02501-7",
-     "pmid": "42726198",
-     "url": "https://doi.org/10.1007/s11357-026-02501-7",
-     "note": "A 级人体观察性研究；效应量/CI/p 值待补全文；SES 混杂强、父母年龄为自报、瑞典单一出生队列；「PL 可作生物学衰老代理」属推论"
-    }
-   ]
-  },
-  {
-   "id": "ep024",
-   "slug": "longevity-industry-matures-bibliometric-2026",
-   "series": "产业脉搏",
-   "title": "长寿产业的下一道门槛：等一款被批准的药",
-   "date": "2026-10-27",
-   "data_datetime": "2026-10-22 18:32",
-   "generated_at": "2026-10-27 03:44",
-   "duration_sec": 386,
-   "audio": "audio/longevity-industry-matures-bibliometric-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural",
-   "desc": "文献计量综述显示抗衰老药物研究已从探索性延寿转向机制知情的三条干预轴线；而大药厂的保守立场要持续到新药获批、数十万人使用、结果不可否认且带来可观商业收入为止——GLP-1 是参照案例。",
-   "article_slugs": [
-    "news/Longevity-Industry-Matures-Bibliometric-Review-2026.html"
-   ],
-   "sources": [
+      "id": "ep024",
+      "slug": "longevity-industry-matures-bibliometric-2026",
+      "series": "产业脉搏",
+      "title": "长寿产业的下一道门槛：等一款被批准的药",
+      "date": "2026-10-27",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-27 03:44",
+      "duration_sec": 386,
+      "audio": "audio/longevity-industry-matures-bibliometric-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "文献计量综述显示抗衰老药物研究已从探索性延寿转向机制知情的三条干预轴线；而大药厂的保守立场要持续到新药获批、数十万人使用、结果不可否认且带来可观商业收入为止——GLP-1 是参照案例。",
+      "article_slugs": [
+        "news/Longevity-Industry-Matures-Bibliometric-Review-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Ageing Research Reviews（2026）：从寿命延长到 hallmarks 驱动的老年治疗优先级排序——文献计量引导的策略性综述",
+          "doi": "10.1016/j.arr.2026.103221",
+          "pmid": "",
+          "url": "https://doi.org/10.1016/j.arr.2026.103221",
+          "note": "B 级行业动态；本期为站内对 Fight Aging! 2026-07-16 评论及其所引综述的二手转述，评论员观点带有立场；文献计量衡量论文结构而非疗效"
+        }
+      ]
+    },
     {
-     "label": "Ageing Research Reviews（2026）：从寿命延长到 hallmarks 驱动的老年治疗优先级排序——文献计量引导的策略性综述",
-     "doi": "10.1016/j.arr.2026.103221",
-     "pmid": "",
-     "url": "https://doi.org/10.1016/j.arr.2026.103221",
-     "note": "B 级行业动态；本期为站内对 Fight Aging! 2026-07-16 评论及其所引综述的二手转述，评论员观点带有立场；文献计量衡量论文结构而非疗效"
-    }
-   ]
-  },
-  {
-   "id": "ep025",
-   "slug": "senotype-framework-senescent-cells-2026",
-   "series": "机制十分钟",
-   "title": "衰老细胞不是一种细胞：Senotype 想把「清除」改成「分类」",
-   "date": "2026-10-27",
-   "data_datetime": "2026-10-22 18:32",
-   "generated_at": "2026-10-27 03:44",
-   "duration_sec": 363,
-   "audio": "audio/senotype-framework-senescent-cells-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural",
-   "desc": "Nature Aging 的 Senotype 框架用来源、分子特征、生物学效应三个维度给衰老细胞分类，区分自适应与适应不良两类。但这是 Perspective——它改变的是提问方式，未提供可操作的判定标准。",
-   "article_slugs": [
-    "news/Senotype-Framework-Cellular-Senescence-Nature-Aging-2026.html"
-   ],
-   "sources": [
+      "id": "ep025",
+      "slug": "senotype-framework-senescent-cells-2026",
+      "series": "机制十分钟",
+      "title": "衰老细胞不是一种细胞：Senotype 想把「清除」改成「分类」",
+      "date": "2026-10-27",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-27 03:44",
+      "duration_sec": 363,
+      "audio": "audio/senotype-framework-senescent-cells-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "Nature Aging 的 Senotype 框架用来源、分子特征、生物学效应三个维度给衰老细胞分类，区分自适应与适应不良两类。但这是 Perspective——它改变的是提问方式，未提供可操作的判定标准。",
+      "article_slugs": [
+        "news/Senotype-Framework-Cellular-Senescence-Nature-Aging-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Nature Aging（2026-08-01）：Senotypes define the diverse landscape of senescent cells（Schafer MJ, Basisty N, Baker DJ）",
+          "doi": "10.1038/s43587-026-01148-5",
+          "pmid": "",
+          "url": "https://doi.org/10.1038/s43587-026-01148-5",
+          "note": "B 级，观点框架类文章非原始研究；文中引用的发育/抗癌/组织修复证据来自其它文献，本节目未独立核实一手文献；无配套检测方法验证"
+        }
+      ]
+    },
     {
-     "label": "Nature Aging（2026-08-01）：Senotypes define the diverse landscape of senescent cells（Schafer MJ, Basisty N, Baker DJ）",
-     "doi": "10.1038/s43587-026-01148-5",
-     "pmid": "",
-     "url": "https://doi.org/10.1038/s43587-026-01148-5",
-     "note": "B 级，观点框架类文章非原始研究；文中引用的发育/抗癌/组织修复证据来自其它文献，本节目未独立核实一手文献；无配套检测方法验证"
-    }
-   ]
-  },
-  {
-   "id": "ep026",
-   "slug": "ifnar1-mitophagy-parkinson-dementia-2026",
-   "series": "论文精读",
-   "title": "同一个基因在两种脑细胞里缺失，长出了两种病",
-   "date": "2026-10-27",
-   "data_datetime": "2026-10-22 18:32",
-   "generated_at": "2026-10-27 03:44",
-   "duration_sec": 376,
-   "audio": "audio/ifnar1-mitophagy-parkinson-dementia-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural",
-   "desc": "神经元缺失 IFNAR1 得到路易体样包涵体、运动缺陷与认知下降；星形胶质细胞缺失则只出现神经精神异常、无明显运动缺陷。机制链条指向线粒体自噬障碍与葡萄糖代谢亢进。",
-   "article_slugs": [
-    "news/IFNAR1-Mitochondria-Parkinson-Dementia-2026.html"
-   ],
-   "sources": [
+      "id": "ep026",
+      "slug": "ifnar1-mitophagy-parkinson-dementia-2026",
+      "series": "论文精读",
+      "title": "同一个基因在两种脑细胞里缺失，长出了两种病",
+      "date": "2026-10-27",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-27 03:44",
+      "duration_sec": 376,
+      "audio": "audio/ifnar1-mitophagy-parkinson-dementia-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "神经元缺失 IFNAR1 得到路易体样包涵体、运动缺陷与认知下降；星形胶质细胞缺失则只出现神经精神异常、无明显运动缺陷。机制链条指向线粒体自噬障碍与葡萄糖代谢亢进。",
+      "article_slugs": [
+        "news/IFNAR1-Mitochondria-Parkinson-Dementia-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Journal of Biomedical Science：IFNAR1 缺失通过损害线粒体自噬与神经递质传递驱动帕金森病痴呆（哥本哈根大学 / 奥胡斯大学 / 诺和诺德基金会蛋白质研究中心）",
+          "doi": "10.1186/s12929-026-01257-8",
+          "pmid": "",
+          "url": "https://doi.org/10.1186/s12929-026-01257-8",
+          "note": "站内标注 A 级，但机制部分主要来自小鼠模型；「首次在体证明」为论文自身表述、本节目按原文转述不做独立确认；遗传模型为发育期起效，与人类成年期病程不直接对应"
+        }
+      ]
+    },
     {
-     "label": "Journal of Biomedical Science：IFNAR1 缺失通过损害线粒体自噬与神经递质传递驱动帕金森病痴呆（哥本哈根大学 / 奥胡斯大学 / 诺和诺德基金会蛋白质研究中心）",
-     "doi": "10.1186/s12929-026-01257-8",
-     "pmid": "",
-     "url": "https://doi.org/10.1186/s12929-026-01257-8",
-     "note": "站内标注 A 级，但机制部分主要来自小鼠模型；「首次在体证明」为论文自身表述、本节目按原文转述不做独立确认；遗传模型为发育期起效，与人类成年期病程不直接对应"
-    }
-   ]
-  },
-  {
-   "id": "ep027",
-   "slug": "ml-lifespan-compound-screening-auprc-2026",
-   "series": "打假与证伪",
-   "title": "用机器学习筛延寿化合物：准确率八成好看，另一个指标只有零点五二",
-   "desc": "同一份化合物-蛋白互作数据换成三种表示方式，模型的性能与「它认为哪些蛋白重要」会同时改变：XGBoost 准确率 80.36%、AUROC 0.7605，而 AUPRC 只有 0.52–0.53。",
-   "article_slugs": [
-    "news/ML-Lifespan-Extending-Compounds-Prediction-bioRxiv-2026.html"
-   ],
-   "sources": [
+      "id": "ep027",
+      "slug": "ml-lifespan-compound-screening-auprc-2026",
+      "series": "打假与证伪",
+      "title": "用机器学习筛延寿化合物：准确率八成好看，另一个指标只有零点五二",
+      "desc": "同一份化合物-蛋白互作数据换成三种表示方式，模型的性能与「它认为哪些蛋白重要」会同时改变：XGBoost 准确率 80.36%、AUROC 0.7605，而 AUPRC 只有 0.52–0.53。",
+      "article_slugs": [
+        "news/ML-Lifespan-Extending-Compounds-Prediction-bioRxiv-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "bioRxiv 预印本：化合物-蛋白互作表示方式对延寿化合物预测模型性能与可解释性的影响",
+          "doi": "10.64898/2026.10.16.759743",
+          "pmid": "",
+          "url": "https://doi.org/10.64898/2026.10.16.759743",
+          "note": "预印本未经同行评审；站内仅依据官方摘要撰写，全文未获取（源站返回 HTTP 403）；正负样本数量与比例、标签来源库与纳入标准摘要均未给出，本期不做推测"
+        }
+      ],
+      "date": "2026-10-28",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-28 03:39",
+      "duration_sec": 426,
+      "audio": "audio/ml-lifespan-compound-screening-auprc-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural"
+    },
     {
-     "label": "bioRxiv 预印本：化合物-蛋白互作表示方式对延寿化合物预测模型性能与可解释性的影响",
-     "doi": "10.64898/2026.10.16.759743",
-     "pmid": "",
-     "url": "https://doi.org/10.64898/2026.10.16.759743",
-     "note": "预印本未经同行评审；站内仅依据官方摘要撰写，全文未获取（源站返回 HTTP 403）；正负样本数量与比例、标签来源库与纳入标准摘要均未给出，本期不做推测"
-    }
-   ],
-   "date": "2026-10-28",
-   "data_datetime": "2026-10-22 18:32",
-   "generated_at": "2026-10-28 03:39",
-   "duration_sec": 426,
-   "audio": "audio/ml-lifespan-compound-screening-auprc-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  {
-   "id": "ep028",
-   "slug": "lipid-chain-elongation-plb1-aging-2026",
-   "series": "论文精读",
-   "title": "脂质链变长：一个想挤进「衰老标志」清单的新候选",
-   "desc": "脂质酰基链长度在小鼠、线虫、果蝇和人类中一致随龄变长，可被饮食限制与雷帕霉素逆转，Plb1 敲低在线虫延长寿命——但小鼠没有寿命数据。",
-   "article_slugs": [
-    "news/Lipid-Chain-Elongation-Plb1-Hallmark-Aging-2026.html"
-   ],
-   "sources": [
+      "id": "ep028",
+      "slug": "lipid-chain-elongation-plb1-aging-2026",
+      "series": "论文精读",
+      "title": "脂质链变长：一个想挤进「衰老标志」清单的新候选",
+      "desc": "脂质酰基链长度在小鼠、线虫、果蝇和人类中一致随龄变长，可被饮食限制与雷帕霉素逆转，Plb1 敲低在线虫延长寿命——但小鼠没有寿命数据。",
+      "article_slugs": [
+        "news/Lipid-Chain-Elongation-Plb1-Hallmark-Aging-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Nature Aging：脂质酰基链延长作为跨物种保守、可干预的衰老标志及其调控因子 Plb1（作者含 Johan Auwerx、Linda Partridge）",
+          "doi": "10.1038/s43587-026-01223-x",
+          "pmid": "",
+          "url": "https://doi.org/10.1038/s43587-026-01223-x",
+          "note": "小鼠未报告寿命数据，延寿结论仅来自线虫；人体部分为观察性关联与孟德尔随机化统计支持，非干预证据；作者团队在线虫长寿与代谢研究领域有商业化布局与相关专利"
+        }
+      ],
+      "date": "2026-10-28",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-28 03:39",
+      "duration_sec": 508,
+      "audio": "audio/lipid-chain-elongation-plb1-aging-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural"
+    },
     {
-     "label": "Nature Aging：脂质酰基链延长作为跨物种保守、可干预的衰老标志及其调控因子 Plb1（作者含 Johan Auwerx、Linda Partridge）",
-     "doi": "10.1038/s43587-026-01223-x",
-     "pmid": "",
-     "url": "https://doi.org/10.1038/s43587-026-01223-x",
-     "note": "小鼠未报告寿命数据，延寿结论仅来自线虫；人体部分为观察性关联与孟德尔随机化统计支持，非干预证据；作者团队在线虫长寿与代谢研究领域有商业化布局与相关专利"
-    }
-   ],
-   "date": "2026-10-28",
-   "data_datetime": "2026-10-22 18:32",
-   "generated_at": "2026-10-28 03:39",
-   "duration_sec": 508,
-   "audio": "audio/lipid-chain-elongation-plb1-aging-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  {
-   "id": "ep029",
-   "slug": "naive-cd8-tcell-decline-lymph-node-2026",
-   "series": "论文精读",
-   "title": "中年男性的 T 细胞库提前塌缩：免疫衰老的窗口比想象中更早",
-   "desc": "雄性在中年早期就出现抗原非依赖性的初始 CD8⁺ T 细胞耗竭，叠加胸腺退化使淋巴结更快收缩、癌症抗原识别受限；去雄促胸腺再生可在概念验证层面逆转这一过程。",
-   "article_slugs": [
-    "news/Lymph-Node-Contraction-Links-Sex-biased-NatureAging-2026.html"
-   ],
-   "sources": [
+      "id": "ep029",
+      "slug": "naive-cd8-tcell-decline-lymph-node-2026",
+      "series": "论文精读",
+      "title": "中年男性的 T 细胞库提前塌缩：免疫衰老的窗口比想象中更早",
+      "desc": "雄性在中年早期就出现抗原非依赖性的初始 CD8⁺ T 细胞耗竭，叠加胸腺退化使淋巴结更快收缩、癌症抗原识别受限；去雄促胸腺再生可在概念验证层面逆转这一过程。",
+      "article_slugs": [
+        "news/Lymph-Node-Contraction-Links-Sex-biased-NatureAging-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Nature Aging：雄性中年期初始 CD8⁺ T 细胞耗竭、淋巴结收缩与去雄促胸腺再生对抗肿瘤免疫应答的恢复",
+          "doi": "10.1038/s43587-026-01238-4",
+          "pmid": "42855600",
+          "url": "https://doi.org/10.1038/s43587-026-01238-4",
+          "note": "核心干预为雄激素剥夺，临床可接受性极低，属概念验证而非治疗方案；人类数据仅为支持性证据；T 细胞频率、淋巴结体积、ICB 响应、生存数据与 n、p 值摘要均未给出，标注待补全文；主要为动物模型，不能外推至人体"
+        }
+      ],
+      "date": "2026-10-28",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-28 03:39",
+      "duration_sec": 384,
+      "audio": "audio/naive-cd8-tcell-decline-lymph-node-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural"
+    },
     {
-     "label": "Nature Aging：雄性中年期初始 CD8⁺ T 细胞耗竭、淋巴结收缩与去雄促胸腺再生对抗肿瘤免疫应答的恢复",
-     "doi": "10.1038/s43587-026-01238-4",
-     "pmid": "42855600",
-     "url": "https://doi.org/10.1038/s43587-026-01238-4",
-     "note": "核心干预为雄激素剥夺，临床可接受性极低，属概念验证而非治疗方案；人类数据仅为支持性证据；T 细胞频率、淋巴结体积、ICB 响应、生存数据与 n、p 值摘要均未给出，标注待补全文；主要为动物模型，不能外推至人体"
-    }
-   ],
-   "date": "2026-10-28",
-   "data_datetime": "2026-10-22 18:32",
-   "generated_at": "2026-10-28 03:39",
-   "duration_sec": 384,
-   "audio": "audio/naive-cd8-tcell-decline-lymph-node-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  {
-   "id": "ep030",
-   "slug": "one-carbon-metabolism-folate-hcy-2026",
-   "series": "论文精读",
-   "title": "叶酸与同型半胱氨酸：同一条通路上，坏方向的力量是好方向的三倍",
-   "desc": "印度 LASI-DAD 队列 4.5 年重复测量：同型半胱氨酸每翻一倍约对应表型年龄加速 3.2 年，叶酸每翻一倍约对应慢 1.1 年；观察性设计不能确立因果，本期不推荐任何补剂与剂量。",
-   "article_slugs": [
-    "news/Longitudinal-Associations-Of-One-carbon-Metabolism-GeroScience-2026.html"
-   ],
-   "sources": [
+      "id": "ep030",
+      "slug": "one-carbon-metabolism-folate-hcy-2026",
+      "series": "论文精读",
+      "title": "叶酸与同型半胱氨酸：同一条通路上，坏方向的力量是好方向的三倍",
+      "desc": "印度 LASI-DAD 队列 4.5 年重复测量：同型半胱氨酸每翻一倍约对应表型年龄加速 3.2 年，叶酸每翻一倍约对应慢 1.1 年；观察性设计不能确立因果，本期不推荐任何补剂与剂量。",
+      "article_slugs": [
+        "news/Longitudinal-Associations-Of-One-carbon-Metabolism-GeroScience-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "GeroScience：LASI-DAD 队列中一碳代谢生物标志物与生物学衰老的 4.5 年纵向关联",
+          "doi": "10.1007/s11357-026-02505-3",
+          "pmid": "42720848",
+          "url": "https://doi.org/10.1007/s11357-026-02505-3",
+          "note": "观察性纵向设计无法确立因果，叶酸补充能否减缓衰老需随机对照试验；样本量、回归系数与 95% CI、以及维生素 B12 的结果摘要均未给出（三者并列却只报告两者，不做推测）；印度人群外推需谨慎"
+        }
+      ],
+      "date": "2026-10-28",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-28 03:39",
+      "duration_sec": 422,
+      "audio": "audio/one-carbon-metabolism-folate-hcy-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural"
+    },
     {
-     "label": "GeroScience：LASI-DAD 队列中一碳代谢生物标志物与生物学衰老的 4.5 年纵向关联",
-     "doi": "10.1007/s11357-026-02505-3",
-     "pmid": "42720848",
-     "url": "https://doi.org/10.1007/s11357-026-02505-3",
-     "note": "观察性纵向设计无法确立因果，叶酸补充能否减缓衰老需随机对照试验；样本量、回归系数与 95% CI、以及维生素 B12 的结果摘要均未给出（三者并列却只报告两者，不做推测）；印度人群外推需谨慎"
-    }
-   ],
-   "date": "2026-10-28",
-   "data_datetime": "2026-10-22 18:32",
-   "generated_at": "2026-10-28 03:39",
-   "duration_sec": 422,
-   "audio": "audio/one-carbon-metabolism-folate-hcy-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  {
-   "id": "ep031",
-   "slug": "senolytic-vs-exercise-cardiac-2026",
-   "series": "打假与证伪",
-   "title": "senolytic 加运动，没有一加一大于二：一次失败的叠加假设",
-   "desc": "12 月龄小鼠 9 个月四组干预：senolytic 与有氧运动都降低了心肌细胞衰老标志并改善心功能，但联合未见叠加，且全心组织的 p16/p21 与 SASP 未被任何干预改变。",
-   "article_slugs": [
-    "news/Chronic-Senolytic-Treatment-or-Aerobic-Exercise-Reduce-Senescence-Improve-Myocardial-Function.html"
-   ],
-   "sources": [
+      "id": "ep031",
+      "slug": "senolytic-vs-exercise-cardiac-2026",
+      "series": "打假与证伪",
+      "title": "senolytic 加运动，没有一加一大于二：一次失败的叠加假设",
+      "desc": "12 月龄小鼠 9 个月四组干预：senolytic 与有氧运动都降低了心肌细胞衰老标志并改善心功能，但联合未见叠加，且全心组织的 p16/p21 与 SASP 未被任何干预改变。",
+      "article_slugs": [
+        "news/Chronic-Senolytic-Treatment-or-Aerobic-Exercise-Reduce-Senescence-Improve-Myocardial-Function.html"
+      ],
+      "sources": [
+        {
+          "label": "Aging Cell：慢性 senolytic 和/或有氧运动降低衰老心脏的衰老负荷并改善心肌功能（★ 阴性结果）",
+          "doi": "10.1111/acel.70759",
+          "pmid": "42841582",
+          "url": "https://doi.org/10.1111/acel.70759",
+          "note": "细胞层面标志下降但全心组织 p16/p21 与 SASP 未被任何干预改变；效应量绝对值摘要未给出（PMC13644388 免费全文待核）；未报告雌雄分层；12 月龄起始不能外推至更高龄；阴性结论应读作「未检出叠加」而非「证明无叠加」"
+        }
+      ],
+      "date": "2026-10-28",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-28 03:39",
+      "duration_sec": 400,
+      "audio": "audio/senolytic-vs-exercise-cardiac-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural"
+    },
     {
-     "label": "Aging Cell：慢性 senolytic 和/或有氧运动降低衰老心脏的衰老负荷并改善心肌功能（★ 阴性结果）",
-     "doi": "10.1111/acel.70759",
-     "pmid": "42841582",
-     "url": "https://doi.org/10.1111/acel.70759",
-     "note": "细胞层面标志下降但全心组织 p16/p21 与 SASP 未被任何干预改变；效应量绝对值摘要未给出（PMC13644388 免费全文待核）；未报告雌雄分层；12 月龄起始不能外推至更高龄；阴性结论应读作「未检出叠加」而非「证明无叠加」"
-    }
-   ],
-   "date": "2026-10-28",
-   "data_datetime": "2026-10-22 18:32",
-   "generated_at": "2026-10-28 03:39",
-   "duration_sec": 400,
-   "audio": "audio/senolytic-vs-exercise-cardiac-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  {
-   "id": "ep032",
-   "slug": "hiit-aged-female-mice-multi-endpoint-2026",
-   "series": "论文精读",
-   "title": "运动研究里最该看的那一行，是对照组掉了多少",
-   "desc": "14 周 HIIT 让 24 月龄雌鼠的有氧能力涨 71%、执行功能涨 73%，但更该看的是对照组：四股力量掉了 67%。多数终点上的作用是「守住不塌」。",
-   "article_slugs": [
-    "news/HIIT-Aged-Female-Mice-Multi-Endpoint-GeroScience-2026.html"
-   ],
-   "sources": [
+      "id": "ep032",
+      "slug": "hiit-aged-female-mice-multi-endpoint-2026",
+      "series": "论文精读",
+      "title": "运动研究里最该看的那一行，是对照组掉了多少",
+      "desc": "14 周 HIIT 让 24 月龄雌鼠的有氧能力涨 71%、执行功能涨 73%，但更该看的是对照组：四股力量掉了 67%。多数终点上的作用是「守住不塌」。",
+      "article_slugs": [
+        "news/HIIT-Aged-Female-Mice-Multi-Endpoint-GeroScience-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "GeroScience：14 周高强度间歇训练对 24 月龄雌性小鼠体能、认知、心血管与体成分等多终点的影响",
+          "doi": "10.1007/s11357-026-02489-0",
+          "pmid": "",
+          "url": "https://doi.org/10.1007/s11357-026-02489-0",
+          "note": "每组仅 n=9；未报告寿命终点；运动起始月龄为按期末 24 月龄与 14 周干预的推算、以全文为准；对照组血压变化未给出、绝对血压值待补全文，不可换算为人类预期"
+        }
+      ],
+      "date": "2026-10-28",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-28 03:39",
+      "duration_sec": 402,
+      "audio": "audio/hiit-aged-female-mice-multi-endpoint-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural"
+    },
     {
-     "label": "GeroScience：14 周高强度间歇训练对 24 月龄雌性小鼠体能、认知、心血管与体成分等多终点的影响",
-     "doi": "10.1007/s11357-026-02489-0",
-     "pmid": "",
-     "url": "https://doi.org/10.1007/s11357-026-02489-0",
-     "note": "每组仅 n=9；未报告寿命终点；运动起始月龄为按期末 24 月龄与 14 周干预的推算、以全文为准；对照组血压变化未给出、绝对血压值待补全文，不可换算为人类预期"
-    }
-   ],
-   "date": "2026-10-28",
-   "data_datetime": "2026-10-22 18:32",
-   "generated_at": "2026-10-28 03:39",
-   "duration_sec": 402,
-   "audio": "audio/hiit-aged-female-mice-multi-endpoint-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  {
-   "id": "ep033",
-   "slug": "sirt1-l1-retrotransposon-heterochromatin-2026",
-   "series": "机制十分钟",
-   "title": "SIRT1 的另一份工作：按住基因组里的跳跃基因",
-   "desc": "SIRT1 通过增强 Lamin B1 与 KAP1 互作、提高 H3K9me3 把 L1 逆转座子按在异染色质里；缺失时经 cGAS-STING 触发衰老，3TC 的挽救仅在细胞层面得到验证。",
-   "article_slugs": [
-    "news/SIRT1-L1-Retrotransposon-Heterochromatin-AgingCell-2026.html"
-   ],
-   "sources": [
+      "id": "ep033",
+      "slug": "sirt1-l1-retrotransposon-heterochromatin-2026",
+      "series": "机制十分钟",
+      "title": "SIRT1 的另一份工作：按住基因组里的跳跃基因",
+      "desc": "SIRT1 通过增强 Lamin B1 与 KAP1 互作、提高 H3K9me3 把 L1 逆转座子按在异染色质里；缺失时经 cGAS-STING 触发衰老，3TC 的挽救仅在细胞层面得到验证。",
+      "article_slugs": [
+        "news/SIRT1-L1-Retrotransposon-Heterochromatin-AgingCell-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Aging Cell：SIRT1 经 Lamin B1–KAP1 与 H3K9me3 维持 L1 逆转座子异染色质沉默，缺失时经 cGAS-STING 触发细胞衰老及 3TC 挽救",
+          "doi": "10.1111/acel.70689",
+          "pmid": "",
+          "url": "https://doi.org/10.1111/acel.70689",
+          "note": "3TC 挽救仅在细胞层面验证、体内效果未报告；主要证据来自细胞系，缺在体衰老模型与寿命数据；摘要未提供可引用定量，本期不给出任何具体数字；不能由此推出补充 SIRT1 激活剂有效；3TC 为处方药，本期仅作研究设计陈述"
+        }
+      ],
+      "date": "2026-10-28",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-28 03:39",
+      "duration_sec": 391,
+      "audio": "audio/sirt1-l1-retrotransposon-heterochromatin-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural"
+    },
     {
-     "label": "Aging Cell：SIRT1 经 Lamin B1–KAP1 与 H3K9me3 维持 L1 逆转座子异染色质沉默，缺失时经 cGAS-STING 触发细胞衰老及 3TC 挽救",
-     "doi": "10.1111/acel.70689",
-     "pmid": "",
-     "url": "https://doi.org/10.1111/acel.70689",
-     "note": "3TC 挽救仅在细胞层面验证、体内效果未报告；主要证据来自细胞系，缺在体衰老模型与寿命数据；摘要未提供可引用定量，本期不给出任何具体数字；不能由此推出补充 SIRT1 激活剂有效；3TC 为处方药，本期仅作研究设计陈述"
-    }
-   ],
-   "date": "2026-10-28",
-   "data_datetime": "2026-10-22 18:32",
-   "generated_at": "2026-10-28 03:39",
-   "duration_sec": 391,
-   "audio": "audio/sirt1-l1-retrotransposon-heterochromatin-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  {
-   "id": "ep034",
-   "slug": "oral-function-limit-frailty-sex-specific-2026",
-   "series": "打假与证伪",
-   "title": "咀嚼困难预示衰弱风险上升七成——但这个效应只在女性身上成立",
-   "desc": "1348 名基线健壮老人 4 年随访：自报口腔功能受限使衰弱新发风险上升约七成（HR 1.74）；但分层后女性 HR 2.44 显著、男性 HR 0.87 不显著，且男性组置信区间极宽。",
-   "article_slugs": [
-    "news/Oral-Functional-Limitation-Risk-Of-GeroScience-2026.html"
-   ],
-   "sources": [
+      "id": "ep034",
+      "slug": "oral-function-limit-frailty-sex-specific-2026",
+      "series": "打假与证伪",
+      "title": "咀嚼困难预示衰弱风险上升七成——但这个效应只在女性身上成立",
+      "desc": "1348 名基线健壮老人 4 年随访：自报口腔功能受限使衰弱新发风险上升约七成（HR 1.74）；但分层后女性 HR 2.44 显著、男性 HR 0.87 不显著，且男性组置信区间极宽。",
+      "article_slugs": [
+        "news/Oral-Functional-Limitation-Risk-Of-GeroScience-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "GeroScience：韩国社区老人自报口腔功能受限与衰弱新发的 4 年纵向关联及性别差异",
+          "doi": "10.1007/s11357-025-02015-8",
+          "pmid": "41331404",
+          "url": "https://doi.org/10.1007/s11357-025-02015-8",
+          "note": "暴露仅两项自报条目、无客观口腔功能测定（咬合力/舌压/余留牙数）；男性组 95% CI 0.44–1.73 极宽，不显著很可能为效力不足而非确凿阴性；事件数与交互项 p 值待补全文；PMC13601412 免费全文可核验"
+        }
+      ],
+      "date": "2026-10-28",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-28 03:39",
+      "duration_sec": 407,
+      "audio": "audio/oral-function-limit-frailty-sex-specific-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural"
+    },
     {
-     "label": "GeroScience：韩国社区老人自报口腔功能受限与衰弱新发的 4 年纵向关联及性别差异",
-     "doi": "10.1007/s11357-025-02015-8",
-     "pmid": "41331404",
-     "url": "https://doi.org/10.1007/s11357-025-02015-8",
-     "note": "暴露仅两项自报条目、无客观口腔功能测定（咬合力/舌压/余留牙数）；男性组 95% CI 0.44–1.73 极宽，不显著很可能为效力不足而非确凿阴性；事件数与交互项 p 值待补全文；PMC13601412 免费全文可核验"
-    }
-   ],
-   "date": "2026-10-28",
-   "data_datetime": "2026-10-22 18:32",
-   "generated_at": "2026-10-28 03:39",
-   "duration_sec": 407,
-   "audio": "audio/oral-function-limit-frailty-sex-specific-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  {
-   "id": "ep035",
-   "slug": "italy-longevity-medicine-ssn-roadmap-2026",
-   "series": "产业脉搏",
-   "title": "意大利的长寿医学路线图：一份立场文件，五步建议，和三个没解决的障碍",
-   "desc": "65 岁以上占 24.1%、健康寿命年数比预期寿命少 15–16 年；文件提出五步整合路径，同时自承工具多数仍处探索或替代终点阶段、过早应用存在风险。",
-   "article_slugs": [
-    "news/Italy-Longevity-Medicine-Health-Service-2026.html"
-   ],
-   "sources": [
+      "id": "ep035",
+      "slug": "italy-longevity-medicine-ssn-roadmap-2026",
+      "series": "产业脉搏",
+      "title": "意大利的长寿医学路线图：一份立场文件，五步建议，和三个没解决的障碍",
+      "desc": "65 岁以上占 24.1%、健康寿命年数比预期寿命少 15–16 年；文件提出五步整合路径，同时自承工具多数仍处探索或替代终点阶段、过早应用存在风险。",
+      "article_slugs": [
+        "news/Italy-Longevity-Medicine-Health-Service-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Aging Cell 立场文件：长寿医学整合进意大利国家卫生服务体系（SSN）的背景、障碍与五步路径",
+          "doi": "10.18632/aging.206402",
+          "pmid": "",
+          "url": "https://doi.org/10.18632/aging.206402",
+          "note": "立场文件而非原始研究，五步路径为建议而非已实施政策；文件自述多组学生物标志物与数字健康监测多数仍处探索/替代终点阶段、过早应用存在风险；站内另参考 Fight Aging 报道，本期不做任何投资相关推断"
+        }
+      ],
+      "date": "2026-10-28",
+      "data_datetime": "2026-10-22 18:32",
+      "generated_at": "2026-10-28 03:39",
+      "duration_sec": 449,
+      "audio": "audio/italy-longevity-medicine-ssn-roadmap-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural"
+    },
     {
-     "label": "Aging Cell 立场文件：长寿医学整合进意大利国家卫生服务体系（SSN）的背景、障碍与五步路径",
-     "doi": "10.18632/aging.206402",
-     "pmid": "",
-     "url": "https://doi.org/10.18632/aging.206402",
-     "note": "立场文件而非原始研究，五步路径为建议而非已实施政策；文件自述多组学生物标志物与数字健康监测多数仍处探索/替代终点阶段、过早应用存在风险；站内另参考 Fight Aging 报道，本期不做任何投资相关推断"
-    }
-   ],
-   "date": "2026-10-28",
-   "data_datetime": "2026-10-22 18:32",
-   "generated_at": "2026-10-28 03:39",
-   "duration_sec": 449,
-   "audio": "audio/italy-longevity-medicine-ssn-roadmap-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  {
-   "id": "ep036",
-   "slug": "dog-aging-project-41047-survival-2026",
-   "series": "论文精读",
-   "title": "四万一千只狗的寿命方程：体型、血统，还有你住在哪里",
-   "desc": "41,047 只伴侣犬的生存分析：中位寿命从小型犬 14 年到巨型犬不足 10 年；校正人口学后城乡差异不再显著而地区差异仍显著，且与人类死亡率模式正相关（r=0.43）。",
-   "article_slugs": [
-    "news/Dog-Aging-Project-Longevity-Factors-41047-Dogs-Geroscience-2026.html"
-   ],
-   "sources": [
+      "id": "ep036",
+      "slug": "dog-aging-project-41047-survival-2026",
+      "series": "论文精读",
+      "title": "四万一千只狗的寿命方程：体型、血统，还有你住在哪里",
+      "desc": "41,047 只伴侣犬的生存分析：中位寿命从小型犬 14 年到巨型犬不足 10 年；校正人口学后城乡差异不再显著而地区差异仍显著，且与人类死亡率模式正相关（r=0.43）。",
+      "article_slugs": [
+        "news/Dog-Aging-Project-Longevity-Factors-41047-Dogs-Geroscience-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "GeroScience（2026）：Dog Aging Project 首批生存分析，41,047 只伴侣犬的寿命决定因素",
+          "doi": "10.1007/s11357-026-02448-9",
+          "pmid": "42945030",
+          "url": "https://doi.org/10.1007/s11357-026-02448-9",
+          "note": "观察性队列，死亡日期由主人报告；七十二个关联为相关而非因果；站内 B 级证据，核心结论来自动物模型，不能外推至人体"
+        }
+      ],
+      "date": "2026-10-29",
+      "data_datetime": "2026-10-28 05:51",
+      "generated_at": "2026-10-29 03:45",
+      "duration_sec": 302,
+      "audio": "audio/dog-aging-project-41047-survival-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural"
+    },
     {
-     "label": "GeroScience（2026）：Dog Aging Project 首批生存分析，41,047 只伴侣犬的寿命决定因素",
-     "doi": "10.1007/s11357-026-02448-9",
-     "pmid": "42945030",
-     "url": "https://doi.org/10.1007/s11357-026-02448-9",
-     "note": "观察性队列，死亡日期由主人报告；七十二个关联为相关而非因果；站内 B 级证据，核心结论来自动物模型，不能外推至人体"
-    }
-   ],
-   "date": "2026-10-29",
-   "data_datetime": "2026-10-28 05:51",
-   "generated_at": "2026-10-29 03:45",
-   "duration_sec": 302,
-   "audio": "audio/dog-aging-project-41047-survival-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  {
-   "id": "ep037",
-   "slug": "hiv-epigenetic-age-acceleration-meta-2026",
-   "series": "论文精读",
-   "title": "表观遗传时钟快了 3.41 年：一份 55 项研究的荟萃，和一个没人填的空白",
-   "desc": "14 项 HorvathAge 表观年龄加速的随机效应荟萃给出平均差 3.41 年（95%CI 2.22–4.60）；同时暴露出「无一项研究聚焦 65 岁以上」的证据空白。",
-   "article_slugs": [
-    "news/HIV-Epigenetic-Aging-Metaanalysis-JGerontolA-2026.html"
-   ],
-   "sources": [
+      "id": "ep037",
+      "slug": "hiv-epigenetic-age-acceleration-meta-2026",
+      "series": "论文精读",
+      "title": "表观遗传时钟快了 3.41 年：一份 55 项研究的荟萃，和一个没人填的空白",
+      "desc": "14 项 HorvathAge 表观年龄加速的随机效应荟萃给出平均差 3.41 年（95%CI 2.22–4.60）；同时暴露出「无一项研究聚焦 65 岁以上」的证据空白。",
+      "article_slugs": [
+        "news/HIV-Epigenetic-Aging-Metaanalysis-JGerontolA-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "The Journals of Gerontology: Series A（2026）：HIV 感染与表观遗传年龄加速的系统综述与荟萃分析",
+          "doi": "10.1093/gerona/glag252",
+          "pmid": "42921758",
+          "url": "https://doi.org/10.1093/gerona/glag252",
+          "note": "55 项纳入研究，异质性大（人群、样本、芯片平台、所用时钟均不统一）；仅 6 项纳入 18 岁以下、无一项聚焦 65 岁以上；站内 A 级证据指证据层级，非个体外推许可"
+        }
+      ],
+      "date": "2026-10-29",
+      "data_datetime": "2026-10-28 05:51",
+      "generated_at": "2026-10-29 03:45",
+      "duration_sec": 283,
+      "audio": "audio/hiv-epigenetic-age-acceleration-meta-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural"
+    },
     {
-     "label": "The Journals of Gerontology: Series A（2026）：HIV 感染与表观遗传年龄加速的系统综述与荟萃分析",
-     "doi": "10.1093/gerona/glag252",
-     "pmid": "42921758",
-     "url": "https://doi.org/10.1093/gerona/glag252",
-     "note": "55 项纳入研究，异质性大（人群、样本、芯片平台、所用时钟均不统一）；仅 6 项纳入 18 岁以下、无一项聚焦 65 岁以上；站内 A 级证据指证据层级，非个体外推许可"
-    }
-   ],
-   "date": "2026-10-29",
-   "data_datetime": "2026-10-28 05:51",
-   "generated_at": "2026-10-29 03:45",
-   "duration_sec": 283,
-   "audio": "audio/hiv-epigenetic-age-acceleration-meta-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  {
-   "id": "ep038",
-   "slug": "mitochondrial-biomarkers-neurology-2026",
-   "series": "机制十分钟",
-   "title": "线粒体进神经科要过四道关：一份清单，和一句「还不能横向比」",
-   "desc": "综述把线粒体标志物分为体液、遗传、多组学、影像四类，跨病种指向生物能量学、氧化还原稳态、线粒体基因组维持与炎症信号四条共同紊乱。",
-   "article_slugs": [
-    "news/Mitochondrial-Biomarkers-Neurology-Clinical-Implications-NatRevNeurol-2026.html"
-   ],
-   "sources": [
+      "id": "ep038",
+      "slug": "mitochondrial-biomarkers-neurology-2026",
+      "series": "机制十分钟",
+      "title": "线粒体进神经科要过四道关：一份清单，和一句「还不能横向比」",
+      "desc": "综述把线粒体标志物分为体液、遗传、多组学、影像四类，跨病种指向生物能量学、氧化还原稳态、线粒体基因组维持与炎症信号四条共同紊乱。",
+      "article_slugs": [
+        "news/Mitochondrial-Biomarkers-Neurology-Clinical-Implications-NatRevNeurol-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Nature Reviews Neurology（2026）：线粒体生物标志物在神经科的临床意义综述",
+          "doi": "10.1038/s41582-026-01274-z",
+          "pmid": "",
+          "url": "https://doi.org/10.1038/s41582-026-01274-z",
+          "note": "综述，站内 A 级证据，依据英文摘要整理未取全文；作者明示临床落地仍受方法学异质性、生物变异性与疾病特异性不足限制；目前无任何单一指标可跨研究横向比较"
+        }
+      ],
+      "date": "2026-10-29",
+      "data_datetime": "2026-10-28 05:51",
+      "generated_at": "2026-10-29 03:45",
+      "duration_sec": 294,
+      "audio": "audio/mitochondrial-biomarkers-neurology-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural"
+    },
     {
-     "label": "Nature Reviews Neurology（2026）：线粒体生物标志物在神经科的临床意义综述",
-     "doi": "10.1038/s41582-026-01274-z",
-     "pmid": "",
-     "url": "https://doi.org/10.1038/s41582-026-01274-z",
-     "note": "综述，站内 A 级证据，依据英文摘要整理未取全文；作者明示临床落地仍受方法学异质性、生物变异性与疾病特异性不足限制；目前无任何单一指标可跨研究横向比较"
-    }
-   ],
-   "date": "2026-10-29",
-   "data_datetime": "2026-10-28 05:51",
-   "generated_at": "2026-10-29 03:45",
-   "duration_sec": 294,
-   "audio": "audio/mitochondrial-biomarkers-neurology-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  {
-   "id": "ep039",
-   "slug": "mitoq-human-preantral-follicle-2026",
-   "series": "打假与证伪",
-   "title": "线粒体抗氧化剂在人类卵泡上翻车：成熟期有益，不等于早期也有益",
-   "desc": "人类卵巢皮质与窦前卵泡体外模型中，Mito-Q 未改善卵泡存活率与密度，浓度升高反伴随颗粒细胞凋亡增加与窦前卵泡生长受限。",
-   "article_slugs": [
-    "news/MitoQ-Mitochondria-Targeted-Antioxidant-Human-Preantral-Follicle-MolHumReprod-2026.html"
-   ],
-   "sources": [
+      "id": "ep039",
+      "slug": "mitoq-human-preantral-follicle-2026",
+      "series": "打假与证伪",
+      "title": "线粒体抗氧化剂在人类卵泡上翻车：成熟期有益，不等于早期也有益",
+      "desc": "人类卵巢皮质与窦前卵泡体外模型中，Mito-Q 未改善卵泡存活率与密度，浓度升高反伴随颗粒细胞凋亡增加与窦前卵泡生长受限。",
+      "article_slugs": [
+        "news/MitoQ-Mitochondria-Targeted-Antioxidant-Human-Preantral-Follicle-MolHumReprod-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Molecular Human Reproduction（2026）：线粒体靶向抗氧化剂对人类卵巢组织与窦前卵泡的影响",
+          "doi": "10.1093/molehr/gaag062",
+          "pmid": "",
+          "url": "https://doi.org/10.1093/molehr/gaag062",
+          "note": "体外研究，浓度与体内暴露不可直接换算；组织来源为特定临床人群且样本量有限；结论限于早期卵泡发生与生育力保存场景，不应读成「Mito-Q 对人体有害」的泛化判断"
+        }
+      ],
+      "date": "2026-10-29",
+      "data_datetime": "2026-10-28 05:51",
+      "generated_at": "2026-10-29 03:45",
+      "duration_sec": 265,
+      "audio": "audio/mitoq-human-preantral-follicle-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural"
+    },
     {
-     "label": "Molecular Human Reproduction（2026）：线粒体靶向抗氧化剂对人类卵巢组织与窦前卵泡的影响",
-     "doi": "10.1093/molehr/gaag062",
-     "pmid": "",
-     "url": "https://doi.org/10.1093/molehr/gaag062",
-     "note": "体外研究，浓度与体内暴露不可直接换算；组织来源为特定临床人群且样本量有限；结论限于早期卵泡发生与生育力保存场景，不应读成「Mito-Q 对人体有害」的泛化判断"
-    }
-   ],
-   "date": "2026-10-29",
-   "data_datetime": "2026-10-28 05:51",
-   "generated_at": "2026-10-29 03:45",
-   "duration_sec": 265,
-   "audio": "audio/mitoq-human-preantral-follicle-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  {
-   "id": "ep040",
-   "slug": "nmn-cardiac-hypertrophy-hypoxia-2026",
-   "series": "打假与证伪",
-   "title": "NMN 的一次未达主要终点：应激标志物压住了，心脏肥厚没挡住",
-   "desc": "间歇常压低氧小鼠中，NMN 显著减弱右心室 BNP 与 Myh7 表达，却未在器官层面阻止心脏肥厚，血清 LDH 活性反而进一步升高。",
-   "article_slugs": [
-    "news/NMN-Does-Not-Prevent-Cardiac-Hypertrophy-Hypoxia-Mice-Nutrients-2026.html"
-   ],
-   "sources": [
+      "id": "ep040",
+      "slug": "nmn-cardiac-hypertrophy-hypoxia-2026",
+      "series": "打假与证伪",
+      "title": "NMN 的一次未达主要终点：应激标志物压住了，心脏肥厚没挡住",
+      "desc": "间歇常压低氧小鼠中，NMN 显著减弱右心室 BNP 与 Myh7 表达，却未在器官层面阻止心脏肥厚，血清 LDH 活性反而进一步升高。",
+      "article_slugs": [
+        "news/NMN-Does-Not-Prevent-Cardiac-Hypertrophy-Hypoxia-Mice-Nutrients-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Nutrients（2026）：间歇常压低氧小鼠中 NMN 对心脏肥厚与应激标志物的作用",
+          "doi": "10.3390/nu18203334",
+          "pmid": "42942905",
+          "url": "https://doi.org/10.3390/nu18203334",
+          "note": "作者自称探索性结果；低氧模型与人类心脏衰老不同；未见剂量-反应与长期随访；站内 B 级证据，来自动物模型，不能外推至人体"
+        }
+      ],
+      "date": "2026-10-29",
+      "data_datetime": "2026-10-28 05:51",
+      "generated_at": "2026-10-29 03:45",
+      "duration_sec": 282,
+      "audio": "audio/nmn-cardiac-hypertrophy-hypoxia-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural"
+    },
     {
-     "label": "Nutrients（2026）：间歇常压低氧小鼠中 NMN 对心脏肥厚与应激标志物的作用",
-     "doi": "10.3390/nu18203334",
-     "pmid": "42942905",
-     "url": "https://doi.org/10.3390/nu18203334",
-     "note": "作者自称探索性结果；低氧模型与人类心脏衰老不同；未见剂量-反应与长期随访；站内 B 级证据，来自动物模型，不能外推至人体"
-    }
-   ],
-   "date": "2026-10-29",
-   "data_datetime": "2026-10-28 05:51",
-   "generated_at": "2026-10-29 03:45",
-   "duration_sec": 282,
-   "audio": "audio/nmn-cardiac-hypertrophy-hypoxia-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  {
-   "id": "ep041",
-   "slug": "cellular-senescence-assessment-guide-2026",
-   "series": "机制十分钟",
-   "title": "一个染色阳性就说「细胞衰老了」：一份更新版指南要纠正的正是这件事",
-   "desc": "更新版指南把细胞衰老检测扩展到细胞周期与形态、转录组特征、基于荧光的活细胞工具三类，并强调单一标志物判定衰老在方法学上不充分。",
-   "article_slugs": [
-    "news/Updated-Guide-Assessment-Mammalian-Cellular-Senescence-MolCells-2026.html"
-   ],
-   "sources": [
+      "id": "ep041",
+      "slug": "cellular-senescence-assessment-guide-2026",
+      "series": "机制十分钟",
+      "title": "一个染色阳性就说「细胞衰老了」：一份更新版指南要纠正的正是这件事",
+      "desc": "更新版指南把细胞衰老检测扩展到细胞周期与形态、转录组特征、基于荧光的活细胞工具三类，并强调单一标志物判定衰老在方法学上不充分。",
+      "article_slugs": [
+        "news/Updated-Guide-Assessment-Mammalian-Cellular-Senescence-MolCells-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Molecules and Cells（2026）：哺乳动物细胞衰老评估的更新版方法指南",
+          "doi": "10.1016/j.mocell.2026.100408",
+          "pmid": "42946057",
+          "url": "https://doi.org/10.1016/j.mocell.2026.100408",
+          "note": "MiniResource 体裁，是操作指南而非新数据；摘要未给出具体判读阈值，实操细节需看全文"
+        }
+      ],
+      "date": "2026-10-29",
+      "data_datetime": "2026-10-28 05:51",
+      "generated_at": "2026-10-29 03:45",
+      "duration_sec": 256,
+      "audio": "audio/cellular-senescence-assessment-guide-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural"
+    },
     {
-     "label": "Molecules and Cells（2026）：哺乳动物细胞衰老评估的更新版方法指南",
-     "doi": "10.1016/j.mocell.2026.100408",
-     "pmid": "42946057",
-     "url": "https://doi.org/10.1016/j.mocell.2026.100408",
-     "note": "MiniResource 体裁，是操作指南而非新数据；摘要未给出具体判读阈值，实操细节需看全文"
-    }
-   ],
-   "date": "2026-10-29",
-   "data_datetime": "2026-10-28 05:51",
-   "generated_at": "2026-10-29 03:45",
-   "duration_sec": 256,
-   "audio": "audio/cellular-senescence-assessment-guide-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  {
-   "id": "ep042",
-   "slug": "bcg-tau-ps19-mice-2026",
-   "series": "论文精读",
-   "title": "卡介苗在 tau 病小鼠里做了什么：病理退了、转录组回摆，边界也还在",
-   "desc": "PS19 小鼠给药后海马磷酸化 tau 减少、脑萎缩减缓，疾病相关基因表达特征几乎回归健康对照；人群证据仍是回顾性，效应量跨度 12%~78%。",
-   "article_slugs": [
-    "news/BCG-Vaccination-Tau-Pathology-PS19-Mice-SciAdv-2026.html"
-   ],
-   "sources": [
+      "id": "ep042",
+      "slug": "bcg-tau-ps19-mice-2026",
+      "series": "论文精读",
+      "title": "卡介苗在 tau 病小鼠里做了什么：病理退了、转录组回摆，边界也还在",
+      "desc": "PS19 小鼠给药后海马磷酸化 tau 减少、脑萎缩减缓，疾病相关基因表达特征几乎回归健康对照；人群证据仍是回顾性，效应量跨度 12%~78%。",
+      "article_slugs": [
+        "news/BCG-Vaccination-Tau-Pathology-PS19-Mice-SciAdv-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Science Advances（2026）：卡介苗接种对 PS19 tau 病小鼠病理、影像与髓系细胞重编程的影响",
+          "doi": "10.1126/sciadv.aej4603",
+          "pmid": "",
+          "url": "https://doi.org/10.1126/sciadv.aej4603",
+          "note": "小鼠单一模型、单一品系；人群证据为回顾性且效应量跨度极大；从接种卡介苗到可用于神经退行病之间仍有很长的路"
+        }
+      ],
+      "date": "2026-10-29",
+      "data_datetime": "2026-10-28 05:51",
+      "generated_at": "2026-10-29 03:45",
+      "duration_sec": 280,
+      "audio": "audio/bcg-tau-ps19-mice-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural"
+    },
     {
-     "label": "Science Advances（2026）：卡介苗接种对 PS19 tau 病小鼠病理、影像与髓系细胞重编程的影响",
-     "doi": "10.1126/sciadv.aej4603",
-     "pmid": "",
-     "url": "https://doi.org/10.1126/sciadv.aej4603",
-     "note": "小鼠单一模型、单一品系；人群证据为回顾性且效应量跨度极大；从接种卡介苗到可用于神经退行病之间仍有很长的路"
-    }
-   ],
-   "date": "2026-10-29",
-   "data_datetime": "2026-10-28 05:51",
-   "generated_at": "2026-10-29 03:45",
-   "duration_sec": 280,
-   "audio": "audio/bcg-tau-ps19-mice-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  {
-   "id": "ep043",
-   "slug": "oskm-partial-reprogramming-stroke-2026",
-   "series": "论文精读",
-   "title": "部分重编程扛不扛得住一次卒中：老年小鼠四十八小时的实测",
-   "desc": "老年小鼠诱导 OSKM 后接受永久性大脑中动脉闭塞，48 小时损伤面积更小、髓鞘完整性保留、Olig2⁺ 与 PDGFRα⁺ 细胞增加。",
-   "article_slugs": [
-    "news/OSKM-Partial-Reprogramming-Ischemic-Brain-Damage-Aging-AgingCell-2026.html"
-   ],
-   "sources": [
+      "id": "ep043",
+      "slug": "oskm-partial-reprogramming-stroke-2026",
+      "series": "论文精读",
+      "title": "部分重编程扛不扛得住一次卒中：老年小鼠四十八小时的实测",
+      "desc": "老年小鼠诱导 OSKM 后接受永久性大脑中动脉闭塞，48 小时损伤面积更小、髓鞘完整性保留、Olig2⁺ 与 PDGFRα⁺ 细胞增加。",
+      "article_slugs": [
+        "news/OSKM-Partial-Reprogramming-Ischemic-Brain-Damage-Aging-AgingCell-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Aging Cell（2026）：部分重编程（OSKM）对老年小鼠缺血性脑损伤的作用",
+          "doi": "10.1111/acel.70776",
+          "pmid": "",
+          "url": "https://doi.org/10.1111/acel.70776",
+          "note": "观察窗仅 48 小时，属急性期读数；缺失长期生存、长期功能与剂量安全性数据；重编程是否直接作用于少突胶质细胞谱系尚未被因果证明"
+        }
+      ],
+      "date": "2026-10-29",
+      "data_datetime": "2026-10-28 05:51",
+      "generated_at": "2026-10-29 03:45",
+      "duration_sec": 295,
+      "audio": "audio/oskm-partial-reprogramming-stroke-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural"
+    },
     {
-     "label": "Aging Cell（2026）：部分重编程（OSKM）对老年小鼠缺血性脑损伤的作用",
-     "doi": "10.1111/acel.70776",
-     "pmid": "",
-     "url": "https://doi.org/10.1111/acel.70776",
-     "note": "观察窗仅 48 小时，属急性期读数；缺失长期生存、长期功能与剂量安全性数据；重编程是否直接作用于少突胶质细胞谱系尚未被因果证明"
-    }
-   ],
-   "date": "2026-10-29",
-   "data_datetime": "2026-10-28 05:51",
-   "generated_at": "2026-10-29 03:45",
-   "duration_sec": 295,
-   "audio": "audio/oskm-partial-reprogramming-stroke-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  {
-   "id": "ep044",
-   "slug": "glial-lipid-reprogramming-brain-aging-2026",
-   "series": "机制十分钟",
-   "title": "脑衰老里的脂质问题不是「变多了」，而是「换了身份」",
-   "desc": "综述主张衰老脑胶质细胞的氧化还原脆弱性不取决于脂质有多少，而取决于酰基链饱和度、头基结构、氧化脂质种类与缩醛磷脂缓冲等化学性质。",
-   "article_slugs": [
-    "news/Glial-Lipid-Reprogramming-Brain-Aging-Redox-Biology-2026.html"
-   ],
-   "sources": [
+      "id": "ep044",
+      "slug": "glial-lipid-reprogramming-brain-aging-2026",
+      "series": "机制十分钟",
+      "title": "脑衰老里的脂质问题不是「变多了」，而是「换了身份」",
+      "desc": "综述主张衰老脑胶质细胞的氧化还原脆弱性不取决于脂质有多少，而取决于酰基链饱和度、头基结构、氧化脂质种类与缩醛磷脂缓冲等化学性质。",
+      "article_slugs": [
+        "news/Glial-Lipid-Reprogramming-Brain-Aging-Redox-Biology-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Redox Biology（2026）：胶质细胞脂质重编程与衰老脑氧化还原脆弱性综述",
+          "doi": "10.1016/j.redox.2026.104453",
+          "pmid": "42927732",
+          "url": "https://doi.org/10.1016/j.redox.2026.104453",
+          "note": "综述框架主张，非干预有效性的证据；站内 B 级证据，来自临床前证据或二次文献，不能外推至人体"
+        }
+      ],
+      "date": "2026-10-29",
+      "data_datetime": "2026-10-28 05:51",
+      "generated_at": "2026-10-29 03:45",
+      "duration_sec": 265,
+      "audio": "audio/glial-lipid-reprogramming-brain-aging-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural"
+    },
     {
-     "label": "Redox Biology（2026）：胶质细胞脂质重编程与衰老脑氧化还原脆弱性综述",
-     "doi": "10.1016/j.redox.2026.104453",
-     "pmid": "42927732",
-     "url": "https://doi.org/10.1016/j.redox.2026.104453",
-     "note": "综述框架主张，非干预有效性的证据；站内 B 级证据，来自临床前证据或二次文献，不能外推至人体"
-    }
-   ],
-   "date": "2026-10-29",
-   "data_datetime": "2026-10-28 05:51",
-   "generated_at": "2026-10-29 03:45",
-   "duration_sec": 265,
-   "audio": "audio/glial-lipid-reprogramming-brain-aging-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  {
-   "id": "ep045",
-   "slug": "tcell-exhaustion-proteostasis-atlas-2026",
-   "series": "论文精读",
-   "title": "T 细胞耗竭的底层可能是蛋白稳态崩了：一份多组学图谱给出的落点",
-   "desc": "四层多组学图谱把蛋白稳态崩溃定义为 T 细胞耗竭的中心特征；过表达 E3 连接酶 RNF166 在体外与体内均增强 T 细胞持久性。",
-   "article_slugs": [
-    "news/Proteomic-Atlas-T-Cell-Exhaustion-Proteostatic-Collapse-Cell-2026.html"
-   ],
-   "sources": [
+      "id": "ep045",
+      "slug": "tcell-exhaustion-proteostasis-atlas-2026",
+      "series": "论文精读",
+      "title": "T 细胞耗竭的底层可能是蛋白稳态崩了：一份多组学图谱给出的落点",
+      "desc": "四层多组学图谱把蛋白稳态崩溃定义为 T 细胞耗竭的中心特征；过表达 E3 连接酶 RNF166 在体外与体内均增强 T 细胞持久性。",
+      "article_slugs": [
+        "news/Proteomic-Atlas-T-Cell-Exhaustion-Proteostatic-Collapse-Cell-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Cell（2026）：T 细胞耗竭的多组学图谱，蛋白稳态崩溃作为中心特征",
+          "doi": "10.1016/j.cell.2026.09.051",
+          "pmid": "42906538",
+          "url": "https://doi.org/10.1016/j.cell.2026.09.051",
+          "note": "具体蛋白数、周转速率变化倍数与 RNF166 过表达的体内疗效幅度摘要未给出，站内标注待补全文；E3 连接酶与免疫治疗结局的关联仍属相关性证据"
+        }
+      ],
+      "date": "2026-10-29",
+      "data_datetime": "2026-10-28 05:51",
+      "generated_at": "2026-10-29 03:45",
+      "duration_sec": 261,
+      "audio": "audio/tcell-exhaustion-proteostasis-atlas-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural"
+    },
     {
-     "label": "Cell（2026）：T 细胞耗竭的多组学图谱，蛋白稳态崩溃作为中心特征",
-     "doi": "10.1016/j.cell.2026.09.051",
-     "pmid": "42906538",
-     "url": "https://doi.org/10.1016/j.cell.2026.09.051",
-     "note": "具体蛋白数、周转速率变化倍数与 RNF166 过表达的体内疗效幅度摘要未给出，站内标注待补全文；E3 连接酶与免疫治疗结局的关联仍属相关性证据"
-    }
-   ],
-   "date": "2026-10-29",
-   "data_datetime": "2026-10-28 05:51",
-   "generated_at": "2026-10-29 03:45",
-   "duration_sec": 261,
-   "audio": "audio/tcell-exhaustion-proteostasis-atlas-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  {
-   "id": "ep046",
-   "slug": "ifn1-autoantibodies-centenarians-2026",
-   "series": "论文精读",
-   "title": "百岁老人的一个免疫悖论：抗病毒自身抗体不再随年龄上升了",
-   "desc": "四个队列 938 名百岁老人中 5.4% 携带中和性 I 型干扰素自身抗体，相对「80 岁以上超过 6%」出现平台期（日本 3.3%~哥伦比亚 9.1%）。",
-   "article_slugs": [
-    "news/Type-I-Interferon-Autoantibodies-Plateau-Centernarians-JHumImmun-2026.html"
-   ],
-   "sources": [
+      "id": "ep046",
+      "slug": "ifn1-autoantibodies-centenarians-2026",
+      "series": "论文精读",
+      "title": "百岁老人的一个免疫悖论：抗病毒自身抗体不再随年龄上升了",
+      "desc": "四个队列 938 名百岁老人中 5.4% 携带中和性 I 型干扰素自身抗体，相对「80 岁以上超过 6%」出现平台期（日本 3.3%~哥伦比亚 9.1%）。",
+      "article_slugs": [
+        "news/Type-I-Interferon-Autoantibodies-Plateau-Centernarians-JHumImmun-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Journal of Human Immunity（2026）：四个队列 938 名百岁老人中和性 I 型干扰素自身抗体患病率",
+          "doi": "10.70962/jhi.20260143",
+          "pmid": "42944855",
+          "url": "https://doi.org/10.70962/jhi.20260143",
+          "note": "横断面设计，无随访死亡率数据；5.4% 与「80 岁以上 >6%」为跨研究比较而非同一队列内部对照；四队列检测方法与入组标准一致性需看全文"
+        }
+      ],
+      "date": "2026-10-29",
+      "data_datetime": "2026-10-28 05:51",
+      "generated_at": "2026-10-29 03:45",
+      "duration_sec": 281,
+      "audio": "audio/ifn1-autoantibodies-centenarians-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural"
+    },
     {
-     "label": "Journal of Human Immunity（2026）：四个队列 938 名百岁老人中和性 I 型干扰素自身抗体患病率",
-     "doi": "10.70962/jhi.20260143",
-     "pmid": "42944855",
-     "url": "https://doi.org/10.70962/jhi.20260143",
-     "note": "横断面设计，无随访死亡率数据；5.4% 与「80 岁以上 >6%」为跨研究比较而非同一队列内部对照；四队列检测方法与入组标准一致性需看全文"
-    }
-   ],
-   "date": "2026-10-29",
-   "data_datetime": "2026-10-28 05:51",
-   "generated_at": "2026-10-29 03:45",
-   "duration_sec": 281,
-   "audio": "audio/ifn1-autoantibodies-centenarians-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural"
-  },
-  {
-   "id": "ep047",
-   "slug": "epigenetic-clocks-life-insurance-2026",
-   "series": "产业脉搏",
-   "title": "保险公司为什么还不买表观遗传时钟的账：四条理由，两个例外",
-   "desc": "《Insurance Science》列出四条障碍：个体层面不准、不等同于生物年龄、训练数据偏差、预测死亡率不优于年龄性别吸烟史血压 BMI 与病史。",
-   "article_slugs": [
-    "news/Biological-Clocks-Life-Insurance-Underwriting-2026.html"
-   ],
-   "sources": [
+      "id": "ep047",
+      "slug": "epigenetic-clocks-life-insurance-2026",
+      "series": "产业脉搏",
+      "title": "保险公司为什么还不买表观遗传时钟的账：四条理由，两个例外",
+      "desc": "《Insurance Science》列出四条障碍：个体层面不准、不等同于生物年龄、训练数据偏差、预测死亡率不优于年龄性别吸烟史血压 BMI 与病史。",
+      "article_slugs": [
+        "news/Biological-Clocks-Life-Insurance-Underwriting-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Insurance Science（2026）：生物衰老时钟用于人寿保险核保的可行性分析",
+          "doi": "10.17849/insm-53-2-1-5.1B",
+          "pmid": "",
+          "url": "https://doi.org/10.17849/insm-53-2-1-5.1B",
+          "note": "分析性文章，非原始研究；本期只转述其结论，不推荐任何检测产品、公司与检测服务，亦不作任何投资相关推断"
+        }
+      ],
+      "date": "2026-10-29",
+      "data_datetime": "2026-10-28 05:51",
+      "generated_at": "2026-10-29 03:45",
+      "duration_sec": 319,
+      "audio": "audio/epigenetic-clocks-life-insurance-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural"
+    },
     {
-     "label": "Insurance Science（2026）：生物衰老时钟用于人寿保险核保的可行性分析",
-     "doi": "10.17849/insm-53-2-1-5.1B",
-     "pmid": "",
-     "url": "https://doi.org/10.17849/insm-53-2-1-5.1B",
-     "note": "分析性文章，非原始研究；本期只转述其结论，不推荐任何检测产品、公司与检测服务，亦不作任何投资相关推断"
+      "id": "ep048",
+      "slug": "exercise-biological-aging-nonlinear-nhanes-2026",
+      "series": "论文精读",
+      "title": "运动与生物学衰老：中等量最优，最多那一档反而不显著",
+      "date": "2026-10-30",
+      "data_datetime": "2026-10-29 13:30",
+      "generated_at": "2026-10-30 03:43",
+      "duration_sec": 292,
+      "audio": "audio/exercise-biological-aging-nonlinear-nhanes-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "同一份 NHANES 数据里，中等活动量在三项生物学衰老指标上全部显著更低，而最高活动量组一项都不显著；样条显示剂量反应不是单调的。",
+      "article_slugs": [
+        "news/Physical-Activity-Biological-Aging-Multisystem-NHANES-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Science Progress（2026）：体力活动与生物学衰老的多系统评估",
+          "doi": "10.1177/00368504261502626",
+          "pmid": "42947581",
+          "url": "https://doi.org/10.1177/00368504261502626"
+        }
+      ]
+    },
+    {
+      "id": "ep049",
+      "slug": "plasma-dha-frailty-uk-biobank-2026",
+      "series": "论文精读",
+      "title": "三万八千人随访十三年：与衰弱相关的只有 DHA，不是「鱼油」",
+      "date": "2026-10-30",
+      "data_datetime": "2026-10-29 13:30",
+      "generated_at": "2026-10-30 03:43",
+      "duration_sec": 258,
+      "audio": "audio/plasma-dha-frailty-uk-biobank-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "三万八千余人随访十三年，只有血浆 DHA 与新发衰弱负相关；非 DHA 的 n-3 与总 n-3 校正后均不显著。",
+      "article_slugs": [
+        "news/Plasma-DHA-Frailty-Incidence-UK-Biobank-JNHA-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "J Nutr Health Aging（2026）：血浆 DHA 与衰弱发生率的 UK Biobank 前瞻分析",
+          "doi": "10.1016/j.jnha.2026.101019",
+          "pmid": "42950709",
+          "url": "https://doi.org/10.1016/j.jnha.2026.101019",
+          "note": "本期只陈述研究设计与结论，不推荐任何补剂、品牌或剂量方案"
+        }
+      ]
+    },
+    {
+      "id": "ep050",
+      "slug": "regional-brain-age-mortality-cellrepmed-2026",
+      "series": "论文精读",
+      "title": "脑龄要分区域看：三个脑区的组合，比全脑均值更能预测十年死亡",
+      "date": "2026-10-30",
+      "data_datetime": "2026-10-29 13:30",
+      "generated_at": "2026-10-30 03:43",
+      "duration_sec": 257,
+      "audio": "audio/regional-brain-age-mortality-cellrepmed-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "一千二百四十人十年随访，数据驱动的三脑区模型预测死亡的判别力优于全脑脑龄，并与补体激活、适应性免疫失调两条血浆蛋白通路收敛。",
+      "article_slugs": [
+        "news/Regional-Brain-Aging-Signatures-Mortality-Neurovascular-Immune-CellRepMed-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Cell Reports Medicine（2026）：区域脑龄特征经神经血管免疫机制预测死亡",
+          "doi": "10.1016/j.xcrm.2026.103096",
+          "pmid": "42843341",
+          "url": "https://doi.org/10.1016/j.xcrm.2026.103096"
+        }
+      ]
+    },
+    {
+      "id": "ep051",
+      "slug": "exercise-snacks-sarcopenia-mortality-2026",
+      "series": "论文精读",
+      "title": "运动零食与肌少症：每天多一分钟，比值比降百分之九",
+      "date": "2026-10-30",
+      "data_datetime": "2026-10-29 13:30",
+      "generated_at": "2026-10-30 03:43",
+      "duration_sec": 243,
+      "audio": "audio/exercise-snacks-sarcopenia-mortality-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "加速度计测到的「运动零食」与较低肌少症患病率、更高握力和更低全因死亡相关，但分析样本从近两万人缩到两千九百余人。",
+      "article_slugs": [
+        "news/Exercise-Snacks-Sarcopenia-Mortality-National-Cohort-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Biol Sport（2026）：运动零食与肌少症及全因死亡的全国队列剂量关联",
+          "doi": "10.5114/biolsport.2026.163369",
+          "pmid": "42948631",
+          "url": "https://doi.org/10.5114/biolsport.2026.163369"
+        }
+      ]
+    },
+    {
+      "id": "ep052",
+      "slug": "frailty-versus-multimorbidity-hospitalised-2026",
+      "series": "论文精读",
+      "title": "住院老年患者的预后：衰弱比共病更能定生死，而且两者不是简单相加",
+      "date": "2026-10-30",
+      "data_datetime": "2026-10-29 13:30",
+      "generated_at": "2026-10-30 03:43",
+      "duration_sec": 254,
+      "audio": "audio/frailty-versus-multimorbidity-hospitalised-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "两千零六名住院老年患者中，临床衰弱量表每增一分死亡风险升百分之五十，且与查尔森共病指数存在方向出人意料的负交互。",
+      "article_slugs": [
+        "news/Frailty-Versus-Multimorbidity-Hospitalised-Older-Adults-JNHA-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "J Nutr Health Aging（2026）：住院老年患者衰弱与多重共病的预后比较",
+          "doi": "10.1016/j.jnha.2026.101023",
+          "pmid": "42950711",
+          "url": "https://doi.org/10.1016/j.jnha.2026.101023"
+        }
+      ]
+    },
+    {
+      "id": "ep053",
+      "slug": "chatbot-cognitive-training-white-matter-rct-2026",
+      "series": "论文精读",
+      "title": "聊天机器人做认知训练十二周：白质下降变慢了，但只有一项记忆指标改善",
+      "date": "2026-10-30",
+      "data_datetime": "2026-10-29 13:30",
+      "generated_at": "2026-10-30 03:43",
+      "duration_sec": 252,
+      "audio": "audio/chatbot-cognitive-training-white-matter-rct-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "七十二人单盲 RCT：聊天机器人认知训练十二周后，双侧毯部与右侧丘脑后辐射的白质下降更慢，配对联想学习改善。",
+      "article_slugs": [
+        "news/Chatbot-Cognitive-Training-White-Matter-RCT-JMIR-Aging-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "JMIR Aging（2026）：聊天机器人认知训练对认知功能与白质完整性的随机对照试验",
+          "doi": "10.2196/94127",
+          "pmid": "42950244",
+          "url": "https://doi.org/10.2196/94127"
+        }
+      ]
+    },
+    {
+      "id": "ep054",
+      "slug": "loneliness-hearing-cognitive-aging-share-mr-2026",
+      "series": "论文精读",
+      "title": "孤独是不是听力下降通向认知老化的那条路：证据说，可能不是",
+      "date": "2026-10-30",
+      "data_datetime": "2026-10-29 13:30",
+      "generated_at": "2026-10-30 03:43",
+      "duration_sec": 277,
+      "audio": "audio/loneliness-hearing-cognitive-aging-share-mr-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "SHARE 十八年纵向数据加孟德尔随机化：横断面关联显著，但变化到变化的间接效应不显著，孤独作为主要因果通路证据有限。",
+      "article_slugs": [
+        "news/Loneliness-Hearing-Decline-Cognitive-Aging-SHARE-MR-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Alzheimers Dement（2026）：孤独作为听力下降与认知老化通路的纵向与遗传证据",
+          "doi": "10.1002/alz.71950",
+          "pmid": "42949226",
+          "url": "https://doi.org/10.1002/alz.71950"
+        }
+      ]
+    },
+    {
+      "id": "ep055",
+      "slug": "us-population-health-biomarkers-lower-tail-2026",
+      "series": "论文精读",
+      "title": "美国人群健康这三十年：恶化集中在最不健康的那一端，三分之一来自老龄化",
+      "date": "2026-10-30",
+      "data_datetime": "2026-10-29 13:30",
+      "generated_at": "2026-10-30 03:43",
+      "duration_sec": 242,
+      "audio": "audio/us-population-health-biomarkers-lower-tail-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "七项生物标志物的非参数重排：美国人群健康分布显著恶化且集中在下尾，约三分之一可归因于人口结构变化。",
+      "article_slugs": [
+        "news/US-Population-Health-Biomarkers-Deterioration-HealthEcon-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Health Economics（2026）：美国人群健康变化的生物标志物证据",
+          "doi": "10.1002/hec.70162",
+          "pmid": "42946664",
+          "url": "https://doi.org/10.1002/hec.70162"
+        }
+      ]
+    },
+    {
+      "id": "ep056",
+      "slug": "nadph-redox-bottleneck-senescence-2026",
+      "series": "机制十分钟",
+      "title": "只把 NADH 拉回来不够：衰老细胞的真正瓶颈可能是 NADPH",
+      "date": "2026-10-30",
+      "data_datetime": "2026-10-29 13:30",
+      "generated_at": "2026-10-30 03:43",
+      "duration_sec": 255,
+      "audio": "audio/nadph-redox-bottleneck-senescence-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "人原代成纤维细胞里，只把 NADH/NAD⁺ 比值恢复正常而 NADPH 仍亏空时，增殖救不回来；扩大 NADP(H) 池才逆转增殖停滞与衰老特征。",
+      "article_slugs": [
+        "news/NAD-P-H-Redox-Coupling-NADPH-Senescence-NatMetab-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Nature Metabolism（2026）：NAD(P)H 稳态的遗传调控揭示氧化还原偶联的代谢脆弱性",
+          "doi": "10.1038/s42255-026-01640-7",
+          "pmid": "42875582",
+          "url": "https://doi.org/10.1038/s42255-026-01640-7",
+          "note": "本期只陈述细胞代谢机制，不推荐任何补剂、品牌或剂量方案"
+        }
+      ]
+    },
+    {
+      "id": "ep057",
+      "slug": "aging-neutrophil-retrotransposon-interferon-2026",
+      "series": "机制十分钟",
+      "title": "中性粒细胞随年龄变「吵」：下降的不是能力，是安静程度",
+      "date": "2026-10-30",
+      "data_datetime": "2026-10-29 13:30",
+      "generated_at": "2026-10-30 03:43",
+      "duration_sec": 242,
+      "audio": "audio/aging-neutrophil-retrotransposon-interferon-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "三组年龄对照：中性粒细胞吞噬与 NETosis 并未下降，变的是 CD66b、IL-8 与基线活性氧，以及 LTR/LINE 反转录转座子伴随的干扰素基因上调。",
+      "article_slugs": [
+        "news/Aging-Neutrophil-Function-Humans-Retrotransposon-Interferon-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Cellular Immunology（2026）：衰老对人中性粒细胞功能的影响",
+          "doi": "10.1016/j.cellimm.2026.105166",
+          "pmid": "42950440",
+          "url": "https://doi.org/10.1016/j.cellimm.2026.105166"
+        }
+      ]
+    },
+    {
+      "id": "ep058",
+      "slug": "hrt-epigenetic-clock-esr1-mr-2026",
+      "series": "论文精读",
+      "title": "用表观遗传钟看激素替代治疗：一个 ESR1 通路的信号，和它的边界",
+      "date": "2026-10-30",
+      "data_datetime": "2026-10-29 13:30",
+      "generated_at": "2026-10-30 03:43",
+      "duration_sec": 268,
+      "audio": "audio/hrt-epigenetic-clock-esr1-mr-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "药物靶点孟德尔随机化把 ESR1 表达与表型表观遗传年龄加速减缓联系起来；六百七十三名绝经后女性中激素治疗组表观年龄更低，但存在选择偏倚。",
+      "article_slugs": [
+        "news/Hormone-Replacement-Therapy-Epigenetic-Clock-Estrogen-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Biol Sex Differ（2026）：雌激素信号、血糖状态与寿命，ESR1 通路与表型表观遗传衰老",
+          "doi": "10.1186/s13293-026-00959-w",
+          "pmid": "42947173",
+          "url": "https://doi.org/10.1186/s13293-026-00959-w",
+          "note": "本期只转述研究设计与结论边界，不推荐任何激素治疗方案、剂量或产品"
+        }
+      ]
+    },
+    {
+      "id": "ep059",
+      "slug": "cardiac-aging-telomere-negative-rats-2026",
+      "series": "打假与证伪",
+      "title": "大鼠心脏老了，端粒却没短：一条阴性结果，和一个转化鸿沟",
+      "date": "2026-10-30",
+      "data_datetime": "2026-10-29 13:30",
+      "generated_at": "2026-10-30 03:43",
+      "duration_sec": 249,
+      "audio": "audio/cardiac-aging-telomere-negative-rats-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "Sprague-Dawley 大鼠两年内出现类人心脏衰老表型，白细胞与心脏端粒长度却都没有变化——一条指向转化鸿沟的阴性结果。",
+      "article_slugs": [
+        "news/Age-Related-Cardiac-Dysfunction-Telomere-Rats-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Front Cardiovasc Med（2026）：年龄相关心功能不全与端粒长度（大鼠阴性结果）",
+          "doi": "10.3389/fcvm.2026.1790767",
+          "pmid": "42947745",
+          "url": "https://doi.org/10.3389/fcvm.2026.1790767"
+        }
+      ]
+    },
+    {
+      "id": "ep060",
+      "slug": "epigenetic-aging-informed-dietary-pattern-2026",
+      "series": "论文精读",
+      "title": "反过来用表观遗传钟挑饮食：加工肉排在最前，效应量有多大",
+      "date": "2026-10-30",
+      "data_datetime": "2026-10-29 13:30",
+      "generated_at": "2026-10-30 03:43",
+      "duration_sec": 280,
+      "audio": "audio/epigenetic-aging-informed-dietary-pattern-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "用表观遗传年龄反推出的膳食模式在四个队列检验：加工肉、含糖饮料、炸薯条与啤酒的摄入与 GrimAge2 年龄加速正相关，但效应量很小。",
+      "article_slugs": [
+        "news/Epigenetic-Aging-Informed-Dietary-Pattern-Health-Outcomes-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Nat Commun（2026）：表观遗传年龄驱动的膳食模式与一系列衰老相关健康结局",
+          "doi": "10.1038/s41467-026-77790-9",
+          "pmid": "42934232",
+          "url": "https://doi.org/10.1038/s41467-026-77790-9",
+          "note": "本期只陈述膳食模式与表观遗传年龄的关联，不推荐任何饮食方案或产品"
+        }
+      ]
+    },
+    {
+      "id": "ep061",
+      "slug": "multimodal-organ-age-plasma-proteins-2026",
+      "series": "论文精读",
+      "title": "器官年龄各自算：血浆蛋白和行为性状同时浮出水面",
+      "date": "2026-10-30",
+      "data_datetime": "2026-10-29 13:30",
+      "generated_at": "2026-10-30 03:43",
+      "duration_sec": 246,
+      "audio": "audio/multimodal-organ-age-plasma-proteins-2026.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "desc": "多模态数据算出的器官年龄差既有器官特异性，又在二十种疾病与十六种表型上有信息量，还能改善跨器官结局的预测。",
+      "article_slugs": [
+        "news/Multimodal-Organ-Age-Plasma-Proteins-Behaviour-2026.html"
+      ],
+      "sources": [
+        {
+          "label": "Age Ageing（2026）：多模态数据预测器官年龄识别衰老相关血浆蛋白与行为性状",
+          "doi": "10.1093/ageing/afag309",
+          "pmid": "42935254",
+          "url": "https://doi.org/10.1093/ageing/afag309"
+        }
+      ]
     }
-   ],
-   "date": "2026-10-29",
-   "data_datetime": "2026-10-28 05:51",
-   "generated_at": "2026-10-29 03:45",
-   "duration_sec": 319,
-   "audio": "audio/epigenetic-clocks-life-insurance-2026.mp3",
-   "voice": "zh-CN-XiaoxiaoNeural"
-  }
- ]
+  ]
 }
