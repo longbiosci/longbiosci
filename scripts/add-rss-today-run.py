@@ -54,6 +54,11 @@ LOCAL_TZ = timezone(timedelta(hours=8))
 
 MAX_ITEMS = 53  # feed 容量上限（自基线实测）
 SITE = "https://longbiosci.com"
+# P2 #12（2026-10-29 晨间班）：RSS 补 dc:creator。
+# 站点所有条目均由本站编辑部撰写，无外部作者元数据可回填，
+# 故用统一署名，让订阅阅读器不再显示空白作者。
+DC_CREATOR = "LongBiosci 编辑部"
+DC_NS = 'xmlns:dc="http://purl.org/dc/elements/1.1/"'
 
 WEEKDAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
@@ -66,7 +71,7 @@ LASTBUILD_RE = re.compile(r"(<lastBuildDate>)[^<]*(</lastBuildDate>)")
 # rss.xml 缺失时的默认骨架（channel 元数据与线上一致）
 DEFAULT_HEAD = (
     '<?xml version="1.0" encoding="UTF-8"?>\n'
-    '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n'
+    '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" ' + DC_NS + '>\n'
     '  <channel>\n'
     '    <title>LongBiosci - 长寿科技资讯</title>\n'
     '    <link>https://longbiosci.com</link>\n'
@@ -96,7 +101,35 @@ def item_xml(rec):
             f"<link>{url}</link>"
             f'<guid isPermaLink="true">{url}</guid>'
             f"<pubDate>{rfc822(pub, '+0000')}</pubDate>"
+            f"<dc:creator>{esc(DC_CREATOR)}</dc:creator>"
             f"<description>{esc(rec['desc'])}</description></item>")
+
+
+def ensure_dc_ns(head):
+    """给既有 rss.xml 的 <rss> 根元素补 dc 命名空间（幂等）。
+
+    线上 rss.xml 是 2026-10-29 之前生成的，根元素只有 xmlns:atom；
+    DEFAULT_HEAD 只在文件缺失时才生效，跑一万次管线也补不上存量文件的
+    命名空间。没有 xmlns:dc 却写 <dc:creator> 属于未声明前缀，
+    严格校验器会直接判 feed 非法 —— 所以补齐必须落在 head 上，且幂等。
+    """
+    if DC_NS.split("=")[0] in head:
+        return head
+    return re.sub(r"<rss\s", lambda m: m.group(0), head, count=1).replace(
+        "<rss ", "<rss " + DC_NS + " ", 1)
+
+
+def ensure_dc_creator(item):
+    """给单个 item 补 <dc:creator>（幂等，已有则原样返回）。
+
+    插在 <pubDate> 之后、<description> 之前，与 item_xml() 的字段序一致，
+    保证「存量 item 迁移后」与「新建 item」的字节结构完全对齐，
+    下次跑管线不会产生只因字段顺序不同而产生的 diff。
+    """
+    if "<dc:creator>" in item:
+        return item
+    return re.sub(r"(</pubDate>)", r"\1<dc:creator>" + DC_CREATOR + "</dc:creator>",
+                  item, count=1)
 
 
 def item_slug(item):
@@ -202,6 +235,10 @@ def main():
     else:
         print(f"  rss.xml: {date_str} 无新文章，未变动")
 
+    # P2 #12：无论本次有没有新条目，写出前都把 dc 命名空间与 dc:creator 补齐，
+    # 使存量文件的一次性迁移与普通增量走同一条代码路径。
+    head = ensure_dc_ns(head)
+    items = [ensure_dc_creator(it) for it in items]
     out = head + "".join(items) + tail
 
     # 换行符风格保真：仓库 rss.xml 是 CRLF，而本脚本的模板常量是 LF。
