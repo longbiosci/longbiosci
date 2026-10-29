@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-29T06:09:04+08:00",
+ "updated_at": "2026-10-30T05:49:21+08:00",
  "entries": {
   "dkwSBCCuiNrB": {
    "name": "文献层_五刊监控_深度文献卡片_2026-10-02",
@@ -901,46 +901,6 @@
    "slugs": [],
    "note": "2026-10-23 处置：运营日志快照归档件，权威版为网盘《运营日志.md》dcRhMjctGcjp（42,803 B）。快照含播客第3期留痕（bc9ba68 未推送、附恢复剧本），本轮已按该剧本完成推送并线上复验"
   },
-  "dbsioFAWDjqi": {
-   "name": "全文PDF",
-   "layer": "文献层",
-   "size": 0,
-   "mtime": "1792178933000",
-   "status": "empty",
-   "done_at": "2026-10-23T09:55:41+08:00",
-   "slugs": [],
-   "note": "目录条目（dir_list 对 kind=2 目录返回 size=0，非任务空产）：五刊监控的全文PDF归档子目录，2 个 PDF 子项已单独入清单且 done（dNzUHbVFQTBa 1,553,065B / dcstQIgaFtPO 967,092B）"
-  },
-  "dntPxtImVdXC": {
-   "name": "IMA知识库_0019eb4e65002c9f",
-   "layer": "元层",
-   "size": 0,
-   "mtime": "1789261659000",
-   "status": "empty",
-   "done_at": "2026-10-23T09:55:41+08:00",
-   "slugs": [],
-   "note": "目录条目（dir_list 对 kind=2 目录返回 size=0，非任务空产）：IMA 知识库子目录，2 个临床试验清单子项已单独入清单且 done（dhnlTAyanHao 227,731B / dgUBJEBhGZjZ snapshot 121,430B）"
-  },
-  "dcohzvNdxzhl": {
-   "name": "系统文件",
-   "layer": "元层",
-   "size": 0,
-   "mtime": "1789099876000",
-   "status": "empty",
-   "done_at": "2026-10-23T09:55:41+08:00",
-   "slugs": [],
-   "note": "目录条目（dir_list 对 kind=2 目录返回 size=0，非任务空产）：系统文件目录，无内容产出"
-  },
-  "dAyJLyFnKcvo": {
-   "name": "网站喂料_2026-10-13",
-   "layer": "网站层",
-   "size": 0,
-   "mtime": "1791917579000",
-   "status": "empty",
-   "done_at": "2026-10-23T09:55:41+08:00",
-   "slugs": [],
-   "note": "目录条目（dir_list 对 kind=2 目录返回 size=0，非任务空产）：网站喂料批次目录，17 个子项已单独入清单且全部 done"
-  },
   "dWuFNxGjHaGn": {
    "name": "预印本全文级解读_2026-10-24/_items",
    "layer": "元层",
@@ -1617,12 +1577,12 @@
   "dMNQhEqhmyEO": {
    "name": "人工待下载清单",
    "layer": "元层",
-   "size": 24352,
+   "size": 48647,
    "mtime": "1793212358000",
    "status": "done",
-   "done_at": "2026-10-29T06:09:03+08:00",
+   "done_at": "2026-10-30T05:48:50+08:00",
    "slugs": [],
-   "note": "人工待下载清单（滚动更新，实测 48,647 B）；清单职责是登记缺口，本轮无可成篇内容",
+   "note": "UNCHANGED：仅 size 缓存修正，内容一致，刷新哈希基准",
    "hash": "442a2fa194421abc8aa38c88c8f420c6"
   },
   "dTHVAxJGXgwu": {
@@ -2075,14 +2035,12 @@
    "name": "管线状态基线",
    "layer": "行业层",
    "size": 19435,
-   "mtime": "1793124702000",
+   "mtime": "1793297107000",
    "status": "done",
-   "done_at": "2026-10-28T05:41:30+08:00",
-   "slugs": [
-    "Longevity-Industry-Retrenchment-Unity-Turn-Bio-2026.html"
-   ],
-   "note": "管线状态基线 v1.0（JSON，19,435 B）；行业结构回撤（Unity 停运 / Turn Bio 资产流失）已由批次 b 成篇 1 篇，基线快照本身不单独上站",
-   "hash": "27666effa7ff86f49a9040da03f4df63"
+   "done_at": "2026-10-30T05:48:50+08:00",
+   "slugs": [],
+   "note": "管线状态基线 v1.1 配套文件（28 条），非内容产出，不成篇",
+   "hash": "e35ab792137ca3db964a4b774974b0e1"
   },
   "dauTkaOpIygl": {
    "name": "行业情报周报_2026-10-28",
@@ -2877,24 +2835,24 @@
   "dZRISkLBlBMk": {
    "name": "文献监控_2026-10-29_总览",
    "layer": "文献层",
-   "size": 49339,
-   "mtime": "1793212615000",
-   "status": "done",
-   "done_at": "2026-10-29T06:09:03+08:00",
+   "size": 5677,
+   "mtime": "1793232470000",
+   "status": "empty",
+   "done_at": "2026-10-30T05:49:21+08:00",
    "slugs": [],
-   "note": "总览 xlsx 版（file_id dZRISkLBlBMk）：经在线文档再导出通道，实测 5,677 B，与 dmaqQuEoiQgX 字节数完全相同，**非可从字节核验是否完整**；内容已被 dGBunAeRiRlm 卡片全覆盖，不重复成篇",
-   "hash": "7715de2978114f6ede8e7b854175c704"
+   "note": "实测 5676 B 非空壳判定：下载后 xl/worksheets/sheet1.xml 的 sheetData 为空节点、零数据行（原 49339 B 有内容被覆写）——需重跑文献监控任务 7762989",
+   "hash": ""
   },
   "dmaqQuEoiQgX": {
    "name": "文献监控_2026-10-29_总览",
    "layer": "文献层",
-   "size": 90120,
-   "mtime": "1793212615000",
-   "status": "done",
-   "done_at": "2026-10-29T06:09:03+08:00",
+   "size": 5677,
+   "mtime": "1793232470000",
+   "status": "empty",
+   "done_at": "2026-10-30T05:49:21+08:00",
    "slugs": [],
-   "note": "总览 csv 版：同 dZRISkLBlBMk，实测 5,677 B 同规格空壳；内容已被卡片全覆盖，不重复成篇",
-   "hash": "f173ee7675d1d4988894fa9906121ba0"
+   "note": "同上（csv 名义但实体为 xlsx，同源空壳，原 90120 B）——需重跑文献监控任务 7762989",
+   "hash": ""
   },
   "dPChwCcGPgui": {
    "name": "午刊_2026-10-28_已上站留档.tar",
@@ -2906,6 +2864,44 @@
    "slugs": [],
    "note": "午刊 2026-10-28 已上站留档 tar（257,599 B）；上游自述已上线，本班不重复消化",
    "hash": "0663dc164786656207b04a237b92bb04"
+  },
+  "djpYEKiEfRcs": {
+   "name": "行业情报周报_2026-10-30",
+   "layer": "行业层",
+   "size": 35680,
+   "mtime": "1793297576000",
+   "status": "done",
+   "done_at": "2026-10-30T05:48:50+08:00",
+   "slugs": [
+    "Celularity-Vesalius-Peptide-API-US-cGMP-PCAC-503A-2026.html",
+    "DEPH-Labs-Lisa-Loud-CEO-Epigenetic-Biological-Age-Privacy-2026.html",
+    "FDA-Advisory-Committee-Nominations-CTGTAC-Renewal-2026.html",
+    "FDA-PCAC-503A-Peptide-Bulk-Substances-Compounding-2026.html",
+    "Longevity-Industry-Weekly-W44-2026-10-30-Overview.html",
+    "Longevity-Regulatory-Data-Calendar-2026-11-01-to-11-30.html",
+    "Longevity-Watchlist-25-Companies-Oct30-2026-No-Updates.html",
+    "NMNH-Ca-NCT06889740-Completed-Healthy-Adults-2026.html",
+    "Opus-Genetics-OPGx-RDH12-IND-Clearance-CSO-Appointment-2026.html",
+    "Seragy-12M-SerAS-Protein-Aggregation-Biomarker-Neurodegeneration-2026.html",
+    "Sironax-SIR4156-NAMPT-Activator-Phase2-Obesity-Enrollment-2026.html",
+    "United-Therapeutics-Treprostinil-SMI-SUMMIT-PH-COPD-IND-2026.html",
+    "VeriSIM-Life-ARPA-H-6-5M-Cell-Preservation-Biostabilization-2026.html",
+    "Voyager-VY1706-VY7523-CTAD-2026-CEO-Succession-2026.html",
+    "XellSmart-XS411-iPSC-Dopaminergic-Phase1-MDS-2026.html"
+   ],
+   "note": "行业情报周报 10-30 md，15 篇上站（另 2 条按交接协议站内已刊跳过：MTX325/Klothonova）",
+   "hash": "1ca41ede012350c716c720987212b0ee"
+  },
+  "dETldVedMwAc": {
+   "name": "行业情报周报_2026-10-30",
+   "layer": "行业层",
+   "size": 37561,
+   "mtime": "1793297602000",
+   "status": "done",
+   "done_at": "2026-10-30T05:48:50+08:00",
+   "slugs": [],
+   "note": "表格版 xlsx，与 md 同源不同载体，不重复成篇",
+   "hash": "7c169b3c6313b98b91ad625e5a92d582"
   }
  },
  "retired": [

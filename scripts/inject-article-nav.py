@@ -145,12 +145,25 @@ def esc(s):
     return (s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def event_date_of(a, pub_date):
+def event_date_of(a, pub_date, html=""):
+    """情报发生日期：优先取 DOI 内嵌日期，无 DOI 时退回正文「数据日期」标签。
+
+    2026-10-30 补：产业/监管类稿件（行业周报、午刊快讯）**没有 DOI**，
+    原有逻辑只能返回 None，导致这大批条目拿不到机器可读的发生日期——
+    而它们恰恰是最需要「事件发生日」与「发布日」分开标注的一类：
+    一条 10-21 的 FDA IND 放行，可能 10-30 才随周报上站，
+    只标发布日会让读者误判时效。正文里由 gen_articles_* 写下的
+    「数据日期 YYYY-MM-DD」正是这个字段的事实源，此处直接复用。
+    """
     doi = str(a.get("doi") or "").strip()
     m = DOI_DATE.match(doi)
     if not m:
-        return None
-    d = "%s-%s-%s" % m.groups()
+        m2 = re.search(r"数据日期\s*(\d{4})-(\d{2})-(\d{2})", html or "")
+        if not m2:
+            return None
+        d = "%s-%s-%s" % m2.groups()
+    else:
+        d = "%s-%s-%s" % m.groups()
     if d == pub_date:
         return None  # 与发布日同日，标注没有信息量
     return d
@@ -203,7 +216,7 @@ def process(path, nb, by_slug, stats):
     # —— ② 情报发生日期 ——
     out = RE_DATE.sub("", out)
     CSS_DATE_local = "" if "style.css" in out else CSS_DATE
-    ed = event_date_of(a or {}, str((a or {}).get("date") or ""))
+    ed = event_date_of(a or {}, str((a or {}).get("date") or ""), html)
     if ed:
         # 2026-10-27 修复（待办 P2-18 根治）：此处原为 data-{mark}="1" 硬编码占位值，
         # 导致注入出来的情报发生日期机器不可读（人读文案正确、机器读到 "1"）。

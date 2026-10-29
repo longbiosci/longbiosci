@@ -199,6 +199,27 @@
     "modify_time": "1790252008000"
    },
    {
+    "file_id": "dZRISkLBlBMk",
+    "name": "文献监控_2026-10-29_总览",
+    "ext": "xlsx",
+    "size": "49339",
+    "modify_time": "1793232470000"
+   },
+   {
+    "file_id": "dmaqQuEoiQgX",
+    "name": "文献监控_2026-10-29_总览",
+    "ext": "csv",
+    "size": "90120",
+    "modify_time": "1793232470000"
+   },
+   {
+    "file_id": "dGBunAeRiRlm",
+    "name": "文献监控_2026-10-29_卡片",
+    "ext": "md",
+    "size": "690958",
+    "modify_time": "1793213112000"
+   },
+   {
     "file_id": "dnqNDVpqTrjt",
     "name": "文献监控_2026-10-25_卡片",
     "ext": "md",
@@ -246,6 +267,20 @@
   "dir_id": "dVEYJcsAbUdK",
   "items": [
    {
+    "file_id": "dETldVedMwAc",
+    "name": "行业情报周报_2026-10-30",
+    "ext": "xlsx",
+    "size": "37561",
+    "modify_time": "1793297602000"
+   },
+   {
+    "file_id": "djpYEKiEfRcs",
+    "name": "行业情报周报_2026-10-30",
+    "ext": "md",
+    "size": "35680",
+    "modify_time": "1793297576000"
+   },
+   {
     "file_id": "dauTkaOpIygl",
     "name": "行业情报周报_2026-10-28",
     "ext": "xlsx",
@@ -292,7 +327,7 @@
     "name": "行业情报周报_2026-09-16",
     "ext": "xlsx",
     "size": "18880",
-    "modify_time": "1793136761000"
+    "modify_time": "1793232471000"
    },
    {
     "file_id": "dOnhQdjKdwmw",
@@ -306,7 +341,7 @@
     "name": "管线状态基线",
     "ext": "json",
     "size": "19435",
-    "modify_time": "1793124702000"
+    "modify_time": "1793297107000"
    }
   ]
  },
@@ -902,6 +937,20 @@
     "modify_time": "1792778730000"
    },
    {
+    "file_id": "dETldVedMwAc",
+    "name": "IMA知识库_0019eb4e65002c9f/行业层/行业情报周报_2026-10-30",
+    "ext": "xlsx",
+    "size": "37561",
+    "modify_time": "1793297602000"
+   },
+   {
+    "file_id": "djpYEKiEfRcs",
+    "name": "IMA知识库_0019eb4e65002c9f/行业层/行业情报周报_2026-10-30",
+    "ext": "md",
+    "size": "35680",
+    "modify_time": "1793297576000"
+   },
+   {
     "file_id": "dauTkaOpIygl",
     "name": "IMA知识库_0019eb4e65002c9f/行业层/行业情报周报_2026-10-28",
     "ext": "xlsx",
@@ -948,7 +997,7 @@
     "name": "IMA知识库_0019eb4e65002c9f/行业层/行业情报周报_2026-09-16",
     "ext": "xlsx",
     "size": "18880",
-    "modify_time": "1793137847000"
+    "modify_time": "1793232471000"
    },
    {
     "file_id": "dOnhQdjKdwmw",
@@ -962,7 +1011,7 @@
     "name": "IMA知识库_0019eb4e65002c9f/行业层/管线状态基线",
     "ext": "json",
     "size": "19435",
-    "modify_time": "1793124702000"
+    "modify_time": "1793297107000"
    },
    {
     "file_id": "dequNRtQngAz",
@@ -1088,14 +1137,14 @@
     "name": "IMA知识库_0019eb4e65002c9f/网站层/运营日志",
     "ext": "md",
     "size": "64212",
-    "modify_time": "1793137817000"
+    "modify_time": "1793283480000"
    },
    {
     "file_id": "dVisoPwrcwVm",
     "name": "IMA知识库_0019eb4e65002c9f/网站层/运营待办清单",
     "ext": "md",
     "size": "31351",
-    "modify_time": "1793137820000"
+    "modify_time": "1793283513000"
    },
    {
     "file_id": "dNzUHbVFQTBa",
@@ -1294,6 +1343,27 @@
     "modify_time": "1790252008000"
    },
    {
+    "file_id": "dZRISkLBlBMk",
+    "name": "IMA知识库_0019eb4e65002c9f/文献层/文献监控_2026-10-29_总览",
+    "ext": "xlsx",
+    "size": "49339",
+    "modify_time": "1793232470000"
+   },
+   {
+    "file_id": "dmaqQuEoiQgX",
+    "name": "IMA知识库_0019eb4e65002c9f/文献层/文献监控_2026-10-29_总览",
+    "ext": "csv",
+    "size": "90120",
+    "modify_time": "1793232470000"
+   },
+   {
+    "file_id": "dGBunAeRiRlm",
+    "name": "IMA知识库_0019eb4e65002c9f/文献层/文献监控_2026-10-29_卡片",
+    "ext": "md",
+    "size": "690958",
+    "modify_time": "1793213112000"
+   },
+   {
     "file_id": "dnqNDVpqTrjt",
     "name": "IMA知识库_0019eb4e65002c9f/文献层/文献监控_2026-10-25_卡片",
     "ext": "md",
@@ -1382,7 +1452,7 @@
     "name": "运营日志",
     "ext": "md",
     "size": "42803",
-    "modify_time": "1793137830000"
+    "modify_time": "1793283411000"
    },
    {
     "file_id": "dMIguvNomlMp",
@@ -1396,7 +1466,7 @@
     "name": "运营待办清单",
     "ext": "md",
     "size": "25062",
-    "modify_time": "1793137832000"
+    "modify_time": "1793283444000"
    },
    {
     "file_id": "dkmvnmTBYaqu",
@@ -1469,11 +1539,18 @@
     "modify_time": "1792823082000"
    },
    {
+    "file_id": "dPChwCcGPgui",
+    "name": "午刊_2026-10-28_已上站留档.tar",
+    "ext": "gz",
+    "size": "257599",
+    "modify_time": "1793170643000"
+   },
+   {
     "file_id": "dMNQhEqhmyEO",
     "name": "人工待下载清单",
     "ext": "md",
     "size": "24352",
-    "modify_time": "1792863065000"
+    "modify_time": "1793212358000"
    },
    {
     "file_id": "djjxCTwChAkQ",
@@ -1723,14 +1800,14 @@
     "name": "运营日志",
     "ext": "md",
     "size": "64212",
-    "modify_time": "1793137817000"
+    "modify_time": "1793283480000"
    },
    {
     "file_id": "dVisoPwrcwVm",
     "name": "运营待办清单",
     "ext": "md",
     "size": "31351",
-    "modify_time": "1793137820000"
+    "modify_time": "1793283513000"
    }
   ]
  }

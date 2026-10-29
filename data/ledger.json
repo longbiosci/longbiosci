@@ -1,7 +1,7 @@
 {
  "site": {
-  "articles": 1149,
-  "dois": 998
+  "articles": 1180,
+  "dois": 1012
  },
  "outputs": {
   "cards_2026-10-29.md": {
@@ -196,8 +196,8 @@
   }
  },
  "output_entries": 711,
- "covered": 481,
- "missing_count": 230,
+ "covered": 482,
+ "missing_count": 229,
  "missing": [
   {
    "fingerprint": "doi:10.1007/s11357-025-02017-6",
@@ -480,17 +480,6 @@
    ],
    "status": "漏收",
    "basis": "四路均未命中（DOI=10.1007/s11357-026-02586-0，标题相似 0.00，词元重叠 0.50）"
-  },
-  {
-   "fingerprint": "doi:10.1007/s11357-026-02592-2",
-   "title": "Physical activity, sedentary behavior, sleep quality and the biological aging clocks.",
-   "doi": "10.1007/s11357-026-02592-2",
-   "code": "G16",
-   "seen_in": [
-    "文献层_五刊监控_深度文献卡片_2026-10-23.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1007/s11357-026-02592-2，标题相似 0.00，词元重叠 0.50）"
   },
   {
    "fingerprint": "doi:10.1007/s11357-026-02594-0",
@@ -2095,7 +2084,7 @@
     "industry-2026-09-16.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）"
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.33）"
   },
   {
    "fingerprint": "t:836f85b4508f4be0",
@@ -2288,7 +2277,7 @@
     "industry-2026-09-16.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
   },
   {
    "fingerprint": "t:ae7c0d46e2473607",
@@ -2511,7 +2500,7 @@
     "pool_2026-10-13.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.50）；★中文摘要条目，必须人工核对站内中文关键词"
   },
   {
    "fingerprint": "t:c9d5fee3aeebe160",
@@ -2523,7 +2512,7 @@
     "pool_2026-10-13.md"
    ],
    "status": "漏收",
-   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
+   "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.33）；★中文摘要条目，必须人工核对站内中文关键词"
   },
   {
    "fingerprint": "t:cdd159bb03a9c0e9",
@@ -2814,7 +2803,7 @@
    "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
   }
  ],
- "orphan_count": 1149,
+ "orphan_count": 1180,
  "orphan_sample": [
   "3D-Culture-Reverses-Limbal-Niche-AgingCell-2026.html",
   "7-Ketocholesterol-Derivatives-Pathophysiology.html",

@@ -1,9 +1,9 @@
 {
  "summary": {
-  "total": 1127,
+  "total": 1142,
   "level_counts": {
+   "中": 164,
    "强": 977,
-   "中": 149,
    "断链": 1
   },
   "by_tier": {
@@ -12,8 +12,8 @@
     "中": 26
    },
    "B": {
+    "中": 120,
     "强": 400,
-    "中": 105,
     "断链": 1
    },
    "C": {
@@ -22,6 +22,81 @@
    }
   },
   "missing_doi": [
+   {
+    "slug": "Celularity-Vesalius-Peptide-API-US-cGMP-PCAC-503A-2026.html",
+    "title": "Celularity × Vesalius 建美国本土多肽 API 终段产能：一份把监管假设写进条款的商业合同",
+    "evidence": "B"
+   },
+   {
+    "slug": "DEPH-Labs-Lisa-Loud-CEO-Epigenetic-Biological-Age-Privacy-2026.html",
+    "title": "DEPH Labs 任命科技与隐私背景的 CEO：表观遗传年龄检测的重心移向「数据」而非「生物学」",
+    "evidence": "B"
+   },
+   {
+    "slug": "FDA-Advisory-Committee-Nominations-CTGTAC-Renewal-2026.html",
+    "title": "FDA 咨询委员会两则制度性动态：提名截止 11-16，CTGT 委员会续期至 2028-10-28",
+    "evidence": "B"
+   },
+   {
+    "slug": "FDA-PCAC-503A-Peptide-Bulk-Substances-Compounding-2026.html",
+    "title": "FDA 的 503A 散装物质名单为何牵动多肽产业：21 CFR 216.23 与一条尚未发生的监管决定",
+    "evidence": "B"
+   },
+   {
+    "slug": "Longevity-Industry-Weekly-W44-2026-10-30-Overview.html",
+    "title": "行业周报速览（2026-10-30）：两天窗口零股权融资，行业先把基础设施建起来",
+    "evidence": "B"
+   },
+   {
+    "slug": "Longevity-Regulatory-Data-Calendar-2026-11-01-to-11-30.html",
+    "title": "未来 30 天要看什么：CTAD 双海报、AHA late-breaking 与 11 月 PDUFA 窗口（2026-10-30 ~ 11-29）",
+    "evidence": "B"
+   },
+   {
+    "slug": "Longevity-Watchlist-25-Companies-Oct30-2026-No-Updates.html",
+    "title": "watchlist 25 家逐一核查：窗口内零更新，但其中 5 家官网已无法访问",
+    "evidence": "B"
+   },
+   {
+    "slug": "NMNH-Ca-NCT06889740-Completed-Healthy-Adults-2026.html",
+    "title": "NMNH-Ca 健康成人试验状态更新为已完成：NAD+ 前体类补充剂少有的一次登记库闭环",
+    "evidence": "B"
+   },
+   {
+    "slug": "Opus-Genetics-OPGx-RDH12-IND-Clearance-CSO-Appointment-2026.html",
+    "title": "Opus Genetics：RDH12 基因治疗 IND 放行（上期漏项补录），同期任命 CSO",
+    "evidence": "B"
+   },
+   {
+    "slug": "Seragy-12M-SerAS-Protein-Aggregation-Biomarker-Neurodegeneration-2026.html",
+    "title": "seragy 以约 1200 万欧元起步：把「蛋白聚集体」从定性做成可定量的法医式报告",
+    "evidence": "B"
+   },
+   {
+    "slug": "Sironax-SIR4156-NAMPT-Activator-Phase2-Obesity-Enrollment-2026.html",
+    "title": "Sironax SIR4156 二期入组约 50%：NAMPT 激活剂与司美格鲁肽联用，目标是「减脂不减肌」",
+    "evidence": "B"
+   },
+   {
+    "slug": "United-Therapeutics-Treprostinil-SMI-SUMMIT-PH-COPD-IND-2026.html",
+    "title": "United Therapeutics 吸入型 Treprostinil 获 FDA IND 放行：一个长期被漏诊的 40 万~80 万人群",
+    "evidence": "B"
+   },
+   {
+    "slug": "VeriSIM-Life-ARPA-H-6-5M-Cell-Preservation-Biostabilization-2026.html",
+    "title": "VeriSIM Life 拿到至多 650 万美元政府资助：把「活细胞保存」从冷链依赖里解出来",
+    "evidence": "B"
+   },
+   {
+    "slug": "Voyager-VY1706-VY7523-CTAD-2026-CEO-Succession-2026.html",
+    "title": "Voyager 把 CEO 交接绑在 VY1706 的数据读出上：tau 双资产进 CTAD 海报，治理安排同步披露",
+    "evidence": "B"
+   },
+   {
+    "slug": "XellSmart-XS411-iPSC-Dopaminergic-Phase1-MDS-2026.html",
+    "title": "XellSmart XS411：I 期 9 例「良好 ON 时间」平均增加 5 小时以上，II 期 30 例盲态入组完成",
+    "evidence": "B"
+   },
    {
     "slug": "FEAST-HOPE-Redox-Disulfidptosis-PSC-NCT07898839-2026.html",
     "title": "四种口服剂外加研究膳食：一项把「氧化还原堆栈」搬进人体的 II 期试点",
@@ -782,6 +857,186 @@
   ]
  },
  "articles": [
+  {
+   "slug": "Celularity-Vesalius-Peptide-API-US-cGMP-PCAC-503A-2026.html",
+   "title": "Celularity × Vesalius 建美国本土多肽 API 终段产能：一份把监管假设写进条款的商业合同",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://www.sec.gov/Archives/edgar/data/1752828/000149315226049203/ex99-1.htm"
+   ],
+   "level": "中"
+  },
+  {
+   "slug": "DEPH-Labs-Lisa-Loud-CEO-Epigenetic-Biological-Age-Privacy-2026.html",
+   "title": "DEPH Labs 任命科技与隐私背景的 CEO：表观遗传年龄检测的重心移向「数据」而非「生物学」",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://ceo.ca/@GlobeNewswire/deph-labs-appoints-lisa-loud-as-ceo-to-accelerate-privacy-centric"
+   ],
+   "level": "中"
+  },
+  {
+   "slug": "FDA-Advisory-Committee-Nominations-CTGTAC-Renewal-2026.html",
+   "title": "FDA 咨询委员会两则制度性动态：提名截止 11-16，CTGT 委员会续期至 2028-10-28",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://www.federalregister.gov/documents/2026/10/01/2026-20065/request-for-nominations-for-individuals-and-consumer-organizations-for-advisory-committees"
+   ],
+   "level": "中"
+  },
+  {
+   "slug": "FDA-PCAC-503A-Peptide-Bulk-Substances-Compounding-2026.html",
+   "title": "FDA 的 503A 散装物质名单为何牵动多肽产业：21 CFR 216.23 与一条尚未发生的监管决定",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-216/section-216.23"
+   ],
+   "level": "中"
+  },
+  {
+   "slug": "Longevity-Industry-Weekly-W44-2026-10-30-Overview.html",
+   "title": "行业周报速览（2026-10-30）：两天窗口零股权融资，行业先把基础设施建起来",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://longevity.technology/news/"
+   ],
+   "level": "中"
+  },
+  {
+   "slug": "Longevity-Regulatory-Data-Calendar-2026-11-01-to-11-30.html",
+   "title": "未来 30 天要看什么：CTAD 双海报、AHA late-breaking 与 11 月 PDUFA 窗口（2026-10-30 ~ 11-29）",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://www.federalregister.gov/documents/2026/10/01/2026-20065/request-for-nominations-for-individuals-and-consumer-organizations-for-advisory-committees"
+   ],
+   "level": "中"
+  },
+  {
+   "slug": "Longevity-Watchlist-25-Companies-Oct30-2026-No-Updates.html",
+   "title": "watchlist 25 家逐一核查：窗口内零更新，但其中 5 家官网已无法访问",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://longevity.technology/news/"
+   ],
+   "level": "中"
+  },
+  {
+   "slug": "NMNH-Ca-NCT06889740-Completed-Healthy-Adults-2026.html",
+   "title": "NMNH-Ca 健康成人试验状态更新为已完成：NAD+ 前体类补充剂少有的一次登记库闭环",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://clinicaltrials.gov/study/NCT06889740"
+   ],
+   "level": "中"
+  },
+  {
+   "slug": "Opus-Genetics-OPGx-RDH12-IND-Clearance-CSO-Appointment-2026.html",
+   "title": "Opus Genetics：RDH12 基因治疗 IND 放行（上期漏项补录），同期任命 CSO",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://ir.opusgtx.com/press-releases/detail/547/opus-genetics-announces-fda-clearance-of-ind-application-for-opgx-rdh12"
+   ],
+   "level": "中"
+  },
+  {
+   "slug": "Seragy-12M-SerAS-Protein-Aggregation-Biomarker-Neurodegeneration-2026.html",
+   "title": "seragy 以约 1200 万欧元起步：把「蛋白聚集体」从定性做成可定量的法医式报告",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://www.biospace.com/press-releases/seragy-launches-with-12-million-financing-to-advance-quantitative-biomarkers-for-neurodegenerative-diseases"
+   ],
+   "level": "中"
+  },
+  {
+   "slug": "Sironax-SIR4156-NAMPT-Activator-Phase2-Obesity-Enrollment-2026.html",
+   "title": "Sironax SIR4156 二期入组约 50%：NAMPT 激活剂与司美格鲁肽联用，目标是「减脂不减肌」",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://www.sironax.com/sironax-advances-enrollment-in-phase-2-forge-lm-obesity-trial-of-nampt-activator-sir4156/"
+   ],
+   "level": "中"
+  },
+  {
+   "slug": "United-Therapeutics-Treprostinil-SMI-SUMMIT-PH-COPD-IND-2026.html",
+   "title": "United Therapeutics 吸入型 Treprostinil 获 FDA IND 放行：一个长期被漏诊的 40 万~80 万人群",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://ir.unither.com/press-releases/2026/10-19-2026-120012353"
+   ],
+   "level": "中"
+  },
+  {
+   "slug": "VeriSIM-Life-ARPA-H-6-5M-Cell-Preservation-Biostabilization-2026.html",
+   "title": "VeriSIM Life 拿到至多 650 万美元政府资助：把「活细胞保存」从冷链依赖里解出来",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://www.businesswire.com/news/home/20261026451468/en/VeriSIM-Life-Powers-the-AI-Behind-Next-Generation-Cell-Preservation"
+   ],
+   "level": "中"
+  },
+  {
+   "slug": "Voyager-VY1706-VY7523-CTAD-2026-CEO-Succession-2026.html",
+   "title": "Voyager 把 CEO 交接绑在 VY1706 的数据读出上：tau 双资产进 CTAD 海报，治理安排同步披露",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://www.globenewswire.com/news-release/2026/10/27/3388959/36461/en/voyager-s-tau-targeted-gene-therapy-vy1706-and-anti-tau-antibody-vy7523-for-alzheimer-s-disease-to-be-featured-in-poster-presentations-at-ctad-2026.html"
+   ],
+   "level": "中"
+  },
+  {
+   "slug": "XellSmart-XS411-iPSC-Dopaminergic-Phase1-MDS-2026.html",
+   "title": "XellSmart XS411：I 期 9 例「良好 ON 时间」平均增加 5 小时以上，II 期 30 例盲态入组完成",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://www.prnewswire.com/news-releases/new-progress--xellsmart-unveiled-phase-i-results-of-off-the-shelf-parkinsons-disease-cell-therapy-at-mds--completed-blinded-phase-ii-enrollment-302911915.html"
+   ],
+   "level": "中"
+  },
   {
    "slug": "ACO2-Oxidative-Stress-Biomarker-AD-Multi-Omics-2026.html",
    "title": "多组学锁定 ACO2 为 AD 的氧化应激相关生物标志物",
