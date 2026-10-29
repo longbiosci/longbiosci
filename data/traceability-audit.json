@@ -1,27 +1,37 @@
 {
  "summary": {
-  "total": 1111,
+  "total": 1127,
   "level_counts": {
-   "强": 963,
-   "中": 147,
+   "强": 977,
+   "中": 149,
    "断链": 1
   },
   "by_tier": {
    "A": {
-    "强": 263,
+    "强": 270,
     "中": 26
    },
    "B": {
-    "强": 394,
+    "强": 400,
     "中": 105,
     "断链": 1
    },
    "C": {
-    "强": 306,
-    "中": 16
+    "强": 307,
+    "中": 18
    }
   },
   "missing_doi": [
+   {
+    "slug": "FEAST-HOPE-Redox-Disulfidptosis-PSC-NCT07898839-2026.html",
+    "title": "四种口服剂外加研究膳食：一项把「氧化还原堆栈」搬进人体的 II 期试点",
+    "evidence": "C"
+   },
+   {
+    "slug": "Vibegron-Energy-Resilience-Aging-Obesity-Phase3-NCT06987383-2026.html",
+    "title": "Vibegron 挺进「老龄化适应证」：40 人、12 周的随机双盲安慰剂对照",
+    "evidence": "C"
+   },
    {
     "slug": "Arrowhead-ARO-MAPT-Subcutaneous-siRNA-Crosses-BBB-2026.html",
     "title": "Arrowhead ARO-MAPT：皮下 siRNA 首次临床验证可跨越血脑屏障，CSF tau 降 73%",
@@ -905,6 +915,19 @@
    "level": "强"
   },
   {
+   "slug": "Aging-Neutrophil-Function-Humans-Retrotransposon-Interferon-2026.html",
+   "title": "人中性粒细胞随年龄变「吵」：转座子复活与干扰素通路的三组年龄对照",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1016/j.cellimm.2026.105166",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.cellimm.2026.105166",
+    "https://pubmed.ncbi.nlm.nih.gov/42950440/"
+   ],
+   "level": "强"
+  },
+  {
    "slug": "Aging-Reshapes-Subchronic-LPS-Response-L-Theanine-Exercise-2026.html",
    "title": "老化反而让大鼠对亚慢性 LPS「钝感」，但对淀粉样蛋白仍脆弱",
    "evidence": "B",
@@ -913,6 +936,19 @@
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1016/j.bbr.2026.116553**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Alginate-Oligosaccharide-Age-Related-Hearing-Loss-TFEB-Autophagy-2026.html",
+   "title": "褐藻寡糖把老年性耳聋往后推：TFEB 自噬轴上的三重证据",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.ejps.2026.107703",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.ejps.2026.107703",
+    "https://pubmed.ncbi.nlm.nih.gov/42951215/"
    ],
    "level": "强"
   },
@@ -1297,6 +1333,19 @@
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.3390/brainsci16101130**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Chatbot-Cognitive-Training-White-Matter-RCT-JMIR-Aging-2026.html",
+   "title": "聊天机器人认知训练 12 周 RCT：白质 FA 下降变慢，情景记忆分项改善",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.2196/94127",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.2196/94127",
+    "https://pubmed.ncbi.nlm.nih.gov/42950244/"
    ],
    "level": "强"
   },
@@ -1733,6 +1782,31 @@
    "level": "强"
   },
   {
+   "slug": "FEAST-HOPE-Redox-Disulfidptosis-PSC-NCT07898839-2026.html",
+   "title": "四种口服剂外加研究膳食：一项把「氧化还原堆栈」搬进人体的 II 期试点",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://clinicaltrials.gov/study/NCT07898839"
+   ],
+   "level": "中"
+  },
+  {
+   "slug": "Fecal-Microbiota-Transplantation-Aging-Rats-ExpGerontol-2026.html",
+   "title": "粪菌移植在加速衰老大鼠上做到什么程度：行为与病理的双重证据",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.exger.2026.113371",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.exger.2026.113371",
+    "https://pubmed.ncbi.nlm.nih.gov/42951052/"
+   ],
+   "level": "强"
+  },
+  {
    "slug": "Frailty-In-Hospital-Acute-Pulmonary-Embolism-NIS-2026.html",
    "title": "衰弱对急性肺栓塞住院结局的影响：全国住院样本分析",
    "evidence": "A",
@@ -1753,6 +1827,19 @@
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.3390/nu18203336**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Frailty-Versus-Multimorbidity-Hospitalised-Older-Adults-JNHA-2026.html",
+   "title": "住院老年患者：衰弱比共病更能定生死，且两者存在负交互",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1016/j.jnha.2026.101023",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.jnha.2026.101023",
+    "https://pubmed.ncbi.nlm.nih.gov/42950711/"
    ],
    "level": "强"
   },
@@ -2161,6 +2248,19 @@
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.3390/brainsci16101097**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Ischemic-Postconditioning-Aged-Myocardium-piR-4913-Drp1-AdvSci-2026.html",
+   "title": "衰老心肌的缺血再灌注损伤：piR-4913/OGT/Drp1 这条轴被后处理按下去了",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1002/advs.78464",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1002/advs.78464",
+    "https://pubmed.ncbi.nlm.nih.gov/42949644/"
    ],
    "level": "强"
   },
@@ -2609,6 +2709,19 @@
    "level": "强"
   },
   {
+   "slug": "NAD-P-H-Redox-Coupling-NADPH-Senescence-NatMetab-2026.html",
+   "title": "只把 NADH/NAD+ 拉回来不够：NADPH 才是衰老细胞真正的瓶颈",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1038/s42255-026-01640-7",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1038/s42255-026-01640-7",
+    "https://pubmed.ncbi.nlm.nih.gov/42875582/"
+   ],
+   "level": "强"
+  },
+  {
    "slug": "NLRP3-IL-1beta-Atherosclerosis-Natural-Products-Review-2026.html",
    "title": "瞄准 NLRP3/IL-1β 轴治动脉粥样硬化：天然产物的转化之问",
    "evidence": "C",
@@ -2849,6 +2962,19 @@
    "level": "强"
   },
   {
+   "slug": "Oxidized-GTP-8-oxoGTP-Neuroinflammation-Cognitive-Decline-SciAdv-2026.html",
+   "title": "被氧化的 GTP 不只是损伤标记：它自己就是驱动神经炎症的信号分子",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1126/sciadv.aee0110",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1126/sciadv.aee0110",
+    "https://pubmed.ncbi.nlm.nih.gov/42950057/"
+   ],
+   "level": "强"
+  },
+  {
    "slug": "Ozone-Alzheimer-Sleep-Air-Pollution-Hypothesis-2026.html",
    "title": "臭氧作为 AD 与睡眠障碍的催化剂：空气污染假说被摆上桌面",
    "evidence": "B",
@@ -3065,6 +3191,19 @@
    "level": "强"
   },
   {
+   "slug": "Physical-Activity-Biological-Aging-Multisystem-NHANES-2026.html",
+   "title": "运动与生物学衰老不是线性关系：中等量最优，高量反而在 KDM 上转正",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1177/00368504261502626",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1177/00368504261502626",
+    "https://pubmed.ncbi.nlm.nih.gov/42947581/"
+   ],
+   "level": "强"
+  },
+  {
    "slug": "Plasma-AD-Biomarkers-Test-Retest-Reliability-Heterogeneous-2026.html",
    "title": "血浆 AD 标志物的短间隔变异：异质临床队列里的重测信度",
    "evidence": "A",
@@ -3097,6 +3236,19 @@
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1177/25424823261437790**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Plasma-DHA-Frailty-Incidence-UK-Biobank-JNHA-2026.html",
+   "title": "3.8 万人随访 13 年：只有 DHA 与衰弱发生率显著负相关，总 n-3 不算",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1016/j.jnha.2026.101019",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.jnha.2026.101019",
+    "https://pubmed.ncbi.nlm.nih.gov/42950709/"
    ],
    "level": "强"
   },
@@ -3221,6 +3373,19 @@
    "level": "强"
   },
   {
+   "slug": "Regional-Brain-Aging-Signatures-Mortality-Neurovascular-Immune-CellRepMed-2026.html",
+   "title": "脑龄要看「分区」：三个脑区的组合比全脑均值更能预测十年死亡",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1016/j.xcrm.2026.103096",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.xcrm.2026.103096",
+    "https://pubmed.ncbi.nlm.nih.gov/42843341/"
+   ],
+   "level": "强"
+  },
+  {
    "slug": "Relaxin-2-Synaptic-Integrity-NLRP3-mTOR-Autophagy-AD-2026.html",
    "title": "松弛素-2 经 NLRP3-mTOR-自噬通路保护突触完整性",
    "evidence": "B",
@@ -3313,6 +3478,19 @@
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.3390/biology15201845**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "SIRT3-Macrophage-Olfactory-Loss-Chronic-Rhinosinusitis-JACI-2026.html",
+   "title": "SIRT3 一掉，巨噬细胞就转向糖酵解：嗅黏膜里的一次免疫代谢演示",
+   "evidence": "B",
+   "page_exists": true,
+   "doi": "10.1016/j.jaci.2026.09.032",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1016/j.jaci.2026.09.032",
+    "https://pubmed.ncbi.nlm.nih.gov/42950956/"
    ],
    "level": "强"
   },
@@ -3809,6 +3987,19 @@
    "level": "强"
   },
   {
+   "slug": "US-Population-Health-Biomarkers-Deterioration-HealthEcon-2026.html",
+   "title": "七项生物标志物重排美国人群健康分布：恶化集中在下尾，三分之一来自老龄化",
+   "evidence": "A",
+   "page_exists": true,
+   "doi": "10.1002/hec.70162",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.1002/hec.70162",
+    "https://pubmed.ncbi.nlm.nih.gov/42946664/"
+   ],
+   "level": "强"
+  },
+  {
    "slug": "Uterine-Decidualization-Aging-Molecular-Structural-Mice-2026.html",
    "title": "子宫蜕膜化为什么在老年失效：分子与结构层面的并置证据",
    "evidence": "B",
@@ -3833,6 +4024,18 @@
    "level": "强"
   },
   {
+   "slug": "Vibegron-Energy-Resilience-Aging-Obesity-Phase3-NCT06987383-2026.html",
+   "title": "Vibegron 挺进「老龄化适应证」：40 人、12 周的随机双盲安慰剂对照",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": null,
+   "doi_in_page": false,
+   "source_links": [
+    "https://clinicaltrials.gov/study/NCT06987383"
+   ],
+   "level": "中"
+  },
+  {
    "slug": "Vision-Transformer-Lifespan-Functional-Connectivity-2026.html",
    "title": "用视觉 Transformer 画全生命周期功能连接的轨迹",
    "evidence": "A",
@@ -3841,6 +4044,19 @@
    "doi_in_page": true,
    "source_links": [
     "https://doi.org/10.1142/S0129065727500304**"
+   ],
+   "level": "强"
+  },
+  {
+   "slug": "Vitamin-C-ACSL4-Ferro-Aging-Primates-AgingDis-2026.html",
+   "title": "「铁衰老」概念进入灵长类：ACSL4 与维生素 C 的证据边界在哪",
+   "evidence": "C",
+   "page_exists": true,
+   "doi": "10.14336/ad.2026.0371",
+   "doi_in_page": true,
+   "source_links": [
+    "https://doi.org/10.14336/ad.2026.0371",
+    "https://pubmed.ncbi.nlm.nih.gov/42372234/"
    ],
    "level": "强"
   },
