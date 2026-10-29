@@ -270,7 +270,11 @@ def cmd_stat(repo):
     for layer, ms in sorted(by.items()):
         done = [m for m in ms if ent.get(m["file_id"], {}).get("status") == "done"]
         pend = [m for m in ms if m not in done]
-        empt = [m for m in pend if int(m["size"] or 0) == 0]
+        # 2026-10-30：游标已判 empty 的条目（如字节正常但内容为空壳的交付）
+        # 不该再显示为「待处理」——它会让下一班以为还有活没干。
+        flagged_empty = [m for m in pend
+                         if ent.get(m["file_id"], {}).get("status") == "empty"]
+        empt = [m for m in pend if int(m["size"] or 0) == 0] + flagged_empty
         unproc = [m for m in pend if m not in empt]
         print(f"【{layer}】已消化 {len(done)}/{len(ms)}"
               + (f" · 待处理 {len(unproc)}" if unproc else "")
@@ -278,7 +282,10 @@ def cmd_stat(repo):
         for m in unproc:
             print(f"    ⬜ {m['name'][:50]}  ({m['size']} B)")
         for m in empt:
-            print(f"    ⛔ {m['name'][:50]}  size=0 —— 需重跑任务")
+            note = ent.get(m["file_id"], {}).get("note", "")
+            why = ("size=0" if int(m["size"] or 0) == 0
+                   else f"已判空：{note[:40]}")
+            print(f"    ⛔ {m['name'][:50]}  {why} —— 需重跑任务")
     return 0
 
 
