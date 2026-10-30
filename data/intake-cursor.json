@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated_at": "2026-10-30T05:58:35+08:00",
+ "updated_at": "2026-10-31T05:30:00+08:00",
  "entries": {
   "dkwSBCCuiNrB": {
    "name": "文献层_五刊监控_深度文献卡片_2026-10-02",
@@ -362,13 +362,13 @@
   "dVKsSOJcCMjU": {
    "name": "行业情报周报_2026-09-16",
    "layer": "行业层",
-   "size": 17559,
-   "mtime": "1793137847000",
+   "size": 17543,
+   "mtime": "1793232471000",
    "status": "done",
-   "done_at": "2026-10-29T06:09:03+08:00",
+   "done_at": "2026-10-31T05:30:00+08:00",
    "slugs": [],
-   "note": "行业情报周报 2026-09-16（滚动更新，17,543 B）；内容与已消化版本同源，cursor seen 判 UNCHANGED，不重复成篇",
-   "hash": "3ec91209cbaf8651897bebd87b27b6d2"
+   "note": "滚动更新（17,543 B，mtime 2026-10-29 08:07）：2026-W38 行业周报 xlsx 三表版。与已消化的 md 版同源；本轮逐条核验三表 17 个主体（公司/监管机构）**站内全部已覆盖**，无新增条目，不重复成篇。哈希基准已刷新",
+   "hash": "0b4a81aebe56b20f8fac005b118f7a24"
   },
   "dxGTKRYApbJO": {
    "name": "行业情报周报_2026-10-14",
@@ -2538,321 +2538,35 @@
   "dGBunAeRiRlm": {
    "name": "文献监控_2026-10-29_卡片",
    "layer": "文献层",
-   "size": 690958,
+   "size": 692872,
    "mtime": "1793213112000",
    "status": "done",
-   "done_at": "2026-10-29T06:09:03+08:00",
-   "slugs": [
-    "Epigenetic-Aging-Informed-Dietary-Pattern-Health-Outcomes-2026.html",
-    "Pathway-PRS-Modify-Amyloid-Tau-PET-Accumulation-AD-2026.html",
-    "Ginsenoside-Rb1-AMPK-mTOR-Uterine-Aging-2026.html",
-    "Retinal-Neurodegeneration-Accelerated-Ocular-Aging-Nutrients-2026.html",
-    "Biological-Age-AI-Health-Care-Commentary-2026.html",
-    "Dementia-Risk-Scores-Prediction-Meta-Analysis-2026.html",
-    "Macrophage-Senescence-Senile-Osteoporosis-2026.html",
-    "Bipolar-Disorder-Dementia-Risk-Meta-2026.html",
-    "Plasma-Lactate-Glucose-Lactate-Index-MASLD-BioAge-2026.html",
-    "Digital-Completion-Time-AD-Atrophy-Vascular-Burden-2026.html",
-    "Lecanemab-Real-World-Jiangsu-Cohort-Outcomes-2026.html",
-    "AMPK-Signaling-Cell-Metabolism-Human-Diseases-Review-2026.html",
-    "SCeNS-Standardization-Fluid-Markers-AD-2026.html",
-    "Cerebellar-Nuclei-Cuprizone-Demyelination-Aged-Mice-MRI-2026.html",
-    "Cardiorespiratory-Fitness-Cortical-Thickness-Lifespan-GAM-2026.html",
-    "SOD1-Strain-Intracisternal-Templated-Aggregation-ALS-Mice-2026.html",
-    "Computational-Drug-Discovery-Alzheimer-Review-2026.html",
-    "PARP10-Condensation-NAD-Homeostasis-Viral-Replication-2026.html",
-    "Chronic-Demyelination-Microglial-Lysosomal-Dysfunction-2026.html",
-    "Modified-Anti-Amyloid-Antibodies-Alzheimer-Review-2026.html",
-    "Proteomic-Ageing-Clocks-Methods-Muscle-2026.html",
-    "Brains-For-Dementia-Research-At-18-Cohort-2026.html",
-    "Large-Language-Models-AD-Early-Screening-Scoping-Review-2026.html",
-    "Sleep-Duration-Sarcopenia-Depression-CHARLS-2026.html",
-    "Treadmill-Exercise-Oxidative-Stress-Sirtuin-D-Galactose-Rats-2026.html",
-    "Vitamin-D-Leucine-Whey-Inflammaging-Cardiac-Rehab-RCT-2026.html",
-    "Exercise-Autophagy-Lysosome-Nrf2-ARF1-HFD-Mice-2026.html",
-    "Shh-MMP-Crosstalk-Neurovascular-Ageing-Stroke-2026.html",
-    "Sex-Dependent-Skeletal-Muscle-3xTg-AD-Mice-2026.html",
-    "Age-Related-Cardiac-Dysfunction-Telomere-Rats-2026.html",
-    "Heterogeneous-ATN-Progression-AD-Subtypes-2026.html",
-    "Ginsenoside-Rg2-TGF-beta-Smad-Sarcopenia-Aged-Mice-2026.html",
-    "Uterine-Decidualization-Aging-Molecular-Structural-Mice-2026.html",
-    "Senomorphics-SASP-Modulation-Without-Clearing-2026.html",
-    "Metformin-Atorvastatin-MASH-AMPK-NFkB-2026.html",
-    "Age-Sex-Multiscale-Entropy-Spectral-Power-Lifespan-2026.html",
-    "Brain-Aging-Senescence-Neuroimmunological-Dysregulation-2026.html",
-    "Age-Related-Bimanual-Coordination-Electrophysiology-2026.html",
-    "Gut-Microbiota-Regulating-Alzheimer-Review-2026.html",
-    "Ozone-Alzheimer-Sleep-Air-Pollution-Hypothesis-2026.html",
-    "Parvalbumin-Interneuron-Network-Aging-Motor-Cortex-2026.html",
-    "Metformin-SGLT2i-Intermittent-Fasting-Healthspan-Review-2026.html",
-    "Minor-Phytocannabinoids-ER-Stress-Proteostasis-AD-2026.html",
-    "NLRP3-IL-1beta-Atherosclerosis-Natural-Products-Review-2026.html",
-    "Nuclear-Damage-Response-Code-Cutaneous-Wound-Repair-2026.html",
-    "Alpha-Lipoic-Acid-Ambrisentan-PAH-AMPK-mTOR-2026.html",
-    "Immunosenescence-Aging-Cancer-Tumor-Microenvironment-2026.html",
-    "Lifestyle-Biomarkers-Human-Geroscience-Trials-Roadmap-2026.html",
-    "Environmental-Exposome-AMD-Oxidative-Stress-2026.html",
-    "SIRT1-Hypertension-Mitochondrial-Vascular-Aging-2026.html",
-    "Glymphatic-Dysfunction-Neurological-Disorders-Inflammaging-2026.html",
-    "CSF-APOE-Secondary-Glycosylation-Cognitive-Decline-MCI-2026.html",
-    "Mitophagy-Vortex-COPD-Skeletal-Muscle-Dysfunction-2026.html",
-    "NMN-Microglia-OGD-R-NLRP3-Lipid-Droplet-Signatures-2026.html",
-    "Paired-CSF-Plasma-Analyte-Contrasts-AD-Stages-2026.html",
-    "Serum-TSH-Geriatric-Outpatients-Cross-Sectional-2026.html",
-    "Aging-As-Failure-To-Resolve-Geroscience-Framework-2026.html",
-    "Cellular-Senescence-Ocular-Surface-Diseases-2026.html",
-    "Genetic-Transcriptomic-DLB-AD-PDD-Differences-2026.html",
-    "Paeonol-UVB-Premature-Senescence-Fibroblasts-2026.html",
-    "Gut-Microbiome-Estrogen-Axis-Menopause-2026.html",
-    "Frailty-Metabolomics-Proteomics-Geriatric-Clinic-2026.html",
-    "Dietary-Indices-Cognition-Older-Chinese-Adults-2026.html",
-    "Okinawa-Nutrition-Transition-Longevity-Hypothesis-2026.html",
-    "P2X7R-Antagonist-A740003-Cardiac-Senescence-NFkB-2026.html",
-    "Incensole-Acetate-Sirtuin-Insulin-Signaling-AD-Model-2026.html",
-    "Resveratrol-BCG-Autophagy-Apoptosis-Macrophages-SIRT1-2026.html",
-    "Hormone-Replacement-Therapy-Epigenetic-Clock-Estrogen-2026.html",
-    "Oral-Frailty-Risk-Factors-Meta-Analysis-2026.html",
-    "Laminin-Peptides-Isoforms-Multifaceted-Review-2026.html",
-    "Galega-Hippophae-Resveratrol-Senescence-Fibroblasts-Hair-Follicles-2026.html",
-    "Senescence-Malignancy-Axis-Inflammaging-Perspective-2026.html",
-    "Compartment-Specific-Remodelling-Denervation-Muscle-Regeneration-2026.html",
-    "L1CAM-EV-MicroRNAs-MCI-AD-Exploratory-2026.html",
-    "Protein-Persulfidation-Aging-Age-Related-Disorders-2026.html",
-    "GLP-1-RA-Cognitive-Performance-AD-Risk-RCT-Meta-2026.html",
-    "Nutrition-Strategies-Sarcopenia-Network-Meta-2026.html",
-    "Aerobic-Exercise-Gut-Microbiota-UM-HET3-Mice-2026.html",
-    "Coenzyme-Q10-Muscle-Health-Older-Adults-RCT-Meta-2026.html",
-    "Serum-Neurofilament-Light-Cognitive-Decline-India-Cohort-2026.html",
-    "Neuropsychological-Clustering-Early-MCI-Community-2026.html",
-    "Episodic-Memory-Practice-Effects-Longitudinal-Trajectories-2026.html",
-    "AD-Hashimoto-Thyroiditis-Immune-Transcriptomic-Overlap-2026.html",
-    "Nighttime-Blue-Light-Lipid-Accumulation-Lifespan-C-Elegans-2026.html",
-    "Lifestyle-Cognitive-Performance-Subjective-Complaints-N-HANCE-2026.html",
-    "White-Matter-Microstructural-Aging-GAN-Disentanglement-2026.html",
-    "Peri-Ovarian-Mitochondrial-Administration-Aged-Rats-2026.html",
-    "Myo-Inositol-Metformin-Berberine-PCOS-Observational-2026.html",
-    "Stroke-Sarcopenia-Lower-Limb-Strength-Gait-Matched-Cohort-2026.html",
-    "Metformin-Liver-Glucose-Enzymes-STZ-Diabetic-Rats-2026.html",
-    "HDL-Functionality-Cholesterol-Dementia-Case-Cohort-2026.html",
-    "NMN-Intermittent-Hypoxia-Cardiac-Remodeling-Mice-2026.html",
-    "Social-Ties-Diet-Inequality-Canadian-Longitudinal-Aging-2026.html",
-    "Soy-Phytoestrogen-Metabolic-Health-Ovariectomized-Mice-2026.html",
-    "Better-At-Home-Geriatric-Rehabilitation-Shortened-Inpatient-2026.html",
-    "Early-Onset-Familial-Parkinsonism-Clinical-Genetic-Cohort-2026.html",
-    "Plasma-AD-Biomarkers-Test-Retest-Reliability-Heterogeneous-2026.html",
-    "Exercise-Snacks-Sarcopenia-Mortality-National-Cohort-2026.html",
-    "Microbiome-Phytosterol-Sulfates-Tissue-Distribution-Mice-2026.html",
-    "Metformin-Acute-Social-Sniffing-BTBR-Mice-2026.html",
-    "K34-Hemoglobin-H2O2-Decomposition-APP-PS1-Focal-GiD-2026.html",
-    "Sex-Differences-Sleep-Memory-Older-Adults-AD-Risk-2026.html",
-    "Autophagy-Pseudomonas-Aeruginosa-Infection-Host-Pathogen-2026.html",
-    "Monocyte-Macrophage-Senescence-Genes-PAH-Single-Cell-2026.html",
-    "Telomere-Dynamics-Congenital-Heart-Defects-Cardiogenesis-2026.html",
-    "Weight-Normalized-RMR-Malnutrition-Sarcopenia-Inpatients-2026.html",
-    "Autophagy-Progesterone-Endometrium-Recurrent-Implantation-Failure-2026.html",
-    "Periocular-Rejuvenation-Evidence-Based-Management-2026.html",
-    "Histone-H1-Variants-Drug-Induced-Senescence-2026.html",
-    "Leisure-Activities-Cognitive-Reserve-Lifespan-Review-2026.html",
-    "Musical-Instrument-Practice-Sensorimotor-Healthy-Aging-2026.html",
-    "Resolvin-Receptors-iPSC-PARK2-Parkinson-Cultures-2026.html",
-    "Numerical-Cognition-Neurodegenerative-Disorders-Systematic-Review-2026.html",
-    "Age-Stratified-Serum-Biomarkers-Cognitive-Impairment-Inpatients-2026.html",
-    "Glial-Contributions-Pain-Neurodegeneration-Systematic-Review-2026.html",
-    "Iron-Mitochondria-Oligodendrocyte-Axis-AD-2026.html",
-    "Cerebral-Hemodynamics-Subjective-Cognitive-Decline-fNIRS-2026.html",
-    "Brain-Rap1-Signaling-Metformin-Antidiabetic-Action-2026.html",
-    "Cytokinins-Biomaterials-Tissue-Regeneration-In-Vitro-Review-2026.html",
-    "ER-Volume-Senescence-State-UPR-Dynamics-2026.html",
-    "Brain-Blindness-Versus-Eye-Blindness-AD-Vision-Genetics-2026.html",
-    "Dual-MAGL-ABHD6-Inhibition-Excitotoxicity-Neuroprotection-2026.html",
-    "Dihydromyricetin-Healthspan-Neuroprotection-C-Elegans-2026.html",
-    "Sulforaphane-Sarcopenia-Type-2-Diabetes-Review-2026.html",
-    "Gut-Microbiome-Oxidative-Stress-Type-2-Diabetes-2026.html",
-    "Circular-RNAs-AD-Ferroptosis-EPAC-Signalling-2026.html",
-    "Modeling-Strategies-Neurodegenerative-Diseases-Frameworks-2026.html",
-    "Senescence-Transcriptome-Reversal-Diabetic-Kidney-Repurposing-2026.html",
-    "Cisplatin-Ototoxicity-Autophagy-PTEN-PI3K-AKT-Cochlea-2026.html",
-    "Spatial-Interoceptive-Amnestic-MCI-Perceived-Health-2026.html",
-    "CT-Skeletal-Muscle-Assessment-Sarcopenia-Surgery-Scoping-Review-2026.html",
-    "STIs-Over-65-Southern-Sardinia-2026.html",
-    "Frailty-In-Hospital-Acute-Pulmonary-Embolism-NIS-2026.html",
-    "Lower-Limb-Asymmetry-Falls-Frailty-Systematic-Review-2026.html",
-    "Empagliflozin-Metformin-Cardio-Kidney-Metabolic-Syndrome-2026.html",
-    "Peptides-Acetylcholinesterase-AD-Design-Strategies-2026.html",
-    "Type-2-Diabetes-Osteoarthritis-Shared-Pathophysiology-2026.html",
-    "Stem-Cell-Exosome-Organ-Health-Longevity-Review-2026.html",
-    "EP2-EP4-Alzheimer-Cell-Dependent-Signalling-2026.html",
-    "Autophagy-Pituitary-Neuroendocrine-Tumors-PitNET-2026.html",
-    "Epigenetic-Mechanisms-Neurodegenerative-Diseases-Therapeutics-2026.html",
-    "Zinc-Deficiency-Cuprizone-Hippocampus-ZnT3-NOGO-A-IL-6-2026.html",
-    "Glymphatic-Meningeal-Autophagy-ME-CFS-Long-COVID-2026.html",
-    "Alpha-Halogenated-Curcumins-Amyloid-Beta-Binding-2026.html",
-    "Safranal-Plasma-Iron-Behavior-AD-Models-2026.html",
-    "VCE-005-1-Diabetic-Wound-Healing-Endothelial-Protection-2026.html",
-    "Ethosomal-Trans-Resveratrol-Nanocarrier-Characterization-2026.html",
-    "Metformin-High-Dose-Tablet-Quality-Attributes-2026.html",
-    "Serum-Niacin-Nicotinamide-Child-Behavior-China-2026.html",
-    "Prognostic-Nutritional-Index-Microbial-DNA-Neurocognitive-Vulnerability-2026.html",
-    "Macronutrient-Distribution-Frailty-Energy-Sufficiency-2026.html",
-    "Precision-Nutrition-Health-Outcomes-Lifespan-2026.html",
-    "UDCA-TUDCA-Network-Pharmacology-AD-2026.html",
-    "Sitagliptin-Metformin-ER-Bioequivalence-Mexican-Subjects-2026.html",
-    "Lysine-Acetylation-Sirtuins-Cardiometabolic-Disease-2026.html",
-    "Cyanobacteria-MAO-B-Inhibitors-Parkinson-In-Silico-2026.html",
-    "Dual-AChE-Kgp-Alzheimer-Computational-Study-2026.html",
-    "Multi-Omics-Metformin-LPS-Lung-Injury-Gut-Metabolites-2026.html",
-    "Niosomal-Mexiletine-Rotenone-Parkinsonism-circDLGAP4-2026.html",
-    "H-Pylori-Genetic-Proxies-HLA-Alzheimer-Parkinson-2026.html",
-    "Ganoderma-Spore-Powder-Gut-Microbiota-Tryptophan-Indoles-2026.html",
-    "Coronavirus-Ubiquitination-Selective-Autophagy-Innate-Immunity-2026.html",
-    "Sirtuin-1-Mammarenavirus-Multiplication-Sphingolipid-2026.html",
-    "POI-LMD-3-Mutation-Autophagic-Lysosomal-C-Elegans-2026.html",
-    "Microencapsulated-Sodium-Butyrate-Aged-Quails-Multi-Omics-2026.html",
-    "Intracellular-Antibody-Delivery-Tau-Phosphorylation-Neural-Cells-2026.html",
-    "Microglial-Dynamic-Remodeling-AD-Spatiotemporal-Immunometabolic-2026.html",
-    "Ginseng-Intake-Serum-Zinc-AD-Cognition-2026.html",
-    "Probabilistic-Framework-Life-Course-Diet-Longevity-2026.html",
-    "Nasopharyngeal-Microbiota-Influenza-Like-Illness-Aging-2026.html",
-    "Prefrontal-Planning-Latency-Age-Microbial-Exposure-2026.html",
-    "Bacteroides-Fragilis-OMV-Skin-Autophagy-Pseudomonadota-2026.html",
-    "Social-Disconnection-Cognitive-Consequences-Dementia-Prevention-2026.html",
-    "Hippocampal-Hypothalamic-Nutrition-AD-5xFAD-2026.html",
-    "Social-Determinants-Neurocognitive-Aging-Andean-Ecuador-2026.html",
-    "Parishin-B-Gastrodia-Elata-Docking-AD-2026.html",
-    "SIRT1-Redox-Crosstalk-Cellular-State-Transitions-2026.html",
-    "Stress-Goblet-Cell-Barrier-5-HT-HTR7-NLRP6-Autophagy-2026.html",
-    "Aging-Genes-Pathways-Yeast-Insight-2026.html",
-    "Immune-Inflammatory-Autophagy-JNK-Human-Myocardium-2026.html",
-    "ACO2-Oxidative-Stress-Biomarker-AD-Multi-Omics-2026.html",
-    "Amphibian-Extracts-Multi-Target-Anti-AD-Peptides-2026.html",
-    "Glyceraldehyde-HSP90beta-Autophagy-Renal-Epithelial-Cells-2026.html",
-    "Deubiquitinating-Enzymes-AD-Protein-Homeostasis-2026.html",
-    "Skeletal-Muscle-Aging-Systemic-Aging-Review-2026.html",
-    "Myricitrin-Delays-C-Elegans-Aging-DAF-16-SIR-2-1-2026.html",
-    "Telomerase-Cellular-Stress-Response-Inhibitors-2026.html",
-    "PTPRD-Flavonol-AD-Neurofibrillary-Pathophysiology-2026.html",
-    "Amino-Acid-Substitutions-Proteomic-AD-GFAP-2026.html",
-    "Tenascin-X-Tenascin-C-Age-Cardiometabolic-Risk-2026.html",
-    "Hydroxy-Phenyl-Furanone-Lifespan-C-Elegans-2026.html",
-    "hTERT-Promoter-Polymorphisms-Metabolic-Phenotypes-Telomere-2026.html",
-    "Lactoferrin-Healthy-Aging-Gut-Immune-Iron-Mitochondria-2026.html",
-    "Microglial-Therapeutic-Potential-AD-Targeted-Interventions-2026.html",
-    "Herpesvirus-Infections-Influence-Aging-Timing-2026.html",
-    "Plasma-Biomarkers-Point-Of-Care-AD-2D-BioPAD-2026.html",
-    "Pyroptosis-Mitophagy-Axis-Mechanisms-Therapeutics-2026.html",
-    "Integrating-Cure-Care-AD-Systems-Precision-Medicine-2026.html",
-    "Hypertension-Older-Adults-Taiwan-Japan-Guidelines-2026.html",
-    "Aquaporin-4-Muscle-Differentiation-Satellite-Cell-Aging-2026.html",
-    "Histone-Modifications-Aging-Neuroinflammation-Metabolism-AD-2026.html",
-    "Peptidergic-Regulation-Cardiovascular-Aging-VPP-KED-2026.html",
-    "Multimodal-Organ-Age-Plasma-Proteins-Behaviour-2026.html",
-    "Loneliness-Hearing-Decline-Cognitive-Aging-SHARE-MR-2026.html",
-    "Microglial-NUS1-Iron-Dysregulation-Dopaminergic-Neurodegeneration-PD-2026.html",
-    "Human-Proteostasis-Network-Autophagy-Lysosome-Survey-2026.html",
-    "Nanovaccine-Dendritic-Cell-Senescence-Metabolic-Dysfunction-2026.html",
-    "Omics-Integrative-Biological-Age-Assessment-2026.html",
-    "Annual-Wellness-Visits-Dementia-Medication-Medicare-2026.html",
-    "CASS4-Microglial-Focal-Adhesion-Amyloidosis-2026.html",
-    "Seven-Ways-Not-To-Think-Carefully-About-Aging-2026.html",
-    "Nutrition-Plus-Exercise-Frailty-SWIM-Review-2026.html",
-    "ROR2-Right-Ventricular-Failure-Proteostasis-2026.html",
-    "Peptide-Preparations-Alzheimer-Therapy-Prospects-2026.html",
-    "Resilience-Comprehensive-Geriatric-Assessment-2026.html",
-    "Partial-Edentia-Longevity-Medicine-Biomarker-2026.html",
-    "Extracellular-Matrix-Mitochondrial-Function-Lung-Aging-2026.html",
-    "Proteostasis-Network-Translation-Folding-Organelle-Survey-2026.html",
-    "Exercise-Lactylation-WDR41-Autophagy-Fatty-Liver-2026.html",
-    "Blood-Based-Biomarkers-AD-Detection-Technologies-2026.html",
-    "Relaxin-2-Synaptic-Integrity-NLRP3-mTOR-Autophagy-AD-2026.html",
-    "Household-Size-Social-Connection-Neurodegenerative-Burden-2026.html",
-    "Brainstem-Circuit-Resilience-Tau-Vulnerability-AD-2026.html",
-    "Plasma-Beta-Synuclein-Synaptic-Density-UCB-J-PET-AD-2026.html",
-    "Telomere-Length-hTERT-MNS16A-Cannabis-Use-Disorder-2026.html",
-    "Target48-Neurodegeneration-Panel-Protein-Signatures-2026.html",
-    "Single-Cell-Microglial-Dysfunction-Diabetes-Neurodegeneration-2026.html",
-    "Shenqi-Xiezhuo-Decotion-Renal-Fibrosis-ERK-mTOR-2026.html",
-    "Theory-Of-Resilience-Geriatric-Medicine-2026.html",
-    "Signaling-Molecules-Skin-Aging-Targeted-Prevention-2026.html",
-    "Melatonin-Hepatocyte-Mitochondria-Constant-Light-2026.html",
-    "Long-Term-Sildenafil-Male-Reproductive-Aging-Rats-2026.html",
-    "Neural-Entrainment-Speech-Age-Noise-2026.html",
-    "Assessment-Mammalian-Cellular-Senescence-Updated-Guide-2026.html",
-    "Jiaotaiwan-AMPK-Lipid-Metabolism-APP-PS1-Mice-2026.html",
-    "Central-Obesity-Inflammation-Trajectories-Incident-Frailty-2026.html",
-    "Oral-Frailty-HRQoL-Master-Athletes-2026.html",
-    "Single-Cell-Lacrimal-Gland-Aging-Mice-2026.html",
-    "OTUD1-Parkin-Degradation-Dopaminergic-Neurodegeneration-PD-2026.html",
-    "Dental-Care-Modifies-Cognitive-Decline-Scoping-Review-2026.html",
-    "Bisphenol-A-ACSL4-Ferro-Aging-Urothelial-Injury-2026.html",
-    "Amygdala-Vulnerability-Pick-Disease-FTD-Syndromes-2026.html",
-    "CDK4-6-Inhibition-mTOR-Lymphangioleiomyomatosis-2026.html",
-    "Aging-Reshapes-Subchronic-LPS-Response-L-Theanine-Exercise-2026.html",
-    "TDP-43-Dysfunction-Glial-Homeostatic-Identity-ALS-FTD-2026.html",
-    "T-Cell-Metabolic-Ageing-Therapeutic-Research-2026.html",
-    "Oleuropein-Derivative-GS32-Proteostasis-Cancer-2026.html",
-    "hucMSC-Exosomes-Cognitive-Impairment-Metabolic-Remodeling-2026.html",
-    "Hemocytes-Nutrient-Sensing-Immune-Lifespan-Drosophila-2026.html",
-    "Moxibustion-BMSC-Exosomal-miR-27a-3p-Mitophagy-Osteoporosis-2026.html",
-    "mTOR-Inhibition-Strategies-Oropharyngeal-Carcinoma-2026.html",
-    "UCHL1-Sp1-Cochlear-Hair-Cell-Senescence-Expression-Of-Concern-2026.html",
-    "Apathy-Progression-Neuropathology-NACC-ADRD-2026.html",
-    "Dentin-Yellowness-Stiffness-Aging-Human-Dentin-2026.html",
-    "Oral-Frailty-Assessments-Methodological-Evaluation-2026.html",
-    "Early-Menarche-Ovarian-Reserve-Biological-Aging-2026.html",
-    "Community-Inequalities-Incident-Oral-Frailty-2026.html",
-    "Esculetin-Transplant-Rejection-CD4-T-Cell-Glycolysis-mTOR-2026.html",
-    "Ginsenoside-Rg1-PCOS-Granulosa-Cell-Glycolysis-mTOR-2026.html",
-    "PINK1-Parkin-Mitophagy-Nonylphenol-Podocyte-Glomerulonephritis-2026.html",
-    "m6A-lncRNA-RMRP-Mitophagy-oxLDL-Endothelial-Injury-2026.html",
-    "Melatonin-Edaravone-Methylmercury-ALS-GLP-1-Myelin-2026.html",
-    "Aging-Like-Foveal-Profile-Macular-Hole-Fellow-Eyes-2026.html",
-    "Swallowing-Time-Neck-Worn-Stethoscope-Community-Older-Adults-2026.html",
-    "Diabetic-Neuropathy-Low-Muscle-Mass-Osteoporosis-Fractures-2026.html",
-    "Vision-Transformer-Lifespan-Functional-Connectivity-2026.html",
-    "Pericyte-KATP-Channels-Alzheimer-Cerebral-Blood-Flow-2026.html",
-    "Osteoarthritis-Management-New-Developments-2026.html",
-    "Ageing-Adults-Profound-Intellectual-Disabilities-French-Facilities-2026.html",
-    "Oligodendrocytes-Parkinson-Etiology-Review-2026.html",
-    "Perivascular-Spaces-Multidomain-Determinants-Preclinical-AD-2026.html",
-    "Comparative-Endocrinology-Of-Aging-Insects-2026.html",
-    "HCT-FS-Frailty-Survival-Allogeneic-Transplantation-2026.html",
-    "Butyrate-PPARgamma-p21-Endothelial-Dysfunction-Soy-Polysaccharide-2026.html",
-    "Cold-BH2-Metabolic-Network-Longevity-2026.html",
-    "Endothelial-Cell-Aging-Single-Cell-Atlas-2026.html",
-    "Death-Receptors-IAP-Antagonist-Senolytics-2026.html",
-    "NAD-Metabolic-Restoration-Lung-GVHD-2026.html",
-    "Multimorbidity-Economic-Burden-Aging-2026.html",
-    "CCL11-Microglial-Reparative-ICH-Aged-Brain-2026.html",
-    "Nutrition-Inflammation-Index-Vascular-Aging-Mortality-2026.html",
-    "Biological-Age-CVD-Hospitalization-Risk-2026.html",
-    "Accelerated-Brain-Aging-Executive-Deficits-2026.html",
-    "Autophagy-Activation-SMA-Lifespan-2026.html",
-    "Home-Use-LED-Mask-Cream-Anti-Aging-2026.html"
-   ],
-   "note": "285 张卡片全量消化：274 篇新稿上站（199 全文级 / 75 摘要级，A111/B69/C94）+ U01–U11 付费墙回捞 11 篇原地升级（不占新页）；规则④查重 DOI 命中 0、PMID 命中 11 （全部为升级条目，故不新建页面）；每张新页带数据日期/生成时间标签",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [],
+   "note": "seen 判 UNCHANGED（内容哈希一致，mtime 未变、仅 size 缓存修正）；10-29 已消化",
    "hash": "4018db3ea8b6d0501d45eeff1978d4fe"
   },
   "dZRISkLBlBMk": {
    "name": "文献监控_2026-10-29_总览",
    "layer": "文献层",
    "size": 5677,
-   "mtime": "1793232470000",
+   "mtime": "1793376114000",
    "status": "empty",
-   "done_at": "2026-10-30T05:49:21+08:00",
+   "done_at": "2026-10-31T05:30:00+08:00",
    "slugs": [],
-   "note": "实测 5676 B 非空壳判定：下载后 xl/worksheets/sheet1.xml 的 sheetData 为空节点、零数据行（原 49339 B 有内容被覆写）——需重跑文献监控任务 7762989",
-   "hash": ""
+   "note": "⛔ 空壳（第二道闸判出）：实测 5,676 B 但 xl/worksheets/sheet1.xml 的 <sheetData/> 为空节点、<row> 数 0，零数据行；名为 .csv 的那份实体也是 xlsx。10-30 轮已判空并告警，本轮 mtime 变化后**再次实际下载核验，仍为空壳** —— 任务已被重跑但产出依旧失败，需再重跑 **7762989（重点期刊监控·每周五）**。同批《文献监控_2026-10-29_卡片》692,872 B 完好且已消化，故不影响已上站内容。",
+   "hash": "a0f74336f53e802bffb57f605ca75d09"
   },
   "dmaqQuEoiQgX": {
    "name": "文献监控_2026-10-29_总览",
    "layer": "文献层",
    "size": 5677,
-   "mtime": "1793232470000",
+   "mtime": "1793311135000",
    "status": "empty",
-   "done_at": "2026-10-30T05:49:21+08:00",
+   "done_at": "2026-10-31T05:30:00+08:00",
    "slugs": [],
-   "note": "同上（csv 名义但实体为 xlsx，同源空壳，原 90120 B）——需重跑文献监控任务 7762989",
-   "hash": ""
+   "note": "⛔ 空壳（第二道闸判出）：实测 5,676 B 但 xl/worksheets/sheet1.xml 的 <sheetData/> 为空节点、<row> 数 0，零数据行；名为 .csv 的那份实体也是 xlsx。10-30 轮已判空并告警，本轮 mtime 变化后**再次实际下载核验，仍为空壳** —— 任务已被重跑但产出依旧失败，需再重跑 **7762989（重点期刊监控·每周五）**。同批《文献监控_2026-10-29_卡片》692,872 B 完好且已消化，故不影响已上站内容。",
+   "hash": "75bdfb77afad9f8c8ef9d4368ab3f057"
   },
   "dPChwCcGPgui": {
    "name": "午刊_2026-10-28_已上站留档.tar",
@@ -2902,6 +2616,1052 @@
    "slugs": [],
    "note": "表格版 xlsx，与 md 同源不同载体，不重复成篇",
    "hash": "7c169b3c6313b98b91ad625e5a92d582"
+  },
+  "dkAJlJMbNQhH": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-30_主榜01_10.64898-2026.10.26.761980",
+   "layer": "元层",
+   "size": 8123,
+   "mtime": "1793384190000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Disrupting-SORL1-retromer-Endosomal-Recycling-Mice-Drives-Age-dependent-2026.html"
+   ],
+   "note": "已上站：Disrupting-SORL1-retromer-Endosomal-Recycling-Mice-Drives-Age-dependent-2026.html（数据日期 2026-10-30，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "d283e517be8f79eb16d102d7d0ec7567"
+  },
+  "dFRtQoQsEFjn": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-30_主榜02_10.64898-2026.10.26.761884",
+   "layer": "元层",
+   "size": 7826,
+   "mtime": "1793384191000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Brain-Representations-Visual-Short-term-Memories-Healthy-Human-2026.html"
+   ],
+   "note": "已上站：Brain-Representations-Visual-Short-term-Memories-Healthy-Human-2026.html（数据日期 2026-10-30，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "5986a613ce3829bbb0caade2085e0637"
+  },
+  "duuHLDVcgUDR": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-30_主榜03_10.64898-2026.10.28.762418",
+   "layer": "元层",
+   "size": 8468,
+   "mtime": "1793384192000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Experimental-Evolution-Unveils-Role-Structural-Variants-Sex-specificity-2026.html"
+   ],
+   "note": "已上站：Experimental-Evolution-Unveils-Role-Structural-Variants-Sex-specificity-2026.html（数据日期 2026-10-30，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "366f2ecf47066a8ca4fbdd9ff15e5e63"
+  },
+  "donINhXrugtP": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-30_主榜04_10.64898-2026.10.28.762624",
+   "layer": "元层",
+   "size": 8766,
+   "mtime": "1793384193000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Pregnancy-History-Loss-Normal-PSEN2-Function-Impact-Female-Late-Life-2026.html"
+   ],
+   "note": "已上站：Pregnancy-History-Loss-Normal-PSEN2-Function-Impact-Female-Late-Life-2026.html（数据日期 2026-10-30，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "cbb33296771031ca5eea49916d8aa7df"
+  },
+  "dQBmlkQuwPhI": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-30_主榜05_10.64898-2026.10.30.26363202",
+   "layer": "元层",
+   "size": 9624,
+   "mtime": "1793384408000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Sex-specific-Skeletal-Ageing-Trajectories-Reference-Centiles-2026.html"
+   ],
+   "note": "已上站：Sex-specific-Skeletal-Ageing-Trajectories-Reference-Centiles-2026.html（数据日期 2026-10-30，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "6e573a1febd38dd660d10da3cc813a96"
+  },
+  "dDsoXnQUpzAC": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-29_主榜06_10.64898-2026.10.27.762011",
+   "layer": "元层",
+   "size": 9134,
+   "mtime": "1793383859000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Proteomic-Clocks-Reveal-Organ-specific-Signatures-Aging-Mice-2026.html"
+   ],
+   "note": "已上站：Proteomic-Clocks-Reveal-Organ-specific-Signatures-Aging-Mice-2026.html（数据日期 2026-10-29，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "ff2d40ab6fac9e2f8733397be37c5b64"
+  },
+  "dPGCFgqPGoHh": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-29_主榜07_10.64898-2026.10.27.26366537",
+   "layer": "元层",
+   "size": 9219,
+   "mtime": "1793384188000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Association-Dietary-Protein-Intake-Accelerated-Biological-Aging-2026.html"
+   ],
+   "note": "已上站：Association-Dietary-Protein-Intake-Accelerated-Biological-Aging-2026.html（数据日期 2026-10-29，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "16bde7484f11a15e911536312ad392df"
+  },
+  "ddbilQSdDXql": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_主榜08_10.64898-2026.10.26.761820",
+   "layer": "元层",
+   "size": 9079,
+   "mtime": "1793383393000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Dual-Role-Cx43-Enhancing-CDK4-Inhibitor-Response-Promoting-Elimination-2026.html"
+   ],
+   "note": "已上站：Dual-Role-Cx43-Enhancing-CDK4-Inhibitor-Response-Promoting-Elimination-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "1f8806719b0beb10ce46024d22964126"
+  },
+  "dPpEuZGgKXUj": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_主榜09_10.64898-2026.10.22.755587",
+   "layer": "元层",
+   "size": 10922,
+   "mtime": "1793383395000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Screening-Evaluation-Medicine-Food-Homology-Herbal-Combinations-2026.html"
+   ],
+   "note": "已上站：Screening-Evaluation-Medicine-Food-Homology-Herbal-Combinations-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "b7413043ad23886ffb87b1f4c6dc08c5"
+  },
+  "dFoaAUoDPVAd": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_主榜10_10.64898-2026.10.26.761759",
+   "layer": "元层",
+   "size": 9089,
+   "mtime": "1793383396000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Male-Youth-BMI-Associated-Epigenetic-Ageing-Female-Descendants-2026.html"
+   ],
+   "note": "已上站：Male-Youth-BMI-Associated-Epigenetic-Ageing-Female-Descendants-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "15710d20704226493279691b780ecec5"
+  },
+  "dEKXAzyShYPf": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_主榜11_10.64898-2026.10.27.762265",
+   "layer": "元层",
+   "size": 8131,
+   "mtime": "1793383397000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Aging-Brain-Matrix-Cross-Species-Evidence-Linking-FREM3-Cognitive-2026.html"
+   ],
+   "note": "已上站：Aging-Brain-Matrix-Cross-Species-Evidence-Linking-FREM3-Cognitive-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "90ebc97e8743dd802f7c9f18fe97e150"
+  },
+  "dugOoOHXtIUd": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_主榜12_10.64898-2026.10.27.760186",
+   "layer": "元层",
+   "size": 8719,
+   "mtime": "1793383398000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Charting-Vulnerability-Brainstem-Functional-Pathways-Aging-Prodromal-2026.html"
+   ],
+   "note": "已上站：Charting-Vulnerability-Brainstem-Functional-Pathways-Aging-Prodromal-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "08382f3097e67ce909ea62c88045f63e"
+  },
+  "dDfZnNgrxjvB": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_主榜13_10.64898-2026.10.27.762262",
+   "layer": "元层",
+   "size": 7510,
+   "mtime": "1793383854000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Aged-Human-Bone-Marrow-Mesenchymal-Niche-Causes-Impaired-Function-2026.html"
+   ],
+   "note": "已上站：Aged-Human-Bone-Marrow-Mesenchymal-Niche-Causes-Impaired-Function-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "24bc7c77e6ac85a873f43ee53febbdfa"
+  },
+  "dpibzfksgdGy": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_主榜14_10.64898-2026.10.26.760729",
+   "layer": "元层",
+   "size": 9138,
+   "mtime": "1793383855000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Choline-Kinase-Alpha-Inhibition-Mutation-Agnostic-Therapeutic-2026.html"
+   ],
+   "note": "已上站：Choline-Kinase-Alpha-Inhibition-Mutation-Agnostic-Therapeutic-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "d66ee029069669c2e49ba9fdd0762f88"
+  },
+  "deqxJNPtTUqH": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_主榜15_10.64898-2026.10.26.761925",
+   "layer": "元层",
+   "size": 8370,
+   "mtime": "1793383857000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Identification-Endothelial-Senotype-Predicted-Ion-Channel-Expression-2026.html"
+   ],
+   "note": "已上站：Identification-Endothelial-Senotype-Predicted-Ion-Channel-Expression-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "efbed61cc68b1f875a644e94487254cc"
+  },
+  "dvRobftPZtzz": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_主榜16_10.64898-2026.10.26.761990",
+   "layer": "元层",
+   "size": 8020,
+   "mtime": "1793383399000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Targeting-MK2-Driven-Stromal-Senescence-Sensitizes-Breast-Cancer-2026.html"
+   ],
+   "note": "已上站：Targeting-MK2-Driven-Stromal-Senescence-Sensitizes-Breast-Cancer-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "96b0d289f2a7f777f2d3f81f43ada79e"
+  },
+  "dNRHjWKftyAJ": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_主榜17_10.64898-2026.10.26.762074",
+   "layer": "元层",
+   "size": 8802,
+   "mtime": "1793383401000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Erythrocyte-Aging-Links-Hypocalcemia-Impaired-Flow-Dynamics-2026.html"
+   ],
+   "note": "已上站：Erythrocyte-Aging-Links-Hypocalcemia-Impaired-Flow-Dynamics-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "9a7d9d94b1f0c53fb2ec50fa528d900f"
+  },
+  "drfeuXoGFvuk": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_主榜18_10.64898-2026.10.27.762327",
+   "layer": "元层",
+   "size": 7926,
+   "mtime": "1793383402000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Novel-Function-Neuroligin-Beyond-Sociality-Regulating-Lifespan-2026.html"
+   ],
+   "note": "已上站：Novel-Function-Neuroligin-Beyond-Sociality-Regulating-Lifespan-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "5f4d8a60fc693e9d78ff081a81b60397"
+  },
+  "dCcszOypHyPZ": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_主榜19_10.64898-2026.05.01.26352140",
+   "layer": "元层",
+   "size": 11518,
+   "mtime": "1793383403000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [],
+   "note": "查重跳过：DOI 精确命中站内 Peripheral-Epigenetic-Aging-Centenarians-2026.html 且该页正文含本 DOI，不重复成篇（本轮跳过计数 +1）",
+   "hash": "87c9d9ead9bc4dfbfa8a2e4e260b3e69"
+  },
+  "dEWCBKDExKTu": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_主榜20_10.64898-2026.10.27.762096",
+   "layer": "元层",
+   "size": 13744,
+   "mtime": "1793383404000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "IFN-CXCL9-CXCR3-Axis-Links-T-Cell-Recruitment-Skeletal-Muscle-2026.html"
+   ],
+   "note": "已上站：IFN-CXCL9-CXCR3-Axis-Links-T-Cell-Recruitment-Skeletal-Muscle-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "c7fddda664bb38b0a26b0bacafbb6243"
+  },
+  "dMTLhNkOFlZa": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_主榜21_10.64898-2026.10.25.26366428",
+   "layer": "元层",
+   "size": 13594,
+   "mtime": "1793383858000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Cognition-Healthy-Aging-Ages-Associations-Dementia-Risk-Factors-2026.html"
+   ],
+   "note": "已上站：Cognition-Healthy-Aging-Ages-Associations-Dementia-Risk-Factors-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "df88be559b2d48ca15d23a335d5ce2fa"
+  },
+  "dUrXhOPqHvsS": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-30_观察哨01_10.64898-2026.10.29.762815",
+   "layer": "元层",
+   "size": 5416,
+   "mtime": "1793384410000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Differential-Endothelial-Cell-Remodeling-Down-Syndrome-APP-Duplication-2026.html"
+   ],
+   "note": "已上站：Differential-Endothelial-Cell-Remodeling-Down-Syndrome-APP-Duplication-2026.html（数据日期 2026-10-30，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "6ca9fde859f83d7a71ed573d439acb3c"
+  },
+  "dvSTXketFySr": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-30_观察哨02_10.64898-2026.10.27.762356",
+   "layer": "元层",
+   "size": 6241,
+   "mtime": "1793384411000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Algorithmic-Geometry-Shapes-Biological-Meaning-Thalamocortical-2026.html"
+   ],
+   "note": "已上站：Algorithmic-Geometry-Shapes-Biological-Meaning-Thalamocortical-2026.html（数据日期 2026-10-30，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "67d13487b07b1ab948453f5a9b60d150"
+  },
+  "dFJdHWybaBlI": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-30_观察哨03_10.64898-2026.10.26.761842",
+   "layer": "元层",
+   "size": 6569,
+   "mtime": "1793384412000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Alzheimer-S-Disease-associated-Rs28834970-Variant-PTK2B-Impairs-2026.html"
+   ],
+   "note": "已上站：Alzheimer-S-Disease-associated-Rs28834970-Variant-PTK2B-Impairs-2026.html（数据日期 2026-10-30，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "0c4ab90f2e8a2553623f21ce654ae44c"
+  },
+  "dvqKoinBbpni": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-30_观察哨04_10.64898-2026.05.29.728524",
+   "layer": "元层",
+   "size": 4934,
+   "mtime": "1793384413000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Emergence-Task-Related-Motor-Cortical-Dysfunction-Mice-Progressive-2026.html"
+   ],
+   "note": "已上站：Emergence-Task-Related-Motor-Cortical-Dysfunction-Mice-Progressive-2026.html（数据日期 2026-10-30，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "297fe05b0622ccf29531b23c75876a06"
+  },
+  "dNWSbHRmiXbt": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-30_观察哨05_10.64898-2026.08.28.747564",
+   "layer": "元层",
+   "size": 5035,
+   "mtime": "1793384414000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "MTOR-Signalling-Clock-Gene-Rhythms-Organises-Daily-Physiology-2026.html"
+   ],
+   "note": "已上站：MTOR-Signalling-Clock-Gene-Rhythms-Organises-Daily-Physiology-2026.html（数据日期 2026-10-30，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "cd4b50655846700ccfabd79f04e17ec0"
+  },
+  "dMEwwHkgLOhS": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-30_观察哨06_10.64898-2026.10.29.762812",
+   "layer": "元层",
+   "size": 5085,
+   "mtime": "1793384578000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "IOP-independent-Treatment-Neurodegeneration-Glaucoma-Using-Optimized-2026.html"
+   ],
+   "note": "已上站：IOP-independent-Treatment-Neurodegeneration-Glaucoma-Using-Optimized-2026.html（数据日期 2026-10-30，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "925365ae59740bbdd3c123fd9f530678"
+  },
+  "dUhVlOlZlXqc": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-30_观察哨07_10.64898-2026.10.29.762820",
+   "layer": "元层",
+   "size": 4875,
+   "mtime": "1793384579000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Two-Polymorphs-Independent-Amyloid-Core-Medin-S-C-terminal-Region-2026.html"
+   ],
+   "note": "已上站：Two-Polymorphs-Independent-Amyloid-Core-Medin-S-C-terminal-Region-2026.html（数据日期 2026-10-30，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "22de4d0b8fe38e914dca8dcd97b353b9"
+  },
+  "dBSCmuKQVVjE": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-30_观察哨08_10.64898-2026.10.29.762550",
+   "layer": "元层",
+   "size": 5111,
+   "mtime": "1793384580000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Endothelial-specific-TIE2-L914F-Mouse-Model-Reveals-Cellular-2026.html"
+   ],
+   "note": "已上站：Endothelial-specific-TIE2-L914F-Mouse-Model-Reveals-Cellular-2026.html（数据日期 2026-10-30，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "842de88335f294a355950d519731d1bb"
+  },
+  "dZqPpYyWxElW": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-30_观察哨09_10.64898-2026.10.30.26366523",
+   "layer": "元层",
+   "size": 5233,
+   "mtime": "1793384581000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Post-ICB-Lymphocyte-Stability-Following-Immune-Checkpoint-Blockade-2026.html"
+   ],
+   "note": "已上站：Post-ICB-Lymphocyte-Stability-Following-Immune-Checkpoint-Blockade-2026.html（数据日期 2026-10-30，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "9a343bc7bbc887df7c0d47190d0577ff"
+  },
+  "dVuGMWmlIyQb": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-29_观察哨10_10.64898-2026.10.28.762136",
+   "layer": "元层",
+   "size": 5028,
+   "mtime": "1793384582000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "TREM-receptor-Family-Interactome-Human-Brain-2026.html"
+   ],
+   "note": "已上站：TREM-receptor-Family-Interactome-Human-Brain-2026.html（数据日期 2026-10-29，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "f6be4d6a28a3f65c03857e07cedd9a15"
+  },
+  "dLnKCjbCvznC": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-29_观察哨11_10.64898-2026.10.28.762430",
+   "layer": "元层",
+   "size": 6247,
+   "mtime": "1793384696000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Neuroprotective-Activity-Sub-anesthetic-Ketamine-Preclinical-2026.html"
+   ],
+   "note": "已上站：Neuroprotective-Activity-Sub-anesthetic-Ketamine-Preclinical-2026.html（数据日期 2026-10-29，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "1688fb8f540bb957ec1aa72984e2ac29"
+  },
+  "dTWhgzqQaYnB": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-29_观察哨12_10.64898-2026.10.26.761430",
+   "layer": "元层",
+   "size": 5184,
+   "mtime": "1793384697000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "L-DOPA-Rescues-Reach-Height-Trajectory-Area-Bimanual-String-Pulling-2026.html"
+   ],
+   "note": "已上站：L-DOPA-Rescues-Reach-Height-Trajectory-Area-Bimanual-String-Pulling-2026.html（数据日期 2026-10-29，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "dc405eb2801cd654048821d5c0644184"
+  },
+  "dbdlwvpDqGCA": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-29_观察哨13_10.64898-2026.10.28.762666",
+   "layer": "元层",
+   "size": 5819,
+   "mtime": "1793384699000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Integrative-Drug-Discovery-Parkinson-Disease-DIMER-2026.html"
+   ],
+   "note": "已上站：Integrative-Drug-Discovery-Parkinson-Disease-DIMER-2026.html（数据日期 2026-10-29，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "38625b244feb7b8d6aadf0d9b7fdc66c"
+  },
+  "dvBFojChJdZf": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-29_观察哨14_10.64898-2026.03.31.713304",
+   "layer": "元层",
+   "size": 6541,
+   "mtime": "1793384700000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Alpha-Synuclein-Co-Pathology-Amyloid-Tau-Coupling-Alzheimer-2026.html"
+   ],
+   "note": "已上站：Alpha-Synuclein-Co-Pathology-Amyloid-Tau-Coupling-Alzheimer-2026.html（数据日期 2026-10-29，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "c5724cad72383b5611c9755ab9303bb6"
+  },
+  "daCdPFzAkIHR": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-29_观察哨15_10.64898-2026.10.26.762042",
+   "layer": "元层",
+   "size": 5476,
+   "mtime": "1793384701000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Distributed-Brain-spinal-Cord-Dynamics-Micturition-Revealed-2026.html"
+   ],
+   "note": "已上站：Distributed-Brain-spinal-Cord-Dynamics-Micturition-Revealed-2026.html（数据日期 2026-10-29，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "8d4d8d5f6034c6bde397571830f15560"
+  },
+  "dDbXEWSkRVNP": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-29_观察哨16_10.64898-2026.10.28.762421",
+   "layer": "元层",
+   "size": 5736,
+   "mtime": "1793384935000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Genetic-Ablation-Sarm1-Attenuates-Axonal-Degeneration-Mouse-2026.html"
+   ],
+   "note": "已上站：Genetic-Ablation-Sarm1-Attenuates-Axonal-Degeneration-Mouse-2026.html（数据日期 2026-10-29，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "f51d329767944187ea67cd09325e3c0c"
+  },
+  "dGyBdxqCYdoW": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-29_观察哨17_10.64898-2026.10.26.762095",
+   "layer": "元层",
+   "size": 5232,
+   "mtime": "1793384936000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Tau-M6A-associated-RNA-Binding-Protein-Causes-Dysregulation-2026.html"
+   ],
+   "note": "已上站：Tau-M6A-associated-RNA-Binding-Protein-Causes-Dysregulation-2026.html（数据日期 2026-10-29，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "06a13e9e70ab8ba2eac0ec2f1c0a4c51"
+  },
+  "doaPqmmaBaRo": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-29_观察哨18_10.64898-2026.10.28.762518",
+   "layer": "元层",
+   "size": 6175,
+   "mtime": "1793384937000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Mitochondrial-Genome-Editing-Reveals-Impact-Complex-I-Heteroplasmic-2026.html"
+   ],
+   "note": "已上站：Mitochondrial-Genome-Editing-Reveals-Impact-Complex-I-Heteroplasmic-2026.html（数据日期 2026-10-29，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "ac956ee2294189fbe29ff8e2721f08c6"
+  },
+  "duxgBYufBrcA": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-29_观察哨19_10.64898-2026.10.27.762233",
+   "layer": "元层",
+   "size": 5530,
+   "mtime": "1793384938000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Quantifying-Role-Hyaluronic-Acid-Collagen-Fiber-Mechanics-Femtosecond-2026.html"
+   ],
+   "note": "已上站：Quantifying-Role-Hyaluronic-Acid-Collagen-Fiber-Mechanics-Femtosecond-2026.html（数据日期 2026-10-29，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "18acbd150bd3d5fff35467af50b8a40e"
+  },
+  "dvRTrpeVSjjY": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-29_观察哨20_10.64898-2026.10.27.762258",
+   "layer": "元层",
+   "size": 4959,
+   "mtime": "1793384939000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Efficient-Translation-Chaperones-EIF5A-Safeguards-Proteostasis-2026.html"
+   ],
+   "note": "已上站：Efficient-Translation-Chaperones-EIF5A-Safeguards-Proteostasis-2026.html（数据日期 2026-10-29，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "94864f342af6aae3519820ddb586b81e"
+  },
+  "dvuxkEFAdmJS": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-29_观察哨21_10.64898-2026.10.28.761431",
+   "layer": "元层",
+   "size": 5287,
+   "mtime": "1793385162000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Persistent-Malignant-Stem-Cells-Drive-Relapse-Transplantation-2026.html"
+   ],
+   "note": "已上站：Persistent-Malignant-Stem-Cells-Drive-Relapse-Transplantation-2026.html（数据日期 2026-10-29，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "dabd1783f08783f16ee8b490777baa7c"
+  },
+  "dPucCQScvPNb": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-29_观察哨22_10.64898-2026.10.28.762254",
+   "layer": "元层",
+   "size": 4942,
+   "mtime": "1793385164000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Impact-HIV-1-Infection-Microglia-Transcriptome-Induction-MicroRNA-23b-2026.html"
+   ],
+   "note": "已上站：Impact-HIV-1-Infection-Microglia-Transcriptome-Induction-MicroRNA-23b-2026.html（数据日期 2026-10-29，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "ae92f0776bab8d5a63a5f1da0aa665f0"
+  },
+  "dmZvdWLpQZao": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-29_观察哨23_10.64898-2026.10.27.26366623",
+   "layer": "元层",
+   "size": 5497,
+   "mtime": "1793385165000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Prevalence-Type-Diabetes-Mellitus-Among-People-Amyotrophic-Lateral-2026.html"
+   ],
+   "note": "已上站：Prevalence-Type-Diabetes-Mellitus-Among-People-Amyotrophic-Lateral-2026.html（数据日期 2026-10-29，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "f38ead3ffc2f1d18fb26009c2b6fd86a"
+  },
+  "dVoSwSoaOcLZ": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-29_观察哨24_10.64898-2026.10.27.26366659",
+   "layer": "元层",
+   "size": 5272,
+   "mtime": "1793385167000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Blood-based-Biomarkers-Alzheimer-S-Disease-Continuum-Older-Korean-2026.html"
+   ],
+   "note": "已上站：Blood-based-Biomarkers-Alzheimer-S-Disease-Continuum-Older-Korean-2026.html（数据日期 2026-10-29，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "d6804c6ac3b0f905423a451f018da29b"
+  },
+  "dorVfHKDDzGH": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-29_观察哨25_10.64898-2026.10.28.26366687",
+   "layer": "元层",
+   "size": 4970,
+   "mtime": "1793385168000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Founder-Alleles-Clonal-Hematopoiesis-Missing-Diversity-Confound-2026.html"
+   ],
+   "note": "已上站：Founder-Alleles-Clonal-Hematopoiesis-Missing-Diversity-Confound-2026.html（数据日期 2026-10-29，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "a1b6d07f441cf1bacd4de405c9d9e947"
+  },
+  "djmmHhAnHqRL": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-29_观察哨26_10.64898-2026.10.27.26366422",
+   "layer": "元层",
+   "size": 6194,
+   "mtime": "1793385195000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Digital-Programme-Prevent-Falls-Improve-Wellbeing-People-Living-2026.html"
+   ],
+   "note": "已上站：Digital-Programme-Prevent-Falls-Improve-Wellbeing-People-Living-2026.html（数据日期 2026-10-29，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "3665573f7ad3a6b13bb0c00deeecbdda"
+  },
+  "dAYLUELcXpha": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-29_观察哨27_10.64898-2026.10.27.26366652",
+   "layer": "元层",
+   "size": 5662,
+   "mtime": "1793385197000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Evaluation-Targeted-Oral-Microbiome-Treatment-Older-Adult-Population-2026.html"
+   ],
+   "note": "已上站：Evaluation-Targeted-Oral-Microbiome-Treatment-Older-Adult-Population-2026.html（数据日期 2026-10-29，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "fb400fb7a4552673578ab6431acda7ba"
+  },
+  "dXjikVGqXVfr": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_观察哨28_10.1101-2025.07.17.665283",
+   "layer": "元层",
+   "size": 5722,
+   "mtime": "1793383405000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Atomic-Structures-Medin-Fibrils-Reveal-Polymorphic-Remodeling-2026.html"
+   ],
+   "note": "已上站：Atomic-Structures-Medin-Fibrils-Reveal-Polymorphic-Remodeling-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "6baa19fc0ea3ee74c6ce2c29c75a1a57"
+  },
+  "dBnluqddJalT": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_观察哨29_10.64898-2026.10.26.761866",
+   "layer": "元层",
+   "size": 6058,
+   "mtime": "1793385198000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Group-level-Neurophysiological-Biomarkers-Individual-level-Phenotyping-2026.html"
+   ],
+   "note": "已上站：Group-level-Neurophysiological-Biomarkers-Individual-level-Phenotyping-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "a1a6c80bc9f81874293336ec92ada056"
+  },
+  "dqOaxHhutotO": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_观察哨30_10.64898-2026.10.27.758468",
+   "layer": "元层",
+   "size": 5156,
+   "mtime": "1793385199000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Cortical-Pyramidal-Tract-Neurons-Constrain-Pathological-Dopaminergic-2026.html"
+   ],
+   "note": "已上站：Cortical-Pyramidal-Tract-Neurons-Constrain-Pathological-Dopaminergic-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "514377512e18bd04110e2deaa90c2747"
+  },
+  "dNNpVpDeKwrI": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_观察哨31_10.64898-2026.10.25.761709",
+   "layer": "元层",
+   "size": 5225,
+   "mtime": "1793385200000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Structural-Basis-Repeat-associated-Non-AUG-Translation-Initiation-2026.html"
+   ],
+   "note": "已上站：Structural-Basis-Repeat-associated-Non-AUG-Translation-Initiation-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "ea870a4c6b47b7e795a702d988544055"
+  },
+  "dNGjNCUOOddk": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_观察哨32_10.64898-2026.10.26.761890",
+   "layer": "元层",
+   "size": 7083,
+   "mtime": "1793385389000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Recipient-driven-Metabolic-Epigenetic-Remodeling-Donor-Hematopoietic-2026.html"
+   ],
+   "note": "已上站：Recipient-driven-Metabolic-Epigenetic-Remodeling-Donor-Hematopoietic-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "0cb1d9a99e518e80dea54c40ed9c9d3b"
+  },
+  "ddYQrjHpumVk": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_观察哨33_10.64898-2026.10.26.761376",
+   "layer": "元层",
+   "size": 5071,
+   "mtime": "1793385390000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Single-Nucleus-Profiling-Reveals-Neuronal-Metabolic-Collapse-2026.html"
+   ],
+   "note": "已上站：Single-Nucleus-Profiling-Reveals-Neuronal-Metabolic-Collapse-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "913a407a1b646503d07489f454b11899"
+  },
+  "dtykWOCCasKA": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_观察哨34_10.64898-2026.10.26.762006",
+   "layer": "元层",
+   "size": 5141,
+   "mtime": "1793385391000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Novel-LRRK2-Kinase-Inhibitors-Enhance-Phosphorylation-Restore-2026.html"
+   ],
+   "note": "已上站：Novel-LRRK2-Kinase-Inhibitors-Enhance-Phosphorylation-Restore-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "0425118170752f0f8ef446a19b7410ba"
+  },
+  "dkGzcdiLTiFZ": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_观察哨35_10.64898-2026.10.27.762340",
+   "layer": "元层",
+   "size": 4945,
+   "mtime": "1793385392000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Parkin-Deficiency-Rewires-Genetic-Dependencies-Govern-Neuronal-2026.html"
+   ],
+   "note": "已上站：Parkin-Deficiency-Rewires-Genetic-Dependencies-Govern-Neuronal-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "c538346ba53f30af01679719605bddf0"
+  },
+  "dNjSXiCDlNwV": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_观察哨36_10.64898-2026.10.26.761955",
+   "layer": "元层",
+   "size": 5730,
+   "mtime": "1793385393000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Maternal-Folate-Nutrition-Programs-Adult-Hematopoietic-Stem-2026.html"
+   ],
+   "note": "已上站：Maternal-Folate-Nutrition-Programs-Adult-Hematopoietic-Stem-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "63952ee7294c0c6f4e2731b4bc2f7c49"
+  },
+  "dCfLUAmhRWCl": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_观察哨37_10.64898-2026.05.13.724886",
+   "layer": "元层",
+   "size": 5525,
+   "mtime": "1793385506000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Perception-Speech-Rate-Intensity-Parkinson-S-Disease-2026.html"
+   ],
+   "note": "已上站：Perception-Speech-Rate-Intensity-Parkinson-S-Disease-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "0c6495d7d9b5f2167d9552c31adee759"
+  },
+  "dOSlGGCopndw": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_观察哨38_10.64898-2026.04.10.717365",
+   "layer": "元层",
+   "size": 5050,
+   "mtime": "1793385507000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "EEG-fMRI-Jointly-Constrained-Digital-Twin-Brain-Application-2026.html"
+   ],
+   "note": "已上站：EEG-fMRI-Jointly-Constrained-Digital-Twin-Brain-Application-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "52fe4cd9ed6793d1eb1d63b6592dddb8"
+  },
+  "dhGDCdSGsuuE": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_观察哨39_10.64898-2026.10.20.760417",
+   "layer": "元层",
+   "size": 5845,
+   "mtime": "1793385508000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Integrated-Transcriptomic-Structural-Prioritization-Sulforaphane-2026.html"
+   ],
+   "note": "已上站：Integrated-Transcriptomic-Structural-Prioritization-Sulforaphane-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "3d9e0dd2a666df73e79529055049a009"
+  },
+  "dQNcuGSnqSpr": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_观察哨41_10.64898-2026.08.04.26359613",
+   "layer": "元层",
+   "size": 6576,
+   "mtime": "1793385509000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Hepatic-Mitochondrial-Alterations-GLP-1-Poor-Responders-Undergoing-2026.html"
+   ],
+   "note": "已上站：Hepatic-Mitochondrial-Alterations-GLP-1-Poor-Responders-Undergoing-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "970424f10779b7c3c6c39cb6a9473fa1"
+  },
+  "dAjoMguxbtfv": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_观察哨42_10.64898-2026.10.26.26366531",
+   "layer": "元层",
+   "size": 6298,
+   "mtime": "1793385511000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Neuropsychiatric-Symptom-Clusters-Plasma-Proteomic-Signatures-2026.html"
+   ],
+   "note": "已上站：Neuropsychiatric-Symptom-Clusters-Plasma-Proteomic-Signatures-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "19da051aae70a38c7beb1a895fd34dbb"
+  },
+  "dfmoxljbODoV": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_观察哨43_10.64898-2026.10.26.26366488",
+   "layer": "元层",
+   "size": 6015,
+   "mtime": "1793385603000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Detection-Tau-Spatial-Extent-Using-MK6240-Flortaucipir-PET-2026.html"
+   ],
+   "note": "已上站：Detection-Tau-Spatial-Extent-Using-MK6240-Flortaucipir-PET-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "6acf9368ba3feadc4d987b588e9deee0"
+  },
+  "dHUhGmwvwGal": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_观察哨44_10.64898-2026.10.26.26364473",
+   "layer": "元层",
+   "size": 6469,
+   "mtime": "1793385605000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Electronic-Frailty-Index-Population-level-Risk-Stratification-2026.html"
+   ],
+   "note": "已上站：Electronic-Frailty-Index-Population-level-Risk-Stratification-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "4426321c79abed67f4a267d484df8a31"
+  },
+  "dvMcMTeppsoH": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_观察哨45_10.64898-2026.10.26.26366451",
+   "layer": "元层",
+   "size": 7277,
+   "mtime": "1793385606000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Gastrointestinal-Medication-Use-Patterns-Incident-Depressive-2026.html"
+   ],
+   "note": "已上站：Gastrointestinal-Medication-Use-Patterns-Incident-Depressive-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "3527baf5b662bbaf439d360e46c92919"
+  },
+  "dNvEXFQtuUbq": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_观察哨46_10.64898-2026.10.26.26366533",
+   "layer": "元层",
+   "size": 5351,
+   "mtime": "1793385607000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Brain-Derived-PTau217-Plasma-Proteomic-Profiles-Cognitive-Dementia-2026.html"
+   ],
+   "note": "已上站：Brain-Derived-PTau217-Plasma-Proteomic-Profiles-Cognitive-Dementia-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "2a6fe1b329c387a6d989210defabaa37"
+  },
+  "dEPBqqQfkQTh": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_观察哨47_10.64898-2026.10.26.26366216",
+   "layer": "元层",
+   "size": 5832,
+   "mtime": "1793385608000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Portland-SEEQ-Harmonizable-Questionnaire-Environmental-Exposome-2026.html"
+   ],
+   "note": "已上站：Portland-SEEQ-Harmonizable-Questionnaire-Environmental-Exposome-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "1884427f2855dbba51b29f46263c2074"
+  },
+  "dotUOLoUNZCP": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_观察哨48_10.64898-2026.10.26.26366525",
+   "layer": "元层",
+   "size": 5875,
+   "mtime": "1793386057000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "CSF-Alzheimer-S-Disease-Biomarkers-Relation-Functional-Status-2026.html"
+   ],
+   "note": "已上站：CSF-Alzheimer-S-Disease-Biomarkers-Relation-Functional-Status-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "f759cb690e5e1bba9f2ce26acffc338e"
+  },
+  "dHCnhGheIvrm": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_观察哨49_10.64898-2026.10.26.26366535",
+   "layer": "元层",
+   "size": 5217,
+   "mtime": "1793386058000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Strategies-Establish-Biologically-Defined-Parkinson-S-Disease-2026.html"
+   ],
+   "note": "已上站：Strategies-Establish-Biologically-Defined-Parkinson-S-Disease-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "60293c0f5e93f014142b59d4db8bdd0d"
+  },
+  "dAzIoZreQEZA": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_观察哨50_10.64898-2026.10.26.26366513",
+   "layer": "元层",
+   "size": 6628,
+   "mtime": "1793386059000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Study-Protocol-Prospective-Multicenter-Longitudinal-Cohort-Progression-2026.html"
+   ],
+   "note": "已上站：Study-Protocol-Prospective-Multicenter-Longitudinal-Cohort-Progression-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "d4dec3196a9581127f02b25406ba8b26"
+  },
+  "dxuIJvTUhJeL": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_观察哨51_10.64898-2026.10.26.26364188",
+   "layer": "元层",
+   "size": 5511,
+   "mtime": "1793386061000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Parkinson-S-Disease-Genetic-Risk-Converges-Lewy-Body-Pathology-associated-2026.html"
+   ],
+   "note": "已上站：Parkinson-S-Disease-Genetic-Risk-Converges-Lewy-Body-Pathology-associated-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "fb265d21843f1016be71303731cd26c3"
+  },
+  "dowgQHvrAiLh": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_观察哨52_10.64898-2026.10.26.26366509",
+   "layer": "元层",
+   "size": 7172,
+   "mtime": "1793386062000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Emergency-Hospital-Admissions-Days-Alive-Out-People-Living-Dementia-2026.html"
+   ],
+   "note": "已上站：Emergency-Hospital-Admissions-Days-Alive-Out-People-Living-Dementia-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "b8eef26d637318904806140fee48045b"
+  },
+  "dWfWfHAsNKnN": {
+   "name": "预印本全文级解读_2026-10-31/预印本解读_2026-10-28_观察哨53_10.64898-2026.10.27.26366607",
+   "layer": "元层",
+   "size": 5484,
+   "mtime": "1793386090000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [
+    "Geographic-Heterogeneity-Association-Schooling-Cognitive-Change-2026.html"
+   ],
+   "note": "已上站：Geographic-Heterogeneity-Association-Schooling-Cognitive-Change-2026.html（数据日期 2026-10-28，时间标签 生成时间 2026-10-31 05:30）",
+   "hash": "e89397206e6a9ce1deebc0fe16728a7d"
+  },
+  "dOPAHGhHVZOl": {
+   "name": "预印本全文级解读_2026-10-31/预印本全文级解读_总索引_2026-10-31",
+   "layer": "元层",
+   "size": 17412,
+   "mtime": "1793383633000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [],
+   "note": "总索引：本批 73 篇的机读目录，不单独成篇",
+   "hash": "d89dd5c714763886377eeaaf8967f61f"
+  },
+  "dptYMNcBrauv": {
+   "name": "预印本全文级解读_2026-10-31/预印本全文级解读_运行摘要_2026-10-31.md",
+   "layer": "元层",
+   "size": 6931,
+   "mtime": "1793386564000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [],
+   "note": "运行摘要（目录内）：留痕件，不单独成篇；载明本批 74→73、全文通道全线 403",
+   "hash": "9489210bb98f1f9fa97268ad051471c1"
+  },
+  "dKxOKqqdZpcV": {
+   "name": "预印本全文级解读_2026-10-31/预印本全文级解读_日志副本_2026-10-31",
+   "layer": "元层",
+   "size": 278,
+   "mtime": "1793383630000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [],
+   "note": "日志副本（目录内）：留痕件，278 B，不单独成篇",
+   "hash": "b8c06ece7a60637822d6605da0f886db"
+  },
+  "dcMpxitvxhSW": {
+   "name": "预印本全文级解读_2026-10-31/预印本全文级解读_2026-10-31_全集.tar",
+   "layer": "元层",
+   "size": 163130,
+   "mtime": "1793383628000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [],
+   "note": "全集打包 tar：与 73 个单页同源、字节逐条一致，不重复消化",
+   "hash": "2c954df3bd7e630e7a62e089321c5e50"
+  },
+  "dzkmRnWewTGc": {
+   "name": "预印本全文级解读_2026-10-31/_items",
+   "layer": "元层",
+   "size": 40026,
+   "mtime": "1793383632000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [],
+   "note": "_items 机读清单：73 条元数据，已用于本轮成稿与查重，不单独成篇",
+   "hash": ""
+  },
+  "dLcQEtksReSf": {
+   "name": "预印本全文级解读_运行摘要_2026-10-31.md",
+   "layer": "元层",
+   "size": 6931,
+   "mtime": "1793386563000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [],
+   "note": "运行摘要（元层根目录留痕）：与目录内 dptYMNcBrauv 同名同内容，DUPLICATE",
+   "hash": ""
+  },
+  "dHDZombEBAEE": {
+   "name": "预印本全文级解读_日志副本_2026-10-31",
+   "layer": "元层",
+   "size": 278,
+   "mtime": "1793386260000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [],
+   "note": "日志副本（元层根目录留痕）：与目录内 dKxOKqqdZpcV 同名同内容，DUPLICATE",
+   "hash": ""
+  },
+  "dENskhRbTohZ": {
+   "name": "预印本速递_2026-10-31",
+   "layer": "文献层",
+   "size": 232160,
+   "mtime": "1793381186000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [],
+   "note": "上游源《预印本速递_2026-10-31》（232,160 B，交付主榜 21 + 观察哨 53 = 74 条）；已由元层《预印本全文级解读_2026-10-31》73 篇成稿消化，本件不重复成篇",
+   "hash": "a3f5a65b3dfd52cb7782e0a63cf88859"
+  },
+  "dzHcjRDLvvGu": {
+   "name": "预印本速递_总表_2026-10-31增量",
+   "layer": "文献层",
+   "size": 98681,
+   "mtime": "1793380836000",
+   "status": "done",
+   "done_at": "2026-10-31T05:30:00+08:00",
+   "slugs": [],
+   "note": "《预印本速递_总表_2026-10-31增量》xlsx：与速递 md 同源不同载体，不重复成篇",
+   "hash": "45c462d7d2920ec228971aae56bc3a08"
   }
  },
  "retired": [

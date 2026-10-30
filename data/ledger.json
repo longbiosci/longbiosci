@@ -1,7 +1,7 @@
 {
  "site": {
-  "articles": 1180,
-  "dois": 1012
+  "articles": 1252,
+  "dois": 1084
  },
  "outputs": {
   "cards_2026-10-29.md": {
@@ -196,8 +196,8 @@
   }
  },
  "output_entries": 711,
- "covered": 482,
- "missing_count": 229,
+ "covered": 484,
+ "missing_count": 227,
  "missing": [
   {
    "fingerprint": "doi:10.1007/s11357-025-02017-6",
@@ -548,17 +548,6 @@
    "basis": "四路均未命中（DOI=10.1038/s43587-026-01177-0，标题相似 0.00，词元重叠 0.50）"
   },
   {
-   "fingerprint": "doi:10.1038/s43587-026-01180-5",
-   "title": "Sex-specific aging clocks from a large-scale human phenome reveal distinct aging transitions and circulating signatures",
-   "doi": "10.1038/s43587-026-01180-5",
-   "code": "N10",
-   "seen_in": [
-    "cards_2026-10-02.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1038/s43587-026-01180-5，标题相似 0.00，词元重叠 0.40）"
-  },
-  {
    "fingerprint": "doi:10.1038/s43587-026-01189-w",
    "title": "Turning CDK4/6 inhibitors against the dark side of senescence（News & Views，评述 N3）",
    "doi": "10.1038/s43587-026-01189-w",
@@ -836,17 +825,6 @@
    ],
    "status": "漏收",
    "basis": "四路均未命中（DOI=10.1111/acel.70737，标题相似 0.00，词元重叠 0.67）"
-  },
-  {
-   "fingerprint": "doi:10.1111/acel.70743",
-   "title": "Organ-Specific Proteomic Aging Clocks Reveal Complexities Underlying the Healthy Drinking Paradox",
-   "doi": "10.1111/acel.70743",
-   "code": "A5",
-   "seen_in": [
-    "cards_2026-10-02.md"
-   ],
-   "status": "漏收",
-   "basis": "四路均未命中（DOI=10.1111/acel.70743，标题相似 0.00，词元重叠 0.50）"
   },
   {
    "fingerprint": "doi:10.1111/acel.70753",
@@ -2803,7 +2781,7 @@
    "basis": "四路均未命中（DOI=无，标题相似 0.00，词元重叠 0.00）；★中文摘要条目，必须人工核对站内中文关键词"
   }
  ],
- "orphan_count": 1180,
+ "orphan_count": 1252,
  "orphan_sample": [
   "3D-Culture-Reverses-Limbal-Niche-AgingCell-2026.html",
   "7-Ketocholesterol-Derivatives-Pathophysiology.html",
