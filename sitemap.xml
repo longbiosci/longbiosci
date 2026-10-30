@@ -7970,9 +7970,15 @@
   </url>
   <url>
     <loc>https://longbiosci.com/industry/index.html</loc>
-    <lastmod>2026-10-25</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://longbiosci.com/industry/timeline/index.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://longbiosci.com/podcast/index.html</loc>

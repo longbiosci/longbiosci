@@ -83,6 +83,9 @@ PAGES = [
     ("rapamycin.html",        "monthly", "0.7"),
     ("privacy/index.html",    "monthly", "0.5"),
     ("industry/index.html",   "daily",   "0.8"),
+    # /industry/timeline/ 行业时间线（2026-10-30 新建，管线 7b 产出）：
+    # 数据源是 articles.json 事实源而非人工补录，日更 0.7。
+    ("industry/timeline/index.html", "daily", "0.7"),
     ("podcast/index.html",    "weekly",  "0.8"),
     ("nmn.html",              "monthly", "0.7"),
     ("mobile.html",           "yearly",  "0.4"),

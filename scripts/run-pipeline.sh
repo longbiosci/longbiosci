@@ -168,6 +168,10 @@ step 4  gen-topic-pages.py     "生成 topics/ 专题页与索引页"
 step 5  gen-news-index.py      "生成 news 列表分页"
 step 6  gen-evidence-pages.py  "生成 evidence/ 分级索引与 A/B/C 分页"
 step 7  gen-industry.py        "生成产业板块：事件流 / 公司档案 / 会议日历"
+# 7b 行业时间线（2026-10-30 晨间班新增）：必须在 7 之后 ——
+#   它会向 /industry/index.html 注入入口链接，先跑会被主页重新生成覆盖掉；
+#   数据源是 articles.json（事实源），不走 industry.json 那条人工补录的滞后通道。
+step 7b gen_industry_timeline.py "生成 /industry/timeline/ 行业时间线页（按月全量回溯）"
 step 8  gen-podcast.py         "生成播客：节目列表页 + podcast.xml RSS"
 step 9  gen-papers.py          "生成 /papers/ 论文索引（DOI 总表 + CSV）"
 step 10 add-rss-today-run.py   "追加当日新文章到 rss.xml"
