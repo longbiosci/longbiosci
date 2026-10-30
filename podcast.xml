@@ -8,7 +8,7 @@
   <language>zh-cn</language>
   <copyright>© 2026 LongBiosci 编辑部</copyright>
   <description><![CDATA[只讲有来源的长寿科学——每期节目，都能顺着一张来源清单回查原文。 本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。]]></description>
-  <lastBuildDate>Fri, 30 Oct 2026 03:43:00 +0800</lastBuildDate>
+  <lastBuildDate>Sat, 31 Oct 2026 04:07:00 +0800</lastBuildDate>
   <itunes:author>LongBiosci 编辑部</itunes:author>
   <itunes:summary><![CDATA[只讲有来源的长寿科学——每期节目，都能顺着一张来源清单回查原文。]]></itunes:summary>
   <itunes:owner>
@@ -23,6 +23,396 @@
   </image>
   <itunes:category text="Science"/>
   <itunes:explicit>no</itunes:explicit>
+  <item>
+    <title>把住院康复缩短、剩下的搬回家：ADL 独立性打平，总时长却多了 27 天</title>
+    <link>https://longbiosci.com/podcast/#ep062</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep062</guid>
+    <pubDate>Sat, 31 Oct 2026 04:07:00 +0800</pubDate>
+    <category>论文精读</category>
+    <description><![CDATA[数据日期：2026-10-30 05:30
+生成时间：2026-10-31 04:07
+
+把住院康复缩短、剩下的搬回家：ADL 独立性不劣于常规住院康复，但总康复时长多了二十七点三天。
+
+来源：
+· Eur Geriatr Med（2026）：缩短住院康复之后：居家老年康复的 ADL 独立性对照研究（DOI 10.1007/s41999-026-01628-2；PubMed 42945046）
+
+站内延伸阅读：
+· 缩短住院康复之后：居家老年康复的 ADL 独立性对照研究 https://longbiosci.com/news/Better-At-Home-Geriatric-Rehabilitation-Shortened-Inpatient-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep062]]></description>
+    <enclosure url="https://longbiosci.com/audio/better-at-home-geriatric-rehab-adl-2026.mp3" length="1346781" type="audio/mpeg"/>
+    <itunes:duration>224</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[把住院康复缩短、剩下的搬回家：ADL 独立性不劣于常规住院康复，但总康复时长多了二十七点三天。]]></itunes:summary>
+  </item>
+  <item>
+    <title>三个饮食指数在中国老人认知上都成立，但年龄一分层结论就不一样了</title>
+    <link>https://longbiosci.com/podcast/#ep063</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep063</guid>
+    <pubDate>Sat, 31 Oct 2026 04:07:00 +0800</pubDate>
+    <category>论文精读</category>
+    <description><![CDATA[数据日期：2026-10-30 05:30
+生成时间：2026-10-31 04:07
+
+cMIND、膳食多样性与 HPDI 都与中国老人整体认知正相关，年龄一分层，关联就不再一致。
+
+来源：
+· Nutrients（2026）：cMIND、膳食多样性与 HPDI：中国老年人认知的三个饮食指数（DOI 10.3390/nu18203365；PubMed 42942936）
+
+站内延伸阅读：
+· cMIND、膳食多样性与 HPDI：中国老年人认知的三个饮食指数 https://longbiosci.com/news/Dietary-Indices-Cognition-Older-Chinese-Adults-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep063]]></description>
+    <enclosure url="https://longbiosci.com/audio/dietary-indices-cognition-chinese-older-adults-2026.mp3" length="1405677" type="audio/mpeg"/>
+    <itunes:duration>234</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[cMIND、膳食多样性与 HPDI 都与中国老人整体认知正相关，年龄一分层，关联就不再一致。]]></itunes:summary>
+  </item>
+  <item>
+    <title>先问能量够不够：能量充足组衰弱率 6.1%，不足组 9.5%</title>
+    <link>https://longbiosci.com/podcast/#ep064</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep064</guid>
+    <pubDate>Sat, 31 Oct 2026 04:07:00 +0800</pubDate>
+    <category>论文精读</category>
+    <description><![CDATA[数据日期：2026-10-30 05:30
+生成时间：2026-10-31 04:07
+
+能量充足组衰弱率百分之六点一，不足组百分之九点五；碳水与蛋白质供能比达标率也随能量充足而上升。
+
+来源：
+· Nutrients（2026）：能量是否吃够，决定了三大宏量营养素配比与衰弱的关系（DOI 10.3390/nu18203393；PubMed 42942964）
+
+站内延伸阅读：
+· 能量是否吃够，决定了三大宏量营养素配比与衰弱的关系 https://longbiosci.com/news/Macronutrient-Distribution-Frailty-Energy-Sufficiency-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep064]]></description>
+    <enclosure url="https://longbiosci.com/audio/macronutrient-distribution-frailty-energy-2026.mp3" length="1387389" type="audio/mpeg"/>
+    <itunes:duration>231</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[能量充足组衰弱率百分之六点一，不足组百分之九点五；碳水与蛋白质供能比达标率也随能量充足而上升。]]></itunes:summary>
+  </item>
+  <item>
+    <title>18 个人里的衰弱信号：烟酰胺与核小体蛋白浮出来，但只能当假设</title>
+    <link>https://longbiosci.com/podcast/#ep065</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep065</guid>
+    <pubDate>Sat, 31 Oct 2026 04:07:00 +0800</pubDate>
+    <category>论文精读</category>
+    <description><![CDATA[数据日期：2026-10-30 05:30
+生成时间：2026-10-31 04:07
+
+十八名老年门诊患者的代谢组与蛋白组里，烟酰胺与核小体相关蛋白与衰弱相关，样本太小只能算假设。
+
+来源：
+· Nutrients（2026）：衰弱状态写在代谢组与蛋白质组里：NAD⁺ 前体与核小体蛋白（DOI 10.3390/nu18203336；PubMed 42942907）
+
+站内延伸阅读：
+· 衰弱状态写在代谢组与蛋白质组里：NAD⁺ 前体与核小体蛋白 https://longbiosci.com/news/Frailty-Metabolomics-Proteomics-Geriatric-Clinic-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep065]]></description>
+    <enclosure url="https://longbiosci.com/audio/frailty-metabolomics-proteomics-nicotinamide-2026.mp3" length="1382493" type="audio/mpeg"/>
+    <itunes:duration>230</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[十八名老年门诊患者的代谢组与蛋白组里，烟酰胺与核小体相关蛋白与衰弱相关，样本太小只能算假设。]]></itunes:summary>
+  </item>
+  <item>
+    <title>衰弱把急性肺栓塞的住院结局拉开多大：一份全国住院样本</title>
+    <link>https://longbiosci.com/podcast/#ep066</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep066</guid>
+    <pubDate>Sat, 31 Oct 2026 04:07:00 +0800</pubDate>
+    <category>论文精读</category>
+    <description><![CDATA[数据日期：2026-10-30 05:30
+生成时间：2026-10-31 04:07
+
+全国住院样本按衰弱评分分层，急性肺栓塞住院患者的构成差异清晰，校正后比值比的数值文章没有给出。
+
+来源：
+· J Clin Med（2026）：衰弱对急性肺栓塞住院结局的影响：全国住院样本分析（DOI 10.3390/jcm15208107；PubMed 42941622）
+
+站内延伸阅读：
+· 衰弱对急性肺栓塞住院结局的影响：全国住院样本分析 https://longbiosci.com/news/Frailty-In-Hospital-Acute-Pulmonary-Embolism-NIS-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep066]]></description>
+    <enclosure url="https://longbiosci.com/audio/frailty-acute-pulmonary-embolism-outcomes-2026.mp3" length="1395597" type="audio/mpeg"/>
+    <itunes:duration>233</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[全国住院样本按衰弱评分分层，急性肺栓塞住院患者的构成差异清晰，校正后比值比的数值文章没有给出。]]></itunes:summary>
+  </item>
+  <item>
+    <title>血浆乳酸与葡萄糖-乳酸指数：新发脂肪肝风险里，生物年龄加速扛走了多少</title>
+    <link>https://longbiosci.com/podcast/#ep067</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep067</guid>
+    <pubDate>Sat, 31 Oct 2026 04:07:00 +0800</pubDate>
+    <category>论文精读</category>
+    <description><![CDATA[数据日期：2026-10-30 05:30
+生成时间：2026-10-31 04:07
+
+血浆乳酸与葡萄糖-乳酸指数升高伴随新发脂肪肝风险上升，生物年龄加速扛走了其中一部分。
+
+来源：
+· Clin Epigenetics（2026）：血浆乳酸与葡萄糖-乳酸指数：生物学年龄加速的部分中介（DOI 10.1186/s13148-026-02219-5；PubMed 42934809）
+
+站内延伸阅读：
+· 血浆乳酸与葡萄糖-乳酸指数：生物学年龄加速的部分中介 https://longbiosci.com/news/Plasma-Lactate-Glucose-Lactate-Index-MASLD-BioAge-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep067]]></description>
+    <enclosure url="https://longbiosci.com/audio/plasma-lactate-glucose-lactate-index-bioage-masld-2026.mp3" length="1378029" type="audio/mpeg"/>
+    <itunes:duration>230</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[血浆乳酸与葡萄糖-乳酸指数升高伴随新发脂肪肝风险上升，生物年龄加速扛走了其中一部分。]]></itunes:summary>
+  </item>
+  <item>
+    <title>心肺适能与皮层厚度不是一条直线：广义加性模型给出的年龄差异</title>
+    <link>https://longbiosci.com/podcast/#ep068</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep068</guid>
+    <pubDate>Sat, 31 Oct 2026 04:07:00 +0800</pubDate>
+    <category>论文精读</category>
+    <description><![CDATA[数据日期：2026-10-30 05:30
+生成时间：2026-10-31 04:07
+
+心肺适能与皮层厚度不是直线关系，广义加性模型显示中年组与老年组的曲线形状不同。
+
+来源：
+· Alzheimers Dement (N Y)（2026）：心肺适能与皮层厚度的关系不是直线：广义加性模型给出的年龄差异（DOI 10.1002/trc2.70237；PubMed 42936859）
+
+站内延伸阅读：
+· 心肺适能与皮层厚度的关系不是直线：广义加性模型给出的年龄差异 https://longbiosci.com/news/Cardiorespiratory-Fitness-Cortical-Thickness-Lifespan-GAM-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep068]]></description>
+    <enclosure url="https://longbiosci.com/audio/cardiorespiratory-fitness-cortical-thickness-gam-2026.mp3" length="1383357" type="audio/mpeg"/>
+    <itunes:duration>231</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[心肺适能与皮层厚度不是直线关系，广义加性模型显示中年组与老年组的曲线形状不同。]]></itunes:summary>
+  </item>
+  <item>
+    <title>仑卡奈单抗在中国 20 家医院的头 68 例：真实世界看到什么</title>
+    <link>https://longbiosci.com/podcast/#ep069</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep069</guid>
+    <pubDate>Sat, 31 Oct 2026 04:07:00 +0800</pubDate>
+    <category>论文精读</category>
+    <description><![CDATA[数据日期：2026-10-30 05:30
+生成时间：2026-10-31 04:07
+
+江苏二十家医院六十八例仑卡奈单抗真实世界观察：人群画像清晰，疗效数字与同期对照都还没有。
+
+来源：
+· Alzheimers Dement（2026）：仑卡奈单抗在中国江苏 20 家医院的真实世界 68 例（DOI 10.1002/alz.71936；PubMed 42934846）
+
+站内延伸阅读：
+· 仑卡奈单抗在中国江苏 20 家医院的真实世界 68 例 https://longbiosci.com/news/Lecanemab-Real-World-Jiangsu-Cohort-Outcomes-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep069]]></description>
+    <enclosure url="https://longbiosci.com/audio/lecanemab-real-world-jiangsu-68-cases-2026.mp3" length="1369101" type="audio/mpeg"/>
+    <itunes:duration>228</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[江苏二十家医院六十八例仑卡奈单抗真实世界观察：人群画像清晰，疗效数字与同期对照都还没有。]]></itunes:summary>
+  </item>
+  <item>
+    <title>别只看 HDL-C：胆固醇外流这项功能指标，与痴呆发生相关</title>
+    <link>https://longbiosci.com/podcast/#ep070</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep070</guid>
+    <pubDate>Sat, 31 Oct 2026 04:07:00 +0800</pubDate>
+    <category>论文精读</category>
+    <description><![CDATA[数据日期：2026-10-30 05:30
+生成时间：2026-10-31 04:07
+
+在高心血管风险老年人里，与痴呆发生相关的是 HDL 的胆固醇外流功能，而不只是 HDL-C 浓度。
+
+来源：
+· Int J Mol Sci（2026）：看 HDL 功能而不只看 HDL-C：高心血管风险老年人的痴呆发生（DOI 10.3390/ijms27209197；PubMed 42941970）
+
+站内延伸阅读：
+· 看 HDL 功能而不只看 HDL-C：高心血管风险老年人的痴呆发生 https://longbiosci.com/news/HDL-Functionality-Cholesterol-Dementia-Case-Cohort-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep070]]></description>
+    <enclosure url="https://longbiosci.com/audio/hdl-function-dementia-cvd-risk-older-2026.mp3" length="1525485" type="audio/mpeg"/>
+    <itunes:duration>254</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[在高心血管风险老年人里，与痴呆发生相关的是 HDL 的胆固醇外流功能，而不只是 HDL-C 浓度。]]></itunes:summary>
+  </item>
+  <item>
+    <title>AT(N) 三类标志物，在数据驱动的 AD 亚型里并不是齐步走</title>
+    <link>https://longbiosci.com/podcast/#ep071</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep071</guid>
+    <pubDate>Sat, 31 Oct 2026 04:07:00 +0800</pubDate>
+    <category>论文精读</category>
+    <description><![CDATA[数据日期：2026-10-30 05:30
+生成时间：2026-10-31 04:07
+
+数据驱动的 AD 亚型里，淀粉样蛋白、tau 与神经变性三类标志物的进展速度并不齐步。
+
+来源：
+· Front Aging Neurosci（2026）：AT(N) 标志物的进展在数据驱动 AD 亚型里并不齐步（DOI 10.3389/fnagi.2026.1902282；PubMed 42948157）
+
+站内延伸阅读：
+· AT(N) 标志物的进展在数据驱动 AD 亚型里并不齐步 https://longbiosci.com/news/Heterogeneous-ATN-Progression-AD-Subtypes-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep071]]></description>
+    <enclosure url="https://longbiosci.com/audio/atn-biomarker-progression-ad-subtypes-2026.mp3" length="1553421" type="audio/mpeg"/>
+    <itunes:duration>259</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[数据驱动的 AD 亚型里，淀粉样蛋白、tau 与神经变性三类标志物的进展速度并不齐步。]]></itunes:summary>
+  </item>
+  <item>
+    <title>慢性脱髓鞘造出一种溶酶体失灵的小胶质细胞状态</title>
+    <link>https://longbiosci.com/podcast/#ep072</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep072</guid>
+    <pubDate>Sat, 31 Oct 2026 04:07:00 +0800</pubDate>
+    <category>机制十分钟</category>
+    <description><![CDATA[数据日期：2026-10-30 05:30
+生成时间：2026-10-31 04:07
+
+慢性脱髓鞘小鼠中，溶酶体胆固醇堆积驱动一种促炎、对髓鞘有毒的小胶质细胞状态，DAM1 亚群扩至约两成三。
+
+来源：
+· Nat Neurosci（2026）：慢性脱髓鞘造出一种溶酶体失灵的小胶质细胞状态（DOI 10.1038/s41593-026-02489-5；PubMed 42934349）
+
+站内延伸阅读：
+· 慢性脱髓鞘造出一种溶酶体失灵的小胶质细胞状态 https://longbiosci.com/news/Chronic-Demyelination-Microglial-Lysosomal-Dysfunction-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep072]]></description>
+    <enclosure url="https://longbiosci.com/audio/demyelination-lysosome-dysfunctional-microglia-2026.mp3" length="1610013" type="audio/mpeg"/>
+    <itunes:duration>268</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[慢性脱髓鞘小鼠中，溶酶体胆固醇堆积驱动一种促炎、对髓鞘有毒的小胶质细胞状态，DAM1 亚群扩至约两成三。]]></itunes:summary>
+  </item>
+  <item>
+    <title>老年肌肉再生被重新定义：区室特异的转录重排与失神经支配</title>
+    <link>https://longbiosci.com/podcast/#ep073</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep073</guid>
+    <pubDate>Sat, 31 Oct 2026 04:07:00 +0800</pubDate>
+    <category>机制十分钟</category>
+    <description><![CDATA[数据日期：2026-10-30 05:30
+生成时间：2026-10-31 04:07
+
+区室特异的转录重排重新定义了失神经支配与老年肌肉再生，统计单位是文库与供体而非单细胞。
+
+来源：
+· Int J Mol Sci（2026）：区室特异的转录重排：失神经支配与老年肌肉再生被重新定义（DOI 10.3390/ijms27209025；PubMed 42941799）
+
+站内延伸阅读：
+· 区室特异的转录重排：失神经支配与老年肌肉再生被重新定义 https://longbiosci.com/news/Compartment-Specific-Remodelling-Denervation-Muscle-Regeneration-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep073]]></description>
+    <enclosure url="https://longbiosci.com/audio/denervation-aged-muscle-regeneration-compartment-2026.mp3" length="1587837" type="audio/mpeg"/>
+    <itunes:duration>265</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[区室特异的转录重排重新定义了失神经支配与老年肌肉再生，统计单位是文库与供体而非单细胞。]]></itunes:summary>
+  </item>
+  <item>
+    <title>内质网体积与衰老状态一起，决定未折叠蛋白应答的动力学</title>
+    <link>https://longbiosci.com/podcast/#ep074</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep074</guid>
+    <pubDate>Sat, 31 Oct 2026 04:07:00 +0800</pubDate>
+    <category>机制十分钟</category>
+    <description><![CDATA[数据日期：2026-10-30 05:30
+生成时间：2026-10-31 04:07
+
+细胞实验里，内质网体积与衰老状态共同调节未折叠蛋白应答的动力学，效应以表达倍数呈现。
+
+来源：
+· Curr Issues Mol Biol（2026）：内质网体积与衰老状态如何决定 UPR 的动力学（DOI 10.3390/cimb48101027；PubMed 42939565）
+
+站内延伸阅读：
+· 内质网体积与衰老状态如何决定 UPR 的动力学 https://longbiosci.com/news/ER-Volume-Senescence-State-UPR-Dynamics-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep074]]></description>
+    <enclosure url="https://longbiosci.com/audio/er-volume-upr-dynamics-senescence-2026.mp3" length="1554429" type="audio/mpeg"/>
+    <itunes:duration>259</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[细胞实验里，内质网体积与衰老状态共同调节未折叠蛋白应答的动力学，效应以表达倍数呈现。]]></itunes:summary>
+  </item>
+  <item>
+    <title>幽门螺杆菌与神经退行的遗传代理关联，被 HLA-II 单倍型牵着走</title>
+    <link>https://longbiosci.com/podcast/#ep075</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep075</guid>
+    <pubDate>Sat, 31 Oct 2026 04:07:00 +0800</pubDate>
+    <category>打假与证伪</category>
+    <description><![CDATA[数据日期：2026-10-30 05:30
+生成时间：2026-10-31 04:07
+
+遗传代理的幽门螺杆菌血清阳性与神经退行的关联被 HLA-II 单倍型牵动，这个方向的证据要打折。
+
+来源：
+· Microorganisms（2026）：幽门螺杆菌血清学的遗传代理被 HLA-II 单倍型牵着走：神经退行关联要打折（DOI 10.3390/microorganisms14102193；PubMed 42943436）
+
+站内延伸阅读：
+· 幽门螺杆菌血清学的遗传代理被 HLA-II 单倍型牵着走：神经退行关联要打折 https://longbiosci.com/news/H-Pylori-Genetic-Proxies-HLA-Alzheimer-Parkinson-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep075]]></description>
+    <enclosure url="https://longbiosci.com/audio/h-pylori-hla-ii-mendelian-neurodegeneration-2026.mp3" length="1576173" type="audio/mpeg"/>
+    <itunes:duration>263</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[遗传代理的幽门螺杆菌血清阳性与神经退行的关联被 HLA-II 单倍型牵动，这个方向的证据要打折。]]></itunes:summary>
+  </item>
+  <item>
+    <title>血清烟酸、烟酰胺与儿童行为：一项纵向研究的阴性结果</title>
+    <link>https://longbiosci.com/podcast/#ep076</link>
+    <guid isPermaLink="false">longbiosci-podcast-ep076</guid>
+    <pubDate>Sat, 31 Oct 2026 04:07:00 +0800</pubDate>
+    <category>打假与证伪</category>
+    <description><![CDATA[数据日期：2026-10-30 05:30
+生成时间：2026-10-31 04:07
+
+儿童血清烟酸、烟酰胺与行为量表得分，经错误发现率校正后没有关联；男孩那条信号也没过校正。
+
+来源：
+· Nutrients（2026）：血清烟酸与烟酰胺和儿童行为：一项纵向研究的阴性结果（DOI 10.3390/nu18203344；PubMed 42942915）
+
+站内延伸阅读：
+· 血清烟酸与烟酰胺和儿童行为：一项纵向研究的阴性结果 https://longbiosci.com/news/Serum-Niacin-Nicotinamide-Child-Behavior-China-2026.html
+
+本节目内容基于公开发表的研究，只作信息汇总，不构成医疗建议；任何干预决定，请咨询医生。
+
+完整文字稿：https://longbiosci.com/podcast/#ep076]]></description>
+    <enclosure url="https://longbiosci.com/audio/serum-niacin-nicotinamide-child-behavior-null-2026.mp3" length="1587981" type="audio/mpeg"/>
+    <itunes:duration>265</itunes:duration>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:author>LongBiosci 编辑部</itunes:author>
+    <itunes:summary><![CDATA[儿童血清烟酸、烟酰胺与行为量表得分，经错误发现率校正后没有关联；男孩那条信号也没过校正。]]></itunes:summary>
+  </item>
   <item>
     <title>运动与生物学衰老：中等量最优，最多那一档反而不显著</title>
     <link>https://longbiosci.com/podcast/#ep048</link>
