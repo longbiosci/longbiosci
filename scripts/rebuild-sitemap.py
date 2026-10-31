@@ -70,6 +70,10 @@ PAGES = [
     ("zh/index.html",         "weekly",  "0.8"),
     ("flash.html",            "hourly",  "0.6"),  # 快讯栏目（lb-flash-v1 · 午刊班专用）
     ("trials.html",           "daily",   "0.8"),
+    # /trials/milestones/ 关键试验里程碑（2026-10-31 新建，管线 7c 产出）：
+    # 与 industry/timeline 同款处理——新栏目页不在任何既有扫描规则里，
+    # 不加进白名单就是个搜索引擎看不见的孤岛（站内 0 处入口以外的入口）。
+    ("trials/milestones/index.html", "weekly", "0.7"),
     ("trials-full.html",      "daily",   "0.6"),
     ("telomere.html",         "monthly", "0.7"),
     ("stemcell.html",         "monthly", "0.7"),
