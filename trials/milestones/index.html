@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>关键试验里程碑 · LongBiosci - LongBiosci</title>
+<meta name="description" content="衰老与长寿在研管线 28 个资产的关键里程碑：推进 / 回撤 / 更新，按变更日期倒序，每条带出处。">
+<link rel="canonical" href="https://longbiosci.com/trials/milestones/">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://longbiosci.com/trials/milestones/">
+<meta property="og:title" content="关键试验里程碑 · LongBiosci">
+<meta property="og:description" content="衰老与长寿在研管线 28 个资产的关键里程碑：推进 / 回撤 / 更新，按变更日期倒序，每条带出处。">
+<meta property="og:image" content="https://longbiosci.com/og-image.png">
+<meta property="og:site_name" content="LongBiosci">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="关键试验里程碑 · LongBiosci">
+<meta name="twitter:description" content="衰老与长寿在研管线 28 个资产的关键里程碑：推进 / 回撤 / 更新，按变更日期倒序，每条带出处。">
+<link rel="alternate" type="application/rss+xml" title="LongBiosci RSS" href="/rss.xml">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="stylesheet" href="/style.css">
+<style>
+.stat-row{display:flex;gap:var(--s-5);flex-wrap:wrap;margin:var(--s-4) 0 0;
+  padding-top:var(--s-4);border-top:1px solid var(--c-line)}
+.stat-n{font-size:var(--f-xl);font-weight:600;color:var(--c-primary);
+  font-variant-numeric:tabular-nums;line-height:1.2}
+.stat-l{font-size:var(--f-xs);color:var(--c-muted)}
+.entity-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(320px,100%),1fr));gap:var(--s-4)}
+.entity-card{background:var(--c-bg-raised);border:1px solid var(--c-line);
+  border-radius:var(--r-lg);padding:var(--s-4)}
+.entity-logo{width:2.2rem;height:2.2rem;border-radius:var(--r-md);display:flex;
+  align-items:center;justify-content:center;font-weight:700;font-size:var(--f-sm);
+  background:var(--c-surface);color:var(--c-primary);margin-bottom:.6rem}
+.entity-name{font-weight:600;font-size:var(--f-md)}
+.entity-desc{font-size:var(--f-sm);color:var(--c-muted);margin:.4rem 0}
+.entity-tags{display:flex;flex-wrap:wrap;gap:.3rem;margin-top:.4rem}
+.status-badge{display:inline-flex;align-items:center;padding:1px 7px;
+  border-radius:var(--r-pill);font-size:var(--f-xs);vertical-align:middle}
+.status-active{background:var(--c-ev-a-bg);color:var(--c-ev-a)}
+.status-acquired{background:#f1e8e0;color:#8a5a2b}
+.status-unknown{background:#eceef0;color:#5c6570}
+@media (prefers-color-scheme:dark){.status-acquired{background:#2a1f16;color:#d4a07a}}
+@media (prefers-color-scheme:dark){.status-unknown{background:#20242a;color:#a8b0ba}}
+.tl{border-left:2px solid var(--c-line);padding-left:var(--s-4);margin-top:var(--s-4)}
+.tl-item{position:relative;padding:0 0 var(--s-5) 0}
+.tl-item::before{content:"";position:absolute;left:calc(-1 * var(--s-4) - 5px);
+  top:.5rem;width:8px;height:8px;border-radius:50%;background:var(--c-primary)}
+.tl-date{font-size:var(--f-xs);color:var(--c-muted);font-variant-numeric:tabular-nums}
+.tl-name{font-weight:600;margin:.15rem 0}
+.tl-desc{font-size:var(--f-sm);color:var(--c-muted);margin-top:.25rem}
+.tl-meta{display:flex;flex-wrap:wrap;gap:.4rem;align-items:center;
+  font-size:var(--f-xs);color:var(--c-muted);margin-top:.25rem}
+.ev-amount{font-weight:600;color:var(--c-primary)}
+.type-bar{display:flex;flex-wrap:wrap;gap:.5rem;margin:var(--s-4) 0}
+.type-chip{padding:3px 10px;border-radius:var(--r-pill);font-size:var(--f-xs);
+  background:var(--c-surface);border:1px solid var(--c-line)}
+.deal-row{display:flex;gap:var(--s-3);align-items:baseline;flex-wrap:wrap;
+  padding:.55rem 0;border-bottom:1px solid var(--c-line)}
+.deal-row:last-child{border-bottom:none}
+.deal-amt{font-weight:600;color:var(--c-primary);font-variant-numeric:tabular-nums;
+  min-width:8.5rem;font-size:var(--f-sm)}
+.deal-name{flex:1;min-width:14rem;font-size:var(--f-sm)}
+.deal-meta{font-size:var(--f-xs);color:var(--c-muted)}
+.track-block{margin-top:var(--s-3)}
+.track-title{font-weight:600;font-size:var(--f-sm);margin-bottom:.3rem}
+</style>
+</head>
+<body>
+<a href="#main-content" class="skip-link">跳转到主要内容</a>
+<header class="site-header">
+  <div class="wrap">
+    <a href="/" class="brand"><img src="/logo-mark.svg" alt="" class="brand-mark" width="28" height="28"><span class="brand-name">LongBiosci</span></a>
+    <nav class="main-nav" aria-label="主导航">
+      <a href="/">首页</a>
+      <a href="/news/">最新</a>
+      <a href="/topics/" aria-label="主题专辑"><span class="nav-mq">主题</span>专辑</a>
+      <a href="/guide/" aria-label="热词专题">热词<span class="nav-mq">专题</span></a>
+      <a href="/research/" aria-label="概念与工具">概念<span class="nav-mq">与工具</span></a>
+      <a href="/daily/">周刊</a>
+      <a href="/evidence/" aria-label="证据分级">证据<span class="nav-mq">分级</span></a>
+      <a href="/trials.html" aria-label="临床试验">临床<span class="nav-mq">试验</span></a>
+      <a href="/industry/">产业</a>
+      <a href="/events/">会议</a>
+      <a href="/podcast/" aria-label="播客">播<span class="nav-mq">客</span></a>
+      <a href="/about/">关于</a>
+      <a href="/search.html" class="nav-search" aria-label="站内搜索"><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="6.8" cy="6.8" r="4.6" fill="none" stroke="currentColor" stroke-width="1.6"/><line x1="10.3" y1="10.3" x2="14" y2="14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><span class="nav-search-text">搜索</span></a>
+    </nav>
+  </div>
+</header>
+<main id="main-content">
+<section class="hero"><div class="wrap">
+<h1>关键试验里程碑</h1>
+<p>衰老与长寿领域 28 个在研资产的状态变更时间线，来自行业情报班的《管线状态基线》，每条带变更日期、阶段、机制与官方出处。</p>
+<div class="stat-row"><div><div class="stat-n">28</div><div class="stat-l">在研资产</div></div><div><div class="stat-n">27</div><div class="stat-l">家公司</div></div><div><div class="stat-n">12</div><div class="stat-l">推进 ⬆</div></div><div><div class="stat-n">3</div><div class="stat-l">回撤 ⬇</div></div><div><div class="stat-n">2026-05-14</div><div class="stat-l">最早变更</div></div><div><div class="stat-n">2026-10-28</div><div class="stat-l">最近变更</div></div></div>
+</div></section>
+<section class="section"><div class="wrap">
+
+<style>
+.tl-chips{display:flex;flex-wrap:wrap;gap:.4rem;margin:.8rem 0 1.2rem}
+.tl-chip{display:inline-block;padding:.28rem .7rem;border:1px solid var(--line,#d8dee6);
+border-radius:999px;font-size:.85rem;text-decoration:none;color:inherit}
+.tl-chip:hover{border-color:var(--accent,#2f6feb)}
+.ms{list-style:none;margin:0;padding:0}
+.ms-item{position:relative;padding:0 0 1.15rem 1.55rem;border-left:2px solid var(--line,#d8dee6)}
+.ms-item:last-child{border-left-color:transparent}
+.ms-item::before{content:"";position:absolute;left:-7px;top:.45rem;width:12px;height:12px;
+border-radius:50%;background:var(--accent,#2f6feb);border:2px solid #fff}
+.ms-date{font-size:.8rem;color:var(--muted,#667);letter-spacing:.02em}
+.ms-badge{display:inline-block;font-size:.75rem;padding:.1rem .45rem;border-radius:4px;
+background:#eef2f7;margin-left:.4rem;vertical-align:1px}
+.ms-title{font-weight:600;margin:.15rem 0 .2rem;font-size:1.02rem}
+.ms-meta{font-size:.88rem;color:var(--muted,#556);margin:.1rem 0}
+.ms-detail{font-size:.92rem;line-height:1.65;margin:.25rem 0 0}
+.ms-src{font-size:.82rem;margin-top:.25rem}
+.ms-src a{color:var(--accent,#2f6feb)}
+.ms-note{font-size:.85rem;color:var(--muted,#667);margin-top:.15rem}
+.tl-anchor{margin:1.6rem 0 .6rem;font-size:1.15rem}
+.tl-n{font-size:.8rem;font-weight:400;color:var(--muted,#667);margin-left:.5rem}
+table.ms-tbl{width:100%;border-collapse:collapse;font-size:.9rem;margin:.4rem 0 1rem}
+table.ms-tbl th,table.ms-tbl td{border-bottom:1px solid var(--line,#e3e8ef);
+padding:.4rem .5rem;text-align:left;vertical-align:top}
+</style>
+<div class="tl-chips"><a href="#c-0" class="tl-chip">⬆ 推进 <span>12</span></a><a href="#c-1" class="tl-chip">🔄 更新 <span>3</span></a><a href="#c-2" class="tl-chip">⬇ 回撤 <span>3</span></a><a href="#c-3" class="tl-chip">— 基线 <span>10</span></a></div><h2 id="c-0" class="tl-anchor">⬆ 推进<span class="tl-n">12 条 · 阶段推进 / 新增试验 / 首次人体 / 新增资格</span></h2>
+<ul class="ms">
+<li class="ms-item"><div class="ms-date">2026-10-28<span class="ms-badge">⬆ 推进</span></div><div class="ms-title">Avaí Bio × Austrianova（Klothonova JV，50/50） · Klothonova（Cell-in-a-Box 封装细胞） · 临床前（体外概念验证） · 衰老相关肾病、心血管、神经退行与代谢病（综述层面）</div><div class="ms-meta">试验：Frontiers in Aging（Interventions in Aging）论文</div><div class="ms-meta">机制：多孔胶囊封装活细胞，免疫隔离下持续生成并分泌可溶性 Klotho</div><p class="ms-detail">论文报告成功构建 Cell-in-a-Box 封装细胞并在体外实现长期 klotho 生成与分泌；公司自述仍需研究确定最佳剂量、长期安全性与临床疗效</p><div class="ms-note">变更说明：首个体外长期分泌数据（新入基线）</div><div class="ms-src">出处：<a href="https://www.globenewswire.com/news-release/2026/10/28/3390199/0/en/ava%C3%AD-bio-and-austrianova-announce-publication-in-frontiers-in-aging-journal-highlighting-novel-cell-encapsulation-based-approach-to-sustained-klotho-delivery.html" rel="nofollow noopener" target="_blank">官方来源</a></div></li>
+<li class="ms-item"><div class="ms-date">2026-10-27<span class="ms-badge">⬆ 推进</span></div><div class="ms-title">EffePharm（UthPeak） · NMNH-Ca（还原型 β-NMN 钙盐） · NA（补充剂类干预性研究） · 健康衰老（健康成人）</div><div class="ms-meta">试验：UthPeak NMNH 安全性/耐受性/有效性研究（n≈80） · <a href="https://clinicaltrials.gov/study/NCT06889740" rel="nofollow noopener" target="_blank">NCT06889740</a></div><div class="ms-meta">机制：NAD+ 前体类补充剂</div><p class="ms-detail">ClinicalTrials.gov 状态更新为 COMPLETED（记录最后更新 2026-10-27）</p><div class="ms-note">变更说明：状态推进至 COMPLETED（新入基线）</div><div class="ms-src">出处：<a href="https://clinicaltrials.gov/study/NCT06889740" rel="nofollow noopener" target="_blank">官方来源</a></div></li>
+<li class="ms-item"><div class="ms-date">2026-10-27<span class="ms-badge">⬆ 推进</span></div><div class="ms-title">Carnyx Therapeutics · CNYX-005 · 临床前 → IND-enabling · 睡眠障碍（健康衰老相关睡眠结构改变）</div><div class="ms-meta">机制：口服小分子，源自睡眠调节与健康衰老相关肽生物学（含 Epitalon 研究）</div><p class="ms-detail">2026-10-23 公布：老年大鼠总睡眠时间 +1.5~2 小时，主要为 NREM；2026-10-27 宣布进入 IND-enabling 开发；另有 CNYX-001（视网膜色素变性）</p><div class="ms-note">变更说明：新管线公布并推进至 IND-enabling</div><div class="ms-src">出处：<a href="https://www.biospace.com/press-releases/carnyx-therapeutics-advances-lead-oral-sleep-candidate-cnyx-005-into-ind-enabling-development" rel="nofollow noopener" target="_blank">官方来源</a></div></li>
+<li class="ms-item"><div class="ms-date">2026-10-25<span class="ms-badge">⬆ 推进</span></div><div class="ms-title">Insilico Medicine（HKEX: 3696） · ISM6331 · Phase 1/2 · 间皮瘤与其他晚期实体瘤</div><div class="ms-meta">试验：1 期首次人体（N=36，15~130 mg，数据截止 2026-08-14） · <a href="https://clinicaltrials.gov/study/NCT06566079" rel="nofollow noopener" target="_blank">NCT06566079</a></div><div class="ms-meta">机制：口服泛 TEAD 抑制剂（Chemistry42 生成式 AI 设计）</div><p class="ms-detail">130 mg QD 组 ORR 40.0%（2/5）；30~130 mg 总体 ORR 18.2%（4/22）、首次评估 DCR 68.2%；无 DLT；3 级 TRAE 8.3%；治疗相关蛋白尿 11.1%（低级别可逆）；循环 CCN2 持续下降；计划完成 1 期剂量选择并启动 2a 随机剂量优化研究</p><div class="ms-note">变更说明：1 期数据读出（ESMO 2026 快速口头）</div><div class="ms-src">出处：<a href="https://www.prnewswire.com/news-releases/insilico-medicine-reports-40-orr-at-130-mg-for-pan-tead-inhibitor-ism6331-designed-using-generative-ai-in-heavily-pretreated-mesothelioma-at-esmo-2026-302919241.html" rel="nofollow noopener" target="_blank">官方来源</a></div></li>
+<li class="ms-item"><div class="ms-date">2026-10-22<span class="ms-badge">⬆ 推进</span></div><div class="ms-title">Calico Life Sciences（Alphabet） · Fosigotifator · Phase 1b/2 · 白质消融性脑病（Vanishing White Matter, VWM）</div><div class="ms-meta">试验：2023-505704-30-00（开放标签，n=50，主要完成 2027-11） · <a href="https://clinicaltrials.gov/study/NCT05757141" rel="nofollow noopener" target="_blank">NCT05757141</a></div><div class="ms-meta">机制：eIF2B 激活剂，降低整合应激反应（ISR）</div><p class="ms-detail">2026-10-22 获 EMA PRIME 资格（基于 1b/2 期初步数据）；此前已获 FDA 突破性疗法认定（2026）与 FDA START 试点项目入选；CT.gov 状态 RECRUITING，末次更新 2026-10-16</p><div class="ms-note">变更说明：新增 EMA PRIME 资格</div><div class="ms-src">出处：<a href="https://www.calicolabs.com/press/calico-life-sciences-announces-european-medicines-agency-grants-prime-designation-to-investigational-fosigotifator-for-vanishing-white-matter" rel="nofollow noopener" target="_blank">官方来源</a></div></li>
+<li class="ms-item"><div class="ms-date">2026-10-21<span class="ms-badge">⬆ 推进</span></div><div class="ms-title">Opus Genetics（NASDAQ: IRD） · OPGx-RDH12 · IND 放行 → Phase 1/2（公司称本季度启动） · RDH12 相关 Leber 先天性黑蒙（RDH12-LCA）</div><div class="ms-meta">试验：公司第 3 个进入临床的基因治疗项目</div><div class="ms-meta">机制：AAV 基因增补治疗</div><p class="ms-detail">FDA IND 放行；与 Global RDH12 Alliance（美国 RDH12 Fund for Sight + 英国 Eyes on the Future，2025-07 建立）合作；计划本季度启动 I/II 期</p><div class="ms-note">变更说明：IND 放行（上期漏项，本期补录入基线）</div><div class="ms-src">出处：<a href="https://ir.opusgtx.com/press-releases/detail/547/opus-genetics-announces-fda-clearance-of-ind-application-for-opgx-rdh12" rel="nofollow noopener" target="_blank">官方来源</a></div></li>
+<li class="ms-item"><div class="ms-date">2026-10-21<span class="ms-badge">⬆ 推进</span></div><div class="ms-title">NRG Therapeutics · NRG5051 · Phase 1（+ 新增 PET 生物分布研究） · 神经退行病（ALS 为首个患者方向）</div><div class="ms-meta">试验：NRG5051-101（1 期随机双盲，健康志愿者，收尾中）；NRG5051-102（PET 生物分布，2026-10-21 启动）</div><div class="ms-meta">机制：NLRX1 介导的线粒体通透性转换孔（mPTP）抑制剂</div><p class="ms-detail">已完成放射性标记并在伦敦健康志愿者启动 PET 扫描以验证 CNS 穿透与剂量选择；计划 2027 年 ALS 患者 2 期概念验证</p><div class="ms-note">变更说明：新增 PET 生物分布试验 NRG5051-102</div><div class="ms-src">出处：<a href="https://www.globenewswire.com/news-release/2026/10/21/3385145/0/en/nrg-therapeutics-announces-a-pet-biodistribution-trial-of-lead-clinical-asset-nrg5051.html" rel="nofollow noopener" target="_blank">官方来源</a></div></li>
+<li class="ms-item"><div class="ms-date">2026-10-19<span class="ms-badge">⬆ 推进</span></div><div class="ms-title">United Therapeutics · Treprostinil SMI（软雾吸入器） · Phase 2 · COPD 相关肺动脉高压（PH-COPD）</div><div class="ms-meta">试验：SUMMIT（约 40 例，每日 4 次每次 1 吸）</div><div class="ms-meta">机制：吸入型前列环素类似物（肺血管扩张）</div><p class="ms-detail">FDA IND 放行；公司估计美国 PH-COPD 人群 40 万~80 万人，因症状与 COPD 重叠、稳定期不推荐右心导管而长期漏诊</p><div class="ms-note">变更说明：FDA IND 放行，进入临床（新入基线）</div><div class="ms-src">出处：<a href="https://ir.unither.com/press-releases/2026/10-19-2026-120012353" rel="nofollow noopener" target="_blank">官方来源</a></div></li>
+<li class="ms-item"><div class="ms-date">2026-10-18<span class="ms-badge">⬆ 推进</span></div><div class="ms-title">XellSmart · XS411 · Phase I 数据读出 / Phase II 入组完成 · 帕金森病</div><div class="ms-meta">试验：Phase I（9 例）；Phase II（30 例，盲态）</div><div class="ms-meta">机制：现货型（off-the-shelf）iPSC 来源多巴胺能前体细胞移植</div><p class="ms-detail">I 期 9 例（病程约 10 年、Hoehn-Yahr 关期 3-4 级），单次移植后 6 个月平均每日良好 ON 时间增加 &gt;5 小时；II 期 30 例盲态入组已完成，结果于 MDS 年会披露</p><div class="ms-note">变更说明：I 期数据读出 + II 期入组完成（新入基线）</div><div class="ms-src">出处：<a href="https://www.prnewswire.com/news-releases/new-progress--xellsmart-unveiled-phase-i-results-of-off-the-shelf-parkinsons-disease-cell-therapy-at-mds--completed-blinded-phase-ii-enrollment-302911915.html" rel="nofollow noopener" target="_blank">官方来源</a></div></li>
+<li class="ms-item"><div class="ms-date">2026-10-15<span class="ms-badge">⬆ 推进</span></div><div class="ms-title">Mission Therapeutics · MTX325 · Phase 1b · 帕金森病（潜在疾病修饰）</div><div class="ms-meta">试验：MTX325-101（36 例）</div><div class="ms-meta">机制：首创口服脑穿透性 USP30 抑制剂，解除线粒体自噬（mitophagy）刹车</div><p class="ms-detail">首例患者给药完成（英国 Royal Liverpool University Hospital）；口服、脑穿透、first-in-class；临床前在 Nature Communications 模型中复现 USP30 敲除对多巴胺能神经元的保护；公司称主要读出在 2027 年底</p><div class="ms-note">变更说明：首次进入人体给药（新入基线）</div><div class="ms-src">出处：<a href="https://missiontherapeutics.com/mission-therapeutics-doses-first-parkinsons-patient-in-phase-1b-study-of-potential-disease-modifying-treatment-mtx325/" rel="nofollow noopener" target="_blank">官方来源</a></div></li>
+<li class="ms-item"><div class="ms-date">2026-10-14<span class="ms-badge">⬆ 推进</span></div><div class="ms-title">Arrowhead Pharmaceuticals · ARO-MAPT · Phase 1/2a · 阿尔茨海默病与其他 tau 蛋白病（含 MAPT 相关额颞叶痴呆、进行性核上性麻痹）</div><div class="ms-meta">试验：ARO-MAPT-SC 健康志愿者与早期 AD 受试者研究（约 64 名健康志愿者 + 至多 48 名早期 AD） · <a href="https://clinicaltrials.gov/study/NCT07221344" rel="nofollow noopener" target="_blank">NCT07221344</a></div><div class="ms-meta">机制：靶向 MAPT 的 RNAi，沉默全部 6 种 tau 亚型；皮下给药；TRiM 平台</div><p class="ms-detail">健康志愿者 CSF 总 tau 平均降幅：2.1 mg/kg 40%、6.4 mg/kg 69%、12.8 mg/kg 73%（个体最高 85%），Day 105（末次给药后 90 天）维持；多数 TEAE 为 1 级，无 SAE/死亡/停药；健康志愿者队列已满，早期 AD 队列扩大入组，2027 年更新数据</p><div class="ms-note">变更说明：平台级能力验证：首次临床验证皮下 siRNA 可跨越血脑屏障</div><div class="ms-src">出处：<a href="https://arrowheadpharma.com/en-us/newsroom/arrowhead-pharmaceuticals-announces-aro-mapt-interim-phase-12a" rel="nofollow noopener" target="_blank">官方来源</a></div></li>
+<li class="ms-item"><div class="ms-date">2026-10-12<span class="ms-badge">⬆ 推进</span></div><div class="ms-title">Immorta Bio · SenoMune-0257 · 临床前 → 拟 2026 年底首次人体 · 衰老相关疾病（泛适应症定位）</div><div class="ms-meta">机制：9 氨基酸合成肽，AI 设计的 senolytic 免疫疗法（激活细胞毒性 T 细胞清除衰老细胞）</div><p class="ms-detail">已完成计划内临床前研究；公司称准备 2026 年临床进入、年底前首次人体评估；未说明是否已提交监管申请、试验地点与规模</p><div class="ms-note">变更说明：临床前完成，拟进入临床</div><div class="ms-src">出处：<a href="https://www.prnewswire.com/news-releases/immorta-bio-pioneers-ai-designed-senolytic-immunotherapy-targeting-diseases-of-aging-302905700.html" rel="nofollow noopener" target="_blank">官方来源</a></div></li>
+</ul>
+<h2 id="c-1" class="tl-anchor">🔄 更新<span class="tl-n">3 条 · 阶段维持但关键信息更新</span></h2>
+<ul class="ms">
+<li class="ms-item"><div class="ms-date">2026-10-27<span class="ms-badge">🔄 更新</span></div><div class="ms-title">Voyager Therapeutics · VY1706 / VY7523 · 临床中（阶段未披露变更） · 阿尔茨海默病</div><div class="ms-meta">试验：CTAD 2026 海报（2026-11-16~19，波士顿）</div><div class="ms-meta">机制：VY1706：tau 靶向基因治疗（降低 tau 生成）；VY7523：抗 tau 抗体</div><p class="ms-detail">两项 CTAD 2026 海报；公司同日披露治理安排：VY1706 早期 AD 初始急性安全性数据预计 2027 Q1，并作为 Robin Swartz 接任 CEO 的触发条件</p><div class="ms-note">变更说明：会议披露，阶段未变（新入基线）</div><div class="ms-src">出处：<a href="https://www.globenewswire.com/news-release/2026/10/27/3388959/36461/en/voyager-s-tau-targeted-gene-therapy-vy1706-and-anti-tau-antibody-vy7523-for-alzheimer-s-disease-to-be-featured-in-poster-presentations-at-ctad-2026.html" rel="nofollow noopener" target="_blank">官方来源</a></div></li>
+<li class="ms-item"><div class="ms-date">2026-10-27<span class="ms-badge">🔄 更新</span></div><div class="ms-title">Fractyl Health · Revita DMR 系统 · Pivotal（关键性） · 停用 GLP-1 后的体重反弹（肥胖，BMI 30~45，无 2 型糖尿病）</div><div class="ms-meta">试验：REMAIN-1 pivotal 队列（N=308）</div><div class="ms-meta">机制：十二指肠黏膜重塑（内镜消融）</div><p class="ms-detail">第一共同主要终点达成（6 个月体重反弹 5.1% vs 假手术 8.2%，p=0.0023）；第二共同主要终点为 FDA 预设性能目标（12 个月时 &gt;50% 受试者仍低于替尔泊肽前体重 ≥5%）；De Novo 申请 2026 Q4 末提交，CPT 1122T 于 2027-01-01 生效，12 个月顶线 2027 Q1</p><div class="ms-note">变更说明：状态维持；本期补齐 FDA 预设第二共同主要终点门槛细节</div><div class="ms-src">出处：<a href="https://longevity.technology/news/weight-regain-after-glp-1s-a-gut-procedures-test/" rel="nofollow noopener" target="_blank">官方来源</a></div></li>
+<li class="ms-item"><div class="ms-date">2026-10-13<span class="ms-badge">🔄 更新</span></div><div class="ms-title">Sironax · SIR4156 · Phase 2 · 肥胖（与司美格鲁肽联用，保瘦体重）</div><div class="ms-meta">试验：FORGE-LM（ACTRN12626001033336）</div><div class="ms-meta">机制：首创口服变构 NAMPT 激活剂（NAD+ 补救合成通路）</div><p class="ms-detail">全球双盲随机安慰剂对照平行组试验，入组进度约 50%，主要目的为评估对身体脂肪量与身体成分的影响</p><div class="ms-note">变更说明：阶段维持 Phase 2，入组约 50%（新入基线）</div><div class="ms-src">出处：<a href="https://www.sironax.com/sironax-advances-enrollment-in-phase-2-forge-lm-obesity-trial-of-nampt-activator-sir4156/" rel="nofollow noopener" target="_blank">官方来源</a></div></li>
+</ul>
+<h2 id="c-2" class="tl-anchor">⬇ 回撤<span class="tl-n">3 条 · 主要终点未达 / 终止 / 资产出售 / 停止运营</span></h2>
+<ul class="ms">
+<li class="ms-item"><div class="ms-date">2026-10-28<span class="ms-badge">⬇ 回撤</span></div><div class="ms-title">Unity Biotechnology · 全管线（senolytics） · 已终止 · 年龄相关疾病</div><div class="ms-meta">机制：清除衰老细胞</div><p class="ms-detail">官网明示「The Company is no longer operating」；EDGAR（CIK 0001810806）最近一份 8-K 备案日期为 2026-08-19</p><div class="ms-note">变更说明：重大回撤：公司已停止运营</div><div class="ms-src">出处：<a href="https://www.unitybiotechnology.com/" rel="nofollow noopener" target="_blank">官方来源</a></div></li>
+<li class="ms-item"><div class="ms-date">2026-10-28<span class="ms-badge">⬇ 回撤</span></div><div class="ms-title">Turn Biotechnologies · ERA 平台（mRNA 部分重编程） · 资产已出售 · 年龄相关疾病</div><div class="ms-meta">机制：mRNA 介导的部分表观重编程</div><p class="ms-detail">官网 turn.bio 域名过期（Squarespace &quot;Website Expired&quot;）；核心 ERA 平台资产与权利于 2026-05-21 被韩国大熊制药（Daewoong）竞拍收购，HanAll Biopharma 由被许可方转为 IP 持有方</p><div class="ms-note">变更说明：资产流失 + 官网失效（注意：纳斯达克 Turn Therapeutics / TTRX 为另一家公司）</div><div class="ms-src">出处：<a href="https://en.sedaily.com/news/2026/05/21/daewoong-acquires-us-age-reversal-platform-to-turn-back" rel="nofollow noopener" target="_blank">官方来源</a></div></li>
+<li class="ms-item"><div class="ms-date">2026-10-26<span class="ms-badge">⬇ 回撤</span></div><div class="ms-title">Longeveron · Laromestrocel（Lomecel-B） · Phase 2b · 左心发育不良综合征（HLHS），II 期姑息手术辅助治疗</div><div class="ms-meta">试验：ELPIS II（与 NHLBI 合作，NIH 资助）</div><div class="ms-meta">机制：年轻健康供者骨髓来源间充质干细胞</div><p class="ms-detail">主要疗效终点（12 个月右室射血分数变化）未达；预设次要终点 MACE 达显著（标准治疗 8 例 vs Laromestrocel 1 例，P=0.043）；12 个月安全性良好，未发现治疗相关 SAE；公司拟请求 FDA 会议讨论下一步；AHA 2026 年会 11-08 late-breaking 报告</p><div class="ms-note">变更说明：主要终点失败（此前为进行中、无结果）</div><div class="ms-src">出处：<a href="https://www.globenewswire.com/news-release/2026/10/26/3388178/0/en/longeveron-announces-updated-results-from-elpis-ii-phase-2b-clinical-trial-evaluating-laromestrocel-as-a-potential-treatment-for-hypoplastic-left-heart-syndrome-hlhs.html" rel="nofollow noopener" target="_blank">官方来源</a></div></li>
+</ul>
+<h2 id="c-3" class="tl-anchor">— 基线<span class="tl-n">10 条 · 基线建立，本期无变更</span></h2>
+<ul class="ms">
+<li class="ms-item"><div class="ms-date">2026-10-28<span class="ms-badge">— 基线</span></div><div class="ms-title">Intervene Immune · TRIIM-X · Phase 2 · 胸腺再生 / 免疫重建 / 表观遗传年龄</div><div class="ms-meta">试验：Thymus Regeneration, Immunorestoration, and Insulin Mitigation Extension Trial（n=85，加州 Torrance 单点，12 个月疗程） · <a href="https://clinicaltrials.gov/study/NCT04375657" rel="nofollow noopener" target="_blank">NCT04375657</a></div><div class="ms-meta">机制：生长激素 + DHEA + 二甲双胍组合（主要终点 DNA 甲基化表观遗传年龄 GrimAge）</div><p class="ms-detail">RECRUITING；CT.gov 末次更新 2025-05-05，主要完成 2025-12</p><div class="ms-note">变更说明：基线建立（watchlist 核查）</div><div class="ms-src">出处：<a href="https://clinicaltrials.gov/study/NCT04375657" rel="nofollow noopener" target="_blank">官方来源</a></div></li>
+<li class="ms-item"><div class="ms-date">2026-10-22<span class="ms-badge">— 基线</span></div><div class="ms-title">Eos SENOLYTIX · PTC-2105 · 临床前 · 衰老（健康寿命与寿命）</div><div class="ms-meta">机制：线粒体靶向 geropeptide：恢复线粒体膜电位/ATP + 对衰老细胞的 senolytic 效应（依赖心磷脂，pull-down 指向 ANT1）</div><p class="ms-detail">自然衰老小鼠自 80 周龄起每周 25 mg/kg 至自然死亡，总生存显著优于生理盐水（log-rank p=0.0142）；senolytic 效应约 8 周后显现。公司自行生成数据、大会报告，未见同行评审全文。午刊已上站</p><div class="ms-note">变更说明：基线建立（站内已上站，不重复成稿）</div><div class="ms-src">出处：<a href="https://longbiosci.com/news/Eos-SENOLYTIX-PTC-2105-Late-Life-Survival-SEC-2026.html" rel="nofollow noopener" target="_blank">官方来源</a></div></li>
+<li class="ms-item"><div class="ms-date">2026-10-21<span class="ms-badge">— 基线</span></div><div class="ms-title">Longeveron · Laromestrocel（Lomecel-B） · Phase 2a（已完成） · 阿尔茨海默病</div><div class="ms-meta">试验：CLEAR MIND（主要结果 2025 年发表于 Nature Medicine）；本期仅见 free-water MRI 事后探索性分析预印本</div><div class="ms-meta">机制：年轻健康供者骨髓来源间充质干细胞</div><p class="ms-detail">试验已完成；公司另在寻求资金与授权合作，风险表述提及持续经营能力</p><div class="ms-note">变更说明：维持（上期已录）</div><div class="ms-src">出处：<a href="https://longevity.technology/news/longeverons-stem-cell-data-hint-at-calmer-brains/" rel="nofollow noopener" target="_blank">官方来源</a></div></li>
+<li class="ms-item"><div class="ms-date">2026-10-21<span class="ms-badge">— 基线</span></div><div class="ms-title">Gordian Biotechnology · Omen 13 · IND-enabling · 骨关节炎</div><div class="ms-meta">机制：Mosaic Screening 平台筛选的衰老细胞靶向候选药</div><p class="ms-detail">官网 www.gordianbio.com SSL 连接失败；官方博客最新为 2026-08-26。公司 LinkedIn 于 2026-10-21 称 Omen 13 正推进 IND-enabling 研究（非公司稿，故未入主表）</p><div class="ms-note">变更说明：基线建立（来源层级不足，未入主表）</div><div class="ms-src">出处：<a href="https://blog.gordian.bio/p/how-gordian-found-a-drug-for-osteoarthritis" rel="nofollow noopener" target="_blank">官方来源</a></div></li>
+<li class="ms-item"><div class="ms-date">2026-10-13<span class="ms-badge">— 基线</span></div><div class="ms-title">Cognito Therapeutics · Spectris AD · 关键性试验（HOPE，数据待读出） · 阿尔茨海默病</div><div class="ms-meta">试验：HOPE（关键性）</div><div class="ms-meta">机制：处方型家用神经调控（感觉刺激）</div><p class="ms-detail">已获 FDA 突破性器械认定；累计私募融资 &gt;$220M；2026-10-13 与罗德岛生命科学中心共建第三个脑健康 Collaboratory；关键性 HOPE 结果预计 2026 年内读出（公告未含数据）</p><div class="ms-note">变更说明：基线建立</div><div class="ms-src">出处：<a href="https://www.prnewswire.com/news-releases/rhode-island-life-science-hub-and-cognito-therapeutics-launch-brain-health-collaboratory-to-advance-innovation-in-alzheimers-disease-302901288.html" rel="nofollow noopener" target="_blank">官方来源</a></div></li>
+<li class="ms-item"><div class="ms-date">2026-10-12<span class="ms-badge">— 基线</span></div><div class="ms-title">Rubedo Life Sciences · RLS-1496 · Phase 1b · 特应性皮炎；光化性角化病；雄激素性脱发（2026 年 10 月启动）</div><div class="ms-meta">机制：靶向衰老细胞</div><p class="ms-detail">11 对配对活检，外用 4 周后皮肤表观遗传年龄平均降低 2.1 年（p=0.032），最佳应答者第 63 天降低 11.7 年；III 型胶原纤维 +10%；光化性角化病 22 例病灶平均减少 49%</p><div class="ms-note">变更说明：基线建立（窗口外补档）</div><div class="ms-src">出处：<a href="https://www.businesswire.com/news/home/20261012590263/en/" rel="nofollow noopener" target="_blank">官方来源</a></div></li>
+<li class="ms-item"><div class="ms-date">2026-10-08<span class="ms-badge">— 基线</span></div><div class="ms-title">Life Biosciences · ER-100 · Phase 1 · 开角型青光眼等视神经病变</div><div class="ms-meta">登记号： · <a href="https://clinicaltrials.gov/study/NCT07290244" rel="nofollow noopener" target="_blank">NCT07290244</a></div><div class="ms-meta">机制：OSK 部分表观重编程（AAV2 玻璃体腔注射 + 多西环素诱导）</div><p class="ms-detail">首批 3 例 Day 56：全部耐受良好，无 DLT/AESI/SAE，DSMB 建议升至剂量水平 2（6×10^11 vg）；2/3 例视野（Humphrey）改善，≥28% 检测点提升 &gt;4 dB</p><div class="ms-note">变更说明：基线建立（窗口外补档）</div><div class="ms-src">出处：<a href="https://www.lifebiosciences.com/life-biosciences-announces-first-in-human-data-from-ongoing-phase-1-trial-evaluating-er-100-in-optic-neuropathies/" rel="nofollow noopener" target="_blank">官方来源</a></div></li>
+<li class="ms-item"><div class="ms-date">2026-10-02<span class="ms-badge">— 基线</span></div><div class="ms-title">BioAge Labs（NASDAQ: BIOA） · BGE-102 · Phase 2 · 糖尿病黄斑水肿（DME）</div><div class="ms-meta">试验：QUELL-DME（三臂约 180 例，单药及联合抗 VEGF）</div><div class="ms-meta">机制：每日一次口服 NLRP3 抑制剂（90 mg）</div><p class="ms-detail">2026-10-02 8-K：完成首例给药；主要终点为第 12 周最佳矫正视力变化；顶线结果预计 2027 年下半年。另有 QUELL CV 2 期结果预计 2026 年下半年；APJ 激动剂项目预计 2026 年底前提交 IND</p><div class="ms-note">变更说明：基线建立</div><div class="ms-src">出处：<a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0001709941&amp;type=8-K" rel="nofollow noopener" target="_blank">官方来源</a></div></li>
+<li class="ms-item"><div class="ms-date">2026-09<span class="ms-badge">月份精度</span><span class="ms-badge">— 基线</span></div><div class="ms-title">Loyal · LOY-003 · 监管里程碑阶段 · 犬类长寿（5 岁以上、体重 ≥60 磅的大型/巨型犬）</div><div class="ms-meta">机制：每日口服片</div><p class="ms-detail">2026 年 9 月达成 FDA「有效性合理预期（Reasonable Expectation of Effectiveness）」里程碑，为公司第三个获此接受的药物项目（此前 LOY-001、LOY-002）。该提示仍挂官网首页横幅；窗口内无新发布</p><div class="ms-note">变更说明：基线建立</div><div class="ms-src">出处：<a href="https://www.loyal.com/posts/loy-003-rxe" rel="nofollow noopener" target="_blank">官方来源</a></div></li>
+<li class="ms-item"><div class="ms-date">2026-05-14<span class="ms-badge">— 基线</span></div><div class="ms-title">Cyclarity Therapeutics · UDP-003 · Phase 1b · 动脉粥样硬化（冠心病）</div><div class="ms-meta">试验：Phase 1A SAD/MAD（72 名健康志愿者完成）+ Phase 1B（3 名冠心病患者给药）</div><div class="ms-meta">机制：清除 7-酮基胆固醇（7KC）</div><p class="ms-detail">1A 零严重不良事件，剂量依赖性 7KC 尿排泄，半衰期约 3 小时；1B 已给药 3 名冠心病患者（CCTA 评估斑块），已向 FDA 提交 IND 以扩展美国站点。官网新闻页最新为 2026-05-14</p><div class="ms-note">变更说明：基线建立</div><div class="ms-src">出处：<a href="https://cyclaritytx.com/news-publications/" rel="nofollow noopener" target="_blank">官方来源</a></div></li>
+</ul>
+<h2 id="prov" class="tl-anchor">口径与溯源</h2>
+<table class="ms-tbl"><tbody>
+<tr><th>数据源</th><td>管线状态基线.json（schema 1.1，基线日 2026-10-30）· 行业层 <code>行业层 dVEYJcsAbUdK</code> · file_id <code>dmsATtPgKteT</code></td></tr>
+<tr><th>产出方</th><td>情报采集·行业情报班（周一/三/五 01:30） · 生成于 2026-10-30 GMT+8</td></tr>
+<tr><th>覆盖窗口</th><td>2026-10-28 ~ 2026-10-30 · 上一期 行业情报周报_2026-10-28</td></tr>
+<tr><th>变更标记</th><td>⬆ = 阶段推进 / 新增试验 / 首次人体 / 新增资格；🔄 = 阶段维持但关键信息更新；⬇ = 主要终点未达 / 终止 / 资产出售 / 停止运营；— = 基线建立，本期无变更</td></tr>
+<tr><th>缺失项（如实）</th><td>22 / 28 条未在基线中登记 NCT 号（多为公司管线页口径或临床前资产），本页不补号、不猜号，仅给出公司官方出处</td></tr>
+</tbody></table>
+<p class="ms-note">本版（v1.1）由 v1.0（2026-10-28，20 条）自动比对产生：本期新增 8 条基线条目，既有 20 条在窗口内无状态变更。变更标记：⬆=阶段推进/首次进入临床或首次概念验证；🔄=阶段维持但关键信息更新。本期无 ⬇（回撤）条目。watchlist 25 家逐一站点的核查结论见同期周报 §8；其中 Retro Biosciences、Juvenescence、Turn.bio、Rubedo 官网异常，Unity Biotechnology 明示停止运营，其&#x27;无更新&#x27;为证据缺口而非确认无进展。</p></div></section>
+</main><footer class="site-footer">
+  <div class="wrap">
+    <p>© 2026 LongBiosci 编辑部 · 衰老与长寿科技资讯</p>
+    <p class="footer-links">
+      <a href="/rss.xml">RSS</a> ·
+      匿名访问统计由 <a href="https://umami.is" rel="noopener">Umami</a> 提供（无 Cookie、不收集身份信息，详见 <a href="/privacy/">隐私政策</a>） ·
+      <a href="/sitemap.xml">Sitemap</a> ·
+      <a href="/privacy/">隐私政策</a> ·
+      <a href="/about/">关于</a>
+    </p>
+  </div>
+</footer>
+</body>
+</html>

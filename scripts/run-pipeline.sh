@@ -172,6 +172,13 @@ step 7  gen-industry.py        "生成产业板块：事件流 / 公司档案 / 
 #   它会向 /industry/index.html 注入入口链接，先跑会被主页重新生成覆盖掉；
 #   数据源是 articles.json（事实源），不走 industry.json 那条人工补录的滞后通道。
 step 7b gen_industry_timeline.py "生成 /industry/timeline/ 行业时间线页（按月全量回溯）"
+# 7c 关键试验里程碑（2026-10-31 晨间班新增，待办 P2）：必须在 7b 之后、8 之前 ——
+#   数据源是 data/trials-baseline.json（行业层《管线状态基线.json》原样导入），
+#   与 articles.json 那条通道完全独立，放在哪都不会被改页环节覆盖；
+#   排在 7b 之后只为让产业/临床两条时间线在日志里连着出现，便于比对本轮产出。
+#   脚本自带两条硬断言（缺 source 出处 / status_date 非 YYYY-MM-DD 即 exit 1）：
+#   本页的全部价值就是「每条可回查」，允许缺出处上线等于把不可核验内容搬进站内。
+step 7c gen_trials_milestones.py "生成 /trials/milestones/ 关键试验里程碑页（带出处硬断言）"
 step 8  gen-podcast.py         "生成播客：节目列表页 + podcast.xml RSS"
 step 9  gen-papers.py          "生成 /papers/ 论文索引（DOI 总表 + CSV）"
 step 10 add-rss-today-run.py   "追加当日新文章到 rss.xml"
